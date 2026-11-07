@@ -38,6 +38,7 @@
  origin_tooltip_nomadic_purger_effects: "§YMột đế chế lâm thời, có nhiệm vụ chuyển giao toàn bộ tài nguyên thu được từ hoạt động thanh trừng về cho Bá Chủ§!"
  preset_nomadic_purger: "$origin_nomadic_purger$"
  preset_nomadic_purger_desc: "$origin_nomadic_purger_desc$"
+ preset_nomadic_purger_flavor_desc: "Một nhóm chuyên biệt thuộc $origin_nomadic_purger$ đầy tận tụy, giáng xuống các thế giới định cư như một bệnh dịch. Tách biệt khỏi chính phủ của mình, họ có thể làm bất cứ điều gì mà hoàn cảnh đòi hỏi."
  preset_nomad_tributary: "$preset_tributary$"
  preset_nomad_tributary_desc: "$preset_tributary_desc$"
  preset_nomad_tributary_flavor_desc: "$preset_tributary_flavor_desc$"
@@ -3053,7 +3054,7 @@
  arkship_stellar_ignition_effect: "$arkship_stellar_ignition_gas_giant_effect$$DOUBLE_NEW_LINE$$arkship_stellar_ignition_star_effect$$DOUBLE_NEW_LINE$$arkship_stellar_ignition_system_effect$"
  arkship_stellar_ignition_gas_giant_effect: "$PLANET_EFFECTS_HEADER$$TABBED_NEW_LINE$— $pc_gas_giant$ sẽ biến thành §H$pc_protostar$§!$TABBED_NEW_LINE$— Thêm một điểm tài nguyên §H$energy_with_icon$§! và §H$physics_research_with_icon$§! quy mô lớn.$TABBED_NEW_LINE$— Tất cả các vệ tinh sẽ bị hút vào đĩa bồi tụ."
  arkship_stellar_ignition_star_effect: "$STAR_EFFECTS_HEADER$$TABBED_NEW_LINE$— Thêm điểm tài nguyên §H$energy_with_icon$§! hoặc §H$physics_research_with_icon$§! bổ sung.$TABBED_NEW_LINE$— Sản lượng của ngôi sao được nâng cao đáng kể."
- arkship_stellar_ignition_system_effect: "$SYSTEM_EFFECTS_HEADER$$TABBED_NEW_LINE$— $MOD_HABITABILITY_CEIL_ADD$ toàn hệ sao: §R$@stellar_ignition_hab_penalty|0%$§!"
+ arkship_stellar_ignition_system_effect: "$SYSTEM_EFFECTS_HEADER$$TABBED_NEW_LINE$- $stellar_ignition_hab_penalty_tt$$TABBED_NEW_LINE$- $stellar_ignition_hab_stacking_tt$"
  arkship_stellar_ignition_ship_button: "$arkship_stellar_ignition_effect$\n\n$arkship_stellar_ignition_desc$"
  arkship_stellar_ignition_activity_key: "Đang nạp năng lượng $sr_dark_matter_with_icon$"
  arkship_stellar_ignition_progress_activity_key: "Đang bơm $sr_dark_matter_with_icon$ năng lượng cao (§Y$PROGRESS$%§!)"
@@ -3075,7 +3076,9 @@
 
  stellar_ignition_mod: "$arkship_stellar_ignition$"
  stellar_ignition_mod_desc: "Phản ứng nhiệt hạch duy trì bởi vật chất tối nâng cao đáng kể sản lượng năng lượng và độ sáng của ngôi sao này."
- stellar_ignition_mod_tt: "$MOD_POP_ENVIRONMENT_TOLERANCE$ trên toàn hệ sao: §R$@stellar_ignition_hab_penalty|0%$§!"
+ stellar_ignition_hab_penalty_tt: "$MOD_POP_ENVIRONMENT_TOLERANCE$ toàn hệ sao (Thế giới Cư trú Không Nhân tạo): §R$@stellar_ignition_hab_penalty|0%$§!"
+ stellar_ignition_hab_stacking_tt: "Cộng dồn theo mỗi lần Bộ Đốt Sao kích hoạt trong hệ, tối đa §R$@stellar_ignition_hab_penalty_max|0%$§!"
+ stellar_ignition_mod_tt: "$stellar_ignition_hab_penalty_tt$\n$stellar_ignition_hab_stacking_tt$"
  stellar_ignition_habitability_mod_1: "$arkship_stellar_ignition$"
  stellar_ignition_habitability_mod_1_desc: "Độ sáng gia tăng do phản ứng nhiệt hạch vật chất tối trong hệ sao này đã làm giảm khả năng sinh sống của toàn bộ hệ sao."
  stellar_ignition_habitability_mod_2: "$stellar_ignition_habitability_mod_1$"
@@ -5432,7 +5435,6 @@
  opinion_arkship_breaching_borders: "Xâm phạm lãnh thổ của ta"
  opinion_arkship_archeological_theft: "Đánh cắp di tích cổ của ta"
 
- nomad_closed_border_tt: "§RĐế quốc này đã đóng cửa biên giới với ta.§!"
 
 # Waystation has been built
 

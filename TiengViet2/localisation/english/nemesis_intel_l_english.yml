@@ -96,6 +96,7 @@
  INTEL_INFO_intel_military_fleet_details:1 "Chi tiết Tàu chiến"
  INTEL_INFO_intel_military_fleet_orders:0 "Mệnh lệnh Hiện tại của Hạm đội Quân sự"
  INTEL_INFO_intel_military_cloaked_fleets:0 "Hạm đội Tàng hình"
+ INTEL_INFO_intel_military_arkship_colonies: "Tình Báo Về Thuộc Địa Tàu Ark"
  INTEL_INFO_intel_military_generals:0 "Các Tướng lĩnh Đang làm việc"
  INTEL_INFO_intel_military_commanders: "Các Chỉ huy Đang làm việc"
  INTEL_INFO_intel_military_starbases:0 "Vị trí Trạm Chỉ huy Không gian"

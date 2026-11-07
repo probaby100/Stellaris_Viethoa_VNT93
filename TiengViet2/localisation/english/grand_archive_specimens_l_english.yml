@@ -32,7 +32,7 @@
  EXHIBIT_RIGHT_CLICK_SEND_TO_STORAGE_TT: "§GNhấp chuột phải để Chuyển Vào Kho Lưu Trữ§!"
  SPECIMEN_STORAGE_COOLDOWN_ACTIVE_TT: "§RKhông thể đưa trở lại Kho Lưu Trữ trong §Y$DAYS$§! ngày ($DATE|Y$).§!"
  STORAGE_LEFT_CLICK_MOVE_TO_COLLECTION_TT: "§GNhấp chuột trái để thêm vào Khu Trưng Bày§!"
- STORAGE_EXHIBITION_FULL_TT: "§R£trigger_no£ Khu trưng bày $CATEGORY$ đã đầy.§!"
+ STORAGE_EXHIBITION_FULL_TT: "§R$TRIGGER_FAIL$Khu trưng bày $CATEGORY$ đã đầy.§!"
  EXHIBIT_ACTIVATE_CLICK_TT: "§GNhấp chuột trái để kích hoạt Trưng Bày này§!"
  EXHIBIT_DEACTIVATE_CLICK_TT: "§GNhấp chuột trái để hủy kích hoạt Trưng Bày này§!"
  FROM_SPECIMENS: "Từ Tiêu Bản"

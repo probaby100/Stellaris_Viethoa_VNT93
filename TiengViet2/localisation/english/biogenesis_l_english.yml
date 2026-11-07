@@ -1193,7 +1193,7 @@
 # Buildings and Jobs
 
  genomic_research_facility_unlocked_tt: "Mở khóa Công trình: ['building:building_genomic_facility']"
- situation_genomic_facility_needed_desc: "£trigger_no£ Không có ['building:building_genomic_facility'] nào được kích hoạt"
+ situation_genomic_facility_needed_desc: "$TRIGGER_FAIL$Không có ['building:building_genomic_facility'] nào được kích hoạt"
  genomic_facility_needed_tt: "§R\nHành động bắt buộc:§!\n$t$- Xây dựng một §Y$building_genomic_facility$§! để bắt đầu tình huống §Y$genetic_ascension_situation$§!."
  building_genomic_facility: "Viện Nghiên Cứu Bộ Gen"
  building_genomic_facility_plural: "Các Viện Nghiên Cứu Bộ Gen"
@@ -1220,7 +1220,7 @@
  job_genomic_drone_with_icon: "£job_genomic_drone£ $job_genomic_drone$"
  job_genomic_drone_plural_with_icon: "£job_genomic_drone£ $job_genomic_drone_plural$"
  job_genomic_drone_desc: "$job_genomic_drone_plural$ tiến hành nghiên cứu về tương lai di truyền của chúng ta."
- job_genomic_drone_effect_desc: "£job_genomic_drone£ $job_genomic_drone_plural$ chuyển đổi $r_food$ (hoặc $r_minerals$) thành $r_society$ và $r_amenities$"
+ job_genomic_drone_effect_desc: "£job_genomic_drone£ $job_genomic_drone_plural$ chuyển đổi $r_food$ (hoặc tài nguyên tương đương) thành $r_society$ và $r_amenities$"
  job_genomic_drone_situation_effect_desc: "£job_genomic_drone£ $job_genomic_drone_plural$ tăng §YTiến Độ Tình Huống Hàng Tháng Của $genetic_ascension_situation$§!"
  mod_job_genomic_drone_add: "Việc làm $job_genomic_drone$"
  spawning_is_genomic_researcher_tt: "£job_spawning_drone£ $job_spawning_drone_plural$ được chuyển đổi thành $job_genomic_drone_plural_with_icon$"
@@ -1501,7 +1501,7 @@
  tr_mutation_environmental_integration_tt: "[GetEnvironmentalIntegrationEffects]"
  tr_mutation_environmental_integration_1_tt: "Đặc tính Phù hợp Định cư hiện tại của §YLoài Sáng Lập§! được thay thế bằng ['trait:trait_auto_hab_preference']\n$EXCEED_HABITABILITY_CAP_TT$"
  tr_mutation_environmental_integration_2_tt: "$tr_mutation_environmental_integration_1_tt$\nNghị Trình Hội Đồng §Y$council_agenda_agenda_mutation_divergence_name$§! giờ đây cũng sẽ cấp Đặc tính Phù hợp Định cư §Y$trait_auto_hab_preference$§!"
- EXCEED_HABITABILITY_CAP_TT: "Loài có §Y$trait_auto_hab_preference$§! có thể đạt tới §G175%§! Độ Phù hợp Định cư, $HIGH_HABITABILITY_EFFECTS_TT$"
+ EXCEED_HABITABILITY_CAP_TT: "§Y$trait_auto_hab_preference$§! mang lại ['concept_adapted_habitability']"
  tr_mutation_environmental_integration_swap_tt: "\n\n§WTruyền thống này được nâng cấp nếu §H$concept_mutation_authorities$§! được thông qua.§!"
  HIGH_HABITABILITY_EFFECTS_TT: "ban tặng các hiệu ứng sau cho mỗi §G10%§! Độ Phù hợp Định cư vượt quá §G100%§!: $TABBED_NEW_LINE$- $MOD_POP_BONUS_WORKFORCE_MULT$: §G$@auto_adapted_production|2%$§!$TABBED_NEW_LINE$- $MOD_POP_HOUSING_USAGE_MULT$: §G$@auto_adapted_housing|2%$§!$TABBED_NEW_LINE$- $MOD_POP_AMENITIES_USAGE_MULT$: §G$@auto_adapted_amenities|%2$§!"
  TABBED_HIGH_HABITABILITY_EFFECTS_TT: "ban tặng các hiệu ứng sau cho mỗi §G10%§! Độ Phù hợp Định cư vượt quá §G100%§!: $TABBED_NEW_LINE$$t$- $MOD_POP_BONUS_WORKFORCE_MULT$: §G$@auto_adapted_production|2%$§!$TABBED_NEW_LINE$$t$- $MOD_POP_HOUSING_USAGE_MULT$: §G$@auto_adapted_housing|2%$§!$TABBED_NEW_LINE$$t$- $MOD_POP_AMENITIES_USAGE_MULT$: §G$@auto_adapted_amenities|%2$§!"
@@ -1510,8 +1510,7 @@
  tr_mutation_empowered_environmental_integration_tt: "[GetEmpoweredEnvironmentalIntegrationEffects]"
  tr_mutation_empowered_environmental_integration_1_tt: "Đặc tính Phù hợp Định cư hiện tại của §YLoài Sáng Lập§! được thay thế bằng ['trait:trait_auto_hab_preference']\n$EMPOWERED_EXCEED_HABITABILITY_CAP_TT$"
  tr_mutation_empowered_environmental_integration_2_tt: "$tr_mutation_empowered_environmental_integration_1_tt$\nNghị Trình Hội Đồng §Y$council_agenda_agenda_mutation_divergence_name$§! giờ đây cũng sẽ cấp Đặc tính Phù hợp Định cư §Y$trait_auto_hab_preference$§!"
- EMPOWERED_EXCEED_HABITABILITY_CAP_TT: "§YLoài Hữu cơ§! có thể đạt tới §G250%§! Độ Phù hợp Định cư, $HIGH_HABITABILITY_EFFECTS_TT$"
- MOD_UNCAPPED_HABITABILITY_CEIL_ADD: "Giới hạn $trait_auto_hab_preference$"
+ EMPOWERED_EXCEED_HABITABILITY_CAP_TT: "§YLoài Hữu Cơ§! nhận được ['concept_adapted_habitability']"
  empowered_environmental_integration_tradition_tt: "Truyền thống §Y$tr_mutation_environmental_integration$§! được nâng cấp"
  tr_mutation_environmental_integration_evo_pred: "$tr_mutation_environmental_integration$"
  tr_mutation_environmental_integration_evo_pred_delayed: "$tr_mutation_environmental_integration_delayed$"
@@ -1776,7 +1775,7 @@
 
  # Mutation
 
- auth_mutation_habitability_tt: "Mở khóa một §YQuyết Định Hành Tinh§! nhằm cải biến cư dân phù hợp với bất kỳ lớp Hành tinh nào mà chúng ta có quyền tiếp cận nguồn di truyền."
+ auth_mutation_habitability_tt: "§YLoài Hữu Cơ§! nhận được ['concept_adapted_habitability']"
  auth_bio_democratic_mutation: "Tự Do Đa Dạng Sinh Học"
  auth_bio_democratic_mutation_desc: "Xã hội này tuân theo một nguyên lý: hình thể của mỗi cá nhân là một thánh đường do chính họ làm chủ, được thiết kế và điều khiển theo ý muốn. Dưới khuôn khổ tự do không ràng buộc và sự hỗ trợ vững chắc, các công dân được trao quyền để hiện thực hóa tiềm năng độc nhất của mình, tự do định hình bản thân và tương lai."
  auth_bio_oligarchic_mutation: "Bộ Chỉ Huy Xúc Tác"
@@ -2259,8 +2258,8 @@
  operation_bodysnatcher_prepare_invasion: "Chuẩn Bị Xâm Lược"
  operation_bodysnatcher_prepare_invasion_desc: "Các nước láng giềng có tâm trí thật dễ uốn nắn. Bằng cách gửi các thể xác đã được chuẩn bị sẵn, tích hợp hoàn toàn vào ý thức của chúng ta, chúng ta có thể dễ dàng thu nạp họ về bầy đàn hơn."
  operation_bodysnatcher_prepare_invasion_on_success: "$IF_SUCCESSFUL|E$\nChúng ta sẽ nhận được sự hỗ trợ từ nội gián khi tuyên chiến với §Y[Target.GetName]§! lần tới."
- operation_invasion_prepared: "$TRIGGER_FAIL$ §RChúng ta đã chuẩn bị một cuộc xâm lược chống lại quốc gia này. Hãy tuyên chiến để kích hoạt nó.§!"
- operation_invasion_impossible: "$TRIGGER_FAIL$ §RQuốc gia này chuẩn bị quá kỹ lưỡng trước mọi nỗ lực thâm nhập. Chúng ta không thể phát động chiến dịch này!§!"
+ operation_invasion_prepared: "$TRIGGER_FAIL$§RChúng ta đã chuẩn bị một cuộc xâm lược chống lại quốc gia này. Hãy tuyên chiến để kích hoạt nó.§!"
+ operation_invasion_impossible: "$TRIGGER_FAIL$§RQuốc gia này chuẩn bị quá kỹ lưỡng trước mọi nỗ lực thâm nhập. Chúng ta không thể phát động chiến dịch này!§!"
  concept_operation_bodysnatcher_prepare_invasion: "$operation_bodysnatcher_prepare_invasion$"
  concept_operation_bodysnatcher_prepare_invasion_desc: "Một chiến dịch mà các Pop đã đồng hóa của loài mục tiêu sẽ thâm nhập vào đế chế đó, chuẩn bị cho việc phá hoại hàng loạt khi chiến tranh bùng nổ."
 
@@ -2296,8 +2295,8 @@
  operation_smuggle_pops: "Buôn Lậu Dân Cư"
  operation_smuggle_pops_desc: "Các đặc vụ của chúng ta sẽ tiến hành các nỗ lực giải cứu/đưa người quy mô lớn đối với các bộ phận cô lập bên trong [target.GetName]"
  operation_smuggle_pops_on_success: "$IF_SUCCESSFUL|E$\nTái định cư một số £pops£ Pop đến đế chế của bạn."
- smuggle_pops_also_fanatic_egalitarians: "$TRIGGER_FAIL$ §R[Target.GetName] cũng là Xã Hội Bình Đẳng Cuồng Tín, người dân của họ đã có được tự do rồi§!"
- smuggle_pops_not_enough_pops: "$TRIGGER_FAIL$ §R[Target.GetName] không có đủ £pops£ Pop đáng để cướp bóc§!"
+ smuggle_pops_also_fanatic_egalitarians: "$TRIGGER_FAIL$§R[Target.GetName] cũng là Xã Hội Bình Đẳng Cuồng Tín, người dân của họ đã có được tự do rồi§!"
+ smuggle_pops_not_enough_pops: "$TRIGGER_FAIL$§R[Target.GetName] không có đủ £pops£ Pop đáng để cướp bóc§!"
  mod_operation_smuggle_pops_difficulty_add: "Độ khó Chiến dịch $operation_smuggle_pops$"
  concept_operation_smuggle_pops: "$operation_smuggle_pops$"
  concept_operation_smuggle_pops_desc: "Một chiến dịch nhằm bắt cóc Pop từ đối tượng mục tiêu."
@@ -2777,7 +2776,7 @@
 
  ap_behemoths: "Cơn Thịnh Nộ Của Cự Thú"
  ap_behemoths_desc: "Các loài săn mồi đỉnh cao của những vì sao không bị trói buộc bởi những giới hạn tầm thường. Cùng chung tinh thần đó, chúng ta sẽ rũ bỏ những điểm yếu sinh học đang kìm hãm mình, và trở thành một thế lực của tự nhiên."
- must_use_bioships: "£trigger_no£ Yêu cầu sử dụng bộ tàu §YSinh Học§!."
+ must_use_bioships: "$TRIGGER_FAIL$Yêu cầu sử dụng bộ tàu §YSinh Học§!."
 
  behemoth_crisis_chain_title: "Thảm Họa Cự Thú"
  behemoth_crisis_chain_desc: "Các vì sao chỉ là nhiên liệu cho cơn đói của chúng ta, và thảm họa đơn thuần là mảnh đất nơi tham vọng của chúng ta nở rộ. Chúng ta sẽ thách thức trật tự tự nhiên, rèn nên một con thú khổng lồ đến mức không thể ngăn cản, kẻ sẽ tái định hình toàn bộ vũ trụ."
@@ -2792,7 +2791,7 @@
  crisis_behemoth_level_4_desc: "Cấp Độ Thảm Họa 4"
  crisis_behemoth_level_5: "§HHiểm Họa Sinh Tồn§!"
  crisis_behemoth_level_5_desc: "Cấp Độ Thảm Họa 5"
- behemoth_crisis_level_5_req_tooltip: "£trigger_no£ Đã hoàn thành Dự Án Đặc Biệt §H$become_the_crisis_chain$§! §Y$BEHEMOTH_CRISIS_SPECIAL_PROJECT_4$§!"
+ behemoth_crisis_level_5_req_tooltip: "$TRIGGER_FAIL$Đã hoàn thành Dự Án Đặc Biệt §H$become_the_crisis_chain$§! §Y$BEHEMOTH_CRISIS_SPECIAL_PROJECT_4$§!"
 
  feral_insight: "Tri Thức Dã Tính"
  feral_insight_name: "$feral_insight$:"
@@ -2878,10 +2877,10 @@
  mod_country_resource_max_food_add: "Sức Chứa Kho Thực Phẩm"
  mod_starbase_shipyard_build_alloys_cost_mult: "Chi Phí Hợp Kim Đóng Tàu"
 
- crisis_egg_built: "£trigger_yes£ Đã §Yxây dựng§! một Đại công trình §H$behemoth_egg$§!"
- crisis_egg_required: "£trigger_no£ Đã §Yxây dựng§! một Đại công trình §H$behemoth_egg$§!"
- crisis_egg_hatched: "£trigger_yes£ Đã §Yấp nở§! một §H$behemoth_hatchling$§! từ một §H$behemoth_egg$§!"
- crisis_hatchling_required: "£trigger_no£ Đã §Yấp nở§! một §H$behemoth_hatchling$§! từ một §H$behemoth_egg$§!"
+ crisis_egg_built: "$TRIGGER_PASS$Đã §Yxây dựng§! một Đại công trình §H$behemoth_egg$§!"
+ crisis_egg_required: "$TRIGGER_FAIL$Đã §Yxây dựng§! một Đại công trình §H$behemoth_egg$§!"
+ crisis_egg_hatched: "$TRIGGER_PASS$Đã §Yấp nở§! một §H$behemoth_hatchling$§! từ một §H$behemoth_egg$§!"
+ crisis_hatchling_required: "$TRIGGER_FAIL$Đã §Yấp nở§! một §H$behemoth_hatchling$§! từ một §H$behemoth_egg$§!"
 
  district_mindlink: "Đô Thị Liên Kết Tâm Trí"
  district_mindlink_plural: "$district_mindlink$"
@@ -3333,7 +3332,7 @@
  behemoth_fast_egg_effect: "§Y$behemoth_fleet_egg_plural$§! được ấp quanh các Hành Tinh Khí Khổng Lồ trong £time£§Y6 Tháng§!, sau đó sẽ nở thành một §Yhạm đội nhỏ (£fleet_template_size£32)§!.\nChi Phí Tạo: £food£$@behemoth_fast_egg_cost|0$\nChi Phí Nở: £food£$@behemoth_fast_egg_hatch_cost|0$"
  behemoth_fast_egg_progress_activity_key: "Chuẩn Bị Ma Trận Sinh Trưởng (§Y$PROGRESS$%§!)"
  behemoth_fast_egg_fail_tt: ""
- behemoth_combat_egg_fail_tt: "£trigger_no£ Chúng ta không thể đẻ trứng khi đang trong giao tranh."
+ behemoth_combat_egg_fail_tt: "$TRIGGER_FAIL$Chúng ta không thể đẻ trứng khi đang trong giao tranh."
  behemoth_fast_egg_tt: "$UNLOCKS_BEHEMOTH_SHIP_ACTION_TITLE$ $behemoth_fast_egg_menu_title$\n$behemoth_fast_egg_effect$\n\n"
 
  behemoth_slow_egg: "$behemoth_fleet_egg$"

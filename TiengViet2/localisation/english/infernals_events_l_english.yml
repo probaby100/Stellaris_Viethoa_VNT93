@@ -297,8 +297,8 @@
  situation_cd_mod_mining: "$approach_cd_mining$"
  situation_cd_mod_drilling: "$approach_cd_drilling$"
  situation_cd_mod_financial: "$approach_cd_financial$"
- situation_cd_mod_storm: "$TRIGGER_FAIL$ Dự án đặc biệt §Y$INF_ORIGIN_COSMIC_DAWN_STORM$§! chưa hoàn thành"
- situation_cd_mod_bribe: "$TRIGGER_FAIL$ Dự án đặc biệt §Y$INF_ORIGIN_COSMIC_DAWN_BRIBE$§! chưa hoàn thành"
+ situation_cd_mod_storm: "$TRIGGER_FAIL$Dự án đặc biệt §Y$INF_ORIGIN_COSMIC_DAWN_STORM$§! chưa hoàn thành"
+ situation_cd_mod_bribe: "$TRIGGER_FAIL$Dự án đặc biệt §Y$INF_ORIGIN_COSMIC_DAWN_BRIBE$§! chưa hoàn thành"
 
  sit_cd_stage1_tt: "Chúng ta đã bắt đầu xuyên thủng lớp vỏ của hành tinh."
  sit_cd_stage2_tt: "Từ độ sâu này, chúng ta không còn nhìn thấy bề mặt nữa."

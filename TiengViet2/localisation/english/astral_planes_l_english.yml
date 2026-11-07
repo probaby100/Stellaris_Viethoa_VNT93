@@ -19,7 +19,7 @@
  ASTRAL_ACTION_RIFT_REQUIREMENT_DESC_PLURAL: "Bạn phải hoàn thành $NUM_RIFTS|Y$ Khe Nứt Tinh Giới để có thể mở khóa hành động này."
  ASTRAL_ACTION_COOLDOWN_VALUE: "£time£ $VALUE|0$"
  ASTRAL_ACTION_COOLDOWN_TOOLTIP: "Thời Gian Hồi Hành Động Tinh Giới: £time£ §Y$VALUE|0$§!"
- ASTRAL_ACTION_COOLDOWN_ACTIVE: "$TRIGGER_FAIL$ §RHành động này đang trong thời gian hồi chiêu còn $VALUE|Y$ ngày.§!"
+ ASTRAL_ACTION_COOLDOWN_ACTIVE: "$TRIGGER_FAIL$§RHành động này đang trong thời gian hồi chiêu còn $VALUE|Y$ ngày.§!"
 
  MESSAGE_ASTRAL_ACTION_UNLOCKED_TITLE: "Có Hành Động Tinh Giới mới."
  alert_astral_action_available_title: "$ASTRAL_ACTIONS$"
@@ -988,7 +988,7 @@
  council_agenda_agenda_dark_matter_breakthrough_desc: "Có những ứng dụng đầy uy lực mà chúng ta vẫn chưa khai phá hết trong việc thao túng Vật Chất Tối."
  council_agenda_agenda_dark_matter_breakthrough_init_effect_desc: "§RKhóa Quốc Thể §Y$civic_dark_consortium$§!, ngăn không cho cải cách Quốc Thể này.§!"
  council_agenda_agenda_dark_matter_breakthrough_effect_desc: "Mở khóa một tùy chọn nghiên cứu cho một Công Nghệ Vật Chất Tối £sr_dark_matter£ ngẫu nhiên."
- agenda_dark_matter_breakthrough_techs_obsolete: "$TRIGGER_FAIL$ Vật Chất Tối đã phơi bày toàn bộ bí mật của nó."
+ agenda_dark_matter_breakthrough_techs_obsolete: "$TRIGGER_FAIL$Vật Chất Tối đã phơi bày toàn bộ bí mật của nó."
  civic_dark_consortium_locked: "Đã bắt đầu $council_agenda_agenda_dark_matter_breakthrough_name$"
 
 ########################

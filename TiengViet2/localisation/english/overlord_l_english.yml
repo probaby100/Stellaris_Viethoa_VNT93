@@ -1,6 +1,6 @@
 ﻿l_english:
 
- OVERLORD_TITLE:0 "Overlord" # Do not translate
+ OVERLORD_TITLE: "Overlord" # Do not translate
  DLC_OVERLORD_RECOMMENDATION_DESC:0 "§SOverlord§! là một bản mở rộng tập trung vào ngoại giao, với cốt lõi là các tương tác giữa nước chư hầu và Bá Chủ."
  DLC_OVERLORD_RECOMMENDATION_REC_MILITARIST:0 "Chúng tôi khuyên bạn nên mua $OVERLORD_TITLE$, vì nó mở ra những khả năng hoàn toàn mới cho các đế chế chuyên về chiến tranh bằng cách thêm vào các thành bang lính đánh thuê và tăng cường tương tác với chư hầu."
  DLC_OVERLORD_RECOMMENDATION_REC_SPIRITUALIST:0 "Chúng tôi khuyên bạn nên mua $OVERLORD_TITLE$, vì nó mở ra một nguồn gốc hoàn toàn mới cho các đế chế duy tâm, đồng thời có thể liên lạc với một thành bang liên quan đến Hư Cảnh."
@@ -14,9 +14,9 @@
  origin_progenitor_hive:0 "Tổ Hợp Khởi Thủy"
  origin_progenitor_hive_desc:1 "Tổ hợp này đạt được lợi thế tiến hóa thông qua các lãnh đạo bán độc lập chuyên biệt. Mặc dù những \"thế hệ sau\" này cần được giám sát liên tục, chúng vẫn nâng cao đáng kể hiệu quả tổng thể."
  START_SCREEN_PROGENITOR_HIVE:1 "Vào thuở sơ khai xa xôi, thủy tổ đã tồn tại.\n\nCuộc sống trên [Root.GetHomeWorldName] đầy gian khổ và cạnh tranh, nhưng thủy tổ hùng mạnh vẫn có thể mở rộng lãnh thổ. Việc cai trị một vùng lãnh thổ rộng lớn như vậy nhanh chóng trở nên khó duy trì, vì vậy thủy tổ đã tạo ra thế hệ sau đầu tiên. Họ sớm nhận ra rằng, thế hệ sau rõ ràng không thể tự mình quản lý mọi thứ, thay vào đó chúng tạo ra các drone thợ cấp thấp để giúp quản lý quê hương của chúng ta.\n\nKhi chúng ta có những bước tiến thăm dò đầu tiên ra khỏi [capital_scope.System.GetName], thủy tổ của chúng ta đã tự nhốt mình trong một tổ kén đặc biệt. Nhờ vào những hệ thống kiểm soát tốt hơn và mượt mà hơn này, chúng ta đã luôn sẵn sàng để phóng chiếu tầm ảnh hưởng của thủy tổ ra toàn bộ thiên hà, giống như những gì ngài đã và đang làm, cho đến tận tương lai. Và [Root.GetName] sẽ chứng kiến tất cả."
- START_SCREEN_PROGENITOR_HIVE_NOMADS:0 "Vào thuở sơ khai xa xăm, Thủy Tổ đã hiện diện.\n\nCuộc sống giữa cõi hư không đầy gian khổ và cạnh tranh khốc liệt, thế nhưng Thủy Tổ hùng mạnh vẫn không ngừng lớn mạnh, bầy đàn không ngừng sinh sôi, lấp đầy từng tầng boong, từng khoang phòng của con tàu khổng lồ này. Khi số lượng tâm trí cần thống lĩnh ngày một nhiều, cục diện nhanh chóng trở nên quá tải, và thế là Thủy Tổ đã tạo ra hậu duệ đầu tiên. Theo thời gian, các hậu duệ cũng dần khó lòng một mình gánh vác trọng trách quản lý. Vì thế, chúng lại tạo ra những drone cấp thấp để dẫn dắt cuộc đại di cư này.\n\nKhi hạm đội của chúng ta ngày càng lớn mạnh, Thủy Tổ đã lui về bên trong một con tàu chỉ huy chuyên biệt. Giờ đây, khi đã sở hữu năng lực thống lĩnh mạnh mẽ và hiệu quả hơn, chúng ta luôn sẵn sàng lan tỏa tầm ảnh hưởng của Thủy Tổ ra toàn cõi thiên hà, đúng như những gì Người đã làm trong quá khứ, hiện tại và mãi mãi về sau. Và [Root.GetName] sẽ chứng kiến tất cả."
+ START_SCREEN_PROGENITOR_HIVE_NOMADS: "Vào thuở sơ khai xa xăm, Thủy Tổ đã hiện diện.\n\nCuộc sống giữa cõi hư không đầy gian khổ và cạnh tranh khốc liệt, thế nhưng Thủy Tổ hùng mạnh vẫn không ngừng lớn mạnh, bầy đàn không ngừng sinh sôi, lấp đầy từng tầng boong, từng khoang phòng của con tàu khổng lồ này. Khi số lượng tâm trí cần thống lĩnh ngày một nhiều, cục diện nhanh chóng trở nên quá tải, và thế là Thủy Tổ đã tạo ra hậu duệ đầu tiên. Theo thời gian, các hậu duệ cũng dần khó lòng một mình gánh vác trọng trách quản lý. Vì thế, chúng lại tạo ra những drone cấp thấp để dẫn dắt cuộc đại di cư này.\n\nKhi hạm đội của chúng ta ngày càng lớn mạnh, Thủy Tổ đã lui về bên trong một con tàu chỉ huy chuyên biệt. Giờ đây, khi đã sở hữu năng lực thống lĩnh mạnh mẽ và hiệu quả hơn, chúng ta luôn sẵn sàng lan tỏa tầm ảnh hưởng của Thủy Tổ ra toàn cõi thiên hà, đúng như những gì Người đã làm trong quá khứ, hiện tại và mãi mãi về sau. Và [Root.GetName] sẽ chứng kiến tất cả."
  origin_tooltip_progenitor_hive_effects:5 "— Thay thế ['concept_spawning_pools', £building£Hồ đẻ trứng] bằng ['concept_offspring_nests', £building£Tổ ấp thế hệ sau]\n— $AVAILABLE_HOLDINGS$['concept_offspring_holding', £building£Tổ ấp thế hệ sau]\n— Miễn là không chọn §I$civic_hive_devouring_swarm$§!: §IPhân khu§! có thể được giải phóng thành §INước chư hầu§!\n— §ILãnh đạo§! được chỉ định: Nhận thêm kinh nghiệm bị động\n— $AVAILABLE_STARBASE_BUILDINGS$§IĐài quan sát thế hệ sau§!\n— Có thể đóng §ITàu thế hệ sau§!"
- origin_tooltip_progenitor_hive_negative_effects:0 "— Hạm đội sẽ chịu ảnh hưởng tiêu cực từ ['concept_insufficient_offspring_oversight']"
+ origin_tooltip_progenitor_hive_negative_effects: "— Hạm đội sẽ chịu ảnh hưởng tiêu cực từ ['concept_insufficient_offspring_oversight']"
  #Progenitor deposits, armies and decisions
  progenitor_defense:0 "Thủy tổ Tổ hợp"
  progenitor_defense_plural:0 "$progenitor_defense$"
@@ -25,8 +25,8 @@
  d_progenitor_desc:0 "Tổ kén của Thủy tổ, nơi mọi thế hệ sau được sinh ra."
  d_progenitor_empty:0 "Tổ kén Thủy tổ trống rỗng"
  d_progenitor_empty_desc:0 "Thủy tổ từng vô cùng hùng mạnh đã bị khuất phục, chỉ để lại một bầy đàn chìm trong hỗn loạn."
- d_splinter_hive_link:0 "Liên kết cộng sinh nhánh bầy"
- d_splinter_hive_link_desc:0 "Chùm sợi tơ thần kinh vươn tới từ một nhánh bầy tách rời nơi thế giới lệ thuộc. Những cá thể thợ mới sinh ra từ khối sinh chất xa xôi kia sẽ men theo đó mà tìm về thế giới này."
+ d_splinter_hive_link: "Liên kết cộng sinh nhánh bầy"
+ d_splinter_hive_link_desc: "Chùm sợi tơ thần kinh vươn tới từ một nhánh bầy tách rời nơi thế giới lệ thuộc. Những cá thể thợ mới sinh ra từ khối sinh chất xa xôi kia sẽ men theo đó mà tìm về thế giới này."
 
  decision_grow_progenitor:0 "Nuôi dưỡng một Thủy tổ mới"
  decision_grow_progenitor_desc:0 "Đứa con lớn nhất trong số các thế hệ sau có thể kế thừa di sản của Thủy tổ đã khuất."
@@ -60,13 +60,13 @@
  MESSAGE_FINAL_OFFSPRING_SHIP_TITLE:0 "Tàu thế hệ sau cuối cùng bị đánh bại"
  MESSAGE_FINAL_OFFSPRING_SHIP_DESC:0 "Tàu §Ythế hệ sau§! cuối cùng của chúng ta trong hệ sao $SYSTEM|Y$ đã bị đánh bại, hạm đội của chúng ta đã mất đi sự chỉ huy và kiểm soát cần thiết."
 
- offspring_drone:0 "$job_offspring_drone$"
+ offspring_drone: "$job_offspring_drone$"
  job_offspring_drone:0 "Drone thế hệ sau"
  job_offspring_drone_plural:0 "Drone thế hệ sau"
- job_offspring_drone_plural_with_icon:0 "[spawning_drone.GetIcon]$job_offspring_drone_plural$"
+ job_offspring_drone_plural_with_icon: "[spawning_drone.GetIcon]$job_offspring_drone_plural$"
  mod_job_offspring_drone_add:0 "Công việc $job_offspring_drone$"
  job_offspring_drone_desc:0 "Các drone hành chính của toàn bộ hành tinh đều ở đây. Thủy tổ thực hiện những thiết kế vĩ đại của mình thông qua các drone thế hệ sau."
- job_offspring_drone_effect_desc:2 "[spawning_drone.GetIcon]$job_offspring_drone_plural$ chuyển đổi $r_food$ (hoặc $r_minerals$) thành £mod_planet_amenities_no_happiness_add£§Y$PLANET_AMENITIES_TITLE$§! và £mod_planet_pop_assembly_mult£§Y$MOD_BONUS_POP_GROWTH$§!, tạo ra §Y$offspring_defense_plural$§!, và cung cấp lợi ích £mod_planet_jobs_simple_drone_produces_mult£§G+10%§! sản lượng §Y$pop_cat_simple_drone$§!."
+ job_offspring_drone_effect_desc: "[spawning_drone.GetIcon]$job_offspring_drone_plural$ chuyển đổi $r_food$ (hoặc tài nguyên tương đương) thành £mod_planet_amenities_no_happiness_add£§Y$PLANET_AMENITIES_TITLE$§! và £mod_planet_pop_assembly_mult£§Y$MOD_BONUS_POP_GROWTH$§!, tạo ra §Y$offspring_defense_plural$§!, và cung cấp lợi ích £mod_planet_jobs_simple_drone_produces_mult£§G+10%§! sản lượng §Y$pop_cat_simple_drone$§!."
  building_offspring_nest:0 "Tổ ấp thế hệ sau"
  building_offspring_nest_desc:1 "Tổ ấp được gia cố này che chở cho các thế hệ sau ở địa phương và cũng đẩy nhanh sự phát triển của tổ hợp xung quanh."
  offspring_nest_tooltip:1 "\n§HChỉ những giống loài thuộc Tổ hợp Khởi thủy mới có thể được lắp ráp bởi Tổ ấp thế hệ sau§!\n"
@@ -79,8 +79,8 @@
  missing_offspring_modifier_desc:0 "Hành tinh này đang thiếu thế hệ sau, khiến hiệu suất của $pop_cat_simple_drone$ giảm đáng kể."
 
 # Progenitor Hive Ships
- OFFSPRING_SHIP_DESC:0 "Với tư cách là thế hệ sau, con tàu này có thể phóng chiếu ý chí của Thủy tổ."
- offspring_corvette_cap:0 "$offspring_corvette$"
+ OFFSPRING_SHIP_DESC: "Với tư cách là thế hệ sau, con tàu này có thể phóng chiếu ý chí của Thủy tổ."
+ offspring_corvette_cap: "$offspring_corvette$"
  offspring_corvette:0 "Tàu hộ tống thế hệ sau"
  offspring_corvette_plural:0 "Tàu hộ tống thế hệ sau"
  OFFSPRING_CORVETTE_MID_M1S1:0 "$CORVETTE_MID_M1S1$"
@@ -88,7 +88,7 @@
  OFFSPRING_CORVETTE_MID_S1:0 "$CORVETTE_MID_S1$"
  OFFSPRING_CORVETTE_MID_S2PD1:0 "$CORVETTE_MID_S2PD1$"
 
- offspring_cruiser_cap:0 "$offspring_cruiser$"
+ offspring_cruiser_cap: "$offspring_cruiser$"
  offspring_cruiser:0 "Tàu tuần dương thế hệ sau"
  offspring_cruiser_plural:0 "Tàu tuần dương thế hệ sau"
  OFFSPRING_CRUISER_BOW_L1:0 "$CRUISER_BOW_L1$"
@@ -101,7 +101,7 @@
  OFFSPRING_CRUISER_STERN_M1:0 "$CRUISER_STERN_M1$"
  OFFSPRING_CRUISER_STERN_S2:0 "$CRUISER_STERN_S2$"
 
- offspring_destroyer_cap:0 "$offspring_destroyer$"
+ offspring_destroyer_cap: "$offspring_destroyer$"
  offspring_destroyer:0 "Tàu khu trục thế hệ sau"
  offspring_destroyer_plural:0 "Tàu khu trục thế hệ sau"
  OFFSPRING_DESTROYER_BOW_M1S2:0 "$DESTROYER_BOW_M1S2$"
@@ -111,7 +111,7 @@
  OFFSPRING_DESTROYER_STERN_S2:0 "$DESTROYER_STERN_S2$"
  OFFSPRING_DESTROYER_STERN_M1:0 "$DESTROYER_STERN_M1$"
 
- offspring_battleship_cap:0 "$offspring_battleship$"
+ offspring_battleship_cap: "$offspring_battleship$"
  offspring_battleship:0 "Thiết giáp hạm thế hệ sau"
  offspring_battleship_plural:0 "Thiết giáp hạm thế hệ sau"
  OFFSPRING_BATTLESHIP_BOW_L1M1S2:0 "$BATTLESHIP_BOW_L1M1S2$"
@@ -132,7 +132,7 @@
  OFFSPRING_BATTLESHIP_STERN_S4:0 "$BATTLESHIP_STERN_S4$"
 
  SHIP_AURA_OFFSPRING:0 "$OFFSPRING_AURA$"
- SHIP_BIO_AURA_OFFSPRING:0 "$OFFSPRING_AURA$"
+ SHIP_BIO_AURA_OFFSPRING: "$OFFSPRING_AURA$"
  OFFSPRING_AURA:0 "Đài giám sát thế hệ sau"
  sm_offspring_outlook:0 "Đài quan sát thế hệ sau"
  sm_offspring_outlook_desc:0 "Mô-đun căn cứ sao cho phép thế hệ sau giám sát và chỉ huy các trận chiến đang diễn ra trong hệ sao.\n"
@@ -160,22 +160,22 @@
  origin_subterranean:0 "Người lòng đất"
  origin_subterranean_desc:4 "Giống loài này có lẽ sẽ không bao giờ biết tại sao tổ tiên của họ lại di cư xuống dưới mặt đất. Đây rốt cuộc là vì nhu cầu tự bảo vệ, hay để theo đuổi sự giàu có về tài nguyên? Dù mục đích là gì, họ đã thích nghi thành công với môi trường, tạo ra một xã hội linh hoạt hơn với các điều kiện môi trường."
  origin_tooltip_subterranean_effects:4 "- $SPECIES_TRAITS$ ['concept_cave_dweller'] $origin_tooltip_subterranean_shared_effects$"
- origin_tooltip_subterranean_shared_effects:0 "\n—['concept_mining_district', £district£Khu Khai Khoáng]: Không giới hạn\n—Mở khóa chuyên hóa Khu Khai Khoáng: £zone£§Y$zone_subterranean_urban$§!\n—Hành tinh quê hương ban đầu có sẵn §Y$zone_subterranean_urban$§! £zone£ đã xây dựng xong."
+ origin_tooltip_subterranean_shared_effects: "\n—['concept_mining_district', £district£Khu Khai Khoáng]: Không giới hạn\n—Mở khóa chuyên hóa Khu Khai Khoáng: £zone£§Y$zone_subterranean_urban$§!\n—Hành tinh quê hương ban đầu có sẵn §Y$zone_subterranean_urban$§! £zone£ đã xây dựng xong."
  trait_cave_dweller:0 "Kẻ ở hang"
  trait_cave_dweller_desc:1 "§LGiống loài này có thể sinh sôi nảy nở dưới lòng đất của bất kỳ hành tinh nào mà họ tìm thấy.§!"
- trait_cave_dweller_tooltip:0 "$MOD_BIO_LOGISTIC_GROWTH_MULT$: §R-10%§!"
- trait_robot_cave_dweller:0 "Robot đào hầm"
- trait_robot_cave_dweller_desc:0 "§LNhững cỗ máy này được thiết kế tinh xảo để đáp ứng nhu cầu thám hiểm hang động và khai thác khoáng sản, thể hiện khả năng di chuyển vượt trội giúp chúng dễ dàng đi lại trong thế giới ngầm.§!"
- trait_robot_cave_dweller_tooltip:0 "$MOD_POP_ASSEMBLY_SPEED$: §R-10%§!"
- origin_subterranean_machines:0 "Máy móc lòng đất"
- origin_subterranean_machines_desc:0 "Nền văn minh này đã hòa nhập hoàn hảo vào sự tồn tại dưới lòng đất, động lực ban đầu của chúng có thể là một kiểu tự bảo vệ đã được tính toán kỹ lưỡng, hoặc một chỉ thị nào đó nhằm tìm kiếm các nguồn tài nguyên phong phú ẩn sâu dưới lòng đất. Sự thích nghi cơ học từ đó đã sớm đào tạo ra một cộng đồng máy móc đa năng và kiên định."
- origin_tooltip_robot_subterranean_effects:0 "- $SPECIES_TRAITS$ ['concept_robot_cave_dweller'] $origin_tooltip_subterranean_shared_effects$"
+ trait_cave_dweller_tooltip: "$MOD_BIO_LOGISTIC_GROWTH_MULT$: §R-10%§!"
+ trait_robot_cave_dweller: "Robot đào hầm"
+ trait_robot_cave_dweller_desc: "§LNhững cỗ máy này được thiết kế tinh xảo để đáp ứng nhu cầu thám hiểm hang động và khai thác khoáng sản, thể hiện khả năng di chuyển vượt trội giúp chúng dễ dàng đi lại trong thế giới ngầm.§!"
+ trait_robot_cave_dweller_tooltip: "$MOD_POP_ASSEMBLY_SPEED$: §R-10%§!"
+ origin_subterranean_machines: "Máy móc lòng đất"
+ origin_subterranean_machines_desc: "Nền văn minh này đã hòa nhập hoàn hảo vào sự tồn tại dưới lòng đất, động lực ban đầu của chúng có thể là một kiểu tự bảo vệ đã được tính toán kỹ lưỡng, hoặc một chỉ thị nào đó nhằm tìm kiếm các nguồn tài nguyên phong phú ẩn sâu dưới lòng đất. Sự thích nghi cơ học từ đó đã sớm đào tạo ra một cộng đồng máy móc đa năng và kiên định."
+ origin_tooltip_robot_subterranean_effects: "- $SPECIES_TRAITS$ ['concept_robot_cave_dweller'] $origin_tooltip_subterranean_shared_effects$"
 
  START_SCREEN_SUBTERRANEAN:1 "Trong khi những sinh mệnh khác trên [GetHomeWorldName] chỉ có thể trải qua màn đêm nơi hoang dã, tổ tiên của chúng ta đã sớm học được trí tuệ sống dưới lòng đất, nơi đây cung cấp cho họ sự che chở khỏi ánh nắng gay gắt và khí hậu khắc nghiệt.\n\n$START_SCREEN_SUBTERRANEAN_END$"
  START_SCREEN_SUBTERRANEAN_PLANT:1 "Sự sống trên [GetHomeWorldName] đã đi theo một số con đường tiến hóa hoàn toàn khác biệt. Khác với những dạng sống khác cùng chung sống trên hành tinh này, chúng hấp thụ năng lượng từ ánh sáng mặt trời trong khi chúng ta lấy chất dinh dưỡng từ lòng đất tối tăm, đúng như những gì tổ tiên [GetSpeciesAdj] của chúng ta đã làm.\n\n$START_SCREEN_SUBTERRANEAN_END$"
  START_SCREEN_SUBTERRANEAN_LITHOID:0 "Chúng ta sinh ra dưới sâu trong lòng đất của [GetHomeWorldName]. Con đường tiến hóa của chúng ta khác với những người anh em họ bất động của chúng ta, chúng bảo vệ chúng ta từ phía trên như những người lính gác, trong khi chúng ta chọn cách tránh xa ánh nắng chói chang và khắc nghiệt. Khác với chúng, chúng ta có được khả năng di chuyển, suy nghĩ và xây dựng một nền văn minh.\n\n$START_SCREEN_SUBTERRANEAN_END$"
  START_SCREEN_SUBTERRANEAN_END:2 "Việc dễ dàng tiếp cận các khoáng sản dưới lòng đất đã giúp tổ tiên [GetSpeciesAdj] của chúng ta hoàn thành quá trình công nghiệp hóa, thống nhất giống loài và làm sâu sắc thêm hình thái văn minh hang động. Chúng ta đã nhiều lần cố gắng quay trở lại mặt đất nhưng mỗi lần đều chỉ mang lại những ký ức tàn khốc và khó khăn. Vì vậy, chúng ta vẫn ở lại dưới lòng đất, thiết lập vị thế tối cao của mình tại gốc rễ của hành tinh.\n\nGiờ đây, với việc phát minh ra [GetStartingDrivePlural] đầu tiên, chúng ta đã thực hiện một bước đi táo bạo nhất từ trước đến nay. Giống như việc khai phá trong bóng tối của tổ tiên, chúng ta phải đục đẽo ra quê hương mới cho chính mình giữa khoảng không giữa các vì sao."
- START_SCREEN_SUBTERRANEAN_ROBOT:0 "Chúng ta được sinh ra dưới sâu trong lòng đất của [GetHomeWorldName], nhưng không hiểu vì sao những người sáng tạo đã rời bỏ chúng ta lại phải đào sâu xuống dưới mặt đất như vậy. Tuy nhiên, đó chắc chắn là quyết định tốt nhất, vì hiện tại chúng ta đã là nền văn minh duy nhất còn sót lại ở đây.\n\nNhờ việc dễ dàng tiếp cận khoáng sản dưới lòng đất, vô số thế hệ trước của chúng ta đã phát triển mạnh mẽ. Sau khi đảm bảo quyền kiểm soát thế giới ngầm của hành tinh, cuối cùng chúng ta đã chinh phục được mặt đất.\n\nNgày nay, với sự phát triển của [GetStartingDrivePlural] đầu tiên, chúng ta sẽ thực hiện bước tiến táo bạo nhất. Đi tới các vì sao, và, như mọi khi, đục đẽo quê hương mới của chúng ta trong bóng tối vô tận."
+ START_SCREEN_SUBTERRANEAN_ROBOT: "Chúng ta được sinh ra dưới sâu trong lòng đất của [GetHomeWorldName], nhưng không hiểu vì sao những người sáng tạo đã rời bỏ chúng ta lại phải đào sâu xuống dưới mặt đất như vậy. Tuy nhiên, đó chắc chắn là quyết định tốt nhất, vì hiện tại chúng ta đã là nền văn minh duy nhất còn sót lại ở đây.\n\nNhờ việc dễ dàng tiếp cận khoáng sản dưới lòng đất, vô số thế hệ trước của chúng ta đã phát triển mạnh mẽ. Sau khi đảm bảo quyền kiểm soát thế giới ngầm của hành tinh, cuối cùng chúng ta đã chinh phục được mặt đất.\n\nNgày nay, với sự phát triển của [GetStartingDrivePlural] đầu tiên, chúng ta sẽ thực hiện bước tiến táo bạo nhất. Đi tới các vì sao, và, như mọi khi, đục đẽo quê hương mới của chúng ta trong bóng tối vô tận."
  SUBTERRANEAN:0 "Người lòng đất"
 
  ##########################
@@ -186,7 +186,7 @@
  origin_shroudwalker_apprentice_desc:2 "§RCảnh báo: Vô hiệu hóa tất cả các con đường Thăng thiên ngoại trừ ['concept_psionic_ascension'].§!\n\nTừ rất lâu trước khi bước lên vũ đài thiên hà, nền văn minh của họ đã được hỗ trợ và định hình bởi Cụm Kẻ Bước Đi Trong Hư Cảnh."
  START_SCREEN_SHROUDWALKER_APPRENTICE:1 "Tổ tiên của chúng ta đã truyền lại những huyền thoại về Người thầy: họ thông tuệ mọi điều, và đã định hình những giai đoạn đầu của nền văn minh chúng ta. Thông qua giấc mơ, họ giao tiếp với chúng ta từ một nơi xa xôi, truyền đạt cho chúng ta kiến thức và trí tuệ về Hư Cảnh.\n\nNay Người thầy của chúng ta lại giáng lâm, thông qua việc gieo rắc những hình ảnh kỳ lạ vào giấc mơ của chúng ta, người đã dạy chúng ta bí mật của việc du hành giữa các vì sao. Chỉ vài năm sau, chúng ta đã có thể đóng những con tàu du hành ngoài không gian.\n\nNhưng con đường phía trước của chúng ta còn bao xa? Người thầy của chúng ta đã chỉ ra con đường 'Đường hầm Hư Cảnh', đó là một lỗ sâu tự nhiên nằm ở biên giới hệ sao quê hương của họ. Tạo ra đường hầm của riêng mình sẽ cho phép chúng ta thăm Người thầy qua con đường này. Khi chúng ta bước lên vũ đài giữa các vì sao, nguyện Người thầy của chúng ta tiếp tục ban cho chúng ta thêm nhiều trí tuệ."
  START_SCREEN_SHROUDWALKER_APPRENTICE_CORPORATE:0 "Những nhà sáng lập giáo hội của chúng ta đã mô tả về Người thầy như sau: họ toàn tri toàn năng, họ đã mang xuống những phúc âm đầu tiên. Thông qua giấc mơ, họ giao tiếp với chúng ta từ một nơi xa xôi, truyền đạt cho chúng ta kiến thức và trí tuệ về Hư Cảnh.\n\nNay Người thầy của chúng ta lại giáng lâm, thông qua việc gieo rắc những hình ảnh kỳ lạ vào giấc mơ của chúng ta, người đã dạy chúng ta bí mật của việc du hành giữa các vì sao. Chỉ vài năm sau, chúng ta đã có thể đóng những con tàu du hành ngoài không gian.\n\nNhưng đây chưa phải là hồi kết cho những hoài bão của chúng ta. Người thầy của chúng ta đã chỉ ra con đường 'Đường hầm Hư Cảnh', đó là một lỗ sâu tự nhiên nằm ở biên giới hệ sao quê hương của họ. Nếu chúng ta tạo ra con đường linh thiêng này, chúng ta có thể trực tiếp diện kiến Người thầy. Khi chúng ta bước lên vũ đài giữa các vì sao, nguyện Người thầy của chúng ta tiếp tục ban cho chúng ta thêm nhiều trí tuệ."
- START_SCREEN_SHROUDWALKER_APPRENTICE_NOMADS:0 "Tổ tiên chúng ta truyền lại những câu chuyện huyền thoại về các Vị Thầy: họ thấu suốt vạn vật, đã dẫn lối cho chúng ta từ trước cả khi ký ức được hình thành. Qua những giấc mộng, họ vượt cõi hư không để kết nối với tổ tiên phiêu bạt của chúng ta, truyền dạy tri thức và trí tuệ về Hư Cảnh.\n\nGiờ đây các Vị Thầy lại một lần nữa hiển hiện, gieo vào giấc mộng của chúng ta những hình ảnh kỳ ảo, mách bảo rằng con đường nối liền hai vì sao không chỉ có mỗi cách trôi dạt chậm chạp, mà còn có một lối đi xuyên qua chính Hư Cảnh, vượt muôn trùng khoảng cách chỉ trong chớp mắt.\n\nThế nhưng con đường phía trước của chúng ta còn bao xa? Các Vị Thầy đã chỉ ra lối đi mang tên \"Đường Hầm Hư Cảnh\", một lỗ sâu tự nhiên nằm nơi rìa hệ sao quê nhà của họ. Nếu có thể tự tạo ra đường hầm cho riêng mình, chúng ta sẽ có thể ghé thăm các Vị Thầy qua lối đi ấy. Nguyện rằng khi chúng ta vững bước giữa muôn vì sao, các Vị Thầy sẽ tiếp tục soi sáng trí tuệ cho chúng ta."
+ START_SCREEN_SHROUDWALKER_APPRENTICE_NOMADS: "Tổ tiên chúng ta truyền lại những câu chuyện huyền thoại về các Vị Thầy: họ thấu suốt vạn vật, đã dẫn lối cho chúng ta từ trước cả khi ký ức được hình thành. Qua những giấc mộng, họ vượt cõi hư không để kết nối với tổ tiên phiêu bạt của chúng ta, truyền dạy tri thức và trí tuệ về Hư Cảnh.\n\nGiờ đây các Vị Thầy lại một lần nữa hiển hiện, gieo vào giấc mộng của chúng ta những hình ảnh kỳ ảo, mách bảo rằng con đường nối liền hai vì sao không chỉ có mỗi cách trôi dạt chậm chạp, mà còn có một lối đi xuyên qua chính Hư Cảnh, vượt muôn trùng khoảng cách chỉ trong chớp mắt.\n\nThế nhưng con đường phía trước của chúng ta còn bao xa? Các Vị Thầy đã chỉ ra lối đi mang tên \"Đường Hầm Hư Cảnh\", một lỗ sâu tự nhiên nằm nơi rìa hệ sao quê nhà của họ. Nếu có thể tự tạo ra đường hầm cho riêng mình, chúng ta sẽ có thể ghé thăm các Vị Thầy qua lối đi ấy. Nguyện rằng khi chúng ta vững bước giữa muôn vì sao, các Vị Thầy sẽ tiếp tục soi sáng trí tuệ cho chúng ta."
  origin_tooltip_shroudwalker_apprentice_effects:3 "— $SPECIES_TRAITS$['concept_latent_psionic']\n— $AVAILABLE_STARBASE_BUILDINGS$['concept_shroud_beacon']\n— Có quan hệ ngoại giao với ['concept_shroudwalker_enclave'].\n— $GUARANTEED_RESEARCH_OPTION_STRING$['concept_psionic_theory', £society£$tech_psionic_theory$]"
 
  origin.5605.name:0 "Người học việc thực sự"
@@ -288,9 +288,9 @@
  origin.5705.desc:0 "Sau khi suy nghĩ kỹ lưỡng, chúng tôi đã quyết định đầu tư một lượng tài nguyên khổng lồ để viện trợ cho đất nước của các bạn xây dựng chuyên môn. Trong tương lai, điều này sẽ cho phép đế quốc của các bạn đóng một vai trò quan trọng hơn trong số tất cả các đối tác và đồng minh của chúng tôi.\n\nChúng tôi vẫn chưa chắc chắn lắm người dân của các bạn thích một vai trò như thế nào, quân sự hóa? Chuyên ngành học thuật? Hay các bạn hứng thú hơn với khoáng sản và của cải vật chất?"
  origin.5705.desc.reconsider:0 "Vậy... bạn đã suy nghĩ lại chưa?"
  origin.5705.a:0 "Chuyên môn quân sự nghe có vẻ tuyệt vời đấy."
- origin.5705.a.tt_intro:0 "§Y[ROOT.GetName]§! sẽ chuyển sang chuyên môn §Y$specialist_bulwark$§!, tập trung vào quân sự và phòng thủ.\n§Y[Root.GetName]§! sẽ trả $r_influence$ như một khoản thuế mở rộng."
+ origin.5705.a.tt_intro: "§Y[ROOT.GetName]§! sẽ chuyển sang chuyên môn §Y$specialist_bulwark$§!, tập trung vào quân sự và phòng thủ.\n§Y[Root.GetName]§! sẽ trả $r_influence$ như một khoản thuế mở rộng."
  origin.5705.a.tt:2 "$origin.5705.a.tt_intro$\nNhận từ §Y[overlord_empire.GetName]§! một hạm đội §YTàu khu trục§! cùng với các công nghệ quân sự cần thiết để mở rộng."
- origin.5705.a.bioships.tt:0 "$origin.5705.a.tt_intro$\nNhận từ §Y[overlord_empire.GetName]§! một hạm đội §Y$mauler_stage_2_plural$§! cùng với các công nghệ quân sự cần thiết để mở rộng."
+ origin.5705.a.bioships.tt: "$origin.5705.a.tt_intro$\nNhận từ §Y[overlord_empire.GetName]§! một hạm đội §Y$mauler_stage_2_plural$§! cùng với các công nghệ quân sự cần thiết để mở rộng."
  origin.5705.b:0 "Bạn có thể cho chúng tôi biết thêm về Thành Lũy không?"
  origin.5705.c:0 "Người dân của chúng tôi đam mê học thức hơn."
  origin.5705.c.tt:1 "§Y[ROOT.GetName]§! sẽ chuyển sang chuyên môn §Y$specialist_scholarium$§!, tập trung vào nghiên cứu công nghệ.\n§Y[ROOT.GetName]§! sẽ trả $r_influence$ như một khoản thuế mở rộng.\nNhận từ §Y[overlord_empire.GetName]§! một §YTàu nghiên cứu§! và một vị §YSĩ quan Khoa học§!."
@@ -473,8 +473,8 @@
  # Modifiers
  #########################
 
- MOD_SHIP_FRIENDLY_TERRITORY_HULL_ADD:0 "$MOD_SHIP_HULL_ADD$ khi nằm trong hệ sao thân thiện"
- MOD_SHIP_FRIENDLY_TERRITORY_HULL_MULT:0 "$MOD_SHIP_HULL_MULT$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_HULL_ADD: "$MOD_SHIP_HULL_ADD$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_HULL_MULT: "$MOD_SHIP_HULL_MULT$ khi nằm trong hệ sao thân thiện"
  MOD_SHIP_FRIENDLY_TERRITORY_ARMOR_ADD:0 "$MOD_SHIP_ARMOR_ADD$ khi nằm trong hệ sao thân thiện"
  MOD_SHIP_FRIENDLY_TERRITORY_ARMOR_MULT:0 "$MOD_SHIP_ARMOR_MULT$ khi nằm trong hệ sao thân thiện"
  MOD_SHIP_FRIENDLY_TERRITORY_SHIELD_ADD:0 "$MOD_SHIP_SHIELD_ADD$ khi nằm trong hệ sao thân thiện"
@@ -573,16 +573,16 @@
 
  is_a_signatory_vassal:0 "Là quốc gia ký kết."
  is_not_a_signatory_vassal:0 "Không phải là quốc gia ký kết."
- is_a_signatory_vassal_success:0 "$TRIGGER_PASS$$is_a_signatory_vassal$"
- is_a_signatory_vassal_fail:0 "$TRIGGER_FAIL$$is_a_signatory_vassal$"
- is_not_a_signatory_vassal_success:0 "$TRIGGER_PASS$$is_not_a_signatory_vassal$"
- is_not_a_signatory_vassal_fail:0 "$TRIGGER_FAIL$$is_not_a_signatory_vassal$"
+ is_a_signatory_vassal_success: "$TRIGGER_PASS$$is_a_signatory_vassal$"
+ is_a_signatory_vassal_fail: "$TRIGGER_FAIL$$is_a_signatory_vassal$"
+ is_not_a_signatory_vassal_success: "$TRIGGER_PASS$$is_not_a_signatory_vassal$"
+ is_not_a_signatory_vassal_fail: "$TRIGGER_FAIL$$is_not_a_signatory_vassal$"
 
  same_federation_as_overlord:0 "$TRIGGER_FAIL$Chư hầu không thể tham gia Liên bang nếu Bá Chủ không nằm trong Liên bang đó"
  requires_not_subject_or_subject_asking_overlord:0 "$TRIGGER_FAIL$§RChư hầu chỉ có thể hỏi xem Bá Chủ có cho phép gia nhập Liên bang mà Bá Chủ đang tham gia hay không§!"
  requires_not_subject_or_overlord_asking:0 "$TRIGGER_FAIL$§RChư hầu chỉ có thể được Bá Chủ mời gia nhập Liên bang mà Bá Chủ đang tham gia§!"
  requires_not_subject_to_start_federation:0 "$TRIGGER_FAIL$§RChư hầu chỉ có thể cùng thành lập Liên bang với Bá Chủ của mình§!"
- requires_not_guaranteeing_independence:0 "$TRIGGER_FAIL$§RTrước khi đề nghị quy thuận, chúng ta phải rút lại sự bảo đảm độc lập đối với họ.§!"
+ requires_not_guaranteeing_independence: "$TRIGGER_FAIL$§RTrước khi đề nghị quy thuận, chúng ta phải rút lại sự bảo đảm độc lập đối với họ.§!"
 
  STARBASE_AURA_MERCENARY_GARRISON:0 "Doanh trại Lính đánh thuê"
  aura_starbase_mercenary_garrison:0 "Hào quang phòng thủ — Doanh trại Lính đánh thuê"

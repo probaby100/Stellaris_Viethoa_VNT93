@@ -550,7 +550,7 @@
  NOMAD_STAR_JOURNAL_PULSAR_DESC: "Những ngọn hải đăng của các nền văn minh, soi sáng hư không vô tận."
  NOMAD_STAR_JOURNAL_NEUTRON_STAR: "Nhật Ký Vì Sao: Sao Trung Tử"
  NOMAD_STAR_JOURNAL_NEUTRON_STAR_DESC: "Một số ngôi sao lụi tàn trong niềm đam mê rực cháy. Phần còn lại kiên định tồn tại với sự toàn vẹn phi thường."
- NOMAD_STAR_JOURNAL_BINARY_TRINARY: "Nhật Ký Vì Sao: Hệ Sao Đôi và Sao Ba"
+ NOMAD_STAR_JOURNAL_BINARY_TRINARY: "Nhật Ký Vì Sao: Hệ Đa Sao"
  NOMAD_STAR_JOURNAL_BINARY_TRINARY_DESC: "Không phải mọi ngôi sao đều cô độc; một số khao khát có bạn đồng hành đến mức xé toạc lẫn nhau."
  NOMAD_STAR_JOURNAL_MIGHTY_BEASTS: "Nhật Ký Vì Sao: Thần Thú Leviathan"
  NOMAD_STAR_JOURNAL_MIGHTY_BEASTS_DESC: "Tại những vùng không gian sâu thẳm xa xôi, có những sinh vật lang thang vượt qua ranh giới giữa sinh học và huyền thoại một cách đầy tự nhiên."
@@ -559,7 +559,7 @@
  star_journal_progress_black_holes: "Hố Đen"
  star_journal_progress_pulsar: "Sao Xung"
  star_journal_progress_neutron_star: "Sao Trung Tử"
- star_journal_progress_binary_trinary: "Hệ Sao Đôi và Sao Ba"
+ star_journal_progress_binary_trinary: "Hệ Đa Sao"
  star_journal_progress_mighty_beasts: "Thần Thú Leviathan"
  star_journal_progress_unknown_sights: "Cảnh Tượng Chưa Từng Biết"
 
@@ -597,7 +597,7 @@
 
  AUTOMATE_FLEET_ORDER: "Tự Động Hóa Hạm Đội"
  AUTOMATE_FLEET_ORDER_DESC: "Ra lệnh cho hạm đội tự động thực hiện các hành động đã chọn."
- AUTOMATE_FLEET_ACTION_ENABLED: "£trigger_yes£ $NAME$"
+ AUTOMATE_FLEET_ACTION_ENABLED: "$TRIGGER_PASS$$NAME$"
 
 # Wayline Pact diplomatic agreement
  wayline_pact: "Hiệp Ước Tuyến Trạm"
@@ -611,7 +611,7 @@
  # Fail-text
  requires_no_existing_waystation_pact: "Đã tồn tại một $wayline_pact$ với §H[From.GetName]§!."
  requires_adjacent_waystations: "Chúng ta không có các Tuyến Trạm lân cận."
- requires_adjacent_waystations_fail: "£trigger_no£ §R$requires_adjacent_waystations$§!"
+ requires_adjacent_waystations_fail: "$TRIGGER_FAIL$§R$requires_adjacent_waystations$§!"
  # Grant (settled proposes)
  # Action UI
  ACTION_GRANT_WAYSTATION_PACT_TYPE: "Ký Kết $wayline_pact$"

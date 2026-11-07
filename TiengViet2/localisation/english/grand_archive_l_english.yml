@@ -39,9 +39,9 @@
  NAME_GravitySnare: "$gravity_snare$"
 
  FLEETORDER_SEND_SNARE_NAME: "Phóng $NAME$"
- FLEETORDER_SEND_SNARE_ON_COOLDOWN: "§R$TRIGGER_FAIL$ Bẫy Trọng Lực đang trong thời gian hồi chiêu thêm §Y[This.GetGravitySnareCooldownForFleet] ngày§!.§!"
- FLEETORDER_GRAVITY_SNARE_NO_COMMUNICATIONS: "§R$TRIGGER_FAIL$ Chúng ta chưa thu thập đủ thông tin về những Động Vật Không Gian này để có thể bắt giữ chúng.§!"
- FLEETORDER_MUST_BE_SPACE_CRITTER: "§R$TRIGGER_FAIL$ Chúng ta không có khả năng bắt giữ loại Động Vật Không Gian này.§!"
+ FLEETORDER_SEND_SNARE_ON_COOLDOWN: "§R$TRIGGER_FAIL$Bẫy Trọng Lực đang trong thời gian hồi chiêu thêm §Y[This.GetGravitySnareCooldownForFleet] ngày§!.§!"
+ FLEETORDER_GRAVITY_SNARE_NO_COMMUNICATIONS: "§R$TRIGGER_FAIL$Chúng ta chưa thu thập đủ thông tin về những Động Vật Không Gian này để có thể bắt giữ chúng.§!"
+ FLEETORDER_MUST_BE_SPACE_CRITTER: "§R$TRIGGER_FAIL$Chúng ta không có khả năng bắt giữ loại Động Vật Không Gian này.§!"
  GRAVITY_SNARE_CAPTURE_CHANCE_LEADER: "Cấp Độ Lãnh Đạo: $VALUE|G%0$"
 
  FLEETORDER_CAPTURE_SPACE_CRITTER: "Đang Bắt Giữ Động Vật Không Gian"
@@ -1284,7 +1284,7 @@
  OPEN_STORAGE_MANAGE: "Nhấp để quản lý kho chứa Mẫu vật."
  MESSAGE_STORAGE_FULL_TITLE: "Kho Mẫu Vật Đã Đầy"
  MESSAGE_STORAGE_FULL_DESC: "Các ['concept_specimen', Mẫu Vật] sau đây đã bị bán do kho chứa của chúng ta đã đầy:\n$SPECIMEN_LIST$\nTài nguyên thu được: $RESOURCES_GAINED$"
- STORAGE_FULL_TT: "§R£trigger_no£ Kho chứa Mẫu vật đã đầy.§!"
+ STORAGE_FULL_TT: "§R$TRIGGER_FAIL$Kho chứa Mẫu vật đã đầy.§!"
  STORAGE_SLOT_EXHIBITION: "Phân Loại: $EXHIBITION_NAME|H$"
 
 ######################
@@ -1514,7 +1514,7 @@
  r_celestial_chart_4_desc: "Một hải đồ sao và ngân hàng dữ liệu sâu rộng do tên cướp biển huyền thoại $NAME_CaptainNess$ tạo ra."
  r_celestial_chart_4_effect_tt: "Thành lập một ['concept_treasure_vault'] trên một trong các thuộc địa của chúng ta."
  celestial_chart_upgraded_tt: "§Y$celestial_chart$§! đã được nâng cấp với thông tin mới."
- celestial_chart_no_treasure_planet: "£trigger_no£ Hiện không có thuộc địa nào có thể tiếp nhận một ['concept_treasure_vault']"
+ celestial_chart_no_treasure_planet: "$TRIGGER_FAIL$Hiện không có thuộc địa nào có thể tiếp nhận một ['concept_treasure_vault']"
 
  r_mutated_voidworm_nest: "Tổ Trùng Hư Không Đột Biến"
  r_mutated_voidworm_nest_desc: "Một tổ Trùng Hư Không đột biến đã tiến hóa để sinh sản mà không cần đến sự lây nhiễm ký sinh. Một số con non trong số này có khả năng trưởng thành hoàn toàn chỉ trong vài ngày."
@@ -2818,7 +2818,7 @@
  aux_mutation_type: "Đột Biến Đặc Biệt"
  TECH_UNLOCK_MUTATION: "§HMở khóa Đột Biến:§! $NAME$"
  OPEN_DESIGNER: "Mở Nhà Thiết Kế"
- UNIQUE_MUTATION_DUPLICATE: "§R$TRIGGER_FAIL$ Đột biến duy nhất không thể áp dụng nhiều hơn một lần ($MUTATION$).§!"
+ UNIQUE_MUTATION_DUPLICATE: "§R$TRIGGER_FAIL$Đột biến duy nhất không thể áp dụng nhiều hơn một lần ($MUTATION$).§!"
  tech_controlled_mutations_2_title: "§HMở khóa Tính năng:§! Đột Biến Độc Nhất"
  tech_controlled_mutations_2_tooltip: "§HĐột Biến Độc Nhất§!\nĐột Biến Độc Nhất là những đột biến mạnh mẽ chỉ có thể áp dụng một lần duy nhất và đôi khi bị giới hạn cho một loài Dã Thú Không Gian cụ thể. Có thể khám phá thêm nhiều Đột Biến Độc Nhất thông qua việc nhân giống và săn bắt."
  mod_damage_random_nearby_enemy_on_death: "Khi chết, gây sát thương bằng một tỷ lệ phần trăm thân tàu và giáp của sinh vật này lên một kẻ địch ngẫu nhiên ở gần"

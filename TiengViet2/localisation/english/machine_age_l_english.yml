@@ -12,7 +12,7 @@
  cosmogenesis_chain_title: "Kiến tạo Vũ trụ"
  cosmogenesis_chain_desc: "Sự vô tri đang trói buộc chúng ta, khiến ta không thể chiêm ngưỡng trọn vẹn những bí ẩn của vũ trụ bao la.\n\nBằng mọi giá, chúng ta phải phá vỡ gông cùm này.\n\n§RCác Đế chế Sa sút sẽ tìm cách ngăn cản chúng ta!§!"
  cosmogenesis_level_reached: "Đã đạt Cấp độ Khủng hoảng"
- cosmogenesis_aborted_tt: "\n£trigger_no£§RChúng ta đã từ bỏ tham vọng Kiến tạo Vũ trụ.§!"
+ cosmogenesis_aborted_tt: "\n$TRIGGER_FAIL$§RChúng ta đã từ bỏ tham vọng Kiến tạo Vũ trụ.§!"
 
  ### Crisis Stage Techs
 
@@ -36,7 +36,7 @@
  tech_cosmogenesis_crisis_5_desc: "Du hành quy mô lớn đến các vũ trụ khác là một nhiệm vụ gian nan. Chúng ta phải thiết kế một loại phi thuyền không gian không chỉ có thể xuyên thủng cấu trúc của không-thời gian mà còn có thể sống sót sau chuyến hành trình."
  cosmogenesis_level_5_tech_title: "§H$UNLOCKS_MEGASTRUCTURE$:§! Kim Chân Trời"
  cosmogenesis_level_5_tech_desc: "§HKim Xuyên Chân Trời§!\nKim Xuyên Chân Trời là một kỳ tích của công nghệ. Nó là một con tàu dân dụng có khả năng bẻ cong thực tại, sẽ có thể chứa đựng cư dân cùng khối lượng kiến thức khổng lồ mà chúng ta đã tích lũy, dẫn dắt chúng ta di cư qua các vũ trụ một cách an toàn."
- requires_capital: "£trigger_no£Phải được xây dựng trên quỹ đạo của Thủ đô."
+ requires_capital: "$TRIGGER_FAIL$Phải được xây dựng trên quỹ đạo của Thủ đô."
 
 ### Crisis Tab
 
@@ -125,16 +125,16 @@
  unlocks_features_5: "Mở khóa công nghệ §Y$tech_cosmogenesis_crisis_5$§!, cho phép chúng ta chế tạo một §YKim Xuyên Chân Trời§!, đưa chúng ta hoàn thành mục tiêu."
  menp_cosmo_features_5_desc: "$tech_cosmogenesis_crisis_5_desc$"
 
- cosmogenesis_level_2_req_clear_tooltip: "£trigger_yes£ Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_1$§!"
- cosmogenesis_level_2_req_tooltip: "£trigger_no£ Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_1$§!"
- cosmogenesis_level_3_req_clear_tooltip: "£trigger_yes£ Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_2$§!"
- cosmogenesis_level_3_req_tooltip: "£trigger_no£ Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_2$§!"
- cosmogenesis_level_4_req_clear_tooltip: "£trigger_yes£ Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_3$§!"
- cosmogenesis_level_4_req_tooltip: "£trigger_no£ Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_3$§!"
- cosmogenesis_level_5_req_clear_tooltip: "£trigger_yes£ Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_4$§!"
- cosmogenesis_level_5_req_tooltip: "£trigger_no£ Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_4$§!"
- cosmogenesis_level_5_req_clear_tooltip_2: "£trigger_yes£ Đã nghiên cứu ít nhất 2 §YĐề Tài Vô Tận Ứng Dụng§!"
- cosmogenesis_level_5_req_tooltip_2: "£trigger_no£ Đã nghiên cứu ít nhất 2 §YĐề Tài Vô Tận Ứng Dụng§!"
+ cosmogenesis_level_2_req_clear_tooltip: "$TRIGGER_PASS$Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_1$§!"
+ cosmogenesis_level_2_req_tooltip: "$TRIGGER_FAIL$Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_1$§!"
+ cosmogenesis_level_3_req_clear_tooltip: "$TRIGGER_PASS$Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_2$§!"
+ cosmogenesis_level_3_req_tooltip: "$TRIGGER_FAIL$Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_2$§!"
+ cosmogenesis_level_4_req_clear_tooltip: "$TRIGGER_PASS$Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_3$§!"
+ cosmogenesis_level_4_req_tooltip: "$TRIGGER_FAIL$Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_3$§!"
+ cosmogenesis_level_5_req_clear_tooltip: "$TRIGGER_PASS$Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_4$§!"
+ cosmogenesis_level_5_req_tooltip: "$TRIGGER_FAIL$Đã nghiên cứu công nghệ §Y$tech_cosmogenesis_crisis_4$§!"
+ cosmogenesis_level_5_req_clear_tooltip_2: "$TRIGGER_PASS$Đã nghiên cứu ít nhất 2 §YĐề Tài Vô Tận Ứng Dụng§!"
+ cosmogenesis_level_5_req_tooltip_2: "$TRIGGER_FAIL$Đã nghiên cứu ít nhất 2 §YĐề Tài Vô Tận Ứng Dụng§!"
 
  tech_cosmogenesis_world: "Tính Toán Bể Dự Trữ Có Thể Mở Rộng"
  tech_cosmogenesis_world_desc: "$menp_cosmo_features_1_desc$"
@@ -327,7 +327,7 @@
 
  cosmogenesis_victory: "Bước Nhảy Vào Tâm Thiên Hà"
 
- requires_no_existing_cosmogenesis_world: "£trigger_no£Chỉ có thể xây dựng tối đa một Máy Lọc Synapse."
+ requires_no_existing_cosmogenesis_world: "$TRIGGER_FAIL$Chỉ có thể xây dựng tối đa một Máy Lọc Synapse."
 
 ### Cosmogenesis Events
 
@@ -1393,8 +1393,8 @@
  stage_synthetic_fertility_danger_effects: "Khi hơn một nửa dân số biến mất, chúng ta phải sẵn lòng đầu tư nhiều nguồn lực kinh tế hơn vào việc nghiên cứu người tổng hợp."
  stage_synthetic_fertility_crisis_effects: "Do số lượng cá thể còn sống sót là quá ít, chúng ta phải nỗ lực hết mình để phát triển một bộ não positronic đủ phức tạp."
  situation_synthetic_fertility_synthesization_outcome: "Trừ phi tương lai của chúng ta được đảm bảo, bằng không chúng ta sẽ không dừng lại một khắc nào."
- situation_no_synthetics_adopt: "£trigger_no£Bắt buộc phải áp dụng $tr_synthetics_adopt$"
- situation_no_robot_research: "£trigger_no£Bắt buộc phải nghiên cứu §YCông nghệ Robot§!"
+ situation_no_synthetics_adopt: "$TRIGGER_FAIL$Bắt buộc phải áp dụng $tr_synthetics_adopt$"
+ situation_no_robot_research: "$TRIGGER_FAIL$Bắt buộc phải nghiên cứu §YCông nghệ Robot§!"
 
  situation_synthetic_fertility_synthesization: "Chuyển Giao Cơ Thể Tổng Hợp"
  situation_synthetic_fertility_synthesization_type: "Chuyển Giao Cơ Thể Tổng Hợp"
@@ -2132,7 +2132,7 @@
  situation_synth_queen_player_facing_desc: "Cetana bí ẩn và mạnh mẽ đã xuất hiện, bà ta rao giảng về sự cứu rỗi, nhưng bản thân lại được bao phủ bởi những bức màn bí ẩn.\nĐằng sau những lời lẽ dịu dàng của bà ta, rốt cuộc ẩn giấu một kế hoạch lớn lao gì?\n\n§LĐặc vụ và sự kiện liên quan đến Cetana sẽ thúc đẩy tiến độ của bạn và kết thúc cục diện.§!"
  situation_synth_queen_player_facing_monthly_change_tooltip: "§YCục diện§! sẽ tiến triển song song với việc chúng ta hoàn thành nhiệm vụ và tiến hành điều tra Cetana."
  situation_synth_queen_player_facing_complete: "Chúng ta bắt buộc phải vạch trần mục đích thực sự của Cetana."
- situation_synth_queen_player_facing_declare_war: "£trigger_no£Tuyên chiến với Cetana"
+ situation_synth_queen_player_facing_declare_war: "$TRIGGER_FAIL$Tuyên chiến với Cetana"
 
  #Approaches
  situation_synth_queen_balanced_approach: "Quan Sát Trung Dung"
@@ -2818,13 +2818,16 @@
  trait_cyborg_limited_memory_desc: "Bộ nhớ làm việc thiếu hụt làm hạn chế khả năng học hỏi, khiến người dùng không thể xử lý toàn bộ kinh nghiệm thu được."
  trait_cyborg_climate_adjustment_dry: "Mô-đun khí hậu khô"
  trait_cyborg_climate_adjustment_dry_desc: "Các nâng cấp chuyên biệt như thu hồi chất lỏng và chống bức xạ là lựa chọn hoàn hảo cho khí hậu khô hạn, nhưng lại không mấy phù hợp ở những nơi khác."
- trait_cyborg_climate_adjustment_dry_tt: "Độ thích nghi khí hậu khô hạn: §G+$@cyborg_hab_preference|0%$§!\n$t$—Trên các hành tinh có khí hậu khô hạn, cung cấp tối đa §G125%§! độ thích nghi, $TABBED_HIGH_HABITABILITY_EFFECTS_TT$."
+ trait_cyborg_climate_adjustment_dry_tt: "Độ thích nghi khí hậu khô hạn: §G+$@cyborg_hab_preference|0%$§!\n$t$- Mang lại ['concept_adapted_habitability'] trên các hành tinh có khí hậu khô hạn."
  trait_cyborg_climate_adjustment_wet: "Mô-đun khí hậu ẩm ướt"
  trait_cyborg_climate_adjustment_wet_desc: "Lớp cách nhiệt dày và thiết bị phòng chống sinh vật lạ rất phù hợp với khí hậu ẩm ướt, nhưng lại gây hại trong các môi trường khác."
- trait_cyborg_climate_adjustment_wet_tt: "Độ thích nghi khí hậu ẩm ướt: §G+$@cyborg_hab_preference|0%$§!\n$t$—Trên các hành tinh có khí hậu ẩm ướt, cung cấp tối đa §G125%§! độ thích nghi, $TABBED_HIGH_HABITABILITY_EFFECTS_TT$"
+ trait_cyborg_climate_adjustment_wet_tt: "Độ thích nghi khí hậu ẩm ướt: §G+$@cyborg_hab_preference|0%$§!\n$t$- Mang lại ['concept_adapted_habitability'] trên các hành tinh có khí hậu ẩm ướt."
  trait_cyborg_climate_adjustment_cold: "Mô-đun khí hậu lạnh"
  trait_cyborg_climate_adjustment_cold_desc: "Các bộ phận làm nóng được tăng cường và chất bôi trơn chống đông rất hữu dụng ở vùng khí hậu lạnh, nhưng lại trở nên vướng víu ở những nơi khác."
- trait_cyborg_climate_adjustment_cold_tt: "Độ thích nghi khí hậu lạnh: §G+$@cyborg_hab_preference|0%$§!\n$t$—Trên các hành tinh có khí hậu lạnh, cung cấp tối đa §G125%§! độ thích nghi, $TABBED_HIGH_HABITABILITY_EFFECTS_TT$"
+ trait_cyborg_climate_adjustment_cold_tt: "Độ thích nghi khí hậu lạnh: §G+$@cyborg_hab_preference|0%$§!\n$t$- Mang lại ['concept_adapted_habitability'] trên các hành tinh có khí hậu lạnh."
+ trait_cyborg_climate_adjustment_volcanic: "Mô-đun khí hậu núi lửa"
+ trait_cyborg_climate_adjustment_volcanic_desc: "Lớp giáp bào mòn và bộ lọc hạt bụi giúp sinh tồn được trên các thế giới núi lửa, nhưng phải đánh đổi bằng sự khó chịu ở mọi nơi khác."
+ trait_cyborg_climate_adjustment_volcanic_tt: "Độ thích nghi khí hậu núi lửa: §G+$@cyborg_hab_preference_volcanic|0%$§!\n$t$- Mang lại ['concept_adapted_habitability'] trên $pc_volcanic_plural$."
  trait_cyborg_mass_produced: "Cấy ghép đại trà"
  trait_cyborg_mass_produced_desc: "Yêu cầu bắt buộc về khả năng tương thích ngược của các bộ phận cấy ghép đã làm giảm đáng kể chi phí trang bị cho các công dân mới sinh."
  trait_cyborg_propaganda_machines: "Bộ lọc tuân thủ"
@@ -3359,7 +3362,7 @@
 
  hive_cant_purge_hive: "$TRIGGER_FAIL$Chúng ta không thể thanh lọc những thành phần được tổ đàn nâng cấp."
  slavery_matrix_guided_sapience: "Tiêu Bản Trí Tuệ"
- slavery_matrix_guided_sapience_tooltip: "£pop£ §HDân số tiêu bản§! không thể tạo ra tài nguyên thông qua công việc, mà được nuôi nhốt để tạo ra £unity£ §HĐiểm thống nhất§! và giảm việc sử dụng nhà ở."
+ slavery_matrix_guided_sapience_tooltip: "£pop£ §HDân Số Mẫu Vật§! không thể tạo ra tài nguyên thông qua công việc, mà được nuôi giữ để tạo ra $r_unity$ và giảm mức sử dụng nhà ở."
  slavery_matrix_guided_sapience_tooltip_delayed: "§LĐại đạo nằm ở sự giản đơn.§!"
  job_organic_exhibit: "Tiêu Bản Hữu Cơ"
  job_organic_exhibit_plural: "Tiêu Bản Hữu Cơ"

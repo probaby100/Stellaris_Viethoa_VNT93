@@ -402,7 +402,7 @@
  central.50.b:0 "Lãnh thổ của chúng tôi không còn chỗ trống."
 
  central.quest.transmission.end:0 "Còn điều gì khác mà các bạn muốn thảo luận không?"
- crystalline_hostility_trigger_tt:0 "£trigger_no£ §Y$NAME_Central_Crystal_Country$§! không thù địch với chúng ta."
+ crystalline_hostility_trigger_tt: "$TRIGGER_FAIL$§Y$NAME_Central_Crystal_Country$§! không thù địch với chúng ta."
 
  central.51.desc:0 "Thật tốt khi nghe điều đó. Chúng tôi hy vọng họ sẽ phát triển tốt đẹp trong vòng tay của các bạn.\n\n$central.quest.transmission.end$"
  central.51.a:0 "Vâng, chúng tôi còn một điều khác muốn hỏi."

@@ -17,7 +17,7 @@
  situation_num_identity_complex_tt: "$building_identity_complex$"
  situation_digitization_ongoing_desc: "Đang Tiến Hành Chuyển Giao Tâm Trí"
  situation_digitization_pause_desc: "$situation_cyberization_pause_desc$"
- situation_identity_complex_needed_desc: "£trigger_no£ Không có $building_identity_complex$ nào đang hoạt động"
+ situation_identity_complex_needed_desc: "$TRIGGER_FAIL$Không có $building_identity_complex$ nào đang hoạt động"
  synth_positive_media_coverage_tt: "Truyền Thông Đưa Tin Tích Cực"
  synth_negative_media_coverage_tt: "Truyền Thông Đưa Tin Tiêu Cực"
  biological_pop: "£pop£ Dân số Sinh học"

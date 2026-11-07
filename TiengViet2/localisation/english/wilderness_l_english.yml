@@ -534,8 +534,8 @@ zone_trade_wilderness_desc: "Những vòng sợi, chi cuộn tròn và túi dự
  espionage_planetary_roots: "Rễ Cây Hành Tinh"
  espionage_planetary_roots_desc: "Chúng ta đã cấy một quần xã vi sinh vật bán tri giác, cho phép các điệp viên [owner.GetIndividualNamePlural] của chúng ta theo sát công việc của đế chế này. Những thực thể nguyên thủy này bám rễ sâu vào đất đai, lắng nghe các rung động và tín hiệu hóa học rồi truyền về cho chúng ta."
  operation_embed_planetary_roots_requires_blocker: "$TRIGGER_FAIL$§R$espionage_planetary_roots$ của chúng ta cần một vị trí thích hợp để bám rễ.§!"
- operation_embed_planetary_roots_dont_stack_this: "$TRIGGER_FAIL$ §RChúng ta đã cấy $espionage_planetary_roots$ trên [target.GetName].[planet_roots_success]§!"
- operation_embed_planetary_roots_not_cleared: "$TRIGGER_FAIL$ §RChúng ta vẫn có thể cảm nhận được $espionage_planetary_roots$ trên [target.GetName].§!"
+ operation_embed_planetary_roots_dont_stack_this: "$TRIGGER_FAIL$§RChúng ta đã cấy $espionage_planetary_roots$ trên [target.GetName].[planet_roots_success]§!"
+ operation_embed_planetary_roots_not_cleared: "$TRIGGER_FAIL$§RChúng ta vẫn có thể cảm nhận được $espionage_planetary_roots$ trên [target.GetName].§!"
  d_wilderness_root_blocker: "Bụi Cây Xâm Lấn"
  d_wilderness_root_blocker_desc: "Một vạt cây Hoang Dã bán tri giác, không phải bản địa đang bóp nghẹt và cắm rễ sâu vào rìa các vùng đồng quê này."
 

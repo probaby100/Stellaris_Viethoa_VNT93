@@ -375,7 +375,7 @@
  salvager_reclaimed_vessel_cooldown:0 "Có phi thuyền để mua (Dự kiến kho hàng mới sẽ được cập nhật sau §H[root.reclaimed_vessel_timer]§!)."
  requires_salvage_works:1 "Cần một §Y$sm_salvager_workshop$§!."
  salvager_overdrive_cooldown:1 "Chúng ta chỉ có thể mua lại dịch vụ này sau §H[root.salvager_overdrive_timer]§!."
- one_salvage_commission_only:1 "£trigger_no£Chúng ta chỉ có thể ký kết §Hmột§! ủy thác trục vớt cùng một lúc."
+ one_salvage_commission_only: "$TRIGGER_FAIL$Chúng ta chỉ có thể ký kết §Hmột§! ủy thác trục vớt cùng một lúc."
  requires_debris_field:1 "Hiện tại chúng ta chưa tuyên bố sở hữu bất kỳ §Ybãi mảnh vỡ§! nào."
  salvager_insight_cooldown:1 "Chúng ta đã sở hữu điểm sửa đổi §YTầm Nhìn Trưng Thu Phế Liệu§!."
 

@@ -1023,14 +1023,19 @@
 
  # Empire Parameters
  r_stability: "£stability£§YĐộ ổn định§!"
+ FOR_OVERLORD: "cho Bá Chủ"
+ PRODUCTION_FOR_OVERLORD: "$PRODUCTION$ $FOR_OVERLORD$"
+ MAINTENANCE_FOR_OVERLORD: "$MAINTENANCE$ $FOR_OVERLORD$"
 
  # Approximation headers
- PRODUCES_RESOURCES_FOR_OVERLORD:0 "Sản xuất cho bá chủ "
- REQUIRES_RESOURCES_FOR_OVERLORD:0 "Bảo trì cho bá chủ "
- POP_PRODUCES_FOR_OVERLORD_TIP:0 "Sản xuất cho bá chủ: $VALUE|Y$"
- POP_MAINTENANCE_FOR_OVERLORD_TIP:0 "Bảo trì cho bá chủ: $VALUE|Y$"
- BASE_JOB_INPUT_FOR_OVERLORD:0 "Ước tính phí bảo trì công việc đóng góp cho bá chủ: $RESOURCES$"
- BASE_JOB_OUTPUT_FOR_OVERLORD:0 "Ước tính sản lượng công việc đóng góp cho bá chủ: $RESOURCES$"
+ PRODUCES_RESOURCES_FOR_OVERLORD: "$ECONOMICS_PRODUCES$ $FOR_OVERLORD$: "
+ REQUIRES_RESOURCES_FOR_OVERLORD: "$MAINTENANCE_FOR_OVERLORD$: "
+ POP_PRODUCES_FOR_OVERLORD_TIP: "$PRODUCTION_FOR_OVERLORD$: $VALUE|Y$"
+ POP_MAINTENANCE_FOR_OVERLORD_TIP: "$MAINTENANCE_FOR_OVERLORD$: $VALUE|Y$"
+ BASE_JOB_INPUT_FOR_OVERLORD: "$APPROX_JOBS_UPKEEP$ $FOR_OVERLORD$: $RESOURCES$"
+ BASE_JOB_OUTPUT_FOR_OVERLORD: "$APPROX_JOBS_PRODUCTION$ $FOR_OVERLORD$: $RESOURCES$"
+ BASE_JOB_INPUT_FOR_OVERLORD_PER_DISTRICT: "$APPROX_JOBS_UPKEEP$ $FOR_OVERLORD$ $PER_DISTRICT$: $RESOURCES$"
+ BASE_JOB_OUTPUT_FOR_OVERLORD_PER_DISTRICT: "$APPROX_JOBS_PRODUCTION$ $FOR_OVERLORD$ $PER_DISTRICT$: $RESOURCES$"
 
  # Levels UI
  TIER_NUMBER:0 "Cấp độ: $TIER$"
@@ -1418,7 +1423,7 @@
  subject_is_scholarium:0 "$TRIGGER_FAIL$§RThuộc quốc phải là Nước học thuật.§!"
  overlord_is_homicidal:0 "$TRIGGER_FAIL$§RBản tính tàn bạo, thích săn mồi của chúng ta không cho phép làm điều này.§!"
  overlord_is_xenophobe:0 "$TRIGGER_FAIL$§RĐế chế của chúng ta chấp nhận tư tưởng $ethic_xenophobe$.§!"
- overlord_has_technology:0 "$TRIGGER_FAIL$§R[owner.overlord.GetName] bắt buộc phải có công nghệ:§!"
+ overlord_has_technology: "$TRIGGER_FAIL$§R[owner.overlord.GetName] bắt buộc phải có công nghệ:§!"
  ove_requires_tech_mineral_purification_2:0 "$overlord_has_technology$£engineering£§Y$tech_mineral_purification_2$§!"
  ove_requires_tech_power_hub_2:0 "$overlord_has_technology$£physics£§Y$tech_power_hub_2$§!"
  ove_requires_tech_food_processing_2:1 "$overlord_has_technology$£society£§Y$tech_food_processing_2$§!"

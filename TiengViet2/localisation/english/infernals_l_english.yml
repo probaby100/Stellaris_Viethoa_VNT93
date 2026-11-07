@@ -442,7 +442,7 @@
  concept_offworld_expedition_hub_desc: "§L$building_offworld_expedition_hub_desc$§!"
  building_offworld_expedition_hub: "Trung Tâm Viễn Chinh Ngoại Hành Tinh"
  building_offworld_expedition_hub_desc: "Trung tâm này điều phối các chuyến thám hiểm tự do đến Thế Giới Nóng Chảy lân cận, nơi những người thám hiểm dám nghĩ dám làm có thể tìm thấy $r_volatile_motes$ và $r_living_metal$ quý giá."
- offworld_molten_world_req: "$TRIGGER_FAIL$ §RYêu cầu một §Y$pc_molten$§! trong hệ sao.§!"
+ offworld_molten_world_req: "$TRIGGER_FAIL$§RYêu cầu một §Y$pc_molten$§! trong hệ sao.§!"
  job_offworld_prospector_tt: "£job_offworld_prospector£ $job_offworld_prospector_plural$ chuyển đổi $r_energy$ thành $r_living_metal$ và $r_volatile_motes$"
  job_offworld_prospector_drone_tt: "£job_offworld_prospector_drone£ $job_offworld_prospector_drone_plural$ chuyển đổi $r_energy$ thành $r_living_metal$ và $r_volatile_motes$"
 

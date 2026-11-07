@@ -461,8 +461,11 @@
  BAOL_SECRETS_DESC:0 "Các nhà khoa học của chúng ta sẽ cẩn thận sàng lọc các dữ liệu thu thập được, nhằm tìm hiểu và áp dụng tri thức của Baol cho mục đích của chúng ta."
  ancrel.10300:0 "$artifact_baol_research$"
  ancrel.10300.name:0 "$artifact_baol_research$"
- ancrel.10300.desc.terraform:0 "Thông qua việc nghiên cứu dữ liệu của Baol, chúng ta đã có những nhận thức mới về quá trình ươm mầm sự sống và cải tạo môi trường trên hành tinh.\n\nSau khi nghiên cứu kỹ lưỡng quá trình biến đổi dẫn đến việc mất đi khả năng cảm nhận của Baol, chúng ta cũng đã thu thập được nhiều kiến thức liên quan đến công nghệ thăng tiến, nhưng chúng ta đã nắm vững công nghệ này rồi."
+ ancrel.10300.desc.terraform:0 "Thông qua việc nghiên cứu dữ liệu của Baol, chúng ta đã có những nhận thức mới về quá trình ươm mầm sự sống và cải tạo môi trường trên hành tinh.$ancrel.10300.desc.terraform.end$"
  ancrel.10300.desc.uplift:0 "Sau khi nghiên cứu kỹ lưỡng quá trình biến đổi dẫn đến việc mất đi khả năng cảm nhận của Baol, chúng ta đã thu thập đủ kiến thức để đảo ngược lại quá trình này.\n\nChúng ta cũng có những nhận thức mới về công nghệ ươm mầm sự sống và cải tạo môi trường trên hành tinh."
+ ancrel.10300.desc.terraform.nomad: "Việc nghiên cứu Baol đã mang lại cho chúng ta những nhận thức mới về quá trình lan tỏa của sự sống thực vật trên các thế giới sống.$ancrel.10300.desc.terraform.end$"
+ ancrel.10300.desc.uplift.nomad: "Nhờ theo dõi kỹ lưỡng những biến đổi mà Baol trải qua trong quá trình mất đi trí tuệ, chúng ta đã thu được nhiều kiến thức về cách đảo ngược quá trình đó.\n\nChúng ta cũng có thêm những nhận thức mới về quá trình lan tỏa của sự sống thực vật trên các thế giới sống."
+ ancrel.10300.desc.terraform.end: "\n\nNhờ theo dõi kỹ lưỡng những biến đổi mà Baol trải qua trong quá trình mất đi trí tuệ, chúng ta cũng học hỏi được nhiều điều về quá trình khai sáng, nhưng chúng ta đã làm chủ công nghệ đó từ trước."
  baol_artifact_research_unlocked:0 "Mở khóa hành động Cổ Vật Nhỏ: §Y$artifact_baol_research$§!"
 
  artifact_zroni_research:0 "Bí mật của Zroni"
@@ -1170,7 +1173,7 @@
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_DEVOLUTION:0 "Chuẩn bị thoái hóa $PLANET|Y$"
  trait_presapient_forcefully_devolved:0 "Ép buộc Thoái hóa"
  trait_presapient_forcefully_devolved_desc:0 "Quá trình thoái hóa bạo lực mà chủng loài này phải trải qua đã gây ra những tác động vô cùng tiêu cực đến năng lực của họ."
- recently_devolved:0 "£trigger_no£ Hành tinh này vừa mới trải qua quá trình thoái hóa gần đây, năng lượng còn sót lại sẽ cản trở các nỗ lực tiếp theo. Chúng ta phải chờ ít nhất §Y1 năm§! £time£ mới có thể nã đạn vào nó một lần nữa."
+ recently_devolved: "$TRIGGER_FAIL$Hành tinh này vừa mới trải qua quá trình thoái hóa gần đây, năng lượng còn sót lại sẽ cản trở các nỗ lực tiếp theo. Chúng ta phải chờ ít nhất §Y1 năm§! £time£ mới có thể nã đạn vào nó một lần nữa."
 
  planet_destruction.901.name:0 "Hành tinh bị Thoái hóa"
  planet_destruction.901.desc:0 "Khi năng lượng của tia sáng xóa sổ ý thức bắn ra từ [FromFrom.GetName] dần tan biến, gần như toàn bộ dân số trên [From.GetName] đã bị thoái hóa về trạng thái chưa được khai hóa. Những người may mắn sống sót chỉ có thể bất lực chứng kiến những người từng quen biết có những hành động như động vật hoang dã."

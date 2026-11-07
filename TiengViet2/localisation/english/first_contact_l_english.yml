@@ -1044,7 +1044,7 @@
  d_crashed_slaver_ship_desc:0 "Mặc dù những mảnh vỡ từ vụ va chạm nằm rải rác ở khắp mọi nơi, nhưng con tàu này vẫn còn giữ được một phần khá lớn, việc lục lọi tìm các linh kiện của nó có thể sẽ phát hiện ra thứ gì đó có giá trị."
  d_ship_debris_broken_shackles_blocker:0 "Mảnh vỡ tàu"
  d_ship_debris_broken_shackles_blocker_desc:0 "Những mảnh vỡ từ chiếc tàu chở nô lệ bị rơi đã bao phủ một khu vực rộng lớn, cản trở sự phát triển của hành tinh này."
- d_ship_debris_broken_shackles_blocker_tooltip:0 "$TRIGGER_FAIL$§RChướng ngại vật này cần được gỡ bỏ bằng cách khảo cổ §Y$broken_shackles_digsite$§!.§!"
+ d_ship_debris_broken_shackles_blocker_tooltip: "$TRIGGER_FAIL$§RChướng ngại vật này cần được gỡ bỏ bằng cách khảo cổ §Y$broken_shackles_digsite$§!.§!"
 
  d_crashed_slaver_ship_memorial:0 "Đài tưởng niệm Phá vỡ Gông cùm"
  d_crashed_slaver_ship_memorial_desc:0 "Xung quanh đống đổ nát của chiếc tàu chở nô lệ bị rơi, người ta đã xây dựng một đài tưởng niệm công cộng và một bảo tàng. Dòng chữ khắc ở lối vào viết \"Ký ức là cái nôi của tự do\"."

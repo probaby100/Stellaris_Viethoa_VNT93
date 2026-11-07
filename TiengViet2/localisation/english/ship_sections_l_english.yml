@@ -22,9 +22,9 @@
  TITAN_BOW:0 "Mũi Tàu Titan"
  TITAN_MID:0 "Lõi Tàu Titan"
  TITAN_STERN:1 "Đuôi Tàu Titan"
- BIO_TITAN_BOW:0 "$TITAN_BOW$"
- BIO_TITAN_MID:0 "$TITAN_MID$"
- BIO_TITAN_STERN:0 "$TITAN_STERN$"
+ BIO_TITAN_BOW: "$TITAN_BOW$"
+ BIO_TITAN_MID: "$TITAN_MID$"
+ BIO_TITAN_STERN: "$TITAN_STERN$"
 
  ####################################
  # Battleship
@@ -129,6 +129,6 @@
  SHIP_COLOSSUS_SECTION:0 "Phân Khu Colossus"
  GHOST_SHIP_SECTION:0 "Thân Tàu Ma"
  lost_swarm_adult:0 "Đại Dịch Châu Chấu"
- lost_swarm_adult_cap:0 "$lost_swarm_adult$"
+ lost_swarm_adult_cap: "$lost_swarm_adult$"
  lost_swarm_adult_plural:0 "Đại Dịch Châu Chấu"
 

@@ -2050,7 +2050,7 @@
  d_nanocrystal_deposit:0 "Phát hiện $rare_crystals$\n"
  d_nanoscale_deposit:0 "Phát hiện $volatile_motes$\n"
 
- requires_no_binary_trinary:0 "$TRIGGER_FAIL$Không thể xây dựng công trình này trong Hệ Nhị Tinh hoặc Tam Tinh."
+ requires_no_binary_trinary:0 "$TRIGGER_FAIL$Không thể xây dựng công trình này trong Hệ Đa Sao."
 
  distar.10956.name:0 "Cụm Sao L Vẫy Gọi"
  distar.10956.desc:0 "Các điệp viên của chúng ta báo cáo rằng §H[lgate_warning_country.GetName]§! đã sắp sở hữu đủ thông tin về các Cổng L để mở khóa cổng mà họ kiểm soát. Điều này sẽ cho phép họ tiếp cận Cụm Sao L cùng những bí mật của nó!\n\nNếu muốn đến đó trước tiên, chúng ta phải nhân đôi nỗ lực và tìm thêm nhiều manh mối về Cổng L!"
@@ -2380,7 +2380,7 @@
 
  FLEET_RESEARCH_PROJECT_EFFECT:0 "Cử hạm đội $FLEET$ đi nghiên cứu $PROJECT$"
 
- LGATE_COUNTRY_CANNOT_USE:0 "$TRIGGER_FAIL$Chúng ta không có phương tiện để tiến vào §YCụm Sao L§!."
+ LGATE_COUNTRY_CANNOT_USE: "$TRIGGER_FAIL$Chúng ta không có phương tiện để tiến vào §YCụm Sao L§!."
  LGATE_NOMAD_NEEDS_WAYSTATION: "$TRIGGER_FAIL$Cần một §YTrạm Dừng Chân§! đặt cùng vị trí với một §YCổng L§! để truy cập mạng lưới Cổng L."
  BYPASS_DESC_INACTIVE_LGATE_DISABLED:0 "Yêu cầu kích hoạt bằng cách thu thập §Y$clues$§!."
  BYPASS_DESC_INACTIVE_LGATE:0 "Yêu cầu kích hoạt bằng cách thu thập §Y$clues$§!."
@@ -2390,7 +2390,7 @@
  FLEETORDER_RESEARCH_ANOMALIES_IN_SYSTEM_DESC:0 "Nghiên cứu tất cả các dị thường trong hệ sao $SYSTEM|Y$"
  UKNOWN_FLEET:0 "Hạm Đội Chưa Rõ"
 
- cannot_jump_to_system:0 "$TRIGGER_FAIL$Do các dòng thủy triều dưới không gian cuộn trào, chúng ta chỉ có thể tiến vào hệ sao này bằng các phương tiện thông thường."
+ cannot_jump_to_system: "$TRIGGER_FAIL$Do các dòng thủy triều dưới không gian cuộn trào, chúng ta chỉ có thể tiến vào hệ sao này bằng các phương tiện thông thường."
 
  MESSAGE_POP_ABDUCTED_TITLE:0 "Pop Bị Bắt Cóc"
  MESSAGE_TYPE_POP_ABDUCTED_KEY: "$MESSAGE_POP_ABDUCTED_TITLE$ Bởi Hạm Đội Chúng Ta"
