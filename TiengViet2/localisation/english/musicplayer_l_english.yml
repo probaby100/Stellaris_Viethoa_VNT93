@@ -1,0 +1,63 @@
+﻿l_english:
+
+ SOUNDTRACK_TITLE: "Nhạc Nền Trò Chơi Gốc" # Do not translate
+
+ MUSIC_PLAYER:0 "§HTrình Phát Nhạc§!"
+ MUSICPLAYER_PREV:0 "Bài Trước"
+ MUSICPLAYER_PLAY:0 "Phát"
+ MUSICPLAYER_PAUSE:0 "Tạm Dừng"
+ MUSICPLAYER_STOP:0 "Dừng"
+ MUSICPLAYER_NEXT:0 "§HBài Kế§!"
+ MUSICPLAYER_SHUFFLE_ON:0 "Phát Ngẫu Nhiên"
+ MUSICPLAYER_SHUFFLE_OFF:0 "Phát Ngẫu Nhiên"
+ MUSICPLAYER_SHUFFLE_USER_FUNCTION:0 "Phát Ngẫu Nhiên Có Trọng Số"
+ MUSICPLAYER_TIME_MIN_SEC:1 "$MIN$:$SEC$"
+ MUSICPLAYER_OPEN_PLAYER:0 "§HMở trình phát nhạc§!"
+ MUSICPLAYER_TOGGLE_CONTROLLER:0 "§HBật/Tắt bộ điều khiển nhạc§!"
+ MUSICPLAYER_PLAY_TRACK:0 "Phát bản nhạc"
+ MUSICPLAYER_DISABLE_TRACK:0 "Tắt bản nhạc"
+ MUSICPLAYER_ENABLE_TRACK:0 "Bật bản nhạc"
+ MUSICPLAYER_REMOVE_TRACK:0 "Xóa bản nhạc"
+ MUSICPLAYER_CURRENT_TRACK:0 "Bản nhạc hiện tại: $NAME|Y$ $DURATION|Y$"
+ MUSICPLAYER_TRACK_ITEM:0 "$NAME|Y$ $DURATION|Y$"
+ MUSICPLAYER_INCREASE_VOL:0 "Tăng âm lượng"
+ MUSICPLAYER_DECREASE_VOL:0 "Giảm âm lượng"
+ MUSICPLAYER_ADJUST_VOL:0 "Điều chỉnh âm lượng"
+ MUSICPLAYER_SAVE:0 "Lưu"
+ MUSIC_CONTROLS_TOGGLE_VISIBLE:0 "§HBật/Tắt bộ điều khiển Trình Phát Nhạc§!"
+
+ # Base Music Tracks
+ maintheme:0 "Sáng Thế Và Vượt Qua"
+ thebirthofastar:0 "Sự Khai Sinh Của Một Vì Sao"
+ sigmatauri:0 "Sigma Tauri"
+ gravitationalconstant:0 "Hằng Số Hấp Dẫn"
+ luminescence:0 "Dạ Quang"
+ spatiallullaby:0 "Khúc Hát Ru Không Gian"
+ genesis:0 "Khởi Nguyên"
+ distantnebula:0 "Tinh Vân Xa Xôi"
+ insearchoflife:0 "Đi Tìm Sự Sống"
+ journeythroughthegalaxy:0 "Hành Trình Qua Thiên Hà"
+ fasterthanlight:0 "Nhanh Hơn Ánh Sáng - Không Lời"
+ thecelestialcity:0 "Thành Phố Thiên Cung"
+ infinitebeing:0 "Thực Thể Vô Hạn"
+ totheendsofthegalaxy:0 "Đến Tận Cùng Thiên Hà"
+ alphacentauri:0 "Alpha Centauri"
+ pillarsofcreation:0 "Những Cột Trụ Sáng Tạo"
+ deepspacetravels:0 "Những Chuyến Du Hành Không Gian Sâu"
+ ridingthesolarwind:0 "Lướt Cùng Gió Sao"
+
+ # Leviathans Music Tracks
+ maintheme1:0 "Hơi Thở Của Rồng"
+ assemblingthefleet:0 "Tập Hợp Hạm Đội"
+ theawakened:0 "Kẻ Thức Tỉnh"
+ thetitan:0 "Titan"
+ thelaststand:0 "Trận Chiến Cuối Cùng"
+
+ # Utopia Music Tracks
+ maintheme2:0 "Chủ Đề Chính Utopia"
+ cradleofthegalaxy:0 "Cái Nôi Thiên Hà"
+ theimperialfleet:0 "Hạm Đội Hoàng Gia"
+ inmemoryofmercedesromero:0 "Tưởng Nhớ Mercedes Romero"
+ anewdawn:0 "Bình Minh Mới"
+ towardsutopia:0 "Hướng Tới Utopia"
+

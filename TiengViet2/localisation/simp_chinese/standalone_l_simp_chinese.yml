@@ -1,9 +1,0 @@
-﻿l_simp_chinese:
- ENTERING_GAME_LOBBY: "Đang vào thiết lập trò chơi"
- SERVER_LAUNCHING_MP: "Khởi động chơi mạng"
- SERVER_NAME: "Tên máy chủ: $NAME$"
- SERVER_PASSWORD: "Mật khẩu máy chủ: $PASSWORD$"
- LAUNCHING_GAME: "Khởi động trò chơi"
- STANDALONE_WAITING_FOR_PLAYERS: "Đang chờ $NUM$ người chơi"
- RECEIVED_GAMESERVER_ID: "Đã nhận ID máy chủ: $SERVERID$"
- RECEIVED_LOBBY_SERVER: "Đã nhận máy chủ sảnh chờ"

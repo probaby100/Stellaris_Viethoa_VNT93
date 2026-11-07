@@ -1,0 +1,73 @@
+﻿l_english:
+
+ LITHOIDS_TITLE:0 "Lithoids Species Pack" # Do not translate
+ DLC_LITHOIDS_RECOMMENDATION_DESC:2 "§SLithoids§! là gói chủng tộc cho phép bạn vào vai giống loài nham thạch, với các cơ chế trò chơi độc đáo riêng biệt."
+ DLC_LITHOIDS_RECOMMENDATION_THEME_REC:1 "Chúng tôi gợi ý §SLithoids§!, vì thiết lập bạn chọn cho đế chế này rất phù hợp với chủ đề nham thạch cốt lõi."
+ DLC_LITHOIDS_RECOMMENDATION_MINERALS_REC:1 "Chúng tôi gợi ý §SLithoids§!, vì thiết lập bạn chọn cho đế chế này có liên quan đến việc sản xuất khoáng sản hoặc nhận điểm thưởng từ khoáng sản."
+
+ vo_lithoid_voice:0 "Loài Đá"
+ lithoid:0 "Loài Đá"
+
+ MESSAGE_TERRAVORE_CONSUME_WORLD_TITLE:0 "Nuốt Chửng Hành Tinh"
+ MESSAGE_TERRAVORE_CONSUME_WORLD_MINERALS_TEXT:0 "Nuốt chửng $PLANET|Y$ sẽ mang lại sản lượng khoáng sản cho bầy đàn đất đá."
+ MESSAGE_TERRAVORE_CONSUME_WORLD_ALLOYS_TEXT:0 "Nuốt chửng $PLANET|Y$ sẽ mang lại sản lượng hợp kim cho bầy đàn đất đá."
+ MESSAGE_TERRAVORE_CONSUME_WORLD_POP_TEXT:0 "Nuốt chửng $PLANET|Y$ sẽ cung cấp thêm dân số cho bầy đàn đất đá."
+
+ situation_terravore_consume_planet:0 "Nuốt chửng [Target.GetName]"
+ situation_terravore_consume_planet_type:0 "Nuốt Chửng Hành Tinh"
+ situation_terravore_consume_planet_monthly_change_tooltip:0 "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_terravore_consume_planet_desc:0 "Thỏa sức cắn nuốt đất đai hành tinh lạ, nhưng cơn đói vẫn chưa vơi."
+ terravore_consume_finish_tooltip:0 "Nuốt chửng [Target.GetName], vắt kiệt và phá hủy nó."
+ approach_devour:0 "Nuốt chửng"
+ approach_restraint:0 "Kiềm chế"
+ string_terravore_progress:0 "Quá trình nuốt chửng hành tinh"
+ terravore_devour_effect:0 "Nuốt chửng hành tinh, mỗi §Y6§! tháng nhận được £minerals£§H$minerals$§!, £alloys£§H$alloys$§!, hoặc £pop£§HDân số§!."
+ terravore_restraint_effect:0 "Kiềm chế bản năng của chúng ta, ngừng nuốt chửng hành tinh."
+ stage_feed_feed_feed:0 "Nuốt chửng... nuốt chửng... nuốt chửng."
+ being_devoured_modifier:0 "Đang bị nuốt chửng"
+ being_devoured_modifier_desc:0 "Hành tinh này đang bị những Kẻ Nuốt Đất địa phương ăn mòn. Nó không còn sống được bao lâu nữa."
+# Calamitous Birth
+
+ lithoid_crater_effect:0 "Độ thân thiện môi trường với £pop£§HDân số không phải loài đá§!: §R-50%§!"
+
+
+# Selective Kinship
+ civic_selective_kinship:0 "Tình Thân Có Chọn Lọc"
+ civic_selective_kinship_desc:0 "Trong vũ trụ đầy rẫy những điều chưa biết này, chỉ có ruột thịt mới đáng tin cậy. Nền văn minh này chỉ đối xử bình đẳng với những đối tượng mà họ chọn."
+
+ wrong_species_class:0 "Chúng ta không cho phép nhóm giống loài này có đầy đủ quyền công dân."
+ selective_kinship_must_citizen:0 "$TRIGGER_FAIL$Những giống loài có cùng nhóm giống loài với loài này sẽ nhận được §YQuyền công dân§!."
+ triggered_selective_kinship:0 "Chung Dòng Máu"
+ triggered_selective_kinship_hates:0 "Người Ngoài Hành Tinh Gớm Ghiếc"
+ mod_citizen_pop_same_species_class_happiness:0 "Mức độ hạnh phúc của công dân khi sống chung với người ngoài hành tinh cùng §YNhóm giống loài§!"
+ mod_citizen_pop_different_species_class_happiness:0 "Mức độ hạnh phúc của công dân khi đàn áp các §YNhóm giống loài§! khác"
+ mod_citizen_pop_political_power:0 "Quyền lực chính trị của công dân"
+ civic_tooltip_selective_kinship_effects:0 "Điểm Đánh Giá của các Đế Chế có cùng ['concept_species_class']: §G+100§!\nĐiểm Đánh Giá của các Đế Chế khác: §R-50§!\n$mod_refugee_attraction$ đối với §YLớp Loài§! của chúng ta: §G+30%§!\n$mod_refugee_attraction$ đối với các §YLớp Loài§! khác: §R-20%§!\n£pop£ §HDân cư§! thuộc §YLớp Loài§! của chúng ta có Toàn Quyền Công Dân\nCác £pop£ §HDân cư§! khác bị cấm nhận Toàn Quyền Công Dân"
+ councilor_selective_kinship:0 "Người Phát Ngôn Dòng Tộc"
+ councilor_selective_kinship_female:0 "$councilor_selective_kinship$"
+ councilor_selective_kinship_desc:0 "$TITLE$ đại diện cho tiếng nói của những công dân hợp pháp của chúng ta."
+
+# Void Hive
+
+ civic_void_hive:0 "Tổ Ong Hư Không"
+ civic_void_hive_desc:0 "Ý thức bầy đàn này biến khoảng không vũ trụ thành một phần lãnh thổ của mình. Những con ong thợ tiến hóa đặc biệt có thể trải qua toàn bộ vòng đời mà không cần tiến vào bầu khí quyển của hành tinh."
+ civic_tooltip_void_hive_effects:0 "- Cứ mỗi bốn tháng, tự động xây dựng §YTrạm Khai Thác§! và §YTrạm Nghiên Cứu§! trên một mỏ tài nguyên ngẫu nhiên chưa khai thác trong hệ sao ta sở hữu.\n- Thiếu công nghệ khai thác tài nguyên tương ứng sẽ giảm §R-75%§! sản lượng.\n- Trực tiếp xây dựng §YTrạm Khai Thác§! và §YTrạm Nghiên Cứu§! sẽ tốn thêm chi phí xây dựng là §R10§! $r_unity$."
+ reduce_gas_output:0 "Khai thác $exotic_gases$ kém hiệu quả"
+ reduce_gas_output_desc:0 "Chúng ta đang khai thác $exotic_gases$ trong tình trạng thiếu công nghệ cần thiết."
+ reduce_gas_output_tt:0 "$mod_station_gatherers_exotic_gases_produces_mult$§R-75%§!"
+ reduce_crystal_output:0 "Khai thác $rare_crystals$ kém hiệu quả"
+ reduce_crystal_output_desc:0 "Chúng ta đang khai thác $rare_crystals$ trong tình trạng thiếu công nghệ cần thiết."
+ reduce_crystal_output_tt:0 "$mod_station_gatherers_rare_crystals_produces_mult$§R-75%§!"
+ reduce_motes_output:0 "Khai thác $volatile_motes$ kém hiệu quả"
+ reduce_motes_output_desc:0 "Chúng ta đang khai thác $volatile_motes$ trong tình trạng thiếu công nghệ cần thiết."
+ reduce_motes_output_tt:0 "$mod_station_gatherers_volatile_motes_produces_mult$§R-75%§!"
+ reduce_zro_output:0 "Khai thác $sr_zro$ kém hiệu quả"
+ reduce_zro_output_desc:0 "Chúng ta đang khai thác $sr_zro$ trong tình trạng thiếu công nghệ cần thiết."
+ reduce_zro_output_tt:0 "$mod_station_gatherers_sr_zro_produces_mult$§R-75%§!"
+ reduce_dark_matter_output:0 "Khai thác $sr_dark_matter$ kém hiệu quả"
+ reduce_dark_matter_output_desc:0 "Chúng ta đang khai thác $sr_dark_matter$ trong tình trạng thiếu công nghệ cần thiết."
+ reduce_dark_matter_output_tt:0 "$mod_station_gatherers_sr_dark_matter_produces_mult$§R-75%§!"
+ reduce_living_metal_output:0 "Khai thác $sr_living_metal$ kém hiệu quả"
+ reduce_living_metal_output_desc:0 "Chúng ta đang khai thác $sr_living_metal$ trong tình trạng thiếu công nghệ cần thiết."
+ reduce_living_metal_output_tt:0 "$mod_station_gatherers_sr_living_metal_produces_mult$§R-75%§!"
+

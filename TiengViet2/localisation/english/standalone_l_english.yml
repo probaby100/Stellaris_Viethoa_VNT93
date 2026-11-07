@@ -1,0 +1,9 @@
+﻿l_english:
+ ENTERING_GAME_LOBBY:0 "Đang vào Thiết lập Trò chơi"
+ SERVER_LAUNCHING_MP:0 "Đang khởi chạy Chơi mạng"
+ SERVER_NAME:0 "Tên Máy chủ: $NAME$"
+ SERVER_PASSWORD:0 "Mật khẩu Máy chủ: $PASSWORD$"
+ LAUNCHING_GAME:0 "Đang khởi chạy Trò chơi"
+ STANDALONE_WAITING_FOR_PLAYERS:0 "Đang chờ $NUM$ người chơi"
+ RECEIVED_GAMESERVER_ID:0 "Đã nhận ID Máy chủ: $SERVERID$"
+ RECEIVED_LOBBY_SERVER:0 "Đã nhận Máy chủ Sảnh chờ"

@@ -1,5 +1,0 @@
-﻿l_simp_chinese:
- # Định dạng tên theo số thứ tự
- GDF_GDFFLEET: "Hạm Đội Phòng Thủ Liên Thiên Hà $ORD$"
- # Các định dạng cũ (để tương thích ngược)
- GDF_xxGDFFLEET_ORD: "Quân Phòng Thủ Liên Thiên Hà $O$"

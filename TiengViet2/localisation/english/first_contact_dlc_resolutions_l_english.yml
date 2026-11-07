@@ -1,0 +1,65 @@
+﻿l_english:
+# Pre-FTL Stances
+# Resolutions
+ resolution_category_pre_ftl_stances:1 "Lập Trường Tiền-FTL"
+ resolution_pre_ftl_stances_repeal_1:0 "§RBãi bỏ $resolution_pre_ftl_stances_equal_standing$§!"
+ resolution_pre_ftl_stances_repeal_1_desc:1 "Thật nực cười khi đối xử bình đẳng với những \"nền văn minh\" hầu như không có khả năng rời khỏi hành tinh quê hương của họ. Các đế chế trong [global_event_country.GetGalCommunityOrGalImperium] nên có quyền tự do đối xử với các nền văn minh cấp thấp trong lãnh thổ của họ theo bất kỳ cách nào mà họ cho là phù hợp."
+ resolution_pre_ftl_stances_repeal_1_effect_success:1 "Bãi bỏ nghị quyết §Y$resolution_pre_ftl_stances_equal_standing$§!."
+
+ resolution_pre_ftl_stances_repeal_2:0 "§RBãi bỏ $resolution_pre_ftl_stances_non_interference$§!"
+ resolution_pre_ftl_stances_repeal_2_desc:1 "Chỉ vì có vài kẻ man rợ sinh sống ở đó mà cấm các đế chế trong [global_event_country.GetGalCommunityOrGalImperium] tận dụng triệt để những nguồn tài nguyên hợp pháp của họ là một sự xúc phạm đối với trí tuệ và xâm phạm quyền phát triển của chúng ta."
+ resolution_pre_ftl_stances_repeal_2_effect_success:1 "Bãi bỏ nghị quyết §Y$resolution_pre_ftl_stances_non_interference$§!."
+
+ resolution_pre_ftl_stances_repeal_3:1 "§RBãi bỏ $resolution_pre_ftl_stances_exploitation$§!"
+ resolution_pre_ftl_stances_repeal_3_desc:1 "Chỉ dựa vào trình độ công nghệ mà coi một nền văn minh như một nguồn tài nguyên để khai thác là một tội ác không thể tha thứ. Các đế chế trong [global_event_country.GetGalCommunityOrGalImperium] nên đảm bảo rằng những nền văn minh sẽ tiếp bước chúng ta vươn ra biển sao cũng được hưởng những quyền lợi giống như mọi giống loài khác."
+ resolution_pre_ftl_stances_repeal_3_effect_success:1 "Bãi bỏ nghị quyết §Y$resolution_pre_ftl_stances_exploitation$§!."
+
+ resolution_pre_ftl_stances_equal_standing:1 "Đạo Luật Đối Xử Bình Đẳng"
+ resolution_pre_ftl_stances_equal_standing_desc:1 "Mọi nền văn minh Tiền-FTL đều có khả năng đạt được công nghệ du hành vũ trụ và gia nhập [global_event_country.GetGalCommunityOrGalImperium]. Vì vậy, chúng ta phải tôn trọng từng thành viên tiềm năng này."
+ resolution_pre_ftl_stances_equal_standing_tooltip:1 "§RVô hiệu hóa§! chính sách §Y$interference_not_allowed$§! và §Y$interference_aggressive$§!.\nTăng cường hiệu quả của thỏa thuận ngoại giao §Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§! với các nền văn minh Tiền-FTL.\nCác §Ynền văn minh Tiền-FTL§! trở thành nền văn minh du hành vũ trụ thông qua §Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§! sẽ mang lại §G+100§! £loyalty£§YLòng trung thành§!.\nTăng cường hiệu quả của các §YHiệp định Thương mại§! được ký kết với các nền văn minh Tiền-FTL."
+
+ resolution_pre_ftl_stances_non_interference:1 "Đạo Luật Không Can Thiệp"
+ resolution_pre_ftl_stances_non_interference_desc:1 "Các nền văn minh Tiền-FTL nên có cơ hội tự do phát triển mà không bị can thiệp từ bên ngoài."
+ resolution_pre_ftl_stances_non_interference_tooltip:1 "§RVô hiệu hóa§! chính sách §Y$interference_active$§! và §Y$interference_aggressive$§!.\nMở khóa chính sách §Y$interference_not_allowed$§!, bỏ qua các điều kiện về hệ tư tưởng và thể chế quốc gia.\nTất cả các §Ythỏa thuận ngoại giao§! được ký kết với nền văn minh Tiền-FTL đều sẽ bị coi là §Rvi phạm luật ngân hà§!.\nCác §Ychiến dịch gián điệp§! nhắm vào nền văn minh Tiền-FTL một khi thất bại sẽ bị coi là §Rvi phạm luật ngân hà§!."
+
+ resolution_pre_ftl_stances_non_interference_modifier:0 "Tiến độ nhận được §YHiểu biết§! từ việc quan sát các nền văn minh tiền vũ trụ tăng §G+25%§!."
+
+ resolution_pre_ftl_stances_exploitation:1 "Đạo Luật Khai Thác"
+ resolution_pre_ftl_stances_exploitation_desc:1 "Các nền văn minh Tiền-FTL được quản lý bởi những người làm chủ ngân hà; mỗi đế chế nên có quyền tự do định đoạt tài sản của chính mình."
+ resolution_pre_ftl_stances_exploitation_tooltip:1 "Trạm quan sát sẽ tạo ra một lượng nhỏ £physics£ £engineering£§HĐiểm nghiên cứu§! khi §YQuan sát§! các nền văn minh Tiền-FTL. Việc thông qua nghị quyết §Y$resolution_galacticstudies_advanced_xenostudies$§! sẽ tăng thêm lượng £physics£ £engineering£§HĐiểm nghiên cứu§! nhận được.\n\n§RVô hiệu hóa§! chính sách §Y$interference_not_allowed$§!.\nViệc ký kết thỏa thuận ngoại giao §Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§! với nền văn minh Tiền-FTL sẽ bị coi là §Rvi phạm luật ngân hà§!.\nViệc bị phát hiện từng thực hiện chiến dịch gián điệp §Y$operation_plant_advanced_knowledge$§! sẽ bị coi là §Rvi phạm luật ngân hà§!."
+
+# Events
+ preftl.10000.desc:0 "[global_event_country.GetGalCommunityOrGalImperium] đã thông qua nghị quyết §Y$resolution_pre_ftl_stances_equal_standing$§!, cấm bất kỳ đế chế nào tiếp tục thi hành chính sách §Y$interference_not_allowed$§! hoặc §Y$interference_aggressive$§!.\n\nChính sách hiện tại của đế chế chúng ta đang vi phạm nghị quyết này. Chúng ta có nên thay đổi chính sách để phù hợp với tình hình chung không?"
+ preftl.10050.name:0 "Vi phạm $resolution_pre_ftl_stances_equal_standing$"
+ preftl.10050.desc:0 "Các quan chức của [global_event_country.GetGalCommunityOrGalImperium] đã phán quyết rằng, bất kể ý định của chúng ta là gì, thỏa thuận của chúng ta với §H[pre_ftl_country.GetName]§! đã vi phạm §Y$resolution_pre_ftl_stances_equal_standing$§!.\n\n$preftl.10050.outro$"
+ preftl.10050.outro:0 "[Root.GetName] sẽ bị coi là §Rvi phạm luật ngân hà§! trong mười năm tới. Hơn nữa, chúng ta còn phải nộp một khoản tiền phạt khổng lồ."
+
+ preftl.10055.name:0 "$preftl.10050.name$"
+ preftl.10055.desc:0 "Do thỏa thuận với §H[pre_ftl_country.GetName]§! vi phạm §Y$resolution_pre_ftl_stances_equal_standing$§!, chúng ta đã nộp các giấy tờ cần thiết cho các quan chức của [global_event_country.GetGalCommunityOrGalImperium]. Hy vọng bằng cách thừa nhận hành động của mình, họ có thể sẽ nương tay.\n\n$preftl.10055.outro$"
+ preftl.10055.outro:0 "[Root.GetName] sẽ bị coi là §Rvi phạm luật ngân hà§! trong năm năm tới. Hơn nữa, chúng ta còn phải nộp một khoản tiền phạt khổng lồ."
+
+ preftl.10100.desc:0 "[global_event_country.GetGalCommunityOrGalImperium] đã thông qua nghị quyết §Y$resolution_pre_ftl_stances_non_interference$§!, cấm bất kỳ đế chế nào tiếp tục thi hành chính sách §Y$policy_interference$§! ngoại trừ §Y$interference_not_allowed$§!.\n\nChính sách hiện tại của đế chế chúng ta đang vi phạm nghị quyết này. Chúng ta có nên thay đổi chính sách để phù hợp với tình hình chung không?"
+ preftl.10150.name:0 "Vi phạm $resolution_pre_ftl_stances_non_interference$"
+ preftl.10150.desc:0 "Các quan chức của [global_event_country.GetGalCommunityOrGalImperium] đã nhận được tin báo rằng chúng ta đang can thiệp vào sự phát triển tự nhiên của §H[pre_ftl_country.GetName]§!. Họ thông báo với chúng ta rằng điều này chắc chắn đã vi phạm §Y$resolution_pre_ftl_stances_non_interference$§!, bất kể ý định ban đầu của chúng ta là gì.\n\n$preftl.10050.outro$"
+
+ preftl.10155.name:0 "$preftl.10150.name$"
+ preftl.10155.desc:0 "Sau khi vụ việc vi phạm §Y$resolution_pre_ftl_stances_non_interference$§! tại §H[pre_ftl_country.GetName]§! xảy ra, chúng ta đã đệ trình một báo cáo đầy đủ cho các quan chức của [global_event_country.GetGalCommunityOrGalImperium]. Hy vọng hành động thẳng thắn này sẽ tạo được thiện cảm với các công tố viên, và có thể họ sẽ khoan hồng cho trường hợp của chúng ta."
+
+ preftl.10157.desc:0 "[global_event_country.GetGalCommunityOrGalImperium] đã nhận được thông tin về cuộc xâm lược của chúng ta vào hành tinh mẹ của người §H[pre_ftl_country.GetAdj]§!. Họ chính thức thông báo với chúng ta rằng hành động này đã vi phạm §Y$resolution_pre_ftl_stances_non_interference$§!.\n\n$preftl.10050.outro$"
+ preftl.10161.desc:0 "[global_event_country.GetGalCommunityOrGalImperium] đã nhận được thông tin về cuộc oanh tạc của chúng ta xuống hành tinh mẹ của người §H[pre_ftl_country.GetAdj]§!. Họ chính thức thông báo với chúng ta rằng hành động này đã vi phạm §Y$resolution_pre_ftl_stances_non_interference$§!.\n\n$preftl.10050.outro$"
+
+ preftl.10200.desc:1 "[global_event_country.GetGalCommunityOrGalImperium] đã thông qua nghị quyết §Y$resolution_pre_ftl_stances_exploitation$§!, cấm bất kỳ đế chế nào tiếp tục thi hành chính sách §Y$interference_not_allowed$§!.\n\nChính sách hiện tại của đế chế chúng ta đang vi phạm nghị quyết này. Chúng ta có nên thay đổi chính sách để phù hợp với tình hình chung không?"
+ preftl.10250.name:0 "Vi phạm $resolution_pre_ftl_stances_exploitation$"
+ preftl.10250.desc:0 "Các quan chức của [global_event_country.GetGalCommunityOrGalImperium] đã nhận được tin báo rằng chúng ta đang chia sẻ dữ liệu công nghệ với §H[pre_ftl_country.GetName]§!. Họ thông báo với chúng ta rằng điều này chắc chắn đã vi phạm §Y$resolution_pre_ftl_stances_exploitation$§!, bất kể ý định ban đầu của chúng ta là gì.\n\n$preftl.10050.outro$"
+
+ preftl.10255.name:0 "$preftl.10250.name$"
+ preftl.10255.desc:0 "Sau khi vụ việc vi phạm §Y$resolution_pre_ftl_stances_exploitation$§! tại §H[pre_ftl_country.GetName]§! xảy ra, chúng ta đã đệ trình một báo cáo đầy đủ cho các quan chức của [global_event_country.GetGalCommunityOrGalImperium]. Hy vọng hành động thẳng thắn này sẽ tạo được thiện cảm với các công tố viên, và có thể họ sẽ khoan hồng cho trường hợp của chúng ta."
+
+ pre_ftl_stances_fix_breach_not_allowed:1 "Chúng ta sẽ điều chỉnh chính sách §Y$policy_interference$§! thành §Y$interference_not_allowed$§!."
+ pre_ftl_stances_fix_breach_subtle:1 "Chúng ta sẽ điều chỉnh chính sách §Y$policy_interference$§! thành §Y$interference_subtle$§!."
+ pre_ftl_stances_fix_breach_active:1 "Chúng ta sẽ điều chỉnh chính sách §Y$policy_interference$§! thành §Y$interference_active$§!."
+ pre_ftl_stances_fix_breach_aggressive:1 "Chúng ta sẽ điều chỉnh chính sách §Y$policy_interference$§! thành §Y$interference_aggressive$§!."
+
+ breach_resolution_pre_ftl_stances_equal_standing_tt:0 "§RĐiều này sẽ khiến chúng ta vi phạm $resolution_pre_ftl_stances_equal_standing$!§!"
+ breach_resolution_pre_ftl_stances_non_interference_tt:0 "§RĐiều này sẽ khiến chúng ta vi phạm $resolution_pre_ftl_stances_non_interference$!§!"
+ breach_resolution_pre_ftl_stances_exploitation_tt:0 "§RĐiều này sẽ khiến chúng ta vi phạm $resolution_pre_ftl_stances_exploitation$!§!"

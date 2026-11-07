@@ -1,5 +1,0 @@
-﻿l_simp_chinese:
- # Định dạng tên theo thứ tự
- IA_IMPERIALARMADA: "Hạm đội Đế quốc $R$"
- # Định dạng thứ tự cũ (để tương thích ngược)
- IA_xxIMPERIALARMADA_ROM: "Hạm đội Đế quốc $R$"

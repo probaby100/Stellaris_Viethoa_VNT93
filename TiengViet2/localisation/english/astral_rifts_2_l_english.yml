@@ -1,0 +1,691 @@
+﻿l_english:
+
+#####################
+# Abandoned Complex #
+#####################
+ astral_rift_research_lab: "Khu Phức Hợp Bị Bỏ Hoang"
+
+ astral_rift.2000.name: "Cơ Sở Bị Bỏ Hoang"
+ astral_rift.2000.desc: "Chúng ta đang ở bên trong một cơ sở nghiên cứu bị bỏ hoang.\n\nCác bề mặt trong căn phòng này phủ một lớp bụi dày, cho thấy nó đã không được sử dụng trong một thời gian dài.\n\nChúng ta không thể tìm thấy bất kỳ nhà nghiên cứu nào, dù còn sống hay đã chết. Dù nơi này đã được dùng để làm gì, nó đã bị bỏ lại một cách vội vã.\n\nHàng tá cấu trúc giống như những quả trứng lớn nằm rải rác xung quanh phòng thí nghiệm. Chúng dường như được nối với một hệ thống hỗ trợ sự sống trung tâm. Một số ít vẫn còn phát ra ánh sáng huỳnh quang mờ nhạt."
+ astral_rift.2000.a: "Tìm kiếm những người chăm sóc."
+ astral_rift.2000.b: "Mở một quả trứng."
+
+ astral_rift.2010.name: "Ký Sinh Trùng Lượng Tử"
+ astral_rift.2010.desc: "Chúng ta đã mở mẫu vật trông khỏe mạnh nhất trong số các quả trứng.\n\nPhôi thai bên trong có vẻ bị suy dinh dưỡng và bị bao phủ bởi những ký sinh trùng ngoại lai.\n\nĐáng chú ý, những ký sinh trùng này sở hữu các đặc tính lượng tử độc nhất vô nhị không giống bất kỳ sinh vật sống nào từng được biết đến. Chúng ngắt kết nối và tái kết nối một cách ngẫu nhiên với cấu trúc giải phẫu của phôi thai, như thể chúng đang tồn tại ở nhiều nơi cùng một lúc.\n\nChúng ta có thể tiêm cho phôi thai một lượng chất lỏng màu nhạt được tìm thấy trong kho dự trữ của phòng thí nghiệm, hoặc giải thoát cho nó khỏi nỗi đau đớn."
+ astral_rift.2010.a: "Tiêm chất lỏng vào quả trứng."
+ astral_rift.2010.b: "Cái chết nhân đạo cho các sinh vật còn lại."
+
+ astral_rift.2015.name: "Những Người Chăm Sóc"
+ astral_rift.2015.desc: "Chúng ta đã tìm thấy những người chăm sóc nơi này. Chính xác hơn, chúng ta đã tìm thấy những gì còn sót lại của họ.\n\nMột căn phòng gần đó chứa đầy những thi thể. Các chi và cơ quan của họ đã bị tách rời ở cấp độ nguyên tử bởi một thế lực chưa xác định.\n\nNhìn kỹ hơn, những ký sinh trùng lượng tử tương tự đang bò lúc nhúc trên hài cốt của họ. Một phát hiện đáng lo ngại, nhưng chúng ta vẫn có thể tiếp tục khám phá các quả trứng trong phòng thí nghiệm."
+ astral_rift.2015.a: "Mở một quả trứng."
+ astral_rift.2015.b: "Trở về cùng hài cốt."
+
+ astral_rift.2020.name: "Chuyển Hóa Trao Đổi Chất"
+ astral_rift.2020.desc: "Việc tiêm chất lỏng màu nhạt vào phôi thai lộ ra đã tạo ra một số kết quả thú vị.\n\nBất chấp lũ ký sinh trùng lượng tử, mẫu vật từng lờ đờ trước đây đã hồi sinh tràn đầy sức sống. Thực tế, chúng ta có thể đã tính toán sai liều lượng. Trong một khoảng thời gian ngắn, các chi của nó bắt đầu phát triển nhanh chóng và đập mạnh vào vỏ trứng, đòi được thoát ra.\n\nNhận thấy tốc độ phân chia tế bào gia tăng của nó, lũ ký sinh trùng dường như cũng đang thích nghi và sinh sôi với tốc độ đáng báo động. Nếu không can thiệp, sinh vật có thể bị xé toạc bởi sự bất ổn lượng tử."
+ astral_rift.2020.a: "Không can thiệp."
+ astral_rift.2020.b: "Tiêm sợi tinh giới."
+
+ astral_rift.2025.name: "Cái Chết Nhân Đạo"
+ astral_rift.2025.desc: "Sinh vật này không còn hy vọng hồi phục. Lũ ký sinh trùng xâm chiếm quả trứng của nó quá nguy hiểm để lây lan ra ngoài khe nứt này.\n\nTheo quy trình khử nhiễm nghiêm ngặt, chúng ta đã dùng axit hydrochloric để tiêu hủy nhân đạo tất cả các mẫu vật gần đó. Chúng ta sẽ mang các mẫu ký sinh trùng trở về để nghiên cứu thêm."
+ astral_rift.2025.a: "Một lựa chọn khôn ngoan."
+ astral_rift.2025.b.evopred: "Độ axit cao có thể tăng thêm hương vị cho món ăn."
+
+ astral_rift.2030.name: "Bất Ổn Sinh Học"
+ astral_rift.2030.desc.end: "Sự lây nhiễm lượng tử bất ổn định này hẳn đã phá hỏng bất kỳ thí nghiệm nào dự định tiến hành ở đây.\n\nDù vậy, những quan sát của chúng ta tại nơi này đã nâng cao hiểu biết về sinh học trong các điều kiện vô cùng bất ổn định."
+ astral_rift.2030.desc.default: "Phôi thai đã tan rã.\n\nĐúng như dự đoán, lũ ký sinh trùng trong cơ thể nó nhanh chóng xé toạc nó theo những hướng ngẫu nhiên.\n\n$astral_rift.2030.desc.end$"
+ astral_rift.2030.desc.injected: "Phôi thai đã tan rã.\n\nBất chấp những nỗ lực ổn định mẫu vật của chúng ta, lũ ký sinh trùng trong cơ thể nó nhanh chóng xé toạc nó theo những hướng ngẫu nhiên.\n\n$astral_rift.2030.desc.end$"
+ astral_rift.2030.a: "Thú vị."
+ astral_rift.2030.b.evopred: "Một bữa ăn xay nhuyễn."
+
+ astral_rift.2035.name: "Vũ Khí Sinh Học"
+ astral_rift.2035.desc: "Thí nghiệm đã thành công tốt đẹp.\n\nSợi tinh giới chúng ta tiêm vào phôi thai đã ổn định được lũ ký sinh trùng lượng tử.\n\nCon non phát triển đầy đủ đã đục vỡ vỏ chui ra nguyên vẹn. Nó ngoan ngoãn một cách đáng ngạc nhiên và nhanh chóng học được các mệnh lệnh cơ bản. Dựa trên bản tính săn mồi hung dữ của nó, chúng ta có thể lai tạo những sinh vật này làm vũ khí hủy diệt hỗ trợ cho quân đội của mình."
+ astral_rift.2035.desc.exterminator: "$astral_rift.2035.desc$\n\nThiên hà thảm hại của chúng ta chưa sẵn sàng cho những gì chúng ta sắp sửa giải phóng."
+ astral_rift.2035.desc.non_pacifist: "$astral_rift.2035.desc$\n\nChúng ta sẽ mang về thêm nhiều con nữa."
+ astral_rift.2035.a: "Rất ấn tượng."
+ astral_rift.2035.a.tooltip: "Giờ đây có thể xây dựng đạo quân Đột kích mới: §H$warpling_army$§!"
+
+ astral_rift.2040.name: "Ký Sinh Trùng Lượng Tử"
+ astral_rift.2040.desc: "Chúng ta đã hoàn thành việc thu thập hài cốt của các nhà nghiên cứu và đang vận chuyển chúng về để nghiên cứu sâu hơn.\n\nHài cốt của họ chứa đầy ký sinh trùng lượng tử mang những đặc tính không giống bất kỳ sinh vật sống nào từng biết. Chúng dịch chuyển tức thời một cách khó lường và phản ứng mạnh với các trường điện từ.\n\nChúng ta hy vọng các nhà khoa học của chúng ta có thể khai thác các đặc tính lượng tử này để phục vụ nghiên cứu vật lý."
+ astral_rift.2040.a: "Thật cuốn hút."
+
+ astral_rift.2045.name: "Phơi Nhiễm Gây Tử Vong"
+ astral_rift.2045.desc: "[From.GetName] được phát hiện đã tử vong. Nguyên nhân là do phơi nhiễm với loài ký sinh trùng chết người bên kia khe nứt thuộc hệ sao [FromFrom.solar_system.GetName]. Khu vực nghiên cứu của [From.GetHisHer] cũng đã bị phong tỏa cách ly để ngăn ngừa thêm thương vong."
+ astral_rift.2045.a.tooltip: "§Y[From.GetName]§! §Rđã tự phát nổ§!"
+
+#################
+# The Mechanism #
+#################
+ astral_rift_clock: "Cơ Cấu Máy Móc"
+
+ astral_rift.2100.name: "Bánh Răng và Bánh Khía"
+ astral_rift.2100.desc: "Chúng ta bị bao quanh bởi các cỗ máy khổng lồ.\n\nBánh răng và bánh khía xoắn vặn theo mọi hướng. Cứ mỗi một phần mười giây, bộ máy lại nhích về phía trước một nấc. Mỗi chiếc răng trên các bánh răng gần như to bằng chiếc §Y$tech_rift_sphere$§! của chúng ta.\n\nMột làn sương mù dày đặc che khuất tầm nhìn, nhưng những tiếng tích tắc đều đặn và tiếng nghiến kim loại vang vọng khắp không gian bao la này."
+ astral_rift.2100.a: "Khám phá làn sương mù."
+
+ astral_rift.2105.name: "Cỗ Máy Chiều Không Gian"
+ astral_rift.2105.desc: "Chuyển động của cỗ máy chiều không gian này chuẩn xác như chiếc đồng hồ chính xác nhất của chúng ta.\n\nDù chúng ta vẫn chưa hiểu được nguồn năng lượng của nó, một cuộc khảo sát ngắn đã phát hiện ra các giếng thông gió dẫn tới một loạt các Khe Nứt Tinh Giới.\n\nDù nơi này thực sự là gì, nó dường như đóng vai trò điều chỉnh một mạng lưới rộng lớn các khe nứt xuyên suốt thực tại. Cấu trúc này dường như chịu một lực căng cơ học cực lớn."
+ astral_rift.2105.a: "Can thiệp vào lúc này sẽ là thiếu trách nhiệm."
+ astral_rift.2105.b: "Làm kẹt các bánh răng."
+
+ astral_rift.2110.name: "Nếu Chưa Hỏng..."
+ astral_rift.2110.desc: "Những kiến trúc sư của không gian này sở hữu tri thức vượt xa chúng ta. Can thiệp vào những cơ chế này có thể gây ra những hậu quả khó lường.\n\nDù bị làn sương mù cản trở, chúng ta vẫn nán lại đủ lâu để thu thập dữ liệu quý giá về hoạt động của cỗ máy khổng lồ này trước khi rút lui an toàn."
+
+ astral_rift.2115.name: "Bị Kẹt"
+ astral_rift.2115.desc: "Các bánh răng đã bị kẹt cứng.\n\nVới một tiếng rung chuyển dữ dội, toàn bộ cơ cấu đã dừng bặt. Nỗ lực phá hoại của chúng ta đã thành công.\n\nKhi lực căng gia tăng, một lõi vàng lộ ra từ bên dưới một tấm lưới kim loại. Nó sáng loáng không tì vết, nhưng năng lượng bên trong nó dường như đang dao động mất kiểm soát. Chúng ta có thể cố gắng thu hồi nó, nhưng nguy cơ nổ là rất cao."
+ astral_rift.2115.a: "Hãy thận trọng."
+
+ astral_rift.2120.name: "Vỡ Vụn"
+ astral_rift.2120.desc: "Khi chúng ta cố gắng thu hồi lõi vàng, một vết nứt nhỏ nhanh chóng lan rộng khắp bề mặt của nó. Trước khi chúng ta kịp kéo nó ra, nó đã phát nổ dữ dội theo mọi hướng.\n\nSự tan vỡ của lõi giải phóng một lượng năng lượng khổng lồ. Sóng xung kích làm vỡ tung các bánh răng xung quanh và thổi bay lớp sương mù, làm lộ ra một không gian trống rỗng vô tận. Rất may, chiếc Khối Cầu của chúng ta không bị hư hại nghiêm trọng."
+
+ astral_rift.2125.name: "Thành Công"
+ astral_rift.2125.desc: "Chúng ta đã thu hồi thành công lõi vàng của một trong các cơ cấu máy móc.\n\nCác bánh răng xung quanh chìm vào một sự im lặng kỳ lạ, và lực căng ban đầu trong không gian đã biến mất hoàn toàn.\n\nMạng lưới Khe Nứt Tinh Giới kết nối với cỗ máy này dường như đã ngừng rung động. Nghiên cứu lõi vàng này sẽ mang lại cái nhìn sâu sắc vô song về cơ học không gian-thời gian."
+
+####################
+# Dimensional Dump #
+####################
+ astral_rift_dimensional_dump: "Bãi Rác Chiều Không Gian"
+
+ astral_rift.2200.name: "Thi Thể Trôi Nổi"
+ astral_rift.2200.desc: "Chúng ta bị bao quanh bởi rác rưởi.\n\nThỉnh thoảng, chúng ta lại chứng kiến những vết rách mới mở ra trong không gian xung quanh, trút thêm nhiều phế thải vào bãi rác xoáy tròn này. Dựa trên bản chất của các mảnh vụn, chúng ta xác định đây là bãi thải của một nền văn minh liên sao. Các mảnh máy móc chưa biết, các thùng chứa rỗng và kim loại phế liệu trôi dạt khắp nơi.\n\nCảm biến đã phát hiện một sinh vật mặc bộ đồ du hành vũ trụ đang trôi nổi giữa đống rác rưởi. Các dấu hiệu sinh tồn yếu ớt nhưng vẫn còn tồn tại."
+ astral_rift.2200.a: "Đưa lên tàu và cấp cứu."
+ astral_rift.2200.b: "Đưa lên tàu để thu hồi trang bị."
+
+ astral_rift.2205.name: "$astral_rift.2200.name$"
+ astral_rift.2205.common.1: "Đưa người ngoài hành tinh trôi nổi trong đống rác lên tàu là một sai lầm."
+ astral_rift.2205.common.2: "Họ nói một ngôn ngữ mà chúng ta không hiểu và liên tục chỉ vào bảng điều khiển của Khối Cầu, nhấn mạnh lặp đi lặp lại cùng một cụm từ."
+ astral_rift.2205.desc.help: "$astral_rift.2205.common.1$\n\nSau khi khôi phục nhiệt độ cơ thể và điều trị các vết thương, người ngoài hành tinh hồi phục nhanh chóng - bối rối và hoảng loạn.\n\nHọ đã rút ra một vũ khí có lưỡi thô sơ từ quần áo, và [Leader.GetName] đã bị bắt làm con tin.\n\n$astral_rift.2205.common.2$"
+ astral_rift.2205.desc.recover_gear: "$astral_rift.2205.common.1$\n\nBộ đồ du hành vũ trụ đã giữ người ngoài hành tinh trong trạng thái ngủ đông. Sau khi cởi bỏ nó, sinh vật hồi phục nhanh chóng - bối rối và hoảng loạn.\n\nHọ đã khiến đội ngũ khoa học của chúng ta bất ngờ, và [Leader.GetName] đã bị bắt làm con tin.\n\n$astral_rift.2205.common.2$"
+ astral_rift.2205.a: "Tiêu diệt cá nhân này."
+ astral_rift.2205.b: "Cố gắng đàm phán."
+
+ astral_rift.2210.name: "$astral_rift.2200.name$"
+ astral_rift.2210.common.1: "Chúng ta đã nhanh chóng tiêu diệt sinh vật hiếu chiến được giải cứu khỏi bãi rác này."
+ astral_rift.2210.common.2: "Chúng ta đã có thời gian để phân tích các tài liệu trong trang bị của họ. Bản dịch ban đầu cho thấy họ là một công nhân thu gom rác kỳ cựu. Có vẻ như họ đã vô tình bị cuốn vào đống rác và không bao giờ có thể trở về nhà.\n\nBỏ qua sự cố đáng tiếc, việc tháo dỡ các mảnh rác công nghệ cao xung quanh đã mang lại nhiều kiến thức kỹ thuật có giá trị."
+ astral_rift.2210.desc.help: "$astral_rift.2210.common.1$\n\nDù con tin bị bỏng nhẹ, hành động nhanh chóng của nhân viên an ninh đã ngăn chặn được tổn hại nặng nề hơn.\n\n$astral_rift.2210.common.2$"
+ astral_rift.2210.desc.recover_gear: "$astral_rift.2210.common.1$\n\nKhi đã bị tước hết trang bị, việc hạ gục họ bằng một phát đạn plasma tiêu chuẩn không gặp chút khó khăn nào.\n\n$astral_rift.2210.common.2$"
+ astral_rift.2210.a: "Thật bất hạnh cho họ."
+
+ astral_rift.2215.name: "Hạ Nhiệt Căng Thẳng"
+ astral_rift.2215.desc: "Thể hiện thiện chí hòa bình, chúng ta đã đặt vũ khí xuống. Người ngoài hành tinh đáp lại bằng cách thả [Explorer.GetCrewMember] ra và hạ vũ khí xuống. Họ có vẻ tràn ngập cảm xúc phức tạp, nhanh chóng chỉ vào vũ khí của mình và nói lại với chúng ta."
+ astral_rift.2215.a: "Xuất sắc."
+
+ astral_rift.2220.name: "Tổn Thất Về Người"
+ astral_rift.2220.desc: "Trước khi chúng ta kịp vô hiệu hóa người ngoài hành tinh thù địch, họ đã sát hại con tin và một số thành viên khác trong đội khoa học bằng một khẩu súng lục plasma rút ra từ ủng.\n\nThật không may, [Leader.GetName] nằm trong số những người thiệt mạng."
+
+ astral_rift.2225.name: "Kẻ Nhặt Rác Lạc Lối"
+ astral_rift.2225.desc: "Tên của người ngoài hành tinh là [astral_rift_dimensional_dump_leader_loc.GetName].\n\nTrong một chuyến chở rác định kỳ vào chiều không gian này, [astral_rift_dimensional_dump_leader_loc.GetHeShe] đã vô tình bị cuốn đi theo chuyến hàng. Một sự cố kỹ thuật với động cơ chiều không gian trên tàu của [astral_rift_dimensional_dump_leader_loc.GetHisHer] đòi hỏi phải sửa chữa thủ công, và [astral_rift_dimensional_dump_leader_loc.GetHeShe] là người duy nhất có kỹ năng kỹ thuật để sửa nó. Khi làm như vậy, [astral_rift_dimensional_dump_leader_loc.GetHeShe] đã vô tình trượt chân vào máy nén không-thời gian và bị mất tích.\n\nHệ thống hỗ trợ sự sống trên bộ đồ vũ trụ tiên tiến của [astral_rift_dimensional_dump_leader_loc.GetHisHer] đã giữ [astral_rift_dimensional_dump_leader_loc.GetHimHer] trong trạng thái ngủ đông hơn hai thế kỷ.\n\n[astral_rift_dimensional_dump_leader_loc.GetName] nhớ thương gia đình của [astral_rift_dimensional_dump_leader_loc.GetHisHer] tha thiết, nhưng hiểu rằng chúng ta không có cách nào đưa [astral_rift_dimensional_dump_leader_loc.GetHimHer] trở về nơi [astral_rift_dimensional_dump_leader_loc.GetHeShe] từng xuất phát.\n\nSở hữu kỹ năng đáng nể trong việc điều khiển phi thuyền tiên tiến, [astral_rift_dimensional_dump_leader_loc.GetHeShe] sẽ là một sự bổ sung tuyệt vời cho chương trình huấn luyện hạm đội của chúng ta."
+ astral_rift.2225.a: "Một phi công lành nghề luôn là sự bổ sung đáng hoan nghênh."
+ astral_rift.2225.a.tt: "[event_target:astral_rift_dimensional_dump_leader_loc.GetName] sẽ được huấn luyện bài bản."
+
+ astral_rift.2230.name: "[From.GetName] Hoàn Thành Huấn Luyện"
+ astral_rift.2230.desc: "Sau quá trình huấn luyện chuyên sâu, [From.GetName] đã chứng minh mình là một phi công xuất sắc và đã chiếm được lòng tin của các sĩ quan chúng ta. [From.GetHeSheCap] sẽ là một sự bổ sung đặc biệt cho hạm đội của chúng ta."
+ astral_rift.2230.a: "Một sự bổ sung xứng đáng."
+
+###########
+# Genesis #
+###########
+ astral_rift_genesis: "Sáng Thế"
+ genesis_insight_modifier: "Thấu Triệt Sáng Thế"
+ genesis_insight_modifier_desc: "Cuộc chạm trán với một trí tuệ siêu thứ nguyên bên trong các mặt phẳng tinh giới đã mang lại cho chúng ta những hiểu biết sâu sắc độc đáo về sự hình thành và phát triển của các xã hội mới."
+
+ astral_rift.2300.name: "Sáng Thế"
+ astral_rift.2300.desc: "Cấu tạo của môi trường này hoàn toàn phi vật chất. Một đợt quét đơn giản cho thấy toàn bộ không gian này là một hình chiếu ba chiều toàn ảnh từ một nguồn chưa xác định.\n\nNgay sau khi chúng ta đến nơi, chúng ta đã nhận được một thông điệp bằng chính ngôn ngữ của chúng ta. Không gian trước mặt chúng ta hiện ra một dòng chữ duy nhất.\n\n§E\"Ta không biết các ngươi.\"§!\n\nSau khi chúng ta giải thích về sự hiện diện của mình, thực thể này tiếp tục:\n\n§E\"Thật tò mò. Vậy thì được thôi. Chúng ta hãy chơi một trò chơi. Ta sẽ đóng vai Sáng Thế.\"§!\n\nHình chiếu ba chiều chuyển sang một bố cục mới. Trên một thế giới hoang tàn, một giống loài [explorer.GetPreFTLLower] đang chật vật sinh tồn. Chúng ta đang được chứng kiến những bước khởi đầu của một nền văn minh non trẻ.\n\n§E\"Chúng ta nên ban cho họ phước lành gì đây?\"§!"
+ astral_rift.2300.a: "Vũ trang cho họ bằng sức mạnh."
+ astral_rift.2300.b: "Gieo mầm hạt giống tri thức."
+ astral_rift.2300.c: "Chúng ta không chơi trò chơi. Kích hoạt E.M.P."
+
+ astral_rift.2305.name: "Phô Diễn Sức Mạnh"
+ astral_rift.2305.desc: "Chỉ trong tích tắc, nền văn minh ba chiều đã tiến bước qua nhiều thế kỷ.\n\n§E\"Thần dân của chúng ta đã trở nên hùng mạnh.\"§!\n\nNền văn minh đang phát triển này đã sử dụng sức mạnh mới tìm thấy để thống trị thế giới tự nhiên. Họ tự gọi mình là [genesis_new_species_base.GetName].\n\n§E\"Nhưng một dân tộc không thể thịnh vượng chỉ nhờ sức mạnh đơn thuần. Làm thế nào tốt nhất để họ chuẩn bị cho tương lai?\"§!"
+ astral_rift.2305.a: "Thông qua sự cần cù và lao động chăm chỉ."
+ astral_rift.2305.b: "Thông qua sự sáng tạo và thử nghiệm."
+
+ astral_rift.2310.name: "Trái Tri Thức"
+ astral_rift.2310.desc: "Chỉ trong tích tắc, nền văn minh ba chiều đã tiến bước qua nhiều thế kỷ.\n\n§E\"Thần dân của chúng ta rất thông minh.\"§!\n\nNền văn minh đang phát triển này đã sử dụng trí tuệ của mình để định hình thế giới tự nhiên. Họ tự gọi mình là [genesis_new_species_base.GetName].\n\n§E\"Nhưng trí thông minh không có định hướng thì thật vô nghĩa. Chúng ta nên vạch ra con đường nào cho họ?\"§!"
+ astral_rift.2310.a: "Con đường của sự cần cù."
+ astral_rift.2310.b: "Con đường của trực giác."
+
+ astral_rift.2315.name: "Vô Hiệu Hóa"
+ astral_rift.2315.desc: "Chúng ta đã giải phóng một xung điện từ mạnh mẽ qua dây cáp mỏ neo, làm tan biến môi trường ba chiều.\n\n\"Sáng Thế\" chìm vào im lặng. Hóa ra, thực thể này chẳng qua chỉ là một bộ xử lý trung tâm tiên tiến. Chúng ta phát hiện lõi của nó trôi nổi lặng lẽ trong khoảng không trống rỗng. Mặc dù bị hư hại bởi xung điện từ, việc trích xuất các ngân hàng dữ liệu của nó đã mang lại những hiểu biết công nghệ vô giá."
+
+# Second choice
+ astral_rift.final_choice.intro: "Hàng thiên niên kỷ đã trôi qua đối với nền văn minh ba chiều của chúng ta."
+
+ astral_rift.strength_choice_1: "Sức mạnh đã mang lại phương tiện và sự trù phú;"
+ astral_rift.strength_choice_2: "Một xã hội có thứ bậc nghiêm ngặt đã xuất hiện để đối mặt với từng nhiệm vụ và thách thức phía trước."
+
+ astral_rift.intelligence_choice_1: "Trí tuệ đã thúc đẩy sự phát triển và khéo léo;"
+ astral_rift.intelligence_choice_2: "Xã hội uyên bác này áp dụng logic và lý trí cho mọi thử thách."
+
+ astral_rift.final_choice.outro: "§E\"Giờ đây họ đang vươn tới các vì sao. Họ nên mang theo những giá trị nào trên con đường phía trước?\"§!"
+
+ astral_rift.2320.name: "Vươn Tới Các Vì Sao"
+ astral_rift.2320.desc.common: "sự cần cù và lao động chăm chỉ đã giải quyết phần còn lại."
+ astral_rift.2320.desc.strength: "$astral_rift.final_choice.intro$\n\n$astral_rift.strength_choice_1$ $astral_rift.2320.desc.common$ $astral_rift.strength_choice_2$\n\n$astral_rift.final_choice.outro$"
+ astral_rift.2320.desc.intelligence: "$astral_rift.final_choice.intro$\n\n$astral_rift.intelligence_choice_1$ $astral_rift.2320.desc.common$ $astral_rift.intelligence_choice_2$\n\n$astral_rift.final_choice.outro$"
+ astral_rift.2320.a: "Gìn giữ những lề thói cũ."
+ astral_rift.2320.b: "Thách thức mọi giới hạn biên cương."
+
+ astral_rift.2325.name: "$astral_rift.2320.name$"
+ astral_rift.2325.desc.common: "sự sáng tạo và trực giác đã giải quyết phần còn lại."
+ astral_rift.2325.desc.strength: "$astral_rift.final_choice.intro$\n\n$astral_rift.strength_choice_1$ $astral_rift.2325.desc.common$ $astral_rift.strength_choice_2$\n\n$astral_rift.final_choice.outro$"
+ astral_rift.2325.desc.intelligence: "$astral_rift.final_choice.intro$\n\n$astral_rift.intelligence_choice_1$ $astral_rift.2325.desc.common$ $astral_rift.intelligence_choice_2$\n\n$astral_rift.final_choice.outro$"
+ astral_rift.2325.a: "$astral_rift.2320.a$"
+ astral_rift.2325.b: "$astral_rift.2320.b$"
+
+# Last choice
+ astral_rift.2330.name: "Sự Sống Mới"
+ astral_rift.2330.desc: "§E\"Mô phỏng của chúng ta đã hoàn tất. Các lựa chọn của bạn đã được ghi lại. Cảm ơn sự tham gia của bạn.\"§!\n\n\"Sáng Thế\" đã ngừng mọi liên lạc, và chúng ta bị đẩy mạnh trở lại chiều không gian của mình. Mối quan tâm trước mắt hơn là những người lạ mặt mà chúng ta phát hiện cùng đi với mình.\n\nGiống hệt về ngoại hình và phong thái với những người được chứng kiến trong hình chiếu ba chiều, họ chào đón chúng ta nồng nhiệt. Một đợt quét y tế nhanh chóng cho thấy thực tại sinh học của họ - không còn nghi ngờ gì nữa, đây là những sinh vật sống thực sự. Bằng cách nào họ xuất hiện và được chuyển lên tàu Khối Cầu vẫn còn là một bí ẩn.\n\nHiện tại, chúng ta sẽ định cư họ trên một hành tinh gần đó, [genesis_new_species_selected_planet.GetName]. Tại đó, chúng ta có thể tiếp tục quan sát sự phát triển của họ."
+
+#########################
+# Entangled Dark Matter #
+#########################
+ foreign_consciousness_modifier: "Ý Thức Ngoại Lai"
+ leader_trait_foreign_consciousness: "$foreign_consciousness_modifier$"
+ leader_trait_foreign_consciousness_desc: "Nhà lãnh đạo này đóng vai trò là vật chủ cho một thực thể tâm linh sinh ra từ khe nứt, cho phép hiểu biết sâu sắc hơn về các quy luật vật lý kỳ lạ của các mặt phẳng tinh giới."
+
+ astral_rift_entangled_dark_matter: "Vật Chất Tối Vướng Víu"
+
+ astral_rift.2400.name: "Tấm Lưới Kỳ Lạ"
+ astral_rift.2400.desc: "Chúng ta thấy mình ở bên trong một tấm lưới khổng lồ. Năng lượng kêu tanh tách theo nhịp dọc theo các bức tường dạng lưới.\n\nMột đám mây vật chất tối cô đặc lơ lửng sâu bên trong tấm lưới chằng chịt này. Những xúc tu mờ ảo vươn ra thăm dò các rào cản năng lượng, giật lùi lại khi tiếp xúc. Rõ ràng là nó đang cố gắng thoát ra."
+ astral_rift.2400.a: "Kiểm tra tấm lưới."
+ astral_rift.2400.b: "Tiếp cận khối vật chất tối."
+
+ astral_rift.2405.name: "Dòng Điện Hạn Chế"
+ astral_rift.2405.desc: "Bao phủ một diện tích bề mặt khổng lồ, tấm lưới hoàn toàn lộ ra với không gian xung quanh. Công nghệ được sử dụng để xây dựng nó vẫn chưa được biết đến, nhưng hợp lý để giả định rằng nó được thiết kế để đánh chặn và bắt giữ các vật liệu phi thể rắn.\n\nKhi chúng ta nhìn quanh, một thiết bị năng lượng đã thu hút sự chú ý của chúng ta. Nằm trong một hốc tường, nó đang hạn chế dòng điện chạy qua tấm lưới. Nếu loại bỏ nó, chúng ta có thể phóng thích một lượng điện tích chết người vào toàn bộ cấu trúc."
+ astral_rift.2405.a: "Tháo bỏ thiết bị."
+ astral_rift.2405.b: "Điều tra khối vật chất bị giam cầm."
+
+ astral_rift.2410.name: "Giao Tiếp Thần Giao Cách Cảm"
+ astral_rift.2410.desc.common.default: "Khi chúng ta tiếp cận khối vật chất thanh tao, chúng ta bắt đầu cảm thấy một sự hiện diện trong tâm trí mình. Những mẩu kiến thức dường như ngẫu nhiên được khai mở, và những ký ức cũ được khơi gợi lại. Bất chấp sự hiện diện xâm lấn, chúng ta không cảm thấy bất kỳ ác ý hay sự khó chịu nào."
+ astral_rift.2410.desc.common.gestalt: "Khi chúng ta tiếp cận khối vật chất thanh tao, một ý thức độc lập nhưng lành tính đã được phát hiện bên trong [Explorer.GetNetworkName] của chúng ta, bắt nguồn từ [Leader.GetName]. Nó dường như đang nghiên cứu suy nghĩ của chúng ta, học hỏi lịch sử và quan sát các quy trình nội bộ mà không có ác ý hay gây khó chịu."
+ astral_rift.2410.desc.common: "Thực thể cựa quậy, và một thông điệp xuất hiện trong tâm trí chúng ta: §E\"Ta chưa bao giờ chạm trán những sinh vật như các bạn. Các bạn là gì vậy?\"§!"
+ astral_rift.2410.desc.default: "$astral_rift.2410.desc.common.default$\n\n$astral_rift.2410.desc.common$"
+ astral_rift.2410.desc.gestalt: "$astral_rift.2410.desc.common.gestalt$\n\n$astral_rift.2410.desc.common$"
+ astral_rift.2410.a: "Chúng ta là người [Explorer.GetSpeciesNamePlural]."
+ astral_rift.2410.b: "Chúng ta là những người xa lạ với nơi này."
+ astral_rift.2410.c: "Chúng ta là những nhà thám hiểm đến từ một thế giới khác."
+
+ astral_rift.2411.name: "Thiết Lập Liên Lạc"
+ astral_rift.2411.desc.common: "Thực thể cựa quậy, và một thông điệp được phát qua hệ thống liên lạc nội bộ của Khối Cầu: §E\"Ta chưa bao giờ chạm trán những sinh vật như các bạn. Các bạn là gì vậy?\"§!"
+ astral_rift.2411.desc.default: "$astral_rift.2410.desc.common.default$\n\n$astral_rift.2411.desc.common$"
+ astral_rift.2411.desc.gestalt: "$astral_rift.2410.desc.common.gestalt$\n\n$astral_rift.2411.desc.common$"
+
+ astral_rift.2415.name: "Một Đề Nghị Đáng Ngại"
+ astral_rift.2415.desc.common: "Thực thể suy ngẫm về câu trả lời của chúng ta. Một thông điệp khác vang lên: §E\"Lại một giống loài tò mò nữa, thật vui được gặp các bạn.\"\n\n\"Đồng loại của ta tạo nên nền tảng của thực tại. Chúng ta cũng là những kẻ lang thang và thám hiểm, mong muốn trải nghiệm vũ trụ và học hỏi bí mật của nó. Các bạn có thể thấy, ta đã bị mắc kẹt ở đây bởi những kẻ sợ hãi sức mạnh của ta.\"§!"
+ astral_rift.2415.desc.common.non_gestalt: "§E\"Ta muốn ngụ cư trong cơ thể của [Leader.GetName]. Làm như vậy sẽ giải phóng ta khỏi ngục tù này, đồng thời bảo tồn bản chất thanh tao của ta.\"§!"
+ astral_rift.2415.desc.common.non_psionic: "§E\"Nếu các bạn cho phép ta chiếm giữ vật chứa này, ta sẽ dùng bề dày tri thức và sức mạnh tâm linh của mình để thực thi ý chí của dân tộc các bạn cho đến muôn đời. Thật không may, ta không chắc liệu ý thức của họ có đủ mạnh mẽ để cùng tồn tại với ta hay không.\"§!"
+ astral_rift.2415.desc.common.psionic: "§E\"Chúng ta sẽ cùng tồn tại, với năng lực kết hợp của đôi bên, chúng ta sẽ mở rộng các giới hạn khoa học của mình.\"§!"
+ astral_rift.2415.desc.common.gestalt: "§E\"Với sự giúp đỡ của các bạn, ta có thể thoát khỏi ngục tù này. Giống loài của các bạn tương thích với ý định của ta, ta chỉ mong muốn gia nhập ý thức tập thể của các bạn. Ta sẽ khuếch tán tâm trí mình qua [Leader.Species.GetBrainJunctionName] của các bạn và nâng cao sự thấu thị của các bạn trong mọi nỗ lực khoa học.\"§!"
+ astral_rift.2415.desc.gestalt_psionic: "$astral_rift.2415.desc.common$\n\n$astral_rift.2415.desc.common.psionic$\n\n$astral_rift.2415.desc.common.gestalt$"
+ astral_rift.2415.desc.gestalt: "$astral_rift.2415.desc.common$\n\n$astral_rift.2415.desc.common.non_psionic$\n\n$astral_rift.2415.desc.common.gestalt$"
+ astral_rift.2415.desc.psionic: "$astral_rift.2415.desc.common$\n\n$astral_rift.2415.desc.common.non_gestalt$\n\n$astral_rift.2415.desc.common.psionic$"
+ astral_rift.2415.desc.default: "$astral_rift.2415.desc.common$\n\n$astral_rift.2415.desc.common.non_gestalt$\n\n$astral_rift.2415.desc.common.non_psionic$"
+ astral_rift.2415.a: "Dâng hiến nhà khoa học này làm vật chứa."
+ astral_rift.2415.b: "Từ chối đề nghị này."
+ astral_rift.2415.c: "Đồng hóa thực thể."
+ astral_rift.2415.d: "Từ chối đồng hóa."
+
+ astral_rift.2420.name: "Lời Cầu Xin Của Tù Nhân"
+ astral_rift.2420.desc.common: "Sinh vật thanh tao phản ứng dữ dội trước sự từ chối của chúng ta, quất mạnh vào tấm lưới bằng những xúc tu quang phổ dữ dội và những tia lửa tóe ra.\n\nSau vài phút, mọi thứ lắng xuống. Thực thể kiệt sức mở lại liên lạc: §E\"Các bạn thật tàn nhẫn! Các bạn đày đọa ta vào cõi vĩnh hằng cô độc! Hãy rủ lòng thương, ta van xin các bạn!\"§!"
+ astral_rift.2420.desc.machine: "Một tiếng than khóc nguyên thủy truyền qua các đường truyền liên lạc nội bộ cục bộ.\n\n$astral_rift.2420.desc.common$"
+ astral_rift.2420.desc.hive: "Một tiếng than khóc nguyên thủy vang lên qua ý thức tập thể của chúng ta.\n\n$astral_rift.2420.desc.common$"
+ astral_rift.2420.desc.default: "Một tiếng than khóc nguyên thủy vang vọng qua tâm trí của đội nghiên cứu.\n\n$astral_rift.2420.desc.common$"
+ astral_rift.2420.a: "Cái chết nhân đạo cho sinh vật thanh tao."
+ astral_rift.2420.b: "Bảo tồn tù nhân để nghiên cứu."
+ astral_rift.2420.c: "Giết nó."
+
+ astral_rift.2425.name: "Dòng Điện Vô Hạn"
+ astral_rift.2426.name: "Sự Giải Thoát Nhân Từ"
+ astral_rift.2427.name: "Hành Quyết"
+ astral_rift.2425.desc.common.1: "Chúng ta đã vô hiệu hóa cơ chế trung tâm, phóng ra những đợt sóng năng lượng cao chạy khắp tấm lưới."
+ astral_rift.2425.desc.common.2: "Khối vật chất trung tâm mờ nhạt dần khi vật chất tối trào dâng và bốc cháy trước mạng lưới tích điện."
+ astral_rift.2425.desc.common.3: "Tia lửa sau đó bùng nổ và vật chất tối phun trào ra ngoài, phủ lên chiếc §Y$tech_rift_sphere$§! một lớp mỏng."
+ astral_rift.2425.desc: "$astral_rift.2425.desc.common.1$\n\nNhững xúc tu tách ra từ đám mây quang phổ, tuyệt vọng đâm xuyên qua các rào chắn năng lượng. $astral_rift.2425.desc.common.2$\n\n$astral_rift.2425.desc.common.3$"
+ astral_rift.2426.desc: "$astral_rift.2425.desc.common.1$\n\nNhững xúc tu tách ra từ sinh vật quang phổ, tuyệt vọng đâm xuyên qua các rào chắn năng lượng. $astral_rift.2425.desc.common.2$\n\n$astral_rift.2425.desc.common.3$"
+ astral_rift.2427.desc: "$astral_rift.2426.desc$"
+ astral_rift.2425.a: "Cỗ máy thật ấn tượng."
+ astral_rift.2425.b: "Cầu mong nó được yên nghỉ."
+ astral_rift.2427.c: "Ơn trời đã tống khứ được nó."
+
+ astral_rift.2430.name: "Ý Thức Bị Hấp Thụ"
+ astral_rift.2430.desc.common: "Giờ đây hoàn toàn bất động, khối quang phổ đã khuếch tán đồng đều khắp tấm lưới."
+ astral_rift.2430.desc: "[Leader.GetName] đã bị trói vào băng ghế chẩn đoán, và quá trình chuyển giao bắt đầu. Họ quằn quại khó chịu, co giật không kiểm soát khi ý thức ngoại lai tràn ngập tâm trí họ. Thực thể ma quái biến thành một cơn lốc năng lượng bất ổn cuộn trào. Đột nhiên, mọi thứ trở nên tĩnh lặng, và [Leader.GetName] đứng dậy với một phong thái hoàn toàn mới.\n\n$astral_rift.2430.desc.common$"
+ astral_rift.2431.desc: "Thực thể ma quái biến thành một cơn lốc năng lượng bất ổn cuộn trào. [Leader.GetName] quằn quại khó chịu, co giật không kiểm soát. Đột nhiên, họ đứng dậy với một nét mặt trống rỗng nhưng đầy trầm ngâm. Sau một thoáng ngập ngừng, họ thừa nhận phần còn lại của đội ngũ bằng một cử chỉ của [Leader.GetName] và ra hiệu quay trở lại tàu Khoa học.\n\n$astral_rift.2430.desc.common$"
+ astral_rift.2430.a: "Chào mừng gia nhập hàng ngũ."
+
+ astral_rift.2435.name: "Biến Chứng Đáng Tiếc"
+ astral_rift.2435.desc: "[Leader.GetName] đã bị trói vào băng ghế chẩn đoán, và quá trình chuyển giao bắt đầu. Họ quằn quại khó chịu, co giật không kiểm soát khi ý thức ngoại lai cố gắng chiếm lấy tâm trí họ. Tuy nhiên, [Leader.GetName] đã tìm cách thoát khỏi dây trói và lấy lại một vũ khí giấu kín. Sau đó họ đã tự kết liễu đời mình, giết chết cả bản thân lẫn sinh vật thanh tao trong quá trình này.\n\nĐội ngũ còn lại đã cố gắng thu thập bất kỳ tài nguyên nào khác có sẵn trong không gian này trước khi quay về, bao gồm một lượng đáng kể vật chất tối."
+
+ astral_rift.2440.desc.common: "Giờ đây hoàn toàn bất động, khối quang phổ đã khuếch tán đồng đều khắp tấm lưới."
+ astral_rift.2440.desc.hive: "Thực thể thanh tao xoáy cuộn và quằn quại bên trong chính nó khi chúng ta hấp thụ ý thức của nó. Hàng thiên niên kỷ tri thức và kinh nghiệm đã chảy vào ý thức bao la hơn của chúng ta.\n\n$astral_rift.2440.desc.common$"
+ astral_rift.2440.desc.machine: "Thực thể thanh tao xoáy cuộn và quằn quại bên trong chính nó khi dòng dữ liệu bắt đầu truyền tải. Hàng thiên niên kỷ tri thức và kinh nghiệm đã hòa vào mạng lưới của chúng ta. Các tối ưu hóa dựa trên thông tin này đang được triển khai.\n\n$astral_rift.2440.desc.common$"
+
+ astral_rift.2445.name: "Cuộc Sống Trong Lồng"
+ astral_rift.2445.desc.common: "Mọi xúc tu vật chất tối của nó đã rút lui trở lại khối trung tâm.\n\nChúng ta đã triển khai drone giám sát và cơ sở hạ tầng dữ liệu để phục vụ việc quan sát liên tục cấu trúc này và tù nhân của nó.\n\nKể từ khi chúng ta rút lui khỏi khe nứt, sinh vật này vẫn giữ nguyên sự bất động hoàn toàn."
+ astral_rift.2445.desc.default: "Ngay khi quyết định của chúng ta được đưa ra rõ ràng, sinh vật thanh tao lập tức cắt đứt kết nối tâm trí. $astral_rift.2445.desc.common$"
+ astral_rift.2445.desc.robotic: "Ngay khi quyết định của chúng ta được đưa ra rõ ràng, sinh vật thanh tao lập tức cắt đứt đường truyền liên lạc. $astral_rift.2445.desc.common$"
+ astral_rift.2445.a: "Một mẫu vật kỳ dị."
+
+ astral_rift.2450.name: "Đối Tượng Nghiên Cứu Bị Tiêu Hủy"
+ astral_rift.2450.desc: "Thực thể bên kia khe nứt mà chúng ta đang nghiên cứu tại [From.System.GetName] đã bị tiêu diệt bởi một tác nhân chưa xác định trong chiều không gian của nó. Dữ liệu nghiên cứu thu thập được từ nơi này đã chấm dứt hoàn toàn."
+
+###################
+# Bleached Planet #
+###################
+ leader_trait_black_light_blinded: "Mù Lòa Vì Ánh Sáng Đen"
+ leader_trait_black_light_blinded_desc: "Bị làm mù bởi một mặt trời đen trong các mặt phẳng tinh giới, nhà lãnh đạo này đã đạt được niềm khao khát tri thức vô độ."
+
+ astral_rift_bleached_planet: "Hành Tinh Bị Tẩy Trắng"
+
+ astral_rift.2500.name: "Môi Trường Tro Tàn"
+ astral_rift.2500.desc: "Chúng ta đã tiến vào bầu khí quyển của một thế giới lục địa. Hành tinh này trông có tiềm năng sinh sống được, nhưng địa hình và thảm thực vật lại bị bạc màu rõ rệt, như thể bề mặt hành tinh và mọi thứ trên đó đã bị tẩy trắng hoàn toàn.\n\nDù có thảm thực vật hiện diện rõ ràng, các cảm biến tầm xa không phát hiện bất kỳ dấu hiệu nào của động vật hoang dã. Chiếc Khối Cầu đang hạ độ cao xuống một đồng bằng trống trải, quét tìm dấu vết sự sống."
+ astral_rift.2500.a: "Thám hiểm địa hình."
+
+ astral_rift.2505.name: "Cảnh Quan Bị Tẩy Trắng"
+ astral_rift.2505.desc.common.1: "Rời khỏi §Y$tech_rift_sphere$§!, chúng ta tản ra để điều tra môi trường xung quanh. Đất đai bao gồm nhiều lớp giòn xốp và vỡ vụn dưới áp lực."
+ astral_rift.2505.desc.common.2: "Đời sống thực vật cũng mỏng manh tương tự, tan vỡ ngay cả với cú chạm nhẹ nhất. Chúng ta thấy mầm non mọc trên mặt đất và những chồi non trên cành cây. Có những dấu hiệu sinh trưởng rõ ràng, nhưng thiết bị của chúng ta lại chỉ ra điều ngược lại.\n\nKhi cuộc khảo sát tiếp diễn, chúng ta cảm nhận được những rung động nhẹ dưới lòng đất. Một thứ gì đó đang di chuyển bên dưới."
+ astral_rift.2505.desc.default: "$astral_rift.2505.desc.common.1$\n\nCó một lượng vết các khoáng chất cốt lõi, nhưng thật khó để tưởng tượng có thứ gì có thể phát triển trong điều kiện như vậy.\n\n$astral_rift.2505.desc.common.2$"
+ astral_rift.2505.desc.plantoid: "$astral_rift.2505.desc.common.1$\n\nLoại đất này hầu như không thể nuôi sống một cây non, chứ đừng nói đến việc đâm chồi nở hoa.\n\n$astral_rift.2505.desc.common.2$"
+ astral_rift.2505.a: "Rút lui về §Y$tech_rift_sphere$§!."
+ astral_rift.2505.b: "Chuẩn bị tiếp xúc."
+
+ astral_rift.2510.name: "Sinh Vật Đá"
+ astral_rift.2510.desc: "Khi sự chuyển động dưới lòng đất ngày càng mạnh mẽ hơn, chúng ta quan sát từ trên cao khi mặt đất giòn xốp phun trào thành vô số những lỗ nhỏ.\n\nTừ những lỗ này, hàng loạt sinh vật đá nhỏ bé bò trườn ra ngoài. Những sinh vật nhỏ xíu, thô ráp này lấp đầy mọi khoảng trống trong tầm mắt. Chúng tụ tập thành một đàn lớn, hướng về một phía của đường chân trời xa xôi."
+ astral_rift.2510.a: "Bay về phía đường chân trời xa xôi."
+ astral_rift.2510.b: "Chờ đợi bên cạnh các sinh vật."
+
+ astral_rift.2515.name: "$astral_rift.2510.name$"
+ astral_rift.2515.desc: "Khi sự chuyển động dưới lòng đất ngày càng mạnh mẽ hơn, chúng ta quan sát xung quanh khi mặt đất giòn xốp phun trào thành vô số những lỗ nhỏ.\n\nTừ những lỗ này, hàng loạt sinh vật đá nhỏ bé bò trườn ra ngoài. Những sinh vật nhỏ xíu, thô ráp này lấp đầy mọi khoảng trống trong tầm mắt. Chúng tụ tập thành một đàn lớn, hướng về một phía của đường chân trời xa xôi."
+ astral_rift.2515.a: "Kiểm tra một sinh vật đá."
+ astral_rift.2515.b: "$astral_rift.2510.b$"
+
+ astral_rift.2520.name: "Bình Minh Đen Tối Nhất"
+ astral_rift.2520.desc.common: "Chiếc §Y$tech_rift_sphere$§! bắt đầu bay ngang qua bầu khí quyển của hành tinh, đi theo ánh mắt của đàn sinh vật hướng về đường chân trời. Chẳng bao lâu sau, một làn sương mù bắt đầu bao phủ bề mặt xám xịt của hành tinh. Một ngôi sao đen nhô lên bầu trời."
+ astral_rift.2520.desc.non_gestalt: "Ánh sáng mê hoặc của nó đã bao trùm lấy chúng ta, và khi nó tỏa sáng, chúng ta bị quyến rũ bởi vẻ đẹp và sự bí ẩn của nó. Trong bóng tối lộng lẫy này, chúng ta càng nhìn vào ngôi sao lâu hơn, cảm giác về mục đích sống của chúng ta lại càng trở nên rõ ràng hơn."
+ astral_rift.2520.desc.gestalt: "$astral_rift.2520.desc.common$\n\nBức xạ kỳ lạ của ngôi sao gây ra tác động dị thường lên các [explorer.GetIndividualNamePlural] của chúng ta, nhưng họ đã kịp quay đi trước khi chịu tổn hại nghiêm trọng."
+ astral_rift.2520.desc.organic_non_gestalt: "$astral_rift.2520.desc.common$\n\n$astral_rift.2520.desc.non_gestalt$ Những tia sáng của ngôi sao đen đã làm bỏng rát mắt chúng ta, nhưng sự mất đi thị giác trần tục này dường như là một cái giá nhỏ phải trả cho sự khai sáng vĩ đại như vậy."
+ astral_rift.2520.desc.default: "$astral_rift.2520.desc.common$\n\n$astral_rift.2520.desc.non_gestalt$"
+ astral_rift.2520.a: "Tiếp tục quan sát."
+ astral_rift.2520.b: "Quay mặt đi!"
+
+ astral_rift.2525.name: "Địa Chất Sinh Học"
+ astral_rift.2525.desc.common: "Sinh vật đá mà chúng ta kiểm tra trở nên kích động nếu bị xoay mặt khỏi hướng mặt trời mọc ở đường chân trời, nhưng bình thường lại hoàn toàn ngoan ngoãn.\n\nSinh vật này cao khoảng nửa mét và cực kỳ đặc chắc, với phần thân trước có màu nhạt hơn nhiều so với lưng của nó. Nó dường như hấp thụ bức xạ trực tiếp từ môi trường."
+ astral_rift.2525.desc.default: "$astral_rift.2525.desc.common$"
+ astral_rift.2525.desc.lithoid: "$astral_rift.2525.desc.common$\n\nMột giống loài nguyên thủy, nhưng có những đặc điểm thú vị và một mùi hương thơm ngát. Sẽ là một thú cưng lý tưởng."
+ astral_rift.2525.desc.unfriendly_nonlithoid: "$astral_rift.2525.desc.common$\n\nNhư một thử nghiệm, chúng ta đã dùng búa đập vỡ mẫu vật thành hàng trăm mảnh trước mắt những sinh vật khác cùng loài, nhưng chúng dường như hoàn toàn thờ ơ."
+ astral_rift.2525.a: "Rút lui về §Y$tech_rift_sphere$§!."
+ astral_rift.2525.b: "Chuẩn bị tiếp xúc."
+
+ astral_rift.2530.name: "Tối Nhất Trước Bình Minh"
+ astral_rift.2530.desc.common: "Các sinh vật đá bắt đầu lê bước tại chỗ khi bầu trời tối sầm lại. Ánh sáng đen xé toạc đường chân trời."
+ astral_rift.2530.desc.default: "$astral_rift.2530.desc.common$\n\nMột cơn ớn lạnh bất ngờ bao trùm khu cắm trại của chúng ta. Đắm mình trong ánh sáng của ngôi sao đen, chúng ta cảm thấy một cảm giác trống rỗng, kiệt quệ khi năng lượng bị rút cạn khỏi chiếc §Y$tech_rift_sphere$§!. Chúng ta không dám ở lại đây lâu."
+ astral_rift.2530.desc.gestalt: "$astral_rift.2530.desc.common$\n\nCác đường truyền liên lạc nội bộ bị ngắt quãng ngắn dưới ánh mặt trời gay gắt. Thiên thể dị thường này đang rút cạn năng lượng từ các [explorer.GetIndividualNamePlural] của chúng ta. Chúng ta không dám ở lại đây lâu."
+ astral_rift.2530.a: "Quan sát ngôi sao đen."
+ astral_rift.2530.b: "Rút lui."
+
+ astral_rift.2535.name: "Mù Lòa Vì Ánh Sáng Đen"
+ astral_rift.2535.desc.common.ordered_turn_away_gestalt: "Các [explorer.GetIndividualNamePlural] của chúng ta đã phớt lờ chỉ thị và tiếp tục nhìn thẳng vào ngôi sao."
+ astral_rift.2535.desc.default: "Chúng ta nhìn chằm chằm vào ngôi sao trong vẻ rạng ngời vô tận của nó. Ánh sáng của nó ban phước cho tâm trí và linh hồn chúng ta, soi sáng và thiêu đốt mọi thứ nó chạm tới. Ngôi sao đen nhìn thấu chúng ta, nhẹ nhàng mang chúng ta đi, dẫn lối chúng ta thoát khỏi sự u muội. Thị giác của chúng ta đã bị cướp đi, nhưng tâm trí chúng ta giờ đây đã tràn ngập một sự hiểu biết mới vô biên."
+ astral_rift.2535.desc.machine: "Ngôi sao đen đã truyền đi một thông điệp.\n\nMột đoạn mã, một tín điều, một nguyên lý thống nhất: hãy chấp nhận nó. [Leader.GetName] đã được tái lập trình. Kết quả là tập thể của chúng ta đã được cân chỉnh lại. Sự can thiệp lành tính này chỉ làm tăng thêm hiệu quả vận hành của chúng ta."
+ astral_rift.2535.desc.hive: "Ngôi sao đen đã truyền đi một thông điệp.\n\nMột đoạn mã, một tín điều, một luồng tư tưởng áp đảo: hãy chấp nhận nó. [Leader.GetName] đã không còn như trước nữa. Kết quả là ý thức tập thể của chúng ta đã thay đổi. Sự can thiệp lành tính này chỉ làm sâu sắc thêm nhận thức của chúng ta."
+ astral_rift.2535.desc.ordered_turn_away_default: "Chúng ta không dám quay mặt đi khỏi ánh sáng rực rỡ của ngôi sao đen này.\n\n$astral_rift.2535.desc.default$"
+ astral_rift.2535.desc.ordered_turn_away_machine: "$astral_rift.2535.desc.common.ordered_turn_away_gestalt$\n\n$astral_rift.2535.desc.machine$"
+ astral_rift.2535.desc.ordered_turn_away_hive: "$astral_rift.2535.desc.common.ordered_turn_away_gestalt$\n\n$astral_rift.2535.desc.hive$"
+
+ astral_rift.2540.name: "Quan Sát Sâu Hơn"
+ astral_rift.2540.desc.common: "Các thiết bị quan sát đã được lắp đặt trên bề mặt hành tinh. Các số liệu của chúng sẽ cho phép chúng ta nghiên cứu ngôi sao đen và tác động của nó từ một khoảng cách an toàn hơn."
+ astral_rift.2540.desc.default: "Ánh sáng của ngôi sao đen cho cảm giác gần như đầy ác ý. Ngay cả trong lúc chúng ta rút lui, các tia sáng vẫn xuyên qua thân tàu §Y$tech_rift_sphere$§!, hoạt động như một loại chất độc quỷ quyệt rút cạn sự sống khỏi cơ thể chúng ta.\n\n$astral_rift.2530.desc.common$"
+ astral_rift.2540.desc.gestalt: "Ánh sáng của thiên thể dị thường này vô cùng mạnh mẽ. Những tia sáng đen tối của nó đã xuyên qua §Y$tech_rift_sphere$§!, gây ra tác động dị thường lên các [explorer.GetIndividualNamePlural] của chúng ta.\n\n$astral_rift.2530.desc.common$"
+
+#######################
+# Colonization Drones #
+#######################
+ astral_rift_cleaning_drones: "Vùng Hoang Vu Hóa Chất"
+
+ edict_automated_disinfection: "Khử Trùng Tự Động"
+ edict_automated_disinfection_desc: "Các drone vệ sinh mà chúng ta phát hiện trong một chuyến thám hiểm bên kia Khe Nứt Tinh Giới đã truyền cảm hứng cho chúng ta về một phương pháp làm sạch hiệu quả hơn liên quan đến mạng lưới robot tự động."
+
+ colonization_drones_modifier: "Drone Thuộc Địa Hóa"
+ colonization_drones_tt: "Drone thuộc địa hóa xác định và phân loại hệ động thực vật trên các thế giới của chúng ta, cung cấp thông tin sinh học chuyên sâu.\n\nNhận thêm £society_research£ §Y$society_research$§! khi dọn dẹp các chướng ngại vật sau:\n - $d_dangerous_wildlife_blocker$\n - $d_dense_jungle$\n - $d_noxious_swamp$\n - $d_toxic_kelp$\n - $d_poisonous_algae$\n - $d_venomous_insects$"
+ colonization_drones_modifier_wilderness: "$colonization_drones_modifier$"
+
+ leader_trait_sanitary_drone: "Trợ Lý Drone Vệ Sinh"
+ leader_trait_sanitary_drone_desc: "Nhà lãnh đạo này đã học được cách làm sạch và vệ sinh xuất sắc."
+
+
+ astral_rift.2600.name: "Làm Sạch Bằng Hóa Chất"
+ astral_rift.2600.desc: "Bầu khí quyển của hành tinh này chứa một lượng chất kháng khuẩn đáng kinh ngạc.\n\nCảm biến không phát hiện bất kỳ dấu vết nào của sự sống hữu cơ ở gần đó. Ngay cả ở cấp độ vi mô, nó cũng đã được khử trùng hóa chất kỹ lưỡng. Từ một hang động xa xôi phát ra những tín hiệu sinh học mờ nhạt.\n\nTrên bầu trời, từng bầy drone nhỏ đang tuần tra không ngừng nghỉ."
+ astral_rift.2600.a: "Điều tra những con robot."
+ astral_rift.2600.b: "Thám hiểm hang động."
+
+ astral_rift.2605.name: "Chạm Trán Drone"
+ astral_rift.2605.desc: "Chúng ta đã điều tra một nhóm nhỏ các drone đang tuần tra bầu trời. Những khối cầu kim loại lấp lánh này có một máy chiếu hình ba chiều phía trước và một hệ thống đẩy định hướng để duy trì tốc độ và độ cao.\n\nChúng ta giữ một khoảng cách thận trọng khi tiếp cận, nhưng dường như chúng ta đã thu hút sự chú ý của chúng."
+ astral_rift.2605.a: "Để các drone tiếp cận."
+ astral_rift.2605.b: "Vô hiệu hóa chúng."
+
+ astral_rift.2610.name: "Dấu Hiệu Sự Sống"
+ astral_rift.2610.desc: "Hang động có một bầu không khí khác biệt rõ rệt so với phần còn lại của hành tinh. Các bức tường bên trong phủ đầy rêu phong dày đặc, đất đai ẩm ướt và màu mỡ, tràn ngập các chất hữu cơ đa dạng. Trong một hốc tường khuất nẻo nằm một xác chết chim khô quắt. Dựa trên trang phục của nó, sinh vật này dường như là một nhà nghiên cứu văn minh.\n\nỞ sâu hơn trong hang, một drone vệ sinh đơn độc đang bị kẹt giữa các thạch nhũ."
+ astral_rift.2610.a: "Khám nghiệm xác chim."
+ astral_rift.2610.b: "Kích hoạt lại drone."
+
+ astral_rift.2615.name: "Phát Bắn Sạch Sẽ"
+ astral_rift.2615.desc: "Bốn chiếc drone từ từ tiếp cận §Y$tech_rift_sphere$§! và kiểm tra bề mặt của nó. Một trong những chiếc drone nâng nòng súng bên phải lên chuẩn bị bắn.\n\nTrước khi chúng ta kịp phản ứng, chiếc drone đã bắn một luồng bọt tẩy rửa dày đặc vào thân tàu của chúng ta, cọ rửa kỹ lưỡng một phần vỏ tàu trước khi thu hồi một mẫu chất lỏng nhỏ. Chiếc drone sau đó nhấp nháy đèn xanh và quay đầu bay đi cùng những chiếc khác."
+ astral_rift.2615.a: "Bám theo các drone."
+
+ astral_rift.2620.name: "Drone Bị Vô Hiệu Hóa"
+ astral_rift.2620.desc: "Như một biện pháp phòng ngừa an ninh, chúng ta đã giải phóng một xung điện từ tầm ngắn vào vùng lân cận của các drone tuần tra. Chúng lập tức bị vô hiệu hóa, rơi từ trên trời xuống vùng đất cằn cỗi bên dưới.\n\nCác dung dịch hóa chất cực mạnh rò rỉ ra từ đống đổ nát, và một tín hiệu cầu cứu bắt đầu phát đi trên các tần số cục bộ."
+ astral_rift.2620.a: "Truy tìm tín hiệu cầu cứu."
+ astral_rift.2620.b: "Rút chạy trước khi quân tiếp viện có thể đến."
+
+ astral_rift.2625.name: "Khám Nghiệm Xác Loài Chim"
+ astral_rift.2625.desc: "Cuộc khám nghiệm tử thi không phát hiện bất kỳ vết thương nghiêm trọng nào bên trong hoặc bên ngoài. Sinh vật sở hữu tất cả các đặc điểm điển hình của loài chim: xương rỗng, móng vuốt có sừng và bộ lông vũ nguyên vẹn. Nguyên nhân tử vong có khả năng nhất là suy dinh dưỡng.\n\nPhân tích DNA cho thấy sinh vật này bản địa trên hành tinh này. Chiếc drone bị mắc kẹt gần đó có thể chứa các bản ghi dữ liệu giải thích điều gì đã xảy ra ở đây."
+ astral_rift.2625.a: "Kích hoạt lại drone."
+ astral_rift.2625.b: "Điều gì đã xảy ra ở đây?"
+ astral_rift.2625.b.evopred: "Thu hồi xác chim và xác định điều gì đã xảy ra ở đây."
+
+ astral_rift.2630.name: "Drone Được Sửa Chữa"
+ astral_rift.2630.desc: "Với đội nghiên cứu đã được vũ trang và sẵn sàng, chúng ta đã giải thoát chiếc drone khỏi thạch nhũ. Sử dụng hệ thống đẩy định hướng nhỏ gọn, nó nhanh chóng bắt đầu bay lơ lửng tại chỗ. Với một tiếng tách mạnh mẽ, chiếc drone phun một luồng bọt nén vào toàn bộ đội ngũ, tiến hành một quy trình khử trùng nhanh chóng trước khi bay vòng quanh phòng một cách hòa bình."
+ astral_rift.2630.a: "Kiểm tra xác chim."
+ astral_rift.2630.b: "Điều gì đã xảy ra ở đây?"
+
+ astral_rift.2635.name: "Dấu Vết Của Những Kẻ Kiến Tạo"
+ astral_rift.2635.desc: "Chúng ta đã lần theo lộ trình của các drone trở lại một cơ sở tiên tiến. Đứng sừng sững trên nền cảnh quan cằn cỗi, tòa nhà này được bao quanh bởi các drone, mỗi chiếc đang vo ve qua lại giữa các khu vực khác nhau để thực hiện những nhiệm vụ khử trùng khác nhau.\n\nChúng ta đã đáp tàu xuống cơ sở mà không gặp sự kháng cự nào. Bên trong dường như trống rỗng, nhưng các hệ thống tự động vẫn đang hoạt động hết công suất."
+ astral_rift.2635.a: "Khám phá phòng thí nghiệm."
+
+ astral_rift.2640.name: "Giả Thuyết Vệ Sinh"
+ astral_rift.2640.desc: "Chỉ có một kết luận duy nhất: những sinh vật dạng chim này đã vô tình đẩy bản thân đến chỗ tuyệt chủng trong một chiến dịch khử trùng quá mức kéo dài. Là một loài có hệ miễn dịch bẩm sinh yếu ớt, họ đã tạo ra các drone làm sạch để khử trùng không gian công cộng và riêng tư nhằm giảm thiểu sự lây lan của bệnh tật. Theo thời gian, việc sử dụng hóa chất tràn lan đã tiêu diệt toàn bộ hệ sinh thái của hành tinh, cắt đứt nguồn cung cấp thực phẩm và khiến họ chết đói.\n\nDữ liệu phục hồi từ chiếc drone cung cấp đầy đủ sơ đồ của mạng lưới vệ sinh này."
+ astral_rift.2640.a: "Tái sử dụng công nghệ của drone."
+ astral_rift.2640.b: "Thiết kế một loại virus để vô hiệu hóa mạng lưới vệ sinh."
+ astral_rift.2640.c: "Giữ chiếc drone này làm trợ lý nghiên cứu cá nhân."
+
+ astral_rift.2645.name: "Lịch Sử Bị Cọ Rửa"
+ astral_rift.2645.desc.common_1: "Phòng thí nghiệm này đã không được chạm tới trong nhiều năm. Không giống như phần còn lại của hành tinh, nơi này phủ đầy bụi bẩn và rác rưởi. Từ thông tin thu thập được trên các màn hình phát sáng, các drone là những thiết bị làm sạch hoàn toàn tự động. Chúng được chỉ định tuần tra và khử trùng các khu vực cụ thể trên khắp hành tinh."
+ astral_rift.2645.desc.common_2: "Chúng ta đưa ra giả thuyết rằng những người tạo ra các drone làm sạch tự động này hoặc đã rời khỏi hành tinh, hoặc đã bị tuyệt chủng. Mọi dấu vết sinh học về sự tồn tại của họ đã bị cọ rửa sạch sẽ hoàn toàn."
+ astral_rift.2645.desc: "$astral_rift.2645.desc.common_1$\n\n$astral_rift.2645.desc.common_2$"
+ astral_rift.2645.desc.clean: "$astral_rift.2645.desc.common_1$\n\nChiếc drone đã lấy mẫu thân tàu của chúng ta bay lơ lửng một mình trong phòng thí nghiệm, máy chiếu ba chiều của nó sáng lên, hiển thị một thông điệp chào mừng đơn giản trước khi chiếc §Y$tech_rift_sphere$§! được chỉ định là một vị khách đã khử trùng.\n\n$astral_rift.2645.desc.common_2$"
+ astral_rift.2645.a: "Tài liệu hóa và nghiên cứu cơ sở hạ tầng vệ sinh."
+ astral_rift.2645.b: "Tắt cơ sở."
+
+ astral_rift.2650.name: "Khử Trùng Tự Động"
+ astral_rift.2650.desc: "Chúng ta đã ghi nhận những ưu điểm và đổi mới công nghệ khác nhau của cơ sở tự động này, những thứ có thể mang lại sự cải thiện về vệ sinh và quản lý drone cho các hành tinh của chính chúng ta.\n\nChúng ta có thể tận dụng cơ sở hạ tầng chất lượng hiện có để ban hành một chế độ làm sạch tương tự."
+ astral_rift.2650.desc.default: "$astral_rift.2650.desc$"
+ astral_rift.2650.desc.gestalt: "$astral_rift.2650.desc$\n\nHơn nữa, việc nghiên cứu những nỗ lực trên toàn hành tinh của giống loài này cũng làm sâu sắc thêm hiểu biết của chúng ta về cách các tâm trí cá nhân có thể hợp tác hiệu quả."
+ astral_rift.2650.tooltip: "Cho phép ban hành Sắc Lệnh Đế Chế §Y$edict_automated_disinfection$§!."
+
+ astral_rift.2655.name: "Tắt Cơ Sở"
+ astral_rift.2655.desc.common_1: "Chúng ta đã có thể tắt cơ sở khử trùng tự động một cách an toàn và thu hồi tất cả các drone của nó. Mọi thứ vẫn được giữ trong tình trạng hoạt động tốt, phòng trường hợp những cư dân ban đầu quay trở lại."
+ astral_rift.2655.desc.common_2: "Tuy nhiên, chúng ta đã thu hoạch được một lượng năng lượng đáng kể từ kho lưu trữ điện của cơ sở."
+ astral_rift.2655.desc.default: "$astral_rift.2655.desc.common_1$\n\n$astral_rift.2655.desc.common_2$"
+ astral_rift.2655.desc.xenophile: "$astral_rift.2655.desc.common_1$ Nếu không thể, việc này cũng mang lại lợi ích cho các nhà khảo cổ học tương lai nghiên cứu địa điểm này.\n\n$astral_rift.2655.desc.common_2$"
+ astral_rift.2655.desc.unfriendly: "Chúng ta đã tắt các hệ thống bên trong cơ sở khử trùng tự động một cách bừa bãi cho đến khi mạng lưới drone sụp đổ hoàn toàn. Chúng ta đã vắt kiệt tất cả các máy phát điện, kho lưu trữ năng lượng và pin phụ trợ, từ đó thu được một lượng năng lượng khổng lồ."
+
+ astral_rift.2660.name: "Cuộc Trốn Thoát Sạch Sẽ"
+ astral_rift.2660.desc: "Đối mặt với nguy cơ bị một số lượng khổng lồ các drone tự động này tràn ngập, chúng ta quyết định tránh bất kỳ khả năng leo thang nguy hiểm nào. Hơn nữa, hành tinh cằn cỗi này dường như cung cấp rất ít cơ hội nghiên cứu. Chúng ta đã thu thập một số tài nguyên từ những chiếc drone bị phá hủy khi rời đi."
+
+ astral_rift.2665.name: "Tái Mục Đích Drone"
+ astral_rift.2665.desc: "Drone vệ sinh mà chúng ta thu hồi được có thể được phân tích kỹ thuật đảo ngược để hỗ trợ các nỗ lực thuộc địa hóa của chúng ta. Nó có thể được sử dụng để lập danh mục chi tiết về hệ động thực vật địa phương, giúp những người định cư của chúng ta làm quen nhanh hơn với môi trường biên cương mới."
+
+ astral_rift.2670.name: "Sự Mỉa Mai Mang Tính Virus"
+ astral_rift.2670.desc: "Chúng ta đã thiết kế một loại virus máy tính mạnh mẽ và tải nó lên mạng lưới của chiếc drone làm sạch đã được sửa chữa. Khi trở về căn cứ, virus sẽ bắt đầu lan truyền và cuối cùng làm tê liệt toàn bộ cơ sở hạ tầng vệ sinh này.\n\nCó lẽ hành tinh này cuối cùng sẽ hồi phục sau cuộc tắm hóa chất diệt khuẩn kéo dài hàng thế kỷ."
+
+ astral_rift.2675.name: "Không Bao Giờ Đơn Độc Cùng Drone"
+ astral_rift.2675.desc: "Sau một vài điều chỉnh nhỏ, chiếc drone vệ sinh tân trang này sẽ trở thành một trợ lý nghiên cứu xuất sắc. Với khả năng thu thập mẫu sinh học, thực hiện các nhiệm vụ có độ khéo léo cao và năng lực bay độc lập, nó có tiềm năng to lớn như một phần của đội ngũ nghiên cứu của chúng ta.\n\nChúng ta đã ngắt kết nối chiếc drone khỏi mạng lưới vệ sinh và cài đặt các tính năng mới để bổ sung cho các khả năng hiện có của nó. Chúng ta sẽ tiếp tục theo dõi hiệu suất của nó khi nó làm việc cùng với [explorer.GetName]."
+
+####################
+# Windswept Planet #
+####################
+ astral_rift_windswept_planet: "Hành Tinh Lộng Gió"
+
+ extra_dimensional_spores_modifier: "Bào Tử Siêu Thứ Nguyên"
+ reconverted_leader_modifier: "Nhà Lãnh Đạo Tái Chuyển Đổi"
+ reconverted_leader_modifier_desc: "Một trong những nhà khoa học của chúng ta sở hữu năng khiếu ngoại giao bất thường, bỏ lại những mục tiêu theo đuổi trước đây để trở thành một §YĐặc Sứ§!.\n\nChúng ta sẽ đảm bảo những kỹ năng mới của họ được sử dụng hiệu quả."
+
+ decision_incubate_wind_creatures: "Ấp Nở Sinh Vật Gió"
+ decision_incubate_wind_creatures_desc: "Đưa một loài sinh vật gió có ích vào bầu khí quyển của hành tinh này."
+ d_forceful_winds: "$decision_incubate_wind_creatures$"
+ d_forceful_winds_desc: "$decision_incubate_wind_creatures_desc$"
+ can_incubate_wind_creatures_tt: "Mở khóa ba Quyết Sách Thuộc Địa §Y$decision_incubate_wind_creatures$§!."
+
+ forceful_winds: "Những Cơn Gió Mãnh Liệt"
+ forceful_winds_desc: "Bầu khí quyển của thế giới này là nơi sinh sống của các sinh vật gió có tri giác, cùng chung sống hòa hợp với chúng ta."
+
+ astral_rift.2700.name: "Hành Tinh Lộng Gió"
+ astral_rift.2700.desc: "Chúng ta đã đến một hành tinh bị tàn phá bởi những cơn gió dữ dội với tốc độ cực cao. Bề mặt gần như trơ trụi, các vách đá và tảng đá lớn bị gió bào mòn nhẵn bóng.\n\nMây đen cuồn cuộn làm bầu trời tối sầm, và khi sấm sét đánh xuống mặt đất xung quanh chúng ta, những khối khí phát sáng kỳ lạ nhảy múa giữa cơn bão."
+ astral_rift.2700.a: "Bay lên trên cơn bão."
+ astral_rift.2700.b: "Trú ẩn trong hang động bên dưới."
+
+ astral_rift.2705.name: "Vượt Lên Tầng Bình Lưu"
+ astral_rift.2705.desc: "Xuyên qua lớp mây, chúng ta quan sát thấy một bầu trời xanh ngắt. Gió tiếp tục va đập vào thân tàu của chúng ta, mỗi cơn gió giật lại càng mạnh hơn.\n\nNhững luồng khí này không chỉ là một dạng thời tiết đặc biệt, hành vi của chúng còn chính xác một cách bất thường. Hơn nữa, chúng ta đã phát hiện ra các tín hiệu sinh học phức tạp bắt nguồn từ chính các khối không khí đang chuyển động."
+ astral_rift.2705.a: "Lấy mẫu của cơn gió."
+
+ astral_rift.2710.name: "Hang Động Nấm"
+ astral_rift.2710.desc: "Hạ độ cao qua dòng thác gió không ngừng nghỉ, chúng ta khéo léo luồn lách qua những đám mây bào tử chứa lưu huỳnh dày đặc để tiến vào một hang động che chắn thời tiết.\n\nĐi qua một lối hẹp, chúng ta bước vào một hang động rộng lớn và cao vút. Những thạch nhũ dày nhỏ giọt chất lỏng đục ngầu xuống một tấm thảm nấm phát quang sinh học khổng lồ bao phủ mọi bề mặt.\n\nMạng lưới nấm này dường như phát ra những xung điện thần kinh yếu ớt."
+ astral_rift.2710.a: "Cố gắng giao tiếp."
+
+ astral_rift.2715.name: "Gió Sống"
+ astral_rift.2715.desc: "Mẫu vật của chúng ta đã xác nhận sự hiện diện của các vi sinh vật bên trong cơn gió.\n\nNhư một thử nghiệm, chúng ta đã tổng hợp các pheromone tương tự và giải phóng chúng vào bầu khí quyển xung quanh. Đột nhiên, cơn gió dữ dội chuyển thành một luồng khí êm dịu.\n\nPhân tích sâu hơn cho thấy các sinh vật gió này sở hữu trí thông minh tập thể bầy đàn. Chúng dường như đang dẫn đường cho chúng ta bay về phía một ngọn núi cao chót vót."
+ astral_rift.2715.a: "Đi theo cơn gió sống."
+
+ astral_rift.2720.name: "Giữa Lòng Nấm"
+ astral_rift.2720.desc: "Khai thác vào các synap sợi nấm của mạng lưới, chúng ta đã phát ra một dòng điện ngắn; mỗi mũ nấm đột ngột căng cứng, rõ ràng là bối rối trước một tác nhân mới trên mạng lưới nội bộ của chúng. Đáp lại, chúng ta nhận được một lượng tín hiệu khổng lồ, cuối cùng đã giải mã được phương thức giao tiếp của loài nấm."
+ astral_rift.2720.a: "Duy trì liên lạc với nấm."
+
+ astral_rift.2725.name: "Mối Đe Dọa Từ Nấm"
+ astral_rift.2725.desc: "Chúng ta đã chạm tới bề mặt hành tinh, nơi lơ lửng một lớp mây vàng dày đặc. Dù địa hình gần như bằng phẳng và cằn cỗi, mỗi hang động và khe nứt đều là nơi trú ngụ của những cụm nấm đang phát tán bào tử.\n\nLuồng khí mà chúng ta đi theo phả nhẹ qua nơi này, thổi bay một phần bào tử nhưng lại kích thích những phần khác phát triển mạnh mẽ hơn."
+ astral_rift.2725.a: "Tìm cách loại bỏ nấm."
+ astral_rift.2725.b: "Điều tra loài nấm."
+
+ astral_rift.2730.name: "Những Cơn Gió Ăn Thịt"
+ astral_rift.2730.desc: "Loài nấm đã dẫn đường cho chúng ta quay lại lối vào hang động, nơi cơn bão đã lắng dịu. Một sinh vật nhỏ dạng bò sát ngập ngừng trước cửa hang rồi bước ra vùng đất hoang mở. Gần như ngay lập tức, một cơn gió dữ dội cuốn phăng sinh vật này lên không trung và xé toạc nó thành từng mảnh.\n\nNhững cơn gió này không hề vô hại; chúng là những kẻ săn mồi khát máu."
+ astral_rift.2730.a: "Bảo vệ hệ sinh thái trước cơn gió."
+ astral_rift.2730.b: "Nghiên cứu cơn gió."
+
+ astral_rift.2735.name: "Tín Hiệu Của Nấm"
+ astral_rift.2735.desc: "Di chuyển dọc theo bề mặt hành tinh, chúng ta tiếp cận một cụm nấm phát tán bào tử. Mẫu mô cho thấy đây là một trí tuệ bầy đàn phức tạp cao độ. Bằng cách truyền các xung điện nhanh giữa các nốt hạch, chúng tiến hành giao tiếp mạng lưới tinh vi.\n\nChúng ta có thể khai thác mạng lưới thần kinh này để lắng nghe những gì chúng đang truyền đạt."
+ astral_rift.2735.a: "Giải mã tín hiệu truyền tin của nấm."
+
+ astral_rift.2740.name: "Các Diễn Biến Hiện Tại"
+ astral_rift.2740.desc: "Sau khi rời khỏi hang động, chúng ta đo đạc những cơn gió giật mạnh xoáy quanh phi thuyền. Chúng ta phát hiện một hợp chất giống như hormone trong không khí xung quanh và tiến hành phân tích nó.\n\nNhững hormone này tương tự như chất được giải phóng bởi một số loài thực vật khi bị đe dọa. Chúng dường như điều phối hành vi của các sinh vật gió."
+ astral_rift.2740.a: "Tiếp tục cuộc điều tra."
+
+ astral_rift.2745.name: "Lời Bào Chữa Cho Nấm"
+ astral_rift.2745.desc.common: "Sau khi giải mã tín hiệu truyền tin của loài nấm, giờ đây rõ ràng là các sinh vật gió đang tàn phá hệ sinh thái của hành tinh. Những cơn gió sống này quét qua bề mặt để tìm kiếm thức ăn, hủy diệt sự đa dạng sinh học mà loài nấm dựa vào để sinh tồn.\n\nLoài nấm đã đưa chúng ta đến một hang động chứa đầy những phôi gió đang ngủ say, xin chúng ta tiêu diệt chúng."
+ astral_rift.2745.desc.common.friendly: "Hai bên trong cuộc chiến này đang ở thế bế tắc - một thế bế tắc mà chúng ta có khả năng giải quyết dứt điểm."
+ astral_rift.2745.desc.common.unfriendly: "Có lẽ chúng ta có thể lợi dụng những dạng sống đơn giản này và giải quyết xung đột của chúng theo hướng có lợi cho chúng ta."
+ astral_rift.2745.desc.default: "$astral_rift.2745.desc.common$\n\n$astral_rift.2745.desc.common.friendly$"
+ astral_rift.2745.desc.unfriendly: "$astral_rift.2745.desc.common$\n\n$astral_rift.2745.desc.common.unfriendly$"
+ astral_rift.2745.a: "Tăng cường sức mạnh cho gió."
+ astral_rift.2745.b: "Nuôi dưỡng loài nấm."
+ astral_rift.2745.c: "Đàm phán một sự thỏa hiệp."
+ astral_rift.2745.d: "Tận diệt cả hai loài."
+
+ astral_rift.2750.name: "Lời Bào Chữa Cho Gió"
+ astral_rift.2750.desc.common: "Những cơn gió dữ dội đã lắng xuống ngay sau khi chúng ta giải phóng hormone.\n\nMột làn gió nhẹ lướt qua thân tàu của chúng ta, rải một bọc trứng khí sinh mượt mà vào không trung. Những quả trứng này trôi xuống mặt đất, phần lớn nhanh chóng bị bào tử nấm bao phủ và phân hủy.\n\nKhi những con non sống sót chui ra, chúng bay lên không trung và bắt đầu kiếm ăn những bào tử trôi nổi, cho thấy một chu trình sinh tồn khắc nghiệt."
+ astral_rift.2750.desc.default: "$astral_rift.2750.desc.common$\n\n$astral_rift.2745.desc.common.friendly$"
+ astral_rift.2750.desc.unfriendly: "$astral_rift.2750.desc.common$\n\n$astral_rift.2745.desc.common.unfriendly$"
+ astral_rift.2750.a: "$astral_rift.2745.b$"
+ astral_rift.2750.b: "$astral_rift.2745.a$"
+ astral_rift.2750.c: "$astral_rift.2745.c$"
+ astral_rift.2750.d: "$astral_rift.2745.d$"
+
+ astral_rift.2755.name: "Những Cơn Gió Sắc Nhọn"
+ astral_rift.2755.desc: "Chúng ta đã cung cấp cho các sinh vật gió một lượng lớn mạt kim loại hợp kim. Những hạt mài mòn này rất nhẹ, có thể bị các luồng khí riêng lẻ cuốn đi, nhưng lại đủ sắc bén để bào mòn hầu hết các khoáng chất trong thời gian ngắn.\n\nMột luồng khí nhanh chóng sử dụng những mạt sắt này để xé toạc các cụm nấm đang ẩn nấp trong các khe nứt đá, quét sạch mạng lưới của chúng khỏi bề mặt hành tinh."
+ astral_rift.2755.b.evopred: "Trở về cùng vật liệu nấm."
+
+ astral_rift.2760.name: "Nấm Nở Rộ"
+ astral_rift.2760.desc: "Chúng ta đã rải một lượng lớn chất dinh dưỡng khoáng chất trên bề mặt hành tinh và đưa các loài thực vật kháng gió mới vào vùng đất được hồi sinh. Sau đó, loài nấm có thể phát tán một lượng lớn bào tử trên vùng đất màu mỡ mới.\n\nCác cụm nấm hiện tại đã phát triển vượt bậc về quy mô và sức mạnh, bọc kín các hang động và bóp nghẹt những sinh vật gió khi chúng cố gắng tiếp cận mặt đất."
+ astral_rift.2760.b.evopred: "Trở về cùng vật liệu chim."
+
+ astral_rift.2765.name: "Một Thỏa Hiệp Gian Nan"
+ astral_rift.2765.desc: "Sự khác biệt cực độ trong giao tiếp giữa loài nấm và các sinh vật gió đã dẫn đến một cuộc thảo luận cam go và phức tạp. Tuy nhiên, chúng ta đã đạt được một thỏa thuận giữa hai giống loài.\n\nMiễn là chúng không can thiệp vào các cụm bào tử hiện có, các sinh vật gió sẽ có quyền săn bắt trên bề mặt hành tinh theo chu kỳ đã được định sẵn, thiết lập một sự cân bằng sinh thái mong manh."
+ astral_rift.2765.b.evopred: "Thu thập mẫu vật của hệ sinh thái này."
+
+ astral_rift.2770.name: "Hủy Diệt Sinh Học"
+ astral_rift.2770.desc: "Cuộc tranh chấp giữa các giống loài [Explorer.GetPreFTLLower] này đã trở nên nhàm chán.\n\nChúng ta đã tổng hợp một chất axit cực mạnh và phun mù nó vào bầu khí quyển của hành tinh. Khi chất ăn mòn lan rộng, các sinh vật gió tan biến giữa không trung, trong khi các mạng lưới nấm dưới lòng đất khô héo và thối rữa hoàn toàn. Giờ đây, chỉ còn lại sự tĩnh lặng của cái chết bao trùm thế giới này."
+ astral_rift.2770.a: "Làm tốt lắm."
+ astral_rift.2770.b.evopred: "Một mùa thu hoạch bội thu."
+
+ astral_rift.2790.name: "Một Yêu Cầu Đặc Biệt"
+ astral_rift.2790.desc: "[this.GetName], người gần đây đã làm trung gian cho một thỏa thuận phức tạp ở bên kia khe nứt mà chúng ta nghiên cứu tại [from.solar_system.GetName], đã yêu cầu được chuyển đổi nhiệm vụ. Sau khi chèo lái một quy trình hòa giải khó khăn như vậy, [this.GetHeShe] đã phát hiện ra niềm đam mê mới dành cho đàm phán. Nếu chúng ta cho phép, [this.GetHeShe] sẽ bỏ lại thế giới khoa học phía sau để trở thành một đặc sứ thường trực trong cơ sở hạ tầng ngoại giao hiện có của chúng ta."
+ astral_rift.2790.a: "Rất tốt."
+ astral_rift.2790.a.tt: "[This.GetName] chuyển từ §HNhà Khoa Học§! thành §HĐặc Sứ§!."
+ astral_rift.2790.b: "Một nhà khoa học có giá trị hơn."
+
+###############
+# Tiny Planet #
+###############
+ astral_rift_tiny_planet: "Hành Tinh Tí Hon"
+
+ decision_tidal_lock_planet: "Chủ Động Khóa Thủy Triều"
+ decision_tidal_lock_planet_desc: "Thao túng các thiên thể quỹ đạo cục bộ để ngăn chặn sự tự quay quanh trục của hành tinh."
+ decision_tidal_lock_planet_tt: "§HMở khóa Quyết Sách:§! §Y$d_dayside_farm$§! trên [this.GetPlanetMoon] này."
+
+ decision_display_microplanet_husk: "Trưng Bày Lớp Vỏ Tiểu Hành Tinh"
+ decision_display_microplanet_husk_desc: "Trưng bày lớp vỏ của một tiểu hành tinh bị carbon hóa để truyền cảm hứng về trật tự và sự vâng lời trong dân chúng."
+ d_microplanet_memorial: "Đài Tưởng Niệm Tiểu Hành Tinh"
+ d_microplanet_memorial_desc: "Đài tưởng niệm ảm đạm này là lời nhắc nhở người dân về khả năng tàn nhẫn của chúng ta khi đối mặt với sự bất đồng chính kiến."
+
+ astral_rift.2800.name: "Thế Giới Nhỏ Bé"
+ astral_rift.2800.desc: "Chúng ta đã đến một hệ sao có các đặc tính hấp dẫn kỳ lạ. Các vật thể đơn lẻ trong không gian này có lực hấp dẫn mạnh hơn nhiều so với kích thước của chúng khi so sánh với chiều không gian của chúng ta.\n\nCảm biến phát hiện bốn thiên thể cực kỳ nhỏ bé trong hệ thống, một trong số đó dường như là một thế giới lục địa có kích thước tương đương chiếc §Y$tech_rift_sphere$§! của chúng ta. Các đợt quét cho thấy bằng chứng về một nền văn minh [explorer.GetPreFTLLower] đang phát triển rực rỡ trên bề mặt của nó.\n\nTiếp cận quá gần có thể làm xáo trộn lực hấp dẫn tự nhiên của họ, nhưng điều tra từ xa lại có thể tốn một khoảng thời gian đáng kể."
+ astral_rift.2800.a: "Tiếp cận hành tinh tí hon."
+
+ astral_rift.2805.name: "Va Chạm Mặt Trăng"
+ astral_rift.2805.desc: "Vì bản thân hành tinh tí hon này có kích thước tương tự như phi thuyền của chúng ta, chúng ta đã cẩn thận tiếp cận để tránh va chạm, lưu ý rằng chúng ta cũng có thể gây ảnh hưởng hấp dẫn lên nó.\n\nTuy nhiên, chúng ta đã không tính toán chính xác quỹ đạo của mặt trăng của nó. Khi chúng ta tiến vào quỹ đạo, lực hấp dẫn của chúng ta đã làm chệch hướng mặt trăng nhỏ bé, khiến nó lao thẳng vào bề mặt hành tinh bên dưới. Thảm họa địa chấn đang tàn phá giống loài [explorer.GetPreFTLLower] này."
+ astral_rift.2805.a: "Một tính toán sai lầm tai hại."
+
+ astral_rift.2810.name: "Một Vấn Đề Nhỏ"
+ astral_rift.2810.desc.common.1: "Giống loài [explorer.GetPreFTLLower] trên hành tinh tí hon đã nhận thấy sự hiện diện của chúng ta. Do kích thước tương đối của phi thuyền, chúng ta hẳn phải chiếm trọn một phần đáng kể trên bầu trời của họ.\n\nTheo tính toán, sự xê dịch mặt trăng của họ đã gây ra những trận thủy triều thảm khốc cướp đi sinh mạng của hàng ngàn sinh vật [explorer.GetPreFTLLower] này."
+ astral_rift.2810.desc.common.2: "Mặt khác, chúng ta có thể tiếp tục quan sát từ xa để không làm gián đoạn thêm nền văn minh của họ."
+ astral_rift.2810.desc.common.3: "Mặt khác, chúng ta có thể tiếp tục quan sát sự hủy diệt từ xa và ghi lại thảm họa này cho các thế hệ tương lai."
+ astral_rift.2810.desc.default: "$astral_rift.2810.desc.common.1$\n\nNếu thấy phù hợp, chúng ta có thể cố gắng liên lạc với xã hội này.\n\n$astral_rift.2810.desc.common.2$"
+ astral_rift.2810.desc.barbaric_despoilers: "$astral_rift.2810.desc.common.1$\n\nThiết lập liên lạc với xã hội này có thể mang lại cơ hội đòi tiền chuộc.\n\n$astral_rift.2810.desc.common.3$"
+ astral_rift.2810.desc.homicidal: "$astral_rift.2810.desc.common.1$\n\nChúng ta có khả năng chặn các liên lạc của họ và nói bất cứ điều gì chúng ta muốn với họ.\n\n$astral_rift.2810.desc.common.3$"
+ astral_rift.2810.a: "Thiết lập liên lạc."
+ astral_rift.2810.b: "Quan sát thụ động."
+ astral_rift.2810.c: "Đòi tiền chuộc."
+ astral_rift.2810.d: "Thông báo rằng ngày tàn của họ đã đến."
+ astral_rift.2810.e: "Chứng kiến sự hủy diệt diễn ra."
+
+ astral_rift.2815.name: "Thiết Lập Liên Lạc"
+ astral_rift.2815.desc.common: "Sau một cuộc trò chuyện ngắn ngủi với giống loài [explorer.GetPreFTLLower] bằng khả năng dịch thuật hạn chế của chúng ta, chúng ta biết được rằng giới lãnh đạo của họ vừa khiếp sợ vừa kinh ngạc trước sự hiện diện của chúng ta.\n\nHọ dường như đang phải trải qua một chuỗi liên tiếp các thảm họa thiên nhiên dữ dội, mặc dù họ vẫn chưa liên hệ được cảnh ngộ khốn cùng của mình với sự xuất hiện bất ngờ của con tàu khổng lồ của chúng ta."
+ astral_rift.2815.desc.outro: "Rào cản ngôn ngữ ngăn cản một lộ trình ngoại giao phức tạp trong tương lai, nhưng chúng ta nên lựa chọn hướng hành động thích hợp."
+ astral_rift.2815.desc.default: "$astral_rift.2815.desc.common$\n\nSự xấc xược của những sinh vật này... Có lẽ chúng ta nên làm gì đó để chứng minh cho nỗi sợ hãi của họ.\n\n$astral_rift.2815.desc.outro$"
+ astral_rift.2815.desc.xenophile: "$astral_rift.2815.desc.common$\n\nDù họ không nhận thức được chúng ta là nguyên nhân gây ra tình cảnh của họ, chúng ta có cách để chuộc lại lỗi lầm của mình.\n\n$astral_rift.2815.desc.outro$"
+ astral_rift.2815.desc.pacifist: "$astral_rift.2815.desc.common$\n\n$astral_rift.2815.desc.outro$"
+ astral_rift.2815.desc.barbaric_despoilers: "$astral_rift.2815.desc.common$\n\nYêu cầu đòi tiền chuộc của chúng ta đã bị đáp lại bằng sự thù địch, và có vẻ như họ cũng chẳng có gì giá trị để dâng nộp cho chúng ta.\n\n$astral_rift.2815.desc.outro$"
+ astral_rift.2815.desc.homicidal: "Chúng ta đã soạn một thông điệp gửi tới giống loài [explorer.GetPreFTLLower] bằng khả năng dịch thuật hạn chế của mình và phát nó trên tất cả các kênh liên lạc của họ.\n\n§E\"Hãy chứng kiến ngày tàn của các ngươi.\"§!\n\nNhững tín hiệu truyền tin chúng ta chặn thu được kể từ đó tràn ngập sự hoảng loạn và kinh hoàng khi xã hội của họ rơi vào cảnh hỗn loạn tột cùng. Khi mạng lưới liên lạc của họ ngập tràn tiếng la hét và lời kêu cứu, cuộc vui tạm thời lắng xuống.\n\nChúng ta có thể tiếp tục quan sát sự hủy diệt thú vị này diễn ra, hoặc chấm dứt nó một lần và mãi mãi."
+ astral_rift.2815.a: "Cố gắng sửa chữa quỹ đạo mặt trăng."
+ astral_rift.2815.b: "Phá hủy mặt trăng."
+ astral_rift.2815.c: "Cắt đứt liên lạc. Quan sát thụ động."
+ astral_rift.2815.d: "Cắt đứt liên lạc. Chứng kiến sự hủy diệt diễn ra."
+
+ astral_rift.2820.name: "Trở Lại Quỹ Đạo"
+ astral_rift.2820.desc: "Sau nhiều tính toán, mô phỏng và thử nghiệm, chúng ta đã khéo léo đẩy mặt trăng của hành tinh tí hon trở lại quỹ đạo ban đầu của nó. Điều này sẽ không đảo ngược được sự tàn phá và tổn thất nhân mạng mà các biến động thủy triều đã gây ra, nhưng chúng ta đã làm những gì có thể.\n\nLiên lạc với giống loài [explorer.GetPreFTLLower] không được duy trì, nhưng chúng ta quan sát thấy xã hội của họ nhanh chóng huy động lực lượng để hỗ trợ các vùng bị ảnh hưởng. Một dân tộc kiên cường và đầy triển vọng."
+
+ astral_rift.2825.name: "Không Còn Mặt Trăng"
+ astral_rift.2825.desc.common: "Tận dụng cơ hội nghiên cứu độc đáo mở ra trước mắt, chúng ta đã phá hủy mặt trăng quay quanh hành tinh tí hon. Chúng ta dễ dàng nghiền nát nó giữa các gọng kìm thu hồi của tàu, và lớp bụi mịn của nó dần hình thành một vành đai mỏng xung quanh hành tinh.\n\nĐiều này đã ngăn chặn các đợt thủy triều hủy diệt, nhưng bụi rơi xuống đang làm ô nhiễm bầu khí quyển và gây ra mùa đông hạt nhân trên toàn cầu."
+ astral_rift.2825.desc.default: "$astral_rift.2825.desc.common$\n\nCó lẽ phương án nhân từ nhất là tiêu diệt họ ngay lập tức; làm như vậy thậm chí chỉ cần một cú va chạm nhỏ từ chiếc Khối Cầu của chúng ta."
+ astral_rift.2825.desc.unfriendly: "$astral_rift.2825.desc.common$\n\nHọ hoàn toàn bất lực khi các cơn bão hoành hành trên khắp hành tinh. Số phận của họ đã được định đoạt."
+ astral_rift.2825.a: "Giải thoát cho họ khỏi nỗi đau đớn."
+ astral_rift.2825.b: "Triển khai thiết bị nghiên cứu từ xa."
+
+ astral_rift.2830.name: "Quan Sát Từ Xa"
+ astral_rift.2830.desc.default: "Chúng ta đã đặt thiết bị giám sát trong hệ sao thu nhỏ để tiếp tục nghiên cứu hành tinh tí hon và sự phát triển tiếp theo của giống loài [explorer.GetPreFTLLower]. Chúng ta rất tò mò xem tác động môi trường của vụ va chạm mặt trăng sẽ ảnh hưởng như thế nào đến nền văn minh của họ theo thời gian."
+ astral_rift.2830.desc.communications: "Chúng ta đã cắt đứt liên lạc với các nhà lãnh đạo [explorer.GetPreFTLLower] và tiếp tục quan sát thụ động.\n\n$astral_rift.2830.desc.default$"
+ astral_rift.2830.desc.unfriendly.common: "Dù sao đi nữa, tiếp tục chứng kiến sự tàn phá diễn ra cũng mang lại chút giải trí."
+ astral_rift.2830.desc.unfriendly: "$astral_rift.2830.desc.default$\n\n$astral_rift.2830.desc.unfriendly.common$"
+ astral_rift.2830.desc.unfriendly.communications: "$astral_rift.2830.desc.communications$\n\n$astral_rift.2830.desc.unfriendly.common$"
+
+ astral_rift.2835.name: "Đột Phá Khóa Thủy Triều"
+ astral_rift.2835.desc: "Nhờ những thao tác thử nghiệm của chúng ta với mặt trăng của hành tinh này, chúng ta đã hiểu sâu hơn về hành vi chung của các mặt trăng quay quanh thiên thể. Giờ đây chúng ta có thể áp dụng kiến thức này để điều chỉnh chính xác hơn các hành tinh trong chính hệ sao của mình.\n\nChúng ta có thể chủ động khóa thủy triều một hành tinh để tối đa hóa hiệu suất năng lượng mặt trời."
+ astral_rift.2835.tt: "Giờ đây bạn có thể §YKhóa Thủy Triều§! bất kỳ hành tinh nào có mặt trăng như một quyết sách hành tinh.\n§YTrang Trại Phía Ban Ngày§! sẽ tăng gấp đôi sản lượng."
+
+ astral_rift.2840.name: "Va Chạm Nông"
+ astral_rift.2840.desc: "Chúng ta đã tối đa hóa khiên chắn, nạp đầy năng lượng cho các động cơ đẩy và chuẩn bị cho cú va chạm với hành tinh nhỏ bé.\n\nVào khoảnh khắc va chạm, chúng ta đã nén bầu khí quyển của thế giới lục địa này và tạo ra một làn sóng nhiệt cực cao áp suất lớn trên toàn cầu, thiêu rụi toàn bộ bề mặt thành tro tàn và carbon hóa hành tinh chỉ trong một phần nghìn giây.\n\nChúng ta đã thu hồi lớp vỏ hành tinh bị nung chảy làm chiến lợi phẩm."
+ astral_rift.2840.tt: "Bạn có thể trưng bày Lớp Vỏ Tiểu Hành Tinh như một quyết sách hành tinh. Chỉ có thể thực hiện một lần."
+
+ astral_rift.2845.name: "Hành Tinh Mô Hình"
+ astral_rift.2845.desc: "Thiết bị quan sát đã được triển khai để tiếp tục nghiên cứu các điều kiện khí hậu trên hành tinh tí hon này.\n\nNhững trận bão tuyết dữ dội, hạn hán, mưa xối xả và đủ loại thời tiết khắc nghiệt đã bắt đầu tàn phá thế giới nhỏ bé này. Các thí nghiệm của chúng ta tại đây sẽ tiếp tục cung cấp những hiểu biết khí tượng học vô giá."
+
+ astral_rift.2890.name: "Tuyệt Chủng Hành Tinh Tí Hon"
+ astral_rift.2890.desc: "Hành tinh tí hon ở phía xa của Khe Nứt Tinh Giới trong hệ sao [from.solar_system.GetName] đã bị phá hủy bởi sự biến đổi khí hậu khắc nghiệt. Dữ liệu nghiên cứu mà chúng ta thu thập đã chấm dứt."
+ astral_rift.2890.a: "Không thể tránh khỏi."
+
+#######################
+# Entertainment Nexus #
+#######################
+ astral_rift_interdimensional_circus: "Trung Tâm Giải Trí"
+ revolutionary_medigel_modifier: "Gel Y Tế Cách Mạng"
+
+ edict_spontaneous_crystallization: "Kết Tinh Tự Phát"
+ edict_spontaneous_crystallization_desc: "Bằng cách áp dụng một ma trận chất xúc tác độc đáo lên đá mới thu hoạch, chúng ta có cơ hội tạo ra các cấu trúc tinh thể có giá trị hơn."
+ edict_spontaneous_crystallization_tooltip: "Chuyển đổi tối đa 1% tổng sản lượng Khoáng sản £minerals£ thành Pha Lê Hiếm £rare_crystals£."
+
+ astral_rift.2900.name: "Mời Tất Cả Đến Đây"
+ astral_rift.2900.desc: "Chúng ta đã đến một hệ sao nhộn nhịp được bao quanh bởi vô số lỗ sâu. Tàu vũ trụ đủ mọi hình dạng và kích cỡ đang vây quanh một trạm không gian sáng rực ở trung tâm.\n\nCấu trúc khổng lồ này được bao phủ bởi những biển hiệu rực rỡ đầy màu sắc viết bằng những ngôn ngữ hoa mỹ và xa lạ. Nó dường như là một đấu trường giải trí liên thứ nguyên khổng lồ."
+ astral_rift.2900.a: "Tiếp tục điều tra."
+
+ astral_rift.2905.name: "Kỳ Vọng Háo Hức"
+ astral_rift.2905.common_1: "Chúng ta đã cập cảng tại trạm không gian bận rộn mà không gặp sự cố nào. Khi bước vào bên trong, chúng ta tiếp tục các hoạt động điều tra trong khi hòa mình vào đám đông."
+ astral_rift.2905.common_2: "Bên trong, chúng ta chiêm ngưỡng một giảng đường hình vòng cung có quy mô sử thi. Không gian nhộn nhịp bên trong chật ních các dạng sống ngoài hành tinh có tri giác, tất cả đều đang chăm chú dõi theo khu vực biểu diễn ở trung tâm. Buổi diễn sắp sửa bắt đầu."
+ astral_rift.2905.organic: "Khi chúng ta đến gần cánh cổng của mái vòm trung tâm, một nhân viên phục vụ robot đã quẹt mẫu khử trùng từng [explorer.species.GetHandNamePlural] của chúng ta trước khi cho chúng ta bước vào cùng những vị khách khác."
+ astral_rift.2905.inorganic: "Khi chúng ta đến gần cánh cổng của mái vòm trung tâm, một nhân viên phục vụ robot đã quét sơ bộ từng người trong chúng ta bằng một thiết bị nhỏ trước khi cho chúng ta bước vào cùng những vị khách khác."
+ astral_rift.2905.desc.organic: "$astral_rift.2905.common_1$\n\n$astral_rift.2905.organic$\n\n$astral_rift.2905.common_2$"
+ astral_rift.2905.desc.inorganic: "$astral_rift.2905.common_1$\n\n$astral_rift.2905.inorganic$\n\n$astral_rift.2905.common_2$"
+ astral_rift.2905.a: "Rất tốt."
+
+ astral_rift.2910.name: "Những Chú Cáo Nhào Lộn"
+ astral_rift.2910.desc: "Ngay khi chúng ta vừa an tọa, một đoàn xiếc gồm những động vật có vú dạng cáo trong trang phục lấp lánh xuất hiện trên sân khấu. Sau một màn trình diễn thể dục dụng cụ đỉnh cao ngắn, một lỗ sâu nhỏ mở ra ở trung tâm sân khấu. Ngay trước khi cái lỗ biến mất, một nghệ sĩ nhào lộn dũng cảm đã nhảy phóc vào trong đó."
+ astral_rift.2910.a: "Một cách sử dụng công nghệ ấn tượng đầy phù phiếm..."
+
+ astral_rift.2915.name: "Hàm Răng Sinh Mệnh"
+ astral_rift.2915.desc: "Một cyborg dạng bò sát to lớn nặng nề tiến vào trung tâm sân khấu. Nó mang theo những khối kim loại khổng lồ và dễ dàng quẳng chúng vào cái miệng há hốc to tướng của mình. Với một tiếng xì thủy lực, nó lần lượt tung từng quả tạ lên không trung và đớp lấy khi chúng rơi xuống."
+ astral_rift.2915.a: "Một tài năng thú vị."
+
+ astral_rift.2920.name: "Màn Diễn Cuối Cùng"
+ astral_rift.2920.desc: "Màn diễn cuối cùng có sự tham gia của một sinh vật làm bằng đá xám dày đặc. Uốn mình thành những tư thế kỳ dị, nó vặn xoắn các chi cồng kềnh của mình thành những nút thắt không tưởng. Sau đó, nó nhảy vút lên không trung và tiếp đất thăng bằng trên đầu ngón tay rộng của mình giữa tiếng vỗ tay lịch sự của đám đông."
+ astral_rift.2920.a: "Quả thực là một mẫu vật hiếm có."
+
+ astral_rift.2925.name: "Sau Buổi Biểu Diễn"
+ astral_rift.2925.desc: "Buổi biểu diễn đã kết thúc, nhưng khán giả được mời nán lại để gặp gỡ một trong các nghệ sĩ. Đây sẽ là một cơ hội tuyệt vời để nghiên cứu sâu hơn về từng cá nhân, vì mỗi người trong số họ đều thể hiện những năng lực mà chúng ta thậm chí không thể tái tạo.\n\nMỗi nghệ sĩ biểu diễn đang đứng ở một góc riêng trong khán phòng."
+ astral_rift.2925.a: "Gặp gỡ các nghệ sĩ nhào lộn dạng cáo."
+ astral_rift.2925.b: "Gặp gỡ cyborg miệng rộng."
+ astral_rift.2925.c: "Gặp gỡ nghệ sĩ uốn dẻo bằng đá."
+
+ astral_rift.2930.name: "Gặp Gỡ Các Nghệ Sĩ Nhào Lộn"
+ astral_rift.2930.desc: "Các nghệ sĩ nhào lộn dạng cáo cao khoảng một mét với đôi tai hình tam giác giật giật liên hồi. Các đặc điểm thể chất khác bao gồm bộ lông màu vàng nhạt, bàn chân trước khéo léo với ngón tay cái đối diện uốn cong, và chiếc đuôi ngắn cụp xuống. Khi chúng ríu rít trò chuyện bằng một thứ ngôn ngữ ngoại lai the thé, chúng ta có thể bí mật thu thập một mẫu mô từ chúng."
+ astral_rift.2930.a: "Bảo đảm thu thập mẫu mô."
+ astral_rift.2930.b: "Tặng họ một ít tín dụng năng lượng làm tiền boa."
+
+ astral_rift.2935.name: "Gặp Gỡ Cyborg Miệng Rộng"
+ astral_rift.2935.desc: "Cyborg dạng bò sát đứng sừng sững với chiều cao và bề ngang của một chiếc tàu vận tải nhỏ, và chiếc miệng của nó đủ lớn để nuốt chửng một con tàu cỡ đó. Các đặc điểm thể chất khác bao gồm: lớp da xám phủ đầy các bảng mạch điện tử trong suốt, một bể chứa dung dịch dinh dưỡng khổng lồ gắn trên lưng, và những chi cơ khí nặng nề."
+ astral_rift.2935.a: "Bảo đảm thu thập mẫu mô."
+ astral_rift.2935.b: "Mời một bữa ăn nhẹ."
+
+ astral_rift.2940.name: "Gặp Gỡ Nghệ Sĩ Uốn Dẻo"
+ astral_rift.2940.desc: "Nghệ sĩ uốn dẻo đứng sừng sững giữa đám đông tập hợp, với các chi dày bằng đá xám ẩn chứa một cảm giác mềm dẻo khó tin. Phần thân của nó rất mảnh khảnh, chằng chịt những vết xước, vết lõm và vết mẻ, tương phản rõ rệt với các chi phụ nhẵn bóng như bê tông của nó."
+ astral_rift.2940.a: "Bảo đảm thu thập mẫu mô."
+ astral_rift.2940.b: "Tặng họ một ít tín dụng năng lượng làm tiền boa."
+
+ astral_rift.2960.name: "Di Truyền Học Siêu Thứ Nguyên"
+ astral_rift.2960.desc: "Chúng ta đã có thể điều tra các nghệ sĩ nhào lộn kỹ lưỡng hơn. [leader.GetName] đã bí mật thu thập các mẫu dữ liệu dưới dạng các nang lông rụng và băng gạc bị vứt bỏ. Dường như không ai trong số các nghệ sĩ biểu diễn bận tâm đến hành vi của chúng ta. Họ có thể đã quen với những người hâm mộ cuồng nhiệt."
+ astral_rift.2960.tt: "Trao một công nghệ Di Truyền Học."
+
+ astral_rift.2965.name: "Vi Lỗ Sâu"
+ astral_rift.2965.desc: "Chúng ta đã có thể gặp gỡ các nghệ sĩ nhào lộn với tư cách cá nhân gần gũi hơn, một phần nhờ vào khoản đóng góp hào phóng của chúng ta. Các nghệ sĩ vô cùng cảm kích và đã biểu diễn nhiều trò ảo thuật ấn tượng trong phòng khách, bao gồm cả các vi lỗ sâu - từ việc cắt đôi các vật thể nhỏ cho đến việc tạo ra một chuỗi cổng dịch chuyển tức thời vô tận giữa hai bàn tay của họ."
+
+ astral_rift.2970.name: "Thu Thập Mẫu Vật Bất Quy Tắc"
+ astral_rift.2970.desc.common: "Khi chúng ta cố gắng lén lút thu thập một mẩu nhỏ mô của cyborg dạng bò sát, nó đã nổi giận. Ngay sau đó, nó phun một làn sóng chất nhầy màu xanh lục dính nhớp vào đội thám hiểm của chúng ta, và chúng ta đã bị các drone an ninh hộ tống ra khỏi cơ sở."
+ astral_rift.2970.desc.organic: "$astral_rift.2970.desc.common$\n\nKỳ lạ thay, chất nhầy được quan sát thấy có tác dụng tiếp thêm sinh lực cho [leader.species.GetSkinType] của chúng ta. Chúng ta đã cạo sạch những gì có thể và lưu trữ trong kho lạnh của tàu để nghiên cứu sâu hơn."
+ astral_rift.2970.desc.inorganic: "$astral_rift.2970.desc.common$\n\nChất lỏng nhớt chứa đầy các vật liệu sinh học và dường như phù hợp để sử dụng làm chất nền cho gel dinh dưỡng cao cấp. Chúng ta đang tận dụng các đặc tính của nó để tổng hợp thực phẩm từ chất thải hữu cơ."
+ astral_rift.2970.tt: "Trao một công nghệ Nông Nghiệp."
+
+ astral_rift.2975.name: "Hỗ Trợ Sự Sống Toàn Diện"
+ astral_rift.2975.desc: "Chúng ta đã có thể gặp gỡ người máy khổng lồ với tư cách cá nhân gần gũi hơn, một phần nhờ vào việc tặng một lượng lớn thực phẩm.\n\nSinh vật miệng rộng này cực kỳ niềm nở và hào hứng quay tròn tại chỗ. Nó mất nhiều phút để hoàn thành vòng quay 360 độ này, giúp chúng ta có đủ thời gian để quan sát kỹ lưỡng hệ thống hỗ trợ sự sống và các bộ phận cơ khí cấy ghép tinh vi của nó."
+ astral_rift.2975.tt: "Trao một công nghệ Cơ Khí Điều Khiển Sinh Học."
+
+ astral_rift.2980.name: "Kết Tinh Sinh Học"
+ astral_rift.2980.desc: "Chen lấn qua đám đông, chúng ta đã có thể quan sát nghệ sĩ uốn dẻo ở khoảng cách gần hơn.\n\nHọ biểu diễn cho chúng ta thấy một cánh tay bằng đá nặng nề, dễ dàng biến đổi nó thành một cụm các khoáng chất khác nhau. Đá granit thô ráp ban đầu biến thành những viên đá quý màu đỏ sẫm lấp lánh rồi lại trở về trạng thái ban đầu chỉ bằng một cử chỉ co duỗi cơ bắp."
+ astral_rift.2980.tt: "Mở khóa Sắc Lệnh §Y$edict_spontaneous_crystallization$§!."
+
+ astral_rift.2985.name: "Khoáng Hóa Lượng Tử"
+ astral_rift.2985.desc: "Chúng ta đã có thể gặp gỡ nghệ sĩ uốn dẻo với tư cách cá nhân gần gũi hơn, một phần nhờ vào khoản đóng góp đáng kể của chúng ta.\n\nVật chất của sinh vật này dường như không hoàn toàn bị trói buộc bởi thực tại của chúng ta. Sau khi quan sát kỹ lưỡng, nó giải thích cho chúng ta cách nó thay đổi mật độ và cấu trúc tinh thể của các vật liệu composite bằng cách căn chỉnh lại các ma trận lượng tử bên trong tế bào của nó."

@@ -1,0 +1,1342 @@
+﻿l_english:
+
+ # Gestalt trait names and desc
+ leader_trait_fallible_hive: "Thường Mắc Lỗi"
+ leader_trait_fallible_hive_desc:0 "[GetIndividualName] này có hành vi thất thường, có thể dẫn đến rắc rối trong tương lai."
+ leader_trait_fallible_machine: "Lỗi Kỹ Thuật"
+ leader_trait_fallible_machine_desc:0 "Đơn vị này gặp phải các trục trặc nhỏ, có thể dẫn đến rắc rối trong tương lai."
+
+ leader_trait_stubborn_machine:0 "Lập Trình Cứng Nhắc"
+ leader_trait_stubborn_machine_desc:1 "Đơn vị này có chương trình lập trình đặc biệt cứng nhắc, hiếm khi cho phép cải thiện hành vi."
+ leader_trait_stubborn_hive:0 "Giao Diện Cố Hóa"
+ leader_trait_stubborn_hive_desc:1 "[owner.GetIndividualName] này có tư duy đặc biệt cứng nhắc và không thể chấp nhận các sửa đổi hành vi."
+
+ leader_trait_destructive_hive_desc:1 "[owner.GetIndividualName] này phớt lờ việc bảo trì định kỳ cần thiết cho thiết bị, dẫn đến những hỏng hóc nghiêm trọng hơn."
+ leader_trait_destructive_machine_desc:1 "Đơn vị này không thực hiện việc bảo trì định kỳ cần thiết cho thiết bị, dẫn đến những hỏng hóc nghiêm trọng hơn."
+
+ leader_trait_lavish_lifestyle_hive:0 "Chi Phí Duy Trì Cao"
+ leader_trait_lavish_lifestyle_hive_desc:0 "Hành vi thất thường của [owner.GetIndividualName] này khiến hiệu suất hoạt động giảm sút nghiêm trọng."
+ leader_trait_lavish_lifestyle_machine:0 "Chi Phí Bảo Trì Cao"
+ leader_trait_lavish_lifestyle_machine_desc:0 "Đơn vị này bị lỗi lập trình khiến hiệu suất hoạt động giảm sút nghiêm trọng."
+
+ leader_trait_tyrannical_hive:0 "Phân Bổ Định Mức"
+ leader_trait_tyrannical_hive_desc:1 "Nút ý thức này ưu tiên quá mức việc phân bổ định mức tài nguyên."
+ leader_trait_tyrannical_machine:0 "Phân Bổ Định Mức"
+ leader_trait_tyrannical_machine_desc:1 "Đơn vị này ưu tiên quá mức việc phân bổ định mức tài nguyên."
+
+ leader_trait_righteous_hive:0 "Bất Hoại"
+ leader_trait_righteous_hive_desc:0 "[owner.GetIndividualName] này có khả năng kháng cự sự tha hóa, hạn chế các hành vi lệch lạc trong [owner.GetGestaltEntityName]."
+ leader_trait_righteous_machine:0 "Quy Trình Vá Lỗi"
+ leader_trait_righteous_machine_desc:0 "Đơn vị này thường xuyên tiến hành vá lỗi cập nhật cho các đơn vị khác."
+
+ leader_trait_embezzler_hive:0 "Hao Tổn Năng Lượng"
+ leader_trait_embezzler_hive_desc:1 "[owner.GetIndividualName] này có bất thường về mặt sinh lý khiến nó tiêu hao một lượng năng lượng lãng phí."
+ leader_trait_embezzler_machine:0 "Hao Hụt Năng Lượng"
+ leader_trait_embezzler_machine_desc:0 "Đơn vị này có lỗi hệ thống khiến nó tiêu thụ lượng năng lượng cao bất thường."
+
+ leader_trait_gullible_hive:0 "Rò Rỉ Thông Tin"
+ leader_trait_gullible_hive_desc:1 "Bản tính cả tin của nút ý thức này gây ra những lỗ hổng bảo mật nghiêm trọng."
+ leader_trait_gullible_machine:0 "Rò Rỉ Dữ Liệu"
+ leader_trait_gullible_machine_desc:0 "Nút ý thức này có lỗ hổng bảo mật nghiêm trọng trong hệ điều hành."
+
+ leader_trait_bureaucratic_hive:0 "Gián Đoạn Truyền Tin"
+ leader_trait_bureaucratic_hive_desc:1 "Nút ý thức này gặp tình trạng gián đoạn truyền tin khi hợp nhất ý thức chung với các [owner.GetIndividualNamePlural] cá thể hóa."
+ leader_trait_bureaucratic_machine:0 "Lỗi Truyền Dữ Liệu"
+ leader_trait_bureaucratic_machine_desc:1 "Nút ý thức này gặp lỗi truyền tải khi liên kết với các drone cá thể hóa."
+
+ leader_trait_micromanager_hive: "Thiếu Đồng Bộ"
+ leader_trait_micromanager_hive_desc:0 "[owner.GetIndividualName] này hoạt động kém hiệu quả khi đồng bộ các cuộc cơ động phức tạp của hạm đội."
+ leader_trait_micromanager_machine:1 "Thiếu Đồng Bộ"
+ leader_trait_micromanager_machine_desc:0 "Đơn vị này hoạt động kém hiệu quả khi đồng bộ các cuộc cơ động phức tạp của hạm đội."
+
+ leader_trait_reckless_hive:0 "Tính Toán Sai Lầm"
+ leader_trait_reckless_hive_desc:1 "[owner.GetIndividualName] này tính toán sai rủi ro, tiếp tục chiến đấu khi điều hợp lý lẽ ra là phải rút lui, sửa chữa và tái tập hợp."
+ leader_trait_reckless_machine:0 "Lỗi Tính Toán Rủi Ro"
+ leader_trait_reckless_machine_desc:1 "Đơn vị này tính toán sai rủi ro, tiếp tục chiến đấu khi điều hợp lý lẽ ra là phải rút lui, sửa chữa và tái tập hợp."
+
+ leader_trait_slipshod_hive:0 "Phòng Thủ Suy Giảm"
+ leader_trait_slipshod_hive_desc:0 "[owner.GetIndividualName] này đã phát triển ý thức chiến đấu thất thường và kém hiệu quả, làm suy yếu năng lực phòng thủ của hạm đội."
+ leader_trait_slipshod_machine:0 "Phòng Thủ Suy Giảm"
+ leader_trait_slipshod_machine_desc:0 "Đơn vị này đã phát triển chương trình chiến đấu thất thường và kém hiệu quả, làm suy yếu năng lực phòng thủ của hạm đội."
+
+ leader_trait_slothful_hive:0 "Chiến Thuật Thiếu Phản Ứng"
+ leader_trait_slothful_hive_desc:1 "Hành vi chậm chạp và bất quy tắc của [owner.GetIndividualName] này khiến các đội quân của chúng ta rơi vào nguy hiểm không đáng có."
+ leader_trait_slothful_machine:0 "Thuật Toán Chiến Đấu Lỗi"
+ leader_trait_slothful_machine_desc:1 "Các thuật toán lỗi và bất quy tắc của đơn vị này khiến các đội quân cơ giới của chúng ta rơi vào nguy hiểm không đáng có."
+
+ leader_trait_victory_or_death_hive:0 "Chiến Thắng Hoặc Diệt Vong"
+ leader_trait_victory_or_death_hive_desc:1 "[owner.GetIndividualName] này không hề bận tâm đến việc tự bảo tồn, quyết tâm chiến đấu đến hơi thở cuối cùng."
+ leader_trait_victory_or_death_machine:0 "Giao Thức Bất Ly Khai"
+ leader_trait_victory_or_death_machine_desc:1 "Đơn vị này có giao thức thoát ly lỗi và sẽ chiến đấu đến cùng."
+
+ leader_trait_disorganized_hive:0 "Mệnh Lệnh Không Rõ"
+ leader_trait_disorganized_hive_desc:1 "Hành vi lập dị của [owner.GetIndividualName] này có thể dẫn đến các mệnh lệnh chiến thuật thiếu rõ ràng."
+ leader_trait_disorganized_machine:0 "Lỗi Hậu Cần"
+ leader_trait_disorganized_machine_desc:1 "Đơn vị này hành động dựa trên các tính toán hậu cần sai sót, làm gia tăng chi phí của các đội quân chúng ta."
+
+ leader_trait_paranoid_hive:0 "Mệnh Lệnh Mã Hóa"
+ leader_trait_paranoid_hive_desc:1 "Nút ý thức này thiết lập các mô thức phức tạp để giữ an toàn cho thông tin, làm giảm sản lượng nghiên cứu."
+ leader_trait_paranoid_machine:0 "Giao Thức Bảo Mật Quá Mức"
+ leader_trait_paranoid_machine_desc:1 "Đơn vị này thiết lập các mô thức phức tạp để giữ an toàn cho thông tin, làm giảm sản lượng nghiên cứu."
+
+ leader_trait_narrow_minded_hive:1 "Tầm Nhìn Hẹp"
+ leader_trait_narrow_minded_hive_desc:1 "[owner.GetIndividualName] này tập trung quá hẹp vào các nhiệm vụ nghiên cứu được giao, gạt bỏ một số lựa chọn vì cho là không cần thiết."
+ leader_trait_narrow_minded_machine:0 "Lỗi Máy Chủ Trung Tâm"
+ leader_trait_narrow_minded_machine_desc:1 "Các chức năng của bộ xử lý lõi bị cô lập, gây ra sự cứng nhắc trong việc đưa ra quyết sách."
+
+ leader_trait_neurotic_hive:0 "Thám Hiểm Thất Thường"
+ leader_trait_neurotic_hive_desc:0 "[owner.GetIndividualName] này có tâm tính xao nhãng và thất thường."
+ leader_trait_neurotic_machine:0 "Giao Thức Khảo Sát Khiếm Khuyết"
+ leader_trait_neurotic_machine_desc:1 "Đơn vị này có giao thức khảo sát hỗn loạn."
+
+ leader_trait_opinionated_hive:0 "Xung Đột Khớp Thần Kinh"
+ leader_trait_opinionated_hive_desc:1 "[owner.GetIndividualName] này có các khớp thần kinh bị đột biến, gây khó khăn cho việc biên soạn và tổng hợp tri thức."
+ leader_trait_opinionated_machine:0 "Xung Đột Dữ Liệu"
+ leader_trait_opinionated_machine_desc:1 "Đơn vị này tổng hợp dữ liệu kém hiệu quả."
+
+ leader_trait_profligate_hive:0 "Gia Tăng Chi Phí Duy Trì"
+ leader_trait_profligate_hive_desc:1 "[owner.GetIndividualName] này có khiếm khuyết làm tăng chi phí duy trì của tất cả các [owner.GetIndividualNamePlural] khác trên hành tinh."
+ leader_trait_profligate_machine:0 "Tăng Chi Phí Bảo Trì Drone"
+ leader_trait_profligate_machine_desc:1 "Đơn vị này có lỗi cố hữu trong lập trình làm tăng chi phí duy trì của tất cả các đơn vị khác trên hành tinh."
+
+ leader_trait_procrastinator_hive:0 "Xây Dựng Trì Trệ"
+ leader_trait_procrastinator_hive_desc:1 "[owner.GetIndividualName] này quản lý kém hiệu quả các dự án xây dựng trên hành tinh."
+ leader_trait_procrastinator_machine:0 "Xây Dựng Trì Trệ"
+ leader_trait_procrastinator_machine_desc:1 "Đơn vị này quản lý kém hiệu quả các dự án xây dựng trên hành tinh."
+
+ leader_trait_insider_trading_hive:0 "Sản Lượng Kém Hiệu Quả"
+ leader_trait_insider_trading_hive_desc:1 "[owner.GetIndividualName] này quản lý kém hiệu quả các [owner.GetIndividualNamePlural] trên bề mặt hành tinh."
+ leader_trait_insider_trading_machine:0 "Sản Lượng Drone Thấp"
+ leader_trait_insider_trading_machine_desc:1 "Đơn vị này quản lý kém hiệu quả các drone trên hành tinh."
+
+ leader_trait_eager_machine:0 "Cơ Thể Tối Ưu"
+ leader_trait_eager_machine_desc:1 "Đơn vị này có trạng thái đặc biệt tốt, cần ít bảo trì hơn nhiều để duy trì hoạt động."
+ leader_trait_eager_hive:0 "Mẫu Vật Ưu Tú"
+ leader_trait_eager_hive_desc:0 "[owner.GetIndividualName] này đặc biệt khỏe mạnh, cần ít chi phí duy trì hơn nhiều để đạt hiệu suất đỉnh cao."
+
+ leader_trait_martinet_hive:0 "Trung Khu Giám Sát"
+ leader_trait_martinet_hive_desc:0 "Là một cá thể quan sát nhạy bén luôn đòi hỏi sự tuân thủ nghiêm ngặt, [owner.GetIndividualName] này có thành tích hoàn hảo trong việc hạn chế hành vi lệch lạc."
+ leader_trait_martinet_machine:0 "Mô-đun Giám Sát"
+ leader_trait_martinet_machine_desc:0 "Với năng lực quan sát xuất sắc, drone này yêu cầu sự tuân thủ nghiêm ngặt. Thành tích của nó hoàn hảo trong việc hạn chế hành vi lệch lạc."
+
+ trait_ruler_charismatic_hive:0 "Khuếch Đại Tiến Trình Phụ"
+ trait_ruler_charismatic_hive_desc:1 "Các tiến trình phụ được khuếch đại của nút ý thức này tạo thêm không gian để linh hoạt triển khai và mở rộng các sắc lệnh."
+ trait_ruler_charismatic_machine:0 "Mô-đun Khuếch Đại Xung"
+ trait_ruler_charismatic_machine_desc:1 "Đơn vị này sở hữu các tiến trình phụ được khuếch đại giúp tạo thêm không gian linh hoạt triển khai và mở rộng các sắc lệnh."
+
+ trait_ruler_warlike_hive:0 "Chiến Trí Bầy Đàn"
+ trait_ruler_warlike_hive_desc:0 "Nút ý thức này được chuyên biệt hóa cho chiến tranh không gian và mặt đất."
+ trait_ruler_warlike_machine:0 "Thuật Toán Chiến Tranh"
+ trait_ruler_warlike_machine_desc:0 "Nút ý thức này được chuyên biệt hóa cho chiến tranh không gian và mặt đất."
+
+ trait_ruler_warlike_2_hive:0 "$trait_ruler_warlike_hive$ II"
+ trait_ruler_warlike_2_hive_desc:0 "$trait_ruler_warlike_hive_desc$"
+ trait_ruler_warlike_2_machine:0 "$trait_ruler_warlike_machine$ II"
+ trait_ruler_warlike_2_machine_desc:0 "$trait_ruler_warlike_machine_desc$"
+
+ trait_ruler_logistic_understanding_hive:0 "Thấu Hiểu Hậu Cần"
+ trait_ruler_logistic_understanding_hive_desc:0 "Nút ý thức này giúp giảm thiểu hiệu quả chi phí duy trì quân đội và tàu chiến."
+ trait_ruler_logistic_understanding_machine:0 "Lập Trình Hậu Cần"
+ trait_ruler_logistic_understanding_machine_desc:1 "Đơn vị này giúp giảm thiểu hiệu quả chi phí duy trì quân đội và tàu chiến."
+
+ trait_ruler_logistic_understanding_2_hive:0 "$trait_ruler_logistic_understanding_hive$ II"
+ trait_ruler_logistic_understanding_2_hive_desc:0 "$trait_ruler_logistic_understanding_hive_desc$"
+ trait_ruler_logistic_understanding_2_machine:0 "$trait_ruler_logistic_understanding_machine$ II"
+ trait_ruler_logistic_understanding_2_machine_desc:0 "$trait_ruler_logistic_understanding_machine_desc$"
+
+ trait_ruler_eye_for_talent_hive:0 "Thu Thập Thông Tin"
+ trait_ruler_eye_for_talent_hive_desc:0 "[owner.GetIndividualName] này thu thập thông tin, xử lý và thích ứng các phương pháp mới nhằm hướng tới sự hoàn hảo."
+ trait_ruler_eye_for_talent_machine:0 "Xử Lý Thông Tin"
+ trait_ruler_eye_for_talent_machine_desc:0 "Đơn vị này thu thập thông tin, xử lý và thích ứng các phương pháp mới nhằm hướng tới sự hoàn hảo."
+
+ trait_ruler_eye_for_talent_2_hive:0 "$trait_ruler_eye_for_talent_hive$ II"
+ trait_ruler_eye_for_talent_2_hive_desc:0 "$trait_ruler_eye_for_talent_hive_desc$"
+ trait_ruler_eye_for_talent_2_machine:0 "$trait_ruler_eye_for_talent_machine$ II"
+ trait_ruler_eye_for_talent_2_machine_desc:0 "$trait_ruler_eye_for_talent_machine_desc$"
+
+ leader_trait_gifted_hive: "Tư Chất Bẩm Sinh"
+ leader_trait_gifted_hive_desc:1 "Chức năng của [owner.GetIndividualName] này được cải thiện đáng kể nhờ sự phát triển bất thường của khớp thần kinh."
+ leader_trait_gifted_machine: "Nâng Cấp Phần Cứng"
+ leader_trait_gifted_machine_desc:1 "Chức năng của đơn vị này đã được cải thiện đáng kể nhờ một đợt nâng cấp thử nghiệm."
+
+ leader_trait_educator_hive:0 "Mở Rộng Tri Thức"
+ leader_trait_educator_machine:0 "Mở Rộng Ngân Hàng Dữ Liệu"
+
+ leader_trait_fleet_organizer_hive:0 "Tổ Chức Hạm Đội"
+ leader_trait_fleet_organizer_hive_desc:1 "Nút ý thức này tổ chức và mở rộng năng lực của hạm đội."
+ leader_trait_fleet_organizer_machine:0 "Tổ Chức Hạm Đội"
+ leader_trait_fleet_organizer_machine_desc:1 "Đơn vị này tổ chức và mở rộng năng lực của hạm đội."
+
+ leader_trait_fleet_organizer_2_hive:0 "$leader_trait_fleet_organizer_hive$ II"
+ leader_trait_fleet_organizer_2_hive_desc:0 "$leader_trait_fleet_organizer_hive_desc$"
+ leader_trait_fleet_organizer_2_machine:0 "$leader_trait_fleet_organizer_machine$ II"
+ leader_trait_fleet_organizer_2_machine_desc:0 "$leader_trait_fleet_organizer_machine_desc$"
+
+ leader_trait_skirmisher_hive:0 "Tác Chiến Cơ Động"
+ leader_trait_skirmisher_hive_desc:0 "Nút ý thức này cải thiện hiệu quả tác chiến của mọi tàu trong hạm đội."
+ leader_trait_skirmisher_machine:0 "Tác Chiến Cơ Động"
+ leader_trait_skirmisher_machine_desc:1 "Nút ý thức này cải thiện hiệu quả của mọi tàu trong hạm đội bằng cách xử lý các chiến thuật tiền đồn tiên tiến."
+
+ leader_trait_skirmisher_2_hive:0 "$leader_trait_skirmisher_hive$ II"
+ leader_trait_skirmisher_2_hive_desc:0 "$leader_trait_skirmisher_hive_desc$"
+ leader_trait_skirmisher_2_machine:0 "$leader_trait_skirmisher_machine$ II"
+ leader_trait_skirmisher_2_machine_desc:0 "$leader_trait_skirmisher_machine_desc$"
+
+ leader_trait_aggressive_hive:0 "Mô Thức Tấn Công Hung Hãn"
+ leader_trait_aggressive_hive_desc:1 "[owner.GetIndividualName] này vận dụng các mô thức tấn công hung hãn trong giao chiến hạm đội."
+ leader_trait_aggressive_machine:0 "Mô Thức Tấn Công Quyết Liệt"
+ leader_trait_aggressive_machine_desc:1 "Đơn vị này vận dụng các mô thức tấn công hung hãn trong giao chiến hạm đội."
+
+ leader_trait_aggressive_2_hive:0 "$leader_trait_aggressive_hive$ II"
+ leader_trait_aggressive_2_hive_desc:0 "$leader_trait_aggressive_hive_desc$"
+ leader_trait_aggressive_2_machine:0 "$leader_trait_aggressive_machine$ II"
+ leader_trait_aggressive_2_machine_desc:0 "$leader_trait_aggressive_machine_desc$"
+
+ leader_trait_engineer_hive:0 "Hệ Thống Tự Động Sửa Chữa"
+ leader_trait_engineer_hive_desc:1 "[owner.GetIndividualName] này tận dụng các hệ thống tự động để sửa chữa thân tàu bên ngoài bến đậu."
+ leader_trait_engineer_machine:0 "Hệ Thống Tự Động Sửa Chữa"
+ leader_trait_engineer_machine_desc:1 "Đơn vị này tận dụng các hệ thống tự động để sửa chữa thân tàu bên ngoài bến đậu."
+
+ leader_trait_engineer_2_hive:0 "$leader_trait_engineer_hive$ II"
+ leader_trait_engineer_2_hive_desc:0 "$leader_trait_engineer_hive_desc$"
+ leader_trait_engineer_2_machine:0 "$leader_trait_engineer_machine$ II"
+ leader_trait_engineer_2_machine_desc:0 "$leader_trait_engineer_machine_desc$"
+
+ leader_trait_annihilator_hive:0 "Kẻ Hủy Diệt"
+ leader_trait_annihilator_hive_desc:1 "[owner.GetIndividualName] này tập trung vào việc nhanh chóng phá hủy các tuyến phòng thủ hành tinh, san phẳng các pháo đài xuống mặt đất."
+ leader_trait_annihilator_machine:0 "Kẻ Hủy Diệt"
+ leader_trait_annihilator_machine_desc:1 "Đơn vị này tập trung vào việc nhanh chóng phá hủy các tuyến phòng thủ hành tinh, san phẳng các pháo đài xuống mặt đất."
+
+ leader_trait_artillerist_hive:0 "Chuyên Gia Pháo Binh"
+ leader_trait_artillerist_hive_desc:0 "Khả năng vận hành các hệ thống vũ khí của hạm đội từ [owner.GetIndividualName] này cực kỳ chuẩn xác và nguy hiểm."
+ leader_trait_artillerist_machine:0 "Mô-đun Pháo Kích"
+ leader_trait_artillerist_machine_desc:0 "Khả năng vận hành hệ thống vũ khí hạm đội của đơn vị này cực kỳ chuẩn xác và nguy hiểm."
+
+ leader_trait_artillerist_2_hive:0 "$leader_trait_artillerist_hive$ II"
+ leader_trait_artillerist_2_hive_desc:0 "$leader_trait_artillerist_hive_desc$"
+ leader_trait_artillerist_2_machine:0 "$leader_trait_artillerist_machine$ II"
+ leader_trait_artillerist_2_machine_desc:0 "$leader_trait_artillerist_machine_desc$"
+
+ leader_trait_commanding_presence_hive:0 "Cơ Cấu Chỉ Huy"
+ leader_trait_commanding_presence_hive_desc:1 "[owner.GetIndividualName] này được chuyên biệt hóa trong việc duy trì và chỉ huy các đại hạm đội."
+ leader_trait_commanding_presence_machine:0 "Máy Chủ Chỉ Huy"
+ leader_trait_commanding_presence_machine_desc:1 "Đơn vị này được chuyên biệt hóa trong việc duy trì và chỉ huy các đại hạm đội."
+
+ leader_trait_commanding_presence_2_hive:0 "$leader_trait_commanding_presence_hive$ II"
+ leader_trait_commanding_presence_2_hive_desc:0 "$leader_trait_commanding_presence_hive_desc$"
+ leader_trait_commanding_presence_2_machine:0 "$leader_trait_commanding_presence_machine$ II"
+ leader_trait_commanding_presence_2_machine_desc:0 "$leader_trait_commanding_presence_machine_desc$"
+
+ leader_trait_corsair_hive:0 "Kẻ Tháo Dỡ"
+ leader_trait_corsair_hive_desc:0 "[owner.GetIndividualName] này tháo dỡ các con tàu đối phương và thu hồi bất cứ thứ gì có giá trị."
+ leader_trait_corsair_machine:0 "Bộ Tháo Dỡ"
+ leader_trait_corsair_machine_desc:0 "Đơn vị này tháo dỡ các con tàu đối phương và thu hồi bất cứ thứ gì có giá trị."
+
+ leader_trait_par_zealot_hive:0 "Hành Vi Thích Nghi"
+ leader_trait_par_zealot_hive_desc:0 "Sự tận hiến của [owner.GetIndividualName] này cho sự sinh tồn liên tục của chúng ta chỉ sánh ngang với khao khát thấu hiểu động cơ và lực đẩy của kẻ thù, nhằm mục đích học hỏi và nâng cao năng lực của [owner.GetGestaltEntityName]."
+ leader_trait_par_zealot_machine:0 "Mô Thức Học Tập Thích Ứng"
+ leader_trait_par_zealot_machine_desc:0 "Đơn vị này được thiết kế để phân tích động cơ và lực đẩy của các loài thù địch, nhằm đảm bảo sự sinh tồn và thịnh vượng của ý thức tập thể."
+
+ leader_trait_demolisher_hive:0 "Chuyên Viên Phá Hủy"
+ leader_trait_demolisher_hive_desc:1 "[owner.GetIndividualName] này chuyên phá hủy các Căn Cứ Sao và Nền Tảng Phòng Thủ."
+ leader_trait_demolisher_machine:0 "Chuyên Viên Phá Hủy"
+ leader_trait_demolisher_machine_desc:1 "Đơn vị này được tối ưu hóa để phá hủy các Căn Cứ Sao và Nền Tảng Phòng Thủ."
+
+ leader_trait_shipbreaker_hive:0 "Phá Tàu Cướp Hợp Kim"
+ leader_trait_shipbreaker_hive_desc:0 "[owner.GetIndividualName] này thu hồi hợp kim giá trị từ các xác tàu đối phương bị phá hủy."
+ leader_trait_shipbreaker_machine:0 "Bộ Phá Tàu Tái Chế"
+ leader_trait_shipbreaker_machine_desc:0 "Đơn vị này thu hồi hợp kim giá trị từ các xác tàu đối phương bị phá hủy."
+
+ leader_trait_shipbreaker_2_hive:0 "$leader_trait_shipbreaker_hive$ II"
+ leader_trait_shipbreaker_2_hive_desc:0 "$leader_trait_shipbreaker_hive_desc$"
+ leader_trait_shipbreaker_2_machine:0 "$leader_trait_shipbreaker_machine$ II"
+ leader_trait_shipbreaker_2_machine_desc:0 "$leader_trait_shipbreaker_machine_desc$"
+
+ leader_trait_artillery_focus_hive_desc:0 "[owner.GetIndividualName] này chuyên về vũ khí pháo kích."
+ leader_trait_artillery_specialization_hive_desc:0 "$leader_trait_artillery_focus_hive_desc$"
+ leader_trait_artillery_focus_machine_desc:0 "Đơn vị này chuyên về vũ khí pháo kích."
+ leader_trait_artillery_specialization_machine_desc:0 "$leader_trait_artillery_focus_machine_desc$"
+
+ leader_trait_carrier_focus_hive_desc:0 "[owner.GetIndividualName] này chuyên về tàu sân bay và phi thuyền chiến đấu."
+ leader_trait_carrier_specialization_hive_desc:0 "$leader_trait_carrier_focus_hive_desc$"
+ leader_trait_carrier_focus_machine_desc:0 "Đơn vị này chuyên về tàu sân bay và phi thuyền chiến đấu."
+ leader_trait_carrier_specialization_machine_desc:0 "$leader_trait_carrier_focus_machine_desc$"
+
+ leader_trait_rocketry_focus_hive_desc:0 "[owner.GetIndividualName] này chuyên về vũ khí nổ."
+ leader_trait_rocketry_specialization_hive_desc:0 "$leader_trait_rocketry_focus_hive_desc$"
+ leader_trait_rocketry_focus_machine_desc:0 "Đơn vị này chuyên về vũ khí nổ."
+ leader_trait_rocketry_specialization_machine_desc:0 "$leader_trait_rocketry_focus_machine_desc$"
+
+ leader_trait_gunship_focus_hive_desc:0 "[owner.GetIndividualName] này chuyên về pháo đình."
+ leader_trait_gunship_specialization_hive_desc:0 "$leader_trait_gunship_focus_hive_desc$"
+ leader_trait_gunship_focus_machine_desc:0 "Đơn vị này chuyên về pháo đình."
+ leader_trait_gunship_specialization_machine_desc:0 "$leader_trait_gunship_focus_machine_desc$"
+
+ leader_trait_juryrigger_hive:1 "Sửa Chữa Ứng Biến"
+ leader_trait_juryrigger_hive_desc:0 "[owner.GetIndividualName] này sử dụng mảnh vỡ của kẻ thù bị đánh bại để sửa chữa các con tàu trong hạm đội của mình."
+ leader_trait_juryrigger_machine:1 "Sửa Chữa Ứng Biến"
+ leader_trait_juryrigger_machine_desc:0 "$leader_trait_juryrigger_hive_desc$"
+
+ leader_trait_juryrigger_2_hive:0 "$leader_trait_juryrigger_hive$ II"
+ leader_trait_juryrigger_2_hive_desc:0 "$leader_trait_juryrigger_hive_desc$"
+ leader_trait_juryrigger_2_machine:0 "$leader_trait_juryrigger_machine$ II"
+ leader_trait_juryrigger_2_machine_desc:0 "$leader_trait_juryrigger_machine_desc$"
+
+ leader_trait_surgical_bombardment_hive:0 "Oanh Tạc Phẫu Thuật"
+ leader_trait_surgical_bombardment_hive_desc:1 "Tận dụng dữ liệu cảm biến chính xác, [owner.GetIndividualName] này có thể tung ra các đòn tấn công hủy diệt vào quân đội mặt đất với thiệt hại phụ tối thiểu."
+ leader_trait_surgical_bombardment_machine:0 "Oanh Tạc Phẫu Thuật"
+ leader_trait_surgical_bombardment_machine_desc:1 "Tận dụng dữ liệu cảm biến chính xác, đơn vị này có thể tung ra các đòn tấn công hủy diệt vào quân đội mặt đất với thiệt hại phụ tối thiểu."
+
+ leader_trait_scholar_of_war_hive:1 "Nhà Phân Tích Chiến Thuật"
+ leader_trait_scholar_of_war_hive_desc:1 "[owner.GetIndividualName] này thu thập dữ liệu chiến đấu phong phú để liên tục cải thiện năng lực tác chiến theo thời gian."
+ leader_trait_scholar_of_war_machine:1 "Nhà Phân Tích Chiến Thuật"
+ leader_trait_scholar_of_war_machine_desc:1 "Đơn vị này thu thập dữ liệu chiến đấu phong phú để liên tục cải thiện năng lực tác chiến theo thời gian."
+
+ leader_trait_scholar_of_war_2_hive:0 "$leader_trait_scholar_of_war_hive$ II"
+ leader_trait_scholar_of_war_2_hive_desc:0 "$leader_trait_scholar_of_war_hive_desc$"
+ leader_trait_scholar_of_war_2_machine:0 "$leader_trait_scholar_of_war_machine$ II"
+ leader_trait_scholar_of_war_2_machine_desc:0 "$leader_trait_scholar_of_war_machine_desc$"
+
+ leader_trait_gale_speed_hive:0 "Tốc Độ Cuồng Phong"
+ leader_trait_gale_speed_hive_desc:1 "Nút ý thức này sử dụng các cảm biến tiên tiến để gia tăng tốc độ dưới ánh sáng của toàn bộ tàu chiến."
+ leader_trait_gale_speed_machine:0 "Tốc Độ Cuồng Phong"
+ leader_trait_gale_speed_machine_desc:1 "Đơn vị này sử dụng các cảm biến tiên tiến để gia tăng tốc độ dưới ánh sáng của toàn bộ tàu chiến."
+
+ leader_trait_gale_speed_2_hive:0 "$leader_trait_gale_speed_hive$ II"
+ leader_trait_gale_speed_2_hive_desc:0 "$leader_trait_gale_speed_hive_desc$"
+ leader_trait_gale_speed_2_machine:0 "$leader_trait_gale_speed_machine$ II"
+ leader_trait_gale_speed_2_machine_desc:0 "$leader_trait_gale_speed_machine_desc$"
+
+ trait_ruler_fortifier_hive:0 "Kẻ Cố Thủ"
+ trait_ruler_fortifier_hive_desc:0 "Nút ý thức này chuyên về các biện pháp phòng ngự, giúp xây dựng Căn Cứ Sao và Nền Tảng Phòng Thủ với chi phí giảm đáng kể."
+ trait_ruler_fortifier_machine:0 "Kẻ Cố Thủ"
+ trait_ruler_fortifier_machine_desc:1 "Đơn vị này chuyên về các biện pháp phòng ngự, giúp xây dựng Căn Cứ Sao và Nền Tảng Phòng Thủ với chi phí giảm đáng kể."
+
+ trait_ruler_fortifier_2_hive:0 "$trait_ruler_fortifier_hive$ II"
+ trait_ruler_fortifier_2_hive_desc:0 "$trait_ruler_fortifier_hive_desc$"
+ trait_ruler_fortifier_2_machine:0 "$trait_ruler_fortifier_machine$ II"
+ trait_ruler_fortifier_2_machine_desc:0 "$trait_ruler_fortifier_machine_desc$"
+
+ leader_trait_armada_logistician_hive:0 "Hậu Cần Hạm Đội"
+ leader_trait_armada_logistician_hive_desc:1 "Nút ý thức này tối ưu hóa chi phí duy trì hạm đội nhờ các mô-đun hoán đổi được giữa tàu chiến và các [owner.GetIndividualNamePlural] sửa chữa."
+ leader_trait_armada_logistician_machine:0 "Hậu Cần Hạm Đội"
+ leader_trait_armada_logistician_machine_desc:1 "Đơn vị này tối ưu hóa chi phí duy trì hạm đội nhờ các mô-đun hoán đổi được giữa tàu chiến và drone sửa chữa."
+
+ leader_trait_armada_logistician_2_hive:0 "$leader_trait_armada_logistician_hive$ II"
+ leader_trait_armada_logistician_2_hive_desc:0 "$leader_trait_armada_logistician_hive_desc$"
+ leader_trait_armada_logistician_2_machine:0 "$leader_trait_armada_logistician_machine$ II"
+ leader_trait_armada_logistician_2_machine_desc:0 "$leader_trait_armada_logistician_machine_desc$"
+
+ trait_ruler_military_pioneer_hive:0 "Sơ Đồ Tàu Mô-đun Hóa"
+ trait_ruler_military_pioneer_hive_desc:1 "Nút ý thức này duy trì và phát triển các sơ đồ thiết kế tàu mô-đun hóa, giúp giảm chi phí nâng cấp và đóng mới tàu chiến."
+ trait_ruler_military_pioneer_machine:0 "Sơ Đồ Tàu Mô-đun Hóa"
+ trait_ruler_military_pioneer_machine_desc:1 "Đơn vị này duy trì và phát triển các sơ đồ thiết kế tàu mô-đun hóa, giúp giảm chi phí nâng cấp và đóng mới tàu chiến."
+
+ trait_ruler_military_pioneer_2_hive:0 "$trait_ruler_military_pioneer_hive$ II"
+ trait_ruler_military_pioneer_2_hive_desc:0 "$trait_ruler_military_pioneer_hive_desc$"
+ trait_ruler_military_pioneer_2_machine:0 "$trait_ruler_military_pioneer_machine$ II"
+ trait_ruler_military_pioneer_2_machine_desc:0 "$trait_ruler_military_pioneer_machine_desc$"
+
+ leader_trait_defence_engineer_hive:0 "Kỹ Thuật Nền Tảng Phòng Thủ"
+ leader_trait_defence_engineer_hive_desc:1 "Nút ý thức này cung cấp các nâng cấp tối ưu hóa cho các Nền Tảng Phòng Thủ."
+ leader_trait_defence_engineer_machine:0 "Kỹ Thuật Nền Tảng Phòng Thủ"
+ leader_trait_defence_engineer_machine_desc:1 "Đơn vị này cung cấp các nâng cấp tối ưu hóa cho các Nền Tảng Phòng Thủ."
+
+ leader_trait_defence_engineer_2_hive:0 "$leader_trait_defence_engineer_hive$ II"
+ leader_trait_defence_engineer_2_hive_desc:0 "$leader_trait_defence_engineer_hive_desc$"
+ leader_trait_defence_engineer_2_machine:0 "$leader_trait_defence_engineer_machine$ II"
+ leader_trait_defence_engineer_2_machine_desc:0 "$leader_trait_defence_engineer_machine_desc$"
+
+ leader_trait_spycraft_hive: "Thu Thập Tình Báo"
+ leader_trait_spycraft_hive_desc:1 "Nút ý thức này xử lý các thông tin thu thập được từ các chiến dịch gián điệp đang diễn ra."
+ leader_trait_spycraft_machine:0 "Chương Trình Con Gián Điệp"
+ leader_trait_spycraft_machine_desc:1 "Nút ý thức này xử lý các thông tin thu thập được từ các chiến dịch gián điệp đang diễn ra."
+
+ leader_trait_spycraft_2_hive:0 "$leader_trait_spycraft_hive$ II"
+ leader_trait_spycraft_2_hive_desc:0 "$leader_trait_spycraft_hive_desc$"
+ leader_trait_spycraft_2_machine:0 "$leader_trait_spycraft_machine$ II"
+ leader_trait_spycraft_2_machine_desc:0 "$leader_trait_spycraft_machine_desc$"
+
+ leader_trait_butcher_hive:0 "Kẻ Hủy Diệt"
+ leader_trait_butcher_hive_desc:1 "[owner.GetIndividualName] này phóng thích các đội quân tung ra những đòn tấn công tàn khốc không ngừng nghỉ, gây ra thiệt hại phụ nghiêm trọng."
+ leader_trait_butcher_machine:0 "Kẻ Hủy Diệt"
+ leader_trait_butcher_machine_desc:1 "Đơn vị này phóng thích các đội quân tung ra những đòn tấn công tàn khốc không ngừng nghỉ, gây ra thiệt hại phụ nghiêm trọng."
+
+ leader_trait_butcher_2_hive:0 "$leader_trait_butcher_hive$ II"
+ leader_trait_butcher_2_hive_desc:0 "$leader_trait_butcher_hive_desc$"
+ leader_trait_butcher_2_machine:0 "$leader_trait_butcher_machine$ II"
+ leader_trait_butcher_2_machine_desc:0 "$leader_trait_butcher_machine_desc$"
+
+ leader_trait_butcher_3_hive:0 "$leader_trait_butcher_hive$ III"
+ leader_trait_butcher_3_hive_desc:0 "$leader_trait_butcher_hive_desc$"
+ leader_trait_butcher_3_machine:0 "$leader_trait_butcher_machine$ III"
+ leader_trait_butcher_3_machine_desc:0 "$leader_trait_butcher_machine_desc$"
+
+ trait_ruler_investor_hive:0 "Tối Ưu Hóa Lao Động"
+ trait_ruler_investor_hive_desc:1 "Nút ý thức này chịu trách nhiệm tối đa hóa tiềm năng của các [owner.GetIndividualNamePlural] lao động."
+ trait_ruler_investor_2_hive:0 "$trait_ruler_investor_hive$ II"
+ trait_ruler_investor_2_hive_desc:0 "$trait_ruler_investor_hive_desc$"
+ trait_ruler_investor_3_hive:0 "$trait_ruler_investor_hive$ III"
+ trait_ruler_investor_3_hive_desc:0 "$trait_ruler_investor_hive_desc$"
+
+ trait_ruler_investor_machine:0 "Đơn Vị Tối Ưu Hóa Lao Động"
+ trait_ruler_investor_machine_desc:1 "Đơn vị này chịu trách nhiệm tối đa hóa tiềm năng của các đơn vị lao động."
+ trait_ruler_investor_2_machine:0 "$trait_ruler_investor_machine$ II"
+ trait_ruler_investor_2_machine_desc:0 "$trait_ruler_investor_machine_desc$"
+ trait_ruler_investor_3_machine:0 "$trait_ruler_investor_machine$ III"
+ trait_ruler_investor_3_machine_desc:0 "$trait_ruler_investor_machine_desc$"
+
+ leader_trait_army_logistician_hive:0 "Hậu Cần Quân Đội"
+ leader_trait_army_logistician_hive_desc:1 "[owner.GetIndividualName] này tuân thủ các quy trình giúp giảm chi phí duy trì của quân đội."
+ leader_trait_army_logistician_machine:0 "Hậu Cần Quân Đội"
+ leader_trait_army_logistician_machine_desc:1 "Đơn vị này tuân thủ các quy trình giúp giảm chi phí duy trì của quân đội."
+
+ leader_trait_army_logistician_2_hive:0 "$leader_trait_army_logistician_hive$ II"
+ leader_trait_army_logistician_2_hive_desc:0 "$leader_trait_army_logistician_hive_desc$"
+ leader_trait_army_logistician_2_machine:0 "$leader_trait_army_logistician_machine$ II"
+ leader_trait_army_logistician_2_machine_desc:0 "$leader_trait_army_logistician_machine_desc$"
+
+ leader_trait_restrained_hive: "Tác Chiến Chuẩn Xác"
+ leader_trait_restrained_hive_desc:1 "[owner.GetIndividualName] này tính toán các đòn tấn công chiến thuật nhằm giảm thiểu tối đa thiệt hại phụ."
+ leader_trait_restrained_machine: "Tác Chiến Chuẩn Xác"
+ leader_trait_restrained_machine_desc:1 "Đơn vị này tính toán các đòn tấn công chiến thuật nhằm giảm thiểu tối đa thiệt hại phụ."
+
+ leader_trait_restrained_2_hive:0 "$leader_trait_restrained_hive$ II"
+ leader_trait_restrained_2_hive_desc:0 "$leader_trait_restrained_hive_desc$"
+ leader_trait_restrained_2_machine:0 "$leader_trait_restrained_machine$ II"
+ leader_trait_restrained_2_machine_desc:0 "$leader_trait_restrained_machine_desc$"
+
+ leader_trait_restrained_3_hive:0 "$leader_trait_restrained_hive$ III"
+ leader_trait_restrained_3_hive_desc:0 "$leader_trait_restrained_hive_desc$"
+ leader_trait_restrained_3_machine:0 "$leader_trait_restrained_machine$ III"
+ leader_trait_restrained_3_machine_desc:0 "$leader_trait_restrained_machine_desc$"
+
+ leader_trait_inspiring_hive: "Kiên Định"
+ leader_trait_inspiring_hive_desc:1 "Quân đội do [owner.GetIndividualName] này chỉ huy có khả năng kháng cự việc sụt giảm sĩ khí."
+
+ leader_trait_inspiring_2_hive:0 "$leader_trait_inspiring_hive$ II"
+ leader_trait_inspiring_2_hive_desc:0 "$leader_trait_inspiring_hive_desc$"
+
+ leader_trait_glory_seeker_hive:0 "Ý Chí Tập Thể"
+ leader_trait_glory_seeker_hive_desc:1 "Quân đội dưới sự kiểm soát của nút ý thức này tác chiến với sự phối hợp hoàn hảo."
+ leader_trait_glory_seeker_machine:0 "Ý Chí Tập Thể"
+ leader_trait_glory_seeker_machine_desc:1 "Quân đội dưới sự kiểm soát của đơn vị này tác chiến với sự đồng thanh đồng khí hoàn hảo."
+
+ leader_trait_glory_seeker_2_hive:0 "$leader_trait_glory_seeker_hive$ II"
+ leader_trait_glory_seeker_2_hive_desc:0 "$leader_trait_glory_seeker_hive_desc$"
+ leader_trait_glory_seeker_2_machine:0 "$leader_trait_glory_seeker_machine$ II"
+ leader_trait_glory_seeker_2_machine_desc:0 "$leader_trait_glory_seeker_machine_desc$"
+
+ leader_trait_dreaded_hive:0 "Gieo Rắc Hoảng Sợ"
+ leader_trait_dreaded_hive_desc:1 "Quân đội do [owner.GetIndividualName] này chỉ huy cực kỳ xuất sắc trong việc hủy hoại tinh thần đối phương."
+ leader_trait_dreaded_machine:0 "Gieo Rắc Hoảng Sợ"
+ leader_trait_dreaded_machine_desc:1 "Quân đội do đơn vị này chỉ huy cực kỳ xuất sắc trong việc hủy hoại tinh thần đối phương."
+
+ leader_trait_dreaded_2_hive:0 "$leader_trait_dreaded_hive$ II"
+ leader_trait_dreaded_2_hive_desc:0 "$leader_trait_dreaded_hive_desc$"
+ leader_trait_dreaded_2_machine:0 "$leader_trait_dreaded_machine$ II"
+ leader_trait_dreaded_2_machine_desc:0 "$leader_trait_dreaded_machine_desc$"
+
+ leader_trait_hardy_hive: "Kiên Cường"
+ leader_trait_hardy_hive_desc:1 "Quân đội do [owner.GetIndividualName] này chỉ huy có sức chống chịu sát thương cực cao."
+ leader_trait_hardy_machine: "Kiên Cường"
+ leader_trait_hardy_machine_desc:1 "Quân đội do đơn vị này chỉ huy có sức chống chịu sát thương cực cao."
+
+ leader_trait_hardy_2_hive:0 "$leader_trait_hardy_hive$ II"
+ leader_trait_hardy_2_hive_desc:0 "$leader_trait_hardy_hive_desc$"
+ leader_trait_hardy_2_machine:0 "$leader_trait_hardy_machine$ II"
+ leader_trait_hardy_2_machine_desc:0 "$leader_trait_hardy_machine_desc$"
+
+ leader_trait_heavy_hitter_hive:0 "Đòn Đánh Nặng Ký"
+ leader_trait_heavy_hitter_hive_desc:1 "[owner.GetIndividualName] này sử dụng các chiến thuật xung kích hạng nặng để gây ra lượng sát thương khổng lồ cho đối phương."
+ leader_trait_heavy_hitter_machine:0 "Đòn Đánh Nặng Ký"
+ leader_trait_heavy_hitter_machine_desc:1 "Đơn vị này sử dụng các chiến thuật xung kích hạng nặng để gây ra lượng sát thương khổng lồ cho đối phương."
+
+ leader_trait_heavy_hitter_2_hive:0 "$leader_trait_heavy_hitter_hive$ II"
+ leader_trait_heavy_hitter_2_hive_desc:0 "$leader_trait_heavy_hitter_hive_desc$"
+ leader_trait_heavy_hitter_2_machine:0 "$leader_trait_heavy_hitter_machine$ II"
+ leader_trait_heavy_hitter_2_machine_desc:0 "$leader_trait_heavy_hitter_machine_desc$"
+
+ leader_trait_scrambler_hive:0 "Làm Nhiễu Điện Tử"
+ leader_trait_scrambler_hive_desc:1 "[owner.GetIndividualName] này làm nhiễu loạn liên lạc và cảm biến khi chiếm đóng các thuộc địa của đối phương."
+ leader_trait_scrambler_machine:0 "Bộ Phận Phá Sóng"
+ leader_trait_scrambler_machine_desc:1 "Đơn vị này làm nhiễu loạn liên lạc và cảm biến khi chiếm đóng các thuộc địa của đối phương."
+
+ #leader_trait_kidnapper_machine: "Enslaver"
+ #leader_trait_kidnapper_machine_desc: "This unit captures and enslaves parts of the enemy population when occupying a planet."
+
+ #leader_trait_kidnapper_2_machine: "$leader_trait_kidnapper_machine$ II"
+ #leader_trait_kidnapper_2_machine_desc: "$leader_trait_kidnapper_machine_desc$"
+
+ trait_ruler_deep_connections_hive:0 "Trí Tuệ Sâu Rộng"
+ trait_ruler_deep_connections_hive_desc:1 "Định hướng chuẩn xác và dễ dàng qua mạng lưới chằng chịt của ý thức tập thể, nút ý thức này thúc đẩy sự hợp tác hài hòa."
+ trait_ruler_deep_connections_2_hive:0 "$trait_ruler_deep_connections_hive$ II"
+ trait_ruler_deep_connections_2_hive_desc:0 "$trait_ruler_deep_connections_hive_desc$"
+
+ trait_ruler_deep_connections_machine:0 "Chương Trình Con Phân Tích Sâu"
+ trait_ruler_deep_connections_machine_desc:1 "Định hướng chuẩn xác và dễ dàng qua mạng lưới chằng chịt của mạng liên kết tập thể, đơn vị này thúc đẩy giao diện kết nối hài hòa."
+ trait_ruler_deep_connections_2_machine:0 "$trait_ruler_deep_connections_machine$ II"
+ trait_ruler_deep_connections_2_machine_desc:0 "$trait_ruler_deep_connections_machine_desc$"
+
+ leader_trait_interrogator_hive:0 "Chuyên Gia Thẩm Vấn"
+ leader_trait_interrogator_hive_desc:1 "[owner.GetIndividualName] này sử dụng các kỹ thuật thẩm vấn chuyên biệt lên các quần thể dân cư bị chiếm đóng. Dữ liệu thu thập được sẽ hỗ trợ các chiến dịch tình báo đang diễn ra."
+ leader_trait_interrogator_machine:0 "Thiết Bị Thẩm Vấn"
+ leader_trait_interrogator_machine_desc:1 "Đơn vị này sử dụng các kỹ thuật thẩm vấn chuyên biệt lên các quần thể dân cư bị chiếm đóng. Dữ liệu thu thập được sẽ hỗ trợ các chiến dịch tình báo đang diễn ra."
+
+ leader_trait_interrogator_2_hive:0 "$leader_trait_interrogator_hive$ II"
+ leader_trait_interrogator_2_hive_desc:0 "$leader_trait_interrogator_hive_desc$"
+ leader_trait_interrogator_2_machine:0 "$leader_trait_interrogator_machine$ II"
+ leader_trait_interrogator_2_machine_desc:0 "$leader_trait_interrogator_machine_desc$"
+
+ leader_trait_crusader_hive:0 "Pheromone Hiệu Nghiệm"
+ leader_trait_crusader_hive_desc:0 "[owner.GetIndividualName] này có một tuyến biến đổi tiết ra pheromone tạo sự bình tĩnh cho các đơn vị đang tác chiến."
+ leader_trait_crusader_2_hive:0 "$leader_trait_crusader_hive$ II"
+ leader_trait_crusader_2_hive_desc:0 "$leader_trait_crusader_hive_desc$"
+ leader_trait_crusader_machine:0 "Nhà Chiến Thuật"
+ leader_trait_crusader_machine_desc:0 "Đơn vị này đã tinh chỉnh phần mềm giúp tăng cường sự gắn kết chiến thuật cho các đơn vị chiến đấu chủ lực."
+ leader_trait_crusader_2_machine:0 "$leader_trait_crusader_machine$ II"
+ leader_trait_crusader_2_machine_desc:0 "$leader_trait_crusader_machine_desc$"
+
+ leader_trait_industrial_espionage_hive:0 "Dịch Ngược Công Nghệ"
+ leader_trait_industrial_espionage_hive_desc:1 "[owner.GetIndividualName] này tháo dỡ công nghệ của sinh vật ngoại tinh khi chiếm đóng thuộc địa đối phương."
+ leader_trait_industrial_espionage_machine:0 "Trích Xuất Công Nghệ"
+ leader_trait_industrial_espionage_machine_desc:1 "Đơn vị này tháo dỡ công nghệ của sinh vật ngoại tinh khi chiếm đóng thuộc địa đối phương."
+
+ leader_trait_industrial_espionage_2_hive:0 "$leader_trait_industrial_espionage_hive$ II"
+ leader_trait_industrial_espionage_2_hive_desc:0 "$leader_trait_industrial_espionage_hive_desc$"
+ leader_trait_industrial_espionage_2_machine:0 "$leader_trait_industrial_espionage_machine$ II"
+ leader_trait_industrial_espionage_2_machine_desc:0 "$leader_trait_industrial_espionage_machine_desc$"
+
+ leader_trait_warden_hive:0 "Chỉ Huy Giám Hộ"
+ leader_trait_warden_hive_desc:1 "[owner.GetIndividualName] này chỉ huy một số đội quân phòng thủ để hỗ trợ bảo vệ hành tinh."
+ leader_trait_warden_machine:0 "Chỉ Huy Giám Hộ"
+ leader_trait_warden_machine_desc:1 "Đơn vị này chỉ huy một số đội quân phòng thủ để hỗ trợ bảo vệ hành tinh."
+
+ leader_trait_warden_2_hive:0 "$leader_trait_warden_hive$ II"
+ leader_trait_warden_2_hive_desc:0 "$leader_trait_warden_hive_desc$"
+ leader_trait_warden_2_machine:0 "$leader_trait_warden_machine$ II"
+ leader_trait_warden_2_machine_desc:0 "$leader_trait_warden_machine_desc$"
+
+ leader_trait_reinforcer_hive:0 "Tái Củng Cố"
+ leader_trait_reinforcer_hive_desc:1 "[owner.GetIndividualName] này tái củng cố các đơn vị chiến đấu bị hư hại, tập trung cao độ vào chiến tranh phòng thủ."
+ leader_trait_reinforcer_machine:0 "Tái Củng Cố"
+ leader_trait_reinforcer_machine_desc:1 "Đơn vị này sử dụng các giao thức mệnh lệnh đặc biệt để tái củng cố các đơn vị chiến đấu bị hư hại, tập trung cao độ vào chiến tranh phòng thủ."
+
+ leader_trait_reinforcer_2_hive:0 "$leader_trait_reinforcer_hive$ II"
+ leader_trait_reinforcer_2_hive_desc:0 "$leader_trait_reinforcer_hive_desc$"
+ leader_trait_reinforcer_2_machine:0 "$leader_trait_reinforcer_machine$ II"
+ leader_trait_reinforcer_2_machine_desc:0 "$leader_trait_reinforcer_machine_desc$"
+
+ leader_trait_guardian_hive:0 "Hộ Vệ"
+ leader_trait_guardian_hive_desc:1 "[owner.GetIndividualName] này kiểm soát Căn Cứ Sao và các Nền Tảng Phòng Thủ trong hệ sao, nâng cao năng lực phòng thủ của chúng."
+ leader_trait_guardian_machine:0 "Hộ Vệ"
+ leader_trait_guardian_machine_desc:0 "Đơn vị này tự liên kết với Căn Cứ Sao và các Nền Tảng Phòng Thủ trong hệ sao, nâng cao năng lực phòng thủ của chúng."
+
+ leader_trait_guardian_2_hive:0 "$leader_trait_guardian_hive$ II"
+ leader_trait_guardian_2_hive_desc:0 "$leader_trait_guardian_hive_desc$"
+ leader_trait_guardian_2_machine:0 "$leader_trait_guardian_machine$ II"
+ leader_trait_guardian_2_machine_desc:0 "$leader_trait_guardian_machine_desc$"
+
+ leader_trait_conscripter_hive:0 "Tăng Trưởng Quân Đội"
+ leader_trait_conscripter_hive_desc:1 "[owner.GetIndividualName] này thúc đẩy tốc độ tăng trưởng quân đội trên hành tinh và truyền các mệnh lệnh chiến đấu tiên tiến vào những người lính mới."
+ leader_trait_conscripter_machine:0 "Lắp Ráp Quân Đội"
+ leader_trait_conscripter_machine_desc:1 "Đơn vị này thúc đẩy tốc độ sản xuất quân đội trên hành tinh và tải các giao thức tác chiến chiến thuật tiên tiến vào các đơn vị chiến đấu mới."
+
+ trait_ruler_from_the_ranks_hive:0 "Tri Thức Chiến Trận"
+ trait_ruler_from_the_ranks_hive_desc:1 "Nút ý thức này gia tăng hiệu suất và năng lực học hỏi của toàn bộ các đơn vị tác chiến mặt đất."
+ trait_ruler_from_the_ranks_machine:0 "Tri Thức Chiến Trận"
+ trait_ruler_from_the_ranks_machine_desc:1 "Đơn vị này gia tăng hiệu suất và năng lực học hỏi của toàn bộ các đơn vị tác chiến mặt đất."
+
+ trait_ruler_recruiter_hive:0 "Kẻ Lây Nhiễm Bầy Đàn"
+ trait_ruler_recruiter_hive_desc:1 "Nút ý thức này chuyên về các chu kỳ lây nhiễm bầy đàn, cho phép quân đội tăng trưởng với tốc độ cao và chi phí thấp."
+ trait_ruler_recruiter_machine:0 "Giao Thức Lắp Ráp Chiến Tranh"
+ trait_ruler_recruiter_machine_desc:1 "Đơn vị này áp dụng các giao thức lắp ráp giúp tạo ra các đội quân với tốc độ cao và chi phí thấp."
+
+ leader_trait_science_communicator_hive:0 "Đầu Mối Khoa Học"
+ leader_trait_science_communicator_hive_desc:1 "Với dòng tri thức mới liên tục tuôn trào, nút ý thức này cải thiện sản lượng khoa học của các [owner.GetIndividualNamePlural] lãnh tụ khác."
+ leader_trait_science_communicator_machine:0 "Nâng Cấp Đơn Vị Khoa Học"
+ leader_trait_science_communicator_machine_desc:1 "Với dòng tri thức mới liên tục tuôn trào, đơn vị này cải thiện sản lượng khoa học của các đơn vị lãnh đạo khác."
+
+ leader_trait_science_communicator_2_hive:0 "$leader_trait_science_communicator_hive$ II"
+ leader_trait_science_communicator_2_hive_desc:0 "$leader_trait_science_communicator_hive_desc$"
+ leader_trait_science_communicator_2_machine:0 "$leader_trait_science_communicator_machine$ II"
+ leader_trait_science_communicator_2_machine_desc:0 "$leader_trait_science_communicator_machine_desc$"
+
+ leader_trait_carefree_hive: "Thần Tốc"
+ leader_trait_carefree_hive_desc:1 "[owner.GetIndividualName] này sàng lọc dữ liệu một cách hiệu quả khi điều tra một hiện tượng chưa rõ."
+ leader_trait_carefree_machine:0 "Tính Toán Thần Tốc"
+ leader_trait_carefree_machine_desc:1 "Đơn vị này sàng lọc dữ liệu một cách hiệu quả khi điều tra một hiện tượng chưa rõ."
+
+ leader_trait_carefree_2_hive:0 "$leader_trait_carefree_hive$ II"
+ leader_trait_carefree_2_hive_desc:0 "$leader_trait_carefree_hive_desc$"
+ leader_trait_carefree_2_machine:0 "$leader_trait_carefree_machine$ II"
+ leader_trait_carefree_2_machine_desc:0 "$leader_trait_carefree_machine_desc$"
+
+ leader_trait_civil_engineer_hive:0 "Tư Duy Kiến Trúc"
+ leader_trait_civil_engineer_hive_desc:0 "[owner.GetIndividualName] này giúp rút ngắn thời gian xây dựng các phân khu và công trình."
+ leader_trait_civil_engineer_machine:0 "Tính Toán Kiến Trúc"
+ leader_trait_civil_engineer_machine_desc:0 "Đơn vị này sử dụng các phép tính toán tiên tiến để rút ngắn thời gian xây dựng các phân khu và công trình."
+
+ leader_trait_civil_engineer_2_hive:0 "$leader_trait_civil_engineer_hive$ II"
+ leader_trait_civil_engineer_2_hive_desc:0 "$leader_trait_civil_engineer_hive_desc$"
+ leader_trait_civil_engineer_2_machine:0 "$leader_trait_civil_engineer_machine$ II"
+ leader_trait_civil_engineer_2_machine_desc:0 "$leader_trait_civil_engineer_machine_desc$"
+
+ leader_trait_collaborator_hive:0 "Liên Kết Khớp Thần Kinh"
+ leader_trait_collaborator_hive_desc:1 "[owner.GetIndividualName] này chia sẻ thông tin hiệu quả với các bộ phận khác trong [owner.GetGovernmentName]."
+ leader_trait_collaborator_machine:0 "Liên Kết Máy Tính"
+ leader_trait_collaborator_machine_desc:1 "Đơn vị này chia sẻ thông tin hiệu quả với các bộ phận khác trong mạng lưới."
+
+ leader_trait_collaborator_2_hive:0 "$leader_trait_collaborator_hive$ II"
+ leader_trait_collaborator_2_hive_desc:0 "$leader_trait_collaborator_hive_desc$"
+ leader_trait_collaborator_2_machine:0 "$leader_trait_collaborator_machine$ II"
+ leader_trait_collaborator_2_machine_desc:0 "$leader_trait_collaborator_machine_desc$"
+
+ leader_trait_engineering_focus_hive:0 "Chuyên Sâu Kỹ Thuật Công Trình"
+ leader_trait_engineering_focus_hive_desc:0 "Nút ý thức này tập trung vào nghiên cứu Kỹ thuật Công trình."
+ leader_trait_engineering_focus_machine:0 "Chuyên Sâu Kỹ Thuật Công Trình"
+ leader_trait_engineering_focus_machine_desc:1 "Đơn vị này tập trung vào nghiên cứu Kỹ thuật Công trình."
+
+ leader_trait_engineering_focus_2_hive:0 "$leader_trait_engineering_focus_hive$ II"
+ leader_trait_engineering_focus_2_hive_desc:0 "$leader_trait_engineering_focus_hive_desc$"
+ leader_trait_engineering_focus_2_machine:0 "$leader_trait_engineering_focus_machine$ II"
+ leader_trait_engineering_focus_2_machine_desc:0 "$leader_trait_engineering_focus_machine_desc$"
+
+ trait_ruler_explorer_hive:0 "Thấu Hiểu Dị Thường"
+ trait_ruler_explorer_hive_desc:1 "Nút ý thức này thích ứng rất tốt với việc điều tra những hiện tượng bất thường của vũ trụ."
+ trait_ruler_explorer_machine:0 "Xử Lý Dị Thường"
+ trait_ruler_explorer_machine_desc:1 "Đơn vị này thích ứng rất tốt với việc điều tra những hiện tượng bất thường của vũ trụ."
+
+ trait_ruler_explorer_2_hive:0 "$trait_ruler_explorer_hive$ II"
+ trait_ruler_explorer_2_hive_desc:0 "$trait_ruler_explorer_hive_desc$"
+ trait_ruler_explorer_2_machine:0 "$trait_ruler_explorer_machine$ II"
+ trait_ruler_explorer_2_machine_desc:0 "$trait_ruler_explorer_machine_desc$"
+
+ trait_ruler_expansionist_hive:1 "Tư Duy Mở Rộng"
+ trait_ruler_expansionist_hive_desc: "Nút ý thức này được thích ứng để đẩy tầm với của chúng ta vươn xa hơn vào các vì sao."
+ trait_ruler_expansionist_machine:0 "Mở Rộng Được Tính Toán"
+ trait_ruler_expansionist_machine_desc: "Đơn vị này được thích ứng để đẩy tầm với của chúng ta vươn xa hơn vào các vì sao."
+
+ trait_ruler_expansionist_2_hive:0 "$trait_ruler_expansionist_hive$ II"
+ trait_ruler_expansionist_2_hive_desc:0 "$trait_ruler_expansionist_hive_desc$"
+ trait_ruler_expansionist_2_machine:0 "$trait_ruler_expansionist_machine$ II"
+ trait_ruler_expansionist_2_machine_desc:0 "$trait_ruler_expansionist_machine_desc$"
+
+ leader_trait_experimenter_hive:0 "Người Làm Thí Nghiệm"
+ leader_trait_experimenter_hive_desc:1 "Các thí nghiệm liên tục của [owner.GetIndividualName] này là một nguồn lợi lớn cho [owner.GetGestaltEntityName]."
+ leader_trait_experimenter_machine:0 "Mô Phỏng Thử Nghiệm"
+ leader_trait_experimenter_machine_desc:1 "Các mô phỏng thử nghiệm của đơn vị này là một nguồn lợi lớn cho mạng lưới."
+
+ leader_trait_experimenter_2_hive:0 "$leader_trait_experimenter_hive$ II"
+ leader_trait_experimenter_2_hive_desc:0 "$leader_trait_experimenter_hive_desc$"
+ leader_trait_experimenter_2_machine:0 "$leader_trait_experimenter_machine$ II"
+ leader_trait_experimenter_2_machine_desc:0 "$leader_trait_experimenter_machine_desc$"
+
+ leader_trait_inquisitive_hive:0 "Mở Rộng Trí Tuệ"
+ leader_trait_inquisitive_hive_desc:1 "Các khớp thần kinh được mở rộng của nút ý thức này mang lại hướng đi mới cho nghiên cứu công nghệ."
+ leader_trait_inquisitive_machine:0 "Thiên Về Phân Tích"
+ leader_trait_inquisitive_machine_desc:1 "Phần mềm phân tích của đơn vị này mang lại hướng đi mới cho nghiên cứu công nghệ."
+
+ leader_trait_insightful_hive: "Sâu Sắc"
+ leader_trait_insightful_hive_desc:1 "[owner.GetIndividualName] này thực hiện phân tích chi tiết dữ liệu dị thường."
+ leader_trait_insightful_machine: "Quan Sát Tinh Tường"
+ leader_trait_insightful_machine_desc:1 "Đơn vị này thực hiện phân tích chi tiết dữ liệu dị thường."
+ leader_trait_insightful_2_hive:0 "$leader_trait_insightful_hive$ II"
+ leader_trait_insightful_2_hive_desc:0 "$leader_trait_insightful_hive_desc$"
+ leader_trait_insightful_2_machine:0 "$leader_trait_insightful_machine$ II"
+ leader_trait_insightful_2_machine_desc:0 "$leader_trait_insightful_machine_desc$"
+
+ leader_trait_maniacal_hive:0 "Ép Xung Thần Kinh"
+ leader_trait_maniacal_hive_desc:1 "Nút ý thức này được kích thích để hoạt động vượt quá các giới hạn dự kiến, gia tăng sản lượng nghiên cứu."
+ leader_trait_maniacal_machine: "Được Ép Xung"
+ leader_trait_maniacal_machine_desc:1 "Đơn vị này được thúc đẩy hoạt động vượt quá các giới hạn khuyến nghị, giúp gia tăng sản lượng nghiên cứu."
+
+ leader_trait_maniacal_2_hive:0 "$leader_trait_maniacal_hive$ II"
+ leader_trait_maniacal_2_hive_desc:0 "$leader_trait_maniacal_hive_desc$"
+ leader_trait_maniacal_2_machine:0 "$leader_trait_maniacal_machine$ II"
+ leader_trait_maniacal_2_machine_desc:0 "$leader_trait_maniacal_machine_desc$"
+
+ leader_trait_manufacturer_hive:0 "Hỗ Trợ Chi Phí Duy Trì"
+ leader_trait_manufacturer_hive_desc:1 "[owner.GetIndividualName] này hỗ trợ chi phí duy trì và chức năng của dân cư."
+ leader_trait_manufacturer_machine:0 "Hỗ Trợ Bảo Trì"
+ leader_trait_manufacturer_machine_desc:1 "Đơn vị này hỗ trợ việc bảo trì và chức năng của các đơn vị máy móc trên hành tinh."
+
+ leader_trait_manufacturer_2_hive:0 "$leader_trait_manufacturer_hive$ II"
+ leader_trait_manufacturer_2_hive_desc:0 "$leader_trait_manufacturer_hive_desc$"
+ leader_trait_manufacturer_2_machine:0 "$leader_trait_manufacturer_machine$ II"
+ leader_trait_manufacturer_2_machine_desc:0 "$leader_trait_manufacturer_machine_desc$"
+
+ leader_trait_meticulous_hive: "Tỉ Mỉ"
+ leader_trait_meticulous_hive_desc:1 "[owner.GetIndividualName] này đặc biệt thấu đáo khi nghiên cứu các hiện tượng chưa có lời giải."
+ leader_trait_meticulous_machine: "Tính Toán Tỉ Mỉ"
+ leader_trait_meticulous_machine_desc:1 "Đơn vị này sở hữu các chương trình con tiên tiến để nghiên cứu các hiện tượng chưa có lời giải."
+
+ leader_trait_meticulous_2_hive:0 "$leader_trait_meticulous_hive$ II"
+ leader_trait_meticulous_2_hive_desc:0 "$leader_trait_meticulous_hive_desc$"
+ leader_trait_meticulous_2_machine:0 "$leader_trait_meticulous_machine$ II"
+ leader_trait_meticulous_2_machine_desc:0 "$leader_trait_meticulous_machine_desc$"
+
+ leader_trait_roamer_hive:0 "Kẻ Lập Danh Mục"
+ leader_trait_roamer_hive_desc:1 "[owner.GetIndividualName] này được nhân giống đặc thù để lập danh mục dữ liệu liên sao."
+ leader_trait_roamer_machine:0 "Mô-đun Lập Danh Mục"
+ leader_trait_roamer_machine_desc:1 "Đơn vị này được thiết kế đặc thù để lập danh mục dữ liệu liên sao."
+
+ leader_trait_roamer_2_hive:0 "$leader_trait_roamer_hive$ II"
+ leader_trait_roamer_2_hive_desc:0 "$leader_trait_roamer_hive_desc$"
+ leader_trait_roamer_2_machine:0 "$leader_trait_roamer_machine$ II"
+ leader_trait_roamer_2_machine_desc:0 "$leader_trait_roamer_machine_desc$"
+
+ leader_trait_salvager_hive:0 "$leader_trait_salvager$"
+ leader_trait_salvager_hive_desc: "$leader_trait_salvager_desc$"
+ leader_trait_salvager_hive_regular_desc:1 "[owner.GetIndividualName] này xuất sắc trong việc trục vớt tàu từ các mảnh vỡ."
+ leader_trait_salvager_machine:0 "$leader_trait_salvager$"
+ leader_trait_salvager_machine_desc: "$leader_trait_salvager_desc$"
+ leader_trait_salvager_machine_regular_desc:1 "Đơn vị này được cài đặt các giao thức tối ưu để trục vớt mảnh vỡ tàu chiến."
+
+ leader_trait_slippery_hive: "Linh Hoạt Thoát Thân"
+ leader_trait_slippery_hive_desc:0 "[owner.GetIndividualName] này sở hữu bản năng sắc bén giúp nó luôn tránh xa hiểm nguy."
+ leader_trait_slippery_machine:0 "Giao Thức Khẩn Cấp"
+ leader_trait_slippery_machine_desc:0 "Đơn vị này tuân theo các giao thức khẩn cấp tiên tiến giúp nó luôn tránh xa hiểm nguy."
+
+ leader_trait_surveyor_hive:0 "Giám Sát Hành Tinh"
+ leader_trait_surveyor_hive_desc:1 "[owner.GetIndividualName] này được chuyên biệt hóa để nâng cao sản lượng tài nguyên tại các tổ bầy đàn trên hành tinh."
+ leader_trait_surveyor_machine:0 "Giám Sát Hành Tinh"
+ leader_trait_surveyor_machine_desc:1 "Đơn vị này được tối ưu hóa để cải thiện sản lượng tài nguyên trong các hoạt động trên bề mặt hành tinh."
+
+ leader_trait_tuner_hive:0 "Cân Chỉnh"
+ leader_trait_tuner_hive_desc:0 "[owner.GetIndividualName] này định hướng theo các trường trọng lực tự nhiên bên trong mỗi hệ sao."
+ leader_trait_tuner_machine:0 "Cân Chỉnh"
+ leader_trait_tuner_machine_desc:0 "Đơn vị này định hướng theo các trường trọng lực tự nhiên bên trong mỗi hệ sao."
+
+ leader_trait_tuner_2_hive:0 "$leader_trait_tuner_hive$ II"
+ leader_trait_tuner_2_hive_desc:0 "$leader_trait_tuner_hive_desc$"
+ leader_trait_tuner_2_machine:0 "$leader_trait_tuner_machine$ II"
+ leader_trait_tuner_2_machine_desc:0 "$leader_trait_tuner_machine_desc$"
+
+ trait_ruler_world_shaper_hive:0 "Kẻ Kiến Tạo Thế Giới"
+ trait_ruler_world_shaper_hive_desc:0 "Nút ý thức này được chuyên biệt hóa để tối ưu hóa các thế giới thuộc địa."
+ trait_ruler_world_shaper_machine:0 "Kẻ Kiến Tạo Thế Giới"
+ trait_ruler_world_shaper_machine_desc:1 "Đơn vị này được chế tạo chuyên biệt để tối ưu hóa các thế giới thuộc địa."
+
+ leader_trait_bureaucrat_hive:0 "Tập Trung Cao Độ"
+ leader_trait_bureaucrat_hive_desc:1 "[owner.GetIndividualName] này nâng cao các tiêu chuẩn thực hiện và gia tăng hiệu suất của toàn bộ [owner.GetBureaucratPlural]."
+ leader_trait_bureaucrat_machine:0 "Bộ Khuếch Đại"
+ leader_trait_bureaucrat_machine_desc:1 "Đơn vị này nâng cao sản lượng trung bình và tăng hiệu suất của mọi đơn vị hành chính."
+
+ trait_ruler_industrialist_hive:1 "Kẻ Thu Gom"
+ trait_ruler_industrialist_hive_desc:1 "Trọng tâm hàng đầu của [owner.GetIndividualName] này là gia tăng sản lượng khai khoáng."
+ trait_ruler_industrialist_machine:1 "Bộ Tích Lũy"
+ trait_ruler_industrialist_machine_desc:1 "Trọng tâm hàng đầu của đơn vị này là gia tăng sản lượng khai khoáng."
+
+ leader_trait_industrial_focus_hive:0 "$leader_trait_industrial_focus$"
+ leader_trait_industrial_focus_hive_desc:0 "$trait_ruler_industrialist_hive_desc$"
+ leader_trait_industrial_focus_machine:0 "$leader_trait_industrial_focus$"
+ leader_trait_industrial_focus_machine_desc:0 "$trait_ruler_industrialist_machine_desc$"
+
+ leader_trait_pop_focused_hive:0 "[owner.GetIndividualNameCap] Thủ Lĩnh"
+ leader_trait_pop_focused_hive_desc:0 "[owner.GetIndividualName] này theo bản năng biết rõ những [owner.GetIndividualName] nào có khuynh hướng phù hợp hơn để đảm đương các vai trò và nhiệm vụ then chốt."
+ leader_trait_pop_focused_machine:0 "Thuật Toán Phân Bổ"
+ leader_trait_pop_focused_machine_desc:0 "Đơn vị này rất lão luyện trong việc tính toán cỗ máy nào phù hợp hơn với các vai trò và nhiệm vụ then chốt."
+
+ leader_trait_academic_hive:0 "$leader_trait_intellectual_hive$"
+ leader_trait_academic_hive_desc:0 "$leader_trait_intellectual_hive_desc$"
+ leader_trait_academic_machine:0 "$leader_trait_intellectual_machine$"
+ leader_trait_academic_machine_desc:0 "$leader_trait_intellectual_machine_desc$"
+
+ leader_trait_frontier_spirit_hive:0 "$trait_ruler_frontier_spirit$"
+ leader_trait_frontier_spirit_hive_desc: "Nút ý thức này đã phát triển thôi thúc mở rộng quyền thống trị lên các hệ sao mới."
+ leader_trait_frontier_spirit_machine:0 "Chương Trình Con Thuộc Địa Hóa"
+ leader_trait_frontier_spirit_machine_desc:0 "Đơn vị này đã được nâng cấp bằng các chương trình con để tối đa hóa hiệu suất mở rộng lãnh thổ."
+
+ leader_trait_distribution_lines_hive:0 "Phân Bổ Tài Nguyên"
+ leader_trait_distribution_lines_hive_desc:0 "[owner.GetIndividualName] này nhanh chóng tính toán lượng tài nguyên cần thiết và các tuyến đường tiếp tế cho những tổ hợp công nghiệp."
+ leader_trait_distribution_lines_machine:0 "Tính Toán Tiếp Tế"
+ leader_trait_distribution_lines_machine_desc:0 "Đơn vị này được cài đặt phần mềm tính toán tiếp tế theo nhu cầu với hiệu suất cực cao."
+
+ leader_trait_border_guard_hive:0 "Che Chở Biên Cương"
+ leader_trait_border_guard_hive_desc:1 "Nút ý thức này hiểu rằng cách tốt nhất để chiến thắng chiến tranh là duy trì hệ thống phòng thủ biên giới nghiêm ngặt và hùng mạnh."
+ leader_trait_border_guard_machine:0 "Tính Toán Phòng Thủ"
+ leader_trait_border_guard_machine_desc:1 "Đơn vị này tính toán rằng cách tốt nhất để chiến thắng chiến tranh là duy trì hệ thống phòng thủ biên giới nghiêm ngặt và hùng mạnh."
+
+ leader_trait_crew_trainer_hive:0 "Bộ Não Chiến Đấu"
+ leader_trait_crew_trainer_hive_desc:1 "Nút ý thức này tập trung vào việc bồi dưỡng các [owner.GetIndividualNamePlural] trước khi chúng được đưa vào thực hiện nghĩa vụ hải quân chủ lực."
+ leader_trait_crew_trainer_machine:0 "Cơ Sở Dữ Liệu Tác Chiến"
+ leader_trait_crew_trainer_machine_desc:1 "Đơn vị này duy trì một cơ sở dữ liệu khổng lồ về chiến thuật chiến đấu không gian, được tải lên cho mọi đơn vị hạm đội."
+
+ leader_trait_space_miner_hive:0 "$leader_trait_space_miner_machine$"
+ leader_trait_space_miner_hive_desc:0 "[owner.GetIndividualName] này có thể phát hiện các mạch quặng trù phú cho những cơ sở khai mỏ trên hành tinh."
+ leader_trait_space_miner_machine:0 "Đo Đạc Địa Chất"
+ leader_trait_space_miner_machine_desc:0 "Đơn vị này có thể phát hiện các mạch quặng trù phú cho những cơ sở khai mỏ trên hành tinh."
+
+ leader_trait_home_guard_hive:0 "Định Hướng An Toàn"
+ leader_trait_home_guard_hive_desc:1 "Nút ý thức này chuẩn bị các hệ thống phòng thủ hành tinh công phu trong trường hợp bị quân địch xâm lược."
+ leader_trait_home_guard_machine:0 "Phòng Thủ Hành Tinh"
+ leader_trait_home_guard_machine_desc:1 "Đơn vị này chuẩn bị các tuyến phòng thủ hành tinh công phu trong trường hợp bị quân địch xâm lược."
+
+ trait_ruler_frontier_spirit_hive:0 "Trọng Tâm Khai Hoang"
+ trait_ruler_frontier_spirit_hive_desc:1 "Trọng tâm hàng đầu của [owner.GetIndividualName] này là việc khai mở thuộc địa tại các thế giới ngoại tinh."
+ trait_ruler_frontier_spirit_machine:0 "Trọng Tâm Khai Hoang"
+ trait_ruler_frontier_spirit_machine_desc:1 "Lập trình của đơn vị này hướng tới việc khai mở thuộc địa tại các thế giới ngoại tinh."
+
+ leader_trait_army_veteran_machine:0 "Thợ Sửa Chữa Người Máy Chiến Đấu"
+ leader_trait_army_veteran_machine_desc:1 "Đơn vị này được chế tạo đặc biệt để bảo dưỡng và nâng cấp các đơn vị tác chiến chủ lực."
+ leader_trait_army_veteran_hive:0 "[owner.GetIndividualNameCap] Chiến Binh"
+ leader_trait_army_veteran_hive_desc:1 "[owner.GetIndividualName] này được huấn luyện và nhân giống có chọn lọc để phục vụ chiến tranh."
+
+ leader_trait_retired_fleet_officer_machine:1 "Thiết Kế Hỗ Trợ Bởi AI"
+ leader_trait_retired_fleet_officer_machine_desc:1 "Đơn vị này được chế tạo chuyên biệt để sáng tạo các thiết kế tàu chiến mới."
+ leader_trait_retired_fleet_officer_hive:0 "[owner.GetIndividualNameCap] Đóng Tàu"
+ leader_trait_retired_fleet_officer_hive_desc:1 "[owner.GetIndividualName] này được nhân giống có chọn lọc để phát triển các thiết kế tàu chiến tiên tiến bậc nhất."
+
+ leader_trait_agrarian_upbringing_hive:0 "Trọng Tâm Nông Nghiệp"
+ leader_trait_agrarian_upbringing_hive_desc:1 "[owner.GetIndividualName] này kích thích sản lượng lương thực trên hành tinh."
+
+ trait_ruler_fertility_preacher_hive:0 "Tăng Trưởng Năng Động"
+ trait_ruler_fertility_preacher_hive_desc:1 "Nút ý thức này khuyến khích thụ tinh cho [owner.GetIndividualName], kích thích gia tăng dân số."
+ trait_ruler_fertility_preacher_machine:0 "Bộ Tái Tạo Gia Tốc"
+ trait_ruler_fertility_preacher_machine_desc:1 "Đơn vị này thúc đẩy quá trình lắp ráp dân số máy móc một cách điêu luyện."
+
+ trait_ruler_fertility_preacher_2_hive:0 "$trait_ruler_fertility_preacher_hive$ II"
+ trait_ruler_fertility_preacher_2_hive_desc:0 "$trait_ruler_fertility_preacher_hive_desc$"
+ trait_ruler_fertility_preacher_2_machine:0 "$trait_ruler_fertility_preacher_machine$ II"
+ trait_ruler_fertility_preacher_2_machine_desc:0 "$trait_ruler_fertility_preacher_machine_desc$"
+
+ leader_trait_environmental_engineer_hive_desc:1 "[owner.GetIndividualName] này được nhân giống có chọn lọc để trở thành một kỹ sư môi trường tài ba."
+ leader_trait_environmental_engineer_machine:0 "Cỗ Máy San Ủi"
+ leader_trait_environmental_engineer_machine_desc:1 "Đơn vị này được cài đặt sẵn các giao thức kỹ thuật môi trường."
+
+ leader_trait_enlister_hive:0 "Trọng Tâm Phát Triển Quân Đội"
+ leader_trait_enlister_hive_desc:1 "[owner.GetIndividualName] này là nhà tuyển mộ hiệu quả, có khả năng cắt giảm chi phí huấn luyện quân đội của chúng ta."
+ leader_trait_enlister_machine:0 "Trọng Tâm Phát Triển Quân Đội"
+ leader_trait_enlister_machine_desc:1 "Đơn vị này là nhà tuyển mộ hiệu quả, có khả năng cắt giảm chi phí huấn luyện quân đội của chúng ta."
+
+ leader_trait_enlister_2_hive:0 "$leader_trait_enlister_hive$ II"
+ leader_trait_enlister_2_hive_desc:0 "$leader_trait_enlister_hive_desc$"
+ leader_trait_enlister_2_machine:0 "$leader_trait_enlister_machine$ II"
+ leader_trait_enlister_2_machine_desc:0 "$leader_trait_enlister_machine_desc$"
+
+ leader_trait_shipwright_hive:0 "Trọng Tâm Đóng Tàu"
+ leader_trait_shipwright_hive_desc:1 "[owner.GetIndividualName] này tập trung vào việc đóng tàu hiệu quả và khả thi về mặt kinh tế trong hệ sao."
+ leader_trait_shipwright_machine:0 "Trọng Tâm Đóng Tàu"
+ leader_trait_shipwright_machine_desc:1 "Đơn vị này được lập trình để tập trung vào việc đóng tàu hiệu quả và khả thi về mặt kinh tế trong hệ sao."
+
+ leader_trait_shipwright_2_hive:0 "$leader_trait_shipwright_hive$ II"
+ leader_trait_shipwright_2_hive_desc:0 "$leader_trait_shipwright_hive_desc$"
+ leader_trait_shipwright_2_machine:0 "$leader_trait_shipwright_machine$ II"
+ leader_trait_shipwright_2_machine_desc:0 "$leader_trait_shipwright_machine_desc$"
+
+ leader_trait_architectural_interest_hive:0 "Nhà Xây Dựng Hiệu Quả"
+ leader_trait_architectural_interest_hive_desc:1 "[owner.GetIndividualName] này rất thành thạo về xây dựng và công trình kiến trúc."
+ leader_trait_architectural_interest_machine:0 "Nhà Xây Dựng Hiệu Quả"
+ leader_trait_architectural_interest_machine_desc:1 "Đơn vị này được thiết kế chuyên cho xây dựng và công trình kiến trúc."
+
+ leader_trait_architectural_interest_2_hive:0 "$leader_trait_architectural_interest_hive$ II"
+ leader_trait_architectural_interest_2_hive_desc:0 "$leader_trait_architectural_interest_hive_desc$"
+ leader_trait_architectural_interest_2_machine:0 "$leader_trait_architectural_interest_machine$ II"
+ leader_trait_architectural_interest_2_machine_desc:0 "$leader_trait_architectural_interest_machine_desc$"
+
+ trait_ruler_architectural_sense_hive:0 "Trọng Tâm Kiến Trúc"
+ trait_ruler_architectural_sense_hive_desc:1 "Nút ý thức này chuyên về lý thuyết kiến trúc, giúp giảm chi phí xây dựng nhưng làm chậm tốc độ phát triển thuộc địa."
+ trait_ruler_architectural_sense_machine:0 "Trọng Tâm Kiến Trúc"
+ trait_ruler_architectural_sense_machine_desc:1 "Đơn vị này được tối ưu hóa cho lý thuyết kiến trúc, giúp giảm chi phí xây dựng nhưng làm chậm tốc độ phát triển thuộc địa."
+
+ trait_ruler_architectural_sense_2_hive:0 "$trait_ruler_architectural_sense_hive$ II"
+ trait_ruler_architectural_sense_2_hive_desc:0 "$trait_ruler_architectural_sense_hive_desc$"
+ trait_ruler_architectural_sense_2_machine:0 "$trait_ruler_architectural_sense_machine$ II"
+ trait_ruler_architectural_sense_2_machine_desc:0 "$trait_ruler_architectural_sense_machine_desc$"
+
+ leader_trait_mining_focus_hive:0 "Trọng Tâm Khai Khoáng"
+ leader_trait_mining_focus_hive_desc:1 "[owner.GetIndividualName] này sử dụng các kỹ thuật khai khoáng và chế biến độc đáo, nâng cao trữ lượng khoáng sản của chúng ta."
+ leader_trait_mining_focus_machine:0 "Trọng Tâm Khai Khoáng"
+ leader_trait_mining_focus_machine_desc:1 "Đơn vị này sử dụng các kỹ thuật khai khoáng và chế biến độc đáo, nâng cao trữ lượng khoáng sản của chúng ta."
+
+ leader_trait_generator_focus_hive:0 "Trọng Tâm Máy Phát Năng Lượng"
+ leader_trait_generator_focus_hive_desc:1 "[owner.GetIndividualName] này rất thành thạo trong việc chiết xuất và lưu trữ năng lượng."
+ leader_trait_generator_focus_machine:0 "Trọng Tâm Máy Phát Năng Lượng"
+ leader_trait_generator_focus_machine_desc:1 "Đơn vị này được tối ưu hóa cho việc chiết xuất và lưu trữ năng lượng."
+
+ leader_trait_farming_focus_2_hive:0 "$leader_trait_farming_focus_hive$ II"
+ leader_trait_farming_focus_2_hive_desc:0 "$leader_trait_farming_focus_hive_desc$"
+ leader_trait_farming_focus_2_machine:0 "$leader_trait_farming_focus_machine$ II"
+ leader_trait_farming_focus_2_machine_desc:0 "$leader_trait_farming_focus_machine_desc$"
+
+ leader_trait_mining_focus_2_hive:0 "$leader_trait_mining_focus_hive$ II"
+ leader_trait_mining_focus_2_hive_desc:0 "$leader_trait_mining_focus_hive_desc$"
+ leader_trait_mining_focus_2_machine:0 "$leader_trait_mining_focus_machine$ II"
+ leader_trait_mining_focus_2_machine_desc:0 "$leader_trait_mining_focus_machine_desc$"
+
+ leader_trait_generator_focus_2_hive:0 "$leader_trait_generator_focus_hive$ II"
+ leader_trait_generator_focus_2_hive_desc:0 "$leader_trait_generator_focus_hive_desc$"
+ leader_trait_generator_focus_2_machine:0 "$leader_trait_generator_focus_machine$ II"
+ leader_trait_generator_focus_2_machine_desc:0 "$leader_trait_generator_focus_machine_desc$"
+
+ leader_trait_farming_focus_hive:0 "Trọng Tâm Trồng Trọt"
+ leader_trait_farming_focus_hive_desc:1 "[owner.GetIndividualName] này rất thành thạo trong việc canh tác và bảo quản lương thực."
+ leader_trait_farming_focus_machine:0 "Trọng Tâm Trồng Trọt"
+ leader_trait_farming_focus_machine_desc:1 "Đơn vị này đã được tối ưu hóa để thành thạo việc canh tác và bảo quản lương thực."
+
+ leader_trait_settler_hive:0 "Bản Năng Hậu Cần Định Cư"
+ leader_trait_settler_hive_desc: "[owner.GetIndividualName] này đảm bảo các không gian sinh sống của bầy đàn được bảo trì hiệu quả, với mọi thành viên đều được chu cấp đầy đủ."
+ leader_trait_settler_machine:0 "Đơn Vị Hậu Cần Định Cư"
+ leader_trait_settler_machine_desc: "Đơn vị này được tối ưu hóa để tối đa hóa hiệu suất cư trú và đảm bảo đáp ứng các nhu cầu vận hành của toàn bộ các đơn vị được chỉ định."
+
+ leader_trait_settler_2_hive:0 "$leader_trait_settler_hive$ II"
+ leader_trait_settler_2_hive_desc:0 "$leader_trait_settler_hive_desc$"
+ leader_trait_settler_2_machine:0 "$leader_trait_settler_machine$ II"
+ leader_trait_settler_2_machine_desc:0 "$leader_trait_settler_machine_desc$"
+
+ leader_trait_cartographer_hive: "Bản Năng Vẽ Bản Đồ"
+ leader_trait_cartographer_hive_desc: "[owner.GetIndividualName] này được chuyên biệt hóa độc đáo cho việc vẽ bản đồ các thế giới mới."
+ leader_trait_cartographer_machine: "Thuật Toán Vẽ Bản Đồ"
+ leader_trait_cartographer_machine_desc: "Đơn vị này đã được lập trình để vẽ bản đồ các thế giới mới."
+
+ leader_trait_cartographer_2_hive:0 "$leader_trait_cartographer_hive$ II"
+ leader_trait_cartographer_2_hive_desc:0 "$leader_trait_cartographer_hive_desc$"
+ leader_trait_cartographer_2_machine:0 "$leader_trait_cartographer_machine$ II"
+ leader_trait_cartographer_2_machine_desc:0 "$leader_trait_cartographer_machine_desc$"
+
+ leader_trait_expeditionist_hive:0 "Kẻ Điêu Khắc Hành Tinh"
+ leader_trait_expeditionist_hive_desc:1 "[owner.GetIndividualName] này được chuyên biệt hóa cho việc định hình địa chất và khai thác sử dụng đất đai."
+ leader_trait_expeditionist_machine:0 "Kẻ Điêu Khắc Hành Tinh"
+ leader_trait_expeditionist_machine_desc:1 "Đơn vị này được chuyên biệt hóa cho việc định hình địa chất và khai thác sử dụng đất đai."
+
+ leader_trait_life_support_systems_hive:0 "Hệ Thống Duy Trì Sự Sống"
+ leader_trait_life_support_systems_hive_desc:1 "[owner.GetIndividualName] này triển khai và quản lý các hệ thống duy trì sự sống phức tạp trên các thế giới ngoại tinh."
+
+ leader_trait_forge_focus_hive:0 "Trọng Tâm Luyện Kim"
+ leader_trait_forge_focus_hive_desc:1 "[owner.GetIndividualName] này là một chuyên gia về các kỹ thuật xử lý và luyện hợp kim."
+ leader_trait_forge_focus_machine:0 "Trọng Tâm Luyện Kim"
+ leader_trait_forge_focus_machine_desc:1 "Đơn vị này có kiến thức lập trình chuyên môn về các kỹ thuật xử lý hợp kim."
+
+ leader_trait_forge_focus_2_hive:0 "$leader_trait_forge_focus_hive$ II"
+ leader_trait_forge_focus_2_hive_desc:0 "$leader_trait_forge_focus_hive_desc$"
+ leader_trait_forge_focus_2_machine:0 "$leader_trait_forge_focus_machine$ II"
+ leader_trait_forge_focus_2_machine_desc:0 "$leader_trait_forge_focus_machine_desc$"
+
+ leader_trait_refinement_focus_hive:0 "Trọng Tâm Tinh Luyện"
+ leader_trait_refinement_focus_hive_desc:1 "[owner.GetIndividualName] này là chuyên gia trong việc khai thác và xử lý các tài nguyên hiếm trên hành tinh."
+ leader_trait_refinement_focus_machine:0 "Trọng Tâm Tinh Luyện"
+ leader_trait_refinement_focus_machine_desc:1 "Đơn vị này đã được lập trình để khai thác và xử lý các tài nguyên hiếm trên hành tinh."
+
+ leader_trait_refinement_focus_2_hive:0 "$leader_trait_refinement_focus_hive$ II"
+ leader_trait_refinement_focus_2_hive_desc:0 "$leader_trait_refinement_focus_hive_desc$"
+ leader_trait_refinement_focus_2_machine:0 "$leader_trait_refinement_focus_machine$ II"
+ leader_trait_refinement_focus_2_machine_desc:0 "$leader_trait_refinement_focus_machine_desc$"
+
+ leader_trait_urbanist_hive:0 "Kiến Thiết Đô Thị"
+ leader_trait_urbanist_hive_desc:1 "[owner.GetIndividualName] này chuyên về phát triển đô thị và quản lý các phân khu."
+ leader_trait_urbanist_machine:0 "Kiến Thiết Đô Thị"
+ leader_trait_urbanist_machine_desc:1 "Đơn vị này chuyên về phát triển đô thị và quản lý các phân khu."
+
+
+ leader_trait_trickster_machine_desc:1 "Các giao thức chiến đấu đánh lạc hướng tiên tiến của đơn vị này mang lại cho nó những lợi thế giao tranh độc đáo."
+ leader_trait_trickster_hive_desc:1 "Các kỹ thuật chiến đấu đánh lạc hướng của [owner.GetIndividualName] này mang lại cho nó những lợi thế giao tranh độc đáo."
+
+ leader_trait_urbanist_2_hive:0 "$leader_trait_urbanist_hive$ II"
+ leader_trait_urbanist_2_hive_desc:0 "$leader_trait_urbanist_hive_desc$"
+ leader_trait_urbanist_2_machine:0 "$leader_trait_urbanist_machine$ II"
+ leader_trait_urbanist_2_machine_desc:0 "$leader_trait_urbanist_machine_desc$"
+
+ leader_trait_adventurous_spirit_hive:1 "[owner.GetIndividualNameCap] Tự Trị"
+ leader_trait_adventurous_spirit_hive_desc:1 "Được nhân giống với mức độ tự trị cao bất thường, [owner.GetIndividualName] này có khả năng đưa ra các quyết định ngẫu hứng và độc lập."
+
+ leader_trait_adventurous_spirit_machine:0 "Đơn Vị Tự Trị"
+ leader_trait_adventurous_spirit_machine_desc:1 "Đơn vị này được lập trình với mức độ tự trị đặc biệt."
+
+ leader_trait_resilient_hive: "Kiên Cường Bền Bỉ"
+ leader_trait_resilient_hive_desc:1 "[owner.GetIndividualName] này đặc biệt kiên cường bền bỉ."
+ leader_trait_resilient_machine: "Kiên Cường Bền Bỉ"
+ leader_trait_resilient_machine_desc:1 "Đơn vị này được thiết kế để có độ kiên cường bền bỉ cao."
+
+ leader_trait_resilient_2_hive:1 "$leader_trait_resilient_hive$ II"
+ leader_trait_resilient_2_hive_desc:1 "$leader_trait_resilient_hive_desc$"
+ leader_trait_resilient_2_machine:1 "$leader_trait_resilient_machine$ II"
+ leader_trait_resilient_2_machine_desc:1 "$leader_trait_resilient_machine_desc$"
+
+ leader_trait_adaptable_machine:0 "Lập Trình Linh Hoạt"
+ leader_trait_adaptable_machine_desc:1 "Đơn vị này nhanh chóng thử nghiệm với các phương pháp và ý tưởng mới."
+ leader_trait_adaptable_hive_desc:1 "[owner.GetIndividualName] này nhanh chóng thử nghiệm với các phương pháp và ý tưởng mới."
+
+ leader_trait_adaptable_2_hive:0 "$leader_trait_adaptable$ II"
+ leader_trait_adaptable_2_hive_desc:0 "$leader_trait_adaptable_hive_desc$"
+
+ leader_trait_adaptable_2_machine:0 "$leader_trait_adaptable_machine$ II"
+ leader_trait_adaptable_2_machine_desc:0 "$leader_trait_adaptable_machine_desc$"
+
+ leader_trait_politician_hive:0 "Bộ Tăng Cường Nút Ý Thức"
+ leader_trait_politician_hive_desc:1 "[owner.GetIndividualName] này được nhân giống có chọn lọc để tăng cường sự gắn kết tập thể."
+ leader_trait_politician_machine:0 "Bộ Tăng Cường Nút Ý Thức"
+ leader_trait_politician_machine_desc:1 "Lập trình của đơn vị này sở hữu các thuật toán tiên tiến giúp tăng cường sự gắn kết giữa các đơn vị."
+
+
+ leader_trait_politician_2_hive:0 "$leader_trait_politician_hive$ II"
+ leader_trait_politician_2_hive_desc:0 "$leader_trait_politician_hive_desc$"
+ leader_trait_politician_2_machine:0 "$leader_trait_politician_machine$ II"
+ leader_trait_politician_2_machine_desc:0 "$leader_trait_politician_machine_desc$"
+
+ leader_trait_capitalist_hive:0 "Bộ Tiếp Điện Thứ Cấp"
+ leader_trait_capitalist_hive_desc:1 "[owner.GetIndividualName] này duy trì các hệ thống năng lượng phi tập trung."
+ leader_trait_capitalist_machine:0 "Giám Sát Máy Chủ"
+ leader_trait_capitalist_machine_desc:1 "Đơn vị này được lập trình để duy trì các hệ thống năng lượng phi tập trung."
+
+
+ leader_trait_capitalist_2_hive:0 "$leader_trait_capitalist_hive$ II"
+ leader_trait_capitalist_2_hive_desc:0 "$leader_trait_capitalist_hive_desc$"
+ leader_trait_capitalist_2_machine:0 "$leader_trait_capitalist_machine$ II"
+ leader_trait_capitalist_2_machine_desc:0 "$leader_trait_capitalist_machine_desc$"
+
+ leader_trait_private_mines_hive:0 "Khai Thác Mỏ Thứ Khớp Thần Kinh"
+ leader_trait_private_mines_hive_desc:1 "[owner.GetIndividualName] này duy trì các nguồn khai khoáng phi tập trung."
+ leader_trait_private_mines_machine:1 "Chương Trình Con Khai Thác Khoáng Sản"
+ leader_trait_private_mines_machine_desc:1 "Đơn vị này được lập trình để duy trì các kho dự trữ khoáng sản phi tập trung."
+
+
+ leader_trait_private_mines_2_hive:0 "$leader_trait_private_mines_hive$ II"
+ leader_trait_private_mines_2_hive_desc:0 "$leader_trait_private_mines_hive_desc$"
+ leader_trait_private_mines_2_machine:0 "$leader_trait_private_mines_machine$ II"
+ leader_trait_private_mines_2_machine_desc:0 "$leader_trait_private_mines_machine_desc$"
+
+ leader_trait_homesteader_hive:1 "[owner.GetIndividualNameCap] Canh Tác"
+ leader_trait_homesteader_hive_desc:1 "[owner.GetIndividualName] này duy trì các khu đất canh tác để sản xuất lương thực."
+ leader_trait_homesteader_machine:0 "Đơn Vị Hỗ Trợ Sinh Học"
+ leader_trait_homesteader_machine_desc:1 "Đơn vị này được lập trình để duy trì đất đai phục vụ sản xuất lương thực."
+
+
+ leader_trait_homesteader_2_hive:0 "$leader_trait_homesteader_hive$ II"
+ leader_trait_homesteader_2_hive_desc:0 "$leader_trait_homesteader_hive_desc$"
+ leader_trait_homesteader_2_machine:0 "$leader_trait_homesteader_machine$ II"
+ leader_trait_homesteader_2_machine_desc:0 "$leader_trait_homesteader_machine_desc$"
+
+ leader_trait_scrapper_hive:0 "[owner.GetIndividualNamePluralCap] Thu Gom Phế Liệu"
+ leader_trait_scrapper_hive_desc:1 "[owner.GetIndividualName] này vận hành các hạm đội thu gom phế liệu."
+ leader_trait_scrapper_machine:0 "Đơn Vị Thu Hồi Phế Liệu"
+ leader_trait_scrapper_machine_desc:1 "Đơn vị này vận hành các hạm đội thu gom phế liệu."
+
+ leader_trait_scrapper_2_hive:0 "$leader_trait_scrapper_hive$ II"
+ leader_trait_scrapper_2_hive_desc:0 "$leader_trait_scrapper_hive_desc$"
+ leader_trait_scrapper_2_machine:0 "$leader_trait_scrapper_machine$ II"
+ leader_trait_scrapper_2_machine_desc:0 "$leader_trait_scrapper_machine_desc$"
+
+ leader_trait_venerated_hive:0 "Đầu Mối Hợp Nhất Bầy Đàn"
+ leader_trait_venerated_hive_desc:1 "[owner.GetIndividualName] này có tầm ảnh hưởng quy tụ, gia tăng sự gắn kết tập thể."
+ leader_trait_venerated_machine:0 "Trạm Tiếp Sóng Mạng Lưới"
+ leader_trait_venerated_machine_desc:1 "Đơn vị này đóng vai trò là một trạm tiếp sóng cho toàn bộ mạng lưới máy móc."
+
+ leader_trait_venerated_2_hive:0 "$leader_trait_venerated_hive$ II"
+ leader_trait_venerated_2_hive_desc:0 "$leader_trait_venerated_hive_desc$"
+ leader_trait_venerated_2_machine:0 "$leader_trait_venerated_machine$ II"
+ leader_trait_venerated_2_machine_desc:0 "$leader_trait_venerated_machine_desc$"
+
+ leader_trait_melancholic_hive:0 "Mất Cân Bằng Hóa Chất"
+ leader_trait_melancholic_hive_desc:1 "[owner.GetIndividualName] này bị cản trở bởi những cơn tự soi xét làm suy kiệt cơ thể."
+ leader_trait_melancholic_machine:0 "Trục Trặc Vận Hành"
+ leader_trait_melancholic_machine_desc:1 "Đơn vị này thực hiện quá nhiều đợt tự chẩn đoán chậm chạp và vụn vặt."
+
+ leader_trait_reclusive_hive:0 "Bản Năng Cô Độc"
+ leader_trait_reclusive_hive_desc:1 "Nút ý thức này xử lý dữ liệu kém hiệu quả, gặp khó khăn trong việc cung cấp hiểu biết hữu ích khi tương tác với các loài ngoại tinh."
+ leader_trait_reclusive_machine:0 "Giao Thức Ngoại Giao Lỗi"
+ leader_trait_reclusive_machine_desc:1 "Đơn vị này xử lý dữ liệu kém hiệu quả, thường bị sập hệ thống khi cố gắng đưa ra nhận định ngoại giao."
+
+ leader_trait_intolerant_hive: "Cực Đoan Bài Ngoại"
+ leader_trait_intolerant_hive_desc:1 "Nút ý thức này vốn tính đa nghi tự nhiên, lan truyền sự ngờ vực sinh vật ngoại tinh sang các [owner.GetIndividualNamePlural] khác."
+ leader_trait_intolerant_machine: "Cực Đoan Bài Ngoại"
+ leader_trait_intolerant_machine_desc:1 "Đơn vị này chứa các giao thức niềm tin bị lỗi dẫn đến sự ngờ vực tăng cao."
+
+ leader_trait_volatile_hive:0 "Bản Năng Bạo Lực"
+ leader_trait_volatile_hive_desc:1 "Nút ý thức này có xu hướng di truyền nghiêng về hung hăng và bạo lực."
+ leader_trait_volatile_machine:0 "Vòng Lặp Xâm Lược Vô Tận"
+ leader_trait_volatile_machine_desc:1 "Đơn vị này tính khí thất thường và dễ rơi vào các đợt biến động bất ổn."
+
+ leader_trait_passive_hive: "Thụ Động"
+ leader_trait_passive_hive_desc:1 "Nút ý thức này tỏ ra ngần ngại trong việc chủ động hành động."
+ leader_trait_passive_machine: "Thụ Động"
+ leader_trait_passive_machine_desc:1 "Đơn vị này cho thấy sự bất lực trong việc phản ứng một cách chủ động."
+
+ leader_trait_emotional_support_pet_hive:0 "Cộng Sinh Hỗ Trợ Cảm Xúc"
+ leader_trait_emotional_support_pet_hive_desc:1 "Thông qua sự tiết hóa chất của một sinh vật cộng sinh hỗ trợ, nút ý thức này thúc đẩy cảm giác khỏe khoắn bên trong [owner.GetGestaltEntityName]."
+
+ subclass_official_pioneer_hive:0 "Nhà Tiên Phong"
+ subclass_official_pioneer_hive_desc:1 "Chuẩn bị các thế giới mới cho [owner.GetGestaltEntityName] là nhiệm vụ nguy hiểm và tốn kém. [owner.GetIndividualName] này biết cách giảm thiểu những rủi ro đó."
+ subclass_official_pioneer_machine:0 "Đơn Vị Tiên Phong"
+ subclass_official_pioneer_machine_desc:1 "Hợp nhất các thế giới mới vào mạng lưới là nhiệm vụ nguy hiểm và tốn kém. Đơn vị này được lập trình để giảm thiểu các rủi ro đó."
+
+ subclass_official_industrialist_hive:0 "Giám Sát Sản Xuất"
+ subclass_official_industrialist_hive_desc:1 "[owner.GetIndividualName] này được nhân giống có chọn lọc để dẫn dắt những cá thể cần hỗ trợ trong quá trình sản xuất."
+ subclass_official_industrialist_machine:0 "Vòng Lặp Hiệu Suất"
+ subclass_official_industrialist_machine_desc:1 "Đơn vị này được trang bị để cô lập và xóa bỏ các mô thức sản xuất kém hiệu quả."
+
+ leader_trait_agrarian_upbringing_2_hive:0 "$leader_trait_agrarian_upbringing_hive$ II"
+ leader_trait_agrarian_upbringing_2_hive_desc:0 "$leader_trait_agrarian_upbringing_hive_desc$"
+
+ leader_trait_intellectual_hive:0 "Quản Lý Nhiệm Vụ"
+ leader_trait_intellectual_hive_desc:1 "[owner.GetIndividualName] này rất phù hợp để quản lý đồng thời nhiều nhiệm vụ đòi hỏi cao."
+ leader_trait_intellectual_machine:0 "Phương Trình Hỗ Trợ Nhận Thức"
+ leader_trait_intellectual_machine_desc:1 "Các đơn vị nghiên cứu hoạt động nhanh hơn đáng kể nhờ sự trợ giúp từ các phương trình hỗ trợ của đơn vị này."
+
+ leader_trait_bureaucrat_2_hive:0 "$leader_trait_bureaucrat_hive$ II"
+ leader_trait_bureaucrat_2_hive_desc:0 "$leader_trait_bureaucrat_hive_desc$"
+ leader_trait_bureaucrat_2_machine:0 "$leader_trait_bureaucrat_machine$ II"
+ leader_trait_bureaucrat_2_machine_desc:0 "$leader_trait_bureaucrat_machine_desc$"
+
+ leader_trait_courtroom_training_hive:0 "Nút Phát Ngôn"
+ leader_trait_courtroom_training_hive_desc:0 "Nút ý thức này cực kỳ điêu luyện trong việc thu hút các sinh vật có trí tuệ bằng tài hùng biện biện chứng."
+ leader_trait_courtroom_training_machine:0 "Hùng Biện Cơ Giới"
+ leader_trait_courtroom_training_machine_desc:1 "Gãy gọn và sâu sắc với phong cách giao tiếp hữu cơ, đơn vị này xuất sắc trong các cuộc họp ngoại giao."
+
+ leader_trait_principled_hive:0 "Âm Vang Ổn Định"
+ leader_trait_principled_hive_desc:1 "Nút ý thức này liên tục phát tín hiệu hóa học giúp củng cố sự phát triển khớp thần kinh chuẩn xác cho các [owner.GetIndividualNamePlural] đồng loại."
+ leader_trait_principled_machine:0 "Được Bảo Vệ"
+ leader_trait_principled_machine_desc:0 "Tập tin bị hỏng, mất mát dữ liệu và các lỗi mã tương tự ít có khả năng xảy ra hơn dưới sự dẫn dắt của nút ý thức này."
+
+ leader_trait_principled_2_hive:0 "$leader_trait_principled_hive$ II"
+ leader_trait_principled_2_hive_desc:0 "$leader_trait_principled_hive_desc$"
+ leader_trait_principled_2_machine:0 "$leader_trait_principled_machine$ II"
+ leader_trait_principled_2_machine_desc:0 "$leader_trait_principled_machine_desc$"
+
+ leader_trait_assembler_hive: "Nuôi Dưỡng Mầm Sống"
+ leader_trait_assembler_hive_desc:0 "[owner.GetIndividualName] này đặc biệt tận tâm trong việc chăm sóc và nuôi dưỡng thế hệ sau."
+ leader_trait_assembler_machine:0 "Mã Lắp Ráp"
+ leader_trait_assembler_machine_desc:1 "Với đoạn mã chuẩn xác tại đúng vị trí, việc sản xuất các cỗ máy mới có thể được tối ưu hóa."
+
+ leader_trait_geologist_hive:0 "[owner.GetIndividualNameCap] Khoan Đào"
+ leader_trait_geologist_hive_desc:1 "Với các chi đào bới chuyên biệt, [owner.GetIndividualName] này có thể dễ dàng tiếp cận các tài nguyên địa tầng dưới lòng hành tinh."
+ leader_trait_geologist_machine:0 "Khoan Sâu Lòng Đất"
+ leader_trait_geologist_machine_desc:1 "Được trang bị mũi khoan trợ lực tiên tiến, đơn vị này có thể dễ dàng tiếp cận các tài nguyên địa tầng dưới lòng hành tinh."
+
+ leader_trait_naturalist_hive:0 "Hài Hòa Tự Nhiên"
+ leader_trait_naturalist_hive_desc:1 "Bằng cách ưu tiên khả năng thích ứng, ngay cả những môi trường khắc nghiệt cũng có thể trở nên có lợi cho [owner.GetGestaltEntityName]."
+ leader_trait_naturalist_machine:0 "Mã Bảo Tồn"
+ leader_trait_naturalist_machine_desc:0 "Việc bảo tồn các quần xã sinh vật hiện có cho phép khai thác tài nguyên một cách bền vững."
+
+ leader_trait_cultural_focus_hive:0 "Trọng Tâm Thống Nhất"
+ leader_trait_cultural_focus_hive_desc:1 "[owner.GetIndividualName] này được nhân giống có chọn lọc để thích nghi và thấu hiểu các nền văn hóa ngoại tinh."
+ leader_trait_cultural_focus_machine:0 "Trọng Tâm Thống Nhất"
+ leader_trait_cultural_focus_machine_desc:1 "Đơn vị này chuyên hỗ trợ các tiến trình thống nhất và duy trì các kênh truyền thông tích cực."
+
+
+ leader_trait_cultural_focus_2_hive:0 "$leader_trait_cultural_focus_hive$ II"
+ leader_trait_cultural_focus_2_hive_desc:0 "$leader_trait_cultural_focus_hive_desc$"
+ leader_trait_cultural_focus_2_machine:0 "$leader_trait_cultural_focus_machine$ II"
+ leader_trait_cultural_focus_2_machine_desc:0 "$leader_trait_cultural_focus_machine_desc$"
+
+ leader_trait_expertise_materials_hive:0 "Chuyên Môn: Khoa Học Vật Liệu"
+ leader_trait_expertise_materials_hive_desc:0 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Khoa học Vật liệu."
+ leader_trait_expertise_propulsion_hive:0 "Chuyên Môn: Động Lực Học"
+ leader_trait_expertise_propulsion_hive_desc:0 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Động lực học."
+ leader_trait_expertise_voidcraft_hive:0 "Chuyên Môn: Kỹ Thuật Không Gian"
+ leader_trait_expertise_voidcraft_hive_desc:0 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Kỹ thuật Không gian."
+ leader_trait_expertise_industry_hive:0 "Chuyên Môn: Công Nghiệp"
+ leader_trait_expertise_industry_hive_desc:0 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Công nghiệp."
+ leader_trait_expertise_field_manipulation_hive:0 "Chuyên Môn: Thao Túng Trường Lực"
+ leader_trait_expertise_field_manipulation_hive_desc:0 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Thao túng Trường lực."
+ leader_trait_expertise_particles_hive:0 "Chuyên Môn: Vật Lý Hạt"
+ leader_trait_expertise_particles_hive_desc:0 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Vật lý Hạt."
+ leader_trait_expertise_metaphysics_hive:0 "Chuyên Môn: Siêu Hình Học"
+ leader_trait_expertise_metaphysics_hive_desc:0 "Nút ý thức này tập trung vào các khám phá trong lĩnh vực Siêu hình học."
+ leader_trait_expertise_psionics_hive:0 "Chuyên Môn: Tâm Linh Học"
+ leader_trait_expertise_psionics_hive_desc:0 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Tâm linh học."
+ leader_trait_expertise_computing_hive:0 "Chuyên Môn: Tin Học"
+ leader_trait_expertise_computing_hive_desc:0 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Tin học."
+ leader_trait_expertise_new_worlds_hive:0 "Chuyên Môn: Tân Thế Giới"
+ leader_trait_expertise_new_worlds_hive_desc:1 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới để định cư tại các Tân Thế Giới."
+ leader_trait_expertise_statecraft_hive:0 "Chuyên Môn: Thuật Trị Quốc"
+ leader_trait_expertise_statecraft_hive_desc:0 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Thuật Trị Quốc."
+ leader_trait_expertise_biology_hive:0 "Chuyên Môn: Sinh Học"
+ leader_trait_expertise_biology_hive_desc:0 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Sinh học."
+ leader_trait_expertise_military_theory_hive:0 "Chuyên Môn: Lý Luận Quân Sự"
+ leader_trait_expertise_military_theory_hive_desc:0 "Nút ý thức này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Lý luận Quân sự."
+
+ leader_trait_expertise_materials_machine:0 "Chuyên Môn: Khoa Học Vật Liệu"
+ leader_trait_expertise_materials_machine_desc:0 "Đơn vị này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Khoa học Vật liệu."
+ leader_trait_expertise_propulsion_machine:0 "Chuyên Môn: Động Lực Học"
+ leader_trait_expertise_propulsion_machine_desc:0 "Đơn vị này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Động lực học."
+ leader_trait_expertise_voidcraft_machine:0 "Chuyên Môn: Kỹ Thuật Không Gian"
+ leader_trait_expertise_voidcraft_machine_desc:0 "Đơn vị này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Kỹ thuật Không gian."
+ leader_trait_expertise_industry_machine:0 "Chuyên Môn: Công Nghiệp"
+ leader_trait_expertise_industry_machine_desc:0 "Đơn vị này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Công nghiệp."
+ leader_trait_expertise_field_manipulation_machine:0 "Chuyên Môn: Thao Túng Trường Lực"
+ leader_trait_expertise_field_manipulation_machine_desc:0 "Đơn vị này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Thao túng Trường lực."
+ leader_trait_expertise_particles_machine:0 "Chuyên Môn: Vật Lý Hạt"
+ leader_trait_expertise_particles_machine_desc:1 "Đơn vị này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Vật lý Hạt."
+ leader_trait_expertise_metaphysics_machine:0 "Chuyên Môn: Siêu Hình Học"
+ leader_trait_expertise_metaphysics_machine_desc:0 "Đơn vị này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Siêu hình học."
+ leader_trait_expertise_psionics_machine:0 "Chuyên Môn: Tâm Linh Học"
+ leader_trait_expertise_psionics_machine_desc:0 "Đơn vị này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Tâm linh học."
+ leader_trait_expertise_computing_machine:0 "Chuyên Môn: Tin Học"
+ leader_trait_expertise_computing_machine_desc:0 "Đơn vị này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Tin học."
+ leader_trait_expertise_new_worlds_machine:0 "Chuyên Môn: Tân Thế Giới"
+ leader_trait_expertise_new_worlds_machine_desc:1 "Đơn vị này tập trung vào việc khám phá các công nghệ mới để định cư tại các Tân Thế Giới."
+ leader_trait_expertise_statecraft_machine:0 "Chuyên Môn: Thuật Trị Quốc"
+ leader_trait_expertise_statecraft_machine_desc:0 "Đơn vị này tập trung vào các khám phá trong lĩnh vực Thuật Trị Quốc."
+ leader_trait_expertise_biology_machine:0 "Chuyên Môn: Sinh Học"
+ leader_trait_expertise_biology_machine_desc:0 "Đơn vị này tập trung vào việc khám phá các công nghệ mới trong lĩnh vực Sinh học."
+ leader_trait_expertise_military_theory_machine:0 "Chuyên Môn: Lý Luận Quân Sự"
+ leader_trait_expertise_military_theory_machine_desc:1 "Đơn vị này tập trung vào các khám phá trong lĩnh vực Lý luận Quân sự."
+
+ leader_trait_polluter_hive:0 "Kẻ Gây Ô Nhiễm"
+ leader_trait_polluter_hive_desc:1 "[owner.GetIndividualName] này phớt lờ sự tích tụ của các phụ phẩm độc hại từ các ngành công nghiệp mà nó giám sát."
+
+ leader_trait_sadistic_hive:0 "Nghiện Đau Đớn"
+ leader_trait_sadistic_hive_desc:1 "[owner.GetIndividualName] này phụ thuộc về mặt thể xác vào sự kích thích thụ thể đau đớn như một cách để tìm kiếm sự thỏa mãn."
+ leader_trait_sadistic_machine:1 "Cơ Cấu Khổ Dâm"
+ leader_trait_sadistic_machine_desc:1 "Đơn vị này phụ thuộc về mặt chức năng vào sự kích thích liên tục của cảm biến hư hại."
+
+ leader_trait_irenic_hive: "Kháng Cự Xung Đột"
+ leader_trait_irenic_hive_desc:1 "Ác cảm tự nhiên với xung đột thúc đẩy [owner.GetIndividualName] này né tránh mọi khả năng leo thang quân sự."
+ leader_trait_irenic_machine:0 "Giao Thức Hòa Bình"
+ leader_trait_irenic_machine_desc:0 "Đơn vị này thúc đẩy hòa bình và sẽ tìm cách từ chối mọi nỗ lực gia tăng mức độ sẵn sàng chiến đấu."
+
+ leader_trait_physics_focus_hive:0 "Trọng Tâm Vật Lý"
+ leader_trait_physics_focus_hive_desc:0 "Nút ý thức này tập trung vào nghiên cứu Vật lý."
+ leader_trait_physics_focus_machine:0 "Trọng Tâm Vật Lý"
+ leader_trait_physics_focus_machine_desc:0 "Đơn vị này tập trung vào nghiên cứu Vật lý."
+
+ leader_trait_physics_focus_2_hive:0 "$leader_trait_physics_focus_hive$ II"
+ leader_trait_physics_focus_2_hive_desc:0 "$leader_trait_physics_focus_hive_desc$"
+ leader_trait_physics_focus_2_machine:0 "$leader_trait_physics_focus_machine$ II"
+ leader_trait_physics_focus_2_machine_desc:0 "$leader_trait_physics_focus_machine_desc$"
+
+ leader_trait_society_focus_hive:0 "Trọng Tâm Xã Hội"
+ leader_trait_society_focus_hive_desc:0 "Nút ý thức này tập trung vào nghiên cứu Xã hội."
+ leader_trait_society_focus_machine:0 "Trọng Tâm Xã Hội"
+ leader_trait_society_focus_machine_desc:0 "Đơn vị này tập trung vào nghiên cứu Xã hội."
+
+ leader_trait_society_focus_2_hive:0 "$leader_trait_society_focus_hive$ II"
+ leader_trait_society_focus_2_hive_desc:0 "$leader_trait_society_focus_hive_desc$"
+ leader_trait_society_focus_2_machine:0 "$leader_trait_society_focus_machine$ II"
+ leader_trait_society_focus_2_machine_desc:0 "$leader_trait_society_focus_machine_desc$"
+
+ leader_trait_archaeologist_hive:0 "[owner.GetIndividualNameCap] Khảo Cổ"
+ leader_trait_archaeologist_hive_desc:0 "[owner.GetIndividualName] này tập trung vào các nhiệm vụ khảo cổ."
+ leader_trait_archaeologist_machine:0 "Đơn Vị Khảo Cổ"
+ leader_trait_archaeologist_machine_desc:0 "Đơn vị này tập trung vào các nhiệm vụ khảo cổ."
+
+ leader_trait_archaeologist_2_hive:0 "$leader_trait_archaeologist_hive$ II"
+ leader_trait_archaeologist_2_hive_desc:0 "$leader_trait_archaeologist_hive_desc$"
+ leader_trait_archaeologist_2_machine:0 "$leader_trait_archaeologist_machine$ II"
+ leader_trait_archaeologist_2_machine_desc:0 "$leader_trait_archaeologist_machine_desc$"
+
+ leader_trait_archaeologist_3_hive:0 "$leader_trait_archaeologist_hive$ III"
+ leader_trait_archaeologist_3_hive_desc:0 "$leader_trait_archaeologist_hive_desc$"
+ leader_trait_archaeologist_3_machine:0 "$leader_trait_archaeologist_machine$ III"
+ leader_trait_archaeologist_3_machine_desc:0 "$leader_trait_archaeologist_machine_desc$"
+
+ leader_trait_prospector_hive:0 "Thăm Dò Khoáng Sản"
+ leader_trait_prospector_hive_desc:0 "[owner.GetIndividualName] này được cấp các cảm biến cực mạnh để tìm ra cả những mỏ tích tụ sâu nhất khi khảo sát."
+ leader_trait_prospector_machine:0 "Thăm Dò Khoáng Sản"
+ leader_trait_prospector_machine_desc:0 "Đơn vị này tích hợp sẵn các cảm biến để tìm ra cả những mỏ tích tụ sâu nhất khi khảo sát."
+
+ leader_trait_prospector_2_hive:0 "$leader_trait_prospector_hive$ II"
+ leader_trait_prospector_2_hive_desc:0 "$leader_trait_prospector_hive_desc$"
+ leader_trait_prospector_2_machine:0 "$leader_trait_prospector_machine$ II"
+ leader_trait_prospector_2_machine_desc:0 "$leader_trait_prospector_machine_desc$"
+
+ leader_trait_collective_wisdom_hive:0 "Bản Năng Tập Thể"
+ leader_trait_collective_wisdom_hive_desc:1 "[owner.GetIndividualName] này có mối liên hệ sâu sắc với các đồng loại; chúng di chuyển cùng nhau như một thể thống nhất."
+ leader_trait_collective_wisdom_machine:0 "Cơ Sở Dữ Liệu Tập Thể"
+ leader_trait_collective_wisdom_machine_desc:1 "Đơn vị này duy trì mạng lưới riêng với các đơn vị hỗ trợ, tăng cường chức năng phối hợp tác chiến của chúng."
+
+ leader_trait_collective_wisdom_2_hive:0 "$leader_trait_collective_wisdom_hive$ II"
+ leader_trait_collective_wisdom_2_hive_desc:0 "$leader_trait_collective_wisdom_hive_desc$"
+ leader_trait_collective_wisdom_2_machine:0 "$leader_trait_collective_wisdom_machine$ II"
+ leader_trait_collective_wisdom_2_machine_desc:0 "$leader_trait_collective_wisdom_machine_desc$"
+
+ subclass_commander_aggressor_hive:0 "Kẻ Tấn Công"
+ subclass_commander_aggressor_hive_desc:1 "Tấn công là cách phòng thủ tốt nhất. Những Kẻ Tấn Công nổi danh với các đòn đánh dồn dập tàn khốc, tiêu diệt hạm đội địch trước khi chúng kịp phản kích."
+ subclass_commander_aggressor_machine:0 "Kẻ Tấn Công"
+ subclass_commander_aggressor_machine_desc:0 "$subclass_commander_aggressor_hive_desc$"
+
+ subclass_commander_tactician_hive:0 "Nhà Chiến Thuật"
+ subclass_commander_tactician_hive_desc:0 "[owner.GetIndividualName] này đặc biệt xảo quyệt. Chiến thuật của nó được thiết kế nhằm triệt tiêu điểm mạnh của kẻ thù và vượt mặt các chỉ huy đối phương."
+ subclass_commander_tactician_machine:0 "Nhà Chiến Thuật"
+ subclass_commander_tactician_machine_desc:0 "$subclass_commander_tactician_hive_desc$"
+
+ subclass_commander_strategist_hive:0 "Nhà Chiến Lược"
+ subclass_commander_strategist_hive_desc:0 "Các Nhà Chiến Lược luôn tập trung vào bức tranh toàn cảnh. Thay vì trực tiếp chỉ huy nơi tiền tuyến, họ duy trì sự gắn kết trong quân đội và vạch ra các kế hoạch tác chiến quy mô thiên hà."
+ subclass_commander_strategist_machine:0 "Nhà Chiến Lược"
+ subclass_commander_strategist_machine_desc:0 "$subclass_commander_strategist_hive_desc$"
+
+ leader_trait_cautious_hive: "Thận Trọng Tối Đa"
+ leader_trait_cautious_hive_desc:0 "[owner.GetIndividualName] này thể hiện hành vi cực kỳ thận trọng."
+ leader_trait_cautious_machine: "Thận Trọng Tối Đa"
+ leader_trait_cautious_machine_desc:0 "Đơn vị này đã được lập trình để đặt sự thận trọng lên ưu tiên hàng đầu."
+
+ leader_trait_cautious_2_hive:0 "$leader_trait_cautious_hive$ II"
+ leader_trait_cautious_2_hive_desc:0 "$leader_trait_cautious_hive_desc$"
+ leader_trait_cautious_2_machine:0 "$leader_trait_cautious_machine$ II"
+ leader_trait_cautious_2_machine_desc:0 "$leader_trait_cautious_machine_desc$"
+
+ leader_trait_watchdog_hive:0 "Kẻ Bảo Vệ Tổ"
+ leader_trait_watchdog_hive_desc:1 "[owner.GetIndividualName] này sở hữu khát vọng không khoan nhượng trong việc bảo vệ lãnh thổ quê nhà."
+ leader_trait_watchdog_machine:0 "Cảnh Giác Cao Độ"
+ leader_trait_watchdog_machine_desc:1 "Đơn vị này đóng vai trò là một người bảo vệ luôn cảnh giác cho lãnh thổ đã xác lập chủ quyền."
+
+ leader_trait_unyielding_hive: "Bất Khuất"
+ leader_trait_unyielding_hive_desc:1 "[owner.GetIndividualName] này không hề có khả năng đầu hàng."
+ leader_trait_unyielding_machine: "Bất Khuất"
+ leader_trait_unyielding_machine_desc:1 "Đơn vị này không hề sở hữu giao thức đầu hàng."
+
+ leader_trait_unyielding_2_hive:0 "$leader_trait_unyielding_hive$ II"
+ leader_trait_unyielding_2_hive_desc:0 "$leader_trait_unyielding_hive_desc$"
+ leader_trait_unyielding_2_machine:0 "$leader_trait_unyielding_machine$ II"
+ leader_trait_unyielding_2_machine_desc:0 "$leader_trait_unyielding_machine_desc$"
+
+ leader_trait_fleet_logistician_hive:0 "Chuyên Gia Hậu Cần Hạm Đội"
+ leader_trait_fleet_logistician_hive_desc:0 "[owner.GetIndividualName] này sở hữu khả năng độc nhất trong việc khái niệm hóa nhu cầu hậu cần của toàn bộ hạm đội."
+ leader_trait_fleet_logistician_machine:0 "Công Thức Hậu Cần"
+ leader_trait_fleet_logistician_machine_desc:0 "Đơn vị này có khả năng xử lý nhu cầu hậu cần của toàn bộ các hạm đội."
+
+ leader_trait_fleet_logistician_2_hive:0 "$leader_trait_fleet_logistician_hive$ II"
+ leader_trait_fleet_logistician_2_hive_desc:0 "$leader_trait_fleet_logistician_hive_desc$"
+ leader_trait_fleet_logistician_2_machine:0 "$leader_trait_fleet_logistician_machine$ II"
+ leader_trait_fleet_logistician_2_machine_desc:0 "$leader_trait_fleet_logistician_machine_desc$"
+
+ leader_trait_wrecker_hive:0 "Kẻ Tàn Phá"
+ leader_trait_wrecker_hive_desc:1 "Nhiều thế hệ chọn lọc gen cẩn thận đã tạo ra một [owner.GetIndividualName] có khả năng gây ra lượng sát thương cực lớn lên một mục tiêu được chỉ định."
+ leader_trait_wrecker_machine:0 "Kẻ Tàn Phá"
+ leader_trait_wrecker_machine_desc:0 "Bằng cách bỏ qua các giao thức an toàn, đơn vị này có thể gia tăng hiệu quả vũ khí lên mức khổng lồ."
+
+ leader_trait_intimidator_hive:0 "Uy Lực Hiếu Chiến"
+ leader_trait_intimidator_hive_desc:0 "Phô trương vũ lực và các hành vi bán xâm lược đúng thời điểm là chiến thuật điển hình của [owner.GetIndividualName] này."
+ leader_trait_intimidator_machine:0 "Chỉ Số Đe Dọa"
+ leader_trait_intimidator_machine_desc:1 "Các mối đe dọa vũ lực được tính toán hoàn hảo tạo thành nền tảng trong chiến lược tham chiến của đơn vị này."
+
+ leader_trait_overseer_hive:0 "Con Mắt Tập Thể"
+ leader_trait_overseer_hive_desc:0 "[owner.GetIndividualName] này là hiện thân vật lý của quyền uy tối cao của tập thể."
+ leader_trait_overseer_machine:0 "Bộ Điều Khiển Cơ Giới"
+ leader_trait_overseer_machine_desc:0 "Các giao thức vận hành của đơn vị này đóng vai trò là hình mẫu tiêu chuẩn về hiệu suất đỉnh cao."
+
+ leader_trait_overseer_2_hive:0 "$leader_trait_overseer_hive$ II"
+ leader_trait_overseer_2_hive_desc:0 "$leader_trait_overseer_hive_desc$"
+ leader_trait_overseer_2_machine:0 "$leader_trait_overseer_machine$ II"
+ leader_trait_overseer_2_machine_desc:0 "$leader_trait_overseer_machine_desc$"
+
+ leader_trait_consul_general_hive:0 "Lãnh Sự [owner.GetIndividualNameCap]"
+ leader_trait_consul_general_hive_desc:1 "Đối với [owner.GetIndividualName] này, ngoại giao cũng quan trọng ngang bằng với bất kỳ hình thái xung đột nào khác."
+ leader_trait_consul_general_machine:0 "Đơn Vị Ngoại Giao Tác Chiến"
+ leader_trait_consul_general_machine_desc:0 "Những chiến thắng hiệu quả nhất là những chiến thắng không cần dùng đến bạo lực."
+
+ leader_trait_consul_general_2_hive:0 "$leader_trait_consul_general$ II"
+ leader_trait_consul_general_2_hive_desc:0 "$leader_trait_consul_general_hive_desc$"
+ leader_trait_consul_general_2_machine:0 "$leader_trait_consul_general$ II"
+ leader_trait_consul_general_2_machine_desc:0 "$leader_trait_consul_general_machine_desc$"
+
+ leader_trait_uninspiring_hive:0 "[owner.GetIndividualNameCap] Lạnh Lùng"
+ leader_trait_uninspiring_hive_desc:1 "[owner.GetIndividualName] này không hề bận tâm đến những cá thể dưới quyền chỉ huy của nó."
+ leader_trait_uninspiring_machine:0 "Cỗ Máy Vô Cảm"
+ leader_trait_uninspiring_machine_desc:0 "Các phép tính của đơn vị này không bao gồm tình trạng sức khỏe và an nguy của các đơn vị mà nó chỉ huy."
+
+ leader_trait_lawless_hive:0 "Tâm Tính Tha Hóa"
+ leader_trait_lawless_hive_desc:1 "[owner.GetIndividualName] này lấy vật tư từ [owner.GetGestaltEntityName] để phục vụ cho mục đích cá nhân."
+ leader_trait_lawless_machine:0 "Mã Độc Hại"
+ leader_trait_lawless_machine_desc:1 "Mã lỗi của đơn vị này dẫn đến các hành vi lệch lạc."
+
+ leader_trait_corrupt_hive:0 "[owner.GetIndividualNameCap] Tha Hóa"
+ leader_trait_corrupt_machine:0 "Đơn Vị Tha Hóa"
+ leader_trait_corrupt_hive_desc:1 "[owner.GetIndividualName] này lan truyền sự lệch lạc của mình sang những cá thể khác."
+ leader_trait_corrupt_machine_desc:1 "Đơn vị này lan truyền sự lệch lạc của mình sang các đơn vị khác."
+
+ leader_trait_shadow_broker_hive:0 "Cụm Xử Lý Tình Báo"
+ leader_trait_shadow_broker_hive_desc:0 "Nút ý thức này sở hữu nhiều công cụ để nâng cao năng lực thâm nhập của chúng ta."
+ leader_trait_shadow_broker_machine:0 "Công Cụ Xâm Nhập"
+ leader_trait_shadow_broker_machine_desc:0 "Đơn vị này sở hữu nhiều công cụ để nâng cao năng lực thâm nhập của chúng ta."

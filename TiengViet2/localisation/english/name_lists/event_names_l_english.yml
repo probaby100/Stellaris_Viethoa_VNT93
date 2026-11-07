@@ -1,0 +1,615 @@
+﻿l_english:
+#######
+# MISC
+#######
+
+# Assorted empire/country names
+ NAME_Ancient_AI:0 "Trí tuệ Nhân tạo Cổ đại"
+ NAME_Armistice_Initiative:0 "Tổ chức Sáng kiến Đình chiến"
+ NAME_Awoken:0 "Thức tỉnh"
+ NAME_Commonwealth_of_Man:0 "Thịnh vượng chung Nhân loại" ##UNE initializer
+ NAME_Creatures_of_the_Shroud:0 "Sinh Vật Cõi Màn Che"
+ NAME_Cunning_Pirates:0 "Hải tặc xảo quyệt"
+ NAME_Deformed_Creatures:0 "Sinh vật Dị dạng" ##terraforming accident
+ NAME_Demonic_Creatures:0 "Sinh vật Ác quỷ"
+ NAME_Demon_Incursion:0 "Cuộc xâm lăng của Ác quỷ"
+ NAME_Demon_Incursion_adj:0 "Ác quỷ"
+ NAME_Eternal_Watchers:0 "Những Kẻ quan sát Vĩnh hằng"
+ NAME_Incoming_Asteroid:0 "Tiểu hành tinh đang bay tới" ##a literal asteroid
+ NAME_Living_Snow:0 "Tuyết Sống" ##empire (planetary event)
+ NAME_Looped_Syzygy:0 "Sóc vọng Tuần hoàn"
+ NAME_Marauding_Creatures:0 "Sinh vật Cướp bóc" ##planetary event
+ NAME_mardak_vol_haters:0 "Vol"
+ NAME_Mutant_Horrors:0 "Quái vật Đột biến" ##also used as an army name
+ NAME_Prikkiki_Ti:0 "Prikkiki-Ti"
+ NAME_Psionic_Avatar_Country:0 "Hóa thân Linh năng"
+ NAME_Ransomeers:0 "Những kẻ Tống tiền Tinh tế"
+ NAME_Rising_Manifold:0 "Đa tạp Thăng hoa" ##abstract/nonsensical
+ NAME_Shattered_Frontier:0 "Tiền tuyến Vỡ nát" ##empire, alluding to colonial frontiers (Shroud entity)
+ NAME_Shroud_Reformers:0 "Nhà Cải Cách Màn Che" ##the definitive Shroud
+ NAME_Spawning_Dragons:0 "Rồng Sinh sản" ##literal
+ NAME_Subterranean_Nation:0 "Quốc gia Dưới lòng đất"
+ NAME_The_Loop:0 "Vòng lặp" ##as in time
+ NAME_The_Shroud:0 "Cõi Màn Che"
+ NAME_Titanic_Life:0 "Sinh vật Titan" ##gigantic lifeforms
+ NAME_Unknown_Ancientry:0 "Cổ đại Ẩn danh"
+ NAME_Unscrupulous_Salvagers:0 "Những kẻ Nhặt rác Vô đạo đức"
+ NAME_Wreckers:0 "Những kẻ Phá hoại"
+
+# Assorted species names
+ NAME_AI:0 "Trí tuệ Nhân tạo"
+ NAME_Awoken_Robot:0 "Robot Thức tỉnh"
+ NAME_Azizians:0 "Azizian"
+ NAME_Cockroach:0 "Gián" ##literal
+ NAME_Cockroach_plural:0 "Gián" ##literal
+ NAME_Mardak_Vol: "Mardak Vol"
+ NAME_Migrating_Trees:0 "Cây Di cư" ##literal
+ NAME_Rampaging_Forests:0 "Rừng Cuồng nộ" ##literal
+ NAME_Prikki:0 "Prikki"
+ NAME_Robot:0 "Người máy"
+ NAME_Robot_plural:0 "Người máy"
+ NAME_Titans:0 "Titan" ##gigantic lifeforms
+ NAME_Vol: "Vol"
+ NAME_Demon_Refugees:0 "Quỷ dữ"
+ NAME_Demon_Refugee_pl:0 "Quỷ dữ"
+
+# Assorted star system names
+ NAME_Klendath:0 "Klendath"
+ NAME_Pantagruel:0 "Pantagruel"
+ NAME_Zron:0 "Zron"
+
+# Assorted planet names
+ NAME_Baldarak:0 "Baldarak"
+ NAME_New_Baldarak:0 "Tân Baldarak"
+ NAME_Chabkymak:0 "Chabkymak"
+ NAME_Exile:0 "Lưu đày"
+ NAME_Fotangia:0 "Fotangia"
+ NAME_The_Fragments:0 "Mảnh vỡ" ##a shattered world
+ NAME_Gish:0 "Gish"
+ NAME_Homeworld_Two:0 "[Space_Owner.GetHomeWorldName] Hai" ##after terraforming
+ NAME_Paridayda:0 "Paridayda" ##gaia world
+ NAME_Spjuuht:0 "Spjuuht"
+ NAME_Tollok_Rong:0 "Tollok Rong"
+ NAME_Zron_Prime:0 "Zron Prime" ##as in 'NAME_Zron'
+
+# Assorted fleet names
+ NAME_5th_Dimensionalists:0 "Nhà không gian chiều thứ 5"
+ NAME_Ancient_AI_Fleet:0 "Hạm đội AI Cổ đại"
+ NAME_Clutch_of_Whelps:0 "Ổ Rồng Con" ##dragons
+ NAME_Dimensional_Portal:0 "Cổng dịch chuyển Đa chiều"
+ NAME_Greased_Lightning:0 "Chớp nhoáng"
+ NAME_Head_in_Sand:0 "Đầu rúc xuống cát" ##i.e. cowardly/ignorant
+ NAME_Hijacked_Fleet:0 "Hạm đội bị cướp"
+ NAME_Main_Forces:0 "Lực lượng Chiến đấu Chính"
+ NAME_mardak_vol_haters_fleet:0 "Kẻ thanh trừng Mardak Vol"
+ NAME_Modified_Probe:0 "Tàu thăm dò Cải tiến"
+ NAME_New_Ship_plural:0 "Tàu mới"
+ NAME_Occupation_Flotilla:0 "Đội tàu Chiếm đóng"
+ NAME_Other_Science_Ship:0 "Tàu Khoa học Khác" ##comprises 'NAME_From_Beyond'
+ NAME_Psionic_Avatar:0 "Hóa thân Linh năng"
+ NAME_Ransomeer_Base:0 "Căn cứ của Kẻ Tống tiền" ##starbase
+ NAME_Salvage_Fleet:0 "Hạm đội Trục vớt"
+ NAME_Scrap_Probes:0 "Tàu thăm dò Phế liệu"
+ NAME_Seaborn:0 "Hải duệ"
+ NAME_Seaborn_Flotilla:0 "Đội tàu Hải duệ"
+ NAME_Skeletal_Giant:0 "Người khổng lồ Xương xẩu"
+ NAME_Surveillance_Bots:0 "Robot Giám sát"
+ NAME_TIME_IS_SIGHT_GRAVITY_IS_DESIRE:0 "THỜI GIAN LÀ TẦM NHÌN TRỌNG LỰC LÀ KHAO KHÁT" ##abstract/nonsensical
+ NAME_The_End:0 "Sự Kết thúc" ##End of the Cycle (Shroud)
+ NAME_Wrecker_Base:0 "Căn cứ Kẻ Phá hoại" ##as in 'NAME_Wreckers'
+ NAME_Zarqlans_Pilgrims:0 "Những người hành hương của Zarqlan"
+ NAME_Mercenary_Fleet:0 "Hạm đội [event_target:mercenary_enclave_country.GetName]"
+ NAME_Mindwarden_Fleet: "Hạm đội [mindwarden_enclave_country.GetName]"
+
+# Assorted ship names (sometimes also used as the fleet name)
+ NAME_Abandoned_Alien_Vessel:0 "Tàu Ngoại lai bị Bỏ rơi"
+ NAME_AI_Core:0 "Lõi AI"
+ NAME_AI_Final_Core:0 "Lõi AI Cuối cùng"
+ NAME_Alien_Ship:0 "Tàu Ngoại lai"
+ NAME_Asteroid:0 "Tiểu hành tinh" ##a literal asteroid
+ NAME_Autonomous_Drone:0 "Drone Tự trị"
+ NAME_Burnt_Out_Science_Ship:0 "Tàu Khoa học bị Thiêu rụi"
+ NAME_Conceptual_Ship:0 "Tàu Khái niệm" ##abstract
+ NAME_Corrupted_Avatar:0 "Hóa thân Tha hóa" ##psionic entity
+ NAME_Dark_Wanderer:0 "Kẻ Lang thang Bóng tối"
+ NAME_Dimensional_Horror:0 "Nỗi kinh hoàng Đa chiều"
+ NAME_enigmatic_cache:0 "Kho lưu trữ Bí ẩn"
+ NAME_Foundling:0 "Đứa trẻ bị bỏ rơi" ##lost science ship
+ NAME_Fragment:0 "Mảnh vỡ" ##Shroud manifestation
+ NAME_From_Beyond:0 "Kẻ từ Cõi mộng"
+ NAME_Gallant_Dawn:0 "Bình minh Quả cảm"
+ NAME_Grand_Herald:0 "Sứ giả Vĩ đại"
+ NAME_Herald:0 "Sứ giả"
+ NAME_Junk_Probe_Alpha:0 "Tàu thăm dò Rác Alpha"
+ NAME_Junk_Probe_Beta:0 "Tàu thăm dò Rác Beta"
+ NAME_Kellop-Gar:0 "Kellop-Gar"
+ NAME_Lessenger:0 "Lessenger"
+ NAME_Lesser_Messenger:1 "$NAME_Lessenger$"
+ NAME_Mardak_Purger: "Kẻ thanh trừng Mardak"
+ NAME_Mended_Frontier:0 "Tiền tuyến được Tu sửa" ##as in 'NAME_Shattered_Frontier'
+ NAME_Migil-Yar:0 "Migil-Yar"
+ NAME_Suntha-Pol:0 "Suntha-Pol"
+ NAME_Nanite_Dragon:0 "Rồng Nanite" ##a literal dragon
+ NAME_New_Ship:0 "Tàu Mới"
+ NAME_Ostrich:0 "Đà điểu" ##reference to 'NAME_Head_in_Sand'
+ NAME_Patchwork_Paradise:0 "Thiên đường Chắp vá" ##wrecker ship
+ NAME_Reckoning:0 "Sự Trừng phạt"
+ NAME_Reclaimed_Ship:0 "Tàu được Thu hồi" ##as in 'back in our possession'
+ NAME_Research_Expedition_Vessel:0 "Tàu Thám hiểm Nghiên cứu"
+ NAME_Salvage:0 "Trục vớt" ##literal
+ NAME_Seafallen_Cruiser:0 "Tuần dương hạm Seafallen"
+ NAME_Ship_of_Unknown_Origin:0 "Tàu Không rõ Nguồn gốc"
+ NAME_Shroud_Manifestation:0 "Hiện Thân Màn Che"
+ NAME_Skeletal_Transport:0 "Tàu Vận tải Xương xẩu" ##as in 'NAME_Skeletal_Giant'
+ NAME_Specter:0 "Bóng ma"
+ NAME_Subspace_Anomaly:0 "Dị thường Không gian con" ##literal
+ NAME_Syzygy:0 "Sóc vọng"
+ NAME_Unshrouded_Science_Ship:0 "Tàu Khoa Học Thoát Khỏi Màn Che"
+ NAME_Worm_in_Waiting:0 "Giun đang Chờ đợi" ##definite article, 'The Worm'
+
+# Assorted army names
+ NAME_Awoken_Army:0 "Quân đội Thức tỉnh"
+ NAME_Enraged_Guardian:0 "Vệ binh Cuồng nộ"
+ NAME_Enraged_Titan:0 "Titan Cuồng nộ"
+ NAME_Invading_Horde:0 "Đoàn quân Xâm lược" ##subterranean army
+ NAME_Loot_Equipped_Army:0 "Quân đội Trang bị Chiến lợi phẩm"
+ NAME_Marauding_Swarms:0 "Bầy đàn Cướp bóc"
+ NAME_mechawarrior_contractors:0 "Nhà thầu Chiến binh Cơ giáp"
+ NAME_military_contractors:0 "Nhà thầu Quân sự"
+ NAME_Mutated_Horrors:0 "Quái vật Đột biến"
+ NAME_Monstrous_Snow:0 "Tuyết Quái" ##from literal snow
+ NAME_Twisted_Beasts:0 "Dã thú Xuyên tạc"
+
+# Assorted leader names
+ NAME_00110001:0 "110001" ##1
+ NAME_00110010:0 "110010" ##2
+ NAME_00110011:0 "110011" ##3
+ NAME_00110100:0 "110100" ##4
+ NAME_00110101:0 "110101" ##5
+ NAME_01000001_01001001:0 "01000001 01001001" ##AI
+ NAME_0101010111:0 "101010111" ##W
+ NAME_Majula_the_Bearer:0 "Majula Kẻ Mang vác"
+ NAME_Oracle:0 "Nhà Tiên tri" ##also used as the species name
+ NAME_The_Exile:0 "Kẻ Lưu đày" ##a scientist of the player's own species
+ NAME_William_Shakespeare:0 "William Shakespeare" ##May be replaced with a more relevant, national literary figure depending on the extent to which you localize event 'federations2.1', 'Love's Labor's Lost'. See also '.GetAuteur' scripted loc for use of Molière in French.
+
+# Other
+ NAME_Machine_Uprising_War:0 "Cuộc nổi dậy Máy móc [This.MainDefender.GetAdj]"
+
+#########
+# CRISES
+#########
+
+# Empire names
+ NAME_Aberrant:0 "Kẻ Bất thường"
+ NAME_Unbidden:0 "Kẻ Không mời"
+ NAME_Vehement:0 "Kẻ Cuồng tín"
+ NAME_Contingency:0 "Giao thức Dự phòng"
+ NAME_Cybrex:0 "Cybrex"
+ NAME_Cybrex_Empire:0 "Đế chế Cybrex"
+ NAME_Dessanu:0 "Dessanu"
+ NAME_Dessanu_Consonance:0 "Khối Hiệp hòa Dessanu"
+ NAME_Gray:0 "Xám" ##also used as a name for the leader, ship and army
+ NAME_Gray_Goo:0 "Bão Xám"
+ NAME_Portal_Holder_1:2 "Người giữ Cổng Không gian"
+ NAME_Prethoryn_Scourge:0 "Tai họa Prethoryn"
+
+# Species names
+ NAME_Custodian_Bot:0 "Bot Giám hộ"
+ NAME_Prethoryn:0 "Prethoryn"
+
+# Star system names
+ NAME_Contingency_System:0 "CX-9881"
+ NAME_Cybrex_Beta:0 "Cybrex Beta"
+
+# Planet names
+ NAME_Contingency_Lair:0 "Hang ổ Dự phòng"
+ NAME_Cybrex_Beta_1:0 "Cybrex Beta I"
+ NAME_Cybrex_Beta_2:0 "Cybrex Beta II"
+ NAME_Cybrex_Beta_3:0 "Cybrex Beta III"
+ NAME_Cybrex_Beta_4:0 "Cybrex Beta IV"
+
+# Fleet names
+ NAME_Dessanu_Fleet:0 "Hạm đội Phòng vệ Dessanu"
+ NAME_Dessanu_Fleet_2:0 "Hạm đội Tuần tra Dessanu"
+ NAME_Feral_Prethoryn:0 "Prethoryn Hoang dã"
+ NAME_Loyal_Brood:0 "Bầy Dòi Trung thành"
+ NAME_Prethoryn_Armies:0 "Quân đội Prethoryn"
+ NAME_Prethoryn_Constructor:0 "Trình kiến tạo Prethoryn"
+ NAME_Prethoryn_Infestor:0 "Kẻ lây nhiễm Prethoryn"
+ NAME_Prethoryn_Star_Brood:0 "Ổ Sao Prethoryn"
+ NAME_Prethoryn_Transport:0 "Vận tải Prethoryn"
+ NAME_Prethoryn_Vanguard:0 "Tiên phong Prethoryn"
+ NAME_Refugee_Fleet:0 "Hạm đội Tị nạn"
+ NAME_Sentinel_Auxiliary_Fleet:0 "Hạm đội Phụ trợ Vệ binh"
+ NAME_Sentinel_Battle_Fleet:0 "Hạm đội Chiến đấu Vệ binh"
+ NAME_Sentinel_Defense_Fleet:0 "Hạm đội Phòng vệ Vệ binh"
+ NAME_Sterilization_Hub_1:0 "Trung tâm Thanh lọc 001"
+ NAME_Sterilization_Hub_2:0 "Trung tâm Thanh lọc 002"
+ NAME_Sterilization_Hub_3:0 "Trung tâm Thanh lọc 003"
+ NAME_Sterilization_Hub_4:0 "Trung tâm Thanh lọc 004"
+ NAME_Tempest_Fleet:0 "Hạm đội Bão táp"
+
+# Ship names
+ NAME_Dessanu_Interdictor:0 "Tàu Cản phá Dessanu"
+ NAME_Dessanu_Mothership:0 "Tàu mẹ Dessanu"
+ NAME_Domesticated_Prethoryn:0 "Prethoryn đã Thuần hóa"
+ NAME_Domesticated_Queen:0 "Nữ vương Thuần hóa"
+ NAME_Domesticated_Swarmling:0 "Trùng con Thuần hóa"
+ NAME_Domesticated_Warrior:0 "Chiến binh Thuần hóa"
+ NAME_Early_Warning_X_34:0 "Cảnh báo Sớm X-34"
+ NAME_Early_Warning_X_35:0 "Cảnh báo Sớm X-35"
+ NAME_Early_Warning_X_36:0 "Cảnh báo Sớm X-36"
+ NAME_Early_Warning_X_37:0 "Cảnh báo Sớm X-37"
+ NAME_Early_Warning_X_38:0 "Cảnh báo Sớm X-38"
+ NAME_Gatebuilder_Starbase:0 "Trạm sao của Kẻ Xây cổng"
+ NAME_Refugee_Site_Beta:0 "Khu Tị nạn Beta"
+ NAME_Sentinel_Alpha:0 "Vệ binh Alpha"
+ NAME_Deep_Eyes:0 "Đôi Mắt Sâu thẳm"
+ NAME_Gray_Moon:0 "Trăng Xám"
+ NAME_Kobyar_Miru:0 "Kobyar Miru"
+ NAME_Princess_Kolos:0 "Công chúa Kolos"
+ NAME_Refugee_Site_Alpha:0 "Khu Tị nạn Alpha"
+ NAME_Stellar_Queen:0 "Nữ vương Vì sao"
+
+# Army names
+ NAME_Prethoryn_Invaders:0 "Kẻ Xâm lược Prethoryn"
+
+# Leader names
+ NAME_Fleet_Consciousness:0 "Ý thức Hạm đội"
+
+# Cybrex megastructure
+ NAME_Ring_Segment_A:1 "Đoạn Vòng A"
+ NAME_Ring_Segment_B:1 "Đoạn Vòng B"
+ NAME_Ring_Segment_C:1 "Đoạn Vòng C"
+ NAME_Ring_Segment_D:1 "Đoạn Vòng D"
+ NAME_Ring_Segment_E:1 "Đoạn Vòng E"
+ NAME_Ring_Segment_F:1 "Đoạn Vòng F"
+ NAME_Ring_Segment_G:1 "Đoạn Vòng G"
+ NAME_Ring_Segment_H:1 "Đoạn Vòng H"
+ NAME_Ring_Segment_I:1 "Đoạn Vòng I"
+ NAME_Ring_Segment_J:1 "Đoạn Vòng J"
+ NAME_Ring_Segment_K:1 "Đoạn Vòng K"
+ NAME_Ring_Segment_L:1 "Đoạn Vòng L"
+
+###########
+# ENCLAVES
+###########
+
+# Leader names
+ NAME_Doctor_Xib:0 "Tiến sĩ Xib"
+ NAME_Kix_the_Brilliant:0 "Kix Xuất chúng"
+ NAME_merchant_leader:0 "Lãnh đạo Thương nhân"
+ NAME_Professor_Zarg:0 "Giáo sư Zarg"
+ NAME_Sensei_Borkaz:0 "Sư phụ Borkaz"
+ NAME_The_Mentat:0 "Mentat"
+
+############################
+# FALLEN & AWAKENED EMPIRES
+############################
+
+# Leader names
+ NAME_Tuborek:0 "Tuborek"
+
+# Other
+ NAME_Holy_World_War:0 "Chiến tranh Thế giới Thánh [This.MainAttacker.GetAdj]" ##war over a designated Holy World
+ NAME_The_War_in_Heaven:0 "Chiến tranh trên Thiên đàng" ##war between fallen empires
+
+##############
+# FEDERATIONS
+##############
+
+# Military Alliance Joint Operation
+ NAME_training_adversary:0 "Đối thủ Huấn luyện" ##empire
+ NAME_Training_Targets:0 "Mục tiêu Huấn luyện" ##fleet
+ NAME_Elusive_Craft:0 "Phi thuyền Ảo ảnh" ##ship
+
+#####################
+# KHANATE & DIADOCHI
+#####################
+
+# Empire & Federation names
+ NAME_Galactic_Horde:0 "Horda Ngân hà" ##federation
+
+# Fleet names
+ NAME_Chosen_of_the_Great_Khan:0 "Người Được chọn của Đại Hãn"
+ NAME_Horde_Auxiliary_Fleet:0 "Hạm đội Phụ trợ Horda của [satrapy_species.GetName]"
+
+###########################
+# LEVIATHANS & SPACE FAUNA
+###########################
+# See also: initializers_names_l_english.yml, containing names related to Leviathans and Space Fauna which appear at galaxy start
+
+# Empire names
+ NAME_Alien_Hive:0 "Tổ Ngoại lai"
+ NAME_Mining_Drone_Expansion_Initiative:0 "Sáng kiến Mở rộng Drone Khai thác"
+ NAME_Aggressive_Mining_Drone_Expansion_Initiative:0 "Sáng kiến Mở rộng Drone Khai thác Hung hãn"
+ NAME_Old_One:0 "Cổ Thần" ##void cloud
+ NAME_Stellarite:0 "Kẻ Xơi Sao"
+ NAME_VLUUR:0 "VLUUR"
+
+# Planet names
+ NAME_Bot_Compactor:0 "Máy nén Bot"
+ NAME_Drakes_Roost:0 "Tổ Rồng"
+
+# Fleet names
+ NAME_Aggressive_Mining_Drone_Expansion_Fleet:0 "Hạm đội Mở rộng Drone Khai thác Hung hãn"
+ NAME_Ancient_Mining_Drones:0 "Drone Khai thác Cổ đại"
+ NAME_Mining_Drone_Expansion_Fleet:0 "Hạm đội Mở rộng Drone Khai thác"
+ NAME_Crystalline_Elites:0 "Tinh thể Tinh anh"
+ NAME_Crystalline_Entity:0 "Thực thể Tinh thể"
+ NAME_Exiled_One:0 "Kẻ Lưu đày" ##void cloud
+ NAME_Hiver_Nest:0 "Tổ Hiver"
+ NAME_Life_Tree_Protector_plural:0 "Người bảo vệ Cây Sự sống"
+ NAME_Nesting_Crystals:0 "Tinh thể Làm tổ" ##space crystals
+ NAME_Shard:0 "Shard" ##named dragon
+ NAME_Space_Amoeba_plural:0 "Trùng amip Không gian" ## fleet
+ NAME_Space_Amoeba_plural_seed: "Trùng amip Không gian (£seed_pod£)" ##fleet carrying seeds (Gardeners Origin)
+ NAME_Stellarite_Devourer:0 "Kẻ nuốt chửng Vì sao"
+ NAME_Subspace_Rupture_Cloud_1:0 "Mây Nứt Không gian con XV-990"
+ NAME_Subspace_Rupture_Cloud_2:0 "Mây Nứt Không gian con R-5921"
+ NAME_Subspace_Rupture_Cloud_3:0 "Mây Nứt Không gian con TLZ-84"
+ NAME_Tricksy_Mining_Drones:0 "Drone Khai thác Lém lỉnh" ##cute form of 'tricky'
+ NAME_Void_Cloud:0 "Mây Hư không"
+
+# Ship names
+ NAME_Annoyed_Crystal:0 "Tinh thể Nổi giận"
+ NAME_Cortus:0 "Cortus" ##space amoeba
+ NAME_Cracked_Crystalline_Shard:0 "Mảnh Tinh thể Nứt nẻ"
+ NAME_Dreadnought:0 "Thiết giáp hạm Không gian"
+ NAME_Drone_0931_F:0 "Drone 0931-F"
+ NAME_Drone_1119_X:0 "Drone 1119-X"
+ NAME_Drone_1433_D:0 "Drone 1433-D"
+ NAME_Drone_1832-D:0 "Drone 1832-D"
+ NAME_Drone_2432_D:0 "Drone 2432-D"
+ NAME_Drone_4119_X:0 "Drone 4119-X"
+ NAME_Drone_5110_X:0 "Drone 5110-X"
+ NAME_Drone_6732_A:0 "Drone 6732-A"
+ NAME_Drone_7731_A:0 "Drone 7731-A"
+ NAME_Effluvial_Offspring:0 "Mầm mống Uế khí" ##void cloud
+ NAME_Ether_Hatchling:0 "Rồng Không gian con" ##ether drake
+ NAME_Shard_Dragon:0 "$NAME_Grand_Dragon$" ##ether drake
+ NAME_KASH:0 "KASH" ##void cloud
+ NAME_Life_Tree_Protector:1 "Người bảo vệ Cây Sự sống"
+ NAME_Mining_Drone_C_Class:0 "Drone Khai thác Lớp C"
+ NAME_Oriens:0 "Oriens" ##space amoeba
+ NAME_Ortus:0 "Ortus" ##space amoeba
+ NAME_Psi:0 "Psi"
+ NAME_SHAB:0 "SHAB" ##void cloud
+ NAME_Scile:0 "Scile" ##named dragon
+ NAME_Stellar_Devourer:0 "Kẻ nuốt chửng Vì sao"
+ NAME_TAHA:0 "TAHA" ##void cloud
+ NAME_TANT:0 "TANT" ##void cloud
+ NAME_Trapped_Asteroid:0 "Tiểu hành tinh Bị mắc kẹt" ##inert space crystal
+ NAME_Wraith_450THz:0 "Bóng ma 450THz"
+ NAME_Wraith_520THz:0 "Bóng ma 520THz"
+ NAME_Wraith_650THz:0 "Bóng ma 650THz"
+ NAME_XADRA:0 "XADRA" ##void cloud
+ NAME_XELMAGGUS:0 "XELMAGGUS" ##void cloud
+ NAME_XILNIAK:0 "XILNIAK" ##void cloud
+ NAME_XUNIA:0 "XUNIA" ##void cloud
+ NAME_XUUL:0 "XUUL" ##void cloud
+ NAME_Young_Dragon:0 "Rồng Non"
+
+############
+# MARAUDERS
+############
+
+# Fleet names
+ NAME_234th_Dwamak_Bashers:0 "Đoàn đập phá Dwamak số 234"
+ NAME_Armada_of_the_Voidborn:0 "Hạm đội của Kẻ sinh ra từ Hư không"
+ NAME_First_Storm_Wing:0 "Cánh Bão táp Đệ nhất"
+ NAME_Frenzied_Volunteer_Squadron:0 "Phi đội Tình nguyện Cuồng loạn"
+ NAME_Garrison_Fleet:0 "Hạm đội Đồn trú"
+ NAME_Her_Chosen_Champions:0 "Những Nhà vô địch do Cô ấy chọn"
+ NAME_Order_of_Eternal_Night:0 "Hội hiệp sĩ Đêm trường"
+ NAME_Raiding_Fleet:0 "Hạm đội Đột kích"
+ NAME_Salvaged_Fleet:0 "Hạm đội Trục vớt"
+ NAME_Star_Rider_Flotilla:0 "Đội tàu Kỵ sĩ Vì sao"
+ NAME_Twilight_Congregation:0 "Hội chúng Chạng vạng"
+
+# Ship & starbase names
+ NAME_Garrison_Base:0 "Căn cứ Đồn trú"
+
+#########
+# NOMADS
+#########
+
+ NAME_Galactic_Nomads:0 "Dân du mục Ngân hà" ##empire name
+
+# Species names
+ NAME_Namarian:0 "Namarian" ##also used as an adjective
+ NAME_Namarian_plural:0 "Namarian"
+
+# Fleet names
+ NAME_Nomad_Delivery:0 "Giao hàng Du mục"
+ NAME_Nomadic_Armada:0 "Hạm đội Du mục"
+ NAME_Redirected_Nomad_Delivery:0 "Giao hàng Du mục Chuyển hướng"
+ NAME_Unhinged_Screamer_Flotilla:0 "Đội tàu Thét gào Điên loạn"
+
+# Ship names
+ NAME_Defender:0 "Người bảo vệ"
+ NAME_Home_One:0 "Quê hương Một"
+ NAME_Home_Two:0 "Quê hương Hai"
+ NAME_Home_Three:0 "Quê hương Ba"
+ NAME_Protector:0 "Người che chở"
+
+##########
+# PIRATES
+##########
+
+# Empire names
+ NAME_Pirates:0 "Hải tặc"
+ NAME_Privateers:0 "Tàu Cướp biển"
+ NAME_Sunblaster_Pirates:0 "Hải tặc Diệt nhật"
+
+# Fleet names
+ NAME_Old_Guard:0 "Cựu Vệ binh"
+ NAME_Scarred_Veterans:0 "Cựu binh Dày dạn"
+ NAME_Young_Blood:0 "Dòng máu Trẻ"
+ NAME_Numerous_Pirates:0 "Băng Hải tặc Đông đảo"
+ NAME_Pirate_Fleet:0 "Hạm đội Hải tặc"
+ NAME_Pirate_Station:0 "Trạm Hải tặc" ##starbase
+ NAME_Wounded_Pirates:0 "Hải tặc Bị thương"
+
+# Ship names
+ NAME_Damaged_Pillager:0 "Kẻ Cướp bóc Bị hư hỏng"
+ NAME_Defaced_Gunmouth:0 "Họng súng Sứt mẻ"
+ NAME_Defaced_Starflinger:0 "Kẻ Phóng sao Sứt mẻ"
+ NAME_Dices:0 "Cắt lựu"
+ NAME_First_Pillager:0 "Kẻ Cướp bóc Đệ nhất"
+ NAME_First_Ravager:0 "Kẻ Phá hoại Đệ nhất"
+ NAME_Ingrates_Inferno:0 "Hỏa ngục của Kẻ Bội bạc"
+ NAME_Second_Pillager:0 "Kẻ Cướp bóc Đệ nhị"
+ NAME_Second_Ravager:0 "Kẻ Phá hoại Đệ nhị"
+ NAME_Third_Pillager:0 "Kẻ Cướp bóc Đệ tam"
+ NAME_Third_Ravager:0 "Kẻ Phá hoại Đệ tam"
+ NAME_Outcast_Gunmouth:0 "Họng súng Lưu đày"
+ NAME_Outcast_Starflinger:0 "Kẻ Phóng sao Lưu đày"
+ NAME_Pillager:0 "Kẻ Cướp bóc"
+ NAME_Ravager:0 "Kẻ Phá hoại"
+ NAME_Swashbuckler:0 "Tên Du côn"
+ NAME_Scorched_Ravager:0 "Kẻ Phá hoại Cháy sém"
+ NAME_Slices:0 "Cắt lát"
+
+# Bemat Thalassocracy
+ NAME_Thalassocracy:0 "Đế quốc Hàng hải" ##empire
+ NAME_Thalassocracy_species:0 "Bemat"
+ NAME_Thalassocracy_species_plural:0 "Bemat"
+ NAME_Thalassocracy_species_adj:0 "Bemat"
+ NAME_Thalassocracy_fleet:0 "Hạm đội Đế quốc Hàng hải"
+ NAME_Bemat_corvette_01:0 "Chimni"
+ NAME_Bemat_destroyer_01:0 "Nabaz"
+ NAME_Bemat_destroyer_02:0 "Ailme"
+ NAME_Bemat_cruiser_01:0 "Herbal"
+ NAME_Bemat_cruiser_02:0 "Aidek"
+
+#############
+# PRECURSORS
+#############
+
+# Cybrex
+ NAME_Cybrex_Alpha:0 "Cybrex Alpha"
+
+# First League
+ NAME_Fen_Habbanis:0 "Fen Habbanis" ##star
+ NAME_Fen_Habbanis_I:0 "Fen Habbanis I" ##planet
+ NAME_Fen_Habbanis_II:0 "Fen Habbanis II" ##planet
+ NAME_Fen_Habbanis_III:0 "Fen Habbanis III" ##planet
+ NAME_Fen_Habbanis_IV:0 "Fen Habbanis IV" ##planet
+ NAME_Fen_Habbanis_V:0 "Fen Habbanis V" ##planet
+ NAME_Fen_Habbanis_VI:0 "Fen Habbanis VI" ##planet
+
+# Irassians
+ NAME_Ira:0 "Ira" ##system
+ NAME_Irass:0 "Irass" ##star
+ NAME_Irass_I:0 "Irass I" ##planet
+ NAME_Irass_II:0 "Irass II" ##planet
+ NAME_Irass_III:0 "Irass III" ##planet
+ NAME_Irass_IV:0 "Irass IV" ##planet
+ NAME_Irass_V:0 "Irass V" ##planet
+ NAME_Irass_VI:0 "Irass VI" ##planet
+ NAME_Irassia:0 "Irassia" ##moon
+ NAME_Irass_VII:0 "Irass VII" ##planet
+ NAME_Irass_VIIa:0 "Irass VIIa" ##moon
+ NAME_Irass_VIIb:0 "Irass VIIb" ##moon
+ NAME_Irass_VIII:0 "Irass VIII" ##planet
+ NAME_Irass_IX:0 "Irass IX" ##planet
+
+# Vultaum
+ NAME_Vultaumar:0 "Vultaumar" ##star
+ NAME_Vultaumar_Prime:0 "Vultaumar Prime" ##planet
+ NAME_Vultaumar_Ia:0 "Vultaumar Ia" ##moon
+ NAME_Vultaumar_Ib:0 "Vultaumar Ib" ##moon
+ NAME_Vultaumar_II:0 "Vultaumar II" ##planet
+ NAME_Vultaumar_III:0 "Vultaumar III" ##planet
+ NAME_Vultaumar_IIa:0 "Vultaumar IIa" ##moon
+ NAME_Vultaumar_IV:0 "Vultaumar IV" ##planet
+ NAME_Vultaumar_IVa:0 "Vultaumar IVa" ##moon
+ NAME_Vultaumar_V:0 "Vultaumar V" ##planet
+
+# Yuht
+ NAME_Yuhtaan:0 "Yuhtaan" ##star
+ NAME_Yuhtaan_II:0 "Yuhtaan II" ##planet
+ NAME_Yuhtaan_III:0 "Yuhtaan III" ##planet
+ NAME_Yuhtaan_IV:0 "Yuhtaan IV" ##planet
+ NAME_Yuhtaan_IVa:0 "Yuhtaan IVa" ##moon
+ NAME_Yuhtaan_IVb:0 "Yuhtaan IVb" ##moon
+ NAME_Yuhtaan_IVc:0 "Yuhtaan IVc" ##moon
+ NAME_Yuhtaan_V:0 "Yuhtaan V" ##planet
+ NAME_Yuhtaan_Va:0 "Yuhtaan Va" ##moon
+ NAME_Yuhtaan_Majoris:0 "Yuhtaan Majoris" ##broken planet
+ NAME_Yuhtaan_Minoris:0 "Yuhtaan Minoris" ##broken planet
+
+##################
+# PRE-FTL SPECIES
+##################
+
+# (Uplifted) species names
+ NAME_Roachoid:0 "Loài Gián" ##cockroaches
+ NAME_Snakeoid:0 "Loài Rắn" ##snakes
+ NAME_Robot_Uprising:0 "Robot Nổi dậy"
+
+# Ship names
+ NAME_Space_Station:0 "Trạm Không gian"
+
+# Army names
+ NAME_Industrial_Army:0 "Quân đội Công nghiệp"
+ NAME_Post_Atomic_Army:0 "Quân đội Hậu Nguyên tử"
+ NAME_Primitive_Army:0 "Quân đội Nguyên thủy"
+ NAME_Robot_Army:0 "Quân đội Robot"
+
+# Leader names
+ NAME_Sobak:0 "Sobak"
+ Sobak_Background: "Một cá nhân kiệt xuất đã vươn lên từ một hành tinh không thể khơi dậy hết trí thông minh của anh ta."
+
+###################
+# RADICAL CULTISTS
+###################
+
+ NAME_Radical_Cult:0 "Giáo phái Cực đoan" ##empire name
+
+ cultist_flagship_damaged: "Soái hạm Bị hư hỏng"
+
+# Fleet names
+ NAME_Cult_Defense_Fleet:0 "Hạm đội Phòng vệ Giáo phái"
+ NAME_Cultist_Marauders:0 "Thuyền cướp của Giáo phái"
+ NAME_Exiled_Pirates:0 "Hải tặc bị Lưu đày"
+
+# Ship names
+ NAME_Bane_of_the_Heretic:0 "Tai ương của Kẻ Dị giáo"
+ NAME_Cultist_Flagship:0 "Soái hạm Giáo phái"
+ NAME_Cultist_Shipyard:0 "Xưởng đóng tàu Giáo phái"
+ NAME_Dawn_of_Creation:0 "Bình minh của Sự Kiến tạo"
+ NAME_Divine_Fury:0 "Cơn thịnh nộ Thần thánh"
+ NAME_Divine_Justicar:0 "Thẩm phán Thần thánh"
+ NAME_Divine_Vessel:0 "Phi thuyền Thần thánh"
+ NAME_Eternal_Damnation:0 "Sự Trừng phạt Đời đời"
+ NAME_Final_Judgment:0 "Sự Phán xét Cuối cùng"
+ NAME_Glorious_Might:0 "Quyền năng Vinh quang"
+ NAME_Heathens_Doom:0 "Sự Diệt vong của Kẻ Vô thần"
+ NAME_Heavenly_Judgment:0 "Sự Phán xét từ Thiên đàng"
+ NAME_Heavenly_Portent:0 "Điềm báo Thiên đàng"
+ NAME_Holy_Avatar:0 "Hóa thân Thánh thiện"
+ NAME_Holy_Defender:0 "Người bảo vệ Thánh thiện"
+ NAME_Holy_Protector:0 "Người che chở Thánh thiện"
+ NAME_Infidel_Slayer:0 "Kẻ Thảm sát Tà giáo"
+ NAME_Path_of_the_Pilgrim:0 "Con đường của Người Hành hương"
+ NAME_Pious_Crusader:0 "Thập tự quân Ngoan đạo"
+ NAME_Revered_Elder:0 "Trưởng lão Đáng kính"
+ NAME_Righteous_Zealot:0 "Kẻ Cuồng tín Chính nghĩa"
+ NAME_The_Chosen_One:0 "Người Được Chọn"
+ NAME_Sacred_Might:0 "Sức mạnh Thiêng liêng"
+ NAME_Temple_of_Light:0 "Đền thờ Ánh sáng"
+ NAME_Unyielding_Faith:0 "Đức tin Bất khuất"
+ NAME_Wrath_of_the_Spirits:0 "Cơn thịnh nộ của Linh hồn"
+
+#########################
+# REVOLTS & UNREST
+#########################
+
+# Army names
+ NAME_Freedom_Fighters:0 "Chiến binh Tự do"
+
+# Other
+ NAME_WAR_OF_REVOLT:0 "Cuộc nổi loạn [Root.Target.GetName]"

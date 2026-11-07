@@ -1,0 +1,134 @@
+﻿l_english:
+ ####################################
+ # Alpha Naming Convention - WILL LIKELY BE CHANGED IF SECTIONS ARE REDESIGNED
+ #
+ # Mid sections have a flavor-name fitting to number of weapon/utility slots followed by the key-word "Core"
+ # Front sections have a flavor-name followed by the key-word "Breaker"
+ # Rear sections have a flavor-name followed by the key-word "Bulwark"
+ #
+ ####################################
+
+
+ ####################################
+ # Juggernaut
+ ####################################
+
+ CORE_JUGGERNAUT_SECTION:0 "Juggernaut"
+
+ ####################################
+ # Titan
+ ####################################
+
+ TITAN_BOW:0 "Mũi Tàu Titan"
+ TITAN_MID:0 "Lõi Tàu Titan"
+ TITAN_STERN:1 "Đuôi Tàu Titan"
+ BIO_TITAN_BOW:0 "$TITAN_BOW$"
+ BIO_TITAN_MID:0 "$TITAN_MID$"
+ BIO_TITAN_STERN:0 "$TITAN_STERN$"
+
+ ####################################
+ # Battleship
+ ####################################
+ BATTLESHIP_BOW_L1M1S2:1 "Mũi Tàu Bắn Loạt"
+ BATTLESHIP_BOW_L1S4:1 "Mũi Tàu Diệt Thần"
+ BATTLESHIP_BOW_L2:1 "Mũi Tàu Pháo Lớn"
+ BATTLESHIP_BOW_M1S2SHB:1 "Mũi Tàu Khoang Chứa"
+ BATTLESHIP_BOW_M2S4:1 "Mũi Tàu Xương Sống"
+ BATTLESHIP_BOW_M3S2:1 "Mũi Tàu Đoạt Hồn"
+ BATTLESHIP_MID_L2S4:1 "Lõi Nova"
+ BATTLESHIP_MID_L1M4:1 "Lõi Gọi Bão"
+ BATTLESHIP_MID_L2M2:1 "Lõi Bắn Loạt"
+ BATTLESHIP_MID_L3:1 "Lõi Pháo Lớn"
+ BATTLESHIP_MID_M4SHB:1 "Lõi Khoang Chứa"
+ BATTLESHIP_MID_S4LHB:1 "Lõi Tàu Sân Bay"
+ BATTLESHIP_STERN_M1S2:1 "Đuôi Tàu Vĩnh Hằng"
+ BATTLESHIP_STERN_L1:1 "Đuôi Tàu Pháo Lớn"
+ BATTLESHIP_STERN_M2:1 "Đuôi Tàu Bắn Loạt"
+ BATTLESHIP_STERN_S4:1 "Đuôi Tàu Thiên Đỉnh"
+
+ ####################################
+ # Colonizer
+ ####################################
+ COLONIZER_MID_M1S1:1 "Tàu Thuộc Địa"
+ COLONIZER_MID_S3:0 "Lõi Hạt Giống"
+ COLONIZER_MID_MU1:0 "Lõi Gaia"
+
+ ####################################
+ # Constructor
+ ####################################
+ CONSTRUCTOR_MID_M1S1:1 "Tàu Công Trình"
+ CONSTRUCTOR_MID_S3:0 "Lõi Khai Phá"
+ CONSTRUCTOR_MID_MU1:0 "Lõi Luyện Kim"
+
+ ####################################
+ # Corvette
+ ####################################
+ CORVETTE_MID_M1S1:3 "Lõi Ngư Lôi"
+ CORVETTE_MID_S3:1 "Lõi Đánh Chặn"
+ CORVETTE_MID_S1:1 "Lõi Chớp Nhoáng"
+ CORVETTE_MID_S2PD1:0 "Lõi Lính Gác"
+
+ ####################################
+ # Cruiser
+ ####################################
+ CRUISER_BOW_L1:1 "Mũi Tàu Pháo Lớn"
+ CRUISER_BOW_M1S2:3 "Mũi Tàu Ngư Lôi"
+ CRUISER_BOW_M2:1 "Mũi Tàu Bắn Loạt"
+ CRUISER_MID_S2HB:1 "Lõi Khoang Chứa"
+ CRUISER_MID_L1M1:1 "Lõi Pháo Lớn"
+ CRUISER_MID_M3:1 "Lõi Bắn Loạt"
+ CRUISER_MID_M2S2:3 "Lõi Ngư Lôi"
+ CRUISER_STERN_M1:1 "Đuôi Tàu Bắn Loạt"
+ CRUISER_STERN_S2:1 "Đuôi Tàu Pháo Hạm"
+
+ ####################################
+ # Destroyer
+ ####################################
+ DESTROYER_BOW_M1S2:1 "Mũi Tàu Pháo Hạm"
+ DESTROYER_BOW_S3:1 "Mũi Tàu Lính Gác"
+ DESTROYER_BOW_L1:1 "Mũi Tàu Pháo Lớn"
+ DESTROYER_STERN_PD2:0 "Đuôi Tàu Lính Gác"
+ DESTROYER_STERN_S2:0 "Đuôi Tàu Đánh Chặn"
+ DESTROYER_STERN_M1:1 "Đuôi Tàu Pháo Hạm"
+
+ ####################################
+ # Science
+ ####################################
+ SCIENCE_MID_M1S1:1 "Tàu Khoa Học"
+ SCIENCE_MID_S3:0 "Lõi Tiên Phong"
+ SCIENCE_MID_MU1:0 "Lõi Viễn Kiến"
+
+ ####################################
+ # Science
+ ####################################
+ LIGHT_MILITARY_STATION_SECTION:0 "Phân Khu Trạm Không Gian Hạng Nhẹ"
+ PD_MILITARY_STATION_SECTION:0 "Phân Khu Trạm Đánh Chặn Tầm Gần"
+ MEDIUM_MILITARY_STATION_SECTION:0 "Phân Khu Trạm Không Gian Cỡ Trung"
+ MISSILE_MILITARY_STATION_SECTION:0 "Phân Khu Trạm Không Gian Tên Lửa"
+ HEAVY_MILITARY_STATION_SECTION:0 "Phân Khu Trạm Không Gian Hạng Nặng"
+ HANGAR_MILITARY_STATION_SECTION:0 "Phân Khu Trạm Khoang Chứa"
+ LIGHT_LARGE_MILITARY_STATION_SECTION:0 "Phân Khu Trạm Không Gian Hạng Nhẹ"
+ MEDIUM_LARGE_MILITARY_STATION_SECTION:0 "Phân Khu Trạm Không Gian Cỡ Trung"
+ HEAVY_LARGE_MILITARY_STATION_SECTION:0 "Phân Khu Trạm Không Gian Hạng Nặng"
+ HANGAR_LARGE_MILITARY_STATION_SECTION:0 "Phân Khu Trạm Khoang Chứa"
+ OUTPOST_STATION_SECTION:0 "Lõi Tiền Đồn Biên Giới"
+
+ ####################################
+ # Other
+ ####################################
+ MISSILE_DEFAULT:1 "Phân Khu Ngư Lôi"
+ DEFAULT_CONSTRUCTION_SECTION:1 "Tàu Công Trình"
+ DEFAULT_COLONIZATION_SECTION:1 "Tàu Thuộc Địa"
+ DEFAULT_SCIENCESHIP_SECTION:1 "Tàu Khoa Học"
+ DEFAULT_ORBITAL_STATION_SECTION:0 "Khung Trạm Quỹ Đạo"
+ DEFAULT_MINING_STATION_SECTION:0 "Khung Trạm Khai Khoáng"
+ DEFAULT_RESEARCH_STATION_SECTION:0 "Khung Trạm Nghiên Cứu"
+ DEFAULT_WORMHOLE_STATION_SECTION:0 "Khung Trạm Lỗ Giun"
+ DEFAULT_MILITARY_STATION_SECTION:0 "Nền Tảng Quân Sự Cơ Bản"
+ DEFAULT_TRANSPORT_SECTION:1 "Tàu Vận Tải"
+ SHIP_COLOSSUS_SECTION:0 "Phân Khu Colossus"
+ GHOST_SHIP_SECTION:0 "Thân Tàu Ma"
+ lost_swarm_adult:0 "Đại Dịch Châu Chấu"
+ lost_swarm_adult_cap:0 "$lost_swarm_adult$"
+ lost_swarm_adult_plural:0 "Đại Dịch Châu Chấu"
+

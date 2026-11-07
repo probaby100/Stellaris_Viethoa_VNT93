@@ -1,53 +1,61 @@
 #H = { 253 169 38 }	Màu cam cho tooltip
- #color = 0xffffffff	#định dạng là 0xaarrggbb
- #G = { 41 225 38 255 } #định dạng là đỏ lục lam alpha
- #textcolors = {} có hiệu lực toàn bộ trò chơi cho mọi phông chữ. thay đổi ở một phông sẽ áp dụng cho tất cả các phông khác
- 
- bitmapfonts = {
- 	
- 	# Màu sắc toàn cục
- 	textcolors = {
- 		M = { 163 53 238 }	# M = Đỏ tươi (Magenta). Dấu hiệu cho "Công nghệ Hiếm".
- 		L = { 195 176 145 }	# L = Văn bản cốt truyện, không ảnh hưởng tới trò chơi, chỉ là thông tin bên lề cho vui.
- 		G = { 41 225 38 }	# G = Xanh lục (Green), dùng cho các chỉ số có lợi.
- 		R = { 252 86 70 }	# R = Đỏ (Red), dùng cho các chỉ số bất lợi hoặc cảnh báo.
- 		B = { 51 167 255 }	# B = Xanh lam (Blue), dùng cho các trường hợp văn bản đặc biệt.
- 		Y = { 247 252 52 }	# Y = Vàng (Yellow), dùng cho những thứ chưa tối ưu hoặc cần làm nổi bật.
- 		H = { 251 170 41 }	# H = Làm nổi bật (Highlight), màu cam trong game.
- 		C = { 31 224 202 }	# C = Xanh lơ (Cyan), dùng cho Văn bản Khái niệm có tạo thêm tooltip mới.
- 		K = { 251 170 41 }	# K = Tiêu đề cho Khái niệm. Hiện tại giống hệt H.
- 		I = { 247 252 52 }	# I = Làm nổi bật cho Khái niệm. Hiện tại giống hệt Y.
- 		T = { 255 255 255 }	# T = Văn bản (Text), tiêu chuẩn cho mọi văn bản, dùng khi TOÀN BỘ văn bản cần tinh chỉnh.
- 		t = { 198 198 198 } # t = Chữ tooltip của Khái niệm sẽ được bọc trong màu này trên giao diện. Xám nhạt.
- 		E = { 135 255 207 }	# E = Xanh lục tiêu chuẩn, dùng cho các đoạn văn bản dài, như sự kiện hoặc cố vấn.
- 		S = { 228 156 42 }	# S = Làm nổi bật phụ đề (trong trường hợp này là màu xanh lục nhạt).
- 		W = { 255 255 255 }	# W = Trắng (White).
- 		P = { 225 110 110 }	# P = Hồng (Pink), dùng cho các cảnh báo nhẹ nhàng hơn thay vì dùng §R.
- 		V = { 76 138 113 }	# V = Xanh lục thẫm, dùng cho văn bản sự kiện.
- 		g = { 128 128 128 }	# g = Xám (Grey).
- 		_ = { 255 0 255 }	# _ Đỏ tươi giữ chỗ, dùng cho các đoạn văn bản giữ chỗ.
- 		U = { 204 179 255 } # U = Tím nhạt (Mauve), dùng cho thẻ khủng hoảng
- 		
- 		# Màu Độ hiếm Đặc điểm
- 		c = { 60 208 146 }
- 		v = { 139 174 162 }
- 		d = { 255 221 122 }
- 	
- 		# Màu Độ hiếm Lãnh đạo
- 		r = { 163 130 255 }
- 		l = { 178 236 104 }
- 		
- 		# Màu Độ hiếm
- 		0 = { 31 224 202 }
- 		1 = { 51 167 255 }
- 		2 = { 163 53 238 }
- 		3 = { 251 170 41 }
+#color = 0xffffffff	#định dạng là 0xaarrggbb
+#G = { 41 225 38 255 } #định dạng là đỏ lục lam alpha
+#textcolors = {} có hiệu lực toàn bộ trò chơi cho mọi phông chữ. thay đổi ở một phông sẽ áp dụng cho tất cả các phông khác
+
+bitmapfonts = {
+	
+	# Màu sắc toàn cục
+	textcolors = {
+		M = { 163 53 238 }	# M = Đỏ tươi (Magenta). Dấu hiệu cho "Công nghệ Hiếm".
+		L = { 195 176 145 }	# L = Văn bản cốt truyện, không ảnh hưởng tới trò chơi, chỉ là thông tin bên lề cho vui.
+		G = { 41 225 38 }	# G = Xanh lục (Green), dùng cho các chỉ số có lợi.
+		R = { 252 86 70 }	# R = Đỏ (Red), dùng cho các chỉ số bất lợi hoặc cảnh báo.
+		B = { 51 167 255 }	# B = Xanh lam (Blue), dùng cho các trường hợp văn bản đặc biệt.
+		Y = { 247 252 52 }	# Y = Vàng (Yellow), dùng cho những thứ chưa tối ưu hoặc cần làm nổi bật.
+		H = { 251 170 41 }	# H = Làm nổi bật (Highlight), màu cam trong game.
+		C = { 31 224 202 }	# C = Xanh lơ (Cyan), dùng cho Văn bản Khái niệm có tạo thêm tooltip mới.
+		K = { 251 170 41 }	# K = Tiêu đề cho Khái niệm. Hiện tại giống hệt H.
+		I = { 247 252 52 }	# I = Làm nổi bật cho Khái niệm. Hiện tại giống hệt Y.
+		T = { 255 255 255 }	# T = Văn bản (Text), tiêu chuẩn cho mọi văn bản, dùng khi TOÀN BỘ văn bản cần tinh chỉnh.
+		t = { 198 198 198 } # t = Chữ tooltip của Khái niệm sẽ được bọc trong màu này trên giao diện. Xám nhạt.
+		E = { 135 255 207 }	# E = Xanh lục tiêu chuẩn, dùng cho các đoạn văn bản dài, như sự kiện hoặc cố vấn.
+		S = { 228 156 42 }	# S = Làm nổi bật phụ đề (trong trường hợp này là màu xanh lục nhạt).
+		W = { 255 255 255 }	# W = Trắng (White).
+		P = { 225 110 110 }	# P = Hồng (Pink), dùng cho các cảnh báo nhẹ nhàng hơn thay vì dùng §R.
+		V = { 76 138 113 }	# V = Xanh lục thẫm, dùng cho văn bản sự kiện.
+		g = { 128 128 128 }	# g = Xám (Grey).
+		_ = { 255 0 255 }	# _ Đỏ tươi giữ chỗ, dùng cho các đoạn văn bản giữ chỗ.
+		U = { 204 179 255 } # U = Tím nhạt (Mauve), dùng cho thẻ khủng hoảng
+		
+		# Màu Độ hiếm Đặc điểm
+		c = { 60 208 146 }
+		v = { 139 174 162 }
+		d = { 255 221 122 }
+	
+		# Màu Độ hiếm Lãnh đạo
+		r = { 163 130 255 }
+		l = { 178 236 104 }
+		
+		# Màu Độ hiếm
+		0 = { 31 224 202 }
+		1 = { 51 167 255 }
+		2 = { 163 53 238 }
+		3 = { 251 170 41 }
 	}
 
 	bitmapfont = {
 		name = "standard_font"
 		path = "gfx/fonts/common"
 		color = 0xffffffff
+	}
+
+	bitmapfont_override = {
+		name = "standard_font"
+		ttf_font = "Chinese_normal"
+		ttf_size = "14"
+		vertical_offset = "2"
+		languages = { "l_simp_chinese" "l_english" }
 	}
 
 	bitmapfont = {
@@ -62,22 +70,22 @@
 		color = 0xffffffff
 	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "large_title_font"
 		ttf_font = "Easter_bigger"
 		ttf_size = "30"
 		languages = { "l_russian" "l_polish" }
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "large_title_font"
 		ttf_font = "Chinese_bigger"
 		ttf_size = "28"
-		languages = { "l_simp_chinese" }
+		languages = { "l_simp_chinese" "l_english" }
 		vertical_offset = "3"
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "large_title_font"
 		ttf_font = "Japanese_big_header"
 		ttf_size = "26"
@@ -87,15 +95,15 @@
 			forbidden_start = { "、" }
 		}
 		vertical_offset = "-1"
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "large_title_font"
 		ttf_font = "Korean_big_header"
 		ttf_size = "24"
 		languages = { "l_korean" }
 		vertical_offset = "-6"
-	 }
+	}
 
 
 	bitmapfont = {
@@ -104,22 +112,22 @@
 		color = 0xffffffff
 	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "large_title_font_28"
 		ttf_font = "Easter_header"
 		ttf_size = "26"
 		languages = { "l_russian" "l_polish" }
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "large_title_font_28"
 		ttf_font = "Chinese_big"
 		ttf_size = "22"
-		languages = { "l_simp_chinese" }
+		languages = { "l_simp_chinese" "l_english" }
 		vertical_offset = "1"
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "large_title_font_28"
 		ttf_font = "Japanese_big_header"
 		ttf_size = "22"
@@ -129,15 +137,15 @@
 			forbidden_start = { "、" }
 		}
 		vertical_offset = "3"
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "large_title_font_28"
 		ttf_font = "Korean_big_header"
 		ttf_size = "20"
 		languages = { "l_korean" }
 		vertical_offset = "-3"
-	 }
+	}
 
 	bitmapfont = {
 		name = "cg_16b"
@@ -145,27 +153,26 @@
 		fontfiles = {
 			"gfx/fonts/cg_16b"
 		}
-		color = 0xffffffff
 		cursor_offset = { -3 -5 }
 		selection_offset = { 0 3 }
 	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "cg_16b"
 		ttf_font = "Easter_normal"
 		ttf_size = "13"
 		languages = { "l_russian" "l_polish" }
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "cg_16b"
 		ttf_font = "Chinese_normal"
 		ttf_size = "14"
 		vertical_offset = "2"
-		languages = { "l_simp_chinese" }
-	 }
+		languages = { "l_simp_chinese" "l_english" }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "cg_16b"
 		ttf_font = "Japanese_main"
 		ttf_size = "14"
@@ -175,20 +182,28 @@
 			line_break = { "。" ")" "！" "〉" "」" "？" }
 			forbidden_start = { "、" }
 		}
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "cg_16b"
 		ttf_font = "Korean_main"
 		ttf_size = "15"
 		vertical_offset = "3"
 		languages = { "l_korean" }
-	 }
+	}
 
 	bitmapfont = {
 		name = "hoi_16mbs"
 		path = "gfx/fonts/hoi_16mbs"
 		color = 0xffffffff
+	}
+
+	bitmapfont_override = {
+		name = "hoi_16mbs"
+		ttf_font = "Chinese_normal"
+		ttf_size = "14"
+		vertical_offset = "2"
+		languages = { "l_simp_chinese" "l_english" }
 	}
 
 	bitmapfont = {
@@ -201,15 +216,15 @@
 		selection_offset = { 0 3 }
 	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "jura"
 		ttf_font = "Chinese_normal"
 		ttf_size = "30"
 		vertical_offset = "2"
-		languages = { "l_simp_chinese" }
-	 }
+		languages = { "l_simp_chinese" "l_english" }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "jura"
 		ttf_font = "Japanese_main"
 		ttf_size = "30"
@@ -219,15 +234,15 @@
 			line_break = { "。" ")" "！" "〉" "」" "？" }
 			forbidden_start = { "、" }
 		}
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "jura"
 		ttf_font = "Korean_main"
 		ttf_size = "30"
 		vertical_offset = "3"
 		languages = { "l_korean" }
-	 }
+	}
 
 	bitmapfont = {
 		name = "malgun_goth_24"
@@ -237,22 +252,22 @@
 		selection_offset = { 0 1 }
 	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "malgun_goth_24"
 		ttf_font = "Easter_header"
 		ttf_size = "18"
 		languages = { "l_russian" "l_polish" }
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "malgun_goth_24"
 		ttf_font = "Chinese_header"
 		ttf_size = "20"
 		vertical_offset = "1"
-		languages = { "l_simp_chinese" }
-	 }
+		languages = { "l_simp_chinese" "l_english" }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "malgun_goth_24"
 		ttf_font = "Japanese_small_header"
 		ttf_size = "18"
@@ -262,15 +277,15 @@
 			line_break = { "。" ")" "！" "〉" "」" "？" }
 			forbidden_start = { "、" }
 		}
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "malgun_goth_24"
 		ttf_font = "Korean_small_header"
 		ttf_size = "18"
 		vertical_offset = "-1"
 		languages = { "l_korean" }
-	 }
+	}
 
 	### MAP NAME FONTS ###
 	bitmapfont = {
@@ -279,34 +294,33 @@
 		color = 0xffffffff
 	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "map_name_border"
 		ttf_font = "Chinese_header"
 		ttf_size = "70"
 		vertical_offset = "-30"
-		languages = { "l_simp_chinese" }
-	 }
+		languages = { "l_simp_chinese" "l_english" }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "map_name_border"
 		ttf_font = "Japanese_big_header"
 		ttf_size = "70"
-		vertical_offset = "-30"
 		languages = { "l_japanese" }
 		multiline = {
 			line_break = { "。" ")" "！" "〉" "」" "？" }
 			forbidden_start = { "、" }
 		}
 		vertical_offset = "-30"
-	 }
+	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "map_name_border"
 		ttf_font = "Korean_big_header"
 		ttf_size = "70"
 		vertical_offset = "-30"
 		languages = { "l_korean" }
-	 }
+	}
 
 	bitmapfont = {
 		name = "map_name_nebula"
@@ -314,26 +328,25 @@
 		color = 0xffffffff
 	}
 
-	 bitmapfont_override = {
+	bitmapfont_override = {
 		name = "map_name_nebula"
 		ttf_font = "Chinese_header"
 		ttf_size = "60"
 		vertical_offset = "-20"
-		languages = { "l_simp_chinese" }
-	 }
+		languages = { "l_simp_chinese" "l_english" }
+	}
 
 	bitmapfont_override = {
 		name = "map_name_nebula"
 		ttf_font = "Japanese_big_header"
 		ttf_size = "60"
-		vertical_offset = "-20"
 		languages = { "l_japanese" }
 		multiline = {
 			line_break = { "。" ")" "！" "〉" "」" "？" }
 			forbidden_start = { "、" }
 		}
 		vertical_offset = "-20"
-	 }
+	}
 
 	bitmapfont_override = {
 		name = "map_name_nebula"
@@ -341,8 +354,7 @@
 		ttf_size = "60"
 		vertical_offset = "-20"
 		languages = { "l_korean" }
-	 }
-
+	}
 
 	bitmapfont = {
 		name = "map_name_sector"
@@ -355,21 +367,20 @@
 		ttf_font = "Chinese_header"
 		ttf_size = "60"
 		vertical_offset = "-20"
-		languages = { "l_simp_chinese" }
-	 }
+		languages = { "l_simp_chinese" "l_english" }
+	}
 
 	bitmapfont_override = {
 		name = "map_name_sector"
 		ttf_font = "Japanese_big_header"
 		ttf_size = "60"
-		vertical_offset = "-20"
 		languages = { "l_japanese" }
 		multiline = {
 			line_break = { "。" ")" "！" "〉" "」" "？" }
 			forbidden_start = { "、" }
 		}
 		vertical_offset = "-20"
-	 }
+	}
 
 	bitmapfont_override = {
 		name = "map_name_sector"
@@ -377,6 +388,6 @@
 		ttf_size = "60"
 		vertical_offset = "-20"
 		languages = { "l_korean" }
-	 }
+	}
 
 }

@@ -1,0 +1,1226 @@
+﻿l_english:
+
+ ASTRAL_PLANES_TITLE: "Mặt Phẳng Tinh Giới" # Do not translate
+ DLC_ASTRAL_PLANES_RECOMMENDATION_DESC: "§S$ASTRAL_PLANES_TITLE$§! là bản mở rộng cốt truyện phong phú cho phép bạn khám phá các chiều không gian song song và bẻ cong thực tại theo ý muốn."
+ DLC_ASTRAL_PLANES_RECOMMENDATION_REC_1: "Chúng tôi đề xuất §SMặt Phẳng Tinh Giới§! vì nó kết hợp hoàn hảo với DLC §SOverlord§!, mang lại sự linh hoạt tối đa cho Trạm Tiếp Sóng Siêu Không Gian và Máy Bắn Lượng Tử."
+ DLC_ASTRAL_PLANES_RECOMMENDATION_REC_2: "Chúng tôi đề xuất §SMặt Phẳng Tinh Giới§! vì nó mở ra cơ hội mới để khám phá các Tiền nhân trong DLC §SAncient Relics§!."
+
+ ##################
+ # Astral Actions #
+ ##################
+
+ ASTRAL_ACTIONS: "Hành Động Tinh Giới"
+ ASTRAL_ACTIONS_TAB_DISABLED: "Khả dụng khi có công nghệ £physics£ §Y$tech_astral_harvesting$§!."
+ ASTRAL_ACTION_REMAINING_USAGES: ""
+ ASTRAL_ACTION_REMAINING_USAGES_DESC: "Lượt Sử Dụng Còn Lại: §Y$LEFT|0$/$TOTAL|0$§!"
+ ASTRAL_ACTION_UNIQUE_USAGE_DESC: "Hành động này chỉ có thể sử dụng một lần."
+ ASTRAL_ACTION_UNIQUE_USAGE_DESC_FLEET_ABILITY: "Hành động này chỉ có thể sử dụng một lần, sau đó sẽ bổ sung tính năng mới cho hạm đội của bạn."
+ ASTRAL_ACTION_RIFT_REQUIREMENT_DESC: "Bạn phải hoàn thành §Y1§! Khe Nứt Tinh Giới để có thể mở khóa hành động này."
+ ASTRAL_ACTION_RIFT_REQUIREMENT_DESC_PLURAL: "Bạn phải hoàn thành $NUM_RIFTS|Y$ Khe Nứt Tinh Giới để có thể mở khóa hành động này."
+ ASTRAL_ACTION_COOLDOWN_VALUE: "£time£ $VALUE|0$"
+ ASTRAL_ACTION_COOLDOWN_TOOLTIP: "Thời Gian Hồi Hành Động Tinh Giới: £time£ §Y$VALUE|0$§!"
+ ASTRAL_ACTION_COOLDOWN_ACTIVE: "$TRIGGER_FAIL$ §RHành động này đang trong thời gian hồi chiêu còn $VALUE|Y$ ngày.§!"
+
+ MESSAGE_ASTRAL_ACTION_UNLOCKED_TITLE: "Có Hành Động Tinh Giới mới."
+ alert_astral_action_available_title: "$ASTRAL_ACTIONS$"
+ alert_astral_action_available_instant: "Có ít nhất một Hành Động Tinh Giới sẵn sàng."
+ alert_astral_action_available_instruction: "§GNhấn để mở giao diện Hành Động Tinh Giới§!"
+ ALERT_ASTRAL_ACTION_AVAILABLE_DETAIL: "$ACTION_NAME$ đã sẵn sàng sử dụng."
+
+ action_astral_boost: "Thúc Đẩy Tinh Giới"
+ action_astral_boost_desc: "Cường hóa động cơ tàu thuyền của chúng ta bằng $ASTRAL_THREADS_ICON$, nâng cao khả năng cơ động của chúng."
+
+ action_hyper_relay_insight: "Tiếp Thu Hiểu Biết Trạm Tiếp Sóng"
+ action_hyper_relay_insight_desc: "Các đặc tính độc nhất của $ASTRAL_THREADS_ICON$ sẽ giúp chúng ta thấu hiểu rõ hơn cách gấp khúc không gian lại với nhau."
+
+ action_quantum_catapult_insight: "Tiếp Thu Hiểu Biết Máy Bắn Lượng Tử"
+ action_quantum_catapult_insight_desc: "Các đặc tính độc nhất của $ASTRAL_THREADS_ICON$ sẽ cho phép chúng ta phá vỡ sâu hơn các giới hạn của du hành FTL."
+ action_quantum_catapult_insight_2: "Hiệu Chỉnh Tinh Giới"
+ action_quantum_catapult_insight_2_desc: "Bằng cách khai thác tiềm năng của $ASTRAL_THREADS_ICON$ sâu hơn nữa, chúng ta có thể gia tăng độ chính xác của Máy Bắn Lượng Tử."
+ action_quantum_catapult_insight_2_requirement_tooltip: "$TRIGGER_FAIL$§RSở hữu một §YMáy Bắn Lượng Tử§!.§!"
+ action_exodus_jump_insight: "Tiếp Thu Hiểu Biết Bước Nhảy Đại Di Cư"
+ action_exodus_jump_insight_desc: "$action_quantum_catapult_insight_desc$"
+ action_exodus_jump_insight_2: "$action_quantum_catapult_insight_2$"
+ action_exodus_jump_insight_2_desc: "Bằng cách khai thác tiềm năng của $ASTRAL_THREADS_ICON$ sâu hơn nữa, chúng ta có thể gia tăng độ chính xác của $sm_arkship_exodus_jump$."
+ action_exodus_jump_insight_2_requirement_tooltip: "$TRIGGER_FAIL$§RYêu cầu một Tàu Phương Chu trang bị §Y$sm_arkship_exodus_jump$§!.§!"
+
+ action_summon_dimensional_fleet: "Triệu Hồi Hạm Đội Ngoại Chiều"
+ action_summon_dimensional_fleet_desc: "Sự hòa hợp của chúng ta với các mặt phẳng tinh giới đã sâu sắc hơn. Giờ đây chúng ta có thể triệu gọi các chiến binh ngoại chiều không gian đến hỗ trợ cho lý tưởng của chúng ta. Họ đến từ đâu, hay vì sao họ lại đến, chúng ta không thể biết chắc."
+ action_summon_dimensional_fleet_tooltip: "Triệu hồi một hạm đội hùng mạnh từ một không-thời gian xa lạ. Họ có thể lưu lại trong chiều không gian của chúng ta tối đa 10 năm."
+ NAME_Astral_Avatar: "Hiện Thân Tinh Giới"
+ NAME_Astral_Avatar_Small: "$NAME_Astral_Avatar$ Cỡ Nhỏ"
+ NAME_Dimensional_Fleet: "Hạm Đội Ngoại Chiều"
+ MESSAGE_DIMENSIONAL_FLEET_DESTROYED_TITLE: "Hạm Đội Ngoại Chiều Đã Rời Đi"
+ MESSAGE_DIMENSIONAL_FLEET_DESTROYED_DESC: "Hạm đội Ngoại Chiều mà chúng ta triệu hồi đã trở về mặt phẳng tồn tại ban đầu của họ. Không còn sót lại dấu vết nào."
+
+ action_astral_splitting: "Xé Rách Tinh Giới"
+ action_astral_splitting_desc: "Bằng cách đan cài thêm $ASTRAL_THREADS_ICON$ vào kết cấu mong manh của không gian, chúng ta có thể tạo ra một vết rách nhân tạo trong thực tại. Thực hiện điều này quá thường xuyên sẽ đẩy cả ngân hà vào nguy cơ bị xé toạc hoàn toàn."
+ action_astral_splitting_no_rift_spawning_location: "$TRIGGER_FAIL$§RKhông có hệ sao hợp lệ nào để chúng ta có thể xé rách và mở ra một Khe Nứt mới.§!"
+ action_astral_splitting_tooltip: "Tạo một $ASTRAL_RIFT$ trong một hệ sao ngẫu nhiên do bạn kiểm soát.\nPhải kiểm soát một hệ sao không liền kề với bất kỳ $ASTRAL_RIFTS$ nào."
+ action_astral_splitting_nomad_tooltip: "Tạo một $ASTRAL_RIFT$ trong một hệ sao ngẫu nhiên có sở hữu một $waystation$.\nPhải có một $waystation$ trong hệ sao không liền kề với bất kỳ $ASTRAL_RIFTS$ nào."
+ action_astral_splitting_too_many_rifts: "$TRIGGER_FAIL$§RChúng ta đã đẩy khả năng cưỡng bức mở các khe nứt không-thời gian mới đến giới hạn cực hạn.§!"
+ action_astral_splitting_no_rift_spawning_location_tt: "§RKhông có hệ sao hợp lệ nào để chúng ta có thể xé rách và mở ra một Khe Nứt mới.§!"
+
+ action_gain_physics_insight: "Tiếp Thu Hiểu Biết Vật Lý"
+ action_gain_physics_insight_desc: "Cho phép các nhà khoa học của chúng ta trưng dụng $ASTRAL_THREADS_ICON$ để thúc đẩy sâu hơn hiểu biết về vật lý."
+
+ action_lateral_artifacting: "Kích Hoạt Di Vật Song Song"
+ action_lateral_artifacting_desc: "Chúng ta có thể thao túng dòng chảy thời gian để tận dụng sức mạnh của hai di vật cùng một lúc."
+ action_lateral_artifacting_tooltip: "Cho phép bạn kích hoạt di vật thứ hai mà không cần chờ thời gian Khải Hoàn hiện tại kết thúc."
+ action_lateral_artifacting_not_same_relic: "$TRIGGER_FAIL$§RDi vật này hiện đã được kích hoạt.§!"
+
+ astral_jump: "Bước Nhảy Tinh Giới"
+
+ gain_physics_insight_modifier: "$action_gain_physics_insight$"
+ astral_boost_modifier: "$action_astral_boost$"
+ quantum_catapult_insight_2_modifier: "$action_quantum_catapult_insight_2$"
+ quantum_catapult_insight_2_modifier_tt: "$quantic_ambush$ $MOD_SHIP_FIRE_RATE_MULT$: §G+[GetQuantumCatapulInsight2QuanticAmbush]%§!\nThời lượng hiệu ứng $quantic_ambush$: §G+100%§!"
+ fold_hyperspace_modifier: "$artifact_fold_hyperspace$"
+
+ action_remaining_astral_actions_locked: "$artifact_action_locked$"
+ action_remaining_astral_actions_locked_desc: "Các nhà khoa học của chúng ta tin chắc rằng có thể mở khóa thêm nhiều hành động $ASTRAL_THREADS_ICON$ thông qua việc khám phá các công nghệ mới."
+ action_astral_action_locked_failtext: "Mở khóa một hành động tinh giới mới."
+
+ action_flash_forge_hyper_relay: "Rèn Tốc Hành Trạm Tiếp Sóng"
+ action_flash_forge_hyper_relay_desc: "Đường siêu không gian vốn đã sở hữu các đặc tính lượng tử thú vị, nhưng bằng cách đan cài thêm một lượng sợi tinh giới nhất định, chúng ta đã đạt được những kết quả phi thường. Bằng cách đột phá sang các chiều không gian khác, giờ đây chúng ta có thể tiếp cận các Trạm Tiếp Sóng Siêu Không Gian đã tồn tại (hoặc sẽ tồn tại trong tương lai). Chúng ta gần như chắc chắn rằng mình là những kẻ duy nhất 'mượn' chúng theo cách này."
+ action_flash_forge_hyper_relay_tooltip: "Cho phép tàu xây dựng của chúng ta tức tốc dựng nên một Trạm Tiếp Sóng Siêu Không Gian trong một hệ sao mà không tốn chi phí."
+ action_flash_forge_hyper_relay_available_tooltip: "$TRIGGER_FAIL$§RChúng ta đã chuẩn bị sẵn địa điểm để tàu xây dựng thực hiện việc này.§!"
+ action_flash_forge_hyper_relay_executing_tooltip: "$TRIGGER_FAIL$§RMột tàu xây dựng của chúng ta đang trên đường thực hiện điều này§!"
+ FLASH_FORGE_MEGASTRUCTURE: "Rèn Tốc Hành $MEGASTRUCTURE|H$"
+
+ action_dimensional_shifting: "Dịch Chuyển Thứ Nguyên"
+ action_dimensional_shifting_desc: "Nhờ sự thao túng khéo léo kết cấu giữa chiều không gian này và chiều không gian khác, chúng ta có thể gấp nếp nó lại để đạt được những kết quả ấn tượng."
+ action_dimensional_shifting_tooltip: "Mở khóa hành động hạm đội §YChuyển Pha Hạm Đội§!, cho phép các hạm đội của bạn tạm thời chuyển pha khỏi thực tại, trú ẩn an toàn ở một chiều không gian khác trong §Y180§! ngày.\n\nCác hạm đội khi quay trở lại sẽ được sửa chữa hoàn toàn."
+
+ action_folding_hyperspace: "Gấp Nếp Siêu Không Gian"
+ action_folding_hyperspace_desc: "Nhờ sự thao túng khéo léo mặt phẳng giữa các chiều không gian, chúng ta có thể gấp nếp không gian lại với nhau để đạt được những kết quả ấn tượng."
+ action_folding_hyperspace_tooltip: "Mở khóa hành động hạm đội §YBước Nhảy Tinh Giới§!, cho phép tàu thuyền của bạn dịch chuyển tức thời đến một hệ sao nằm trong biên giới của bạn."
+ action_folding_hyperspace_tooltip_nomad: "Mở khóa hành động hạm đội §YBước Nhảy Tinh Giới§!, cho phép tàu thuyền của bạn dịch chuyển tức thời đến một hệ sao mà bạn sở hữu Trạm Dừng Chân."
+
+ action_astral_siphon: "Ống Hút Tinh Giới"
+ action_astral_siphon_desc: "Có một cách để tháo dỡ kết cấu giữa không gian và thời gian. Bằng cách xây dựng các thiết bị trích xuất được hiệu chuẩn cẩn thận, chúng ta có thể sản xuất một lượng $astral_threads$ ổn định."
+ action_astral_siphon_unlock_tooltip_common: "tăng sức chứa $ASTRAL_THREADS_ICON$ và mang lại các Công Việc §Y[GetAstralResearcherJobWithIcon]§!.\n[GetAstralResearcherEffect]"
+ action_astral_siphon_unlock_tooltip_lvl1: "Mở khóa £building£ ['building:building_astral_siphon_1'].\n§Y$building_astral_siphon_1$§! $action_astral_siphon_unlock_tooltip_common$"
+ action_astral_siphon_unlock_tooltip_lvl2: "Cho phép nâng cấp §Y$building_astral_siphon_1$§! thành §Y$building_astral_siphon_2$§!.\n§Y$building_astral_siphon_2$§! $action_astral_siphon_unlock_tooltip_common$"
+ action_astral_siphon_unlock_tooltip_lvl3: "Cho phép nâng cấp §Y$building_astral_siphon_2$§! thành §Y$building_astral_siphon_3$§!.\n§Y$building_astral_siphon_3$§! $action_astral_siphon_unlock_tooltip_common$"
+ building_astral_siphon_1: "Ống Hút Tinh Giới"
+ building_astral_siphon_1_desc: "Bóc tách Sợi Tinh Giới ra khỏi kết cấu thực tại là một quy trình vô cùng tinh vi. Những cấu trúc này ngăn không cho ranh giới giữa các thực tại bị sụp đổ."
+ building_astral_siphon_2: "Phễu Thu Tinh Giới"
+ building_astral_siphon_2_desc: "$building_astral_siphon_1_desc$"
+ building_astral_siphon_3: "Trung Tâm Tinh Giới"
+ building_astral_siphon_3_desc: "$building_astral_siphon_1_desc$"
+
+ astral_siphon_modifier_1: "$action_astral_siphon$"
+ astral_siphon_modifier_2: "$action_astral_siphon$"
+ astral_siphon_modifier_3: "$action_astral_siphon$"
+
+ action_planar_mastery: "Làm Chủ Thứ Nguyên"
+ action_planar_mastery_desc: "Những cuộc hành trình vào Mặt Phẳng Tinh Giới đã giúp chúng ta thấu hiểu rõ hơn kết cấu gắn kết các vũ trụ. Chúng ta có thể đan dệt những sợi không gian này theo những cách mà hiếm ai khác hiểu thấu."
+ edict_astral_binding: "Trói Buộc Tinh Giới"
+ edict_astral_binding_desc: "Chúng ta đã học được cách đan dệt Sợi Tinh Giới vào bất kỳ loại vật chất nào khác trong vũ trụ. Đó chính là kết cấu cốt lõi của không gian."
+ edict_astral_binding_effects: "Tăng sản lượng thu nhận của tất cả các tài nguyên vật chất khác thêm §Y10%§!."
+ edict_astral_shielding: "Lá Chắn Tinh Giới"
+ edict_astral_shielding_desc: "Không có rào chắn nào vững chắc hơn một mạng lưới đan kết chặt chẽ của các Sợi Tinh Giới."
+ edict_dimensional_artificing: "Chế Tác Xuyên Chiều"
+ edict_dimensional_artificing_desc: "Biểu hiện các vật phẩm mang ý nghĩa văn hóa từ những chiều không gian khác có thể thực hiện được trong những điều kiện thích hợp. Liệu hành động của chúng ta có bị chú ý ở các mặt phẳng khác hay không, chúng ta không thể nói trước."
+ edict_dimensional_artificing_tooltip: "§G+5§! £minor_artifacts£ $MINOR_ARTIFACTS$ mỗi tháng"
+ action_planar_mastery_tooltip: "Mở khóa các $EDICTS$ mới: §Y$edict_astral_binding$§!, §Y$edict_astral_shielding$§! và §Y$edict_dimensional_artificing$§!."
+
+ ASTRAL_RIFTS_COMPLETED: "Khe Nứt Tinh Giới Đã Hoàn Thành: $VAL|0$"
+ ASTRAL_ACTIONS_RIFTS_COMPLETED_TT: "Với mỗi §YKhe Nứt Tinh Giới§! hoàn thành:\n$t$Mở khóa thêm các §YHành Động Tinh Giới§!.\n$t$Sức chứa §Y$ASTRAL_THREADS_ICON$§!: §G+$@astral_threads_capacity_from_each_explored_rift|*0$§!."
+ ASTRAL_ACTIONS_RIFTS_COMPLETED_TT_DESC: "Sự hòa hợp sâu sắc hơn với các Mặt Phẳng Tinh Giới sẽ mở ra thêm nhiều khả năng mới."
+
+ #################
+ # Astral Thread #
+ #################
+
+ astral_threads: "Sợi Tinh Giới"
+ astral_threads_custom_tooltip: "$ASTRAL_ACTIONS_RIFTS_COMPLETED_TT$"
+ astral_threads_desc: "£astral_threads£ $astral_threads$ là những sợi tơ của không-thời gian cô đặc: kết quả của sự va chạm giữa các mặt phẳng không gian với nhau. Chúng có thể được tiêu dùng để ban hành nhiều hiệu ứng khác nhau trên quy mô toàn đế chế."
+
+ ASTRAL_THREADS: "$astral_threads$"
+ ASTRAL_THREADS_ICON: "£astral_threads£$astral_threads$"
+ ASTRAL_THREADS_VALUE: "£astral_threads£$VAL|0$"
+ ASTRAL_THREADS_FULL: "$ASTRAL_THREADS$: $VAL|Y0$"
+ ASTRAL_THREADS_DESC: "$astral_threads_desc$"
+
+ action.92.astral_threads: "Trong chuyến khảo sát tại §Y[From.GetStarName]§!, tàu [Root.GetName] đã phát hiện một tài nguyên chiến lược chưa từng được biết đến trước đây, được đặt tên là §H$astral_threads$§!. Các đặc tính độc nhất của nó trong việc bẻ cong thời gian và không gian có thể được đưa vào ứng dụng theo nhiều cách thú vị."
+ action.92.astral_threads.tooltip: "£astral_threads£§Y$astral_threads$§!\n§E$astral_threads_desc$§!"
+ distar.305.astral_threads: "Tàu [Root.GetName] đã phát hiện một tài nguyên chiến lược chưa từng được biết đến trước đây trên [FromFrom.GetName], được đặt tên là §H$astral_threads$§!. Các đặc tính độc nhất của nó trong việc bẻ cong thời gian và không gian có thể được đưa vào ứng dụng theo nhiều cách thú vị."
+
+ astral_threads_found: "Đã Tìm Thấy $astral_threads$:"
+
+ feature_unlock_astral_rift_exploration: "Thám Hiểm Khe Nứt Tinh Giới"
+ feature_unlock_astral_rift_exploration_desc: "Cho phép các tàu khoa học của chúng ta thám hiểm Khe Nứt Tinh Giới."
+
+ feature_unlock_astral_threads_actions: "Hành Động Tinh Giới"
+ feature_unlock_astral_threads_actions_desc: "Khai thác $ASTRAL_THREADS_ICON$ theo nhiều phương thức khác nhau để đem lại lợi ích cho chúng ta."
+
+ ###############################
+ # Astral Rift Discovery Steps #
+ ###############################
+
+ astral_planes.100.name: "$situation_a_rift_in_space$"
+ astral_planes.100.desc.split: "Vết sẹo chiều không gian trong hệ sao [From.solar_system.GetName] đã mất ổn định, mở ra một khe nứt dẫn tới một thời không khác.\n\nChúng ta nên tiếp cận một cách cẩn trọng."
+ astral_planes.100.desc.default: "Chúng ta đã phát hiện một khe nứt phi thường trong không gian và thời gian tại hệ sao [from.solar_system.GetName]. Có lẽ nếu dành thời gian nghiên cứu các đặc tính của nó, chúng ta có thể tìm ra phương thức thám hiểm sâu hơn."
+ astral_planes.100.a: "Thật khó tin."
+ astral_planes.101.name: "Chạm Vào Khe Nứt"
+ astral_planes.101.desc: "Nhân dân chúng ta cuối cùng đã vươn đủ xa để chạm tới vết sẹo trên bầu trời của chúng ta.\n\nCó lẽ nếu dành thời gian nghiên cứu các đặc tính của nó, chúng ta có thể tìm ra phương thức thám hiểm sâu hơn. Chúng ta không có cách nào biết được điều gì đang chờ đợi ở phía bên kia."
+ astral_planes.101.a: "Chúng ta đã làm được điều mà tổ tiên không thể."
+ astral_planes.110.name: "Hành Động Tinh Giới"
+ astral_planes.110.desc: "Chúng ta đã giải mã được những bí mật đằng sau việc thu thập và chứa đựng những sợi vật chất tinh giới đầy biến động, thứ tạo nên chính ranh giới của vũ trụ này.\n\nTài nguyên quý giá và hiếm hoi này có thể được ứng dụng theo nhiều phương thức khác nhau, mang lại lợi ích to lớn cho chúng ta."
+ astral_planes.120.name: "$situation_a_rift_in_space$"
+ astral_planes.120.desc: "Chúng ta đã mất quyền kiểm soát hệ sao [FromFrom.GetName], và cùng với đó là khe nứt không-thời gian nằm bên trong.\n\nNhững nỗ lực vươn ra xa hơn của chúng ta tạm thời phải hủy bỏ."
+
+ approach_situation_speed_tooltip: "\nPhương Pháp Tiếp Cận này sẽ đẩy nhanh tiến độ nghiên cứu của chúng ta một cách đáng kể."
+
+ situation_a_rift_in_space: "Một Khe Nứt Trong Không Gian"
+ situation_a_rift_in_space_riftworld: "Chạm Vào Khe Nứt"
+ situation_a_rift_in_space_type: "$situation_a_rift_in_space$"
+ situation_a_rift_in_space_riftworld_type: "$situation_a_rift_in_space_riftworld$"
+ situation_a_rift_in_space_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_a_rift_in_space_desc: "Chúng ta đã phát hiện một khe nứt phi thường trong không gian và thời gian. Có lẽ nếu dành thời gian nghiên cứu các đặc tính của nó, chúng ta có thể tìm ra phương thức thám hiểm sâu hơn. Chúng ta không có cách nào biết được điều gì có thể nằm ở phía bên kia."
+ situation_a_rift_in_space_desc_riftworld_origin: "Nhân dân chúng ta cuối cùng đã vươn đủ xa để chạm tới vết sẹo trên bầu trời của chúng ta.\n\nCó lẽ nếu dành thời gian nghiên cứu các đặc tính của nó, chúng ta có thể tìm ra phương thức thám hiểm sâu hơn. Chúng ta không có cách nào biết được điều gì có thể nằm ở phía bên kia."
+ situation_a_rift_in_space_standard: "Quan Sát Bị Động"
+ approach_situation_a_rift_in_space_standard_tt: "Chúng ta chưa ở vào vị thế có thể chi dùng những tài nguyên quý giá đến vậy. Hãy quan sát hiện tượng này từ xa."
+ situation_a_rift_in_space_devote_research: "Dồn Sức Nghiên Cứu"
+ approach_situation_a_rift_in_space_devote_research_tt: "Chúng ta có thể dành một lượng lớn nỗ lực nghiên cứu của các nhà khoa học để giải mã bí mật của khe nứt không-thời gian này."
+ situation_a_rift_in_space_send_probes: "Phóng Đầu Dò"
+ approach_situation_a_rift_in_space_send_probes_tt: "Mỗi đầu dò gửi vào khe nứt đều giúp chúng ta hiểu rõ hơn cách thâm nhập vào ranh giới của nó. Chúng ta có thể dành một lượng sản lượng Hợp Kim nhất định cho mục đích này."
+ situation_a_rift_in_space_finisher_effect: "Mở khóa công nghệ §Y$tech_rift_sphere$§!."
+ NAME_Astral_Entity: "Thực Thể Tinh Giới"
+ NAME_Planet_Rift_In_Space: "Hành Tinh Tinh Giới"
+
+ astral_rift_discovery_event_title: "Không-Thời Gian Bất Ổn"
+ astral_rift_discovery_event_text: "Trong khi nghiên cứu Khe Nứt Tinh Giới tại §Y[target.solar_system.GetName]§!, chúng ta đã vô tình làm mất ổn định dị thường không gian này. Điều này đang gây ra những biến dạng dữ dội trong không gian và thời gian, bẻ cong thực tại lân cận theo cách không thể dự đoán trước."
+ astral_situation.55.name: "$astral_rift_discovery_event_title$"
+ astral_situation.55.desc: "$astral_rift_discovery_event_text$\n\nMột hành tinh bí ẩn mà chúng ta gọi là §Y[planet_rift_in_space.GetName]§! đã xuất hiện tại nơi trước đây hoàn toàn trống rỗng. Chúng ta không có bất kỳ ghi chép nào về sự tồn tại trước đó của nó trên bất kỳ hải đồ sao nào.\n\nNó là nơi sinh sống của một nền văn minh [GetPreFTLLower].\n\nPhán đoán hợp lý nhất của chúng ta là bằng cách nào đó nó đã trôi dạt tới từ bên ngoài vũ trụ của chúng ta."
+ astral_situation.60.name: "$astral_rift_discovery_event_title$"
+ astral_situation.60.desc: "$astral_rift_discovery_event_text$\n\nMột chủng tộc có tri giác mới đã vật chất hóa trên §Y[rift_temporary_species_planet.GetName]§!, phân bố đồng đều giữa dân cư hiện tại của chúng ta.\n\nLoài [rift_temporary_species.GetName] không có ký ức gì về nơi xuất thân của họ và dường như không hề thù địch.\n\nDù họ bắt nguồn từ đâu, khó lòng có khả năng chúng ta có thể giúp họ trở về."
+ astral_situation.65.name: "$astral_rift_discovery_event_title$"
+ astral_situation.65.desc: "$astral_rift_discovery_event_text$\n\nNhững biến dạng thời gian đáng kể trên §Y[rift_temporary_planet.GetName]§! đang khiến thời gian trôi nhanh gấp đôi. Chúng ta cần theo dõi chặt chẽ tình hình, và đảm bảo nhân đôi lượng hàng tiếp tế cho họ."
+
+ rift_in_space_time_acceleration_modifier: "Thời Gian Biến Dạng"
+ rift_in_space_time_acceleration_modifier_desc: "Thời gian trôi nhanh gấp đôi trên thế giới này."
+
+ astral_situation.20.name: "Ma Sát Là Vấn Đề"
+ astral_situation.20.desc: "Chúng ta phát hiện ra rằng muốn luồn qua các nếp gấp của không-thời gian đòi hỏi một con tàu hoàn hảo không tì vết.\n\nChúng ta tin chắc rằng mình có thể phát triển một thiết bị như vậy, thứ mà chúng ta tạm gọi là \"§Y$tech_rift_sphere$§!\", nếu dành đủ nguồn lực nghiên cứu và thời gian. Khi đó, cuối cùng chúng ta có thể khám phá những gì ẩn sau dị thường không gian này."
+
+ astral_planes.2005.name: "Công Nghệ $tech_rift_sphere$ Đã Được Khai Phá"
+ astral_planes.2005.desc: "Chúng ta đã phát triển thành công công nghệ cho phép luồn qua các nếp gấp của một Khe Nứt Tinh Giới: §Y$tech_rift_sphere_plural$§!.\n\nĐược chế tạo từ vật liệu nano siêu tiên tiến với bề mặt hoàn toàn nhẵn bóng, Khối Cầu có khả năng lướt đi không ma sát qua các vùng không-thời gian hỗn loạn.\n\nVì không rõ mình sẽ đến nơi nào, mỗi §Y$tech_rift_sphere$§! đều được nối với một dây cáp neo giữ. Để kéo chúng ta trở lại trong trường hợp khẩn cấp, sợi cáp được neo chặt vào một Tàu Khoa Học trong vũ trụ của chúng ta."
+ astral_planes.2005.a: "Hãy xem chúng ta có thể tìm thấy gì..."
+
+ ASTRAL_RIFT_IN_SYSTEM: "Hệ sao này chứa ít nhất một Khe Nứt Tinh Giới"
+ CRYSTAL_RIFT_IN_SYSTEM: "Hệ sao này chứa một §YKhe Nứt Tinh Thể§! độc nhất và dị thường."
+
+ tech_rift_sphere: "Khối Cầu Khe Nứt"
+ tech_rift_sphere_plural: "Khối Cầu Khe Nứt"
+ tech_rift_sphere_desc: "Dường như không gian và thời gian có xu hướng tụ lại thành từng lớp xếp chồng lên nhau. Bí quyết là làm sao luồn lách được giữa các nếp gấp đó."
+
+ tech_astral_harvesting: "Khai Thác Tinh Giới"
+ tech_astral_harvesting_desc: "Việc thu hoạch kết cấu tinh giới bị xé rách dọc theo các vết sẹo khe nứt không-thời gian trở nên khả thi nhờ những cải tiến tinh vi cho các trạm nghiên cứu của chúng ta."
+
+ ASTRAL_RIFT_NOT_EXPLORABLE_EXPLANATION: "Chúng ta thiếu công nghệ cần thiết\nđể thám hiểm dị thường này."
+ ASTRAL_RIFT_NOT_EXPLORABLE_STAGE_SUBTITLE: "Chúng ta thiếu công nghệ cần thiết để thám hiểm dị thường này."
+
+ MESSAGE_ASTRAL_RIFT_FINISHED_TITLE: "Đã Thám Hiểm Khe Nứt Tinh Giới"
+ MESSAGE_ASTRAL_RIFT_FINISHED_DESC: "Một Khe Nứt Tinh Giới đã được thám hiểm toàn diện"
+
+ ASTRAL_RIFT_IS_EXPLORED: "Đã thám hiểm Khe Nứt $RIFT|Y$"
+ ASTRAL_RIFT_IS_NOT_EXPLORED: "CHƯA thám hiểm Khe Nứt $RIFT|Y$"
+
+ ################
+ # Astral Scars #
+ ################
+
+ NAME_Astral_Scar: "$pc_astral_scar$"
+ pc_astral_scar: "Vết Sẹo Tinh Giới"
+ pc_astral_scar_desc: "Đây là một nếp gấp dị thường trong không-thời gian. Vật chất kỳ lạ đang rò rỉ ra từ các mép viền của nó, nhưng chúng ta chưa thể thâm nhập sâu hơn."
+ MESSAGE_ASTRAL_SCAR_DISCOVERED_TITLE: "Phát hiện Vết Sẹo Tinh Giới"
+ MESSAGE_ASTRAL_SCAR_DISCOVERED_DESC: "Chúng ta đã phát hiện một Vết Sẹo Tinh Giới."
+
+ ################
+ # Astral Rifts #
+ ################
+
+ ASTRAL_RIFT: "Khe Nứt Tinh Giới"
+ ASTRAL_RIFTS: "Khe Nứt Tinh Giới"
+ CRYSTAL_RIFT: "Khe Nứt Tinh Thể"
+ astral_rift: "$ASTRAL_RIFT$"
+ MESSAGE_ASTRAL_RIFT_DISCOVERED_TITLE: "Phát hiện Khe Nứt Tinh Giới"
+ MESSAGE_ASTRAL_RIFT_DISCOVERED_DESC: "Một Khe Nứt Tinh Giới mới đã sẵn sàng để thám hiểm."
+ MESSAGE_ASTRAL_RIFT_STARTED_TITLE: "Đang Thám Hiểm Khe Nứt Tinh Giới"
+ MESSAGE_ASTRAL_RIFT_STARTED_DESC: "Tàu khoa học của chúng ta đã neo vào một Khe Nứt Tinh Giới. Tàu và phi hành đoàn sẽ không thể nhận nhiệm vụ khác cho đến khi việc thám hiểm hoàn tất."
+ ASTRAL_RIFT_REWARDS: "Phần Thưởng:"
+
+ alert_mia_phase_out_fleet_title: "Hạm Đội Đã Chuyển Pha"
+ alert_mia_phase_out_fleet_instant: "Hạm đội của bạn đã Chuyển Pha khỏi mặt phẳng tồn tại này. Nếu (và khi) trở về, rất có thể họ sẽ xuất hiện tại vị trí trước đây."
+
+ alert_astral_rift_event_title: "Chờ Phản Hồi Sự Kiện Khe Nứt Tinh Giới"
+ alert_astral_rift_event_instant: "Đã xảy ra sự cố tại một trong những Khe Nứt Tinh Giới mà chúng ta hiện đang thám hiểm."
+ ALERT_ASTRAL_RIFT_EVENT_DETAIL: "$FLEET_NAME|Y$ tại $SYSTEM_NAME|Y$."
+
+ RIFT_DIFFICULTY_TYPE: "Độ Khó"
+ RIFT_DIFFICULTY_TYPE_DESC: "Mỗi chương trong một Khe Nứt Tinh Giới có thể có giá trị độ khó khác nhau.\nChương $RIFT_DIFFICULTY_EASY$ là 0-2, $RIFT_DIFFICULTY_NORMAL$ là 3-5, và $RIFT_DIFFICULTY_HARD$ là 6 trở lên. Độ khó cao hơn có thể làm giảm khả năng đạt kết quả thành công ở cuối mỗi giai đoạn thám hiểm."
+ RIFT_DIFFICULTY_TYPE_TT: "§H$RIFT_DIFFICULTY_TYPE$§!\n$VALUE$\n\n$RIFT_DIFFICULTY_TYPE_DESC$"
+ RIFT_DIFFICULTY_EASY: "§GDễ§!"
+ RIFT_DIFFICULTY_NORMAL: "§YTrung Bình§!"
+ RIFT_DIFFICULTY_HARD: "§RKhó§!"
+ RIFT_LEADER_BONUS: "Thưởng Kỹ Năng"
+ RIFT_LEADER_BONUS_DESC: "Điểm thưởng kỹ năng sẽ làm tăng khả năng đạt kết quả thành công ở cuối mỗi giai đoạn thám hiểm.\n\nĐiểm thưởng này làm tăng §YCơ Hội Đột Phá§!."
+ RIFT_LEADER_BONUS_TT: "§H$RIFT_LEADER_BONUS$§!\n$RIFT_LEADER_BONUS_DESC$"
+ EXPLORATION_PROGRESS_TOOLTIP: "§HGiai Đoạn Thám Hiểm§!\nCác Khe Nứt Tinh Giới được thám hiểm theo từng giai đoạn, vào cuối mỗi giai đoạn sẽ tiến hành đổ xúc xắc tiến độ.\n\nGiai đoạn tiếp theo kết thúc sau £time£ $DAYS|Y$"
+ RIFT_GO_TO: "§HĐi Tới§!\n§GNhấn để nhanh chóng di chuyển camera tới vị trí của khe nứt này§!"
+ RIFT_CLUES: "Manh Mối"
+ RIFT_CLUES_DESC: "Manh mối đại diện cho thông tin được khám phá trong mỗi giai đoạn thám hiểm Khe Nứt Tinh Giới.\n\nManh mối giúp tăng §YCơ Hội Đột Phá§!."
+ RIFT_CLUES_TT: "§H$RIFT_CLUES$§!\n$RIFT_CLUES_DESC$"
+ ASTRAL_RIFT_EXPLORATION_LOG: "Nhật Ký Thám Hiểm"
+ ASTRAL_RIFT_EXPLORATION_LOG_TT: "§H$ASTRAL_RIFT_EXPLORATION_LOG$§!\n$ASTRAL_RIFT_EXPLORATION_LOG$ hiển thị kết quả của giai đoạn thám hiểm vừa qua."
+ EXPLORATION_LOG_ROLL_TOOLTIP: "§HKết Quả Giai Đoạn§!\nManh Mối Thu Được: $GAINED|Y$\n\nKết Quả: $RESULT|Y$\n  Đổ Xúc Xắc: $ROLL|Y$\n  Manh Mối: $CLUES|Y$\n  Thưởng Kỹ Năng: $BONUS|Y$\n  Độ Khó: $DIFFICULTY|R$\n\n§EKết Cục Đổ Xúc Xắc:§!\n§RThất Bại§!: Kết quả từ §Y4§! trở xuống nhận thêm §Y0§! manh mối.\n§YTiến Triển§!: Kết quả từ §Y5-9§! nhận thêm §Y1§! manh mối.\n§GTiến Triển Vượt Bậc§!: Kết quả từ §Y10-13§! nhận thêm §Y2§! manh mối."
+ ASTRAL_RIFT_BREAKTHROUGH: "Cơ Hội Đột Phá"
+ astral_rift_roll_header: "§H$ASTRAL_RIFT_BREAKTHROUGH$§!\nGiá trị này phản ánh cơ hội Nhà Khoa Học của bạn tạo ra đột phá trong quá trình thám hiểm khe nứt hiện tại.\n\nMỗi khi một giai đoạn kết thúc, một viên xúc xắc (§Y1§! đến §Y10§!) sẽ được đổ. Kết quả xúc xắc được cộng với §YThưởng Kỹ Năng§! và §YManh Mối§!, sau đó trừ đi §YĐộ Khó§!.\n\nĐiểm số hiện tại trước khi đổ xúc xắc là $SCORE|0Y$.\n\n§EKết Cục Đổ Xúc Xắc:§!"
+
+ FLEETORDER_EXPLORE_RIFT: "Đang thám hiểm §Y$ASTRAL_RIFT_NAME$§! tại §Y$SYSTEM_NAME$§!"
+ FLEETORDER_EXPLORE_RIFT_BUTTON: "Thám hiểm $ASTRAL_RIFT_NAME$"
+
+ ASTRAL_RIFT_DESCRIPTION: "Một vết rách trong không gian và thời gian. Chúng ta vẫn chưa rõ điều gì đang nằm ở bờ bên kia."
+ CRYSTAL_RIFT_DESCRIPTION: "Một vết rách dị thường trong không gian và thời gian. Có thể nhìn thấy những tinh thể kỳ lạ trôi nổi bên trong khe nứt."
+ ASTRAL_RIFT_FINISHED: "Khe Nứt đã được thám hiểm toàn diện"
+ ASTRAL_RIFT_EXPLORED_BY_OTHER: "Khe Nứt này đang được một đế chế khác thám hiểm.\nNó quá bất ổn để chúng ta mạo hiểm tiến vào bên trong."
+ ASTRAL_RIFT_LOCKED: "Đang Tiến Hành Thám Hiểm Khe Nứt"
+ ASTRAL_RIFT_POOL_IS_EMPTY: "Khe Nứt Tinh Giới này dường như không dẫn tới đâu."
+
+ CANNOT_EXPLORE_OUTSIDE_EMPIRE_BORDERS: "$TRIGGER_FAIL$§RKhông thể thám hiểm Khe Nứt Tinh Giới bên ngoài biên giới đế chế của bạn§!"
+ CANNOT_EXPLORE_OUTSIDE_EMPIRE_BORDERS_CLOAKED: "$TRIGGER_FAIL$§RẢnh hưởng của chúng ta đối với hệ sao này chưa đủ để đảm bảo an toàn cho chuyến thám hiểm này.§!"
+ CANNOT_EXPLORE_ALREADY_BEING_EXPLORED: "$TRIGGER_FAIL$§RKhe Nứt Tinh Giới này hiện đang được thám hiểm§!"
+ CANNOT_EXPLORE_ALREADY_BEING_EXPLORED_BY_OTHER: "$TRIGGER_FAIL$§RKhe Nứt này đang được một đế chế khác thám hiểm.\nNó quá bất ổn để chúng ta mạo hiểm tiến vào bên trong.§!"
+ CANNOT_EXPLORE_WITHOUT_VALID_LEADER: "$TRIGGER_FAIL$§RKhông thể thám hiểm Khe Nứt Tinh Giới khi thiếu một nhà lãnh đạo hợp lệ§!"
+ CANNOT_EXPLORE_WITHOUT_SCIENCE_SHIP: "$TRIGGER_FAIL$§RChỉ có thể thám hiểm Khe Nứt Tinh Giới bằng tàu khoa học§!"
+ CANNOT_EXPLORE_WITH_COUNCIL_LEADER: "$TRIGGER_FAIL$§R$scientist_plural_with_icon$ không thể thám hiểm Khe Nứt Tinh Giới khi đang giữ một Vị Trí Trong Hội Đồng§!"
+ CANNOT_EXPLORE_WITH_HEIR_LEADER: "$TRIGGER_FAIL$§RThám hiểm khe nứt quá hiểm nguy đối với người thừa kế của chúng ta§!"
+ can_not_dismiss_rift_explorer: "§RKhông thể sa thải nhà lãnh đạo hiện đang thám hiểm Khe Nứt Tinh Giới§!"
+
+ ASTRAL_RIFT_PRE_EXPLORATION: "Chưa Thám Hiểm"
+ ASTRAL_RIFT_ASSIGN_SCIENTIST: "§HChỉ định một nhà khoa học để bắt đầu thám hiểm§!"
+ SHOW_ASTRAL_RIFT: "£astral_rift£ Xem Khe Nứt Tinh Giới"
+
+ rift_samples_biology_modifier: "Mẫu Dịch Thể Khe Nứt"
+
+ warpling_army: "Ấu Trùng Dịch Chuyển"
+ seq_warpling_army: "$ORD$ $warpling_army$"
+ warpling_army_desc: "Những sinh vật dị giới được biến đổi gen phục vụ chiến tranh, các ấu trùng bọc giáp này có thể dịch chuyển tức thời qua những cự ly ngắn, cho phép thực thi những đòn tạt sườn và phục kích ngoạn mục."
+
+ flamestorm_troopers_army: "Lính Bão Lửa"
+ flamestorm_troopers_army_desc: "Được trang bị phục vụ chiến tranh phóng hỏa, những tiểu đội này có xu hướng gây ra lượng thiệt hại ngoài dự tính rất lớn."
+
+ astral_planes.210.name: "Nhà Khoa Học Trở Về"
+ astral_planes.210.desc: "[fromfrom.leader.GetName] trở về từ chuyến thám hiểm một $ASTRAL_RIFT$ và nhận ra ngân hà đã biến mất vào sự Tận Cùng. Nhiều nơi chốn mà họ từng biết đã hoàn toàn tan biến khỏi thực tại này.\n\nHọ vẫn chưa chắc chắn liệu mình có trở về đúng chiều không gian hay không, và dường như đang phải trải qua một dạng sốc nhận thức trầm trọng."
+ astral_planes.210.a: "Mừng trở lại... chăng?"
+
+###########
+# Effects #
+###########
+
+ SPAWN_ASTRAL_RIFT_EFFECT: "Một khe nứt không-thời gian mới vừa mở ra tại hệ sao $SYSTEM$!"
+
+ ASTRAL_RIFT_FINISH: "Kết thúc chuyến thám hiểm Khe Nứt Tinh Giới."
+ ASTRAL_RIFT_FINISH_NOT: "Không kết thúc chuyến thám hiểm Khe Nứt Tinh Giới."
+
+ SET_NEXT_ASTRAL_RIFT_EVENT: "Đặt sự kiện tiếp theo thành id $EVENT_ID|Y$."
+ SET_NEXT_ASTRAL_RIFT_EVENT_FAIL: "§RQuay trở lại $EVENT_ID|Y$ nếu giai đoạn thất bại.\nXác suất thất bại ở mỗi lần đổ xúc xắc: $FAIL_PROBABILITY$.§!"
+
+############
+# Triggers #
+############
+
+ TRIGGER_HAS_ASTRAL_RIFT: "Chứa một Khe Nứt Tinh Giới"
+ TRIGGER_HAS_ASTRAL_RIFT_NOT: "Không chứa Khe Nứt Tinh Giới."
+ TRIGGER_IS_ASTRAL_RIFT_POOL_EMPTY: "Kiểm tra xem Bể Khe Nứt Tinh Giới có rỗng hay không."
+ TRIGGER_IS_ASTRAL_RIFT_POOL_EMPTY_NOT: "Kiểm tra xem Bể Khe Nứt Tinh Giới có không rỗng hay không."
+ TRIGGER_BYPASS_HAS_LOCK: "Kiểm tra xem lối tắt có bị khóa bởi khóa thứ nguyên hay không."
+ TRIGGER_BYPASS_HAS_LOCK_NOT: "Kiểm tra xem lối tắt có không bị khóa bởi khóa thứ nguyên hay không."
+ TRIGGER_ASTRAL_RIFTS_COMPLETED: "Số Khe Nứt Tinh Giới Đã Hoàn Thành là $COMPARATOR$ $NUM|Y$"
+ TRIGGER_ASTRAL_RIFTS_COMPLETED_NOT: "Số Khe Nứt Tinh Giới Đã Hoàn Thành KHÔNG $COMPARATOR$ $NUM|Y$"
+
+ IS_ASTRAL_RIFT_BEING_EXPLORED_TRIGGER: "Khe Nứt Tinh Giới đang được thám hiểm"
+
+######################################
+# Astral Thread Action - Astral Jump #
+######################################
+
+ FLEETORDER_ASTRAL_JUMP: "Thực hiện một Bước Nhảy Tinh Giới tới $SYSTEM|Y$"
+ FLEETORDER_ASTRAL_JUMP_HEADER: "Bước Nhảy Tinh Giới"
+ FLEETORDER_ASTRAL_JUMP_DESC: "Bằng cách gấp nếp siêu không gian, các hạm đội trang bị Động Cơ Nhảy có thể tức thì Nhảy tới bất cứ đâu trong ranh giới đã thiết lập. Mỗi lần gấp nếp có thời gian hồi $COOLDOWN|Y$ ngày và tiêu tốn $COST|Y$."
+ CANNOT_ASTRAL_JUMP_COOLDOWN: "§RBước Nhảy Tinh Giới sẽ khả dụng sau $DAYS|Y$ ngày.§!"
+ CANNOT_PAY_ASTRAL_JUMP: "§RChúng ta không có đủ tài nguyên để thực hiện hành động này.§!"
+
+ FLEETORDER_PHASE_FLEET: "Đã Chuyển Pha (Trở về ngày $DATE|Y$)"
+ FLEETORDER_PHASE_FLEET_HEADER: "Chuyển Pha Hạm Đội"
+ FLEETORDER_PHASE_FLEET_DESC: "Các hạm đội quân sự có thể chuyển pha khỏi mặt phẳng thực tại của chúng ta. Hạm đội chuyển pha sẽ trở về sau $DURATION|Y$ ngày - được sửa chữa hoàn toàn. Mỗi hạm đội chỉ có thể Chuyển Pha một lần sau mỗi $COOLDOWN|Y$ ngày, và tiêu tốn $COST|Y$."
+ CANNOT_PHASE_FLEET_COOLDOWN: "§RHạm đội này có thể Chuyển Pha sau $DAYS|Y$ ngày.§!"
+ CANNOT_PAY_PHASE_FLEET: "§RChúng ta không có đủ tài nguyên để thực hiện hành động này.§!"
+ CANNOT_PHASE_NON_MILITARY_FLEET: "§RChỉ hạm đội quân sự mới có thể Chuyển Pha.§!"
+
+###########################################
+# Astral Thread Action - Dimensional Lock #
+###########################################
+
+ DIMENSIONAL_LOCK: "Khóa Thứ Nguyên"
+ DIMENSIONAL_LOCKS: "Khóa Thứ Nguyên"
+ action_dimensional_lock: "$DIMENSIONAL_LOCK$"
+ action_dimensional_lock_tooltip: "Cho phép Tàu Khoa Học của bạn đặt một $DIMENSIONAL_LOCK$ lên một Lỗ Sâu, Cổng L-Gate, hoặc Đường Hầm Tấm Màn. Sau khi khóa, chỉ những hạm đội có sự cho phép của bạn mới có thể tiến vào. $DIMENSIONAL_LOCKS$ kéo dài trong §Y10§! năm."
+ action_dimensional_lock_desc: "Bằng cách hòa hợp tàu thuyền của chúng ta với các dấu hiệu lượng tử độc nhất của một nếp gấp không gian, chúng ta có thể đồng bộ tần số của nó với tần số của chính mình. Tuy nhiên, sự hòa hợp như vậy không mang tính vĩnh cửu. Sau cùng, vết rách sẽ dần quay trở lại xu hướng tự nhiên ban đầu của nó."
+ action_dimensional_lock_cooldown_tooltip: "\n$DIMENSIONAL_LOCK$ đang trong thời gian hồi chiêu"
+ FLEETORDER_LOCK_BYPASS: "Đặt $DIMENSIONAL_LOCK$ lên $BYPASS|H$ tại hệ sao $SYSTEM|Y$"
+ FLEETORDER_LOCK_BYPASS_ACTIVITY: "Đang đặt $DIMENSIONAL_LOCK$ lên $BYPASS|H$: $PROGRESS|Y%0$"
+ FLEETORDER_LOCK_BYPASS_DESC: "Sau khi bị khóa, chỉ những ai có sự cho phép của bạn mới có thể tiến vào. $DIMENSIONAL_LOCKS$ kéo dài trong $DURATION_YEARS|Y$."
+ FLEETORDER_LOCK_BYPASS_CANNOT_LOCK_NEXUS: "Chúng ta không thể khóa lối tắt này. Nó có quá nhiều điểm kết nối."
+ FLEETORDER_LOCK_BYPASS_ORDER_LABEL: "Khóa $BYPASS|Y$"
+ FLEETORDER_EXTEND_LOCK_BYPASS_ORDER_LABEL: "Gia hạn khóa trên $BYPASS|Y$"
+ FLEETORDER_LOCK_BYPASS_NOT_OWNER: "$BYPASS|Y$ đã bị khóa bởi $PLAYER$"
+ FLEETORDER_LOCK_BYPASS_ALREADY_LOCKED: "$BYPASS|Y$ hiện đã bị khóa"
+ FLEETORDER_LOCK_BYPASS_ALREADY_LOCKED_BY: "$BYPASS|Y$ hiện đã bị khóa bởi $PLAYER$"
+ FLEETORDER_LOCK_BYPASS_NOT_SYSTEM_OWNER: "$DIMENSIONAL_LOCKS$ chỉ có thể được đặt trong các hệ sao do bạn kiểm soát"
+ FLEETORDER_LOCK_BYPASS_NOT_SYSTEM_OWNER_NOMAD: "$DIMENSIONAL_LOCKS$ chỉ có thể được đặt trong các hệ sao mà bạn sở hữu một $waystation$"
+ DIMENSIONAL_LOCK_TOOLTIP: "§H$DIMENSIONAL_LOCK$§!\n$PLAYER|Y0$\nThời Gian Còn Lại: $REMAINING_DAYS|Y0$\n---\nMột $DIMENSIONAL_LOCK$ đã được đặt tại đây. Chỉ những ai được $PLAYER|Y0$ cho phép mới có thể tiến vào."
+ MESSAGE_BYPASS_LOCK_EXPIRED_TITLE: "$DIMENSIONAL_LOCK$ Đang Mất Ổn Định"
+ MESSAGE_BYPASS_LOCK_EXPIRED_DESC: "$DIMENSIONAL_LOCK$ này đang mất dần sự ổn định. Chúng ta cần hành động nhanh chóng để ngăn nó tan rã hoàn toàn."
+ MESSAGE_DAEDALUS_SEAL_EXPIRED_DESC: "Các $DIMENSIONAL_LOCKS$ của Phong Ấn Daedalus đang mất ổn định và sẽ sớm hết hiệu lực."
+ RENEW_BYPASS_LOCK_DESC: "Gia hạn $DIMENSIONAL_LOCK$ thêm $DURATION_YEARS|Y$."
+ TRIGGER_CAN_BYPASS_LOCK_BE_RENEWED: "Có thể gia hạn $DIMENSIONAL_LOCK$."
+ TRIGGER_CAN_BYPASS_LOCK_BE_RENEWED_NOT: "Không thể gia hạn $DIMENSIONAL_LOCK$."
+ astral_planes.1030.name: "$MESSAGE_BYPASS_LOCK_EXPIRED_TITLE$"
+ astral_planes.1030.desc: "$MESSAGE_BYPASS_LOCK_EXPIRED_DESC$"
+ astral_planes.1030.a: "Gia Hạn Khóa."
+ astral_planes.1030.a.tooltip: "Trong thời gian $DIMENSIONAL_LOCKS$ hoạt động, chỉ những hạm đội có sự cho phép của bạn mới có thể tiến vào.\n\n"
+ astral_planes.1030.b: "Để Nó Tự Tiêu Biến."
+ astral_planes.1030.b.tooltip: "$DIMENSIONAL_LOCK$ này sẽ hết hạn, và cần phải được tái thiết lập bằng một Tàu Khoa Học."
+ LOCK_BYPASS_EFFECT_DESC: "Đặt một Khóa Thứ Nguyên lên một Lỗ Sâu hoặc Cổng L-Gate. Sau khi khóa, chỉ những ai có sự cho phép của bạn mới có thể tiến vào."
+ BYPASS_FORBIDDEN_BY_LOCK: "Chỉ những ai có sự cho phép của $PLAYER|Y0$ mới có thể tiến vào."
+
+ #############
+ # Modifiers #
+ #############
+
+ MOD_COUNTRY_ASTRAL_RIFT_SPEED_MULT: "Tốc Độ Thám Hiểm Khe Nứt Tinh Giới"
+ MOD_COUNTRY_ASTRAL_RIFT_FAIL_MULT: "Xác Suất Thất Bại Khe Nứt Tinh Giới"
+ MOD_SHIP_ASTRAL_RIFT_SPEED_MULT: "Tốc Độ Thám Hiểm Khe Nứt Tinh Giới"
+ MOD_SHIP_ASTRAL_RIFT_CLUES_ADD: "Kỹ Năng Thám Hiểm Khe Nứt Tinh Giới"
+ MOD_ASTRAL_RIFT_DIFFICULTY_ADD: "Độ Khó Thám Hiểm Khe Nứt Tinh Giới"
+
+ astral_rift_difficulty_increase_1: "Tăng Độ Khó Khe Nứt Tinh Giới"
+ astral_rift_difficulty_increase_2: "$astral_rift_difficulty_increase_1$"
+ astral_rift_difficulty_decrease_1: "Giảm Độ Khó Khe Nứt Tinh Giới"
+ astral_rift_difficulty_decrease_2: "$astral_rift_difficulty_decrease_1$"
+ astral_rift_difficulty_decrease_3: "$astral_rift_difficulty_decrease_1$"
+
+ ##########
+ # Traits #
+ ##########
+
+ leader_trait_rift_warped: "Biến Dạng Khe Nứt"
+ leader_trait_rift_warped_desc: "Nhà lãnh đạo này từng băng qua các mặt phẳng tinh giới; hậu quả của chuyến du hành ấy vừa sâu sắc lại vừa trường tồn."
+ leader_trait_partially_digested: "Bị Tiêu Hóa Một Phần"
+ leader_trait_partially_digested_desc: "Nhà lãnh đạo này từng có cuộc chạm trán xui xẻo với một con giun khổng lồ từ chiều không gian khác. Dù thân thể không còn vẹn nguyên, họ lại thu nhận được những hiểu biết độc nhất vô nhị về Sinh Học phân tử."
+ leader_trait_planar_theorist: "Nhà Lý Thuyết Thứ Nguyên"
+ leader_trait_planar_theorist_desc: "Nhà lãnh đạo này chuyên sâu vào nghiên cứu các Khe Nứt Tinh Giới và quy luật của các chiều không gian bên ngoài thực tại của chúng ta."
+
+ leader_trait_spacebender: "Kẻ Uốn Bẻ Không Gian"
+ leader_trait_spacebender_desc: "Hòa nhịp sâu sắc với những khoảng cách giữa các chiều không gian, nhà lãnh đạo này có khả năng lướt đi nhẹ nhàng giữa các ngân hà."
+ leader_trait_spacebender_effect: "$THIS_LEADER_TXT$:\n$t$Không tiêu tốn phí duy trì"
+ leader_trait_energy_weapon_specialist: "Chuyên Gia Vũ Khí Năng Lượng"
+ leader_trait_energy_weapon_specialist_desc: "Những tính toán và sự hội tụ chính xác cần có để hiệu chỉnh vũ khí năng lượng đúng chuẩn có thể ngốn cực nhiều thời gian, nhưng các kỹ năng đó lại đến với vị chỉ huy này một cách hết sức tự nhiên."
+
+ trait_plasmic: "Thể Plasma"
+ trait_plasmic_desc: "Lớp màng ngoài và cơ thể vô định hình của loài này cho phép chúng thích nghi với mọi môi trường và giúp chúng miễn nhiễm với rất nhiều loại bệnh tật."
+
+ trait_exd: "Ngoại Chiều Không Gian"
+ trait_exd_desc: "Loài này có nguồn gốc từ một chiều không gian khác và cần một lượng năng lượng khổng lồ để tồn tại trong vũ trụ của chúng ta."
+ TRAIT_EXD_EFFECT: "- Phí duy trì $energy_with_icon$ cho mỗi $pop_group_unit$ £pop£ Dân số: §R+$@living_standard_energy_normal|*0$§!\n$t$- Mỗi $pop_group_unit$ £pop£ §HDân số§! làm việc ở mức nô lệ hoặc cao hơn sẽ tạo ra 0.5 £physics_research£ §YNghiên Cứu Vật Lý§! mỗi tháng"
+
+ ######################
+ # Origin - Riftworld #
+ ######################
+
+ origin_riftworld: "Thế Giới Dưới Khe Nứt"
+ origin_riftworld_desc: "Một khe nứt khổng lồ trong không-thời gian lơ lửng gần quê nhà của nền văn minh này. Sau khi nghiên cứu hiện tượng này suốt hàng thiên niên kỷ, những bước tiến gần đây trong công nghệ tàu vũ trụ cuối cùng sẽ cho phép họ vươn ra và khám phá những bí mật ẩn chứa bên trong."
+ origin_tooltip_riftworld_effects: "- $HOMEWORLD$ ['concept_riftworld_digsite'] ['concept_archaeology_site']$NEW_LINE$- Các Hành Tinh Đã Thuộc Địa Hóa trong hệ sao có [ 'concept_astral_rift',$ASTRAL_RIFTS$]: ['modifier:riftworld_affinity']$NEW_LINE$- Xác suất xuất hiện §Y$ASTRAL_RIFTS$§! trong các hệ sao bạn kiểm soát: §G+100%§!\n- $science_plural$ có thể thám hiểm §Y$ASTRAL_RIFTS$§! trong §YHệ Sao Chưa Thuộc Sở Hữu§!."
+ START_SCREEN_RIFTWORLD: "Từ khi chúng ta có thể nhớ được, Đại Khe Nứt đã luôn sừng sững trên bầu trời [GetHomeWorldName]. Truyền thuyết kể rằng quá khứ của chúng ta gắn bó mật thiết với vết sẹo thiên giới bí ẩn này và một miệng hố va chạm cổ xưa gần thủ đô.\n\nSuốt nhiều thế hệ, di chỉ đó được tôn kính nhưng ít ai hiểu thấu. Tuy nhiên, hoạt động địa chấn gần đây đã phát hiện ra các dị thường dưới lòng đất của miệng hố. Công tác chuẩn bị khoan sâu vào lõi của nó đã được tiến hành. Ý kiến vẫn còn phân tán về những gì chúng ta có thể khám phá ở đó.$START_SCREEN_RIFTWORLD_END$"
+ START_SCREEN_RIFTWORLD_MACHINE: "Kể từ mốc thời gian xa nhất mà cơ sở dữ liệu của chúng ta ghi nhận, Đại Khe Nứt đã luôn ngự trị trên bầu trời [GetHomeWorldName]. Đồng hồ nội bộ của chúng ta được đồng bộ với tần số của vết sẹo thiên giới này và các ghi chép sớm nhất mô tả một điểm va chạm cổ đại gần trung tâm đầu não.\n\nQua nhiều chu kỳ lặp lại, di chỉ đó được giữ nguyên nhưng ít được hiểu thấu. Tuy nhiên, chấn động địa chấn gần đây đã để lộ ra các dị thường dưới bề mặt miệng hố. Công tác chuẩn bị khoan vào lõi của nó đang được tiến hành.$START_SCREEN_RIFTWORLD_END$"
+ START_SCREEN_RIFTWORLD_END: "\n\nLiệu có phải là sự trùng hợp ngẫu nhiên khi điều này diễn ra đúng vào thời điểm công nghệ Động Cơ Siêu Không Gian xuất hiện? Ngay khi chúng ta vươn tay tới bầu trời, sự chú ý lại bị kéo ngược về mặt đất. Có lẽ những gì nằm dưới bề mặt thế giới này được định mệnh an bài để hỗ trợ chúng ta trên con đường chinh phục các vì sao. Có lẽ nó có thể giúp chúng ta chuẩn bị cho bất cứ điều gì đang chờ đón phía bên kia Khe Nứt."
+ START_SCREEN_RIFTWORLD_NOMADS: "Kể từ khi chúng ta có thể ghi nhớ, Đại Khe Nứt đã luôn treo lơ lửng trước mắt chúng ta giữa khoảng không vũ trụ — một sự hiện diện bất biến nơi đường chân trời trong cuộc hành trình, vừa quen thuộc lại vừa bí ẩn khôn cùng. Truyền thuyết kể rằng quá khứ xa xưa của chúng ta gắn liền với vết sẹo thiên giới này, và một điểm va chạm cổ đại bị chôn vùi sâu bên trong thân tàu phương chu.\n\nSuốt bao thế hệ, địa điểm đó được tôn kính nhưng hiếm ai thấu tỏ. Tuy nhiên, những dao động gần đây trong hệ thống lõi tàu phương chu đã thu hút sự chú ý tới các khoang bị niêm phong từ lâu gần điểm va chạm. Công tác chuẩn bị phá niêm phong đang được triển khai. Dư luận vẫn còn nhiều bất đồng về những gì chúng ta có thể tìm thấy tại đó.\n\nLiệu có phải sự trùng hợp thuần túy khi điều này xảy ra cùng lúc với sự ra đời của công nghệ Động Cơ Siêu Không Gian? Ngay khi chúng ta hướng tầm mắt tới các vì sao, sự chú ý lại bị kéo giật về con tàu của chính mình. Có lẽ những gì đang bị phong ấn trong tàu phương chu vốn mang sứ mệnh nâng bước chúng ta trên chuyến hải trình. Có lẽ nó có thể trang bị cho chúng ta sẵn sàng đối mặt với bất cứ điều gì ở phía bên kia Khe Nứt."
+
+ riftworld_affinity: "Gắn Kết Khe Nứt"
+ riftworld_affinity_desc: "Sự phát triển xã hội của chúng ta dưới ảnh hưởng của các lực lượng xuyên chiều không gian đã khơi dậy niềm đam mê cháy bỏng đối với công cuộc nghiên cứu sâu rộng hơn."
+
+ astral_planes.2105.name: "Tín Hiệu Kỳ Lạ"
+ astral_planes.2105.desc: "Sau khi kết thúc chuyến thám hiểm Khe Nứt Tinh Giới tại §H[From.solar_system.GetName]§!, chúng ta đã nhận được một tín hiệu bí ẩn.\n\nCác [GetScientistPlural] của chúng ta xác định nguồn gốc của nó xuất phát từ bờ bên kia của chính khe nứt, và họ mới chỉ có thể dịch được vài từ ngắn ngủi."
+
+ astral_planes.2110.name: "$astral_planes.2105.name$"
+ astral_planes.2110.desc: "...hòa nhịp... với các mặt phẳng... chúng ta sẽ tìm thấy bạn..."
+
+ astral_planes.2120.name: "Phát Hiện Dị Thường Địa Chấn"
+ astral_planes.2120.desc: "Hoạt động địa chấn gần đây đã để lộ ra những đặc điểm bất ngờ của địa điểm va chạm cổ xưa gần thủ đô của chúng ta.\n\nMiệng hố va chạm đặc biệt này từ lâu đã được gắn liền với chính nguồn gốc của giống loài [Owner.GetSpeciesNamePlural] chúng ta."
+
+ riftworld_digsite: "Miệng Hố Cổ Đại"
+ riftworld_digsite_desc: "Chúng ta đã phát hiện hoạt động địa chấn dị thường từ sâu bên trong một miệng hố cổ đại trên bề mặt của [Planet.GetName]. Sóng âm ngầm dưới lòng đất đã tiết lộ một khoang rỗng chưa từng được biết đến trước đây."
+ astral_planes.2125.name: "Va Chạm Tốc Độ Cao"
+ astral_planes.2125.desc: "Những cuộc khai quật ban đầu dưới đáy miệng hố đã làm lộ ra một khối đá va chạm hình trụ hoàn chỉnh găm sâu vào lòng đất.\n\nMạch đá này hẳn phải bắt nguồn từ một vụ va chạm thiên thạch ở vận tốc cực kỳ khủng khiếp. Các tính toán sơ bộ cho thấy vật thể này hẳn đã lao tới với một phần đáng kể vận tốc ánh sáng. Thật kỳ diệu là nó vẫn còn tồn tại khi chạm tới bề mặt."
+ astral_planes.2125.a: "Tiếp tục khai quật."
+ astral_planes.2130.name: "Các Hang Động Ngầm"
+ astral_planes.2130.desc: "Tại điểm tận cùng của mạch đá va chạm, chúng ta đã khám phá ra một hệ thống hang động ngầm rộng lớn.\n\nNhững hồ nước ngầm nuôi dưỡng các dải thực vật nhợt nhạt mong manh dọc theo vách hang. Dưới đáy một trong những hồ nước này là tàn tích của một vật thể hình cầu dị thường. Nó không phải là một kiến tạo tự nhiên, và dường như chính là nguồn gốc của địa điểm va chạm này."
+ astral_planes.2130.a: "Thu hồi vật thể."
+ astral_planes.2135.name: "Khối Cầu Cổ Đại"
+ astral_planes.2135.desc: "Chúng ta đã trục vớt được khối cầu từ hồ nước ngầm.\n\nDù bị thảm thực vật bao phủ, phần lớn cấu trúc của nó vẫn còn nguyên vẹn. Kết cấu của nó là một sự pha trộn kỳ lạ giữa thiết kế cực kỳ tinh xảo và phương thức lắp ráp thô sơ. Những tấm kim loại nhẵn bóng hoàn hảo bao phủ phần mũi tàu, điều hẳn đã giúp giảm ma sát đáng kể khi đi vào khí quyển.\n\nQuỹ đạo nơi nó an nghỉ hoàn toàn trùng khớp với mạch đá va chạm, xác nhận rằng khối cầu này chính là nguồn gốc của khối đá biến chất đã dẫn đường cho chúng ta tới đây. Đáng kinh ngạc hơn nữa, có những dấu hiệu cho thấy con tàu này từng chở theo hành khách."
+ astral_planes.2140.name: "Tổ Tiên"
+ astral_planes.2140.desc.common: "Chúng ta đã thu hồi được một kho tài liệu bên trong khối cầu cổ đại, mỗi tài liệu đều được viết bằng một dạng cổ ngữ của chính ngôn ngữ chúng ta. Vài tài liệu trong số này nhắc đến những cái tên gắn liền với các truyền thuyết thiêng liêng nhất của chúng ta.\n\nMột mạng lưới thang phức tạp uốn lượn từ địa điểm va chạm dẫn lên một hệ thống đường hầm khổng lồ. Dựa vào niên đại khác nhau của các sợi thừng, các hang động này hẳn đã từng có người sinh sống qua nhiều thế hệ khi những người sống sót sau vụ rơi tàu nỗ lực mở đường lên bề mặt.\n\nTuy nhiên, không có gì chúng ta phát hiện trước đó có thể chuẩn bị cho phát hiện chấn động cuối cùng: một trong những gian phòng phía trên chứa một khu mộ địa. Phân tích ADN tiến hành trên những hài cốt bên trong đã tiết lộ một sự thật kinh ngạc: những người này chính là tổ tiên của chúng ta.\n\nChính xác họ đến từ đâu, hay vì sao địa điểm này lại bị quên lãng, hiện vẫn chưa rõ. Các tài liệu thu thập được ở trong tình trạng bảo quản kém, nhưng chúng ta đã khôi phục được một nhật ký dữ liệu từ khối cầu. Nó chỉ ra rõ ràng rằng con tàu đã đến hệ sao của chúng ta thông qua Khe Nứt Tinh Giới gần [from.planet.GetName]."
+ astral_planes.2140.desc.has_rift_sphere: "$astral_planes.2140.desc.common$\n\nDù rõ ràng kém tân tiến hơn công nghệ hiện tại của chúng ta, khối cầu này là minh chứng cho sự tuyệt vọng và trí tuệ sáng tạo của những người kiến tạo nên nó. Đây là một nỗ lực cuối cùng nhằm trốn chạy khỏi điều ắt hẳn là một số phận kinh hoàng ở phía bên kia khe nứt."
+ astral_planes.2140.desc.default: "$astral_planes.2140.desc.common$\n\nVới một chút nghiên cứu, chúng ta sẽ có thể tái tạo và thậm chí cải tiến công nghệ cần thiết để chế tạo một con tàu sở hữu năng lực vượt không gian như thế này."
+ astral_planes.2140.desc.machine.common: "Chúng ta đã khôi phục được một kho dữ liệu từ bên trong khối cầu cổ đại, kho dữ liệu được mã hóa bằng một phiên bản sơ khai của hệ thống tệp của chính chúng ta.\n\nMột mạng lưới thang phức tạp uốn lượn từ địa điểm va chạm dẫn lên một hệ thống đường hầm khổng lồ. Dựa trên niên đại khác nhau của các sợi thừng, các hang động này hẳn đã từng có người cư trú qua nhiều chu kỳ khi những cá thể sống sót tìm cách mở đường lên bề mặt.\n\nMột trong những vị trí phía trên chứa các linh kiện gợi nhớ đến những mẫu hình sơ khởi nhất của chúng ta. Những cá thể sống sót này chính là tiền bối của chúng ta.\n\nChính xác họ đến từ đâu, hay vì sao vị trí này bị thất lạc, hiện vẫn chưa rõ. Dữ liệu trích xuất từ khối cầu cho thấy rõ ràng con tàu đã đến hệ sao của chúng ta thông qua Khe Nứt Tinh Giới gần [from.planet.GetName]."
+ astral_planes.2140.desc.machine.has_rift_sphere: "$astral_planes.2140.desc.machine.common$\n\nDù kém tân tiến hơn công nghệ hiện tại của chúng ta, khối cầu này là minh chứng cho nỗ lực vượt bậc của các đơn vị tiền bối. Đây là một cố gắng sau cùng nhằm trốn thoát khỏi hiểm họa kinh hoàng ở phía bên kia khe nứt."
+ astral_planes.2140.desc.machine: "$astral_planes.2140.desc.machine.common$\n\nThông qua nghiên cứu, chúng ta sẽ có thể tái tạo và thậm chí cải tiến công nghệ cần thiết để chế tạo một con tàu sở hữu năng lực xuyên chiều không gian như thế này."
+ astral_planes.2140.a: "Chúng ta đã tìm thấy nơi khởi nguồn của mình."
+ astral_planes.2140.a.synthetic: "Chúng ta đã tìm thấy nơi đúc luyện ban đầu."
+
+ #############################
+ # Government & Empire Names #
+ #############################
+
+ gov_defensive_union: "Liên Minh Phòng Thủ"
+ gov_defensive_union_desc: "Chính thể này gắn kết người dân vì mục tiêu chung là phòng chống lại các mối đe dọa bên ngoài."
+ RT_DEFENSIVE_UNION: "Đại Khiên Thủ"
+ HT_DEFENSIVE_UNION: "Vệ Binh Tối Cao"
+
+ Guardianship: "Hộ Vệ Lãnh"
+ Protectorate: "Xứ Bảo Hộ"
+ Stalwart_Legion: "Quân Đoàn Kiên Cường"
+
+ gov_dimensional_covenant: "Giao Ước Thứ Nguyên"
+ gov_dimensional_covenant_desc: "Xã hội này được nâng đỡ bởi ý thức tâm linh sâu sắc. Các chuẩn mực đạo đức nghiêm ngặt được áp dụng để đảm bảo đại đa số người dân có thể tự tin hướng về thế giới bên kia."
+ RT_DIMENSIONAL_COVENANT: "Thăng Hoa Thứ Nhất"
+ HT_DIMENSIONAL_COVENANT: "Thăng Hoa Thứ Hai"
+
+ Church_of_Otherworlds: "Giáo Hội Dị Giới"
+ Astral_Fellowship: "Hội Huynh Đệ Tinh Giới"
+ Dimensional_Commune: "Công Xã Thứ Nguyên"
+
+ ##########
+ # Civics #
+ ##########
+
+ sm_dimensional_shrine: "Đền Thờ Thứ Nguyên"
+ sm_dimensional_shrine_desc: "Bên ngoài vũ trụ đã biết tồn tại những lối đi sang các thế giới khác, và những nơi các kết nối đó được tạo dựng một cách tinh tế. Đây chính là nơi chúng ta xây dựng ngôi đền linh thiêng nhất của mình.\n"
+ sm_reloading_bay: "Vịnh Tái Nạp"
+ sm_reloading_bay_desc: "Dành riêng một phần đáng kể của Căn Cứ Sao cho việc tái nạp các thành phần vũ khí, đồng thời cung cấp thêm các bệ phòng thủ.\n"
+ requires_dimensional_space_object: "§RYêu cầu một §Y$WORMHOLE$§!, một §Y$pc_rift_star$§!, một §Y$ASTRAL_RIFT$§!, một §Y$LGATE_GALACTIC$§! hoặc một §Y$SHROUD_TUNNEL_GALACTIC$§!§!"
+
+ civic_hyperspace_specialty: "Chuyên Môn Siêu Không Gian"
+ civic_hyperspace_specialty_desc: "Xã hội này luôn tôn sùng tốc độ. Việc thao túng siêu không gian chỉ là một đại lộ khác, và những ai có năng khiếu trong lĩnh vực này đều vươn lên tầng lớp cao nhất trong xã hội."
+ civic_hyperspace_specialty_effects: "£physics£ §Y$tech_hyper_drive_2$§! là Tùy Chọn Nghiên Cứu Đảm Bảo.\nCó Thông Tin Tình Báo Thấp về tất cả các hệ sao trong phạm vi 3 Tuyến Siêu Không Gian tính từ hệ sao khởi đầu của bạn."
+ civic_hive_hyperspace_specialty: "Đồng Bộ Siêu Không Gian"
+ civic_hive_hyperspace_specialty_desc: "Tập thể này luôn theo đuổi tốc độ. Phương pháp luận thao túng siêu không gian được cấy ghép sâu rộng trong toàn bộ tổ hợp, tạo điều kiện cho sự hiểu biết tiến bộ về các nguyên lý căn bản của quãng đường theo thời gian."
+ civic_hive_hyperspace_specialty_effects: "$civic_hyperspace_specialty_effects$"
+ civic_machine_hyperspace_specialty: "Tính Toán Siêu Không Gian"
+ civic_machine_hyperspace_specialty_desc: "Tập thể này luôn theo đuổi tốc độ. Các lý thuyết thao túng siêu không gian được khắc sâu vào đơn vị xử lý của từng cá thể máy, mang lại cho tập thể sự hiểu biết ngày một tiến bộ về các nguyên lý cốt lõi của khoảng cách trên trục thời gian."
+ civic_machine_hyperspace_specialty_effects: "$civic_hyperspace_specialty_effects$"
+ civic_corporate_hyperspace_specialty: "Thương Mại Siêu Không Gian"
+ civic_corporate_hyperspace_specialty_desc: "Thời gian là tiền bạc, và Tập Đoàn Khổng Lồ này hết sức coi trọng tốc độ. Đầu tư mạnh mẽ vào R&D đã mang lại thành quả ngọt ngào, trao cho Tập Đoàn quyền tiếp cận độc quyền các kỹ thuật thao túng siêu không gian tiên tiến nhất."
+ civic_corporate_hyperspace_specialty_effects: "$civic_hyperspace_specialty_effects$\nCông trình £building£ §Y$building_amusement_megaplex$§! $megacorp_civic_branch_office_building_effect$"
+
+ civic_tooltip_not_hyperspace_specialty: "KHÔNG có Quốc Thể thuộc nhóm ['concept_hyperspace_specialty_civics']"
+ concept_hyperspace_specialty_civics: "Chuyên Môn Siêu Không Gian"
+ concept_hyperspace_specialty_civics_desc: "Các Quốc Thể $concept_hyperspace_specialty_civics$ bao gồm:\n- ['civic:civic_hyperspace_specialty']$NEW_LINE$- ['civic:civic_corporate_hyperspace_specialty']$NEW_LINE$- ['civic:civic_hive_hyperspace_specialty']$NEW_LINE$- ['civic:civic_machine_hyperspace_specialty']"
+
+ civic_dimensional_worship: "Tín Ngưỡng Chiều Không Gian"
+ civic_dimensional_worship_desc: "Xã hội này tin rằng một sự hiện diện thiêng liêng đang ngự trị vượt trên các nếp gấp của không-thời gian. Những hệ sao nơi bất ổn đạt mức cao nhất mang ý nghĩa thiêng liêng đối với họ, vừa là thánh địa hành hương vừa là địa điểm nghiên cứu."
+ civic_dimensional_worship_effects: "$t$- $AVAILABLE_STARBASE_BUILDINGS$ ['starbase_building:dimensional_shrine', $sm_dimensional_shrine$]"
+ civic_dimensional_worship_effects_additional: "- Cơ hội xuất hiện ['concept_astral_rift', $ASTRAL_RIFTS$] trong các Hệ Sao Kiểm Soát: §G+100%§!"
+ civic_corporate_dimensional_worship: "Doanh Nghiệp Đa Chiều"
+ civic_corporate_dimensional_worship_desc: "$civic_dimensional_worship_desc$"
+ civic_corporate_dimensional_worship_effects: "$civic_dimensional_worship_effects$ $TABBED_NEW_LINE$- Công trình £building£ §Y$building_xeno_tourism_agency$§! $megacorp_civic_branch_office_building_effect$"
+
+ civic_tooltip_not_dimensional_worship: "KHÔNG có Quốc Thể thuộc nhóm ['concept_dimensional_worship_civics']"
+ concept_dimensional_worship_civics: "Tín Ngưỡng Chiều Không Gian"
+ concept_dimensional_worship_civics_desc: "Các Quốc Thể $concept_dimensional_worship_civics$ bao gồm:\n- ['civic:civic_dimensional_worship']$NEW_LINE$- ['civic:civic_corporate_dimensional_worship']"
+
+ civic_dark_consortium: "Tập Đoàn Vật Chất Tối"
+ civic_dark_consortium_desc: "Sự thấu hiểu sâu sắc cấu trúc vũ trụ cho phép xã hội này khai thác các đặc tính bí ẩn của vật chất tối từ rất lâu trước khi khám phá ra động cơ siêu không gian."
+ civic_dark_consortium_effects: "$t$- $ADDITIONAL_TECHNOLOGIES_STRING$$TABBED_NEW_LINE$$t$- ['technology:tech_mine_dark_matter', £physics£$tech_mine_dark_matter$] $TABBED_NEW_LINE$- Tiếp cận ['concept_dark_matter_edicts'] $TABBED_NEW_LINE$- Có quyền tiếp cận Nghị Trình Hội Đồng §Y$council_agenda_agenda_dark_matter_breakthrough_name$§!."
+
+ concept_dark_matter_edicts: "Đạo Luật Vật Chất Tối"
+ concept_dark_matter_edicts_desc: "- ['edict:baryonic_insight', $edict_baryonic_insight$]\n- ['edict:dark_matter_forging', $edict_dark_matter_forging$]\n- ['edict:dark_matter_unravelling', $edict_dark_matter_unravelling$]\n- ['edict:shadow_matrix', $edict_shadow_matrix$]"
+ civic_corporate_dark_consortium: "Công Ty Bóng Tối"
+ civic_corporate_dark_consortium_desc: "$civic_dark_consortium_desc$"
+ civic_corporate_dark_consortium_effects: "$civic_dark_consortium_effects$ $TABBED_NEW_LINE$- Công trình £building£ §Y$building_private_research_initiative$§! $megacorp_civic_branch_office_building_effect$"
+
+ civic_tooltip_not_dark_consortium: "KHÔNG có Quốc Thể thuộc nhóm ['concept_dark_consortium_civics']"
+ concept_dark_consortium_civics: "Tập Đoàn Vật Chất Tối"
+ concept_dark_consortium_civics_desc: "Các Quốc Thể $concept_dark_consortium_civics$ bao gồm:\n- ['civic:civic_dark_consortium']$NEW_LINE$- ['civic:civic_corporate_dark_consortium']"
+
+ civic_sovereign_guardianship: "Hộ Vệ Chủ Quyền"
+ civic_sovereign_guardianship_desc: "Tập hợp các bộ tộc từng chinh chiến này đã phát triển một sự ưu tiên lịch sử dành cho các lãnh thổ cố thủ và thế trận phòng thủ vững chắc. Nay đã thống nhất, họ sẵn sàng mang triết lý này vươn ra các vì sao, hướng tới việc giữ vững biên cương và xoa dịu căng thẳng."
+ civic_sovereign_guardianship_effects: "Mở khóa §Y$fanatic_guardian_plural$§! làm quân đội phòng thủ.\n$civic_sovereign_guardianship_effects_common$"
+ civic_hive_sovereign_guardianship: "Cụm Hộ Vệ"
+ civic_hive_sovereign_guardianship_desc: "Tập thể này đã phát triển một sự ưu tiên lịch sử dành cho các lãnh thổ cố thủ và thế trận phòng thủ. Họ sẵn sàng mang triết lý này vươn ra các vì sao, hướng tới việc giữ vững biên cương và xoa dịu căng thẳng."
+ civic_hive_sovereign_guardianship_effects: "Mở khóa §Y$machine_fanatic_guardian_plural$§! làm quân đội phòng thủ.\n$civic_sovereign_guardianship_effects_common$"
+ civic_machine_sovereign_guardianship: "Ma Trận Hộ Vệ"
+ civic_machine_sovereign_guardianship_desc: "Tập thể cơ khí này đã phát triển một sự ưu tiên theo quy trình dành cho các lãnh thổ cố thủ và thế trận phòng thủ vững chắc. Họ sẵn sàng mang chiến lược hiệu quả này vươn ra các vì sao, hướng tới việc giữ vững biên cương và xoa dịu căng thẳng."
+ civic_machine_sovereign_guardianship_effects: "Mở khóa §Y$machine_fanatic_guardian_plural$§! làm quân đội phòng thủ.\n$civic_sovereign_guardianship_effects_common$"
+ civic_corporate_sovereign_guardianship: "Khu Bảo Hộ Doanh Nghiệp"
+ civic_corporate_sovereign_guardianship_desc: "Xã hội gồm các tập đoàn cạnh tranh này đã nhận ra rằng sự bảo vệ tốt nhất cho các khoản đầu tư của họ là một thế trận phòng thủ vững mạnh. Nay đã liên kết, họ sẵn sàng áp dụng triết lý này vào không gian, giữ cho biên giới kiên cố và giảm bớt căng thẳng quân sự."
+ civic_corporate_sovereign_guardianship_effects: "$civic_sovereign_guardianship_effects$"
+ civic_sovereign_guardianship_effects_common: "Cho phép xây dựng một §Y$sm_reloading_bay$§! trong các căn cứ sao.\nKích hoạt §HĐạo Luật§! §Y$edict_inner_focus$§!, chuyển hóa £influence£ §YẢnh Hưởng§! thành £unity£ §YĐoàn Kết§!."
+
+ civic_tooltip_not_guardian: "KHÔNG có Quốc Thể thuộc nhóm ['concept_guardian_civics']"
+ concept_guardian_civics: "Hộ Vệ Chủ Quyền"
+ concept_guardian_civics_desc: "Các Quốc Thể $concept_guardian_civics$ bao gồm:\n- ['civic:civic_sovereign_guardianship']$NEW_LINE$- ['civic:civic_corporate_sovereign_guardianship']$NEW_LINE$- ['civic:civic_hive_sovereign_guardianship']$NEW_LINE$- ['civic:civic_machine_sovereign_guardianship']"
+
+ fanatic_guardian: "Vệ Binh Cuồng Tín"
+ fanatic_guardian_plural: "Vệ Binh Cuồng Tín"
+ fanatic_guardian_desc: "Những người bảo vệ kiên cường của quê hương, những người lính không thể lay chuyển này chiến đấu hiệu quả nhất khi bảo vệ những người mà họ có mối quan hệ gắn bó máu thịt."
+
+ machine_fanatic_guardian: "Đơn Vị Ma Trận"
+ machine_fanatic_guardian_plural: "Đơn Vị Ma Trận"
+ machine_fanatic_guardian_desc: "Những máy bay không người lái bảo vệ mang tính sát thương cao này hoạt động hiệu quả nhất khi được duy trì ở khoảng cách gần với tất cả các nút chiến lược khác."
+
+ ##########
+ # Edicts #
+ ##########
+
+ edict_shadow_matrix: "Ma Trận Bóng Tối"
+ edict_shadow_matrix_desc: "Màn sương điện tử do các đơn vị xử lý vật chất tối tạo ra sinh ra phần mềm mà ngay cả những chuyên gia giải mã tài ba nhất cũng phải bó tay."
+
+ edict_obsidian_veil: "Màn Che Hắc Diệu Thạch"
+ edict_obsidian_veil_desc: "Để ẩn mình trong rừng, người ta khoác lên mình màu đất. Để ẩn mình trong vũ trụ, người ta khoác lên mình màu hư không."
+
+ edict_dark_matter_forging: "Rèn Vật Chất Tối"
+ edict_dark_matter_forging_desc: "Đặc tính liên kết độc nhất của vật chất tối đóng vai trò chất trợ dung trong các xưởng đúc của chúng ta giúp nâng cao sản lượng một cách rõ rệt."
+
+ edict_dark_matter_unravelling: "Tháo Dỡ Vật Chất Tối"
+ edict_dark_matter_unravelling_desc: "Năng lượng chứa bên trong các liên kết do vật chất tối tạo ra có thể được tháo dỡ để mang lại nguồn sản lượng giá trị."
+
+ edict_inner_focus: "Nội Quan Tâm Pháp"
+ edict_inner_focus_desc: "Mở rộng bờ cõi quá mức sẽ mang lại vô vàn rủi ro. Thấu hiểu chính mình là một nỗ lực đáng tin cậy và hiệu quả hơn nhiều."
+
+ edict_baryonic_insight: "Hiểu Biết Về Baryon"
+ edict_baryonic_insight_desc: "Để có được sự thấu hiểu sâu sắc hơn về kết cấu vũ trụ, chúng ta phải nhìn vượt ra ngoài khái niệm nguyên tử thông thường."
+
+#######################
+# Councilor Positions #
+#######################
+
+ councilor_hyperspace_specialty: "Giám Sát Viên Siêu Không Gian"
+ councilor_hyperspace_specialty_female: "$councilor_hyperspace_specialty$"
+ councilor_hyperspace_specialty_desc: "$TITLE$ giúp đảm bảo sự an toàn và an ninh cho mạng lưới hậu cần liên sao của chúng ta."
+ councilor_hyperspace_specialty_custom_modifier_desc: "Mỗi công trình căn cứ sao §Y$sm_warp_fluctuator$§! cũng cung cấp §G+$@councilor_hyperspace_specialty_warp_fluctuator_stability$§! £stability£ Độ Ổn Định"
+ councilor_hyperspace_specialty_corporate: "$councilor_hyperspace_specialty$"
+ councilor_hyperspace_specialty_corporate_female: "$councilor_hyperspace_specialty_corporate$"
+ councilor_hyperspace_specialty_corporate_desc: "$councilor_hyperspace_specialty_desc$"
+ councilor_dimensional_worship: "Bộ Trưởng Tinh Giới"
+ councilor_dimensional_worship_female: "$councilor_dimensional_worship$"
+ councilor_dimensional_worship_desc: "$TITLE$ thống nhất giới tăng lữ dưới một tầm nhìn chỉ đạo duy nhất nhằm phục vụ nhân dân tốt hơn."
+ councilor_dimensional_worship_corporate: "$councilor_dimensional_worship$"
+ councilor_dimensional_worship_corporate_female: "$councilor_dimensional_worship_corporate$"
+ councilor_dimensional_worship_corporate_desc: "$councilor_dimensional_worship_desc$"
+
+ councilor_dark_consortium: "Người Dệt Bóng Tối"
+ councilor_dark_consortium_female: "$councilor_dark_consortium$"
+ councilor_dark_consortium_desc: "Nhiệm vụ của $TITLE$ là kiểm kê từng đơn vị vật chất tối, đảm bảo không một hạt vật chất nào bị lãng phí."
+ councilor_dark_consortium_corporate: "Môi Giới Bóng Đêm"
+ councilor_dark_consortium_corporate_female: "$councilor_dark_consortium_corporate$"
+ councilor_dark_consortium_corporate_desc: "$councilor_dark_consortium_desc$"
+
+ councilor_sovereign_guardianship: "Đệ Nhất Pháo Đài"
+ councilor_sovereign_guardianship_female: "$councilor_sovereign_guardianship$"
+ councilor_sovereign_guardianship_desc: "Là một chuyên gia được kính trọng trong việc bảo vệ quê hương, $TITLE$ chịu trách nhiệm về an toàn và bảo trì tất cả các công sự phòng thủ của chúng ta."
+ councilor_sovereign_guardianship_corporate: "Bộ Trưởng Quốc Phòng"
+ councilor_sovereign_guardianship_corporate_female: "$councilor_sovereign_guardianship_corporate$"
+ councilor_sovereign_guardianship_corporate_desc: "Là một chuyên gia được kính trọng trong việc bảo vệ quê hương, $TITLE$ chịu trách nhiệm về kế toán và hậu cần cho tất cả các công sự phòng thủ của chúng ta."
+
+##########
+# Relics #
+##########
+
+ r_infinity_root: "Cội Rễ Vô Cực"
+ r_infinity_root_desc: "Một cụm vật chất hữu cơ phát triển và bành trướng mạnh mẽ bất kể được đặt ở nơi đâu."
+ infinity_root_active_effect_tt: "Nuôi dưỡng một nhà lãnh đạo mới. Họ sẽ không tốn phí duy trì và không tính vào giới hạn số lượng lãnh đạo của bạn."
+
+ r_time_crystal: "Pha Lê Thời Gian"
+ r_time_crystal_desc: "Một buồng pha lê được niêm phong chứa một vòng lặp thời gian cô lập."
+
+ r_daedalus_seal: "Phong Ấn Daedalus"
+ r_daedalus_seal_desc: "Thiết bị tân tiến này có thể dao động ở tần số cộng hưởng với các nếp gấp không-thời gian lân cận, tạm thời phong tỏa chúng."
+ daedalus_seal_active_effect_tt: "Đặt một Khóa lên tất cả các Lỗ Sâu và Cổng L-Gate bên trong biên giới của bạn trong §Y5§! năm."
+ daedalus_seal_active_effect_nomads_tt: "Đặt một Khóa lên tất cả các Lỗ Sâu và Cổng L-Gate trong cùng hệ sao với Tàu Phương Chu của chúng ta trong §Y5§! năm."
+ daedalus_seal_acquisition_tt: "Thời lượng Khóa Thứ Nguyên: §G+25%§!"
+ daedalus_seal_no_bypasses_fail: "$TRIGGER_FAIL$Không có lỗ sâu hoặc cổng L-gate nào bên trong biên giới của bạn."
+ MOD_DIMENSIONAL_LOCK_DURATION_MULT: "Thời lượng Khóa Thứ Nguyên"
+
+ r_ever_spinning_top: "Con Quay Vĩnh Cửu"
+ r_ever_spinning_top_desc: "Một con quay xuất xứ từ chiều không gian khác. Chuyển động của nó liền mạch, đầy mê hoặc; một chuyển động hoàn hảo kéo dài bất tận."
+ ever_spinning_top_modifier: "Chuyển Động Vĩnh Cửu"
+
+ r_celestial_tear: "Lệ Thiên Thể"
+ r_celestial_tear_desc: "Một mẫu giọt lệ tinh giới từ một thiên thể đang than khóc. Càng đặt gần một ngôi sao đang hoạt động, nó càng tỏa sáng rực rỡ."
+ celestial_tear_modifier: "$r_celestial_tear$"
+ celestial_tear_acquisition_tt: "Khả năng sinh sống của các hành tinh trong biên giới quay quanh các sao loại §YA§!, §YB§!, §YF§!, và §YG§!: §G+5%§!"
+ celestial_tear_acquisition_nomads_tt: "Khả năng sinh sống của Tàu Phương Chu trong các hệ sao có sao loại §YA§!, §YB§!, §YF§!, và §YG§!: §G+5%§!"
+
+ r_plasmic_core: "Lõi Plasma"
+ r_plasmic_core_desc: "Nhân của một tế bào khổng lồ từ một chiều không gian xa lạ. Một lời nhắc nhở về sự đa dạng vô tận của sự sống hữu cơ."
+ machine_plasmic_core_effect: "Trao cho một nhà lãnh đạo ngẫu nhiên 3 đặc điểm tích cực ngẫu nhiên."
+ plasmic_core_effect: "Mọi dân số trên một thuộc địa ngẫu nhiên nhận được đặc điểm §Y$trait_plasmic$§!."
+ plasmic_core_no_suitable_planet: "$TRIGGER_FAIL$§RKhông có thuộc địa khả dụng nào thiếu cư dân sở hữu đặc điểm §Y$trait_plasmic$§!.§!"
+ plasmic_core_effect_evopred: "Cung cấp §G50%§! tiến độ cho tình huống §Y$evolutionary_predators_situation$§!. Ngoài ra đặc điểm §Y$trait_plasmic$§! có thể được thêm vào khi hoàn thành."
+
+ effect_random_bypass: "Lối Tắt Ngẫu Nhiên"
+ effect_every_bypass: "Mọi Lối Tắt"
+ any_bypass_trigger: "Bất Kỳ Lối Tắt Nào"
+ count_bypass_trigger: "Số Lượng Lối Tắt$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
+ count_bypass_all_trigger: "$IS_ALL_NOT$ Lối Tắt thỏa mãn các điều kiện sau"
+
+ effect_random_astral_rift: "Khe Nứt Tinh Giới Ngẫu Nhiên"
+ effect_every_astral_rift: "Mọi Khe Nứt Tinh Giới"
+ any_astral_rift_trigger: "Bất Kỳ Khe Nứt Tinh Giới Nào"
+ count_astral_rift_trigger: "Số Lượng Khe Nứt Tinh Giới$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
+ count_astral_rift_all_trigger: "$IS_ALL_NOT$ Khe Nứt Tinh Giới thỏa mãn các điều kiện sau"
+
+ r_continuum: "Liên Thể"
+ r_continuum_desc: "Lõi hoàng kim của một cơ cấu định thời xuyên chiều không gian, thiết bị phi thường này có khả năng thao túng thời gian tựa như một bánh răng khác trong bộ máy của nó."
+
+ r_eternal_throne: "Ngai Vàng Vĩnh Cửu"
+ r_eternal_throne_desc: "Một bến đỗ ngoại chiều có khả năng ban phát sự sống trường sinh. Những ai được chạm vào bởi ảnh hưởng của nó sẽ tồn tại trong một thực tại không còn sợ hãi, hoài nghi hay hồi kết."
+ eternal_throne_active_effect_tt: "Tất cả các nhà lãnh đạo trở nên bất tử."
+ eternal_throne_modifier: "Hòa Nhịp Tinh Giới"
+
+##############
+# Situations #
+##############
+
+ situation_crystal_sphere_desc: "Một vật thể bí ẩn đã xuất hiện. Chúng ta tin rằng các cuộc thám hiểm vào khe nứt không-thời gian đã thu hút sự chú ý của một ai đó, hoặc một thứ gì đó."
+ rift_sphere_missing: "Chúng ta không sở hữu công nghệ §Y$tech_rift_sphere$§! cần thiết để tiếp tục nghiên cứu một cách chuẩn xác."
+ formless_seal_defeat_all_fleets: "Chúng ta phải tiêu diệt những kẻ xâm lược cuối cùng để Kẻ Vô Dạng có thể phong ấn hệ sao [Root.Target.GetName] một cách hoàn chỉnh"
+ galactic_object: "Hệ Sao"
+
+ situation_destroy_crystal_sphere: "Phá Hủy Khối Cầu Pha Lê"
+ situation_destroy_crystal_sphere_type: "$situation_destroy_crystal_sphere$"
+ situation_destroy_crystal_sphere_desc: "$situation_crystal_sphere_desc$"
+ situation_destroy_crystal_sphere_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_destroy_crystal_sphere_mechanical: "Phương Pháp Cơ Học"
+ approach_situation_destroy_crystal_sphere_mechanical_tt: "Các kỹ sư của chúng ta tin rằng nếu kích nổ một chuỗi khối thuốc nổ có kiểm soát, chúng ta sẽ tạo ra một tần số cộng hưởng làm vỡ vụn hoàn toàn khối cầu pha lê."
+ situation_destroy_crystal_sphere_astral: "Phương Pháp Tinh Giới"
+ approach_situation_destroy_crystal_sphere_astral_tt: "Sợi tinh giới có thể len lỏi vào bên trong cấu trúc tinh thể của thiết bị này để làm suy yếu nó từ bên trong."
+ destroy_mechanical_agitation: "Phương Pháp Cơ Học"
+ destroy_astral_method: "Phương Pháp Tinh Giới"
+
+ finisher_effects_destroy: "Nếu chúng ta thành công phá hủy thiết bị này, chúng ta sẽ có thể khai thác các vật liệu cấu thành của nó, đồng thời loại trừ mọi mối nguy hiểm tiềm tàng đối với đế chế."
+
+ situation_study_crystal_sphere: "Nghiên Cứu Khối Cầu Pha Lê"
+ situation_study_crystal_sphere_type: "Nghiên Cứu Khối Cầu Pha Lê"
+ situation_study_crystal_sphere_desc: "$situation_crystal_sphere_desc$"
+ situation_study_crystal_sphere_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_study_crystal_sphere_observe: "Quan Sát Và Báo Cáo"
+ approach_situation_study_crystal_sphere_observe_tt: "Thiết bị này dường như đang tự căn chỉnh một cách chậm rãi. Chúng ta tin rằng theo thời gian, nó sẽ hoàn thành mục đích vốn có trong thiết kế."
+ situation_study_crystal_sphere_mundane: "Phương Pháp Thông Thường"
+ approach_situation_study_crystal_sphere_mundane_tt: "Nếu dành đủ nỗ lực nghiên cứu khoa học để khai mở tiềm năng của thiết bị này, chúng ta tin rằng có thể đẩy nhanh tốc độ kích hoạt của nó."
+ situation_study_crystal_sphere_astral: "Phương Pháp Tinh Giới"
+ approach_situation_study_crystal_sphere_astral_tt: "Sợi tinh giới dường như kích thích thiết bị này. Càng để nó tiếp xúc nhiều, nó sẽ càng kích hoạt nhanh hơn."
+ study_observe_method: "Thiết bị dường như đang tự căn chỉnh chậm rãi theo một phương thức có chủ đích. Chúng ta tin rằng theo thời gian, nó sẽ hoàn thành mục tiêu thiết kế ban đầu."
+ study_mundane_method: "Nếu chúng ta dành đủ nghiên cứu khoa học để khai phá tiềm năng của thiết bị này, chúng ta tin rằng có thể đẩy nhanh tốc độ kích hoạt của nó."
+ study_astral_method: "Sợi tinh giới dường như kích thích thiết bị. Chúng ta càng cho tiếp xúc nhiều, nó kích hoạt càng nhanh."
+ finisher_effects_study: "Chúng ta không chắc thiết bị này ẩn chứa những bí mật gì.\n\nChúng ta lạc quan một cách thận trọng rằng mình có thể thúc đẩy xã hội tiến xa hơn sau khi mổ xẻ cấu trúc của nó."
+
+ situation_the_seal: "Phong Ấn"
+ situation_the_seal_type: "Phong Ấn"
+ situation_the_seal_desc: "Đang bị tấn công bởi một thế lực chưa rõ, các thực thể hiện đang cư ngụ tại trung tâm thiên hà đã yêu cầu chúng ta trợ giúp. Nếu họ sụp đổ, chúng ta khó lòng lường trước số phận của chính mình."
+ situation_the_seal_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_the_seal_do_nothing: "Không Can Thiệp"
+ approach_situation_the_seal_do_nothing_tt: "Chúng ta sẽ không thực hiện hành động đặc biệt nào tại đây."
+ situation_the_seal_weave_astral_fabric: "Dệt Kết Cấu Tinh Giới"
+ approach_situation_the_seal_weave_astral_fabric_tt: "§G+50%§! Điểm Máu Khiên cho tất cả tàu đồng minh tại hệ sao §H$NAME_Formless_System$§!."
+ situation_the_seal_pump_exotic_gases: "Bơm Khí Hiếm Ngoại Lai"
+ approach_situation_the_seal_pump_exotic_gases_tt: "§G+10%§! Sát Thương Vũ Khí Năng Lượng cho tất cả tàu đồng minh tại hệ sao §H$NAME_Formless_System$§!."
+ finisher_effects_the_seal: "Chúng ta không chắc kết quả sẽ ra sao nếu chọn cứu giúp các sinh mệnh này."
+ the_seal_do_nothing_method: "Chúng ta sẽ để cuộc xung đột này diễn ra mà không can thiệp."
+ the_seal_weave_method: "Nếu chuyển giao các sợi tinh giới thu hồi được cho các sinh mệnh này, họ có thể dùng chúng để gia cố lá chắn của mình."
+ the_seal_pump_method: "Khí hiếm ngoại lai có hiệu ứng khuếch đại trong bong bóng tồn tại kỳ lạ này. Chúng ta có thể dùng nó để cường hóa hỏa lực."
+ the_seal_weave_astral_fabric_modifiers: "Nếu chúng ta chuyển giao sợi tinh giới đã thu hồi cho các sinh mệnh này, họ có thể vận dụng hiểu biết sâu rộng về đặc tính của nó để tăng cường lá chắn."
+ the_seal_pump_exotic_gases_modifier: "Khí hiếm ngoại lai có hiệu ứng khuếch đại trong bong bóng tồn tại kỳ lạ này. Chúng ta có thể dùng nó để cường hóa hỏa lực."
+ destroy_sphere_modifier: "Hòa Bình Trong Thứ Nguyên Này"
+ aberrant_fleet_spawn_countdown: "Hạm đội Kẻ Lạc Lối tiếp theo sẽ xuất hiện sau [this.days_before_spawn] ngày."
+
+ astral_situation.1.name: "Khối Cầu Pha Lê Bị Phá Hủy"
+ astral_situation.1.desc: "Mọi việc đã xong.\n\nKhối Cầu Pha Lê đã bị đập vỡ thành vô số mảnh vụn lấp lánh.\n\nChúng ta lập tức thu hoạch lượng lớn vật liệu quý giá. Các nguyên tố cơ bản của nó không giống bất cứ thứ gì chúng ta từng chạm trán trước đây.\n\nNgười dân đang ăn mừng quyết định táo bạo nhằm bảo vệ sự an nguy của quê nhà. Cho phép một thiết bị như vậy tồn tại trong biên giới quả là một sự vô trách nhiệm."
+
+ astral_situation.5.name: "Công Tác Nghiên Cứu Kết Thúc"
+ astral_situation.5.desc: "Đó là một thông điệp.\n\nĐược mã hóa bên trong một mạng lưới tinh thể bất khả thi, có một tập hợp các chỉ dẫn.\n\nLàm theo từng câu từng chữ, chúng ta đã tái tạo được những điều kiện được khắc ghi quanh khối cầu pha lê. Sự sắp xếp chuẩn xác giữa các luồng khí và sợi tinh giới đã giúp 'kích hoạt' khối cầu.\n\nNgay sau đó, nó biến mất không dấu vết. Thay vào vị trí đó, một Khe Nứt Tinh Giới chưa từng thấy ngưng tụ hiện hình.\n\nSự hiện diện của nó vẫy gọi chúng ta bước vào thám hiểm."
+
+ astral_planes.15.name: "Khối Cầu Pha Lê"
+ astral_planes.15.desc.default: "Một vật thể kỳ lạ đã xuất hiện trên quỹ đạo của [Root.Capital.GetName].\n\nVật thể hình cầu bằng tinh thể này gợi nhớ tới công nghệ §Y$tech_rift_sphere$§! của chúng ta, nó xuất hiện bất thình lình mà không có quỹ đạo bay nào được ghi nhận trước đó.\n\nDo ở quá gần [Root.Capital.GetName], khối cầu này có thể tạo ra mối đe dọa to lớn cho người dân của chúng ta.\n\nMặt khác, rất có khả năng nó ẩn chứa những hiểu biết vô giá về bản chất của du hành xuyên chiều không gian."
+ astral_planes.15.desc.win: "Chúng ta đã nắm quyền kiểm soát một vật thể kỳ lạ trên quỹ đạo của [crystal_sphere_system.GetName].\n\nĐó là một vật thể hình cầu bằng tinh thể tương tự nhất với công nghệ §Y$tech_rift_sphere$§! mà chúng ta đã phát triển để thám hiểm các chiều không gian khác.\n\nNó có thể đem lại mối nguy hiểm khôn lường cho đế chế.\n\nMặt khác, chúng ta tin rằng nó có thể ẩn chứa những hiểu biết giá trị về du hành đa chiều."
+ astral_planes.15.desc.win_delayed: "Dựa trên những nghiên cứu gần đây về Khe Nứt Tinh Giới, chúng ta phát hiện vật thể hình cầu bằng tinh thể tại [crystal_sphere_system.GetName] có nhiều điểm tương đồng với công nghệ §Y$tech_rift_sphere$§! mà chúng ta từng chế tạo.\n\nNó có thể đem lại mối nguy hiểm lớn chưa từng biết cho đế chế.\n\nMặt khác, chúng ta tin rằng nó có thể chứa đựng những hiểu biết giá trị về du hành đa chiều."
+ astral_planes.15.a: "Nghiên cứu nó."
+ astral_planes.15.b: "Phá hủy nó."
+
+ astral_planes.30.name: "Một Khối Cầu Kỳ Lạ"
+ astral_planes.30.desc: "Chúng ta đã giành quyền kiểm soát một vật thể lạ trên quỹ đạo của [crystal_sphere_system.GetName].\n\nChúng ta chưa rõ mục đích hay nguồn gốc của nó. Có lẽ với những nghiên cứu trong tương lai, chúng ta có thể hiểu được cách tiếp cận nó."
+ astral_planes.30.a: "Chúng ta sẽ để mắt tới nó."
+
+###########
+# Systems #
+###########
+
+ pc_rift_star: "Vết Sẹo Tinh Giới"
+ pc_rift_star_plural: "Vết Sẹo Tinh Giới"
+ pc_rift_star_desc: "Thay vì quay quanh một ngôi sao, các thiên thể trong hệ sao này lại quay quanh một Khe Nứt Tinh Giới cổ đại."
+ sc_rift_star: "$pc_rift_star$"
+ sc_rift_star_desc: "$sc_rift_star$"
+
+ formless_system_initializer_NAME: "Hệ Sao Azilash"
+ formless_system_initializer_DESC: "Quê hương của Kẻ Vô Dạng, được neo giữ tại đây bằng một phương thức bí ẩn nào đó."
+ NAME_Formless_System_Rift: "Khe Nứt Cổ Đại"
+ NAME_Formless_System: "Azilash"
+ NAME_FORMLESS_SYSTEM_GAS_GIANT: "Yoss"
+ NAME_FORMLESS_SYSTEM_GAIA: "Zeya"
+ NAME_Formless_System_Strange_Wormhole: "Lỗ Sâu Kỳ Lạ"
+
+ MESSAGE_RANDOM_POP_SETTLED_TITLE: "Khởi Đầu Mới"
+ MESSAGE_RANDOM_POP_SETTLED: "Chủng loài mới từ chiều không gian khác đã định cư trên [this.GetName]."
+
+######################################
+# Formless System Countries & Fleets #
+######################################
+
+ NAME_Extradimensional_Scout: "Tàu Trinh Sát Ngoại Chiều"
+ NAME_Extradimensional_Scouts: "Tàu Trinh Sát Ngoại Chiều"
+
+ NAME_Formless: "Kẻ Vô Dạng"
+ NAME_Formless_Anchor: "Mỏ Neo Ngoại Chiều"
+
+ NAME_Formless_Aberrant_Invader_Battleship: "Thiết Giáp Hạm Kẻ Xâm Lược Ngoại Chiều"
+ NAME_Formless_Aberrant_Invader_Cruiser: "Tuần Dương Hạm Kẻ Xâm Lược Ngoại Chiều"
+ NAME_Formless_Aberrant_Invaders: "Kẻ Xâm Lược Ngoại Chiều"
+ NAME_Formless_Cruiser: "Tuần Dương Hạm Ngoại Chiều"
+ NAME_Formless_Defense: "Hạm Đội Phòng Thủ Kẻ Vô Dạng"
+
+ NAME_Extradimensional_Defenders: "Tàu Phòng Thủ Ngoại Chiều"
+ NAME_Extradimensional_Defender: "Tàu Phòng Thủ Ngoại Chiều"
+
+############
+# Deposits #
+############
+
+ d_astral_threads_deposit_1: "£astral_threads£ §Y+1§!"
+ d_astral_threads_deposit_2: "£astral_threads£ §Y+2§!"
+ d_astral_threads_deposit_3: "£astral_threads£ §Y+3§!"
+ d_crystal_rift: "£unity£ §Y+10§! và £physics£ §Y+10§!"
+ d_physics_25: "£physics£ +25"
+ d_engineering_25: "£engineering£ +25"
+ d_society_25: "£society£ +25"
+
+ d_hab_astral_threads_1: "Mỏ Sợi Tinh Giới"
+ d_hab_astral_threads_1_desc: "Khu $habitat_complex$ này được xây dựng gần một mỏ Sợi Tinh Giới có thể khai thác được."
+ d_hab_astral_threads_2: "$d_hab_astral_threads_1$"
+ d_hab_astral_threads_2_desc: "$d_hab_astral_threads_1_desc$"
+ d_hab_astral_threads_3: "$d_hab_astral_threads_1$"
+ d_hab_astral_threads_3_desc: "$d_hab_astral_threads_1_desc$"
+
+###############################
+# Formless System Event Chain #
+###############################
+
+ formless_country_modifier: "$NAME_Formless$"
+
+ STRANGE_WORMHOLE: "Lỗ Sâu Kỳ Lạ"
+ STRANGE_WORMHOLE_DESC: "Hệ sao này chứa một §Y$STRANGE_WORMHOLE$§! kết nối tới $DEST|Y$"
+ STRANGE_WORMHOLE_DESC_UNEXPLORED: "Hệ sao này chứa một §Y$STRANGE_WORMHOLE$§! §Rchưa thám hiểm§!"
+ STRANGE_WORMHOLE_ACCESS_DENIED: "$TRIGGER_FAIL$§RMột thế lực bên ngoài đang ngăn cản chúng ta tiến vào.§!"
+ BYPASS_STRANGE_WORMHOLE: "$STRANGE_WORMHOLE$"
+ BYPASS_NAME_STRANGE_WORMHOLE: "$STRANGE_WORMHOLE$ $SYSTEM$"
+ BYPASS_DESC_STRANGE_WORMHOLE: "Chúng ta chưa từng thấy loại lỗ sâu này trước đây."
+ BYPASS_DESC_UNKNOWN_STRANGE_WORMHOLE: "$BYPASS_DESC_STRANGE_WORMHOLE$"
+ ENTRY_BYPASS_STARLIT_STRANGE_WORMHOLE: "$BYPASS_TYPE$"
+ EXIT_BYPASS_STARLIT_STRANGE_WORMHOLE: "$BYPASS_TYPE$"
+ ENTRY_BYPASS_STRANGE_WORMHOLE: "$BYPASS_TYPE$"
+ EXIT_BYPASS_STRANGE_WORMHOLE: "$BYPASS_TYPE$"
+
+ astral_planes.45.name: "$STRANGE_WORMHOLE$"
+ astral_planes.45.desc.event_chain_owner: "Một lỗ sâu dị thường đã xuất hiện gần §HKhe Nứt Tinh Thể§!, tại §H[From.GetName]§!.\n\nChúng ta chỉ có thể phỏng đoán rằng đó là một cánh cổng do Kẻ Vô Dạng mở ra để tìm kiếm sự cứu viện. Chúng ta phát hiện hệ sao ở bờ bên kia đã bị kéo vào chiều không gian của chúng ta từ một nơi nào đó.\n\nChúng ta nên chuẩn bị những hạm đội mạnh nhất nếu quyết định bước chân vào nơi này."
+ astral_planes.45.desc.locked: "Chúng ta đã phát hiện một lỗ sâu dị thường. Bất kể tàu thuyền cố gắng tiếp cận gần đến mức nào, chúng ta đều bị đẩy lùi bởi một lực lượng vô hình. Điều gì đó rất kỳ lạ đang diễn ra tại hệ sao §H[From.GetName]§!."
+ astral_planes.45.desc.unlocked: "Chúng ta đã phát hiện một lỗ sâu dị thường tại §H[From.GetName]§!. Cảm biến phát hiện nó dẫn thẳng tới tâm của thiên hà. Làm sao có thể như vậy được?"
+
+ astral_planes.50.name: "$STRANGE_WORMHOLE$"
+ astral_planes.50.desc: "Lỗ sâu dị thường mà chúng ta phát hiện trong hệ sao §H[crystal_sphere_system.GetName]§! đang biến động dữ dội. Cảm biến phát hiện nó là một lối đi thẳng tới trung tâm của thiên hà.\n\nLàm sao điều đó lại khả thi?"
+
+ astral_planes.3000: "Chúng Ta Đang Ở Đâu?"
+ astral_planes.3000.desc: "Bờ bên kia của lỗ sâu này dường như đã đưa chúng ta tới... trung tâm thiên hà ư?\n\nLẽ ra chúng ta không thể tồn tại ở nơi này, huống chi là cả một hệ sao nguyên vẹn. Liệu có phải một sự thao túng chiều không gian nào đó đang diễn ra?\n\nChúng ta không có nhiều thời gian để điều tra, vì đang nhận được các tín hiệu truyền phát từ một thực thể chưa rõ."
+
+ astral_planes.3005.desc: "thứ gì thế này... những kẻ ngu xuẩn nào mà ngươi đem tới trợ lực thế hả, shadagon? hay là... ngươi đem dâng thức ăn cho chúng ta..."
+ astral_planes.3005.a: "Chúng ta bị dụ đến đây làm con mồi sao?"
+
+ astral_planes.3015: "Những Kẻ Truyền Tin"
+ astral_planes.3015.desc: "Các hạm đội của chúng ta đã đánh bại những con tàu kỳ lạ canh gác khe nứt này, nhưng dường như chúng không hề đơn độc.\n\nChúng ta vừa nhận được một tín hiệu truyền tin từ các sinh mệnh đang cư ngụ trong một kiến trúc gần hành tinh đơn độc trong hệ sao này."
+
+ astral_planes.3020.desc: "nhiều kẻ khác đang tới... chúng ta phải phong ấn khe nứt này... chúng ta là những kẻ duy nhất còn sót lại..."
+ astral_planes.3020.a: "Nhiều kẻ khác đang tới ư?"
+
+ astral_planes.3050.desc: "chúng ta là những kẻ duy nhất còn sót lại... chúng ta phải tái thiết... chúng ta cần thêm thời gian..."
+ astral_planes.3050.a: "Các người có thể tận dụng §Ythứ này§! không?"
+ astral_planes.3050.a.tt: "Nếu chúng ta cung cấp một lượng lớn sợi tinh giới, các sinh vật này chắc chắn có thể gia cố năng lực phòng thủ của họ."
+ number_formless_fleet_max_reached: "Kẻ Vô Dạng không còn hạm đội nào."
+ astral_planes.3050.b: "Bỏ đi."
+
+ astral_planes.3070.desc: "cuối cùng... sự thoái vị... xiềng xích của chúng ta đã vỡ... hãy chứng kiến sự thăng hoa của chúng ta... chúng ta sẽ tìm thấy những gì họ đã giấu kín..."
+ astral_planes.3070.a: "Chúng ta phải rút lui."
+ astral_planes.3070.a.tt: "Các sinh mệnh được gọi là Kẻ Vô Dạng đã bị hủy diệt bởi những kẻ tấn công từ một chiều không gian khác. Cánh cổng dẫn vào hệ sao $NAME_Formless_System$ đã bị niêm phong vĩnh viễn."
+
+ astral_planes.3100.desc: "§HTrong trạng thái biến chuyển liên hồi, hình dạng hữu hình của thực thể này chập chờn giữa thực tại này và thực tại khác. Giọng nói của họ vang vọng như một bản hòa âm đa tầng, tựa như nhiều sinh mệnh đang đồng thanh cất lời.§!\n\n... xong rồi... phong ấn đã hoàn tất... con cái chúng ta sẽ không bao giờ tìm thấy nơi này nữa..."
+ astral_planes.3100.a: "Các người là ai?"
+ astral_planes.3100.a.desc: "các bạn biết chúng ta... chúng ta vượt trên những khe nứt... và thuộc về những khe nứt... các bạn đã từng thấy..."
+ astral_planes.3100.b: "Vì sao các người lại ở đây?"
+ astral_planes.3100.b.desc: "con cái chúng ta... những đứa con tan vỡ... săn lùng chúng ta... chúng tìm kiếm ngai vàng... chúng ta giấu nó đi..."
+ astral_planes.3100.c: "\"Ngai Vàng\" này là gì?"
+ astral_planes.3100.c.desc: "sự vĩnh cửu của chúng ta... ký ức của chúng ta... nếu chúng ta là dòng máu... thì nó chính là trái tim... giờ đây an toàn rồi... chúng ta cảm ơn các bạn..."
+ astral_planes.3100.d: "§YHãy quy phục dưới quyền chúng ta, các ngươi sẽ được tiếp tục sinh tồn.§!"
+ formless_subjugation_path_success_tt: "§Y$NAME_Formless$§! trở thành một thuộc quốc dưới quyền §Y[This.GetName]§! với tư cách là một §Y$preset_luminarium$§!."
+ astral_planes.3100.e: "§RGiao \"Ngai Vàng\" mà các người vừa nhắc tới cho chúng ta.§!"
+ astral_planes.3100.f: "Hãy cùng nhau hợp tác."
+ astral_planes.3101.desc: "điều này đã được tiên liệu... chúng ta sẽ phụng sự các bạn... đây là định mệnh của chúng ta..."
+ astral_planes.3102.desc.fail: "chúng ta đã nhìn nhầm các bạn... nỗi bi thương tột cùng... hãy để nó kết thúc..."
+ astral_planes.3102.desc: "ngai vàng vĩnh cửu... không phải thứ để các bạn đoạt lấy...\n$astral_planes.3102.desc.fail$"
+ astral_planes.3102.a: "Cứ thế đi."
+
+ astral_planes.3110.desc: "lòng biết ơn... sự an toàn... phần thưởng..."
+ astral_planes.3110.a: "Chúng ta cần §Ysức mạnh§! của các bạn."
+ astral_planes.3110.a.tt: "Trao một hạm đội Kẻ Vô Dạng dưới quyền kiểm soát của bạn."
+ astral_planes.3110.b: "Chúng ta cần §Ytri thức§! của các bạn."
+ astral_planes.3110.b.tt: "Ban một công nghệ vật lý ngẫu nhiên."
+ astral_planes.3110.c: "Chúng ta cần §Ysợi tinh giới§! của các bạn."
+ astral_planes.3110.d: "Các người đã cử ai tới phục vụ chúng ta?"
+ astral_planes.3110.d.desc: "§Y$NAME_Formless_leader$§!... kiến trúc sư của ngai vàng vĩnh cửu...\n\nchính người đó đã dành hàng thiên niên kỷ để kiến tạo nên nó...\n\nmột thiết bị gắn kết chúng ta thành một thể... tinh xảo và vĩnh viễn...\n\nngười đó là thích hợp nhất để phụng sự các bạn...\n\nkhông còn ai thông tuệ hơn thế nữa..."
+ astral_planes.3110.e: "\"Kẻ Xâm Lăng (Unbidden)\" là ai?"
+ astral_planes.3110.f: "\"Kẻ Lạc Lối (Aberrant)\" là ai?"
+ astral_planes.3110.g: "\"Kẻ Cuồng Tín (Vehement)\" là ai?"
+ astral_planes.3110.h: "§Y$NAME_Formless_leader$§! đã ngã xuống."
+ astral_planes.3110.h.desc: "tiếc thương...\n\nnhưng đã thấy trước...\n\nđịnh mệnh...\n\nchớ bi sầu..."
+
+ astral_planes.3114.desc.unbidden: "shabanash... huyết tộc vụn vỡ... luôn luôn đói khát...\n\nlòng tham của chúng ta... bị khuếch đại...\n\ntội lỗi bị phơi bày ra ánh sáng...\n\nmột nỗi nhục nhã khôn cùng..."
+ astral_planes.3114.desc.aberrant: "dagaal... cuồng loạn... tràn ngập phẫn nộ...\n\ncơn thịnh nộ của chúng ta... hiện hình...\n\nxung đột của chúng sẽ không bao giờ dứt..."
+ astral_planes.3114.desc.vehement: "onzai... những kẻ truy cầu ngai vàng...\n\nsự đố kỵ tột bực...\n\nkhái niệm bị lãng quên của chúng ta..."
+ astral_planes.3114.a: "Họ có điểm yếu nào không?"
+ astral_planes.3114.b: "Chúng ta muốn hỏi điều khác."
+
+ astral_planes.3115.desc.common: "chúng ta biết cách... đó là vấn đề về... tần số...?\n\nngôn ngữ của các bạn không có từ này...\n\nchúng ta cần... vật chất tinh giới..."
+ astral_planes.3115.desc.unbidden: "lòng tham sẽ hủy diệt chúng...\n\n$astral_planes.3115.desc.common$"
+ astral_planes.3115.desc.aberrant: "cơn thịnh nộ của chúng không có tiêu điểm...\n\n$astral_planes.3115.desc.common$"
+ astral_planes.3115.desc.vehement: "dục vọng của chúng là điều điên rồ...\n\n$astral_planes.3115.desc.common$"
+ astral_planes.3115.a: "Chúng ta có thể cung cấp."
+
+ astral_planes.3116.desc: "xong rồi... sự hòa nhịp của các bạn đã hoàn tất..."
+
+ secret_of_the_unbidden_modifier: "Bí Mật Của Kẻ Xâm Lăng"
+ pacification_of_the_aberrant_modifier: "Bình Định Kẻ Lạc Lối"
+ folly_of_the_vehement_modifier: "Sự Điên Rồ Của Kẻ Cuồng Tín"
+
+ astral_planes.3121.desc: "§Y$NAME_Formless_leader$§! của shadagon... sao ngươi lại ở đây...\n\nngươi sẽ là một bữa tiệc thịnh soạn...\n\nhãy tới và nát tan trước chúng ta..."
+ astral_planes.3122.desc: "chúng ta vẫn chưa xong đâu... §Y$NAME_Formless_leader$§! của shadagon...\n\nngươi đã cứu thoát đồng loại... nhưng lại ngu xuẩn theo đuổi... sự ngạo mạn...\n\nhãy chứng kiến cơn thịnh nộ... và rồi chìm vào quên lãng..."
+ astral_planes.3123.desc: "kiến trúc sư... §Y$NAME_Formless_leader$§! của shadagon...\n\nchúng ta sẽ nuốt chửng ngươi... đồng hóa tâm trí ngươi...\n\nbí mật của ngai vàng... món quà vĩ đại ngươi dâng hiến...\n\nhãy gia nhập cùng chúng ta... chúng ta sẽ tôn vinh ngươi..."
+
+ alert_formless_reward_available_title: "Món Quà Kẻ Vô Dạng"
+ alert_formless_reward_available_instant: "Kẻ Vô Dạng đã đề nghị một phần thưởng cho chúng ta."
+ ALERT_FORMLESS_REWARD_AVAILABLE_DETAIL: "Các sinh mệnh ở tâm ngân hà biết ơn sự tương trợ của chúng ta, và hứa sẽ gửi quà tặng định kỳ."
+
+ NAME_Formless_leader: "Zadigal"
+ formless_leader_desc: "Một trong những nhà lãnh đạo cuối cùng của Kẻ Vô Dạng, thực thể ngoại chiều không gian này đã chỉ huy các hạm đội lâu hơn tuổi thọ của hầu hết các giống loài."
+ formless_leader_catch_phrase: "biết ơn... đón nhận..."
+
+ astral_planes.3155.name: "Chiến Tranh Với Kẻ Vô Dạng"
+ astral_planes.3155.desc: "Chiến dịch tấn công của chúng ta nhằm vào Kẻ Vô Dạng đã khiến [this.GetName] từ bỏ hạm đội được phân công và quay trở lại hàng ngũ của đồng loại."
+ astral_planes.3155.a: "Rất tốt."
+
+ astral_planes.3165.name: "Kẻ Vô Dạng Bị Tiêu Diệt"
+ astral_planes.3165.desc: "Chúng ta đã tận diệt thành công những Kẻ Vô Dạng cuối cùng còn sót lại tại [event_target:formless_system.GetName].\n\nTất cả những gì còn lại là một thiết bị bí ẩn. Người ta chỉ cần đặt [this.species.GetHandNamePlural] lên đó để kích hoạt các đặc tính tái sinh kỳ diệu của nó. Thiết bị đóng vai trò như một ống dẫn vào các mặt phẳng tinh giới, với lượng vật chất ngoại chiều khổng lồ tự do luân chuyển qua nó."
+
+ astral_planes.3170.desc: "dù chúng ta biết các bạn...\nnhưng đây chưa phải lúc để tương phùng..."
+
+ pm_formless_haven: "Nơi Trú Ẩn Kẻ Vô Dạng"
+ pm_formless_haven_desc: "Pháo đài cuối cùng của các sinh mệnh được gọi là Kẻ Vô Dạng. Các chủng loài từ chiều không gian khác sẽ thỉnh thoảng được định cư tại đây dưới sự bảo bọc của họ."
+ pm_formless_haven_tt: "Tạo §Y500§! £pop£ §HDân Số§! thuộc loài khác trên hành tinh này"
+
+ preset_luminarium: "Quang Minh Lãnh"
+ preset_luminarium_desc: "Quang Minh Lãnh là một loại hình thuộc quốc do người sở hữu Ngai Vàng Vĩnh Cửu tạo dựng. Những ai đoạt được chiếc ghế này sẽ có tầm ảnh hưởng lên Kẻ Vô Dạng, những kẻ mà đế chế xuyên chiều từng một thời lẫy lừng nay đã suy tàn thành tro bụi."
+ preset_luminarium_flavor_desc: "$preset_luminarium_desc$"
+ modifiers_eternal_throne: "$preset_luminarium$"
+ eternal_throne_conditions: "$MODIFIER$"
+ not_allowed_for_luminarium: "$TRIGGER_FAIL$Không cho phép đối với thiết lập §Y$preset_luminarium$§!."
+
+##############
+# Skin Types #
+##############
+
+ SKIN_DEF: "lớp da"
+ SKIN_FUR: "lớp lông mao"
+ SKIN_SPINES: "gai nhọn"
+ SKIN_SCALES: "lớp vảy"
+ SKIN_FEATHERS: "lông vũ"
+ SKIN_EXOSKELETON: "bộ xương ngoài"
+ SKIN_MANTLE: "lớp áo khoác"
+ SKIN_SHELL: "lớp vỏ mai"
+ SKIN_MEMBRANE: "lớp màng"
+ SKIN_EPIDERMIS: "lớp biểu bì"
+ SKIN_FRONDS: "tán lá"
+ SKIN_VINES: "dây leo"
+ SKIN_ROOTS: "bộ rễ"
+ SKIN_FLESH: "thịt da"
+ SKIN_LIFE_SUPPORT: "hệ thống hỗ trợ sự sống"
+ SKIN_BONES: "xương"
+ SKIN_BLUBBER: "lớp mỡ dày"
+ SKIN_GANGRENE: "vết hoại tử"
+ SKIN_GEODES: "tinh hốc"
+ SKIN_EXTERIOR: "lớp vỏ ngoài"
+ SKIN_ABSTRACT: "bề mặt"
+
+ ###########
+ # Agendas #
+ ###########
+
+ council_agenda_agenda_dark_matter_breakthrough_name: "Đột Phá Vật Chất Tối"
+ council_agenda_agenda_dark_matter_breakthrough_desc: "Có những ứng dụng đầy uy lực mà chúng ta vẫn chưa khai phá hết trong việc thao túng Vật Chất Tối."
+ council_agenda_agenda_dark_matter_breakthrough_init_effect_desc: "§RKhóa Quốc Thể §Y$civic_dark_consortium$§!, ngăn không cho cải cách Quốc Thể này.§!"
+ council_agenda_agenda_dark_matter_breakthrough_effect_desc: "Mở khóa một tùy chọn nghiên cứu cho một Công Nghệ Vật Chất Tối £sr_dark_matter£ ngẫu nhiên."
+ agenda_dark_matter_breakthrough_techs_obsolete: "$TRIGGER_FAIL$ Vật Chất Tối đã phơi bày toàn bộ bí mật của nó."
+ civic_dark_consortium_locked: "Đã bắt đầu $council_agenda_agenda_dark_matter_breakthrough_name$"
+
+########################
+# Anomalies & Projects #
+########################
+
+ ASTRAL_SCAR_CAT: "$pc_astral_scar$"
+ anomaly_astral_scar_desc: "Chúng ta đã phát hiện một vết rách dị thường trong không-thời gian. Càng đến gần, các định luật vật lý tương đối đã biết càng mất đi hiệu lực.\n\nNghiên cứu hiện tượng này hoàn toàn có thể nâng tầm hiểu biết khoa học của chúng ta về cơ chế vận hành của vũ trụ lên một tầm cao mới."
+ astral_planes.6000.name: "$pc_astral_scar$"
+ astral_planes.6000.desc: "Chúng ta đã hoàn thành phân tích về §Y$pc_astral_scar$§! tại §Y[FromFrom.System.GetName]§!.\n\nNó đang rò rỉ vật chất vào vũ trụ của chúng ta từ... một nơi nào đó khác. Vật chất không hề được bảo toàn xung quanh khe nứt - ít nhất là không theo bất kỳ phương thức nào mà chúng ta đo đạc được. Dù ở quy mô tương đối nhỏ, bằng cách nào đó khe nứt đang làm gia tăng tổng khối lượng của vũ trụ chúng ta.\n\nNghiên cứu hiện tượng này sẽ mang lại hiểu biết sâu sắc hơn về nguồn năng lượng bí ẩn chưa được giải thích này."
+ ASTRAL_SCAR_PROJECT: "$pc_astral_scar$"
+ ASTRAL_SCAR_PROJECT_DESC: "Chúng ta đã phát hiện một vết rách dị thường trong không-thời gian. Nghiên cứu các đặc tính độc nhất của nó sẽ đem lại những hiểu biết khoa học vô giá."
+ astral_planes.6001.name: "$pc_astral_scar$"
+ astral_planes.6001.desc: "Chúng ta đã xác nhận sự tồn tại của một vũ trụ khác bên ngoài vũ trụ của chúng ta tại hệ sao §Y[FromFromFrom.System.GetName]§!.\n\nThông qua khe nứt, các chiều không gian vật lý của nó đang tạo ra áp lực khổng lồ lên vũ trụ của chúng ta, kết quả là một dòng vật chất nhỏ nhưng ổn định đang tràn sang. Tác động lâu dài vẫn chưa thể hiểu hết, nhưng trong thời gian này chúng ta nên tiếp tục phân tích dòng vật chất tuôn trào từ vũ trụ này."
+ astral_planes.6001.a: "Những kỳ quan nào có thể đang nằm ở phía bên kia?"
+
+ ASTRAL_SCAR_INSTABILITY: "Bất Ổn $pc_astral_scar$"
+ ASTRAL_SCAR_INSTABILITY_DESC: "Các dị thường hấp dẫn bất ổn đang rò rỉ ra từ §Y$pc_astral_scar$§! tại [From.System.GetName], biểu hiện dưới dạng các điểm kỳ dị di chuyển chậm chạp trong không gian lân cận trước khi sụp đổ dữ dội. Tàu thuyền đi qua hệ sao này có thể né tránh chúng, nhưng phải di chuyển cẩn trọng hơn.\n\nĐiều tra sâu hơn tình huống này có thể mở ra cách thức tái ổn định lỗ hổng thứ nguyên."
+ instable_astral_scar_modifier: "$ASTRAL_SCAR_INSTABILITY$"
+ astral_planes.6006.name: "Một Mũi Khâu Thời Gian (và Không Gian)"
+ astral_planes.6006.desc: "Sau khi phân tích cẩn thận, chúng ta đã xác nhận rằng §Y$pc_astral_scar$§! tại [From.System.GetName] đang ở mức bất ổn nguy hiểm và đòi hỏi sự can thiệp tức thì để ngăn chặn các điểm kỳ dị hấp dẫn tiếp tục hình thành trong hệ sao này.\n\nSự phun trào mạnh mẽ của §Y$astral_threads$§! có thể được chuyển hướng và tái sử dụng nhằm 'khâu liền' vết sẹo lại. Điều này sẽ hàn gắn vết rách trong không-thời gian và nhiều khả năng để lại một lượng vật chất tinh giới đáng kể.\n\nMặt khác, chúng ta có thể phóng một lượng lớn thuốc nổ hạng nặng nhằm mở rộng vết sẹo. Chúng ta suy đoán rằng điều này cũng sẽ cho phép thám hiểm sâu hơn những gì có thể tồn tại ở phía bên kia."
+ astral_planes.6006.a: "Khâu liền nó lại."
+ astral_planes.6006.b: "Thổi tung nó ra."
+ astral_planes.6007.name: "Vết Thương Vũ Trụ"
+ astral_planes.6007.desc: "Sau khi thao túng cẩn thận kết cấu bị rách của nó, chúng ta đã thành công phong ấn hoàn toàn §Y$pc_astral_scar$§! tại [From.System.GetName]. Các dị thường hấp dẫn từ đó đã chấm dứt, và chúng ta thu hồi được một lượng đáng kể §Y$astral_threads$§! trong quá trình này.\n\nBất kể thực tại nào từng nằm ở bờ bên kia, nó sẽ không còn là mối nguy hiểm đối với vũ trụ của chúng ta nữa."
+ astral_planes.6008.name: "$astral_planes.6007.name$"
+ astral_planes.6008.desc: "Khối thuốc nổ mà chúng ta đưa vào lõi của §Y$pc_astral_scar$§! tại [From.System.GetName] đã nới rộng các nếp gấp trong không gian và thời gian. Nơi từng là một vết rách nhỏ trên kết cấu vũ trụ nay trở thành một khe nứt lớn hơn mà chúng ta có khả năng thám hiểm.\n\nSự ổn định đạt được đã khiến các dị thường hấp dẫn lắng xuống, và chúng ta đã sẵn sàng khám phá những gì ẩn chứa phía bên kia."
+ astral_planes.6009.name: "Sụp Đổ Tinh Giới"
+ astral_planes.6009.desc: "§Y$pc_astral_scar$§! tại [FromFromFromFrom.System.GetName] đã sụp đổ vào bên trong, phóng thích một lượng đáng kể $astral_threads$ vào hệ sao lân cận. Nơi từng có một vết rách nhỏ trên kết cấu vũ trụ nay trở thành không gian trống rỗng.\n\nBất kể thực tại nào từng nằm ở bờ bên kia, nó sẽ không còn đe dọa vũ trụ của chúng ta nữa."
+
+ GREATEST_SHOW_CAT: "Phát Hiện Vật Thể Phát Sáng"
+ anomaly_greatest_show_desc: "Một vật thể phát sáng rực rỡ đã được phát hiện trên một tiểu hành tinh tại §Y[from.System.GetName]§!.\n\nĐược cấu tạo từ các vật liệu tối tân, nó đang phát đi một luồng sóng vô tuyến đều đặn trên mọi tần số. Máy quét của chúng ta cho thấy không có hợp chất nổ hay dễ bay hơi nào bên trong. Có vẻ an toàn để tiếp cận và nghiên cứu sâu hơn."
+ astral_planes.6010.name: "Buổi Biểu Diễn Vĩ Đại Nhất Đa Vũ Trụ"
+ astral_planes.6010.desc: "Vật thể phát sáng rực rỡ mà chúng ta phát hiện trên tiểu hành tinh này thực chất là một biển quảng cáo.\n\nMàn hình hiển thị khổng lồ này được vận hành bởi cơ sở hạ tầng cơ khí chiếm trọn bên trong tiểu hành tinh nơi nó được gắn vào. Bản thân tiểu hành tinh lơ lửng một cách dị thường tại một điểm trong không gian, hoàn toàn không bị ảnh hưởng bởi lực hấp dẫn của bất kỳ vật thể lân cận nào.\n\nBản thân quảng cáo nhắc đến thứ mà nó gọi là \"Buổi Biểu Diễn Vĩ Đại Nhất Đa Vũ Trụ\". Có một trạm nhận năng lượng năng lượng thanh toán để dịch chuyển trực tiếp đến địa điểm thu hút du khách này."
+ astral_planes.6010.a: "Thanh toán chi phí."
+ astral_planes.6010.b: "Cải tạo biển hiệu để phục vụ mục đích của chúng ta."
+ astral_planes.6010.c: "Tháo dỡ nó lấy vật liệu phế liệu."
+ astral_planes.6011.name: "Khe Nứt Xuất Hiện"
+ astral_planes.6011.desc: "Sau khi xử lý khoản thanh toán của chúng ta, hệ thống máy móc bên trong tiểu hành tinh bắt đầu rền vang hoạt động. Một luồng ánh sáng xanh lam sắc nhọn bắn thẳng ra ngoài, xẻ dọc kết cấu không gian và thời gian một cách tỉ mỉ. Khi công việc hoàn tất, tiểu hành tinh biến mất hoàn toàn, và một Khe Nứt Tinh Giới xuất hiện thế chỗ."
+ astral_planes.6011.a: "Thật ấn tượng."
+ astral_planes.6012.name: "Quảng Cáo Hiệu Quả"
+ astral_planes.6012.desc: "Chúng ta đã thay thế biển quảng cáo dị thường bằng lời giới thiệu dành cho các doanh nghiệp địa phương của chúng ta tại [fromfrom.GetName]. Trạm thanh toán đã được tháo dỡ cẩn thận, để lộ một lượng nhỏ năng lượng dự trữ bên trong."
+ astral_planes.6012.a: "Thật biết làm ăn."
+ astral_planes.6013.name: "Biển Hiệu Phức Tạp"
+ astral_planes.6013.desc: "Công nghệ bên trong cơ cấu của tiểu hành tinh tân tiến hơn nhiều so với dự đoán ban đầu. Nhờ đó, việc tận thu nó đã mang lại cho chúng ta giá trị đáng kể. Chúng ta đã thu hồi được nhiều loại vật liệu hiếm - bao gồm một lượng $astral_threads$ dị thường. Tiểu hành tinh rỗng ruột này hẳn đã được thiết kế để thao túng không gian và thời gian theo một phương thức nào đó."
+ astral_planes.6013.a: "Chúng ta sẽ sử dụng chúng thật hữu ích."
+
+ BLACK_HOLE_INSTABLE_CAT: "Bất Ổn $sc_black_hole$"
+ anomaly_black_hole_instable_desc: "Các máy quét phát hiện sự sai lệch đáng kể so với các đặc tính vật lý dự kiến của lỗ đen trong hệ sao [from.System.GetName]. Lực hấp dẫn của nó biểu hiện khó lường, dẫn đến sự không nhất quán về thời gian dễ nhận thấy từ điểm này sang điểm khác trong không gian."
+ astral_planes.6020.name: "Lỗ Đen Bất Ổn"
+ astral_planes.6020.desc: "Một số hạt được phóng thích bởi lỗ đen tại [from.System.GetName] thực chất là §Y$astral_threads$§!. Điều này có nghĩa là vào một thời điểm nào đó, một Vết Sẹo Tinh Giới đã bị hút vào điểm kỳ dị của nó và hiện đang từ từ bị đẩy ngược ra ngoài. Hiện tượng này trước đây vốn bị coi là bất khả thi.\n\nCó thể có cách để tống xuất vết sẹo và tái ổn định không gian hệ sao này bằng cách hướng một luồng §Y$astral_threads$§! nồng độ cực cao vào điểm kỳ dị.\n\nTuy nhiên, không can thiệp thêm sẽ cho phép chúng ta tiếp tục thu hoạch kết cấu vũ trụ từ một khoảng cách an toàn."
+ astral_planes.6020.a: "Bơm vật chất tinh giới vào điểm kỳ dị."
+ astral_planes.6020.b: "Thu thập sợi tinh giới từ khoảng cách an toàn."
+ astral_planes.6021.name: "Khe Nứt Hiện Hình"
+ astral_planes.6021.desc: "Việc bơm §Y$astral_threads$§! vào điểm kỳ dị đã gây ra phản ứng tức thì và mãnh liệt, khi một cơn lũ các hạt ngoại chiều tuôn trào ra khỏi lực hút hấp dẫn của lỗ đen. Các hạt này đã ngưng tụ thành một $astral_rift$ hiện đang treo lơ lửng bên trong giếng trọng lực của nó.\n\nLàm thế nào mà dị thường thiên thể này ban đầu bị hút vào điểm kỳ dị vẫn là một ẩn số, nhưng giờ đây ít nhất chúng ta có thể điều tra xem điều gì đang nằm ở bờ bên kia."
+ astral_planes.6022.name: "Một Vết Sẹo Ra Đời"
+ astral_planes.6022.desc: "Lỗ đen tại [from.System.GetName] đã tống xuất $pc_astral_scar$ từng bị hấp thụ tạm thời vào điểm kỳ dị của nó, cùng với một lượng lớn vật chất tinh giới bị giam cầm.\n\nLực hấp dẫn của lỗ đen từ đó đã trở lại bình thường."
+
+ astral_planes.6030.name: "Kỳ Quan Thiên Văn Tinh Giới"
+ astralnomical_interest_modifier: "Mối Quan Tâm Thiên Văn Tinh Giới"
+ astralnomical_interest_tt: "Mỗi §HDân Cư Hữu Cơ§! Không Phải Nô Lệ £pop£ tạo ra 1 £physics_research£ §YNghiên Cứu Vật Lý§! mỗi tháng."
+ astral_planes.6030.desc.common_1: "Các cư dân thuộc địa trên [this.GetName] đã hình thành niềm đam mê say đắm đối với"
+ astral_planes.6030.desc.common_2: "có thể quan sát được trên bầu trời từ bán cầu nam của hành tinh. Những đồn đoán rầm rộ xuất hiện về nguồn gốc của nó, cũng như những mối nguy hiểm hay thời cơ mà nó mang lại.\n\nCác nhà thiên văn nghiệp dư từ khắp [owner.GetName] đã đổ xô tới hành tinh này để tận mắt chiêm ngưỡng hiện tượng kỳ thú."
+ astral_planes.6030.desc.rift: "$astral_planes.6030.desc.common_1$ $astral_rift$ $astral_planes.6030.desc.common_2$"
+ astral_planes.6030.desc.scar: "$astral_planes.6030.desc.common_1$ $pc_astral_scar$ $astral_planes.6030.desc.common_2$"
+
+ astral_planes.6035.name: "Thị Kiến Xung Đột"
+ astral_planes.6035.tt: "Thuộc địa mất 5 $r_stability$"
+ conflicting_visions: "$astral_planes.6035.name$"
+ astral_planes.6035.desc.common_1: "Sự mê mẩn đối với"
+ astral_planes.6035.desc.common_2: "tại địa phương trên [this.GetName] đã biến thành sự cuồng tín. Nhiều người báo cáo đã trải qua những thị kiến về một thế giới vượt ra ngoài thế giới của chúng ta.\n\nMột nhóm khẳng định rằng"
+ astral_planes.6035.desc.common_3: "dẫn tới trung tâm của một thiên hà đồng hồ cơ khí, nơi một vị thần máy móc lên dây cót cho chiếc đồng hồ khổng lồ để duy trì sự cân bằng giữa vô vàn thế giới.\n\nNgược lại, những người khác nói rằng thị kiến của họ đã hé lộ một ngôi sao đen nắm giữ chìa khóa của sự giác ngộ."
+ astral_planes.6035.desc.rift: "$astral_planes.6035.desc.common_1$ $astral_rift$$astral_planes.6035.desc.common_2$ Khe Nứt $astral_planes.6035.desc.common_3$"
+ astral_planes.6035.desc.scar: "$astral_planes.6035.desc.common_1$ $pc_astral_scar$$astral_planes.6035.desc.common_2$ Vết Sẹo $astral_planes.6035.desc.common_3$"
+
+ astral_planes.6040.name: "Hố Sâu Ngăn Cách Nới Rộng"
+ astral_planes.6040.tt: "Thuộc địa mất từ 5 đến 10 $r_stability$"
+ widening_divide_1: "$astral_planes.6040.name$"
+ widening_divide_2: "$widening_divide_1$"
+ widening_divide_3: "$widening_divide_1$"
+ widening_divide_4: "$widening_divide_1$"
+ widening_divide_5: "$widening_divide_1$"
+ widening_divide_6: "$widening_divide_1$"
+ astral_planes.6040.desc.common: "Sự rạn nứt giữa các tầng lớp dân cư trên [this.GetName] ngày càng tồi tệ hơn. Những thị kiến kỳ lạ do các cư dân báo cáo đã châm ngòi cho các cuộc tranh luận nảy lửa và cuối cùng dẫn tới các đợt bùng phát bạo lực. Các lãnh đạo địa phương đang kêu gọi một lời tuyên bố chính thức.\n\nDù nghe có vẻ kỳ dị đến đâu, chúng ta đang bị yêu cầu phải công nhận tính xác thực cho sự tồn tại của vị thần máy móc hoặc ngôi sao đen đằng sau"
+ astral_planes.6040.desc.rift: "$astral_planes.6040.desc.common$ $astral_rift$."
+ astral_planes.6040.desc.scar: "$astral_planes.6040.desc.common$ $pc_astral_scar$."
+ astral_planes.6040.a: "Vị thần máy móc muôn năm."
+ astral_planes.6040.b: "Hãy để họ hướng về ngôi sao đen."
+ astral_planes.6040.c: "Cả hai thị kiến đều hoàn toàn vô căn cứ."
+
+ astral_planes.6045.name: "Xung Đột Hậu Lý Thuyết"
+ astral_planes.6045.desc: "Thảm họa trên [this.GetName]!\n\nNhững thị kiến tương phản mà người dân trải qua đã dẫn đến tình trạng bất ổn quy mô lớn. Các nhóm đối địch đã cầm vũ khí lên, với những vụ đụng độ cục bộ dẫn đến xung đột bạo lực trên toàn hành tinh.\n\nKhông thể để tình trạng này tiếp diễn."
+ astral_planes.6045.a: "Chấm dứt sự điên rồ này."
+
+ astral_planes.6050.name: "Lòng Cuồng Nhiệt Tinh Giới"
+ astral_zeal_modifier: "Lòng Cuồng Nhiệt Tinh Giới"
+ astral_zeal_modifier_tt: "Nhận một lượng nhỏ $r_unity$ sau khi hoàn thành một §Y$astral_rift$§!."
+ astral_planes.6050.desc.common_1: "Với thị kiến về một"
+ astral_planes.6050.desc.common_2: "được chính quyền chính thức tán thành, các cuộc tranh luận về"
+ astral_planes.6050.desc.common_3: "đã giảm đi đáng kể. Đồng thời, sự nhiệt tình của công chúng dành cho việc nghiên cứu nó chưa bao giờ cao hơn thế."
+ astral_planes.6050.desc.mechgod: "vị thần máy móc"
+ astral_planes.6050.desc.blackstar: "ngôi sao đen khai mở tâm trí"
+ astral_planes.6050.desc.rift_mechgod: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.mechgod$ $astral_planes.6050.desc.common_2$ $astral_rift$ $astral_planes.6050.desc.common_3$"
+ astral_planes.6050.desc.rift_blackstar: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.blackstar$ $astral_planes.6050.desc.common_2$ $astral_rift$ $astral_planes.6050.desc.common_3$"
+ astral_planes.6050.desc.scar_mechgod: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.mechgod$ $astral_planes.6050.desc.common_2$ $pc_astral_scar$ $astral_planes.6050.desc.common_3$"
+ astral_planes.6050.desc.scar_blackstar: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.blackstar$ $astral_planes.6050.desc.common_2$ $pc_astral_scar$ $astral_planes.6050.desc.common_3$"
+
+ astral_planes.6055.name: "Kiểm Soát Tranh Cãi"
+ astral_aficionados_modifier: "Người Hâm Mộ Tinh Giới"
+ astral_planes.6055.desc.common: "Mọi cuộc thảo luận công khai về các thị kiến kỳ lạ trên [this.GetName] đã bị nghiêm cấm. Những hình phạt nghiêm khắc dành cho bất cứ ai vi phạm chủ đề cấm kỵ đã ngăn chặn nguy cơ xung đột công khai.\n\nNhiều cư dân đã chuyển hướng sang những mối quan tâm mới, nhưng một nhóm nòng cốt các nhà thiên văn nghiệp dư vẫn tiếp tục tận hưởng cảnh tượng kỳ vĩ của"
+ astral_planes.6055.desc.rift: "$astral_planes.6055.desc.common$ $astral_rift$."
+ astral_planes.6055.desc.scar: "$astral_planes.6055.desc.common$ $pc_astral_scar$."
+ astral_planes.6055.a: "Một biện pháp hợp lý."
+
+ SPONTANEOUS_EXPLOSIONS_CAT: "Những Vụ Nổ Tự Phát"
+ COLONIZATION_IMPOSSIBLE_UNDER_INVESTIGATION: "$TRIGGER_FAIL$§RHành tinh đang được điều tra.§!"
+ anomaly_spontaneous_explosions_desc: "Chúng ta đã phát hiện những vụ nổ tự phát trên bề mặt §Y[this.GetName]§!. Không có tàu chiến nào trên quỹ đạo hay sự sống bề mặt có thể phát hiện được, nguyên nhân của những vụ nổ khổng lồ này vẫn chưa rõ."
+ astral_planes.6060.name: "Đạn Dược Dễ Phát Nổ"
+ astral_planes.6060.desc: "Bề mặt của §Y[from.GetName]§! rải rác các loại đạn dược lỗi kỹ thuật, mỗi lần phát nổ lại khoét sâu từng mảng của hành tinh.\n\nBản thân các loại vũ khí này rất xa lạ và cực kỳ dễ bắt lửa. Hơn nữa, mô thức phát nổ cho thấy một mạng lưới bệ phóng chôn sâu ngầm bên dưới bề mặt hành tinh."
+ astral_planes.6060.a: "Điều tra sâu hơn."
+
+ SPONTANEOUS_EXPLOSIONS: "$astral_planes.6060.name$"
+ SPONTANEOUS_EXPLOSIONS_DESC: "$astral_planes.6060.desc$"
+ astral_planes.6065.name: "$SPONTANEOUS_EXPLOSIONS$"
+ astral_planes.6065.desc: "Phân tích sâu hơn chỉ ra rằng hành tinh này từng được sử dụng làm một kho vũ khí khổng lồ. Nằm im lìm suốt hàng nghìn năm, từng vũ khí riêng lẻ nay bắt đầu trục trặc, biến cả hành tinh thành một bãi chiến trường bất ổn.\n\nChúng ta có đủ năng lực để kích nổ toàn bộ lượng đạn dược còn lại theo cách có kiểm soát. Ngoài ra, chúng ta có thể thử thu hồi một số vũ khí và vô hiệu hóa chúng trước khi chúng phát nổ."
+ astral_planes.6065.a: "Kích nổ tung nó lên."
+ astral_planes.6065.b: "Thử thu hồi các loại chất nổ cổ đại."
+ astral_planes.6065.c: "Để tình hình tự nó diễn tiến."
+
+ astral_planes.6070.name: "Hành Tinh Bị Hủy Diệt"
+ astral_planes.6070.desc.common_1: "Những vụ nổ dây chuyền trên [from.GetName] đã vượt quá điểm tới hạn."
+ astral_planes.6070.desc.common_2: "Chúng ta đưa ra giả thuyết rằng khe nứt này được hình thành do một vụ nổ tạo ra điểm kỳ dị cực kỳ mạnh mẽ từ một trong những vũ khí được lưu trữ trong kho."
+ astral_planes.6070.desc.no_rift: "$astral_planes.6070.desc.common_1$\n\nVụ nổ xảy ra mạnh đến mức không chỉ phá hủy hoàn toàn hành tinh mà còn xé toạc một lỗ hổng trong kết cấu không-thời gian, dẫn đến sự hình thành của thứ mà chúng ta gọi là một §Y$astral_rift$§!.\n\n$astral_planes.6070.desc.common_2$"
+ astral_planes.6070.desc.rift: "$astral_planes.6070.desc.common_1$\n\nVụ nổ xảy ra mạnh đến mức không chỉ phá hủy hành tinh mà còn dẫn đến sự hình thành của một §Y$astral_rift$§! mới.\n\n$astral_planes.6070.desc.common_2$"
+
+ astral_planes.6075.name: "Thu Hồi Vũ Khí Thành Công"
+ astral_planes.6075.desc: "Chúng ta đã thiết lập thành công quy trình trích xuất các loại vũ khí lưu trữ bên dưới bề mặt hành tinh, vô hiệu hóa các đầu đạn còn hoạt động trước khi thu thập và phân tích chúng.\n\nViệc thành lập một thuộc địa lâu dài trên hành tinh này sẽ cho phép chúng ta tận dụng kho vũ khí còn lại một cách hiệu quả hơn nhiều."
+
+ astral_planes.6076.name: "Phát Hiện Đạn Dược Kỳ Dị"
+ astral_planes.6076.desc: "Các nhà nghiên cứu khảo sát [from.GetName] đã phát hiện một quả tên lửa tạo điểm kỳ dị bị hư hỏng bên trong kho vũ khí cổ xưa bị bỏ hoang của hành tinh. Loại vũ khí này dường như được thiết kế để tạo ra một vụ sụp đổ hấp dẫn dữ dội, có tiềm năng xé toạc chính không-thời gian.\n\nĐáng tiếc là khí tài này đã hư hại quá nặng không thể sửa chữa và vượt xa khả năng tái tạo của chúng ta. Tuy nhiên, chúng ta có thể tái sử dụng nó làm tài liệu phục vụ nghiên cứu các loại vũ khí nổ tương tự."
+ astral_planes.6076.a: "Rất tốt."
+
+ astral_planes.6080.name: "Kích Nổ Lỗi"
+ astral_planes.6080.desc.common_1: "Trong khi nỗ lực thiết lập quy trình trích xuất vũ khí bị bỏ hoang trên [from.GetName], tàu [this.GetName] đã bị phá hủy bởi một khối thuốc nổ bị lỗi kỹ thuật. Toàn bộ người trên tàu đã thiệt mạng, bao gồm cả [leader.GetName].\n\nVụ nổ của con tàu đã kích hoạt thêm một phản ứng dây chuyền dữ dội trên khắp mạng lưới kho vũ khí."
+ astral_planes.6080.desc.common_2: "$astral_planes.6070.desc.common_2$"
+ astral_planes.6080.desc.no_rift: "$astral_planes.6070.desc.common_1$\n\nĐợt nổ dây chuyền xảy ra dữ dội đến mức không chỉ phá hủy hoàn toàn hành tinh mà còn xé toạc một lỗ hổng trong kết cấu của không-thời gian, hình thành một hiện tượng mà chúng ta gọi là §Y$astral_rift$§!.\n\n$astral_planes.6070.desc.common_2$"
+ astral_planes.6080.desc.rift: "$astral_planes.6070.desc.common_1$\n\nĐợt nổ dây chuyền xảy ra dữ dội đến mức không chỉ phá hủy thế giới này mà còn dẫn tới sự hình thành của một §Y$astral_rift$§! mới.\n\n$astral_planes.6070.desc.common_2$"
+
+ astral_planes.6085.name: "Phản Ứng Dây Chuyền"
+ astral_planes.6085.desc: "Các vụ nổ tự phát của vũ khí bất ổn trên [from.GetName] đã lên đến đỉnh điểm trong một phản ứng dây chuyền khiến hành tinh vỡ vụn hoàn toàn.\n\nGiữa đống mảnh vỡ, chúng ta đã phát hiện một nồng độ đáng kể §Y$volatile_motes$§!. Tài nguyên này hẳn đã từng tạo nên một thành phần then chốt của các loại vũ khí cất giữ dưới lòng đất."
+
+ d_weapon_extraction_facility: "Cơ Sở Trích Xuất Vũ Khí"
+ d_weapon_extraction_facility_desc: "Cơ sở này xử lý các vũ khí cổ đại từ các kho dự trữ do một nền văn minh đã mất để lại."
+
+ munitions_decommissioner: "$job_munitions_decommissioner$"
+ job_munitions_decommissioner: "Chuyên Viên Tháo Dỡ Đạn Dược"
+ job_munitions_decommissioner_plural: "Chuyên Viên Tháo Dỡ Đạn Dược"
+ job_munitions_decommissioner_desc: "Những nhà nghiên cứu thực tế này kiểm tra và đảo ngược kỹ thuật vũ khí cổ đại để phù hợp với các thông số hiện đại của chúng ta."
+ mod_job_munitions_decommissioner_add: "Công Việc $job_munitions_decommissioner$"
+ job_munitions_decommissioning_unit: "Đơn Vị Tháo Dỡ Đạn Dược"
+ job_munitions_decommissioning_unit_plural: "Đơn Vị Tháo Dỡ Đạn Dược"
+ job_munitions_decommissioning_unit_desc: "Các đơn vị chuyên trách việc tháo dỡ và phân tích vũ khí cổ đại."
+ mod_job_munitions_decommissioning_unit_add: "Công Việc $job_munitions_decommissioning_unit$"
+ job_munitions_decommissioning_drone: "Cá Thể Tháo Dỡ Đạn Dược"
+ job_munitions_decommissioning_drone_plural: "Cá Thể Tháo Dỡ Đạn Dược"
+ job_munitions_decommissioning_drone_desc: "Những cá thể này tháo dỡ hiệu quả các vũ khí cổ đại để phù hợp với các thông số hiện đại của chúng ta."
+ mod_job_munitions_decommissioning_drone_add: "Công Việc $job_munitions_decommissioning_drone$"
+
+ astral_researcher: "$job_astral_researcher$"
+ job_astral_researcher: "Nhà Nghiên Cứu Tinh Giới"
+ job_astral_researcher_plural: "Nhà Nghiên Cứu Tinh Giới"
+ job_astral_researcher_icon: "£job_astral_researcher£"
+ job_astral_researcher_with_icon: "$job_astral_researcher_icon$ $job_astral_researcher$"
+ job_astral_researcher_plural_with_icon: "$job_astral_researcher_icon$ $job_astral_researcher_plural$"
+ job_astral_researcher_desc: "Những sợi tơ không-thời gian chứa đựng bí mật của mọi chiều không gian, bao gồm cả chiều không gian của chúng ta. Các nhà nghiên cứu này làm việc không mệt mỏi để giải mã ý nghĩa của chúng đồng thời giảm thiểu các nghịch lý."
+ job_astral_researcher_effect_desc: "£job_astral_researcher£ $job_astral_researcher_plural$ chuyển hóa $r_consumer_goods$ thành $r_physics$ và $r_astral_threads$"
+ mod_job_astral_researcher_add: "Công Việc $job_astral_researcher$"
+ mod_job_astral_researcher_per_pop: "§G+1§! Công Việc $job_astral_researcher$ trên mỗi $VALUE$ Dân Số"
+ mod_job_astral_researcher_per_pop_short: "\n§G+1§! £mod_job_astral_researcher_add£ trên mỗi $VALUE$ £pop£"
+ physicist_is_astral_researcher_tt: "£job_physicist£ $job_physicist_plural$ được chuyển đổi thành $job_astral_researcher_plural_with_icon$"
+
+ job_astral_drone: "Cá Thể Tinh Giới"
+ job_astral_drone_plural: "Cá Thể Tinh Giới"
+ job_astral_drone_icon: "£job_astral_drone£"
+ job_astral_drone_with_icon: "$job_astral_drone_icon$ $job_astral_drone$"
+ job_astral_drone_desc: "Những sợi tơ không-thời gian chứa đựng bí mật của mọi chiều không gian, bao gồm cả chiều không gian của chúng ta. Những cá thể này được giao nhiệm vụ giải mã ý nghĩa của chúng đồng thời giảm thiểu các nghịch lý."
+ job_astral_drone_effect_desc: "£job_astral_drone£ $job_astral_drone_plural$ chuyển hóa $r_minerals$ thành $r_research$ và $r_astral_threads$"
+ mod_job_astral_drone_add: "Công Việc $job_astral_drone$"
+ mod_job_astral_drone_per_pop: "§G+1§! Công Việc $job_astral_drone$ trên mỗi $VALUE$ Dân Số"
+ mod_job_astral_drone_per_pop_short: "\n§G+1§! £mod_job_brain_Drone_add£ trên mỗi $VALUE$ £pop£"
+
+ job_astral_unit: "Đơn Vị Tinh Giới"
+ job_astral_unit_plural: "Đơn Vị Tinh Giới"
+ job_astral_unit_icon: "£job_astral_unit£"
+ job_astral_unit_with_icon: "$job_astral_unit_icon$ $job_astral_unit$"
+ job_astral_unit_desc: "Những sợi tơ không-thời gian chứa đựng bí mật của mọi chiều không gian, bao gồm cả chiều không gian của chúng ta. Các đơn vị này nỗ lực giải mã ý nghĩa của chúng đồng thời tránh các nghịch lý bằng mọi giá."
+ job_astral_unit_effect_desc: "£job_astral_unit£ $job_astral_unit_plural$ chuyển hóa $r_energy$ thành $r_research$ và $r_astral_threads$"
+ mod_job_astral_unit_add: "Công Việc $job_astral_unit$"
+ mod_job_astral_unit_per_pop: "§G+1§! Công Việc $job_astral_unit$ trên mỗi $VALUE$ Dân Số"
+ mod_job_astral_unit_per_pop_short: "\n§G+1§! £mod_job_astral_unit_add£ trên mỗi $VALUE$ £pop£"
+
+
+#############
+# Tutorials #
+#############
+
+ TUTORIAL_ASTRAL_ACTIONS_VIEW_TITLE: "Hướng Dẫn: Hành Động Tinh Giới"
+ TUTORIAL_ASTRAL_ACTIONS_VIEW_DESC: "Giao diện Hành Động Tinh Giới cho phép chúng ta tiêu dùng $ASTRAL_THREADS_ICON$ vào nhiều hiệu ứng trên quy mô toàn đế chế. Càng khám phá nhiều §SKhe Nứt Tinh Giới§!, chúng ta càng mở khóa thêm nhiều hành động. Một số hành động có thể lặp lại theo thời gian, trong khi những hành động khác chỉ có thể sử dụng một lần duy nhất để mở khóa các năng lực hoặc công nghệ mới."
+
+ TUTORIAL_ASTRAL_RIFT_VIEW_TITLE: "Giao Diện Khe Nứt Tinh Giới"
+ TUTORIAL_ASTRAL_RIFT_VIEW_DESC: "Cửa sổ Khe Nứt Tinh Giới hiển thị thông tin chi tiết về §SKhe Nứt Tinh Giới§! hiện đang được chọn. Tại mỗi giai đoạn tiến độ, bạn có thể được nhắc đưa ra mệnh lệnh cho các Nhà Khoa Học của chúng ta, dẫn đến những kết quả khác nhau và đôi khi nằm ngoài dự liệu. Phần lớn các cuộc thám hiểm bên ngoài Khe Nứt Tinh Giới đều có nhiều ngã rẽ để đi theo.\n\nĐể giải mã bí mật của một Khe Nứt, Nhà Khoa Học phải tạo ra một §SĐột Phá§! để tiến qua từng giai đoạn của Khe Nứt. Những Nhà Khoa Học có §SĐặc Điểm phù hợp và Kỹ Năng cao hơn§! sẽ đẩy nhanh quá trình tiến tới giai đoạn tiếp theo, trong khi độ khó cao hơn của một lựa chọn đường đi sẽ làm chậm tiến độ. Bất kỳ Nhà Khoa Học nào điều tra một Khe Nứt đủ lâu đều sẽ tích lũy được các §SManh Mối§!, giúp khả năng Đột Phá dễ thành công hơn.\n\nTrong khi thám hiểm một §SKhe Nứt Tinh Giới§!, các Nhà Khoa Học được neo giữ vào một chiều không gian khác và không thể điều chuyển cho đến khi cuộc thám hiểm hoàn tất. Là một hệ quả của việc bị mắc kẹt giữa thời gian và không gian theo phương thức này, họ không thể chết vì tuổi già."
+
+#Mercedes Romero Lives!
+
+astral_planes.6100.name: "Người Thoát Hiểm Cuối Cùng"
+astral_planes.6100.desc: "Hiện ra từ Khe Nứt Tinh Giới cùng với Khối Cầu Khe Nứt của [FromFromFrom.GetName], một cảnh tượng bất ngờ đã thu hút sự chú ý của chúng ta: một khoang thoát hiểm đang ngủ đông bám theo vệt đuôi của Khối Cầu. Chẳng bao lâu sau, chúng ta nhận được một tín hiệu cấp cứu đơn giản kèm theo đường truyền video trực tiếp."
+astral_planes.6100.b: "Điều này không liên quan tới chúng ta."
+astral_planes.6100.c: "Dùng nó làm mục tiêu tập bắn."
+
+NAME_Mercedes: "Mercedes Romero"
+Mercedes_DESC: "Là một cá thể sống qua trăm tuổi với niềm đam mê cháy bỏng đối với các nền văn hóa ngoài hành tinh, đặc biệt là Con Người, cá thể Blorg vui vẻ này đã dũng cảm vượt qua một Khe Nứt Tinh Giới để đến được đây. Sứ mệnh của cô: kết Bạn."
+mercedes_catch_phrase: "Chúng ta có thể làm Bạn được không?"
+astral_planes.6105.desc.reg: "§HNgười ngoài hành tinh với diện mạo kỳ dị đứng sững trước mặt chúng ta trong sự im lặng bàng hoàng, chuyển động duy nhất của nó là phần mũ nấm nhấp nhô theo nhịp điệu tựa sóng lượn. Bất ngờ lấy lại bình tĩnh, sinh vật vung vẩy xúc tu và tự giới thiệu:§!\n\nCái- Gì- Tôi đang ở đâu thế này? Tôi xin lỗi. Tên tôi là Mercedes Romero, nhà thám hiểm kiêm nhà ngoại giao của Khối Đại Đồng Blorg. Bạn có biết về loài Người không?"
+astral_planes.6105.desc.human: "§HNgười ngoài hành tinh kỳ dị đứng trước mặt chúng ta trong sự im lặng ngỡ ngàng, chuyển động duy nhất là phần mũ nấm nhấp nhô như sóng biển. Khi nhận ra chúng ta, nó làm một động tác chồm tới trước khi kịp kiềm chế lại:§!\n\nB- B- Các bạn là Con Người ư!? §H*Hét lên phấn khích*§! T- Tôi xin lỗi, tôi đã vô cùng say mê văn hóa của các bạn kể từ khi còn là một bào tử nhỏ xíu!\n\n§HNgười ngoài hành tinh chìa một xúc tu ra trong nỗ lực vụng về nhằm bắt chước một cái bắt tay.§!\n\nTên tôi là Mercedes Romero và thật là một vinh hạnh lớn khi được diện kiến các bạn."
+astral_planes.6105.a: "Bạn còn nhớ được những gì?"
+astral_planes.6105.a.response: "Ký ức cuối cùng của tôi là tại Hệ sao Antares. Tôi đang tham gia vào một chiến dịch hạm đội cùng với một nhóm Bạn Bè thì bỗng thấy một luồng sáng chói lòa. Sau đó chẳng còn gì nữa. Tôi đã tới đây trong khoang thoát hiểm. Cô độc và Không Có Bạn Bè."
+astral_planes.6105.b: "Tại sao bạn lại say mê Con Người đến vậy?"
+astral_planes.6105.b.response: "Ồ, Con Người là những sinh vật kỳ diệu nhất. Giống loài Blorg chúng tôi đã quan sát họ suốt nhiều thế kỷ. Thật ra, phần lớn văn hóa của chúng tôi được xây dựng dựa trên những gì quan sát được từ cuộc sống Con Người. Sắc màu rực rỡ! Kịch tính! Tình Bạn! Họ dạy chúng tôi rằng cuộc sống không chỉ đơn thuần là sinh tồn. Bạn còn có thể kết Bạn nữa! Thật là một khái niệm tuyệt vời biết bao. Thật là một kỳ quan!"
+astral_planes.6105.c: "Bạn có thể làm gì cho chúng ta?"
+astral_planes.6105.c.response: "Một câu hỏi không Thân Thiện cho lắm, nhưng nếu cần phục vụ, tôi luôn sẵn sàng! Đương nhiên, tôi có hàng thế kỷ kinh nghiệm làm thuyền trưởng tàu nghiên cứu, nhưng niềm đam mê thực sự của tôi là quan hệ liên thiên hà. Bằng cách làm Bạn của bạn, tôi có thể giúp bạn kết thêm nhiều Bạn mới trong quá trình này. Làm ơn đi, nếu các bạn ưng thuận, hãy để tôi đại diện cho lợi ích ngoại giao của các bạn!"
+astral_planes.6105.hire_custom_tooltip:0 "§Y$NAME_Mercedes$§! gia nhập đế chế của chúng ta với tư cách là một §HLãnh Đạo§!."
+leader_trait_blorg_insight: "Hiểu Biết Của Loài Blorg"
+leader_trait_blorg_insight_desc: "Nhiều thế kỷ nghiên cứu các chương trình phát sóng và văn hóa của một loài động vật có vú đi đứng thẳng hàng nọ đã khiến cá nhân này có thái độ sốt sắng lấy lòng người khác một cách trơ trẽn. Một số người thậm chí sẽ nói là phiền toái đến phát bực."
+blorg_insight_effect: "$t$§R-25§! mức độ thiện cảm với các đế chế §YCon Người§!."
+triggered_opinion_blorg_insight: "Hiểu Biết Của Loài Blorg"

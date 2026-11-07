@@ -1,0 +1,11 @@
+﻿l_english:
+ LIMBO_2_PROJECT:0 "Limbo: Cơ Hội Thứ Hai"
+ LIMBO_2_PROJECT_DESC:0 "Chúng ta có thể trao cho một loài người ngoài hành tinh cổ đại đã tuyệt chủng cơ hội sống thứ hai bằng cách tải bản quét thần kinh của họ lên cơ thể người máy."
+ GHOST_SHIP_PROJECT:0 "Nghiên Cứu 'Con Tàu Ma'"
+ GHOST_SHIP_PROJECT_DESC: "Một tàu khoa học bị bỏ hoang đang mắc kẹt trong hải trình tuần tra kéo dài hàng thế kỷ tại hệ sao $NAME_Hillos$. Điều gì ẩn giấu nơi cốt lõi của hành trình cô độc này?"
+ GHOST_SHIP_PROJECT_02: "Phản Hồi Con Non Của $NAME_Hillos_ship$"
+ GHOST_SHIP_PROJECT_02_DESC: "Tín hiệu thì thầm tâm linh được phát hiện tại hệ sao $NAME_Hillos$ dường như bắt nguồn từ ý thức nhân tạo bị mắc kẹt trên 'con tàu ma' $NAME_Hillos_ship$."
+ ANCIENT_MANUFACTORIUM_PROJECT:0 "Khởi Động Xưởng Đúc"
+ ANCIENT_MANUFACTORIUM_PROJECT_DESC:0 "Giờ đây, sau mọi khâu chuẩn bị, đã đến lúc chúng ta khởi động toàn bộ dàn máy móc này và kết nối cơ sở vào mạng lưới năng lượng hành tinh!"
+ STRATOVENTS_PROJECT: "Dự Án Lỗ Phun Bình Lưu"
+ STRATOVENTS_PROJECT_DESC: "Nghiên cứu các cấu tạo lỗ phun tầng bình lưu độc nhất vô nhị trên §Y[planet.GetName]§! và tầm quan trọng của chúng đối với Hệ Động Vật Không Gian."

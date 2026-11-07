@@ -1,0 +1,444 @@
+﻿l_english:
+
+# Ascension Perk
+ ap_galactic_hyperthermia: "Chứng Tăng Nhiệt Thiên Hà"
+ ap_galactic_hyperthermia_desc: "Vũ trụ bắt đầu trong biển lửa, nhưng đã nguội lạnh thành một nơi tăm tối và đầy thù địch. Để phát triển rực rỡ, chúng ta cần thổi bùng ngọn lửa, dẫu cho những kẻ khác phải diệt vong."
+ must_be_infernals: "$TRIGGER_FAIL$Yêu cầu toàn bộ dân cư của chúng ta phải là loài Ưa Nhiệt."
+
+# UI
+ entropy_crystals: "Tinh Thể Entropy"
+ entropy_crystals_name: "$entropy_crystals$:"
+ entropy_crystals_value: "£entropy_crystals£ $VAL|0$"
+ entropy_crystals_gaining: "Hoàn thành §HMục Tiêu Khủng Hoảng§! để thu được thêm £entropy_crystals£ §Y$entropy_crystals$§!."
+ entropy_crystals_desc: "Ma trận thô ráp, lung linh của nguồn năng lượng nguyên sơ này bằng cách nào đó vẫn giữ được sự ổn định, vừa đủ để vận chuyển làm nhiên liệu hoặc gắn vào các trang thiết bị."
+ mod_country_base_entropy_crystals_produces_add: "£entropy_crystals£ $entropy_crystals$ mỗi tháng"
+ entropy_crystals_crisis_objective: "$menace_crisis_objective$"
+ entropy_crystals_crisis_objective_gained: "Nhận được £entropy_crystals£"
+ entropy_crystals_crisis_objective_reward: "$REWARD$"
+ entropy_crystals_crisis_objective_progress: "Chúng ta đã nhận được £entropy_crystals£ $AMOUNT$ từ Mục Tiêu Khủng Hoảng này."
+ entropy_crystals_crisis_level_locked: "Required to unlock this level:\n" # remove?
+ entropy_crystals_crisis_level_unlocked: "Tại $LEVEL$, bạn nhận được các phần thưởng:\n"
+ entropy_crystals_crisis_level_desc: "Để tiến qua các cấp độ Khủng Hoảng, hãy tích lũy $entropy_crystals$ và xây dựng §Y$galactic_crucible_4$§!."
+ entropy_crystals_crisis_level_unlock: "Có £entropy_crystals£ §Y$CURRENCY$§! $entropy_crystals$"
+ entropy_crystals_current_value: "Giá trị hiện tại: §Y$VALUE|0$§!"
+ entropy_crystals_crisis_description_title: "$ap_galactic_hyperthermia$"
+ entropy_crystals_crisis_description: "$menace_crisis_description_intro$\n\nPhương thức thao túng năng lượng hoàn toàn mới sẽ cho phép chúng ta gia tăng sức mạnh vượt bậc. Chúng ta sẽ cần khai thác ngọn lửa của chính các vì sao để thắp sáng kỷ nguyên này."
+ entropy_crystals_crisis_howto_title: "Nguồn Sức Mạnh"
+ entropy_crystals_crisis_howto: "Thực hiện các §HMục Tiêu Khủng Hoảng§! sẽ tạo ra £entropy_crystals£ §H$entropy_crystals$§!, dùng để nâng cấp $galactic_crucible_4$ và mở khóa Cấp Độ Khủng Hoảng tiếp theo."
+
+# Level
+ crisis_hyperthermia_already_ongoing: "Một đế chế khác đã bắt đầu kiểm soát lõi thiên hà."
+ crisis_hyperthermia_already_happened: "Một đế chế khác đã kiểm soát lõi thiên hà và tái định hình toàn bộ thiên hà."
+ crisis_hyperthermia_level_1: "§RMối Quan Ngại§!"
+ crisis_hyperthermia_level_1_desc: "$crisis_level_1_desc$"
+ crisis_hyperthermia_lv1_tt: "£trigger_yes£ Đã hoàn thành Dự Án Đặc Biệt §Y$INF_CRISIS_ENTROPY$§!"
+ crisis_hyperthermia_lv1_req_tt: "£trigger_no£ Đã hoàn thành Dự Án Đặc Biệt §Y$INF_CRISIS_ENTROPY$§!"
+ crisis_hyperthermia_level_2: "§RNguy Cơ§!"
+ crisis_hyperthermia_level_2_desc: "$crisis_level_2_desc$"
+ crisis_hyperthermia_lv2_tt: "£trigger_yes£ Đã xây dựng Siêu Kết Cấu §Y$galactic_crucible_0$§! và nâng cấp thành §Y$galactic_crucible_1$§!"
+ crisis_hyperthermia_lv2_req_tt: "£trigger_no£ Đã xây dựng Siêu Kết Cấu §Y$galactic_crucible_0$§! và nâng cấp thành §Y$galactic_crucible_1$§!"
+ crisis_hyperthermia_level_3: "§RHiểm Họa§!"
+ crisis_hyperthermia_level_3_desc: "$crisis_level_3_desc$"
+ crisis_hyperthermia_lv3_tt: "£trigger_yes£ Đã nâng cấp Siêu Kết Cấu §Y$galactic_crucible_1$§!"
+ crisis_hyperthermia_lv3_req_tt: "£trigger_no£ Đã nâng cấp Siêu Kết Cấu §Y$galactic_crucible_1$§!"
+ crisis_hyperthermia_level_4: "§RTai Ương§!"
+ crisis_hyperthermia_level_4_desc: "$crisis_level_4_desc$"
+ crisis_hyperthermia_lv4_tt: "£trigger_yes£ Đã nâng cấp Siêu Kết Cấu §Y$galactic_crucible_2$§!"
+ crisis_hyperthermia_lv4_req_tt: "£trigger_no£ Đã nâng cấp Siêu Kết Cấu §Y$galactic_crucible_2$§!"
+ crisis_hyperthermia_dec_lv4_tt: "£trigger_yes£ Đã hoàn thành Dự Án Đặc Biệt §Y$INF_CRISIS_ENTROPY_EVIL$§!"
+ crisis_hyperthermia_lv4_dec_req_tt: "£trigger_no£ Đã hoàn thành Dự Án Đặc Biệt §Y$INF_CRISIS_ENTROPY_EVIL$§!"
+ crisis_hyperthermia_level_5: "§RHiểm Họa Sinh Tồn§!"
+ crisis_hyperthermia_level_5_desc: "$crisis_level_5_desc$"
+ crisis_hyperthermia_lv5_tt: "£trigger_yes£ Đã nâng cấp Siêu Kết Cấu §Y$galactic_crucible_3$§!"
+ crisis_hyperthermia_lv5_req_tt: "£trigger_no£ Đã nâng cấp Siêu Kết Cấu §Y$galactic_crucible_3$§!"
+
+# MPerks Level 1
+ menp_hyperthermia_crystals: "$entropy_crystals$"
+ menp_hyperthermia_crystals_desc: "§Y$entropy_crystals$§! đánh dấu bước đột phá trong việc làm mất ổn định năng lượng có kiểm soát. Với nguồn tài nguyên dễ biến động này trong tay, chúng ta có thể tái định hình lại chính trật tự thiên hà."
+ unlocks_entropy_objectives: "Cho phép tích lũy £entropy_crystals£ §Y$entropy_crystals$§! bằng cách hoàn thành các §HMục Tiêu Khủng Hoảng§!."
+ menp_hyperthermia_harnessing: "Khai Thác Entropy"
+ menp_hyperthermia_harnessing_desc: "Tích hợp quá trình tổng hợp §Y$entropy_crystals$§! vào ngành công nghiệp cho phép sử dụng hiệu quả hơn nguồn tài nguyên bất ổn này, gắn kết trọng tâm kỹ thuật với các mục tiêu chiến lược của chúng ta."
+ unlocks_entropy_edict: "§HMở Khóa Sắc Lệnh:§! $edict_entropy_harnessing$"
+ menp_hyperthermia_crucible: "Lò Nấu Thiên Hà"
+ menp_hyperthermia_crucible_desc: "Lò Nấu được đề xuất này sẽ đóng vai trò như động cơ trung tâm để khai thác entropy từ các vì sao. Với khả năng kết tinh và vận chuyển nó, Lò Nấu có thể trở thành ngọn hải đăng cho sức mạnh rực lửa của chúng ta, lan tỏa khắp ngàn sao."
+ unlocks_galactic_crucible: "§H$UNLOCKS_MEGASTRUCTURE$:§! $galactic_crucible_0$"
+
+# MPerks Level 2
+ menp_hyperthermia_conc_entropy: "Entropy Đậm Đặc"
+ menp_hyperthermia_conc_entropy_desc: "$entropy_conduit_plural$ đóng vai trò sống còn trong việc mở rộng sức mạnh của chúng ta ở giai đoạn này. Việc gia tăng sản lượng của Lò Nấu sẽ đẩy nhanh bước tiến của chúng ta hướng tới một tương lai rực cháy và huy hoàng."
+ unlocks_conduit_spawn: "§H$UNLOCKS_SHIP_TYPE$:§! $entropy_conduit$ \n- §Y$entropy_conduit_plural$§! được tạo tự động bởi §Y$galactic_crucible_4$§! và sẽ di chuyển đến các hệ sao lân cận. \n- Các thuộc địa trong hệ sao mục tiêu nhận được hiệu ứng tăng cường. \n- Được trang bị vũ khí £ship_xl_slot£ §Y$LENS_FLARE_BEAM$§!, làm vô hiệu hóa kẻ thù khi bắn trúng trong vài ngày. \n\n"
+ menp_hyperthermia_radiant: "Tham Vọng Rạng Rỡ"
+ menp_hyperthermia_radiant_desc: "Trở thành tia lửa châm ngòi cả thiên hà đồng nghĩa với việc không có chỗ cho sự do dự hay thói quan liêu. Chúng ta không thể lãng phí thời gian cải tạo vô số hệ sao một cách chậm chạp. Để đạt được mục tiêu, chúng ta phải tăng vọt năng lực xây dựng của mình."
+ menp_hyperthermia_ignition: "Cưỡng Chế Kích Hỏa"
+ menp_hyperthermia_ignition_desc: "Đôi khi chỉ nỗ lực thôi là chưa đủ. Chúng ta cần đưa công nghệ của mình lên tầm cao mới và khai thác triệt để tiềm năng của nó. Đã đến lúc tối thiểu hóa các cơ chế bảo an và tối đa hóa sản lượng."
+ unlocks_crucible_overclocking: "Kích hoạt khả năng 'ép xung' cho §HMô Kết Cấu§! §Y$galactic_crucible_1$§!."
+
+# MPerks Level 3
+ menp_hyperthermia_cruiser: "$ember_cruiser$"
+ menp_hyperthermia_cruiser_desc: "Được trang bị công nghệ tiên tiến nhất, những chiến hạm này chuyển hóa dòng nhiệt bất ổn định thành sự hủy diệt có định hướng, thiêu rụi kẻ thù thành tro tàn cháy xém."
+ unlocks_ember_cruiser: "§H$UNLOCKS_SHIP_TYPE$:§! $ember_cruiser$"
+ menp_hyperthermia_flames: "Ngọn Lửa Nhấn Chìm"
+ menp_hyperthermia_flames_desc: "Xã hội không tưởng mà chúng ta hình dung không có chỗ cho bất kỳ ai cản đường. Bất cứ kẻ nào dám chống lại sẽ sớm nhận ra rằng sự kháng cự chỉ mang đến một cơn mưa lửa trút xuống quê nhà của chúng."
+ unlocks_firestorm_stance: "§HMở Khóa Địa Hóa:§! $pc_volcanic$ \n§HMở Khóa Tư Thế Oanh Tạc:§! $bombardment_firestorm$\n\n"
+ menp_hyperthermia_coronal: "Xả Khí Vành Nhật Hoa"
+ menp_hyperthermia_coronal_desc: "Các $entropy_conduit_plural$ của chúng ta hiện đang tiêu tán một lượng nhiệt khổng lồ để duy trì sự ổn định. Bằng cách xả lượng nhiệt đó ra không gian xung quanh, chúng ta có thể biến $entropy_conduit_plural$ thành những vũ khí tàn khốc chống lại kẻ thù."
+ unlocks_conduit_damage: "§Y$entropy_conduit_plural$§! gây sát thương bị động lên tàu và trạm không gian của kẻ thù. \n\n"
+
+# MPerks Level 4
+ menp_hyperthermia_reactors: "Lò Phản Ứng Nhật Hạch"
+ menp_hyperthermia_reactors_desc: "Khai thác §Y$entropy_crystals$§! vào công nghệ quân sự sẽ mở khóa các hệ thống động cơ đẩy với sức mạnh vô song. Chiến hạm của chúng ta sẽ xé toạc không gian như những vệt lửa rực rỡ chưa từng có."
+ menp_hyperthermia_solarflare: "Bão Nhật Hoa Nhân Tạo"
+ menp_hyperthermia_solarflare_desc: "Từng có thời điểm một phần thiên hà nằm ngoài tầm với của chúng ta. Ảo tưởng đó sắp kết thúc rồi. Sớm thôi, các bầy $entropy_conduit_plural$ sẽ phủ kín khắp các vì sao, mang đến sự hủy diệt chính xác cho mọi kẻ dám cản đường."
+ unlocks_conduit_borders: "§Y$entropy_conduit_plural$§! sẽ tự động vượt biên giới tiến vào lãnh thổ của kẻ thù. \n\n"
+ menp_hyperthermia_armada: "Hạm Đội Rực Lửa"
+ menp_hyperthermia_armada_desc: "Khi thiên hà bắt đầu hợp lực chống lại chúng ta, việc tổng động viên là điều tối cần thiết. Mọi công dân lúc này phải góp sức duy trì mặt trận năng lượng, thổi bùng ngọn lửa trỗi dậy của chúng ta."
+ unlocks_blazing_navalcap: "§Y[GetAlloyProducerPlural]§! và §Y[GetResearcherPlural]§! tăng £navy_size£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!.\n\n"
+
+# MPerks Level 5
+ menp_hyperthermia_battleship: "$ember_battleship$"
+ menp_hyperthermia_battleship_desc: "Với những họng pháo nóng rực tựa cơn bão lửa sắp sửa nhấn chìm cả thiên hà, những chiến hạm khổng lồ này sẽ tạo nên lực lượng phòng thủ nòng cốt xung quanh Lò Nấu."
+ unlocks_ember_battleship: "§H$UNLOCKS_SHIP_TYPE$:§! $ember_battleship$ \n- Có thể trang bị vũ khí £ship_xl_slot£ §Y$LENS_FLARE_BEAM$§!."
+ menp_hyperthermia_critical_mass: "Khối Lượng Tới Hạn"
+ menp_hyperthermia_critical_mass_desc: "Gia tăng hoạt động entropy ở lớp vỏ ngoài của ngôi sao khiến nó giải phóng một luồng bức xạ khổng lồ. Điều này làm cho toàn bộ hệ sao nóng lên nhanh chóng hơn."
+ unlocks_conduit_boost: "§Y$entropy_conduit_plural$§! trở nên mạnh mẽ hơn tùy thuộc vào số lượng hệ sao đã chiếm lĩnh.\n\n$hyperthermia_map_perc$\n\n"
+ hyperthermia_map_perc: "§G20%§! thiên hà: $TABBED_NEW_LINE$- $entropy_conduit_plural$ gây tàn phá lên các thuộc địa lân cận $TABBED_NEW_LINE$- Các thuộc địa bị ảnh hưởng sẽ dần mất đi £pop£ $POPS$ $TABBED_NEW_LINE$- Chỉ ảnh hưởng đến các đế chế thuộc chủng loài không phải §YƯa Nhiệt§! $TABBED_NEW_LINE$- Số hệ sao yêu cầu: §Y[root.hyperthermia_own_systems_var]§!/§Y[root.hyperthermia_systems_var]§!"
+ menp_hyperthermia_ammunition: "Đạn Dược Truyền Dẫn"
+ menp_hyperthermia_ammunition_desc: "Bước cải tiến trong thiết kế vũ khí: đạn dược tiêu chuẩn nay được tăng cường các lõi entropy vi mô, giải phóng các đợt sóng nhiệt bất ổn khi va chạm. Kết quả là sức công phá được nâng cao rõ rệt."
+
+# Misc
+ entropy_crystals_deficit: "Thiếu Hụt $entropy_crystals$"
+ edict_entropy_harnessing: "Khai Thác Entropy"
+ edict_entropy_harnessing_desc: "Việc đưa sản xuất $entropy_crystals$ vào cơ sở hạ tầng cho phép chúng ta khai thác triệt để ưu thế kỹ thuật và tận dụng tối đa tiềm năng của nguồn tài nguyên mới đầy biến động này."
+ mod_planet_technician_entropy_crystals_produces_add: "£entropy_crystals£ §Y$entropy_crystals$§! từ [GetTechnician] £job_technician£"
+ mod_shipsize_ember_cruiser_weapon_damage: "$MOD_SHIP_WEAPON_DAMAGE$ ($ember_cruiser$)"
+ mod_shipsize_ember_battleship_weapon_damage: "$MOD_SHIP_WEAPON_DAMAGE$ ($ember_battleship$)"
+ mod_conduit_spawnrate_add: "£time£ Thời Gian Chế Tạo $entropy_conduit$"
+ mod_conduit_spawnrate_switch: "Chế Tạo $entropy_conduit$: §RĐã Tắt§!"
+ mod_conduit_spawnrate_switch_short: "§RTắt Chế Tạo $entropy_conduit$§!"
+ mod_shipsize_ember_cruiser_speed_mult: "$MOD_SHIP_SPEED_MULT$ ($ember_cruiser$)"
+ mod_shipsize_ember_battleship_speed_mult: "$MOD_SHIP_SPEED_MULT$ ($ember_battleship$)"
+ ENTROPY_WORMHOLE: "$NATURAL_WORMHOLE_GALACTIC$"
+ BYPASS_ENTROPY_WORMHOLE: "$ENTROPY_WORMHOLE_GALACTIC$"
+ BYPASS_DESC_UNKNOWN_ENTROPY_WORMHOLE: "Chúng ta chưa từng thấy cấu trúc dạng này bao giờ"
+ ENTROPY_WORMHOLE_GALACTIC: "Hố Sâu Kỳ Lạ"
+ ENTROPY_WORMHOLE_DESC: "Hệ sao này chứa một §YHố Sâu§! kết nối với $DEST|Y$"
+ ENTROPY_WORMHOLE_DESC_UNEXPLORED: "Hệ sao này chứa một §YHố Sâu§! §Rchưa khám phá§!"
+ ENTRY_BYPASS_ENTROPY_WORMHOLE: "$BYPASS_TYPE$"
+ EXIT_BYPASS_ENTROPY_WORMHOLE: "Thoát Khỏi $BYPASS_TYPE$"
+ personality_hyperthermia_empire: "Đế Chế Nhiệt Trị"
+ personality_hyperthermia_empire_desc: "Một đế chế Nhiệt Trị bị chi phối bởi một hệ tư tưởng tôn sùng năng lượng, entropy và ngọn lửa của các vì sao. Họ không đi xâm lược — họ thiêu đốt và tôi luyện thiên hà bằng nhiệt lượng và ý chí sắt đá."
+ triggered_opinion_hyperthermia_empire: "Đế Chế $personality_hyperthermia_empire$"
+ mod_job_metallurgist_naval_cap_add: "£mod_country_naval_cap_add£ $MOD_COUNTRY_NAVAL_CAP_ADD$ từ Công Việc [GetAlloyProducer] £job_foundry£"
+ crisis_thermophile_adaptation: "Thích Nghi Ưa Nhiệt"
+ crisis_thermophile_adaptation_desc: ""
+ crisis_conduit_stop: "$mod_conduit_spawnrate_switch$" # modifier is hidden
+ crisis_conduit_stop_desc: ""
+
+ sm_gravitational_centrifuge: "Máy Ly Tâm Trọng Lực"
+ sm_gravitational_centrifuge_desc: "Cấu trúc này lợi dụng gradient trọng lực cực mạnh để xé toạc các vật liệu phế thải ở cấp độ phân tử, tạo ra một plasma entropy có thể kết tinh để sử dụng tiếp."
+ gravitational_centrifuge_tt: "Hoàn thành Mục Tiêu Khủng Hoảng §H$crisobj_entropy_starbase_name$§!"
+ requires_multiple_stars_or_or_bh: "§RYêu cầu hệ sao §Ysong tinh§!, §Ytam hợp tinh§! hoặc một §Y$pc_black_hole$§!.§!"
+
+# Conduit Starforming
+ crisis_conduit_buff: "Giám Sát Tinh Cầu"
+ crisis_conduit_buff_desc: "Bầu khí quyển của ngôi sao địa phương đang trải qua những biến động nhanh chóng, gây ra một đợt bão nhật hoa rực lửa quét qua toàn hệ sao. Dù đây là thảm họa với những kẻ khác, nhưng lại là điều kiện hoàn hảo để chúng ta sinh sôi thịnh vượng."
+ TERRAFORM_ORDER: "Cải Tạo Sao"
+ TERRAFORM_ORDER_DESC: "Sẽ từ từ biến ngôi sao mục tiêu thành một §Y$pc_m_giant_star$§!.\n\n$TERRAFORM_ORDER_CLICK_DESC$"
+ TERRAFORM_ORDER_RESEARCH: "Bằng cách tận dụng tiềm năng năng lượng tích lũy của Tinh Thể Entropy, các ngôi sao nhỏ hơn có thể được kích phát nở rộng thành các Sao Khổng Lồ Đỏ hùng vĩ."
+ FLEETORDER_TERRAFORM_BUTTON: "$TERRAFORM_ORDER$"
+ FLEETORDER_TERRAFORM: "Đang Rèn Sao $PLANET|Y$ ($PROGRESS|Y%0$)"
+ FLEETORDER_BOOST_STAR: "Kích Hỏa Sao"
+ CAN_NOT_TERRAFORM_STAR: "$TRIGGER_FAIL$Phải là ngôi sao chính."
+ CAN_NOT_CRISIS_TERRAFORM_STAR_CLASS: "$TRIGGER_FAIL$Loại sao không hợp lệ để cải tạo."
+ CAN_NOT_CRISIS_TERRAFORM_STAR_MEGASTRUCTURE: "$TRIGGER_FAIL$Siêu kết cấu trên quỹ đạo đang cản trở việc cải tạo."
+ VALID_TERRAFORM_STAR: "Ngôi sao có thể được cải tạo."
+ STATION_CAN_NOT_TERRAFORM_STAR: "Trạm Ống Dẫn phải ở trên quỹ đạo."
+
+# Objectives
+ crisobj_own_volcanics_name: "Sở Hữu Thế Giới Núi Lửa"
+ crisobj_own_volcanics_desc: "Nhiệt lượng hệ sao gia tăng thúc đẩy hoạt động núi lửa bùng nổ, rất lý tưởng để đẩy mạnh sứ mệnh rực lửa của chúng ta. Chúng ta nên ưu tiên thuộc địa hóa các §YThế Giới Núi Lửa§! để dẫn đầu.\n\nCung cấp thu nhập §Y$entropy_crystals$§! thụ động mỗi năm, tăng dần theo số lượng thuộc địa §Y$pc_volcanic$§!."
+ crisobj_create_volcanics_name: "Tạo Ra Thế Giới Núi Lửa"
+ crisobj_create_volcanics_desc: "Lan tỏa hoạt động núi lửa hành tinh khắp thiên hà sẽ tiếp thêm nhiên liệu cho nền kinh tế Tinh Thể Entropy. Với các kỹ thuật địa hóa chuẩn xác, chúng ta có thể kích hoạt hoạt động núi lửa bền vững ở bất kỳ nơi nào ta chọn.\n\nĐịa hóa một hành tinh thành §Y$pc_volcanic$§!"
+ crisobj_own_red_stars_name: "Sở Hữu Sao Đỏ"
+ crisobj_own_red_stars_desc: "Chúng ta nên ưu tiên hoạt động trong các hệ sao quanh những ngôi sao đỏ. Bề mặt phát xạ rộng lớn của chúng là môi trường lý tưởng để thu hoạch nhiệt năng.\n\nCung cấp thu nhập §Y$entropy_crystals$§! thụ động mỗi tháng, tăng dần theo mỗi §Y$pc_m_star$§! hoặc §Y$pc_m_giant_star$§! trong các hệ sao ta kiểm soát."
+ crisobj_create_red_stars_name: "Tạo Ra Sao Đỏ"
+ crisobj_create_red_stars_desc: "Bằng cách dẫn truyền Tinh Thể Entropy, chúng ta có thể thổi phồng các ngôi sao thành Sao Khổng Lồ Đỏ, tiếp thêm sức mạnh cho sự trỗi dậy của đế chế rực lửa mới.\n\nCác ngôi sao được cải tạo bởi §Y$entropy_conduit_plural$§! sẽ trở thành §Y$pc_m_giant_star$§!"
+ crisobj_planet_firestorm_name: "Hỏa Hoạn Hành Tinh"
+ crisobj_planet_firestorm_desc: "Đã đến lúc dạy cho các đối thủ bài học về ý nghĩa thực sự của quyền tối thượng, bằng một trận oanh tạc bão lửa sẽ biến thế giới của chúng thành tro tàn vụn vỡ.\n\nOanh tạc một thuộc địa bằng §Y$bombardment_firestorm$§! để gây ra §R100% tàn phá§!"
+ crisobj_lens_beam_impact_name: "Gây Nhiễu Loạn Chiến Hạm"
+ crisobj_lens_beam_impact_desc: "Các thế giới băng giá và ôn đới chẳng có ích gì cho chúng ta. Chúng ta phải tái định hình chúng, bằng cách nung chảy bề mặt thành những dạng phù hợp hơn với nhu cầu của mình.\n\nSử dụng vũ khí £ship_xl_slot£ §Y$LENS_FLARE_BEAM$§!, được trang bị trên §Y$entropy_conduit_plural$§! và §Y$ember_battleship_plural$§!, để oanh tạc các thế giới của kẻ thù."
+ crisobj_entropy_starbase_name: "Sở Hữu Máy Ly Tâm Trọng Lực"
+ crisobj_entropy_starbase_desc: "Máy Ly Tâm Trọng Lực sẽ giúp chúng ta thu thập thêm $entropy_crystals$. \n\nXây dựng công trình căn cứ sao §Y$sm_gravitational_centrifuge$§! trong các hệ sao §Ysong tinh§!, §Ytam hợp tinh§! hoặc §Y$pc_black_hole$§!."
+
+# Ships
+ NAME_Ember_Cruiser: "Kẻ Tàn Phá Rực Lửa"
+ ember_cruiser_cap: "$ember_cruiser$"
+ ember_cruiser: "$cruiser$ Tàn Lửa"
+ ember_cruiser_plural: "$cruiser_plural$ Tàn Lửa"
+ SHIP_GRAPHICS_EMBER_CRUISER_DESC: "$SHIP_GRAPHICS_CRUISER_DESC$\n\nBiến thể $ember_cruiser$ dẫn truyền §Y$entropy_crystals$§! để chuyển hóa dòng nhiệt bất ổn thành sự hủy diệt có định hướng."
+ EMBER_CRUISER_BOW_L1: "$CRUISER_BOW_L1$"
+ EMBER_CRUISER_BOW_M1S2: "$CRUISER_BOW_M1S2$"
+ EMBER_CRUISER_BOW_M2: "$CRUISER_BOW_M2$"
+ EMBER_CRUISER_MID_S2HB: "$CRUISER_MID_S2HB$"
+ EMBER_CRUISER_MID_L1M1: "$CRUISER_MID_L1M1$"
+ EMBER_CRUISER_MID_M3: "$CRUISER_MID_M3$"
+ EMBER_CRUISER_MID_M2S2: "$CRUISER_MID_M2S2$"
+ EMBER_CRUISER_STERN_M1: "$CRUISER_STERN_M1$"
+ EMBER_CRUISER_STERN_S2: "$CRUISER_STERN_S2$"
+
+ NAME_Ember_Battleship: "Lò Nung Rực Cháy"
+ ember_battleship_cap: "$ember_battleship$"
+ ember_battleship: "$battleship$ Tàn Lửa"
+ ember_battleship_plural: "$battleship_plural$ Tàn Lửa"
+ SHIP_GRAPHICS_EMBER_BATTLESHIP_DESC: "$SHIP_GRAPHICS_BATTLESHIP_DESC$\n\nBiến thể $ember_battleship$ được tôi luyện trong §Y$galactic_crucible_4$§! và có thể trang bị vũ khí §Y$LENS_FLARE_BEAM$§!."
+ EMBER_BATTLESHIP_BOW_L1M1S2: "$BATTLESHIP_BOW_L1M1S2$"
+ EMBER_BATTLESHIP_BOW_L2: "$BATTLESHIP_BOW_L2$"
+ EMBER_BATTLESHIP_BOW_M1S2SHB: "$BATTLESHIP_BOW_M1S2SHB$"
+ EMBER_BATTLESHIP_BOW_XL: "$BATTLESHIP_BOW_M2S4$"
+ EMBER_BATTLESHIP_MID_L2M2: "$BATTLESHIP_MID_L2M2$"
+ EMBER_BATTLESHIP_MID_L3: "$BATTLESHIP_MID_L3$"
+ EMBER_BATTLESHIP_MID_M4SHB: "$BATTLESHIP_MID_M4SHB$"
+ EMBER_BATTLESHIP_MID_S4LHB: "$BATTLESHIP_MID_S4LHB$"
+ EMBER_BATTLESHIP_STERN_L1: "$BATTLESHIP_STERN_L1$"
+ EMBER_BATTLESHIP_STERN_M2: "$BATTLESHIP_STERN_M2$"
+
+ conduit_station_cap: "$entropy_conduit$"
+ conduit_station: "$entropy_conduit$"
+ conduit_station_plural: "$entropy_conduit_plural$"
+ NAME_Conduit_Station: "$NAME_Entropy_Conduit$"
+ entropy_conduit_cap: "$entropy_conduit$"
+ entropy_conduit: "Ống Dẫn"
+ entropy_conduit_plural: "Bầy Ống Dẫn"
+ entropy_conduit_key: "Lõi Ống Dẫn"
+ NAME_Entropy_Conduit: "Ống Dẫn Entropy"
+
+# Weapon
+ LENS_FLARE_BEAM: "Tia Tê Liệt Thấu Kính"
+ LENS_FLARE_BEAM_DESC: "Chùm tia của vũ khí này được hiệu chỉnh để gây nhiễu loạn các hệ thống điều khiển trọng yếu, tạo ra một khoảng thời gian cơ hội hạn chế cho các đợt tấn công không bị kháng cự."
+ lfb_on_hit_stun_tt: "§YVô hiệu hóa§! mục tiêu trong §G7§! ngày, khiến nó không thể di chuyển hoặc bắn trả."
+ lf_weapon_stun_effect: "Tác Động §R$LENS_FLARE_BEAM$§!"
+ lf_weapon_stun_effect_desc: "   " # not visible
+
+# Megastructure
+ galactic_crucible_0: "Khung Lò Nấu Thiên Hà"
+ galactic_crucible_0_DESC: "Khung kết cấu nền tảng của một $galactic_crucible_4$, được xây dựng để nâng đỡ và định hướng phần còn lại của quá trình xây dựng trạm."
+ galactic_crucible_0_MEGASTRUCTURE_DETAILS: "Trạm khổng lồ này hút năng lượng từ ngôi sao chủ, cung cấp năng lượng cho các xưởng đóng tàu tự động sản xuất §Y$entropy_conduit_plural$§!; những con tàu có khả năng tái định hình vận mệnh của các vì sao."
+ galactic_crucible_1: "Khung Thân $galactic_crucible_4$"
+ galactic_crucible_1_DESC: "Với cơ sở hạ tầng cốt lõi đã hoàn thành, $galactic_crucible_4$ giờ đây đã là một trạm không gian hoạt động được. Việc xây dựng các hệ thống kết tinh entropy đang được tiến hành."
+ galactic_crucible_2: "Lõi $galactic_crucible_4$"
+ galactic_crucible_2_DESC: "$galactic_crucible_4$ hiện đã hoạt động toàn diện và sẵn sàng mở rộng triển khai §Y$entropy_crystals$§!. Mọi nâng cấp trong tương lai sẽ phụ thuộc vào nền tảng này.\n§HHoàn thành Dự Án Đặc Biệt để mở khóa giai đoạn tiếp theo.§!"
+ galactic_crucible_3: "Trung Tâm $galactic_crucible_4$"
+ galactic_crucible_3_DESC: "Công trình $galactic_crucible_4$ đang mở rộng nay sở hữu các hệ thống entropy dạng mô-đun, được thiết kế để tái cấu trúc và phát triển liền mạch. Các kỹ thuật viên có thể gia tăng công suất trong khi giảm thiểu sự kém hiệu quả."
+ galactic_crucible_4: "Lò Nấu Thiên Hà"
+ galactic_crucible_4_DESC: "Được vũ trang và vận hành toàn diện, $galactic_crucible_4$ sẵn sàng phóng thích ngọn lửa thanh tẩy quét sạch thiên hà. Các hệ thống thông lượng entropy hiện hoạt động ở mức hiệu suất lý thuyết đỉnh cao."
+ galactic_crucible_5: "Viện Nghiên Cứu $galactic_crucible_4$"
+ galactic_crucible_5_DESC: "$galactic_crucible_4$ đã được tái cấu trúc không thể đảo ngược để ngăn chặn sản lượng năng lượng cao nguy hiểm. Nó sẽ duy trì như một nguồn thịnh vượng ổn định và an toàn cho đế chế."
+ galactic_crucible_ruined: "$galactic_crucible_4$ Đổ Nát"
+ galactic_crucible_ruined_DESC: "Một xưởng đóng tàu đổ nát, từng được tôi rèn để phục vụ tham vọng rực lửa của một đế chế đã sụp đổ."
+ galactic_crucible_ruined_MEGASTRUCTURE_DETAILS: "Tàn tích rộng lớn này vẫn phát ra những túi nhiệt nhấp nháy, đập liên hồi một cách khó lường khắp các mảnh vỡ hoang tàn."
+ SPAWN_CONDUITS: "$entropy_conduit_plural$"
+ SPAWN_CONDUITS_DESC: "$galactic_crucible_4$ tự động chế tạo $entropy_conduit_plural$. Chúng sẽ tự tìm đường đến một ngôi sao có thể biến đổi thành §Y$pc_m_giant_star$§!."
+ overclock_gc_default: "$overclock_mode$ §HMặc Định§!"
+ overclock_gc_default_desc: "Sản xuất nguồn cung Tinh Thể Entropy ổn định và vừa phải.\n"
+ overclock_gc_high: "$overclock_mode$ §HQuá Tải§!"
+ overclock_gc_high_desc: "Sử dụng lượng lớn năng lượng dự trữ để đẩy nhanh tốc độ chế tạo Ống Dẫn.\n"
+ overclock_gc_eco: "$overclock_mode$ §HSản Lượng§!"
+ overclock_gc_eco_desc: "Đầu tư mạnh hợp kim cho phép sản xuất Tinh Thể Entropy ở tốc độ cao hơn.\n"
+ overclock_gc_war: "$overclock_mode$ §HTrung Tâm Phối Hợp§!"
+ overclock_gc_war_desc: "$galactic_crucible_4$ có thể được dùng để cung cấp lượng lớn năng lượng dự phòng cho các chiến hạm lân cận, tối đa hóa sức chiến đấu của các hạm đội phòng thủ.\n"
+
+# Event Chain
+ galactic_hyperthermia_chain_title: "$ap_galactic_hyperthermia$"
+ galactic_hyperthermia_chain_desc: "Chúng ta đã quyết định rằng tương lai được bao bọc trong biển lửa, và đang tiến hành thiêu cháy toàn bộ thiên hà."
+
+# Special Projects
+ INF_CRISIS_ENTROPY: "Nguồn Năng Lượng Mới"
+ INF_CRISIS_ENTROPY_DESC: "Ngọn lửa từ lâu đã đóng vai trò quan trọng trong xã hội của chúng ta, nhưng giờ đây chúng ta có thể khai thác sức mạnh hỗn loạn của nó theo những phương thức hoàn toàn mới. Đây có thể là điều các nhà khoa học hằng mơ ước: một nguồn năng lượng vượt xa việc duy trì nền văn minh hiện tại, có thể phóng chúng ta bay vút khắp các vì sao.\n\n§HHiệu Quả:§! Mở khóa tài nguyên £entropy_crystals£ §Y$entropy_crystals$§! mới."
+ INF_CRISIS_ENTROPY_EVIL: "Bão Lửa Toan Tính"
+ INF_CRISIS_ENTROPY_EVIL_DESC: "The Crucible has shown us a new path for our species. It would be foolish not to embrace it, and we should suffer no fools. It is time to remake the galaxy in a blazing new image, and burn away anyone who rejects our vision.\n\n§HEffects:§!\n- Unlocks the next upgrade of the §Y$galactic_crucible_4$§!.\n- §Y$entropy_conduit_plural$§! can now convert stars in enemy territory.\n\n" # Crystallized Entropy is used to its full potential
+ INF_CRISIS_ENTROPY_GOOD: "Mối Tương Quan Bất Ngờ"
+ INF_CRISIS_ENTROPY_GOOD_DESC: "While the Crucible's power is immense, it is also volatile. If we permanently cripple its capabilities, we will secure a modest source of prosperity for ourselves without endangering the galaxy or losing the goodwill of our neighbors." # Crystallized Entropy can be used for the economy
+
+# Countdown Situation
+ situation_galactic_hyperthermia_timer: "Tổng Động Viên"
+ situation_galactic_hyperthermia_timer_type: "$situation_galactic_hyperthermia_timer$"
+ situation_galactic_hyperthermia_timer_desc: "Sự tinh thông của chúng ta đối với §Y$entropy_crystals$§! sẽ sớm cho phép chúng ta bắt đầu một cuộc biến đổi tận gốc rễ thiên hà. Chúng ta đã mở các hố sâu dẫn đến sáu hệ sao bao quanh lõi thiên hà.\nNếu chúng ta thiết lập §Y$entropy_conduit_plural$§! tại mỗi hệ sao này và bảo vệ chúng khỏi bất kỳ kẻ nào dám can thiệp vào kế hoạch, chúng ta sẽ có thể châm ngòi thiêu cháy chính thiên hà này."
+ situation_galactic_hyperthermia_timer_monthly_change_tooltip: "Mức độ entropy hiện tại bức xạ vào lõi thiên hà. Khi đạt đến đỉnh điểm, thiên hà sẽ bùng cháy."
+ situation_gh_timer_outcome: "Tình báo của chúng ta báo cáo rằng nhiều quốc gia có thể đang chuẩn bị chiến tranh để phá hoại kế hoạch của ta. Nếu đối đầu với họ trong tình trạng chưa chuẩn bị, công cuộc của chúng ta sẽ thất bại ngay trước khi kịp bắt đầu."
+ situation_gh_approach_timer: "Đối Mặt Với Hậu Quả"
+ situation_gh_approach_timer_tt: "Thời khắc đã điểm. Một cuộc xung đột không thể tránh khỏi sắp sửa nhấn chìm thiên hà trong một cuộc chiến có quy mô sử thi."
+ situation_gh_difficulty_progress: "Độ Khó"
+ situation_gh_opponent_progress: "§G-0.1§! mỗi đế chế đối đầu"
+
+# Crisis Situation
+ situation_galactic_hyperthermia: "Bão Lửa Thiên Hà"
+ situation_galactic_hyperthermia_type: "$situation_galactic_hyperthermia$"
+ situation_galactic_hyperthermia_monthly_change_tooltip: "Tốc độ mà thiên hà đang tiến tới sự bốc cháy hoàn toàn."
+ situation_hyperthermia_desc_perp: "§LChúng ta mường tượng về một xã hội không tưởng rực lửa, nhưng để kiến tạo nó, chúng ta phải thiêu rụi mọi thứ cản đường. Chúng ta đã thắp lên những tia lửa đầu tiên, và giờ đây phải thổi bùng ngọn lửa cho đến khi mọi ngóc ngách của thiên hà bị thiêu rụi.§!\n\n$situation_hyperthermia_stats$"
+ situation_hyperthermia_desc: "§L§Y[event_target:hyperthermia_empire.GetName]§! đã châm ngòi các vì sao. Giờ đến lượt chúng ta chiến đấu chống lại đám cháy vĩ đại nhất mà thiên hà từng phải đối mặt. Không có cơ hội thứ hai. Nếu thất bại, mọi thứ chúng ta từng đạt được sẽ biến thành tro tàn.§!\n\n$situation_hyperthermia_stats$"
+ situation_hyperthermia_stats: "§HHệ Sao Lõi Đã Chiếm:§! [event_target:hyperthermia_empire.gh_crisis_core_var]"
+
+ situation_galactic_hyperthermia_outcome: "[GetHyperthermiaOutcome]"
+ situation_gh_outcome_perp: "Nếu thành công, một cơn mưa lửa sẽ thiêu rụi toàn bộ thiên hà, chỉ để lại những kẻ biết đón nhận sức nóng đứng vững giữa đống tro tàn. Thậm chí các vì sao cũng không thể thoát khỏi; sau hàng tỷ năm, chúng sẽ được tái định hình theo diện mạo ngôi sao quê hương của chúng ta."
+ situation_gh_outcome_other: "Nếu §Y[hyperthermia_empire.GetName]§! thành công, toàn bộ thiên hà sẽ bị thiêu thành tro tàn, tạo nên một vương quốc nơi chỉ có các dạng sống Ưa Nhiệt mới có thể tồn tại."
+
+ situation_galactic_hyperthermia_progress: "Số lượng hệ sao Lõi Thiên Hà bị §Y$entropy_conduit_plural$§! chiếm đóng sẽ quyết định tiến độ hàng tháng. \n$TABBED_NEW_LINE$- Dưới §Y3§! hệ sao: §R-3§! $TABBED_NEW_LINE$- Chiếm §Y3§! hệ sao: §Y0§! $TABBED_NEW_LINE$- Trên §Y3§! hệ sao: §G+3§! \n\nTiến Độ Hiện Tại"
+ situation_galactic_hyperthermia_stage1: "Đã Đạt Mức Tối Thiểu ($stage_1$)"
+
+ situation_gh_approach_perp: "Thêm Dầu Vào Lửa"
+ situation_gh_approach_perp_tt: "Bây giờ hoặc không bao giờ. Chúng ta phải thành công, hoặc đối mặt với nguy cơ mất đi tất cả những gì đã gầy dựng."
+ situation_gh_approach_other: "Dập Tắt Ngọn Lửa"
+ situation_gh_approach_other_tt: "Đế chế này đại diện cho mối đe dọa sinh tồn đối với sự ổn định của thiên hà. Dốc toàn lực nghênh chiến không còn là một lựa chọn, mà là điều bắt buộc."
+
+# Events
+# NOTE: Remove most #comments below after texts are done
+ infernals.1000.name: "Một Sức Mạnh Mới"
+ infernals.1000.desc: "[GetHyperthermiaIntroIfRedGiant]"
+ infernals.1000.descNormal: "Các [GetScientistPlural] của chúng ta báo cáo về một phương pháp hoàn toàn mới để thu hoạch và lưu trữ entropy bằng cách liên kết nó vào một ma trận tinh thể năng lượng cao. Loại §Y$entropy_crystals$§! này có thể lưu trữ và vận chuyển nhiệt năng khổng lồ, ứng dụng rộng rãi trong các hoạt động công nghiệp, kinh tế và liên sao.\n\nMô hình mô phỏng cho thấy nó có thể được dùng để địa hóa các hành tinh thành khí hậu nóng hơn, hoặc thậm chí đẩy nhanh sự tiến hóa của sao thành các sao khổng lồ đỏ. Về nguyên tắc, lượng entropy trôi nổi khắp thiên hà có thể được thu hồi và chuyển hóa thành nhiệt năng hữu ích, thúc đẩy sự giãn nở nhiệt cộng hưởng trên quy mô toàn thiên hà.\n\n§HBan Hành Dự Án Đặc Biệt:§! §Y$INF_CRISIS_ENTROPY$§!"
+ infernals.1000.descRedGiant: "Our [GetScientistPlural] have analyzed the §Y$entropy_crystals$§! once used to ignite a Red Giant, an act that nearly ended our civilization before it began. We can now re-engineer this volatile substance to bind and transport vast thermal energy for industrial, economic, and stellar-scale use.\n\nSimulations suggest it may enable terraforming into hotter climates or trigger stellar evolution into red giants. In theory, ambient galactic entropy could be reclaimed and converted into heat, driving systemic thermal expansion.\n\n§HIssues Special Project:§! §Y$INF_CRISIS_ENTROPY$§!" # Intro if you've learned about entropy from the Red Giant Miners
+
+ infernals.1005.name: "Đạt Được Sự Kết Tinh"
+ infernals.1005.desc1: "We have completed our first working infrastructure for harvesting energy and converting it into §Y$entropy_crystals$§!. These crystals hold immense thermal energy and already enable our industry to store and transport power far more efficiently than conventional methods.\n\nRed Giants, thanks to their vast emission surfaces and thermal output, are ideal for this process, and we're ready to deploy the technology in any system under our control.\n\nOur technicians have also begun adapting the process for industrial use, experimenting with ways to synthesize $entropy_crystals$ by harnessing ambient entropy. With this new economy igniting, wealth and power are sure to follow. Our [GetScientistPlural] are already researching how to scale production further.\n\n§H$UNLOCKS_MEGASTRUCTURE$:§! §Y$galactic_crucible_0$§!" # Reaching lv1
+ infernals.1005.desc2: "With our existing samples of §Y$entropy_crystals$§!, we can harvest and synthesize them without endangering our home star. These crystals hold immense thermal energy, allowing our industry to store and transport power far more efficiently than conventional methods.\n\nRed Giants, thanks to their vast emission surfaces and thermal output, are ideal for this process, and we're ready to deploy the technology in any system under our control.\n\nOur technicians have also begun adapting the process for industrial use, experimenting with ways to synthesize $entropy_crystals$ by harnessing ambient entropy. With this new economy igniting, wealth and power are sure to follow. Our [GetScientistPlural] are already researching how to scale production further.\n\n§H$UNLOCKS_MEGASTRUCTURE$:§! §Y$galactic_crucible_0$§!" # Reaching lv1
+ infernals.1005.a: "Chúng ta phải bắt đầu công cuộc xây dựng."
+ infernals.1005.a.tt: "Dùng một $constructor$ để xây dựng §Y$galactic_crucible_0$§! xung quanh một ngôi sao."
+ infernals.1005.b: "Lệnh cho các máy bay không người lái bắt đầu xây dựng."
+ infernals.1005.b.tt: "Dùng một $constructor$ để xây dựng §Y$galactic_crucible_0$§! xung quanh một ngôi sao."
+
+ infernals.1006.name: "Tiến Hóa Ưa Nhiệt"
+ infernals.1006.desc: "Chúng ta dấn thân vào con đường châm ngòi cả thiên hà, nhưng chính thể xác của chúng ta cũng phải sẵn sàng đối mặt với sức nóng. Việc thích nghi dân số với nhiệt độ cao hơn sẽ giúp chúng ta sinh sôi mạnh mẽ trong tương lai rực lửa mới."
+ infernals.1006.descRedGiant: "Trong khi chúng ta nỗ lực không ngừng để đảo ngược các biến đổi của ngôi sao, chính thể xác của chúng ta cũng phải sẵn sàng đối mặt với sức nóng. Việc thích nghi dân số với nhiệt độ cao hơn sẽ giúp chúng ta phát triển thịnh vượng cùng tương lai rực lửa mới của ngôi sao."
+
+ infernals.1010.name: "Phóng Ra $entropy_conduit_plural$"
+ infernals.1010.desc: "The $galactic_crucible_1$ is now ready to deploy §Y$entropy_conduit_plural$§!: automated systems designed to channel and amplify stellar entropy. Once dispatched, they'll recycle and intensify a star's energy output, converting it into a Red Giant, heating entire systems to support our empire's expanding infrastructure.\n\nThese §Y$entropy_conduit_plural$§! can be produced at regular intervals and operate autonomously for our convenience. For now, they'll remain within our territory, but in time, it may serve us to let them spread across the galaxy. After all, our empire never stops growing.\n\n§HMegastructure Upgrade Available:§! §Y$galactic_crucible_2$§!" # Reaching lv2
+ infernals.1010.a: "Sản lượng $entropy_crystals$ sẽ được đẩy nhanh."
+ infernals.1010.b: "Chúng ta cần chinh phục thêm nhiều hệ sao nữa."
+
+ infernals.1015.name: "Nhiệt Độ Sẽ Lên Cao Đến Mức Nào?"
+ infernals.1015.desc: "Our continued research into §Y$entropy_crystals$§! has unveiled a chilling possibility: when highly concentrated, they can power weapons of unimaginable scale, capable of devastating entire planets. With such power, the galaxy could fall under our mercy.\n\nBut exploring these military applications would shatter what little trust remains between us and our neighbors. And who's to say such weapons couldn't one day be turned against us?\n\nEmpty words of peace will not suffice. If we wish to prove our intentions, we must publicly cripple the $galactic_crucible_2$, ensuring it can never produce such weaponry. Otherwise, it's only a matter of time before this technology is weaponized, by us, or by someone else.\n\n§HThis decision unlocks a Special Project§!" # Reaching lv3 & decision
+ infernals.1015.a: "Fan the flames of war!" # evil path
+ infernals.1015.a.desc: "Unlocks crisis level $crisis_hyperthermia_level_4$.\n" #\n\n§HIssues Special Project:§! §Y$INF_CRISIS_ENTROPY_EVIL$§!
+ infernals.1015.b: "Let us temper our ambitions." # good path
+ infernals.1015.b.desc: "Ngăn chặn việc tiếp cận Cấp Độ Khủng Hoảng $crisis_hyperthermia_level_4$. \n\n§HBan Hành Dự Án Đặc Biệt:§! §Y$INF_CRISIS_ENTROPY_GOOD$§! để biến §Y$galactic_crucible_2$§! thành một §Y$galactic_crucible_5$§!."
+
+ infernals.1020.name: "Bước Vào Biển Lửa"
+ infernals.1020.desc: "Our investigation into §Y$entropy_crystals$§! and the §Y$INF_CRISIS_ENTROPY_EVIL$ Project§! has confirmed what we suspected: the potential for devastating weaponry is real. With such power in our hands, we no longer need to temper ourselves for the sake of diplomatic niceties.\n\nThe $galactic_crucible_3$'s expansion will accelerate, with special focus on its more... aggressive applications. The sooner we unlock these weapons, the less the galaxy's opinions will matter.\n\n§HMegastructure Upgrade Available:§! §Y$galactic_crucible_4$§!" # Finishing special project for evil path
+ infernals.1020.a: "Chúng ta phải sẵn sàng cho chiến tranh."
+ infernals.1020.a.tt: "- Việc mở rộng §Y$galactic_crucible_4$§! phải là ưu tiên hàng đầu.\n- $unlocks_conduit_damage$"
+ infernals.1020.b: "Các đối thủ của chúng ta sẽ là mồi lửa cho ngọn lửa bùng cháy."
+ infernals.1020.b.tt: "- Việc mở rộng §Y$galactic_crucible_4$§! phải là ưu tiên hàng đầu.\n- $unlocks_conduit_damage$"
+
+ infernals.1021.name: "Ánh Sáng Ổn Định"
+ infernals.1021.desc: "The $galactic_crucible_3$ has been successfully hobbled, ensuring it can no longer be expanded or repurposed for destructive ends. While the loss of its full potential is regrettable, continuing down that path would have risked catastrophe, and the collapse of all diplomatic ties.\n\nFortunately, even in its limited form, the $galactic_crucible_5$ will remain a powerful source of energy and prosperity. We've stepped back before crossing a line, securing a future where we can collaborate with the galactic community while still benefiting from this remarkable science.\n\n§HMegastructure Upgrade Available:§! §Y$galactic_crucible_5$§!" # Finishing special project for good path
+ infernals.1021.a: "Tất cả chúng ta đều hưởng lợi từ sự hợp tác."
+ infernals.1021.b: "Trong sự hòa hợp, chúng ta tìm thấy thịnh vượng."
+
+ infernals.1025.name: "Bao Vây Lõi Thiên Hà"
+ infernals.1025.desc: "Our ongoing research into §Y$entropy_conduit_plural$§! and transforming stars into Red Giants suggests we may be able to scale up our operations to overheat the Galactic Core itself, triggering a thermal cascade across the entire Galaxy, thus transforming it into a much more hospitable place for us.\n\nWe have identified six systems surrounding the core that could serve as operational hubs for this endeavor. These systems lie beyond the galactic hyperlane network, but efforts are underway to generate stable wormholes and establish access." # Reaching lv4
+ infernals.1025.a: "Chúng ta là những kẻ duy nhất xứng đáng sinh tồn trong biển lửa."
+ infernals.1025.a.tt: "Các giống loài khác sẽ cố gắng chống lại chúng ta. Hãy chuẩn bị cho cuộc chiến toàn thiên hà."
+ infernals.1025.b: "Cả thiên hà sẽ bốc cháy trong sự hòa hợp rực rỡ."
+ infernals.1025.b.tt: "Các giống loài khác sẽ cố gắng chống lại chúng ta. Hãy chuẩn bị cho cuộc chiến toàn thiên hà."
+
+ infernals.1030.name: "Cuộc Đua Kích Hỏa"
+ infernals.1030.desc: "The $galactic_crucible_4$ is now fully armed and operational. With wormhole tunnels completed, we've secured access to all six staging systems around the Galactic Core.\n\nOur work to overheat the Core can begin. Other empires may detect our activity and attempt to reach these systems, but for now, we hold the advantage, and the core bends to our will.\n\n§HUse the wormhole to secure the Galactic Core systems§!" # Reaching lv5, lanes open in 3 years!
+ infernals.1030.a: "Bắt đầu triển khai lắp đặt tại các hệ sao lõi."
+ infernals.1030.a.tt: "Triển khai §Y$entropy_conduit_plural$§! tại sáu hệ sao Lõi Thiên Hà sẽ cho phép chúng ta làm quá nhiệt toàn bộ thiên hà cùng một lúc. Chúng ta phải bắt đầu chuẩn bị."
+ infernals.1030.b: "Tương lai của chúng ta rực sáng cùng ngọn lửa."
+ infernals.1030.b.tt: "$infernals.1030.a.tt$"
+
+ infernals.1035.name: "Chuông Báo Cháy Thiên Hà"
+ infernals.1035.desc: "Các đế chế đối thủ đã cưỡng ép mở ra các tuyến siêu không gian dẫn đến các căn cứ tập kết của chúng ta gần lõi thiên hà. Khi chúng ta tiếp tục nung nóng cực độ lõi thiên hà, chúng ta phải chuẩn bị đối phó với sự kháng cự.\n\nThế nhưng chúng ta sẽ không thể bị ngăn cản. Sự lạnh lẽo tăm tối của vũ trụ sẽ bị gột rửa, thay thế bằng vinh quang rực lửa của tương lai trỗi dậy của chúng ta."
+# core is now connected with the galaxy!
+ infernals.1035.a: "Chúng sẽ không bao giờ dập tắt được chúng ta."
+ infernals.1035.b: "Hãy để chúng tự lao đầu vào ngọn lửa thiêu rụi của chúng ta."
+
+ infernals.1040.name: "Cơn Bão Sắp Tới"
+ infernals.1040.desc: "The galactic core has begun to stir. Entropy levels around the supermassive black hole are spiking, casting waves of thermal radiation into nearby systems.\n\nJust as panic sets in, a team of brave scientists, drawn from many worlds, has unveiled newly-formed hyperlanes connecting to six systems encircling the core. These systems, it seems, house facilities operated by §Y[hyperthermia_empire.GetName]§!, which are actively superheating the core. This reckless tampering threatens to ignite a cascading firestorm across the galaxy, incinerating all who fail to stop their pyromaniac ambitions.\n\nIf we wish to survive, we must breach these systems and wrest control from their grasp. The crisis is here - and the temperature is still rising." # other empires learn about the core, forming a coalition war
+ infernals.1040.a: "We must stop this!" # generic reply (declares war)
+ infernals.1040.a.tt: "§LMột cuộc khủng hoảng với quy mô vô tiền khoáng hậu sắp sửa nhấn chìm thiên hà của chúng ta. Chỉ có sức mạnh kết hợp của một liên minh mới thành lập mới có thể cứu lấy chúng ta.§! \n\nSẽ thành lập một §Yliên minh§! gồm các đế chế chống lại khủng hoảng, dẫn đến một cuộc xung đột trên toàn thiên hà. Chúng ta sẽ §Rtuyên chiến§! chống lại §Y[hyperthermia_empire.GetName]§!."
+ infernals.1040.b: "Burn, weaklings!" # Genocidals reply
+ infernals.1040.b.tt: "§LTrong thời khắc khủng hoảng, mỗi chủng loài phải tự thân vận động. Chúng ta có đủ sức mạnh để tự mình giải quyết chuyện này.§!"
+ infernals.1040.c: "They are just like us." # Infernals reply
+ infernals.1040.c.tt: "§LPhương pháp của §Y[hyperthermia_empire.GetName]§! phù hợp với tầm nhìn của chúng ta về một thiên hà được đổi mới. Dưới sự đồng điệu này, chúng ta có thể được dung thứ khỏi toàn bộ sức tàn phá mà những kẻ khác coi là thảm họa.§!"
+ infernals.1040.d: "Not our concern." # neutral reply
+ infernals.1040.d.tt: "§LMột đế chế chơi với lửa khó có thể xem là điều mới mẻ. Sự biến động này rồi cũng sẽ qua đi, như mọi thứ trên đời. Chẳng có lý do gì để chúng ta can dự vào.§!"
+
+ infernals.1042.name: "Leo Thang: §RĐã Tuyên Bố Khủng Hoảng§!"
+ infernals.1042.desc: "Những cuộc biến đổi vĩ đại nhất trong lịch sử luôn đòi hỏi sự hy sinh. Thế nhưng Cộng Đồng Thiên Hà lại xem công cuộc của chúng ta như một mối đe dọa thay vì một điều tất yếu. Đáp lại, một liên minh quân sự thống nhất đã tổng động viên để chống lại chúng ta.\n\nVới việc diệt chủng là mục tiêu tuyên bố của chúng, chúng ta không còn lựa chọn nào khác: bất kỳ hành vi tiếp cận nào hướng tới Lõi Thiên Hà hoặc $galactic_crucible_4$ sẽ bị đáp trả bằng vũ lực áp đảo.\n\nTầm nhìn của chúng ta đã thắp sáng chính các vì sao. Hãy để những kẻ dám cản đường phải vật lộn với cơn bão mà chúng ta đã triệu hồi.\n\n§HBảo vệ các hệ sao Lõi Thiên Hà và chiến thắng chắc chắn thuộc về chúng ta!§!"
+ infernals.1042.a: "Kết cục là không thể tránh khỏi."
+
+ infernals.1043.name: "Hiệu Triệu Khí Giới: §RĐã Tuyên Bố Khủng Hoảng§!"
+ infernals.1043.desc: "Trước những hiểm họa leo thang tại lõi thiên hà, Cộng Đồng Thiên Hà đã ban hành phản ứng thống nhất chống lại §Y[hyperthermia_empire.GetName]§!, kẻ mà nỗ lực cực đoan nhằm nâng nhiệt độ thiên hà đang đe dọa toàn bộ sự sống đã biết.\n\nNếu để những tham vọng này diễn ra không bị kiềm chế, vô số nền văn minh sẽ phải đối mặt với sự diệt vong. Cái gọi là §Y[hyperthermia_empire.GetName]§! giờ đây đứng ở thế đối đầu trực diện với một liên minh được gắn kết bởi sự sinh tồn.\n\nTrận chiến đã bắt đầu, và sinh mạng của hàng nghìn tỷ sinh linh đang ngàn cân treo sợi tóc.\n\n§HChiếm giữ các hệ sao Lõi Thiên Hà nếu không tất cả sẽ mất hết!§!"
+ infernals.1043.a: "Tổng động viên các hạm đội!"
+
+ infernals.1045.name: "Chạy Đua Với Thời Gian"
+ infernals.1045.desc1: "A cascading firestorm impends. Soon, the galactic core will erupt, cleansing our enemies and cementing our dominion over the stars.\n\nBut the galaxy refuses to embrace our radiant future. Through the newly-forged hyperlanes, they plot to invade our staging grounds and undo everything we've built. For what? To preserve their cold, stagnant darkness?\n\nWe cannot allow them to interfere. We must hold the line at the core, until the firestorm ignites and reduces them to ash." # last stage of global situation - crisis
+ infernals.1045.desc2: "The galactic core grows ever hotter, driven by §Y[hyperthermia_empire.GetName]'s§! fanatical obsession with igniting the stars. At this pace, their firestorm will annihilate all opposition, and purge the galaxy of nearly all life.\n\nThey cannot be reasoned with. If we are to survive, we must strike at the source: the Galactic Core systems, where their power burns brightest. Only then can §Y[hyperthermia_empire.GetName]§! be stopped.\n\nThe fate of the entire galaxy hangs in the balance. It's time to show §Y[hyperthermia_empire.GetName]§! that those who play with fire... will burn." # last stage of global situation - others
+ infernals.1045.a: "Chúng ta sẽ giữ vững phòng tuyến."
+ infernals.1045.a.tooltip: "Chúng ta phải duy trì quyền kiểm soát sáu hệ sao lõi để giành chiến thắng."
+ infernals.1045.b: "Chúng ta cần phải dập tắt chúng vĩnh viễn."
+ infernals.1045.b.tooltip: "Chúng ta phải tấn công sáu hệ sao lõi và phá hủy các ống dẫn của §Y[hyperthermia_empire.GetName]§! tại đó, bằng không chúng ta sẽ bị thiêu rụi."
+
+ infernals.1055.name: "Thiên Hà Đã Là Của Chúng Ta!"
+ infernals.1055.desc: "We have fanned the flames of victory from the galactic core to the outermost stars. The firestorm has reduced our enemies to ash. They lacked the vision, the courage, to embrace the glorious future we claimed. The galaxy is ours.\n\nIn this new order of fire and fury, planets boil with magma and light, set aglow by the swelling heat of red giants. Entropy surges through every system, ours to harvest and bend to our will. With each passing day, our empire grows richer, stronger... unstoppable.\n\nWe have consumed the galaxy and remade it as a blazing beacon of our dominion in the void. And one day, perhaps, we'll cast other galaxies onto the pyre." # crisis won
+ infernals.1055.a: "Thiên hà mới này là để chúng ta chiếm lấy."
+ infernals.1055.b: "Cuối cùng, mọi ngọn lửa đều quy về một mối."
+ infernals.1055.c: "Our fiery home needs no tepid weaklings." #Scorched world heralds (genocidal Infernal)
+ infernals.1055.d: "Our endurance has finally been rewarded." #Infernal Fire Cult
+ infernals.1055.e: "At last, we've banished the cold dark from this galaxy." #Other Infernals
+ infernals.1055.f: "At last, our miserable rivals are reduced to ash." #Generic Genocidal
+
+ infernals.1052.name: "Đã Chiếm Đoạt $galactic_crucible_4$"
+ infernals.1052.desc: "Với việc đánh chiếm hệ sao §H[crucible_system.GetName]§!, lực lượng của chúng ta cũng đã giành quyền kiểm soát $galactic_crucible_4$ đang được xây dựng quanh ngôi sao sở tại. \n\nSự mất mát siêu kết cấu này đã đập tan mọi hy vọng còn sót lại của những kẻ tạo ra nó về việc dùng vũ lực thôn tính thiên hà."
+ infernals.1052.a: "Phá hủy nó!"
+ infernals.1052.a.tt: "§Y$galactic_crucible_4$§! sẽ bị phá hủy đến mức không thể phục hồi."
+ infernals.1052.b: "Chúng ta có thể tận dụng thứ này."
+ infernals.1052.b.tt: "Biến §Y$galactic_crucible_4$§! thành một §Y$galactic_crucible_5$§! để sản xuất $r_alloys$."
+
+ infernals.1053.name: "Đã Chiếm Đoạt $galactic_crucible_4$"
+ infernals.1053.desc: "Việc đánh chiếm hệ sao §H[crucible_system.GetName]§! đã phơi bày những toan tính thâm độc của §H[crucible_builders.GetName]§!, bao gồm sự hủy diệt hoàn toàn toàn bộ thiên hà bằng một cơn bão lửa chưa từng có tiền lệ. \n\nHiện tại, cỗ máy chứa đựng hiểm họa gây ra sự kiện đại tuyệt chủng hàng loạt đã bị đình chỉ. Ngay khi chiến tranh kết thúc, chúng ta nên dùng các nguồn lực và sức mạnh còn lại để vô hiệu hóa siêu kết cấu khổng lồ này một lần và mãi mãi."
+ infernals.1053.a: "Chúng ta phải kết thúc cuộc chiến này thật nhanh!"
+ infernals.1053.b: "Một công trình kiến trúc thật kỳ vĩ."
+
+ infernals.1056.name: "Sự Tái Sinh Thiên Hà"
+ infernals.1056.desc: "Trong khi chúng ta đang bận rộn thắp lên tia lửa nhằm châm ngòi cả thiên hà, thì §Y[hyperthermia_empire.GetName]§! đã biến các vì sao thành vũ khí, tái định hình thiên hà mãi mãi. \n\nTạm thời, chúng ta có thể đón nhận thế giới không tưởng mới được tôi rèn này, nhưng chúng ta nên giám sát chặt chẽ các bước đi tiếp theo của chúng khi chúng siết chặt gọng kìm kiểm soát lên thiên hà."
+ infernals.1056.a: "Sức mạnh to lớn luôn dẫn đến xung đột."
+ infernals.1056.b: "Một mối đe dọa mới đã xuất hiện."
+ infernals.1056.c: "Một bước ngoặt đầy bất ngờ của thời cuộc."
+
+# Relic
+ r_crystallized_singularity: "Điểm Kỳ Dị Kết Tinh"
+ r_crystallized_singularity_desc: "Bị bẻ cong bởi một thiên hà rực cháy, điểm kỳ dị này lách tách phát ra sức nóng đầy mê hoặc. Trừ khi được phong ấn cẩn thận, nó sẽ thu hút người hành hương một cách khó lý giải, ngay cả đến những thế giới hoang tàn nhất. Những ai đứng trước nó đều cảm thấy bị thôi thúc đón nhận một cuộc sống giản đơn hơn... gần hơn với ngọn lửa."
+ r_crystallized_singularity_effect_tt: "\n- §G10%§! thu nhập £physics_research£ §Y$physics_research$§! của chúng ta cũng sẽ tạo ra $r_energy$."
+ r_crystallized_singularity_ls_effect_tt: "- Mở khóa quyết sách §Y$decision_gh_life_seeding$§! trên các thế giới có thể thuộc địa hóa để tạo ra một nền văn minh nguyên thủy mới."
+ crystallized_singularity_mod: "$r_crystallized_singularity$"
+ crystallized_singularity_mod_desc: "$r_crystallized_singularity_desc$"
+
+ decision_gh_life_seeding: "Gieo Mầm Sự Sống"
+ decision_gh_life_seeding_desc: "Thành công của chúng ta trong việc tái định hình thiên hà đã dẫn đến sự biến mất nhanh chóng của các giống loài trên hầu hết các hành tinh. Giờ đây, đó là đặc ân của chúng ta khi tái tạo sự sống theo diện mạo của chính mình."
+ decision_gh_life_seeding_limit: "$TRIGGER_FAIL$§RHành tinh này đã có một nền văn minh nguyên thủy.§!"
+ decision_gh_life_seeding_colony: "$TRIGGER_FAIL$§RKhông thể thực hiện trong một hệ sao có thuộc địa.§!"
+ decision_gh_life_seeding_effect: "Tạo ra một nền văn minh nguyên thủy theo diện mạo của chúng ta. \n\n§HGiới hạn kích hoạt:§! [from.gh_life_seeder_var] / 3"
+
+# Grand Archive Specimen
+ infernal_burning_gem: "Ngọc Rực Cháy"
+ infernal_burning_gem_desc_short: "Một trong những nguyên mẫu hoạt động đầu tiên được tạo ra trong nỗ lực khai thác entropy của [GetName]"
+ infernal_burning_gem_desc_details: "Trông có vẻ mờ nhạt đối với hầu hết các hệ thống thị giác, ánh sáng lung linh sắc trắng yếu ớt của mảnh tinh thể này che giấu một lượng năng lượng khổng lồ chỉ vừa đủ được giam hãm bên trong. Dù có thể đã bị vượt qua bởi các kỹ thuật mới hơn, cấu trúc và đặc tính của nó vẫn còn mang lại nhiều bài học giá trị."
+
+# Timeline
+ TIMELINE_EVENT_GH_START: "Bão Lửa\n§L[GetDate]§!"
+ TIMELINE_EVENT_GH_START_TOOLTIP: "§HTrở Thành Khủng Hoảng§!\n§YSự Kiện Khủng Hoảng§!\n\n[EVENT_TARGET_0.GetName] đã châm ngòi ách thống trị của mình, bắt đầu nắm quyền kiểm soát vận mệnh của thiên hà. Những ai không chung tầm nhìn này sẽ bị cuốn vào vệt lửa chinh phạt rực rỡ, chỉ để lại tro tàn phía sau."
+ TIMELINE_EVENT_GH_END: "Ngọn Lửa Nhấn Chìm\n§L[GetDate]§!"
+ TIMELINE_EVENT_GH_END_TOOLTIP: "§HThiên Hà Bại Trận§!\n§YSự Kiện Khủng Hoảng§!\n\nThứ khởi đầu như một tham vọng rực lửa nay đã trở thành tia lửa thiêu cháy cả thiên hà. Những kẻ chống đối chúng ta đã biến thành tro bụi, cùng với toàn bộ lịch sử của chúng."
+
+# Hyperthermia Terraformed Stars
+ sc_crisis_binary_1: "$sc_binary_1$"
+ sc_crisis_binary_2: "$sc_binary_1$"
+ sc_crisis_binary_5: "$sc_binary_1$"
+ sc_crisis_binary_7_8_9: "$sc_binary_1$"
+ sc_crisis_binary_10: "$sc_binary_1$"
+ sc_crisis_trinary_1: "$sc_trinary_1$"
+ sc_crisis_trinary_2: "$sc_trinary_1$"
+ sc_crisis_trinary_3: "$sc_trinary_1$"
+ sc_crisis_trinary_4: "$sc_trinary_1$"

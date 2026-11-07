@@ -1,19 +1,26 @@
-Hướng dẫn để Launcher Paradox nhận được mod
+Hướng dẫn chạy qua mod Stellaris Việt hóa dành cho anh em chơi bản quyền
 
 1. Mở file "TiengViet2.mod" bằng ứng dụng Notepad
 2. Sửa đường dẫn path="C:\Users\tuyen\OneDrive\Documents\Paradox Interactive\Stellaris\mod\TiengViet2" thành đường dẫn thư mục chứa tệp tin mod
-3. Chạy lại Launcher Paradox để xem bản mod đã được nhận chưa, nhận rồi thì kích hoạt và chạy game ở ngôn ngữ tiếng Trung (giản thể)
+3. Chạy lại Launcher Paradox để xem bản mod đã được nhận chưa, nhận rồi thì kích hoạt và chạy game ở ngôn ngữ tiếng Anh
 4. Lỗi thì gửi bình luận lên video Youtube của mình nhé
 
 ---------------------------------------------------------------------
 
-Hướng dẫn chạy thẳng Stellaris Việt hóa dành cho anh em hệ hắc ám
+Hướng dẫn chạy qua mod Stellaris Việt hóa dành cho anh em hệ hắc ám
 
 1. Mở file "TiengViet2.mod" bằng ứng dụng Notepad
 2. Sửa đường dẫn path="C:\Users\tuyen\OneDrive\Documents\Paradox Interactive\Stellaris\mod\TiengViet2" thành đường dẫn thư mục chứa tệp tin mod
-3. Truy cập tệp tin C:\Users\-Tên người dùng-\OneDrive\Documents\Paradox Interactive\Stellaris\pdx_settings.txt, tìm dòng value="l_english" và sửa thành value="l_simp_chinese"
-4. Tạo một lối tắt (shortcut) của tệp tin stellaris.exe nằm trong thư mục gốc của trò chơi, thêm dòng sau vào đường dẫn, lưu ý nhớ sửa đường dẫn đúng theo nơi lưu game ---- "D:\Stellaris\stellaris.exe -mod=mod/TiengViet2.mod"
-5. Chạy bản lối tắt Stellaris đó để vào game
-6. Lỗi thì gửi bình luận lên video Youtube của mình nhé
+3. Tạo một lối tắt (shortcut) của tệp tin stellaris.exe nằm trong thư mục gốc của trò chơi, thêm dòng sau vào đường dẫn, lưu ý nhớ sửa đường dẫn đúng theo nơi lưu game ---- "D:\Stellaris\stellaris.exe -mod=mod/TiengViet2.mod"
+4. Chạy bản lối tắt Stellaris đó để vào game
+5. Lỗi thì gửi bình luận lên video Youtube của mình nhé
+
+-------------------------------------------------------------------
+
+Hướng dẫn chạy thẳng Stellaris Việt hóa dành cho anh em hệ hắc ám và áp dụng cho cả anh em chơi bản quyền (Cách đơn giản nhất)
+
+1. Copy cả 4 thư mục fonts, gfx, interface và localisation (bên trong TiengViet2) dán đè vào thư mục gốc của game
+2. Vào game chơi thôi
+3. Lỗi thì gửi bình luận lên video Youtube của mình nhé
 
 https://www.youtube.com/watch?v=g-M5zfeAdO8

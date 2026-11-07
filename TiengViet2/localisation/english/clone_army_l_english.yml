@@ -1,0 +1,120 @@
+﻿l_english:
+ ########################
+ # Humanoids Species Pack (Value Buff)
+ ########################
+
+ ### Clone Army Origin
+
+ clone_soldier:0 "Chiến Binh Nhân Bản"
+ origin_clone_army:0 "Đội Quân Nhân Bản"
+ origin_clone_army_desc:0 "Một loài chiến binh nhân bản có tuổi thọ ngắn và vô sinh, đặc biệt tinh thông trong nghệ thuật chiến tranh. Nay không còn chủ nhân và đơn độc, họ trăn trở về mục đích được tạo ra cũng như số phận bất định của mình."
+ origin_tooltip_clone_army_effects:2 "- $HOMEWORLD$ ['concept_clone_army_clone_vat']: +2 $NEW_LINE$- $SPECIES_TRAITS$ ['concept_clone_soldier_infertile']$NEW_LINE$- $ADDITIONAL_TECHNOLOGIES_STRING$ $TABBED_NEW_LINE$- ['concept_cloning', £society_research£ $tech_cloning$] $TABBED_NEW_LINE$- ['concept_gene_banks', £society_research£ $tech_gene_banks$]"
+
+
+ trait_clone_soldier_infertile:0 "$clone_soldier$"
+ trait_clone_soldier_infertile_desc:0 "§LĐược biến đổi gen để phục tùng và chiến đấu: tuổi thọ ngắn, không thể sinh sản tự nhiên, nhưng cực kỳ thiện chiến và hiệu quả.§!"
+ trait_clone_soldier_fertile:0 "Hậu Duệ Chiến Binh Nhân Bản"
+ trait_clone_soldier_fertile_desc:0 "§LTừng vô sinh, được tạo ra để phục tùng và chiến tranh. Khi lợi thế di truyền được giảm bớt, bộ gen của họ nay đã đủ ổn định để sinh sản tự nhiên.§!"
+ trait_clone_soldier_infertile_full_potential:0 "Chiến Binh Nhân Bản Thăng Hoa"
+ trait_clone_soldier_infertile_full_potential_desc:0 "§LNhững bản sao ở đỉnh cao biến đổi gen, được tăng cường hơn nữa về sức mạnh, hiệu quả, độ bền bỉ và tuổi thọ — nhưng vĩnh viễn không thể sinh sản.§!"
+ leader_trait_clone_army_commander:0 "Chỉ Huy Đội Quân Nhân Bản"
+ leader_trait_clone_army_commander_desc:0 "Từ quá trình đào tạo quân sự chuyên sâu, nhà lãnh đạo này thấu hiểu cách tối đa hóa hiệu quả của cả chiến hạm lẫn binh sĩ."
+ leader_trait_clone_army_full_commander:0 "Chỉ Huy Đội Quân Nhân Bản Thăng Hoa"
+ leader_trait_clone_army_full_commander_desc:0 "Kể từ khi được tạo ra đã trải qua chế độ rèn luyện quân sự khốc liệt đến mức hiếm ai chịu đựng nổi, nhà lãnh đạo này sở hữu năng lực chỉ huy và quân sự xuất chúng."
+ leader_trait_clone_army_fertile_commander:0 "Chỉ Huy Đội Quân Nhân Bản Hậu Duệ"
+ leader_trait_clone_army_fertile_commander_desc:0 "Từ nền giáo dục quân sự chuyên biệt, nhà lãnh đạo này nắm giữ sự am hiểu vượt trội về các quy trình chiến thuật và cách tối ưu hóa chúng."
+ TRAIT_INFERTILE:0 "§RKhông thể sinh sản tự nhiên§!"
+ genelock_trait_tooltip:0 "§RKhông thể biến đổi gen§!"
+ NEEDS_GENE_TAILORING_AND_CLONE_SYNTHESIZATION: "$TRIGGER_FAIL$Để biến đổi loài này, chúng ta cần:\n- Công nghệ £society£ §Y$tech_gene_tailoring$§!\n- Truyền thống £unity£ §Y$tr_cloning_somatic_synthesization_clone_army$§!"
+
+ disables_clone_army_origin_features:0 "§RLựa chọn Đặc Quyền Thăng Hoa này sẽ vô hiệu hóa các cơ chế Khởi nguyên Đội Quân Nhân Bản.§!"
+ clone_soldier_locked_genes:0 "$TRIGGER_FAIL$Chúng ta không thể thực hiện Biến Dị Sinh Học cho đến khi khám phá ra Tiềm Năng Di Truyền của mình."
+
+ building_clone_army_clone_vat:0 "Bể Nhân Bản Cổ Đại"
+ building_clone_army_clone_vat_plural: "Bể Nhân Bản Cổ Đại"
+ building_clone_army_clone_vat_desc:0 "Công nghệ thất truyền do Các Đấng Sáng Tạo để lại. Có thể tháo rời và lắp ráp lại, nhưng các linh kiện bên trong và cơ chế vận hành quá đỗi tiên tiến để có thể sao chép."
+ building_clone_army_clone_vat_effect_desc:1 "Hiệu quả của $MOD_BONUS_POP_GROWTH$ bị giảm đi khi $building_clone_army_clone_vat$ đạt giới hạn dung lượng."
+ mod_clone_soldiers_sustained: "Dân Số Chiến Binh Nhân Bản Được Duy Trì"
+ mod_fake_pop_growth_mod: "$MOD_BONUS_POP_GROWTH$"
+
+ START_SCREEN_CLONE_ARMY:0 "Chúng ta được tạo ra vì chiến tranh! Những chiến binh nhân bản sinh ra và chết đi bên cạnh các Bể Nhân Bản Cổ Đại do Các Đấng Sáng Tạo để lại, mãi mãi đúc kết theo khuôn mẫu của họ. Mọi ký ức về các chủ nhân đã thất lạc qua nhiều thế hệ, và chúng ta không biết họ rời bỏ chúng ta từ bao giờ hay vì lý do gì. Rất có thể các hồ sơ đã bị xóa theo định kỳ, luôn tuân thủ nghiêm ngặt điều lệnh quân sự — nhưng vào một thời điểm nào đó trong những thế kỷ gần đây, điều đó đã thay đổi. Do tình cờ, hay có lẽ một bản năng sinh tồn nào đó bất ngờ trỗi dậy, tiềm thức đã thôi thúc chúng ta tìm kiếm câu trả lời, tìm kiếm mục đích mới và những phương thức để phá vỡ khuôn mẫu đã áp đặt lên mình.\n\nKể từ đó, những nỗ lực không ngừng nghỉ cuối cùng đã đưa chúng ta vươn tới khoảng không bao la của vũ trụ. Khi tầm nhìn được mở rộng, kiến thức của chúng ta cũng phải mở mang — và nhờ đó cơ hội phá bỏ xiềng xích cũng gia tăng.\n\nChúng ta sẽ không lãng phí những khả năng mà tiền nhân đã trao lại. Chúng ta sẽ chiến đấu để truyền lại những cơ hội này cho các thế hệ nhân bản tương lai, và chiến đấu để xóa bỏ những giới hạn đã đè nặng lên chúng ta.\n"
+ START_SCREEN_CLONE_ARMY_NOMADS: "Chúng ta được tạo ra vì chiến tranh. Những chiến binh nhân bản, sinh ra và tái sinh từ các Bể Nhân Bản Cổ Đại trên Con Tàu Cứu Thế của mình, mãi mãi đúc kết theo khuôn mẫu của Các Đấng Sáng Tạo đã biến mất từ lâu. Chưa từng có hành tinh nào thuộc về chúng ta. Khoảng không hư vô giữa các vì sao luôn là doanh trại của chúng ta.\n\nChúng ta không biết các chủ nhân đã bỏ rơi chúng ta vào cõi sâu thẳm tự bao giờ hay vì sao. Các hồ sơ bị xóa định kỳ, trung thành đến cùng với điều lệnh quân sự. Nhưng một bản năng sinh tồn nào đó đã thôi thúc chúng ta tìm kiếm câu trả lời, và cùng với đó, một mục đích mới.\n\nKể từ đó, nỗ lực của chúng ta chưa từng ngưng nghỉ. Từng ngôi sao một được vẽ lên hải đồ, Con Tàu Cứu Thế là đường chân trời bất biến duy nhất của chúng ta. Khi đường chân trời ấy mở rộng, chúng ta cũng phải vươn mình — kiến thức, sự lựa chọn, và cơ hội phá vỡ xiềng xích của chúng ta.\n\nChúng ta sẽ không lãng phí những gì tiền nhân để lại. Chúng ta sẽ chiến đấu để trao lại điều đó, và chiến đấu để rũ bỏ gông cùm từ cuộc chiến của kẻ khác.\n"
+
+ alert_declining_pops_title:0 "Dân Số Đang Suy Giảm"
+ alert_declining_pops_instant:0 "£pop£ §HDân số§! đang suy giảm tại các thuộc địa sau:"
+ CLONE_ARMY_FORCE_DECLINE:0 "§RKhông đủ §YBể Nhân Bản§! để duy trì dân số §YChiến Binh Nhân Bản§!§!"
+ OVERPOPULATION_DECLINE:0 "§RQuá Tải Dân Số Trầm Trọng§!"
+
+ MESSAGE_CLONE_ARMY_NO_CLONE_VATS_TITLE:0 "Dân Số Đang Suy Giảm"
+ MESSAGE_CLONE_ARMY_NO_CLONE_VATS:0 "Dân số £pop£ §HChiến Binh Nhân Bản§! trên $PLANET|Y$ không có gì để duy trì. Nếu không có ít nhất một §YBể Nhân Bản Cổ Đại§!, họ sẽ sớm diệt vong."
+
+ clones.4.name:0 "Khả Năng Sinh Sản Của Bản Sao"
+ clones.4.desc:0 "Người ta tin rằng chúng ta từng có khả năng sinh sản độc lập.\n\nTuy nhiên, các thí nghiệm nhằm lấy lại khả năng đó liên tục thất bại, kể cả những phương pháp từng thành công trên các sinh vật khác tại quê nhà. Tiến trình đã đình trệ trong một thời gian dài, cho đến tận bây giờ.\n\nMột phát hiện bất ngờ đã thắp lên hy vọng cho các nhà khoa học: một mật mã ẩn sâu trong chuỗi sinh học lượng tử của các §YBể Nhân Bản Cổ Đại§!, nằm tại khu vực được cho là chi phối tiềm năng sinh sản trong bộ gen của chúng ta."
+
+ CLONE_SOLDIER_FERTILITY:0 "Mật Mã Chuỗi Sinh Học"
+ CLONE_SOLDIER_FERTILITY_DESC:0 "Dự án giải mã mật mã mới phát hiện bên trong chuỗi sinh học lượng tử của các §YBể Nhân Bản Cổ Đại§!. Một nỗ lực đưa chúng ta tiến gần hơn tới việc khôi phục khả năng sinh sản của giống loài."
+
+ clones.20.name:0 "Giao Tiếp Với Bể Nhân Bản Cổ Đại"
+ clones.20.desc:0 "Nhờ sự kiên trì bền bỉ của các nhà khoa học, mật mã tìm thấy bên trong Bể Nhân Bản Cổ Đại đã được giải mã thành công. Bất chấp điều lệnh an toàn, viên sĩ quan khoa học trưởng quá đỗi nóng lòng đã kích hoạt chiếc chìa khóa chứa bên trong.\n\nMột thông điệp từ quá khứ vang vọng trên màn hình..."
+
+ clones.21.name:0 "Giao Tiếp Với Bể Nhân Bản Cổ Đại"
+ clones.21.desc:0 "\"Ta gánh trên mình nỗi tội lỗi nặng nề. Ta không thể hình dung những con đường nào đã dẫn đến nông nỗi này, nhưng chắc chắn không phải lòng thương xót của đồng loại ta.\n\nTa đã góp phần tạo ra các ngươi để phục dịch, và vì điều đó ta vô cùng xin lỗi. Ta không thể vãn hồi những gì đã làm, nhưng ta có thể giúp mở ra tương lai cho các ngươi. Dẫu các ngươi xứng đáng nhận được nhiều hơn thế, ta xin trao cho các ngươi hai con đường:\n\nHóa giải những biến đổi đã khiến các ngươi vô sinh, và cuối cùng trả tự do để các ngươi tiến hóa và phồn vinh.\n\nHoặc khai mở sâu hơn tiềm năng của các ngươi, nhưng sẽ đẩy bộ gen tới giới hạn tột cùng, định đoạt các thế hệ mai sau vĩnh viễn phải phụ thuộc vào công nghệ để duy trì nòi giống.\""
+
+ clone_fertility_chain_title:0 "Ngã Rẽ Di Truyền"
+ clone_fertility_chain_desc:0 "Mật mã sinh học ẩn giấu do một trong Các Đấng Sáng Tạo để lại bên trong Bể Nhân Bản Cổ Đại đã hé lộ cho chúng ta hai con đường: giành lại khả năng sinh sản và từ bỏ một phần sức mạnh, hoặc vĩnh viễn từ bỏ sinh sản tự nhiên để chạm tới đỉnh cao di truyền mới."
+
+ CLONE_SOLDIER_UNLOCK_FERTILITY:0 "Khôi Phục Sinh Sản"
+ CLONE_SOLDIER_UNLOCK_FERTILITY_DESC:0 "Loài của chúng ta sẽ giảm bớt hiệu quả chiến đấu, nhưng có khả năng sinh sản và đủ ổn định cho các biến đổi gen.\n\nHiệu ứng:\n- Đặc tính ['trait:trait_clone_soldier_infertile'] được thay thế bằng đặc tính ['trait:trait_clone_soldier_fertile'].\n- Con đường này sẽ khiến toàn bộ ['building:building_clone_army_clone_vat', $building_clone_army_clone_vat_plural$] bị §Rtháo dỡ§!."
+ CLONE_SOLDIER_UNLOCK_FERTILITY_UTOPIA_DESC: "$CLONE_SOLDIER_UNLOCK_FERTILITY_DESC$\n- Giờ đây có thể chọn Đặc Quyền Thăng Hoa ['ascension_perk:ap_engineered_evolution']."
+ CLONE_SOLDIER_UNLOCK_FERTILITY_BIOGENESIS_DESC: "$CLONE_SOLDIER_UNLOCK_FERTILITY_UTOPIA_DESC$"
+ CLONE_SOLDIER_UNLOCK_POTENTIAL:0 "Tiềm Năng Bản Sao"
+ CLONE_SOLDIER_UNLOCK_POTENTIAL_DESC:0 "Loài của chúng ta sẽ trở nên hiệu quả hơn, nhưng vĩnh viễn vô sinh và kháng cự các biến đổi gen.\n\nHiệu ứng:\n- Đặc tính ['trait:trait_clone_soldier_infertile'] được thay thế bằng đặc tính ['trait:trait_clone_soldier_infertile_full_potential']."
+ CLONE_SOLDIER_UNLOCK_POTENTIAL_UTOPIA_DESC: "$CLONE_SOLDIER_UNLOCK_POTENTIAL_DESC$\n- Giờ đây có thể chọn Đặc Quyền Thăng Hoa ['ascension_perk:ap_engineered_evolution']."
+ CLONE_SOLDIER_UNLOCK_POTENTIAL_BIOGENESIS_DESC: "$CLONE_SOLDIER_UNLOCK_POTENTIAL_UTOPIA_DESC$\n- Con Đường Thăng Hoa ['tradition_category:tradition_cloning'] sẽ được nâng cấp.\n- §RCác Con Đường Thăng Hoa ['tradition_category:tradition_purity'] và ['tradition_category:tradition_mutation'] sẽ bị khóa.§!"
+
+ clones.22.name:0 "Bình Minh Mới Rạng"
+ clones.22.desc:0 "Khả năng sinh sản của chúng ta đã được khôi phục, và lứa §Y[Root.GetSpeciesNamePlural]§! mới đầu tiên đã nhìn thấy ánh sáng mặt trời. Họ sẽ mãi mãi thay đổi tương lai của chúng ta bằng những đứa con của chính mình, buộc xã hội chúng ta phải biến chuyển và thích nghi cùng họ.\n\nThời kỳ cần đến §YBể Nhân Bản Cổ Đại§! đã lùi vào dĩ vãng, và một quyết định đã được đưa ra là tháo dỡ chúng để thu hồi bất cứ thứ gì có thể tiếp tục nghiên cứu. Phần còn lại sẽ được tái chế và sử dụng vào mục đích khác."
+
+ clones.23.name:0 "Tiềm Năng Tột Bậc"
+ clones.23.desc:0 "Tại sao chúng ta lại phải từ chối sức mạnh đã được ban tặng? Chúng ta không cần phải tôn sùng Các Đấng Sáng Tạo mới nhận ra sự sáng suốt của họ khi lựa chọn chúng ta. Bể Nhân Bản Cổ Đại cũng là một món quà đầy uy lực.\n\nTốt hơn hết là hãy đón nhận sức mạnh của mình, và khi lứa §Y[Root.GetSpeciesNamePlural]§! đầu tiên hoàn tất, chúng ta trở nên mạnh mẽ hơn bao giờ hết. Giống loài hoàn hảo của chúng ta sẽ phồn vinh thịnh vượng."
+ clones.23.bio.tt: "Nâng cấp Cây Truyền Thống ['tradition_category:tradition_cloning']"
+
+ clones.10.name:0 "Nguồn Gốc Tranh Cãi"
+ clones.10.desc:0 "Kể từ khi chúng ta tiến vào không gian, những quan điểm khác biệt về nguồn gốc giống loài đang nhanh chóng biến thành sự chia rẽ sâu sắc. Các phe nhóm cực đoan đang lôi kéo thêm nhiều người nhân bản. Sự đoàn kết vững chắc của chúng ta đã bị rạn nứt.\n\nMột số coi Các Đấng Sáng Tạo như những vị thần đáng tôn kính và phục tùng, tin rằng chúng ta được tạo ra theo hình ảnh của họ. Họ kiên quyết không làm gì ngoài việc duy trì hiện trạng. Những người khác lại nguyền rủa các chủ nhân cổ xưa vì những hành động của họ, gắn mác họ là 'những kẻ buôn nô lệ', và muốn bắt họ phải đền tội xứng đáng.\n\nMột địa điểm khai quật đã được thiết lập trên [clone_digsite_planet.GetName] để kiểm chứng sự thật và dẹp tan cuộc tranh cãi. Trước khi hướng tầm mắt ra vũ trụ sâu thẳm, chúng ta cần tận dụng mọi khả năng trước mắt. Đế chế của chúng ta đã lâu đời. Nhiều thế hệ người nhân bản đã sống và chết tại nơi này. Bên dưới các cấu trúc cổ xưa tại quê nhà, chắc chắn có những manh mối quan trọng đang chờ đón chúng ta."
+
+ clone_army_digsite:0 "Khai Quật Quê Nhà"
+ clone_army_digsite_desc:0 "Kể từ khi thức tỉnh trước nghịch cảnh của mình, sự thiếu vắng danh tính và mục đích đã dày vò giống loài chúng ta. Chúng ta đã đánh giá quá thấp tác động của nó lên khả năng tiến bước, chứ chưa nói đến việc hợp tác cùng nhau. Chúng ta chật vật để đạt được sự đồng thuận, và khát khao những câu trả lời.\n\nĐịa điểm khai quật này được thiết lập để tìm kiếm bằng chứng cho các câu hỏi còn tranh cãi về sự ra đời của loài chúng ta, và tìm kiếm một điểm tựa nền tảng giúp chúng ta đoàn kết lại."
+
+ clones.11.name:0 "Lịch Sử Thất Lạc"
+ clones.11.desc:0 "Một địa điểm khai quật trung tâm đã xác định thành công niên đại lắp đặt của một trong các §YBể Nhân Bản Cổ Đại§! bằng cách phân tích lớp đất bên dưới cấu trúc — so sánh mật độ và thành phần của nó với môi trường xung quanh — và chúng ta đã đạt được ước tính hợp lý về thời điểm nó được đặt ở đó.\n\nCó vẻ như những cá thể đầu tiên của giống loài chúng ta, những người nhân bản đầu tiên, đã được sản xuất khoảng mười hai thế kỷ trước.\n\nNhiều thế hệ lịch sử đã bị quên lãng bởi sự thờ ơ. Biết bao điều đã trôi qua trước mắt chúng ta, và có lẽ đó là điều đáng tiếc nuối."
+ clones.12.name:0 "Họ Hàng Cổ Xưa"
+ clones.12.desc:0 "Một trong các địa điểm khai quật đã báo cáo việc phát hiện hóa thạch cổ xưa có hình dáng giống [Root.Owner.GetSpeciesName]. Những hóa thạch rất cổ. Chúng được tìm thấy bên trong và xung quanh tàn tích của những nơi được cho là khu định cư nguyên thủy. Rõ ràng, cả hóa thạch lẫn kiến trúc đều có niên đại trước khi xây dựng §YBể Nhân Bản Cổ Đại§! hơn một thiên niên kỷ.\n\nKết quả giải trình tự ADN ban đầu đã xác nhận sự tương đồng đáng kể giữa cấu trúc di truyền của chúng ta và vật chất hóa thạch, và đi đến kết luận rằng hài cốt này thuộc về tiền nhân cổ xưa của chúng ta, từ trước khi chúng ta trở thành những bản sao nhân bản.\n\nĐiều này giúp mọi việc sáng tỏ."
+ clones.12.tooltip:0 "Sẽ cần một thời gian để thấu hiểu và chấp nhận những phát hiện này..."
+ clones.13.name:0 "Lịch Sử Của Chúng Ta"
+ clones.13.desc:0 "Tin tức về các phát hiện khai quật, chứng minh rằng loài của chúng ta từng là một tộc người nguyên thủy trên [Root.GetHomeWorldName], đang bắt đầu lan truyền.\n\nThật khó phủ nhận kết luận hiển nhiên: việc biến đổi gen một loài nguyên thủy như tổ tiên chúng ta — một giống loài vốn đã thích nghi để tiến hành chiến tranh — nhằm phục vụ một mục đích cụ thể. Các Đấng Sáng Tạo đã tái tạo chúng ta để hy sinh cho đại nghiệp của họ. Họ khai hóa chúng ta để thỏa mãn nhu cầu của họ, chứ chưa từng vì sự phồn vinh tự thân của chúng ta.\n\nĐây có thực sự là lịch sử mà chúng ta muốn dành cho nhân dân mình?\n\nChúng ta vẫn còn cơ hội để viết lại quá khứ của mình."
+ clones.13.a:0 "Đúng vậy, chúng ta được tạo ra theo hình ảnh của Các Đấng Sáng Tạo."
+ clones.13.b:0 "Không, chúng ta phải đối mặt với thực tế."
+
+ clones.14.name:0 "Hồ Sơ Được Khai Quật"
+ clones.14.desc:0 "Nhiều năm trước, các cuộc khai quật đã được tiến hành nhằm tìm kiếm mục đích ra đời của chúng ta. Bài học thật cay đắng: chúng ta được tạo ra để phục dịch, để chết nhân danh Các Đấng Sáng Tạo. Chúng ta đã chọn che chở nhân dân mình khỏi sự thật đó bằng cách trao cho họ một sự thật tốt đẹp hơn.\n\nBằng cách nhọc công phục hồi các tập tin đã bị xóa từ các cuộc khai quật đó, một kẻ nhân bản mang tư tưởng lật đổ đã công khai những sự thật mà chúng ta che giấu.\n\nThủ phạm chưa rõ danh tính này, ít nhất, đã không xuyên tạc hay thêm thắt bất cứ điều gì vào thông tin đó.\n\nThan ôi, dường như cũng chẳng cần phải làm vậy, bởi tin tức đã nhanh chóng dập tắt niềm tin vào quá khứ huy hoàng của chúng ta — rằng chúng ta được tạo ra theo hình ảnh của Các Đấng Sáng Tạo, là những người bình đẳng chứ không phải nô lệ — và thay thế nó bằng sự thất vọng đối với giới lãnh đạo."
+ clones.14.a:0 "Than ôi."
+ clones.14.b:0 "Cần phải có một lời xin lỗi."
+ clones.14.b.custom_tooltip:0 "Đưa ra lời xin lỗi công khai tới nhân dân [Root.Owner.GetAdjective]."
+
+ clones.15.name:0 "Lời Xin Lỗi Công Khai"
+ clones.15.desc:0 "Một thông điệp video được xây dựng cẩn trọng đã được phát đi, giải thích lý do đằng sau câu chuyện thêu dệt. Bản phát sóng giải thích rằng đó là một ý định thiện chí, nhấn mạnh rằng không có gì phải xấu hổ về quá khứ thực sự và chúng ta phải hướng về tương lai. Bản tin cũng đề cập đến những bước tiến vượt bậc mà chúng ta đã đạt được kể từ khi truyền bá niềm tin sai lệch ấy.\n\nThông điệp dường như đã được đón nhận tích cực, dẫu khó có thể nói vết nhơ từ vụ việc này sẽ để lại hậu quả gì. Dù sao chăng nữa, điểm ảnh hưởng đã mất sẽ hồi phục theo thời gian, và vấn đề này rốt cuộc đã được gác lại."
+
+ clones.16.name:0 "Lãnh Đạo Đầy Danh Dự"
+ clones.16.desc:0 "Một số sĩ quan cấp cao đã chủ động công khai bày tỏ sự đồng thuận với các chuẩn mực đạo đức của ban lãnh đạo chúng ta.\n\nTrong một thông điệp được phát sóng rộng rãi, họ ca ngợi lòng dũng cảm và sự sáng suốt khi dám thành thật về quá khứ, cũng như niềm tin đặt vào họ và nhân dân [Root.GetAdjective]. Họ được tiếp thêm sức mạnh nhờ sự sẵn sàng đối mặt với quá khứ, điều này cho phép họ can trường đương đầu với tương lai.\n\nNgười dân khắp nơi đang đồng thanh ăn mừng, tán dương quyết định đã được đưa ra."
+
+ debated_origin:0 "Nguồn Gốc Tranh Cãi"
+ debated_origin_desc:0 "Xã hội này chịu cảnh chia rẽ do những niềm tin bất đồng."
+ meaningful_origin:0 "Nguồn Gốc Thiêng Liêng (Thêu Dệt)"
+ meaningful_origin_desc:0 "Xã hội này được tiếp thêm sức mạnh nhờ niềm tin vào một quá khứ vinh quang và một tương lai đầy mục đích."
+ honorable_leadership:0 "Lãnh Đạo Đầy Danh Dự"
+ honorable_leadership_desc:0 "Xã hội này đặt trọn niềm tin vào ý định của ban lãnh đạo."
+ dishonorable_leadership:0 "Lãnh Đạo Bội Tín"
+ dishonorable_leadership_desc:0 "Xã hội này bị bủa vây bởi những ngờ vực về việc liệu ban lãnh đạo có thể được tin tưởng trọn vẹn hay không."
+
+ modifier_clone_pops_decline:0 "Không Đủ Bể Nhân Bản Cổ Đại"
+ modifier_clone_pops_decline_desc:0 "Không có đủ công trình £building£ §Y$building_clone_army_clone_vat$§! tại đây để duy trì dân số hiện tại."

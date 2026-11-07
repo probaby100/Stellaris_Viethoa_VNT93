@@ -1,0 +1,158 @@
+﻿l_english:
+
+### CONCEPTS
+#
+# Above each concept definition are instructions on usage, including an icon where one exists.
+#   Note that between the icon and the term there's a non-breaking space. When you copy the usage example, it will keep the non-breaking space.
+#   This is important to not get a line break between the icon and the concept.
+# Use a concept link with icon the first time a new concept is mentioned, then use §H without an icon for repeated uses.
+# Use §H with an icon the first time a concept is used withing its own description.
+# Use §H without an icon if the concept is used more than once.
+
+ ui_available_tabs: "\n\nCác thẻ khả dụng:\n"
+
+ # View: £interface£ ['concept_empire_view'] or £interface£ §H$concept_empire_view$§!
+ concept_empire_view: "Giao diện Đế chế"
+ concept_empire_view_desc: "Xem tổng quan về Đế chế.$ui_available_tabs$[GetConceptEmpireAdvisor]"
+ empire_view_tab_empire: "§H$EMPIRE$§!"
+ empire_view_tab_demographics: "§H$DEMOGRAPHICS_TITLE$§!"
+ empire_view_tab_advisor: "§H$GOVERNMENT_ADVISOR_TAB$§!"
+ concept_empire_view_tabs_advisor: "$concept_empire_view_tabs_no_advisor$\n- $empire_view_tab_advisor$: chọn giọng nói cố vấn"
+ concept_empire_view_tabs_no_advisor: "- $empire_view_tab_empire$: liệt kê ['concept_authority'], ['concept_civics'], và ['concept_empire_modifiers']\n- $empire_view_tab_demographics$: xem ['concept_pops'] cùng những yếu tố tác động đến họ"
+
+ # View: £interface£ ['concept_situation_log_view'] or £interface£ §H$concept_situation_log_view$§!
+ concept_situation_log_view: "Giao diện $MENU_PANEL__SITUATION_LOG_TITLE$"
+ concept_situation_log_view_desc: "£interface£ §H$concept_situation_log_view$§! cung cấp cái nhìn tổng quan về các vấn đề đang diễn ra.$ui_available_tabs$$concept_situation_log_view_tabs$"
+ situation_log_view_tab_situation_log: "§H$topbar_button_situation_name$§!"
+ situation_log_view_tab_timeline: "§H$TIMELINE$§!"
+ situation_log_view_tab_anomalies: "§H$ANOMALIES$§!"
+ situation_log_view_tab_victory: "§H$VICTORIES$§!"
+ concept_situation_log_view_tabs: "- $situation_log_view_tab_situation_log$: liệt kê ['concept_situations'], ['concept_event_chains'], [GetConceptContracts]\n- $situation_log_view_tab_anomalies$: hiển thị ['concept_anomalies'], ['concept_first_contacts'], và ['concept_archaeology_sites']\n- $situation_log_view_tab_timeline$: xem ['concept_milestones'] cùng ['concept_empire_focuses']\n- $situation_log_view_tab_victory$: xem ['concept_scoreboard']"
+ concept_sidebar_special_project: "và ['concept_special_projects']"
+ concept_sidebar_special_project_and_contract: "['concept_special_projects'], và ['concept_contracts']"
+
+ # View: £interface£ ['concept_government_view'] or £interface£ §H$concept_government_view$§!
+ concept_government_view: "Giao diện $topbar_button_council_name$"
+ concept_government_view_desc: "§H$concept_government_view$§! cho phép quản lý chính phủ.$ui_available_tabs$$concept_government_view_tabs$"
+ government_view_tab_council: "§H$COUNCIL$§!"
+ government_view_tab_factions: "§H$FACTIONS$§!"
+ government_view_tab_policies_and_edicts: "§H$EDICTS_AND_POLICIES$§!"
+ concept_government_view_tabs: "- $government_view_tab_council$: quản lý ['concept_council'] và ['concept_agendas']\n- $government_view_tab_factions$: xem ['concept_factions']\n- $government_view_tab_policies_and_edicts$: lựa chọn ['concept_policies'] và ['concept_edicts']"
+
+ # View: £interface£ ['concept_society_management_view'] or £interface£ §H$concept_society_management_view$§!
+ concept_society_management_view: "Giao diện $TRADITION_VIEW_TITLE$" # Use this alias when referring to the concept
+ concept_society_management: "$TRADITION_VIEW_TITLE$" # Left out 'View' to fit in the Databank UI
+ concept_society_management_desc: "§H$concept_society_management_view$§! cho phép quản lý các truyền thống.$ui_available_tabs$[GetConceptSocietyManagement]"
+ society_management_view_tab_traditions: "§H$TRADITIONS$§!"
+ society_management_view_tab_crisis: "§H$CRISIS_TAB$§!"
+ concept_society_management_view_crisis: "$concept_society_management_view_no_crisis$\n- $society_management_view_tab_crisis$: theo dõi tiến trình trở thành ['concept_crisis']"
+ concept_society_management_view_no_crisis: "- $society_management_view_tab_traditions$: lựa chọn ['concept_traditions'] và ['concept_ascension_perks']"
+
+ # View: £interface£ ['concept_technology_view'] or £interface£ §H$concept_technology_view$§!
+ concept_technology_view: "Giao diện $TECHNOLOGY$"
+ concept_technology_view_desc: "£interface£ §H$concept_technology_view$§! hiển thị tiến bộ khoa học của đế chế trên các lĩnh vực £physics£ ['concept_physics_research'], £society£ ['concept_society_research'], và £engineering£ ['concept_engineering_research']. Từ giao diện này, bạn có thể chọn các hướng nghiên cứu và quản lý độ ưu tiên công nghệ.\n\nCác ['concept_technologies'] mới được đưa ra bán ngẫu nhiên từ những lựa chọn khả dụng, phản ánh tính chất khó lường của công cuộc nghiên cứu khoa học."
+
+ # View: £interface£ ['concept_leaders_view'] or £interface£ §H$concept_leaders_view$§!
+ concept_leaders_view: "Giao diện $topbar_button_leaders_name$"
+ concept_leaders_view_desc: "£interface£ §H$concept_leaders_view$§! cung cấp cái nhìn tổng quan về tất cả ['concept_leaders'] đang hoạt động trong đế chế, bao gồm vai trò, ['concept_leader_traits'], cấp độ kinh nghiệm và nhiệm vụ hiện tại của họ. Từ giao diện này, bạn có thể chiêu mộ các nhà lãnh đạo mới, tái bổ nhiệm hoặc cho họ nghỉ hưu."
+
+ # View: £interface£ ['concept_species_view'] or £interface£ §H$concept_species_view$§!
+ concept_species_view: "Giao diện $topbar_button_species_name$"
+ concept_species_view_desc: "£interface£ §H$concept_species_view$§! mang tới danh sách toàn diện về tất cả ['concept_species'] đã biết trong đế chế. Từ giao diện này, bạn có thể xem xét và chỉnh sửa ['concept_species_traits'], đồng thời quản lý quyền của các nhóm dân số như quyền công dân, nghĩa vụ quân sự và ['concept_living_standards'].\n\nGiao diện này đóng vai trò thiết yếu để điều hành sự phức tạp của một đế chế đa chủng loài, nơi chính sách, sinh học và tư tưởng đan xen lẫn nhau trong quá trình định hình xã hội thiên hà."
+
+ # View: £interface£ ['concept_planets_and_sector_view'] or £interface£ §H$concept_planets_and_sector_view$§!
+ concept_planets_and_sector_view: "Giao diện $PLANET_LIST$" # Use this alias when referring to the concept
+ concept_planets_and_sector: "$PLANET_LIST$" # Left out 'View' to fit in the Databank UI
+ concept_planets_and_sector_desc: "Giao diện £interface£ §H$concept_planets_and_sector$§! cung cấp cái nhìn tổng quan tập trung về mọi £colony£ ['concept_colonies'] và £sector£ ['concept_sector'] trong đế chế.\n\nTại giao diện này, bạn cũng có thể bổ nhiệm các ['concept_governors']."
+
+ # View: £interface£ ['concept_expansion_planner'] or
+ concept_expansion_planner: "$MENU_PANEL__EXPANSION_PLANNER_TITLE$"
+ concept_expansion_planner_desc: "£interface£ §H$concept_expansion_planner$§! liệt kê các £planet£ ['concept_planets'] mở ra cơ hội thuộc địa hóa. Quá trình thuộc địa hóa có thể được bắt đầu trực tiếp từ màn hình này, hệ thống sẽ tự động đóng một £colony_ship£ ['concept_colony_ship'].\n\nCác £planet£ §H$concept_planets$§! phải được khảo sát bởi một £science_ship£ ['concept_science_ship'] và bất kỳ £anomaly£ ['concept_anomalies'] nào tìm thấy trên hành tinh cũng phải được điều tra trước khi có thể tiến hành thuộc địa hóa.\n\nMột ['concept_starbase'] cũng cần phải được xây dựng tại hệ sao của hành tinh để đảm bảo nó nằm trọn trong biên giới đế chế."
+
+ # View: £interface£ ['concept_fleet_management_view'] or £interface£ §H$concept_fleet_management_view$§!
+ concept_fleet_management_view: "Giao diện $topbar_button_fleet_manager_name$" # Use this alias when referring to the concept
+ concept_fleet_management: "$topbar_button_fleet_manager_name$" # Left out 'View' to fit in the Databank UI
+ concept_fleet_management_desc: "Thiết kế tàu và tạo lập hạm đội. Các §HQuy mô Tàu vũ trụ§! mới và ['concept_components'] được mở khóa bằng cách nghiên cứu các ['concept_technologies'] theo yêu cầu.$ui_available_tabs$[GetConceptFleetManagement]"
+ fleet_management_view_tab_fleet_manager: "§H$FLEET_MANAGER_VIEW$§!"
+ fleet_management_view_tab_ship_designer: "§H$SHIP_DESIGNER$§!"
+ concept_fleet_management_view_space_fauna: "$concept_fleet_management_view_no_space_fauna$\n- §H$CREATURE_DESIGNER$§!: lai tạo ['concept_space_fauna']"
+ concept_fleet_management_view_no_space_fauna: "- $fleet_management_view_tab_fleet_manager$: tổ chức ['concept_fleets']\n- $fleet_management_view_tab_ship_designer$: thiết kế ['concept_military_ships']"
+
+ # View: £interface£ ['concept_contacts_view'] or £interface£ §H$concept_contacts_view$§!
+ concept_contacts_view: "Giao diện Liên lạc"
+ concept_contacts_view_desc: "£interface£ §H$concept_contacts_view$§! liệt kê mọi đế chế, vùng đất độc lập và thực thể ngoài hành tinh đã biết. Từ giao diện này, bạn có thể khởi xướng ['concept_diplomacy'] và đánh giá mối quan hệ. Nơi đây đóng vai trò là trung tâm liên lạc liên sao và thông tin tình báo đối ngoại."
+ contacts_view_tab_contacts: "§H$topbar_button_contacts_name$§!"
+ contacts_view_tab_agreements: "§H$AGREEMENTS_LIST_TITLE$§!"
+ contacts_view_tab_shroud: "§H$THE_SHROUD_TITLE$§!"
+ concept_contacts_view_tabs: "- $contacts_view_tab_contacts$: tham gia ['concept_diplomacy']\n- $contacts_view_tab_agreements$: tìm hiểu ['concept_subject_agreements']\n- $contacts_view_tab_shroud$: tiến hành ['concept_psionic_ascension']"
+
+ # View: £interface£ ['concept_discoveries_view'] or £interface£ §H$concept_discoveries_view$§!
+ concept_discoveries_view: "Giao diện $topbar_button_discoveries_name$"
+ concept_discoveries_view_desc: "£interface£ §H$concept_discoveries_view$§! phân loại các vật thể và hiện tượng quan trọng được phát hiện trên khắp thiên hà, bao gồm ['concept_relics'], cổ vật cổ xưa cùng những phát hiện kỳ thú mang ý nghĩa trường tồn khác.$ui_available_tabs$[GetConceptDiscovery]"
+ discoveries_view_tab_relics: "§H$relics$§!"
+ discoveries_view_tab_collection: "§H$COLLECTION$§!"
+ discoveries_view_tab_vivarium: "§H$VIVARIUM$§!"
+ discoveries_view_tab_astral_actions: "§H$ASTRAL_ACTIONS$§!"
+ concept_discovery_view_base: "- $discoveries_view_tab_relics$: quản lý ['concept_relics']"
+ concept_discovery_view_base_ancrel: "$concept_discovery_view_base$ và ['concept_minor_artifacts']"
+ concept_discovery_view_base_archive: "$concept_discovery_view_base$\n- $discoveries_view_tab_collection$: trưng bày ['concept_specimens']\n- $discoveries_view_tab_vivarium$: nhân giống ['concept_space_fauna']"
+ concept_discovery_view_base_ancrel_archive: "$concept_discovery_view_base$\n- $discoveries_view_tab_collection$: trưng bày ['concept_specimens'] và ['concept_minor_artifacts']\n- $discoveries_view_tab_vivarium$: nhân giống ['concept_space_fauna']"
+ concept_discovery_view_base_astral: "$concept_discovery_view_base$\n$concept_discovery_view_astral$"
+ concept_discovery_view_base_ancrel_astral: "$concept_discovery_view_base_ancrel$\n$concept_discovery_view_astral$"
+ concept_discovery_view_base_archive_astral: "$concept_discovery_view_base_archive$\n$concept_discovery_view_astral$"
+ concept_discovery_view_base_ancrel_archive_astral: "$concept_discovery_view_base_ancrel_archive$\n$concept_discovery_view_astral$"
+ concept_discovery_view_astral: "- $discoveries_view_tab_astral_actions$: kích hoạt ['concept_astral_actions']"
+
+ # View: £interface£ ['concept_claims_view'] or £interface£ §H$concept_claims_view$§!
+ concept_claims_view: "Giao diện $CLAIMS_VIEW$"
+ concept_claims_view_desc: "£interface£ §H$concept_claims_view$§! hiển thị mọi ['concept_claims'] lãnh thổ mà đế chế đang nắm giữ. Chế độ Ngoại giao của ['concept_galaxy_map'] cung cấp cái nhìn rõ ràng về các hệ sao đang tranh chấp và những điểm nóng tiềm tàng cho các cuộc xung đột tương lai."
+
+ # View: £interface£ ['concept_market_view'] or £interface£ §H$concept_market_view$§!
+ concept_market_view: "Giao diện $MARKET_VIEW$"
+ concept_market_view_desc: "£interface£ §H$concept_market_view$§! cung cấp nền tảng cho thương mại liên sao, mua bán tài nguyên hoặc thiết lập các giao dịch hàng tháng định kỳ."
+
+ # View: £interface£ ['concept_colony_view'] or £interface£ §H$concept_colony_view$§!
+ concept_colony_view: "Giao diện Thuộc địa"
+ concept_colony_view_desc: "£interface£ §H$concept_colony_view$§! cho phép quản lý một £colony£ ['concept_colony']. Trên các £planet£ ['concept_planets'] hoặc ['concept_habitats'] chưa có người ở nhưng phù hợp, giao diện này có thể được dùng để bắt đầu quá trình §HThuộc địa hóa§!.$ui_available_tabs$$concept_colony_view_tabs$"
+ colony_view_tab_planet_summary: "§H$PLANET_TAB$§!"
+ colony_view_tab_management: "§H$MANAGEMENT_TAB$§!"
+ colony_view_tab_population: "§H$POPULATION_TAB$§!"
+ colony_view_tab_armies: "§H$GROUND_COMBAT_TAB$§!"
+ colony_view_tab_holdings: "§H$CORPORATE_TAB$§!"
+ concept_colony_view_tabs: "- $colony_view_tab_planet_summary$: hiển thị tổng quan về các £district£ ['concept_districts'], £building£ ['concept_buildings'] của thuộc địa, cùng ['concept_governor'] được chỉ định. Tại đây bạn có thể đặt ['concept_designation'], hoặc bật ['concept_planet_automation'].\n- $colony_view_tab_management$: hiển thị các đặc trưng hành tinh và sự thay đổi dân số. Tại đây bạn có thể ban hành ['concept_decisions'], ['concept_planetary_ascension'], hoặc bắt đầu ['concept_terraforming'].\n- $colony_view_tab_population$: hiển thị dân số của thuộc địa được phân chia theo các tầng lớp £job£ ['concept_job'].\n- $colony_view_tab_armies$: hiển thị các lực lượng mặt đất tại thuộc địa, cùng mức độ ['concept_devastation'] mà thuộc địa đã phải gánh chịu.\n- $colony_view_tab_holdings$: cung cấp cái nhìn tổng quan về toàn bộ ['concept_overlord_holdings'] tại thuộc địa."
+
+ # View: £interface£ ['concept_starbase_view'] or £interface£ §H$concept_starbase_view$§!
+ concept_starbase_view: "Giao diện Căn cứ sao"
+ concept_starbase_view_desc: "£interface£ §H$concept_starbase_view$§! cho phép quản trị một ['concept_starbase'].$ui_available_tabs$$concept_starbase_view_tabs$"
+ starbase_view_tab_command: "§H$STARBASE_STARBASE_TAB$§!"
+ starbase_view_tab_defenses: "§H$STARBASE_DEFENSES_TAB$§!"
+ starbase_view_tab_armies: "§H$MACRO_BUILDER_TAB$§!"
+ starbase_view_tab_shipyard: "§H$STARBASE_SHIPYARD_TAB$§!"
+ concept_starbase_view_tabs: "- $starbase_view_tab_command$: hiển thị tổng quan về các §HMô-đun§! và §HCông trình§! của căn cứ sao. Nó cũng cho phép nâng cấp căn cứ sao lên bậc tiếp theo khi đã nghiên cứu xong ['concept_technology'] cần thiết\n- $starbase_view_tab_defenses$: hiển thị các ['concept_defense_platforms'] và bấm vào một thiết kế sẽ đóng thêm nền tảng đó\n- $starbase_view_tab_armies$: cung cấp phương thức tập hợp số lượng lớn §H$assault_army_plural$§!. Các đạo quân được tập hợp trên các £colony£ ['concept_colonies'] khả dụng trong £sector£ ['concept_sector'], và được tập kết tại căn cứ sao hoặc đi theo một §HĐạo quân§! đã bật tính năng §HTập Hợp Quân Đội§!\n- $starbase_view_tab_shipyard$: cho phép đóng cả ['concept_civilian_ships'] lẫn ['concept_military_ships']"
+
+ # View: £interface£ ['concept_waystation_view'] or £interface£ §H$concept_waystation_view$§!
+ concept_waystation_view: "Giao diện Trạm trung chuyển"
+ concept_waystation_view_desc: "£interface£ §H$concept_waystation_view$§! cho phép quản lý một £waystation£ ['concept_waystation'].$ui_available_tabs$$concept_waystation_view_tabs$"
+ waystation_view_tab_waystation: "§H$waystation_starbase_tab$§!"
+ concept_waystation_view_tabs: "- $waystation_view_tab_waystation$: hiển thị tổng quan về các §HMô-đun§! và §HKho dự trữ§! của trạm trung chuyển. Nó cũng cho phép nâng cấp trạm trung chuyển lên bậc tiếp theo khi đã nghiên cứu xong ['concept_technology'] cần thiết."
+
+ # View: £interface£ ['concept_system_map'] or £interface£ §H$concept_system_map$§!
+ concept_system_map: "Bản đồ Hệ sao"
+ concept_system_map_desc: "£interface£ §H$concept_system_map$§! thể hiện góc nhìn chi tiết về một hệ sao riêng biệt, bao gồm ['concept_celestial_objects'], ['concept_civilian_space_stations'], ['concept_fleets'], và cơ sở hạ tầng quỹ đạo. Bản đồ cho phép quản lý chuẩn xác các hoạt động xây dựng, thuộc địa hóa, tác chiến và nghiên cứu khoa học bên trong hệ sao."
+
+ # View: £interface£ ['concept_galaxy_map'] or £interface£ §H$concept_galaxy_map$§!
+ concept_galaxy_map: "Bản đồ Thiên hà"
+ concept_galaxy_map_desc: "£interface£ §H$concept_galaxy_map$§! cung cấp cái nhìn chiến lược tổng quan về thiên hà đã biết, hiển thị các £system£ ['concept_systems'], biên giới ['concept_empire'], và các tuyến ['concept_hyperlanes']. Đây là giao diện chính phục vụ công cuộc thám hiểm, bành trướng và điều phối liên sao."
+
+ # View: £interface£ ['concept_navigation_bar'] or £interface£ §H$concept_navigation_bar$§!
+ concept_navigation_bar: "Thanh Điều hướng"
+ concept_navigation_bar_desc: "Thanh £interface£ §H$concept_navigation_bar$§! nằm ở phía bên trái màn hình.\n\nNó có thể mở rộng khi tương tác hoặc được khóa ở trạng thái thu gọn tối giản.\n\nChế độ mở rộng cho phép truy cập cài đặt để sắp xếp lại thứ tự các mục trình đơn. Thao tác này cũng đồng thời thay đổi phím tắt mở nhanh từng trình đơn tương ứng."
+
+ # View: £interface£ ['concept_resource_bar'] or £interface£ §H$concept_resource_bar$§!
+ concept_resource_bar: "Thanh Tài nguyên"
+ concept_resource_bar_desc: "Thanh £interface£ §H$concept_resource_bar$§! nằm ở phía trên cùng màn hình.\n\nNơi đây hiển thị nhiều §HTài nguyên§! khác nhau như £energy£ ['concept_energy'], và các chỉ số đo lường như £trade_value£ ['concept_trade'], ['concept_research'], ['concept_starbase_capacity'], và ['concept_naval_capacity'].\n\nPhía bên phải là các §HPhím điều khiển Thời gian§! dùng để tăng tốc hoặc làm chậm tốc độ trò chơi, cũng như tạm dừng và tiếp tục.\n\nBên dưới các §HPhím điều khiển Thời gian§! là §HTrình phát Nhạc§!."
+
+ # View: £interface£ ['concept_outliner'] or £interface£ §H$concept_outliner$§!
+ concept_outliner: "Thanh Tổng quan Bảng phụ"
+ concept_outliner_desc: "£interface£ §H$concept_outliner$§! giúp truy cập nhanh vào các tài sản trọng yếu trên khắp đế chế, bao gồm £colony£ ['concept_colonies'], ['concept_fleets'], và ['concept_civilian_space_stations']. Là một giao diện có thể tùy biến, nó cho phép điều hướng và giám sát nhanh chóng, cung cấp thông tin cập nhật trạng thái theo thời gian thực và quyền kiểm soát trực tiếp các hoạt động sống còn."
+

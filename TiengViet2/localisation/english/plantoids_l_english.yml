@@ -1,0 +1,335 @@
+﻿l_english:
+ ########################
+ # Plantoids Species Pack
+ ########################
+
+ PLANTOID_TITLE: "Gói Chủng Tộc Thực Vật Plantoids" # Do not translate
+ DLC_PLANTOID_RECOMMENDATION_DESC:1 "§SGói Chủng Tộc Thực Vật (Plantoid Species Pack)§! là một DLC bao gồm chân dung các loài thực vật có tri giác, cắm rễ sâu rộng khắp thiên hà."
+ DLC_PLANTOID_RECOMMENDATION_PLANTS_REC:1 "Chúng tôi đề xuất §SGói Chủng Tộc Thực Vật (Plantoid Species Pack)§! vì đế chế này rất phù hợp với chủ đề thực vật học."
+
+ ### Fruitful Partnership Origin
+ ## By Giada Zavarise
+
+ feeding_station: "Vườn Cây Ăn Trái"
+ feeding_station_plural: "Vườn Cây Ăn Trái"
+
+ origin_fruitful: "Cộng Sinh Kết Quả"
+ origin_fruitful_desc: "Nền văn minh xanh tươi này đã phát triển một sự hiệp đồng độc đáo với các sinh vật vũ trụ. Bằng cách dâng tặng hoa quả cho những sinh vật này, họ thu hút những kẻ phát tán hạt giống trợ giúp nỗ lực thực dân hóa của mình."
+ origin_tooltip_fruitful_effects: "- Sinh Vật Vũ Trụ: Phát tán ['concept_seed_pod', Vỏ Hạt] khắp thiên hà \n- $AVAILABLE_STARBASE_BUILDINGS$ ['concept_sm_feeder', Vườn Hạt Tinh Tú] \n- $AVAILABLE_BOMBARDMENT_STANCE$ ['concept_seed_bombing' ]\n- $HOME_SYSTEM$ ['concept_tiyanki' ] trong một hệ sao lân cận"
+ civic_tooltip_hive_xenophile_or_pacifist: "Có một mức độ nhất định về §YThân Ngoại Bang§!, §YThân Hòa Bình§!, hoặc là một §YÝ Thức Đồng Thể (Gestalt Consciousness)§!"
+
+ START_SCREEN_FRUITFUL_PLANTOID: "Nếu rễ của bạn cắm sâu, nhưng tâm hồn lại trở nên bồn chồn, hãy để kẻ khác mang những nhọc nhằn của bạn đi xa. Hãy để muông thú ngửi những đóa hoa của bạn, hấp thụ dưỡng chất từ quả ngọt của bạn, và tắm mình dưới bóng râm của tán lá. Hãy để chúng mang phấn hoa và hạt giống đến những vùng đất xa xôi, để con cháu bạn có thể cắm rễ trên mảnh đất ngoại tinh. Và khi làn gió mang đến cho bạn âm thanh xào xạc của lá cây, bạn sẽ biết những đứa con của mình đã tìm thấy một mái nhà mới.\n\nTừ thời xa xưa không thể nhớ nổi, chúng ta đã hợp tác với hệ động vật địa phương để phát tán chủng tộc của mình khắp [GetHomeWorldName]. Vì vậy khi thời điểm đến để chúng ta nhổ rễ bước đi, các cành nhánh vươn cao hơn về phía bầu trời, việc kết nối với các loài sinh vật nơi hư không là điều hết sức tự nhiên. Chúng nhai quả ngọt của chúng ta. Chúng gặm lá cây của chúng ta. Và chúng sẽ mang con cháu chúng ta đến những thế giới xa xôi, nơi chúng sẽ nở rộ và được nuôi dưỡng bởi những vầng thái dương xa lạ.\n\nHãy để hạt giống của chúng ta lan tỏa. Hãy để thiên hà trở thành khu vườn của chúng ta."
+ START_SCREEN_FRUITFUL_FUNGOID: "Nếu hệ sợi nấm của bạn cắm sâu, nhưng tâm hồn lại trở nên bồn chồn, hãy để kẻ khác mang những nhọc nhằn của bạn đi xa. Hãy để muông thú hít hà bào tử của bạn, hấp thụ dưỡng chất từ thân nấm của bạn, và tắm mình dưới bóng râm của mũ nấm. Hãy để chúng mang bào tử đến những vùng đất xa xôi, để con cháu bạn có thể cắm rễ trên mảnh đất ngoại tinh. Và khi lòng đất mang đến cho bạn những rung động của một mạng lưới nấm rễ mới, bạn sẽ biết những đứa con của mình đã tìm thấy một mái nhà.\n\nTừ thời xa xưa không thể nhớ nổi, chúng ta đã hợp tác với hệ động vật địa phương để phát tán chủng tộc của mình khắp [GetHomeWorldName]. Vì vậy khi thời điểm đến để chúng ta nhổ rễ bước đi, những cây nấm vươn cao hơn về phía bầu trời, việc kết nối với các loài sinh vật nơi hư không là điều hết sức tự nhiên. Chúng nhai thể quả của chúng ta. Chúng gặm phiến nấm của chúng ta. Và chúng sẽ mang con cháu chúng ta đến những thế giới xa xôi, nơi chúng sẽ nở rộ và được nuôi dưỡng bởi những vầng thái dương xa lạ.\n\nHãy để bào tử của chúng ta lan tỏa. Hãy để thiên hà trở thành vườn nấm của chúng ta."
+
+ ## Techs
+ sm_feeder: "Vườn Hạt Tinh Tú"
+ sm_feeder_desc: "Một khu vườn chân không cho Căn Cứ Sao của chúng ta, tràn ngập các loài thực vật được cường hóa gen nhằm thu hút các loài sinh vật vũ trụ."
+ sm_feeder_tt: "Hiệu ứng:\n$t$Dụ các Sinh Vật Vũ Trụ đến gặm ăn tại Căn Cứ Sao, thu thập §YVỏ Hạt§! để phát tán"
+ sm_ring_feeder: "Vườn Quỹ Đạo"
+ sm_ring_feeder_desc: "Một khu vườn chân không cho Vành Đai Quỹ Đạo của chúng ta, nở rộ các loài thực vật được cường hóa gen nhằm thu hút các loài sinh vật vũ trụ."
+
+ tech_critter_feeder: "Vườn Cây Ăn Trái"
+ tech_critter_feeder_desc: "Những khu vườn chân không chứa đầy trái cây công nghệ sinh học, được cường hóa gen nhằm thu hút các loài sinh vật vũ trụ."
+
+ sseeder: "Trạm Cây Ăn Trái"
+
+ has_origin_fruitful_special_project_key: "Các đế chế có Khởi Nguyên §Y$origin_fruitful$§! có thể sử dụng một §YDự Án Đặc Biệt§!"
+
+ seeded_planet_0_modifier: "Vỏ Hạt Ngủ Say"
+ seeded_planet_0_modifier_desc: "Những hạt giống kỳ lạ từ một hệ sinh thái hoàn toàn khác đang nằm ngủ say trên hành tinh này."
+ seeded_planet_0_modifier_tooltip: "$has_origin_fruitful_special_project_key$ để mở Vỏ Hạt và thực dân hóa hành tinh."
+ seeded_planet_1_modifier: "Thực Vật Xâm Lấn Ngoài Tinh Cầu"
+ seeded_planet_1_modifier_desc: "Hạt giống từ một vùng đất khác đã tìm thấy đất màu mỡ ở đây, dần thay thế thảm thực vật bản địa."
+ seeded_planet_1_modifier_tooltip: "$has_origin_fruitful_special_project_key$ để triệu hồi quân đội xuất hiện trên hành tinh này trong thời chiến."
+ seeded_planet_2_modifier: "Thực Vật Xâm Lấn Ngoài Tinh Cầu Lan Rộng"
+ seeded_planet_2_modifier_desc: "Hạt giống từ một vùng đất khác đã tìm thấy đất màu mỡ ở đây, thay thế thảm thực vật bản địa."
+ seeded_planet_2_modifier_tooltip: "$seeded_planet_1_modifier_tooltip$"
+ seeded_planet_3_modifier: "Thực Vật Xâm Lấn Ngoài Tinh Cầu Áp Đảo"
+ seeded_planet_3_modifier_desc: "Hạt giống từ một vùng đất khác đã tìm thấy đất màu mỡ ở đây, đang thay thế thảm thực vật bản địa."
+ seeded_planet_3_modifier_tooltip: "$seeded_planet_1_modifier_tooltip$"
+
+ MESSAGE_FRUITFUL_SEED_PLANTED_TITLE: "Đã Gieo Vỏ Hạt"
+ MESSAGE_FRUITFUL_SEED_PLANTED_OWNER: "Sinh Vật Vũ Trụ đã mang Vỏ Hạt của chúng ta đến $PLANET|Y$, trong hệ sao $SYSTEM|Y$, nơi chúng đã tạo nên một khu rừng mới."
+ MESSAGE_FRUITFUL_SEED_PLANTED_NO_OWNER: "Sinh Vật Vũ Trụ đã mang Vỏ Hạt của chúng ta đến $PLANET|Y$, trong hệ sao $SYSTEM|Y$. Chúng sẽ nằm ngủ say cho đến khi chúng ta sẵn sàng mở chúng ra."
+
+ MESSAGE_FRUITFUL_SEED_LOST_TITLE: "Mất Vỏ Hạt"
+ MESSAGE_FRUITFUL_SEED_LOST: "Chúng ta đã mất liên lạc với các Vỏ Hạt trên $PLANET|Y$. Rất có thể chúng đã bị phá hủy."
+
+ MESSAGE_FRUITFUL_SEED_CRITTER_TITLE: "Hạt Giống Đã Được Hấp Thụ"
+ MESSAGE_FRUITFUL_SEED_CRITTER: "Sinh Vật Vũ Trụ ghé thăm $SYSTEM|Y$ đã ăn quả ngọt từ vườn của chúng ta, và hiện đang mang theo các Vỏ Hạt của chúng ta băng qua các vì sao."
+
+ OPEN_SEED_PODS_PROJECT: "Mở Vỏ Hạt trên [this.GetName]"
+ OPEN_SEED_PODS_PROJECT_DESC: "Sinh Vật Vũ Trụ đã mang những Vỏ Hạt ngủ say của chúng ta đến §H[this.GetName]§!. Bằng cách nhắm chùm năng lượng tập trung vào hành tinh, chúng ta có thể kích thích sự sinh trưởng của chúng, biến một khối đá không người ở thành một thuộc địa xanh tươi mới."
+
+ WEEDS_ARMY_PROJECT: "Nuôi Dưỡng Quân Đội trên [this.GetName]"
+ WEEDS_ARMY_PROJECT_DESC: "Sinh Vật Vũ Trụ đã mang Vỏ Hạt của chúng ta đến §H[this.GetName]§!, nơi chúng được §H[this.owner.GetName]§! vun trồng và chăm sóc. Bằng cách nhắm chùm năng lượng tập trung về phía hành tinh, chúng ta có thể kích thích sinh trưởng, biến khu rừng thành các §HĐạo Quân Thực Vật Ngoài Tinh Cầu§!. Cấp độ của §HThực Vật Xâm Lấn Ngoài Tinh Cầu§! trên hành tinh càng cao, số lượng quân đội được sinh ra càng nhiều."
+
+ FRUITFUL_SEED_POD: "Vỏ Hạt"
+
+ fruitful_army: "Đạo Quân Thực Vật Ngoài Tinh Cầu"
+ fruitful_army_desc: "Một tín hiệu mã hóa đã đánh thức thảm thực vật ngoài hành tinh ngủ say từ lâu này. Một khi bị nhổ rễ, chúng sẽ hành quân, vung chính rễ cây của mình như những vũ khí đập vụn nặng nề."
+
+ # Events
+ origin.7100.name: "Phát Tán Hạt Giống"
+ origin.7100.desc: "Đối với các sinh vật vũ trụ trong thiên hà, chúng ta đã xây dựng một khu vườn. Chúng ta phủ đầy nơi đây bằng hoa, quả ngọt và những vỏ hạt dính nhớp, sẵn sàng bám vào da của những sinh vật tráng lệ này. Nhưng liệu những cư dân nơi hư không này có thưởng thức bữa tiệc của chúng ta không? Ngay khi chúng cắn miếng quả đầu tiên, nỗi lo âu của chúng ta đã tan biến hoàn toàn.\n\nTừ thời xa xưa, chúng ta đã dâng tặng quả ngọt và bóng râm cho các loài muông thú trên hành tinh của mình. Đổi lại, chúng mang theo hạt giống của chúng ta. Giờ đây, hiệp ước cổ xưa này đã được tái hiện ở quy mô thiên hà: sinh vật vũ trụ sẽ mang theo §YVỏ Hạt§! của chúng ta khi chúng du hành. Với một chút may mắn, hạt giống của chúng ta sẽ rơi xuống một §Hhành tinh có thể thực dân hóa§!, nơi chúng sẽ có mọi thứ cần thiết để thiết lập một khu vườn mới cho đồng bào chúng ta. Chúng ta chỉ cần phóng chùm năng lượng để kích hoạt chúng, cho phép chúng ta định cư trên các hành tinh mới mà không cần phải điều tàu thực dân."
+ origin.7100.tooltip: "Khi tiến vào một hệ sao mới, Sinh Vật Vũ Trụ sẽ có cơ hội để lại §HVỏ Hạt§! trên một hành tinh có thể sinh sống được. Hãy kiên nhẫn."
+
+ origin.7304.name: "Phát Tán Phối Hợp"
+ origin.7304.desc: "Dù chúng ta có thể dựa vào các sinh vật vũ trụ hoang dã để phát tán §YVỏ Hạt§!, chúng ta có thể thực hiện điều đó đáng tin cậy hơn với những sinh vật mới gia nhập hạm đội của mình.\n\nCác §YVườn Hạt Tinh Tú§! của chúng ta sẽ phân phát hạt giống cho các sinh vật dưới trướng, sau đó chúng ta có thể phái chúng trực tiếp đến các §Hhành tinh có thể thực dân hóa§! để thiết lập một khu vườn mới."
+
+ origin.7321.name: "Kiên Nhẫn Hái Quả Ngọt"
+ origin.7321.desc: "§YVỏ Hạt§! của chúng ta trên §H[from.GetName]§! đã mở ra, và những [root.GetSpeciesNamePlural] mới sinh đã bắt đầu cắm rễ sâu vào lòng đất."
+
+ origin.7326.name: "Hạt Giống Bí Ẩn"
+ origin.7326.desc.base: "Lòng đất của [this.GetName] rải rác những hạt giống dường như không thuộc về hệ sinh thái địa phương. Chỉ với lượng ánh sáng và nước tối thiểu, những hạt giống đã nhanh chóng phát triển, bao phủ hành tinh trong một khu rừng mới và hỗ trợ các nỗ lực thực dân hóa của chúng ta."
+ origin.7326.desc.knowowner: "$origin.7326.desc.base$\n\nTheo phân tích di truyền của chúng ta, những hạt giống sinh học tăng trưởng nhanh này đã được phát triển bởi §Y[seeds_owner.GetName]§!."
+ origin.7326.desc.notknowowner: "$origin.7326.desc.base$. Các nhà khoa học của chúng ta không thể xác định được nguồn gốc của những hạt giống này, nhưng có một điều chắc chắn: chúng mang tính nhân tạo, được tạo ra bằng công nghệ sinh học để nhanh chóng bén rễ trên đất ngoài tinh cầu."
+ origin.7326.a.desc: "Mở khóa Quyết Sách §Y$decision_uproot_weed$§! trên hành tinh này."
+
+ origin.7327.name: "$origin.7326.name$"
+ origin.7327.desc.base: "Khi bay qua hệ sao [this.solar_system.GetName], một đàn sinh vật vũ trụ đã đánh rơi một vật thể lạ xuống bề mặt của [this.GetName]. Chúng ta nhanh chóng tiếp cận hố va chạm, và chỉ thấy nó tràn ngập thảm thực vật xa lạ. Vật thể rơi xuống giống như một tàu thực dân: một vỏ hạt chứa đầy đủ mọi nhu yếu phẩm để bắt đầu một thuộc địa mới, từ các vật liệu thiết yếu cho đến những cư dân vừa được đánh thức."
+ origin.7327.desc.knowowner: "$origin.7326.desc.base$\n\nTheo phân tích di truyền của chúng ta, những hạt giống kỳ lạ này đã được phát triển bởi §Y[seeds_owner.GetName]§!."
+ origin.7327.desc.notknowowner: "$origin.7326.desc.base$\n\nNhờ có hệ thống liên lạc trong các vỏ hạt, chúng ta đã có thể nhanh chóng thiết lập liên lạc với đế chế nơi hạt giống nảy mầm."
+ origin.7327.desc.moreseeds: "Thực vật ngoài hành tinh đã có mặt trên hành tinh của chúng ta nay phát triển mạnh mẽ hơn nữa."
+
+ origin.7328.name: "$origin.7321.name$"
+ origin.7328.desc: "Tàu thực dân của chúng ta vừa đáp xuống §H[from.GetName]§!, nhưng đồng bào của chúng ta đã ở đó từ trước, nằm ngủ say trong lòng đất. Lượng [root.owner.GetSpeciesNamePlural] và tài nguyên bổ sung chứa trong §YVỏ Hạt§! sẽ giúp các cư dân của chúng ta phát triển hành tinh.\n\nCầu chúc cho rễ của họ đâm sâu và lan rộng muôn nơi."
+
+ origin.7400.name: "Đã Triển Khai Tiền Đồn!"
+ origin.7400.desc: "Những [owner.GetColonistPlural] ở xa xôi của chúng ta trên §Y[Root.GetName]§! đã triển khai một §Y$starbase_outpost$§! quanh ngôi sao, giành quyền kiểm soát hệ sao §Y[Root.GetStarName]§!."
+
+ origin.7500.name: "Bảo Vệ Sinh Vật Vũ Trụ"
+ origin.7500.desc: "Mối quan hệ của chúng ta với các sinh vật vũ trụ khá độc đáo, nhưng chúng ta không đơn độc trong việc tôn trọng quyền tồn tại của chúng; một nghị quyết vừa được thông qua tại Cộng Đồng Thiên Hà sẽ giúp bảo vệ sự sống của những sinh vật kỳ diệu này."
+
+ origin.7510.name: "Mối Nguy Hiểm Cho Sinh Vật Vũ Trụ"
+ origin.7510.desc: "Các sinh vật vũ trụ luôn là bạn của chúng ta, nhưng không phải tất cả thành viên của Cộng Đồng Thiên Hà đều chia sẻ tình yêu dành cho những cư dân nơi hư không này. Nghị quyết họ vừa thông qua đã đẩy sinh kế của bạn bè chúng ta - và của chính chúng ta - vào vòng nguy hiểm."
+
+ origin.7600.name: "Gieo Nhân Nào Gặt Quả Nấy"
+ origin.7600.desc: "Kẻ thù nghĩ rằng chúng ta sẽ khuất phục trước sức mạnh của chúng, như những rặng sậy bị gió thổi rạp. Chúng đã quên rằng cây cỏ cũng có gai nhọn.\n\nBinh lính của chúng ta đang ngủ say trong lòng đất của chúng. Nếu nhu cầu nảy sinh, chúng ta có thể biến §HThực Vật Xâm Lấn Ngoài Tinh Cầu§! thành quân đội, để bảo vệ những gì thuộc về chúng ta và bóp nghẹt những gì chúng tự nhận là của riêng mình. Chúng ta chỉ cần nhắm chùm năng lượng vào hành tinh mong muốn để bắt đầu cuộc xâm lăng."
+
+ origin.7710.name: "Gieo Nhân Nào Gặt Quả Nấy"
+ origin.7710.desc: "§HThực Vật Xâm Lấn Ngoài Tinh Cầu§! trên §H[from.GetName]§! đột nhiên mọc ra các chi, biến thành một đội quân. Hành tinh đang bị tấn công!"
+
+ MESSAGE_FRUITFUL_WEED_ARMY_TITLE: "Quân Đội Đã Nảy Mầm"
+ MESSAGE_FRUITFUL_WEED_ARMY: "Hạt giống trên $PLANET|Y$ đã phát triển thành một đội quân."
+
+ opinion_nice_forests: "Những Người Làm Vườn Hữu Ích"
+ opinion_cut_our_forests: "Chặt Phá Vườn Của Chúng Ta"
+
+ opinion_voted_to_kill_tiyanki: "Đã Bỏ Phiếu Hại Sinh Vật Vũ Trụ"
+ opinion_voted_to_help_tiyanki: "Đã Bỏ Phiếu Bảo Vệ Sinh Vật Vũ Trụ"
+
+ fruitful_partnership_chain_title: "Phát Tán Hạt Giống"
+ fruitful_partnership_chain_desc: "Sinh vật vũ trụ sẽ mang theo §YVỏ Hạt§! của chúng ta đến những vùng đất xa xôi. Với một cái chạm của ánh sáng tinh tú, hạt giống của chúng ta có thể nở rộ thành một thuộc địa mới."
+
+ fruitful_partnership_war_chain_title: "Hạt Giống Chiến Tranh"
+ fruitful_partnership_war_chain_desc: "Trong thời chiến, các §YVỏ Hạt§! của chúng ta có thể nở rộ thành quân đội, sẵn sàng bảo vệ thuộc địa hoặc xâm lược các mục tiêu xa xôi."
+
+ decision_uproot_weed: "Nhổ Cỏ Tận Gốc"
+ decision_uproot_weed_desc: "Loại bỏ $seeded_planet_2_modifier$."
+
+ ## Seed Bombing
+ bombardment_seed_bombing: "Ném Bom Hạt Giống"
+ bombardment_seed_bombing_desc: "$bombardment_seed_bombing$ rải thảm hành tinh bằng những quả cầu hạt giống siêu thụ phấn, gây ra sự phát triển bùng nổ.\n- §EKhông§! gây sát thương lên §YQuân Đội§!\n- Sát thương §HNặng§! lên §YHành Tinh§!\n- §EKhông§! gây sát thương lên §YDân Số§!\n- Sẽ bắn phá các hành tinh không được phòng thủ\n- Tạo ra chướng ngại vật trên hành tinh"
+
+ d_seed_bombing_plantoid_blocker: "£blocker£ Rừng Cây Tăng Trưởng Bùng Nổ"
+ d_seed_bombing_plantoid_blocker_desc: "Khu vực này của hành tinh đã bị xâm nhiễm bởi một khu rừng thực vật ngoài hành tinh không ngừng sinh sôi."
+
+ d_seed_bombing_fungoid_blocker: "£blocker£ Nấm Tăng Trưởng Bùng Nổ"
+ d_seed_bombing_fungoid_blocker_desc: "Khu vực này của hành tinh đã bị xâm nhiễm bởi một quần thể nấm ngoài hành tinh không ngừng sinh sôi."
+
+ d_seed_bombing_blocker_custom_tooltip: "$d_decrepit_dwellings_custom_tooltip$\n"
+
+ origin.7201.name: "Tăng Trưởng Bùng Nổ"
+ origin.7201.desc: "Thuộc địa của chúng ta trên §H[this.GetName]§! đang bị bắn phá bằng những quả cầu hạt giống siêu thụ phấn. Những khu rừng mới đang mọc lên khắp nơi, làm nứt sàn nhà, hủy hoại công trình và phủ kín [this.GetPlanetHabitat] bằng thực vật ngoài hành tinh phát triển chóng mặt."
+ MESSAGE_FRUITFUL_SEED_BOMBING_TITLE: "Ném Bom Hạt Giống"
+ MESSAGE_FRUITFUL_SEED_BOMBING: "Ném bom hạt giống đã tạo ra một chướng ngại vật mới trên $PLANET|Y$."
+
+ ## Critters interactions
+
+ # Amoebas
+ story.101.desc.fruitful: "Nếu được thuần hóa, chúng có thể trở thành những kẻ mang Vỏ Hạt lý tưởng cho chúng ta."
+ story.107.fruitful.desc: "Dù phần lớn chúng là loài ăn thịt, nhưng những quả mọng nhiều thịt mà các nhà nghiên cứu của chúng ta phát triển đã thu hút được khẩu vị của chúng."
+ story.107.a.fruitful.tooltip: "§H$sm_feeder$§! của chúng ta hiện có thể thu hút các hạm đội §HBọ Biển Không Gian§!."
+
+ # Crystals
+ story.201.desc.fruitful: "Chúng ta không chắc liệu những sinh vật này có khả năng ăn uống hay không, nhưng nếu có, chúng có thể trở thành vật mang hữu ích cho hạt giống của chúng ta. Thuần hóa chúng sẽ cho phép chúng ta tiến hành các nghiên cứu sâu hơn."
+ story.207.fruitful.desc: "Phát triển một loại quả hợp khẩu vị cho những sinh vật này quả là một thách thức. Chúng ta không chắc liệu chúng đang ăn những quả dạng táo thủy tinh mà chúng ta tạo ra, hay chúng chỉ thích mang chúng theo bên mình vì bị quyến rũ bởi bề mặt bóng loáng của chúng. Dù sao thì điều đó cũng đủ đáp ứng nhu cầu của chúng ta."
+ story.207.a.fruitful.tooltip: "§H$sm_feeder$§! của chúng ta hiện có thể thu hút các hạm đội §HThực Thể Tinh Thể§!."
+
+ # Study the Tyanki and get their tech
+ origin.7000.name: "$story.501.name$"
+ origin.7000.desc.common: "và chúng ta đã hiểu được nhiều điều về những sinh vật hiền lành này.\n\nCó khả năng tiếp cận một chiều không gian thấp hơn của hạ không gian, các sinh vật vũ trụ này lang thang từ hệ sao này sang hệ sao khác một cách hết sức dễ dàng. Chúng gặm các loại khí phổ biến ở các tầng trên của nhiều hành tinh khí khổng lồ, nhưng đã tỏ ra ưa thích trái cây của chúng ta. Chúng hiếm khi, thậm chí không bao giờ tấn công, ngay cả khi bị khiêu khích.\n\nKẻ chuyên chở hoàn hảo cho hạt giống của chúng ta: điềm tĩnh, vô hại, thậm chí gần như tẻ nhạt. Liệu chúng có ẩn giấu bí mật nào không?"
+ origin.7000.desc.default: "§YTiyanki§! là chủng loài ngoài hành tinh đầu tiên chúng ta chạm trán, $origin.7000.desc.common$"
+ origin.7000.desc.beastmasters: "§YTiyanki§! là một chủng loài ngoài hành tinh mới mà chúng ta chạm trán, $origin.7000.desc.common$"
+ origin.7000.a: "Dành thêm thời gian để nghiên cứu chúng."
+ origin.7000.b: "Chúng ta có những ưu tiên khác."
+
+ TIYANKIS_PROJECT: "Quan Sát Tiyanki"
+ TIYANKIS_PROJECT_DESC: "Dành một phần nhân sự trạm không gian để nghiên cứu loài Tiyanki có thể mang lại cho chúng ta những hiểu biết sâu sắc hơn về đời sống của những sinh vật nơi hư không thanh bình và bí ẩn này."
+
+ origin.7005.name: "$story.501.name$"
+ origin.7005.desc: "Bằng cách nghiên cứu tập tính kiếm ăn của những người bạn nơi hư không, các nhà khoa học của chúng ta đã tạo ra một bước đột phá khoa học. $tech_space_whale_weapon_1_desc$. Công nghệ này chắc chắn sẽ rất hữu ích."
+
+ ### Civics
+
+ civic_idyllic_bloom:0 "Hoa Nở Điền Viên"
+ civic_idyllic_bloom_desc:0 "Xã hội này từ lâu đã cống hiến hết mình cho việc chăm sóc và cải tạo môi trường, phấn đấu tạo ra một thiên đường thực sự cho cư dân của mình."
+ civic_hive_idyllic_bloom:0 "Lý Tưởng Nấm Rễ"
+ civic_hive_idyllic_bloom_desc:0 "Ý Thức Bầy Đàn này chăm sóc môi trường, kiến tạo một thiên đường để mưu cầu sự hoàn mỹ hiệp đồng."
+ civic_wilderness_idyllic_bloom: "$civic_hive_idyllic_bloom$"
+ civic_wilderness_idyllic_bloom_desc: "Cõi Hoang Dã này khao khát một trạng thái hoàn mỹ hiệp đồng thực sự, và do đó trao quyền cho các loài cộng sinh thực vật và nấm để biến đổi thế giới xung quanh."
+ civic_tooltip_idyllic_bloom_effects:2 "Có thể xây dựng £building£ §Y$building_gaiaseeders$§! trên các thế giới lý tưởng với chủng tộc khởi đầu của bạn và chư hầu.\n$building_gaiaseeders_all_desc$\nKhi bạn mở khóa các công nghệ £society£ §YĐịa Khai Hóa§! nâng cao, £building£ §Y$building_gaiaseeders$§! có thể được xây dựng trên các loại hành tinh bổ sung."
+
+ disables_idyllic_bloom:0 "§RChọn Đặc Quyền Thăng Hoa này sẽ vô hiệu hóa Thể Chế $civic_idyllic_bloom$.§!"
+
+ civic_tooltip_not_idyllic_bloom: "KHÔNG có Thể Chế ['concept_idyllic_bloom_civics']"
+ concept_idyllic_bloom_civics: "Hoa Nở Điền Viên"
+ concept_idyllic_bloom_civics_desc: "Thể Chế $concept_idyllic_bloom_civics$ bao gồm: \n- ['civic:civic_idyllic_bloom']$NEW_LINE$- ['civic:civic_hive_idyllic_bloom']"
+
+ gaia_seeder_bloomed_pops_effect: "Sau khi hoàn thành việc biến đổi [This.GetName] thành một $pc_gaia$, Máy Gieo Hạt Gaia giờ đây sẽ biến đổi dân số của chúng ta để giúp họ thích nghi tốt hơn với thế giới này.\n\nTăng hiệu ứng của các Đặc Tính §Y$trait_plantoid_bloomed$§! và §Y$trait_plantoid_budding$§! thêm §G+50%§!."
+ gaia_seeder_bloom_timer_tooltip: "\nĐợt Nở Hoa tiếp theo trên §Y[This.GetName]§! sẽ diễn ra vào ngày §Y[This.gaia_seeder_bloom_timer]§!."
+ MESSAGE_POPS_IDYLLIC_BLOOMED_TITLE: "Dân Số Nở Rộ"
+ MESSAGE_POPS_IDYLLIC_BLOOMED: "Máy Gieo Hạt Gaia của chúng ta trên $PLANET|Y$ đã giải phóng một Đợt Nở Hoa khác, cải thiện các £pop£ Dân Số của chúng ta."
+
+ gaiaseeders_tomb_world:0 "$TRIGGER_FAIL$Yêu cầu £society£ §Y$tech_climate_restoration$§! để xây dựng trên §YThế Giới Tận Thế (Tomb World)§!."
+ gaiaseeders_same_climate_start:0 "$TRIGGER_FAIL$Yêu cầu £society£ §Y$tech_terrestrial_sculpting$§! để xây dựng trên"
+ gaiaseeders_different_climate_start:0 "$TRIGGER_FAIL$Yêu cầu £society£ §Y$tech_ecological_adaptation$§! để xây dựng trên"
+ gaiaseeders_wet:0 "§YẨm Ướt§!"
+ gaiaseeders_dry:0 "§YKhô Hạn§!"
+ gaiaseeders_cold:0 "§YLạnh Giá§!"
+ gaiaseeders_same_climate_wet:0 "$gaiaseeders_same_climate_start$ §YHành Tinh§! $gaiaseeders_wet$."
+ gaiaseeders_same_climate_dry:0 "$gaiaseeders_same_climate_start$ §YHành Tinh§! $gaiaseeders_dry$."
+ gaiaseeders_same_climate_cold:0 "$gaiaseeders_same_climate_start$ §YHành Tinh§! $gaiaseeders_cold$."
+ gaiaseeders_different_climate_wet:0 "$gaiaseeders_different_climate_start$ §YHành Tinh§! $gaiaseeders_dry$ hoặc $gaiaseeders_cold$."
+ gaiaseeders_different_climate_dry:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_same_climate_wet$ hoặc §YHành Tinh§! $gaiaseeders_cold$."
+ gaiaseeders_different_climate_cold:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_same_climate_wet$ hoặc $gaiaseeders_same_climate_dry$."
+ gaiaseeders_special_habitability_preference:0 "$gaiaseeders_different_climate_start$ §YHành Tinh§! $gaiaseeders_wet$, $gaiaseeders_dry$ hoặc $gaiaseeders_cold$."
+
+ building_gaiaseeders:0 "Máy Gieo Hạt Gaia"
+ building_gaiaseeders_1:0 "$building_gaiaseeders$ - Giai Đoạn 1"
+ building_gaiaseeders_2:0 "$building_gaiaseeders$ - Giai Đoạn 2"
+ building_gaiaseeders_3:0 "$building_gaiaseeders$ - Giai Đoạn 3"
+ building_gaiaseeders_4:0 "$building_gaiaseeders$ - Giai Đoạn Cuối"
+ building_gaiaseeders_all_desc:0 "Các cơ sở trải khắp hành tinh sẽ từng bước đưa thế giới này tiến gần hơn tới việc trở thành một §YThế Giới Gaia§!, thông qua 4 giai đoạn nâng cấp."
+ building_gaiaseeders_1_desc:0 "$building_gaiaseeders_all_desc$\n\nĐây là giai đoạn thúc đẩy tăng trưởng ban đầu."
+ building_gaiaseeders_2_desc:0 "$building_gaiaseeders_all_desc$\n\nGiai đoạn này chuyển hướng sang cải thiện khả năng sinh sống."
+ building_gaiaseeders_3_desc:0 "$building_gaiaseeders_all_desc$\n\nGiai đoạn này chú trọng đặc biệt vào khả năng sinh sống."
+ building_gaiaseeders_4_desc:0 "$building_gaiaseeders_all_desc$"
+ building_gaiaseeders_4_effect_desc:0 "Địa khai hóa hành tinh thành một §YThế Giới Gaia§! khi hoàn tất."
+
+ building_gaiaseeders_pc_gaia: "$building_gaiaseeders_4$"
+ building_gaiaseeders_pc_gaia_desc: "$building_gaiaseeders_4_desc$"
+
+ plant.100.name:0 "Sự Hoàn Mỹ Điền Viên"
+ plant.100.desc:1 "Thông qua công nghệ sinh học vượt trội, những khoản đầu tư đáng kể và nhiều năm lao động miệt mài, dự án Gieo Hạt Gaia trên §Y[Root.GetName]§! đã đơm hoa kết trái.\n\nKể từ ngày này, §Y[Root.GetName]§! phải được coi là một viên ngọc quý thực sự giữa muôn vì tinh tú, để chiêm ngưỡng, hoặc có lẽ là để ghen tị."
+ plant.100.a:0 "Hãy để lễ hội ăn mừng bắt đầu!"
+ plant.100.b:0 "Chúng ta đã làm rất tốt, giờ là lúc tập trung vào nơi khác."
+
+ plant.105.desc:0 "Thông qua công nghệ sinh học vượt trội, những khoản đầu tư đáng kể và nhiều năm lao động miệt mài, dự án Gieo Hạt Gaia trên §Y[From.Planet.GetName]§! đã đơm hoa kết trái.\n\nKể từ ngày này, §Y[From.Planet.GetName]§! phải được coi là một viên ngọc quý thực sự giữa muôn vì tinh tú, để chiêm ngưỡng, hoặc có lẽ là để ghen tị. Chúng ta tin chắc rằng các chư hầu sẽ đánh giá cao nỗ lực của chúng ta."
+
+ plant.110.desc:0 "Tông Chủ của chúng ta đã hoàn thành dự án kỳ lạ trên §Y[from.from.planet.GetName]§!, biến nó thành một thế giới Gaia. Nhờ có họ, giờ đây chúng ta có thể tận dụng khí hậu điền viên và những không gian rộng lớn của thiên đường này cho mục đích hữu ích."
+ plant.110.desc.hydrocentric:0 "Tông Chủ của chúng ta đã hoàn thành dự án kỳ lạ trên §Y[from.from.planet.GetName]§!. Hành tinh này đã bị hủy hoại! Họ đã phủ lấp các đại dương bằng những đồng bằng và đồi trập trùng. Bầu khí quyển từng ẩm ướt nay trở nên cằn cỗi và khô khốc. Tệ hơn nữa, khi chúng ta bày tỏ mối lo ngại, họ đã gạt phắt đi! Những kẻ Tông Chủ nói rằng họ đã làm cho thế giới của chúng ta \"xinh đẹp hơn\"."
+
+ plant.110.a:0 "Sao họ dám làm thế chứ!"
+ plant.110.b:0 "Thật chu đáo làm sao!"
+ plant.110.c:0 "Thật là một quyết định kỳ quặc."
+
+ celebrate_idyllic_bloom:0 "Ăn Mừng Biến Đổi Điền Viên"
+ celebrate_idyllic_bloom_desc:0 "Một lễ ăn mừng quy mô toàn hành tinh đang diễn ra sau sự kiện biến đổi thành công thế giới này thành một thiên đường điền viên."
+ terraformed_our_ocean_world:0 "Đã Địa Khai Thế Giới Đại Dương Của Chúng Ta"
+ terraformed_our_ocean_world_desc:0 "Tông Chủ của chúng ta đã địa khai hóa một thế giới đại dương tuyệt đẹp thành một thế giới Gaia tồi tệ. Quả là một gu thẩm mỹ kinh khủng."
+
+ thankful_for_gaia:0 "Biết Ơn Vì Thế Giới Gaia"
+ thankful_for_gaia_desc:0 "Tông Chủ của chúng ta gần đây đã địa khai hóa một trong những hành tinh của chúng ta thành thế giới Gaia. Họ thật tốt bụng làm sao!"
+
+### Traits by Byron Aytoun
+
+ trait_plantoid_phototrophic:0 "Quang Hợp"
+ trait_plantoid_phototrophic_desc:0 "§LChủng tộc này được duy trì sự sống bằng sự kết hợp giữa thức ăn và ánh sáng mặt trời.§!\n"
+ TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT:0 "Thay thế §Y50%§! Chi Phí Duy Trì $food_with_icon$ (hoặc tương đương) bằng Chi Phí Duy Trì $energy_with_icon$"
+
+ trait_plantoid_radiotrophic:0 "Phóng Xạ Hướng"
+ trait_plantoid_radiotrophic_desc:0 "§LChủng tộc này được duy trì sự sống bằng sự kết hợp giữa thức ăn và bức xạ năng lượng thấp, nhờ đó có thể sinh sôi nảy nở trên những thế giới khắc nghiệt nhất.§!"
+ TRAIT_PLANTOID_RADIOTROPHIC_EFFECT:1 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\n$t$- Chi Phí Duy Trì £energy£ §YNăng Lượng§! này được xóa bỏ đối với Dân Số sinh sống trên §YThế Giới Tận Thế (Tomb World)§!.\n$t$- Tốc Độ Tăng Trưởng Dân Số trên §YThế Giới Tận Thế§! §G+10%§!\n$t$- Khả Năng Thích Nghi Thế Giới Tận Thế: §G+10%§!"
+ trait_harvested_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_harvested_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ trait_lithoid_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_lithoid_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ TRAIT_LITHOID_RADIOTROPHIC_EFFECT:1 "Thay thế §Y50%§! Chi Phí Duy Trì Cơ Bản £minerals£ §YKhoáng Sản§! bằng Chi Phí Duy Trì £energy£ §YNăng Lượng§!.\nChi Phí Duy Trì £energy£ §YNăng Lượng§! này được xóa bỏ đối với Dân Số sinh sống trên §YThế Giới Tận Thế (Tomb World)§!.\nTốc Độ Tăng Trưởng Dân Số trên §YThế Giới Tận Thế§! §G+10%§!\nKhả Năng Thích Nghi Thế Giới Tận Thế: §G+10%§!"
+
+ trait_plantoid_budding:0 "Đâm Chồi"
+ trait_plantoid_budding_desc:0 "§LChủng tộc này có khả năng sinh sản bằng cách đâm chồi, bên cạnh phương thức thụ phấn hạt hoặc bào tử thông thường.§!"
+ trait_plantoid_budding_portrait_override_tt: "Hoặc bất kỳ chủng tộc nào sinh sản thông qua hình thức sinh dưỡng"
+ trait_lithoid_budding:0 "Kết Tinh Hóa"
+ trait_lithoid_budding_desc:0 "§LVới các khối tinh thể phát triển, chủng tộc này có khả năng tự nhân bản mạng lưới tinh thể của chính mình, bên cạnh các phương thức sinh sản thông thường.§!"
+ TRAIT_PLANTOID_BUDDING_EFFECT: "Mỗi $pop_group_unit$ £pop£ §HDân Số§! làm việc với thân phận nô lệ hoặc cao hơn sẽ tạo ra 0.02 £mod_logistic_growth_mult£ §Y$MOD_BONUS_POP_GROWTH$§!.\n\nHiệu ứng này cộng dồn với các nguồn $MOD_BONUS_POP_GROWTH$ khác như £building£ §Y$building_clone_vats$§! hoặc £job_spawning_drone£ §Y$job_spawning_drone_plural$§!."
+ TRAIT_LITHOID_BUDDING_EFFECT:0 "$TRAIT_PLANTOID_BUDDING_EFFECT$"
+
+ trait_advanced_phototrophic:0 "$trait_plantoid_phototrophic$"
+ trait_advanced_phototrophic_desc:0 "§LThông qua kỹ thuật di truyền tiên tiến, chủng tộc này giờ đây được duy trì sự sống một phần bằng ánh sáng mặt trời.§!"
+ TRAIT_ADVANCED_PHOTOTROPHIC_EFFECT:0 "Thay thế §Y50%§! Chi Phí Duy Trì Cơ Bản £food£ §YLương Thực§! hoặc £minerals£ §YKhoáng Sản§! bằng Chi Phí Duy Trì £energy£ §YNăng Lượng§!."
+
+ trait_advanced_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_advanced_radiotrophic_desc:0 "§LThông qua kỹ thuật di truyền tiên tiến, chủng tộc này giờ đây được duy trì sự sống một phần bằng bức xạ năng lượng thấp, và nhờ đó có thể sinh sôi trên những thế giới khắc nghiệt nhất.§!"
+ TRAIT_ADVANCED_RADIOTROPHIC_EFFECT:0 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\nChi Phí Duy Trì £energy£ §YNăng Lượng§! này được xóa bỏ đối với Dân Số sinh sống trên §YThế Giới Tận Thế (Tomb World)§!."
+
+ trait_advanced_budding:0 "$trait_plantoid_budding$"
+ trait_advanced_budding_desc:0 "§LNhững thay đổi trong chuỗi DNA cho phép chủng tộc này sinh sản bằng cách đâm chồi, bên cạnh các phương pháp thông thường.§!"
+
+ trait_plantoid_bloomed: "Nở Rộ"
+ trait_plantoid_bloomed_desc: "Chủng tộc này đã tiếp xúc với các hiệu ứng biến đổi của Máy Gieo Hạt Gaia, khiến họ mọc ra những bông hoa địa y cộng sinh hỗ trợ lẫn nhau khi sinh sống trên Thế Giới Gaia."
+ plantoid_bloomed_trait_tooltip: "Hiệu ứng trên Thế Giới Gaia:$TABBED_NEW_LINE$$MOD_POP_BONUS_WORKFORCE_MULT$: §G+10%§!$TABBED_NEW_LINE$$MOD_LOGISTIC_GROWTH_MULT$: §G+10%§!\n$t$$MOD_POP_AMENITIES_USAGE_MULT$: §G-10%§!$TABBED_NEW_LINE$$MOD_POP_HOUSING_USAGE_MULT$: §G-10%§!\n\nNhững hiệu ứng này được gia tăng bởi một £building£ $building_gaiaseeders_4$."
+### Catalytic Processing by Byron Aytoun
+
+# Regular
+ civic_catalytic_processing:0 "Xử Lý Xúc Tác"
+ civic_catalytic_processing_desc:0 "Bằng cách tập trung các nỗ lực công nghiệp vào hóa học xúc tác, nền văn minh này đã mở khóa được chìa khóa sử dụng vật liệu hữu cơ trong việc xây dựng các công trình không gian."
+ civic_tooltip_catalytic_processing_effects:0 "$t$- §Y$job_foundry_plural_with_icon$§! được thay thế bằng §Y$job_catalytic_technician_plural_with_icon$§!\n$t$- [foundry.GetIcon] [artisan.GetIcon] §YCông Việc Công Nghiệp§! có Chi Phí Duy Trì $r_minerals$ được thay bằng Chi Phí Duy Trì $r_food$."
+
+# Corporate
+ civic_corporate_catalytic_processing:1 "Tái Chế Xúc Tác"
+ civic_corporate_catalytic_processing_desc:0 "Siêu Tập Đoàn này tìm cách tối đa hóa lợi nhuận bằng cách tái chế chất hữu cơ dư thừa thành các tài nguyên tiên tiến phù hợp cho các cấu trúc không gian."
+ civic_tooltip_catalytic_processing_corporate_effects:0 "$civic_tooltip_catalytic_processing_effects$ $TABBED_NEW_LINE$- Tòa nhà £building£ §Y$building_private_shipyards$§! $megacorp_civic_branch_office_building_effect$"
+
+# Hive Mind
+ civic_hive_catalytic_processing:1 "Tái Chế Hữu Cơ"
+ civic_hive_catalytic_processing_desc:0 "Ý Thức Bầy Đàn tái xử lý các chất hữu cơ dư thừa thành các tài nguyên tiên tiến phù hợp cho các công trình không gian."
+ civic_tooltip_hive_catalytic_processing_effects:0 "$t$- [alloy_drone.GetIcon] §Y$job_alloy_drone_plural$§! được thay thế bằng §Y$job_catalytic_drone_plural_with_icon$§!\n$t$- [fabricator.GetIcon] [artisan_drone.GetIcon] §YCông Việc Công Nghiệp§! có Chi Phí Duy Trì $r_minerals$ được thay bằng Chi Phí Duy Trì $r_food$."
+
+ catalytic_gestalt_additional_effects: "\n[artisan_drone.GetIcon] §Y[artisan_drone.GetNamePlural]§! có Chi Phí Duy Trì $r_minerals$ được thay bằng Chi Phí Duy Trì $r_food$."
+
+# Machine Intelligence
+ civic_machine_catalytic_processing:1 "Cải Tạo Hữu Cơ"
+ civic_machine_catalytic_processing_desc:0 "Trí Tuệ Máy Móc tái xử lý các chất hữu cơ dư thừa thành các tài nguyên tiên tiến phù hợp cho các công trình không gian."
+ civic_tooltip_machine_catalytic_processing_effects:0 "$t$- [fabricator.GetIcon] §Y$job_fabricator_plural$§! được thay thế bằng §Y$job_catalytic_drone_plural_with_icon$§!\n$t$- [fabricator.GetIcon] [artisan_drone.GetIcon] §YCông Việc Công Nghiệp§! có Chi Phí Duy Trì $r_minerals$ được thay bằng Chi Phí Duy Trì $r_food$."
+
+ civic_tooltip_not_catalytic: "KHÔNG có Thể Chế ['concept_catalytic_civics']"
+ concept_catalytic_civics: "Xử Lý Xúc Tác"
+ concept_catalytic_civics_desc: "Thể Chế $concept_catalytic_civics$ bao gồm \n- ['civic:civic_catalytic_processing']$NEW_LINE$- ['civic:civic_corporate_catalytic_processing']$NEW_LINE$- ['civic:civic_hive_catalytic_processing']$NEW_LINE$- ['civic:civic_machine_catalytic_processing']"
+
+# Regular & Corporate
+ job_catalytic_technician:0 "Kỹ Thuật Viên Xúc Tác"
+ job_catalytic_technician_plural:0 "Kỹ Thuật Viên Xúc Tác"
+ job_catalytic_technician_plural_with_icon: "£job_catalytic_technician£ $job_catalytic_technician_plural$"
+ job_catalytic_technician_desc:0 "Cần có các công nhân được đào tạo chuyên môn cao để biến vật chất hữu cơ thô thành các hợp kim bền vững cần thiết cho công trình xây dựng tiên tiến."
+ job_catalytic_technician_effect_desc:0 "£job_catalytic_technician£ $job_catalytic_technician_plural$ biến £food£ §Y$food$§! thành £alloys£ §Y$alloys$§!"
+ mod_job_catalytic_technician_add:0 "Công Việc $job_catalytic_technician$"
+ mod_job_catalytic_technician_per_pop:0 "§G+1§! Công Việc $job_catalytic_technician$ trên mỗi $VALUE$ Dân Số"
+ mod_job_catalytic_technician_per_pop_short:0 "\n§G+1§! £mod_job_catalytic_technician_add£ trên mỗi $VALUE$ £pop£"
+
+# Gestalt
+ catalytic_drone: "$job_catalytic_drone$"
+ job_catalytic_drone:0 "Drone Xúc Tác"
+ job_catalytic_drone_plural:0 "Drone Xúc Tác"
+ job_catalytic_drone_plural_with_icon: "£job_catalytic_drone£ $job_catalytic_drone_plural$"
+ job_catalytic_drone_desc:0 "Các hợp chất hữu cơ quý giá được chế biến thành hợp kim bền bỉ phục vụ phát triển hải quân và xây dựng công trình tiên tiến bởi các Drone Xúc Tác chuyên biệt hóa cao."
+ job_catalytic_drone_effect_desc:0 "£job_catalytic_drone£ §Y$job_catalytic_drone_plural$§! biến £food£ §Y$food$§! thành £alloys£ §Y$alloys$§!"
+ mod_job_catalytic_drone_add:0 "Công Việc $job_catalytic_drone$"
+ mod_job_catalytic_drone_per_pop:0 "§G+1§! Công Việc $job_catalytic_drone$ trên mỗi $VALUE$ Dân Số"
+ mod_job_catalytic_drone_per_pop_short:0 "\n§G+1§! £mod_job_catalytic_drone_add£ trên mỗi $VALUE$ £pop£"
+
+ ### Invasive Species trait
+ trait_invasive: "Chủng Loài Xâm Lấn"
+ TRAIT_INVASIVE_EFFECT: "§YChỉ có thể chọn các đặc tính tiêu cực hoặc đặc tính thực vật§!\n\n    - Khả Năng Thích Nghi: §G+5%§! cho mỗi đặc tính tiêu cực được chọn\n    - Tốc Độ Tăng Trưởng Dân Số: §G+5%§! cho mỗi đặc tính tiêu cực được chọn"
+ trait_invasive_desc: "Sinh sản nhanh chóng. Khả năng phát tán cực cao. Không có bất kỳ năng lực hữu ích nào."

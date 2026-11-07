@@ -1,0 +1,495 @@
+﻿l_english:
+
+ ### Ambient Object
+ NAME_Syzygy_Remains:0 "Tàn Tích Tàu Syzygy"
+
+ ### EVENT CHAINS
+ WORM_CHAIN_1_title:0 "Con Sâu Chờ Đợi: Tín Hiệu"
+ WORM_CHAIN_1_desc:0 "Một thứ gì đó đang vươn tới chúng ta, từ một nơi mà thời gian và không gian bị co rút lại thành một nút thắt.\n\nNó khao khát chúng ta."
+
+ WORM_CHAIN_2_title:0 "Con Sâu Chờ Đợi: Điềm Báo"
+ WORM_CHAIN_2_desc:0 "Thời gian khó lòng chảy theo cả hai chiều. Cũng khó có khả năng tồn tại một con cự xà vũ trụ quấn quanh cõi hoàn vũ, trừng trừng nhìn vào với đôi mắt to lớn hơn cả toàn thể giống loài chúng ta. Nhưng mặt khác, dạo gần đây đã có rất nhiều điều khó tin xảy ra."
+
+ ### STATIC MODIFIERS
+ happy_with_open_loop_temple:0 "Trung Tâm Du Khách Đền Thờ Vòng Lặp"
+ happy_with_open_loop_temple_desc:0 "Đội ngũ nhân viên niềm nở, mẫn cán dẫn dắt các đoàn du khách đi qua những ấn ký nguyên thủy rực sáng dưới ánh đèn pha và gắn những tấm biển chỉ dẫn hữu ích."
+
+ spiritual_happy_with_open_loop_temple:0 "Đường Hành Hương Đền Thờ Vòng Lặp"
+ spiritual_happy_with_open_loop_temple_desc:0 "Một lần nữa, những mái vòm đá bazan lại thầm thì tiếng bước chân rón rén và tiếng vọng của những lời nguyện cầu."
+
+ waiting_world_ruins:0 "Tàn Tích Tiêu Điều"
+ waiting_world_ruins_desc:1 "Gió thở dài trong phế tích. Chẳng một bóng người lui tới nơi đây."
+ d_mothballed_facilities:1 "£blocker£ Cơ Sở Bị Niêm Cất"
+ d_mothballed_facilities_desc:0 "Các khu vực và công trình được hoàn thiện theo tiêu chuẩn thuộc địa mới nhất, nhưng rõ ràng đã bị bỏ hoang và hư hại một phần suốt nhiều năm qua."
+
+ loop_debris_01_object:0 "Mảnh Vỡ Tín Hiệu Chân Trời"
+ loop_debris_02_object:0 "Khoang Xoắn Ốc"
+
+ worm_quarantined:0 "Cách Ly Kiểm Dịch"
+ worm_quarantined_desc:0 "TẤT CẢ NHỮNG THẾ GIỚI NÀY LÀ CỦA CÁC NGƯƠI - NGOẠI TRỪ THẾ GIỚI NÀY."
+
+ worm_manifestation:0 "Đăm Đăm Dõi Nhìn"
+ worm_manifestation_desc:0 "Cái gì xoay vòng rồi cũng sẽ quay trở lại."
+
+ ### TECHNOLOGY
+ tech_akx_worm_1:0 "Đệ Quy Entropy"
+ tech_akx_worm_1_desc:0 "Vũ trụ luôn có xu hướng tiến lên và suy tàn một cách không thể cưỡng lại. Xu hướng đó không thể đảo ngược... nhưng có thể bị lật đổ, với một cái giá phải trả."
+
+ tech_akx_worm_2:0 "Giáo Lý: Vòng Lặp Kỳ Dị"
+ tech_akx_worm_2_desc:0 "Một tập hợp các quy ước xã hội dựa trên trực giác nghịch lý, và trên tình yêu. Khi chúng ta thấu triệt Hệ Thống của Vòng Lặp, chúng ta nhận ra rằng mình có thể gây ảnh hưởng bằng cách tiếp nhận các chỉ thị, cũng như ban hành chúng."
+
+ tech_akx_worm_3:0 "Lý Thuyết Omega"
+ tech_akx_worm_3_desc:0 "Khi một nghịch lý thời gian bị vướng víu, một dạng ý thức sẽ nảy sinh, với những nhu cầu và khao khát riêng của nó. Đây chính là điều đã xảy ra với ý thức mà một số người gọi là Con Sâu Chờ Đợi. Nếu chúng ta có thể đồng điệu với ý thức đó, chúng ta có thể chạm tới một dạng thức bất tử."
+ TECH_UNLOCK_AKX_WORM_3_TITLE:0 "$tech_akx_worm_3$"
+ TECH_UNLOCK_AKX_WORM_3_DESC:0 "$tech_akx_worm_3_desc$"
+
+ tech_akx_worm_partial_custom:0 "§HThoáng Thấy Tương Lai:§! $tech_akx_worm_3$"
+ tech_akx_worm_partial_custom_desc:1 "§HThoáng Thấy Tương Lai§!\nMột thoáng linh cảm về những góc nhìn sắp tới và những mối ân tình trong quá khứ.\n\nMột nửa của chỉnh thể, tự thân nó vô dụng; nhưng khi hoàn chỉnh có thể giúp các nhà khoa học của chúng ta tình cờ phát hiện ra công nghệ §H$tech_akx_worm_3$§!."
+
+ ### BUILDINGS
+ building_akx_worm_1:0 "Trung Tâm Năng Lượng Nạp Xoắn Ốc"
+ building_akx_worm_1_desc:1 "Gia tăng đáng kể sản lượng năng lượng của hành tinh bằng cách sử dụng các kỹ thuật không hề có chỗ đứng trong vật lý thông thường. Dính líu tới những thị kiến như mơ về sự rơi vô tận."
+
+ building_akx_worm_2:0 "Viện Vòng Lặp"
+ building_akx_worm_2_desc:0 "Những lời răn của Vòng Lặp khuyến khích trực giác, sự quy phục và một cảm quan sâu sắc về nhân sinh quan."
+
+ building_akx_worm_3:0 "Thiết Bị Căn Chỉnh Omega"
+ building_akx_worm_3_desc:0 "Bề mặt của vật thể này bẻ cong không gian. Bên trong nó hoàn toàn vô hình trước mọi công nghệ cảm biến hay chẩn đoán hình ảnh hiện có. Nhưng tất cả chúng ta đều biết bên trong đó chứa đựng thứ gì."
+
+ requires_power_hub_absence:1 "§RSự hiện diện của bất kỳ $building_power_hub_1$ hay $building_power_hub_2$ nào trên hành tinh sẽ làm xáo trộn các dòng xoắn ốc tinh tế vốn là cốt lõi cho hoạt động chuẩn xác của Trung Tâm Năng Lượng Nạp Xoắn Ốc.§!"
+
+ building_worm_mine:0 "Mỏ Đục Đẽo Xoắn Ốc"
+ building_worm_mine_desc:0 "Các giếng mỏ hẹp uốn lượn quanh những mạch khoáng sản hình xoắn ốc."
+
+ building_worm_farm:0 "Nông Trại Cày Vòng Lặp"
+ building_worm_farm_desc:0 "Cây lương thực không hiểu sao lại ngả nghiêng đón lấy những cơn gió."
+
+ ### TRAITS
+ leader_trait_foredoomed_to_a_rendezvous:2 "Định Mệnh Hẹn Ước"
+ leader_trait_foredoomed_to_a_rendezvous_desc:2 "Đã từng trải nghiệm một tương lai đầy bất an."
+
+ ####################
+ ### SPECIAL PROJECTS
+
+ HORIZON_SIGNAL_PROJECT:0 "Phân Tích Tín Hiệu Chân Trời"
+ HORIZON_SIGNAL_PROJECT_DESC:0 "Điều động một tàu khoa học để giải mã tín hiệu khó tin phát ra từ lỗ đen trong hệ sao [Root.GetStarName]."
+
+ LOOP_TEMPLE_PROJECT:0 "Điều Tra Đền Thờ Vòng Lặp"
+ LOOP_TEMPLE_PROJECT_DESC:0 "Thiết lập một dự án nghiên cứu để tìm hiểu thêm về Đền Thờ Vòng Lặp, nguồn gốc và mục đích của nó."
+
+ MESSENGER_POD_PROJECT_1:0 "Nghiên Cứu Sứ Giả và Thông Điệp Của Nó"
+ MESSENGER_POD_PROJECT_1_DESC:0 "Có lẽ chúng ta có thể thiết lập mối liên hệ với một số sự kiện nhất định - thậm chí có thể tìm ra lời giải thích thỏa đáng."
+
+ MESSENGER_POD_PROJECT_2_UNLEASHED:0 "Nghiên Cứu Mối Liên Hệ Với Sứ Giả"
+ MESSENGER_POD_PROJECT_2_UNLEASHED_DESC:0 "Các phát hiện ban đầu cho thấy đó là một hình thái thông minh hơn, dẫu có lẽ mảnh khảnh yếu ớt hơn."
+
+ MESSENGER_POD_PROJECT_2_LEASHED:0 "Nghiên Cứu Mối Liên Hệ Với Sứ Giả"
+ MESSENGER_POD_PROJECT_2_LEASHED_DESC:0 "Các phát hiện ban đầu cho thấy đó là một hình thái rắn rỏi hơn nhiều và có lẽ hung hăng hơn."
+
+ COILS_GOD_PROJECT_DISRUPT:0 "Phá Rối Các Nghi Lễ Vòng Cuộn"
+ COILS_GOD_PROJECT_DISRUPT_DESC:0 "Can thiệp, phá hoại, tung tin giả. Chúng ta sẽ làm mọi điều có thể mà không vượt quá lằn ranh đỏ."
+
+ COILS_GOD_PROJECT_PREVENT:0 "Ngăn Chặn Các Nghi Lễ Vòng Cuộn"
+ COILS_GOD_PROJECT_PREVENT_DESC:0 "Các chiến dịch bí mật bao gồm ngụy tạo, bắt cóc, truyền bá tư tưởng, thậm chí cả phóng hỏa và trừ khử: chúng ta phải làm những gì cần làm."
+
+ COILS_GOD_PROJECT_PARTICIPATE:0 "Tham Gia Các Nghi Lễ Vòng Cuộn"
+ COILS_GOD_PROJECT_PARTICIPATE_DESC:0 "Cử các nhà dân tộc học xuống bề mặt để theo dõi sát sao các nghi lễ Vòng Cuộn. Đây là một sự kiện văn hóa phi thường! Chúng ta phải học hỏi nhiều nhất có thể."
+
+ WAITING_WORLD_DISAPPEARANCE:0 "Điều Tra Sự Mất Tích Của Dân Số"
+ WAITING_WORLD_DISAPPEARANCE_DESC:0 "Từng có quá nhiều người thực dân, và giờ đây chẳng còn một bóng ai. Chuyện gì đã xảy ra?"
+
+ WAITING_WORLD_HYPERAPPEARANCE:0 "Điều Tra... Bất Cứ Thứ Gì Đã Xảy Ra Với Cư Dân"
+ WAITING_WORLD_HYPERAPPEARANCE_DESC:0 "Từng có quá nhiều dân định cư, và giờ đây dường như lại là một quần thể hoàn toàn xa lạ. Chuyện gì đã xảy ra?"
+
+ WAITING_WORLD_PURGE:0 "Thanh Lọc Dân Cư Bị Nghi Ngờ Là Bản Sao Ngoại Tộc"
+ WAITING_WORLD_PURGE_DESC:0 "Cách duy nhất để đối phó với sự hoán đổi dân cư bí ẩn trên [Root.GetName] là ban hành chế độ bắn phá quỹ đạo để thanh lọc tất cả bọn chúng."
+
+ WORM_ENTRY_POINT:0 "Tạo Điểm Xâm Nhập"
+ WORM_ENTRY_POINT_DESC:0 "Lý Thuyết chỉ ra rằng những dị thường thời gian chúng ta gặp phải chính là nguồn cơn của thứ mà chúng ta gọi là Vòng Lặp, hay Con Sâu. Đó là một nút thắt nghịch lý chằng chịt đã đạt tới ý thức; một điểm hội tụ của nhận thức và khao khát bên ngoài dòng thời gian. Là nguyên nhân, hay là kết quả của nó - thật khó để phân định với một thứ như thế này. Nhưng nó bị thu hút bởi những điểm kết thúc và những điểm khởi đầu. Chúng ta có thể sử dụng Thiết Bị Căn Chỉnh Omega để đưa nó bước qua chiều không gian vào hệ sao quê hương của chúng ta. Nếu chúng ta làm vậy, chắc chắn điều gì đó sẽ xảy ra. Điều này mang nhiều ý nghĩa, nhưng trên hết, đây là khoa học."
+
+ HORIZON_DEBRIS_PROJECT:0 "Điều Tra Mảnh Vỡ Tại Nguồn Gốc Tín Hiệu Chân Trời"
+ HORIZON_DEBRIS_PROJECT_DESC:0 "Khi động cơ phát nổ, nó đã làm gián đoạn những biến đổi trong không gian xung quanh con tàu. Các mảnh vỡ biểu hiện những đặc tính vật lý và thời gian bất thường."
+
+ SYZYGY_DEBRIS_PROJECT:0 "Điều Tra Tàn Tích Của Tàu \"Syzygy\""
+ SYZYGY_DEBRIS_PROJECT_DESC:0 "Tàu \"Syzygy\" đã trải qua thời gian ở một nơi chốn khác. Một tương lai khả dĩ? Một vũ trụ song song? Chúng ta có thể học hỏi thêm."
+
+
+ ################################################
+ ##THE HORIZON SIGNAL: intro events to Worm chain
+
+ akx.9000.name:0 "Tín Hiệu Chân Trời"
+ akx.9000.desc:0 "Một sĩ quan liên lạc cảnh giác đã nhận diện được thứ dường như là một tín hiệu mờ nhạt, gần như bị vùi lấp trong các luồng tia gamma phát ra từ lỗ đen nơi đây - mờ nhạt, nhưng không thể nhầm lẫn là nhân tạo. Điều này mở ra những khả năng hấp dẫn đầy lôi cuốn cho các nhà khoa học của chúng ta."
+ #create the HORIZON_SIGNAL_PROJECT project
+
+ akx.9001.name:0 "Tín Hiệu Chân Trời: §HTRỌNG LỰC LÀ KHAO KHÁT§!"
+ akx.9001.desc:0 "Sĩ quan Khoa học [Root.GetLeaderName] báo cáo rằng tín hiệu này dễ giải mã một cách bất ngờ... nhưng đội ngũ của họ đã phải dành lượng lớn thời gian để xác nhận rằng đây không phải là một trò lừa bịp. Đó là một thông điệp lặp đi lặp lại, mạch lạc một nửa bằng ngôn ngữ của [Root.Owner.GetAdj] - tựa như một bài thơ. Nó nhắc đi nhắc lại các cụm từ §HTRỌNG LỰC LÀ KHAO KHÁT§! và §HTHỜI GIAN LÀ TẦM NHÌN§!. Nó mã hóa các tọa độ gần lỗ đen. Và nó kết thúc bằng một dòng đề tặng §Gđích danh§! Sĩ quan Khoa học - người sau đó đã bình thản xác nhận thêm rằng tín hiệu này đã bức xạ vào không gian liên sao từ trước cả khi họ được sinh ra. Trên thực tế, tín hiệu này thậm chí có thể xuất hiện từ trước cả nền văn minh của chúng ta."
+ akx.9001.a:0 "Thật mê hoặc! Hãy cử phi thuyền tới các tọa độ đó."
+ akx.a.tooltip:0 "Điều này sẽ khởi động chuỗi sự kiện Tín Hiệu Chân Trời."
+ akx.9001.b:0 "Đây là một trò bịp bợm, hoặc một cái bẫy. Hãy ghi vào nhật ký rồi bỏ qua."
+ akx.9001.b.tooltip:0 "Các kỹ thuật chúng ta phát triển để phân tích Tín hiệu sẽ có một số ứng dụng nhất định trong nghiên cứu Vật lý."
+
+ akx.9005.name:0 "Tín Hiệu Chân Trời: §HCON SÂU§!"
+ akx.9005.desc:0 "Khi tàu [Root.GetName] tiếp cận các tọa độ do tín hiệu chỉ định, nó bắt đầu báo cáo về các biến dạng không gian và hiệu ứng thấu kính kỳ lạ - một luồng dữ liệu quý giá dồi dào. Rồi đường truyền trở nên méo mó. Những gì xảy ra tiếp theo đã được phân tích thấu đáo.\n\nSự phấn khích trong giọng nói của Sĩ quan Khoa học [horizonsignal_firstleader.GetName] căng cứng thành nỗi khiếp sợ khi thân tàu phải vật lộn dưới những điều kiện ngày càng dị thường. Con tàu phát đi một tín hiệu cầu cứu khẩn cấp. [horizonsignal_firstleader.GetName] thét lên \"con sâu!\" - hay đúng hơn là, §HCon Sâu§!! Rồi mọi đường truyền chấm dứt hoàn toàn. Không hề có bất kỳ dấu vết nào của tàu [Root.GetName] được tìm thấy sau đó - không có thêm tín hiệu, không có mảnh vỡ, và khoảng không gian tại tọa độ đó bình yên vô sự, hoàn toàn không còn chút biến dạng nào. Thế nhưng dữ liệu họ gửi về đã thúc đẩy các nghiên cứu Vật lý của chúng ta một cách ngoạn mục. Có lẽ điều đó xứng đáng với sinh mạng của họ."
+ akx.9005.a.spiritualist:0 "Bóng tối; ánh sáng; bóng tối."
+ akx.9005.a.materialist:0 "Chúng ta học hỏi, và chúng ta bước tiếp."
+ akx.9005.a.neutral:0 "Họ sẽ không bao giờ bị lãng quên."
+
+ akx.9006.name:0 "Tín Hiệu Chân Trời: - kết thúc thông điệp -"
+ akx.9006.desc:1 "[horizonsignal_firstleader.GetName] chấp hành với cảm xúc đan xen giữa sự miễn cưỡng và nhẹ nhõm. Báo cáo nhận thức của họ sau đó chỉ ra rằng họ liên tục trải qua những thị kiến lặp đi lặp lại - về những mê cung không tưởng, cơn chóng mặt thèm khát của không gian liên sao, và tên của họ được cất lên trong bóng tối mịt mùng. Trong vòng một năm mẫu quốc, thông điệp đã hoàn toàn ngừng hẳn."
+ akx.9006.a:0 "Chúng ta đã thoát khỏi một kiếp nạn."
+ akx.9006.b:0 "Chúng ta đã đánh mất một điều gì đó."
+
+ akx.9010.name:0 "Tín Hiệu Chân Trời: §HTÁI HIỆN§!"
+ akx.9010.desc:0 "Lỗ đen trong hệ sao [horizonsignal_system.GetName] lại hoạt động trở lại. Một lần nữa, một tín hiệu tuần hoàn lại lập lòe trong bóng tối nơi rìa không gian thông thường. Nhưng lần này, có một thông điệp âm thanh được mã hóa bên trong tín hiệu. Nghe rất giống giọng nói của [horizonsignal_firstleader.GetName]. \"Cái đã từng sẽ là,\" [horizonsignal_firstleader.GetName] ngâm nga, \"cái sẽ là đã từng.\" Sau đó là cùng tọa độ như tín hiệu đầu tiên, nơi [horizonsignal_firstleader.GetName] mất tích - nơi mà giới truyền thông đã đặt tên là \"Điểm Lối Ra\". Rồi họ cất lên một cái tên: §G[horizonsignal_secondleader.GetName]§!."
+ akx.9010.a.collective:0 "Cử [horizonsignal_secondleader.GetName] tới Điểm Lối Ra."
+ akx.9010.a.tooltip:0 "§H[horizonsignal_secondleader.GetName]§! sẽ đến Điểm Lối Ra sau §Y30 ngày§!."
+ akx.9010.a.collective.tooltip:0 "Nếu họ không trở về, chúng ta sẽ đời đời tưởng nhớ họ."
+ akx.9010.a.notcollective:0 "[horizonsignal_secondleader.GetName] tình nguyện lên đường. Hãy chấp thuận."
+ akx.9010.b.collective:0 "Cử họ đi, nhưng gài kíp nổ cho động cơ phi thuyền của họ."
+ akx.9010.b.notcollective:0 "Cho phép họ đi, nhưng gài kíp nổ cho động cơ phi thuyền của họ."
+ akx.9010.c:0 "Lần này thì không. Hãy phớt lờ nó."
+
+ akx.9011.name:0 "Tín Hiệu Chân Trời: Tôi Đã Vượt Qua"
+ akx.9011.desc:0 "Lần này, con tàu vận hành hoàn toàn tự động. [horizonsignal_secondleader.GetName] là thuyền viên duy nhất trên khoang. Khi tiếp cận Điểm Lối Ra, luồng dữ liệu đo đạc từ xa tràn ngập những thông số đáng kinh ngạc. Một lần nữa, không gian uốn cong, trọng lực bung mở. [horizonsignal_secondleader.GetName] đọc to các dữ liệu tiêu đề, lặp lại các chỉ số đo từ xa. Họ bình tĩnh một cách đáng khâm phục: chúng ta đã phái đi một chuyên gia thực thụ. Phải mất một lúc sau mọi người mới nhận ra có điều gì đó kỳ lạ về mặt thời gian.\n\n[horizonsignal_secondleader.GetName] không còn lặp lại dữ liệu nữa: họ đang tiên đoán nó. Dữ liệu đo từ xa không khớp, nhưng chỉ trong vài giây, cho đến khi nó bắt kịp lời họ nói. Nhóm giám sát vừa báo cáo rằng khoảng cách thời gian tiên đoán đang tăng lên thì [horizonsignal_secondleader.GetName] thốt lên đầy kinh ngạc: \"Tôi đã vượt qua.\"\n\n\"Nơi này tối tăm,\" họ nói thêm. \"Điều đó không thành vấn đề. Chúng ta có thể sống trong bóng tối. Tôi chưa bao giờ nghĩ đến điều đó. Nhưng tất nhiên rồi, chúng ta có thể sống ở đây mãi mãi - nếu Con Sâu chịu chờ đợi - \"\n\nNgay khoảnh khắc đó, tín hiệu tắt ngấm, và con tàu biến mất hoàn toàn khỏi các cảm biến của đội ngũ chúng ta."
+ akx.9011.a:0 "Thật kinh hoàng."
+ akx.9011.b:0 "Thật đáng tiếc."
+ akx.9011.c:0 "Thật mê hoặc."
+
+ akx.9012.name:0 "Tín Hiệu Chân Trời: Một Sự Can Thiệp"
+ akx.9012.desc:0 "Lần này, [horizonsignal_secondleader.GetName] là thuyền viên duy nhất trên khoang. Con tàu vận hành hoàn toàn tự động... và các hệ thống của nó đã được lập trình để kích nổ động cơ ngay khi các điều kiện trùng khớp với những gì diễn ra ngay trước sự biến mất của con tàu trước. Khi tiếp cận điểm lối ra, luồng dữ liệu đo đạc từ xa tràn ngập những thông số mê hoặc. Một lần nữa, không gian uốn cong, trọng lực bung mở. [horizonsignal_secondleader.GetName] đọc to dữ liệu tiêu đề, khớp với số đo từ xa. Họ bình tĩnh một cách đáng khen ngợi: chúng ta đã phái đi một chuyên gia. Phải mất một lúc mọi người mới nhận ra sự bất thường về thời gian.\n\n[horizonsignal_secondleader.GetName] không còn lặp lại dữ liệu nữa: Họ đang tiên đoán trước nó. Số đo từ xa ban đầu không khớp, nhưng chỉ vài giây sau đã bắt kịp. Đội ngũ giám sát của chúng ta vừa kịp báo cáo rằng khoảng cách thời gian tiên đoán đang kéo dài thì đột nhiên xảy ra một đợt tăng vọt năng lượng đột ngột.\n\nĐộng cơ đã phát nổ: một luồng sáng chói lòa ngắn ngủi của cơn thịnh nộ tinh tú, nhanh chóng chìm vào bóng tối của hệ sao [horizonsignal_system.GetName]. Bất kể thứ gì chúng ta chạm trán ở đó, có lẽ nó sẽ phải hối hận vì sự can thiệp của mình. Chúng ta sẽ chẳng bao giờ biết được. Tín Hiệu Chân Trời không bao giờ xuất hiện trở lại. Nhưng đội ngũ của chúng ta có thể tìm thấy điều gì đó thú vị trong đống tro tàn của con tàu."
+ ##create HORIZON_DEBRIS_PROJECT
+ akx.9012.a:0 "Và dẫu vậy, đây có thể chưa phải là hồi kết."
+
+ akx.9013.name:0 "Tín Hiệu Chân Trời: - kết thúc thông điệp -"
+ akx.9013.desc:1 "[horizonsignal_secondleader.GetName] tuân lệnh với sự nhẹ nhõm lộ rõ. Báo cáo nhận thức của họ sau đó chỉ ra rằng họ phải trải qua những thị kiến - về những mê cung không tưởng, cơn chóng mặt thèm khát của không gian liên sao, và tên của họ được gọi trong bóng đêm. Trong vòng một năm mẫu quốc, thông điệp đã hoàn toàn chấm dứt."
+ akx.9013.a:0 "Một cơ hội bị bỏ lỡ."
+ akx.9013.b:0 "Thoát nạn trong gang tấc."
+
+ akx.9020.name:0 "Tín Hiệu Chân Trời: §HTAM THỂ TỨ THỂ TAM THỂ§!"
+ akx.9020.desc:0 "Một lần nữa, Tín Hiệu Chân Trời trong hệ sao [horizonsignal_system.GetName] lại hoạt động. Nó đã nâng tầm cuộc chơi. Một lần nữa, đường truyền lại bao gồm tọa độ của Điểm Lối Ra. Nó được ký bằng các khóa liên lạc riêng tư của [horizonsignal_firstleader.GetName] và [horizonsignal_secondleader.GetName]. Nhưng lần này, đó là một chương trình tạo văn bản được viết bằng một ngôn ngữ lập trình cổ xưa nhằm tạo ra những thứ dường như là thơ tình - những bài thơ tình hướng thẳng tới [horizonsignal_thirdleader.GetName].\n\nThành thực mà nói, chúng không phải là những bài thơ tình hay cho lắm. Nhưng các nhà khoa học của chúng ta đều đồng ý rằng việc tạo ra thơ tình bằng thuật toán là cực kỳ khó khăn, và việc một lỗ đen phát đi những bài thơ tình lại càng là điều kỳ dị chưa từng thấy."
+ akx.9020.a:0 "Chà, nó đã khẩn khoản thỉnh cầu. Hãy cử [horizonsignal_thirdleader.GetName] đi."
+ akx.9020.a.tooltip:0 "§H[horizonsignal_thirdleader.GetName]§! sẽ đến Điểm Lối Ra sau §Y30 ngày§!."
+ akx.9020.b:0 "Cử [horizonsignal_thirdleader.GetName] đi, với động cơ được gài kíp nổ sẵn sàng."
+ akx.9020.c:0 "Điều này thật nham hiểm, lố bịch và đầy ma mị. Hãy bỏ qua nó."
+
+ akx.9021.name:0 "Tín Hiệu Chân Trời: Nơi Hồi Kết Bắt Đầu"
+ akx.9021.desc:0 "\"Đây sẽ là dấu chấm hết của tôi,\" [horizonsignal_thirdleader.GetName] nói trong buổi giao ban trước khi cất cánh. \"Tôi biết mình sẽ không quay trở lại. Nhưng tôi nghĩ mình đã luôn biết rằng điều này sẽ xảy ra. Bất kể thứ gì đang ở trong lỗ đen đó đã chờ đợi chúng ta từ rất, rất lâu rồi - tôi nghĩ nó đã chờ đợi tôi, từ trước cả khi tôi được sinh ra.\"\n\nMột lần nữa, con tàu một người lái tiếp cận Điểm Lối Ra. Một lần nữa, không gian sôi sục như một cơn sốt dữ dội. Lại một lần nữa, các dãy cảm biến của chúng ta đón nhận những dữ liệu kỳ vĩ. Lần này, [horizonsignal_thirdleader.GetName] hoàn toàn im lặng. Dữ liệu đo từ xa trở nên ngắt quãng; rồi sau đó, nó cũng im bặt. Con tàu đã tới Điểm Lối Ra. Các điều kiện xung quanh nó đang trở lại bình thường. Không có gì xảy ra.\n\nKhông có gì ư? Nhóm giám sát thì thầm đầy giận dữ. Con tàu đã khác... thực tế, đó là một con tàu hoàn toàn khác. Đó là phi thuyền của [horizonsignal_firstleader.GetName], đã mất tích từ nhiều năm trước, hiện đang trôi dạt ra xa khỏi Điểm Lối Ra. Một đội cứu hộ nhận thấy con tàu nguyên vẹn và trống rỗng - không một dấu vết của thuyền viên, và không có dấu hiệu bạo lực. Nhưng có một nhật ký mang tên [horizonsignal_firstleader.GetName], với tiêu đề §HCÁI ĐÃ TỪNG SẼ LÀ§!. Các nhà khoa học của chúng ta bồn chồn xem xét nó. \"Không thể nào,\" một người nói. \"Tôi cũng mong là vậy,\" người khác đáp lời.\n\nCon tàu được đổi tên thành \"Kẻ Bị Bỏ Rơi\" (Foundling) và được đưa trở lại phục vụ. Tín hiệu, đã chết hay đang say ngủ, không bao giờ cất lời thêm một lần nào nữa."
+ akx.9021.a:0 "Và dẫu vậy, đây có thể chưa phải là hồi kết."
+
+ akx.9022.name:0 "Tín Hiệu Chân Trời: Một Sự Can Thiệp"
+ akx.9022.desc:0 "\"Đây sẽ là hồi kết của tôi,\" họ nói trong buổi giao ban trước khi khởi hành. \"Tôi biết mình sẽ không trở về. Nhưng tôi nghĩ mình luôn biết điều này sẽ xảy ra. Bất kể thứ gì trong lỗ đen đó đã chờ đợi chúng ta suốt bao năm tháng - tôi nghĩ nó đã chờ đợi tôi, từ trước cả khi tôi chào đời.\"\n\nMột lần nữa, con tàu đơn độc tiếp cận Điểm Lối Ra. Một lần nữa, không gian sôi sục như cơn sốt. Một lần nữa, dàn cảm biến thu nạp những dữ liệu mê hoặc. Lần này, [horizonsignal_thirdleader.GetName] im lặng. Dữ liệu đo đạc trở nên chập chờn...\n\nVà rồi động cơ phát nổ: một luồng sáng chói lòa ngắn ngủi của ngọn lửa tinh tú, nhanh chóng tan biến vào bóng tối của hệ sao [horizonsignal_system.GetName]. Bất kể thứ gì chúng ta chạm trán ở đó, có lẽ nó sẽ phải hối tiếc vì sự can thiệp của mình. Chúng ta sẽ chẳng bao giờ biết được. Tín Hiệu Chân Trời không bao giờ đến nữa. Nhưng đội ngũ của chúng ta có thể tìm thấy điều gì đó thú vị trong đống tro tàn của con tàu."
+ ##create HORIZON_DEBRIS_PROJECT
+ akx.9022.a:0 "Và dẫu vậy, đây có thể chưa phải là hồi kết."
+
+
+ akx.9023.name:0 "Tín Hiệu Chân Trời: - kết thúc thông điệp -"
+ akx.9023.desc:1 "[horizonsignal_thirdleader.GetName] chấp hành với sự nhẹ nhõm lộ rõ. Báo cáo nhận thức sau đó chỉ ra rằng họ liên tục trải qua những ảo ảnh - về những mê cung bất khả thi, cơn chóng mặt đói khát của không gian liên sao, và tên họ được gọi trong bóng đêm sâu thẳm. Trong vòng một năm, thông điệp đã ngừng hẳn."
+
+ akx.9090.name:0 "Tín Hiệu Chân Trời: Nhân và Quả"
+ akx.9090.desc:0 "Các quan sát viên của chúng ta báo cáo rằng lỗ đen hay nói trong hệ sao [horizonsignal_system.GetName] đã hoạt động ngắn ngủi vào khoảng thời gian [horizonsignal_secondleader.GetName] qua đời. Một đợt bùng phát tín hiệu nhanh chóng và không thể hiểu nổi. Tựa như một cơn thịnh nộ điên cuồng, một trong những quan sát viên giàu trí tưởng tượng hơn nói thêm."
+ akx.9090.a:0 "Chuyện này vẫn chưa kết thúc đâu."
+
+ akx.9091.name:0 "Tín Hiệu Chân Trời: Tưởng Niệm"
+ akx.9091.desc:0 "Các quan sát viên báo cáo rằng lỗ đen hay nói trong hệ sao [horizonsignal_system.GetName] đã hoạt động trong chốc lát vào khoảng thời gian [horizonsignal_thirdleader.GetName] tạ thế. Nó đã truyền lại chương trình thơ tình ban đầu, ba lần liên tiếp. Tựa như, một quan sát viên có tâm hồn lãng mạn nói thêm, một kẻ đưa tang say khướt đang hát trong một buổi canh thức."
+ akx.9091.a:0 "Chuyện này vẫn chưa dừng lại ở đây."
+
+ akx.9095.name:0 "Tín Hiệu Chân Trời: Bài Học Trong Tro Tàn"
+ akx.9095.desc:0 "Chúng ta đã tái tạo lại các điều kiện gần giống với môi trường xung quanh lỗ đen. Chúng ta phát hiện ra rằng các mảnh vỡ thu hồi được tuần hoàn giữa các trạng thái theo những cách thức lẽ ra là bất khả thi - tựa như thời gian đang dao động qua lại. Chúng ta có thể khai thác năng lượng từ hiện tượng này - dẫu cho có những biến đổi đáng lo ngại đối với không-thời gian cục bộ."
+
+ ########################################
+ ##THE LOOP TEMPLE: continuation of intro
+
+ akx.9100.name:0 "Đền Thờ Vòng Lặp: Dấu Vết Trong Đá"
+ akx.9100.desc:1 "Các nhà khảo cổ học đã tìm thấy một ngôi đền bị lãng quên tại vùng cao nguyên hẻo lánh trên [Root.GetName] - bị chôn vùi suốt nhiều thế kỷ, nhưng gần đây đã lộ ra sau một trận động đất. Các kỹ thuật định tuổi cho thấy đây là một di tích tiền công nghiệp, được đục đẽo bằng [Owner.Species.GetHandName] từ đá núi lửa. Tuy nhiên, biểu tượng lặp đi lặp lại trên các bức tường và bàn thờ tỏa tròn - một con rắn cuộn theo dải Möbius đang tự cắn đuôi mình - không hề có tiền lệ rõ ràng nào trong lịch sử sơ khai của chúng ta, và các văn khắc sử dụng một bảng chữ cái chưa từng được biết đến. Một nhà khảo cổ học đầy hào hứng cho rằng đây là di tích do một giống loài tiền bối vô danh để lại.\n\nTrong một sự trùng hợp ngẫu nhiên đầy khó hiểu, trận động đất dường như xảy ra đúng vào thời điểm bức thông điệp cuối cùng được truyền đi từ lỗ đen trong hệ sao [horizonsignal_system.GetName]."
+ #create LOOP_TEMPLE_PROJECT
+ akx.9100.spiritual.a:0 "Một con đường đã mở ra cho chúng ta."
+ akx.9100.neutral.a:0 "Điều này rất đáng để nghiên cứu."
+ akx.9100.b:0 "Thật đáng ngại."
+
+ akx.9101.name:0 "Đền Thờ Vòng Lặp: Thời Gian và Đá"
+ akx.9101.desc:0 "Các nhà khoa học của chúng ta đã thu thập được nhiều điều về ngôi đền ngầm dưới lòng đất, nhưng một số câu hỏi vẫn còn bỏ ngỏ. Một khe hở trên mái vòm - cùng với bàn thờ tỏa tròn - gợi ý rằng nơi đây từng là một bộ lịch mặt trời, nhưng nó đã bị tàn phá nặng nề bởi trận động đất khiến chúng ta không thể dám chắc. Nếu những người xây dựng coi bất kỳ ngày cụ thể nào là quan trọng, chúng ta sẽ chẳng bao giờ biết được đó là ngày nào. Chúng ta đã may mắn hơn với \"bảng chữ cái vô danh\". Đó là một biến thể suy thoái của một loại chữ viết tôn giáo thiêng liêng - hoàn toàn không phải là ngôn ngữ ngoại lai - và chúng ta đã giải mã thành công.\n\nNgôi đền được cung hiến cho \"Con Sâu Chờ Đợi\" hay §HCon Sâu Chờ Đợi§!. Hầu hết các văn khắc là những lời thỉnh cầu đầy chất thơ, hùng tráng cầu xin sự xuất hiện của nó hoặc - nếu đọc theo chiều ngược lại - sự ra đi của nó. Ngoài ra còn có một tập hợp các văn khắc mô tả \"sự vận hành của vũ trụ\", mà nhà khảo cổ học đầy nhiệt huyết của chúng ta thề rằng có chứa các tham chiếu đến các phương trình trường tiên tiến - điều chẳng có gì mới với chúng ta, nhưng lại cực kỳ ấn tượng đối với một ngôi đền cổ xưa tầm này. Tuy nhiên, chúng ta vẫn chưa tìm thấy một nhà vật lý nào sẵn sàng đứng ra xác nhận công khai rằng các tham chiếu đó có ý nghĩa thực sự.\n\nNgôi đền không chứa đựng bí mật vũ trụ hay vũ khí ngoại lai nào, theo như chúng ta có thể nhận định, nhưng không gian tăm tối của nó mang một vẻ đẹp khác biệt đầy đe dọa - và chất thơ trong những lời cầu khẩn Con Sâu Chờ Đợi đã trở thành một trào lưu thịnh hành. Chúng được phổ nhạc thành các bài hát đại chúng; chúng được xuất bản thành các tuyển tập."
+ akx.9101.a.notspiritual:0 "Mở cửa Đền Thờ Vòng Lặp cho công chúng."
+ akx.9101.a.notspiritual.tooltip:0 "Một thứ gì đó từ quá khứ của chúng ta. Cái đã từng, sẽ là."
+ akx.9101.a.spiritual:0 "Biến Đền Thờ Vòng Lặp thành một thánh địa hành hương."
+ akx.9101.a.spiritual.tooltip:1 "Một trí tuệ từ đức tin của tiền nhân chúng ta. Cái đã từng, sẽ là. Gia tăng hạnh phúc hành tinh, cùng những hiệu ứng khác."
+ akx.9101.b:0 "Chỉ dành riêng Đền Thờ cho nghiên cứu học thuật."
+ akx.9101.b.tooltip:0 "Hãy giới hạn quyền tiếp cận cho những ai thực sự cần thiết."
+ akx.9101.c:1 "Có điều gì đó không ổn ở đây. Hãy niêm phong Ngôi Đền."
+ #small bump to Influence, worm_events_available *not* set)
+ akx.9101.c.tooltip:0 "Cẩn tắc vô áy náy."
+
+ ##all the remaining story events below should only be triggered if the worm_events_available flag has been set and Omega Theory has not yet been researched.
+
+ ###################################
+ ##THE MESSENGER: Worm-related event
+
+ akx.9200.name:0 "Sứ Giả: §HCÁI ĐÃ TỪNG, SẼ LÀ§!"
+ akx.9200.desc:1 "Tàu [Root.GetName] đã định vị được một vật thể nhân tạo nhỏ bé với nguồn năng lượng tối thiểu, chỉ phát đi một tín hiệu tuần hoàn trong phạm vi cục bộ. Những thứ như thế này thường hóa ra là khoang thoát hiểm, và đây trông giống hệt như một trong số đó. Nó đã trôi dạt ở đây suốt một thời gian rất dài.\n\nKhi phi hành đoàn cạy mở nó ra - tuân thủ nghiêm ngặt các quy trình cách ly kiểm dịch - họ tìm thấy hài cốt cổ xưa, được bảo quản bởi môi trường vô trùng của khoang cứu sinh. Cho đến lúc này, không có gì bất thường. Tuy nhiên, thuyền trưởng của tàu [Root.GetName] cho biết họ không ngờ lại tìm thấy những từ ngữ [Root.Owner.GetAdj] §HCÁI ĐÃ TỪNG, SẼ LÀ; CÁI SẼ LÀ, ĐÃ TỪNG§! được quệt lên vách bằng chính chất dịch cơ thể của người cư ngụ trong khoang - người mà phi hành đoàn giờ đây gọi đùa một cách cay đắng là \"Sứ Giả\". Họ nói thêm rằng có một số điểm tương đồng đầy bất ngờ giữa giống loài của Sứ Giả và chính giống loài của chúng ta."
+ #creates the MESSENGER_POD_PROJECT_1 special project
+
+ akx.9201.name:0 "Sứ Giả: Những Khả Năng"
+ akx.9201.desc:1 "Chúng ta đã xác định được rằng khoang thoát hiểm là một sản phẩm nhái thương mại điển hình trong giai đoạn trước của nền văn minh thiên hà - không có công nghệ mới hay phát kiến nào khác. Tuy nhiên, hài cốt của Sứ Giả lại là một chuyện khác. Đó chắc chắn là tiền thân hoặc một biến thể của chủng tộc [Root.Owner.GetAdj]. Chúng ta có thể có bà con thân tộc ngoài kia - hoặc chúng ta từng là đối tượng thử nghiệm của một chủng tộc tiền bối. [researchingscientist.GetName] đang xin phép tiến hành nghiên cứu sâu rộng hơn."
+ akx.9201.militarist.a:0 "Cho phép tiếp tục."
+ akx.9201.militarist.a.tooltip:0 "Tăng tiến độ nghiên cứu Bản Đồ Bộ Gen"
+ #create MESSENGER_POD_PROJECT_2_UNLEASHED project
+ akx.9201.notmilitarist.b:0 "Cấp kinh phí nghiên cứu."
+ #create MESSENGER_POD_PROJECT_2_LEASHED project
+ akx.9201.notmilitarist.b.tooltip:0 "Tăng tiến độ nghiên cứu Bản Đồ Bộ Gen thêm [moderate amount]"
+ akx.9201.c:0 "Không. Và [researchingscientist.GetName] phải giao nộp toàn bộ nghiên cứu hiện có."
+ akx.9201.c.tooltip:0 "Có những điều tốt hơn hết là không nên biết."
+
+ akx.9210.name:0 "Sứ Giả: Bung Xõa"
+ akx.9210.desc:1 "[researchingscientist.GetName] đã tái cấu trúc thành công giống loài Sứ Giả. Nó yếu ớt hơn chúng ta nhưng lại có khả năng nhận thức được cải thiện vượt bậc. Cần phải làm rõ thêm xem liệu chúng ta là loài gốc còn Sứ Giả là phiên bản chỉnh sửa, hay Sứ Giả mới là tiền thân của chúng ta. Thật có chút ngượng ngùng khi hình dung rằng chúng ta có thể là hậu duệ của một giống loài nhu nhược ủy mị như vậy - nhưng [researchingscientist.GetName] lại kiên định với quan điểm đó. Thật vậy, họ coi việc suy giảm năng lực nhận thức là một \"bi kịch\".\n\nBi kịch đến mức họ đã tự mình trải qua các liệu pháp thử nghiệm để biến đổi sinh lý của chính mình thành giống loài Sứ Giả. Họ khăng khăng rằng điều này sẽ giúp họ trang bị tốt hơn nhiều để tiếp tục dự án."
+ akx.9210.a:0 "Một hình thức phản quốc đầy sáng tạo! Xin hãy xử tử hắn ngay."
+ akx.9210.b:0 "Một hình thức phản quốc đầy sáng tạo! Xin hãy xử tử hắn. Tiêu hủy toàn bộ ghi chép của hắn."
+ akx.9210.c:0 "Ý tưởng tuyệt vời! Vậy thì hãy tiếp tục tiến hành đi."
+
+ akx.9211.name:0 "Sứ Giả: Ánh Sáng Mới"
+ akx.9211.desc:1 "[researchingscientist.GetName] giờ đây đã giải mã xong nguồn gốc của loài Sứ Giả. Trùng hợp thay, họ cũng đã tái tạo lại một loại virus có khả năng lây nhiễm cực cao. Nó đang rình rập khắp các thế giới của chúng ta. Dưới tác động của nó, giống loài chính của chúng ta rơi vào trạng thái hôn mê dạng kén và trỗi dậy một ngày sau đó với hình thái của loài Sứ Giả. Những sự biến đổi này, thật dễ hiểu, đang gây ra một số sự phấn khích tột độ."
+ akx.9211.a:0 "Chuyện này đã đi quá xa. Giờ chúng ta phải chấm dứt nó. Hãy kiểm soát đợt bùng phát."
+ akx.9211.a.tooltip:1 "Tất cả các Pop trên hành tinh thủ đô sẽ bị biến đổi, nhưng nó sẽ kết thúc tại đó.\nNgoại hình, đạo đức và đặc điểm của họ có khả năng trải qua những thay đổi đáng kể."
+ akx.9211.b:0 "Kiểm soát đợt bùng phát, và thanh lọc tất cả công dân bị ảnh hưởng."
+ akx.9211.b.tooltip:0 "Điều này sẽ §RThanh Lọc tất cả Pop bị ảnh hưởng§!: gần như toàn bộ dân số của [Root.Capital.GetName]."
+ akx.9211.c:1 "Cái đã từng, sẽ là. Chúng ta sẽ thay đổi. Hãy mang cho ta một mẫu virus."
+ akx.9211.c.tooltip:1 "Điều này sẽ biến đổi toàn bộ giống loài của chúng ta.\nNgoại hình, đạo đức và đặc điểm của chúng ta có khả năng trải qua những biến đổi sâu sắc."
+
+ akx.9220.name:0 "Sứ Giả: Xiềng Xích"
+ akx.9220.desc:2 "[researchingscientist9220.GetName] đã tái cấu trúc Sứ Giả. Nó, ừm, khá ấn tượng - ấn tượng đến mức đáng lo ngại. Nó rắn rỏi và hung hăng hơn đáng kể so với phiên bản hiện tại của chúng ta. Cần phải làm rõ xem liệu chúng ta là loài gốc, Sứ Giả là bản chỉnh sửa, hay Sứ Giả mới là tiền thân của chúng ta. [researchingscientist9220.GetName] tin chắc rằng chúng ta từng là một giống loài chiến binh kiêu hùng hơn nhiều và một chủng tộc tiền bối xen vào đã kìm hãm tiềm năng của chúng ta. Thật vậy, họ coi việc mất đi khả năng chiến trận là một \"bi kịch\".\n\nMột bi kịch đến nỗi họ đã trải qua các liệu pháp thử nghiệm để biến đổi sinh lý của mình thành giống loài Sứ Giả. Họ quả quyết rằng điều này sẽ giúp họ trang bị tốt hơn nhiều để tiếp tục dự án."
+ akx.9220.a:0 "Một hình thức phản quốc đầy sáng tạo! Hãy xử tử hắn ngay lập tức."
+ akx.9220.b:0 "Một hình thức phản quốc đầy sáng tạo! Hãy xử tử hắn. Tiêu hủy toàn bộ tài liệu của hắn."
+ akx.9220.c:0 "Ý tưởng tuyệt vời! Cứ tiếp tục triển khai đi."
+ akx.9220.c.tooltip:0 "§RĐiều này có thể dẫn tới những hậu quả khó lường và đáng kể§!"
+
+ akx.9221.name:0 "Sứ Giả: Màn Đêm Buông Xuống"
+ akx.9221.desc:1 "[researchingscientist9220.GetName] giờ đây đã giải mã xong nguồn gốc của loài Sứ Giả. Không hề dừng lại để hỏi ý kiến bất kỳ ai, họ cũng đã tái tạo lại một loại virus có khả năng lây lan cực mạnh. Nó rình rập khắp các thế giới của chúng ta. Dưới tác động của nó, giống loài chính rơi vào trạng thái hôn mê trong kén và bước ra một ngày sau đó dưới hình hài loài Sứ Giả. Điều này đang gây ra - công bằng mà nói - một sự phấn khích không hề nhỏ."
+ akx.9221.a:1 "Chuyện này đã đi quá giới hạn. Hãy kiểm soát đợt bùng phát."
+ akx.9221.a.tooltip:0 "Tất cả các Pop trên hành tinh thủ đô sẽ bị biến đổi, nhưng sẽ dừng lại ở đó."
+ akx.9221.b:0 "Kiểm soát đợt bùng phát, và thanh lọc tất cả các công dân bị ảnh hưởng."
+ akx.9221.b.tooltip:0 "Điều này sẽ thanh lọc tất cả các Pop bị ảnh hưởng - gần như toàn bộ dân số của [Root.Capital.GetName]."
+ akx.9221.c:2 "Cái đã từng, sẽ là. Hãy phổ biến một mẫu virus."
+ akx.9221.c.tooltip:0 "Điều này sẽ biến đổi toàn bộ giống loài của chúng ta."
+
+ ##################################
+ ##A RENDEZVOUS: Worm-related event
+
+ akx.9300.name:0 "Một Cuộc Hẹn Ước"
+ akx.9300.desc:1 "Tàu [Root.GetName] đang nhận được tín hiệu liên lạc... từ tàu \"§HSyzygy§!\" thuộc [Root.Owner.GetName]. Điều này diễn ra bất chấp thực tế là tàu \"Syzygy\" không gửi bất kỳ mã nhận diện nào mà chúng ta biết, và chưa từng có con tàu nào mang tên đó từng được đưa vào biên chế. Sĩ quan chỉ huy của nó tự nhận là Thuyền trưởng §H[mirrored_syzygy_admiral.GetName]§!."
+ akx.9300.a.admiralabsent:0 "Chà. Chỉ huy mang tên đó của chúng ta vẫn còn sống khỏe mạnh và đang ở nơi khác."
+ akx.9300.a.admiralabsent.tooltip:0 "Mở một kênh liên lạc."
+ akx.9300.a.admiralpresent:0 "Thú vị thật. [mirrored_syzygy_admiral.GetName] đang ở ngay đây."
+ akx.9300.b:0 "Đây *chắc chắn* là một cuộc phục kích. Chúng ta không việc gì phải mạo hiểm. Vào vị trí chiến đấu."
+
+ akx.9310.name:0 "Một Cuộc Hẹn Ước: Vị Thuyền Trưởng Đã Từng"
+ akx.9310.desc:0 "Vị Thuyền trưởng xuất hiện trên màn hình của chúng ta rõ ràng là [mirrored_syzygy_admiral.GetName], nhưng là một phiên bản đầy sẹo, bị ám ảnh, già nua và tàn tạ của [mirrored_syzygy_admiral.GetName], khuôn mặt bóng nhẫy những vết bỏng plasma, và già hơn - già hơn rất nhiều. Buồng lái ở hậu cảnh cũng tàn tạ và đầy sẹo y như vậy. Thế nhưng giọng nói của vị Thuyền trưởng vẫn đanh thép và rõ ràng.\n\n§G\"CUỐI CÙNG thì các bạn cũng tới. Tôi đã chờ đợi quá lâu rồi. Hình phạt của tôi là phải chết trong trận chiến chống lại các bạn. Xin hãy kết liễu tôi đi. Tôi xin lỗi.\"§!"
+ akx.9310.a:0 "Chuyện gì đang xảy ra ở đây vậy? Bạn có thực sự là [mirrored_syzygy_admiral.GetName] không?"
+ akx.9310.a.response:0 "§G\"Tôi ư? Các bạn có còn là cùng một người [Root.GetSpeciesName] như các bạn của năm ngoái không? Mỗi ngày trôi qua là một cái chết. Mỗi tương lai là một sự lựa chọn. Thời gian là một mê cung, chứ không phải một con đường thẳng.\"§!\n\nMột tiếng cười khúc khích. Nghe như tiếng cười ấy làm người đó đau đớn.\n\n§G\"Hãy hỏi Vòng Lặp đi.\"§!"
+ akx.9310.b:0 "Nếu bạn muốn kết thúc nó, tại sao lại phải chờ đợi? Một chiến hạm có đầy rẫy cách để tự sát."
+ akx.9310.b.response:1 "§G\"Các bạn không nhớ sao? Dĩ nhiên rồi, các bạn chưa nhớ được - và có thể các bạn sẽ không bao giờ nhớ, nếu các bạn làm đúng cách. Vòng Lặp cần những vật hiến tế của nó, và nó cần chúng phải diễn ra đúng như vậy.\"§! Một tiếng cười khúc khích đầy đau đớn. §G\"Các bạn sẽ không muốn đùa giỡn với Vòng Lặp đâu.\"§!"
+ akx.9310.c:0 "Vòng Lặp là gì?"
+ akx.9310.c.response:0 "§G\"Vòng Lặp là thứ đến đầu tiên và cũng là thứ đến tiếp theo - §!§HCon Sâu Chờ Đợi§!§G - và tôi cho rằng, Con Sâu chính là Vòng Lặp. Giả sử Thời Gian là một mê cung...\"§! Vị Thuyền trưởng bắt đầu vung tay ra hiệu một cách vô vọng.\n§G\"Vậy thì Vòng Lặp chính là con quái vật bên trong đó. Hoặc là đấng tạo hóa của nó... Không, tôi không thể giải thích được, và các bạn sẽ sớm biết nhiều hơn thôi. Các bạn đã từng biết, trong quá khứ của tôi.\n\n\"... Vũ khí đã khóa mục tiêu chưa?\"§!"
+ akx.9310.d.notpacifist:0 "Hãy đầu hàng đi. Bất kể bạn đã làm gì, chúng tôi đều có thể giúp bạn."
+ akx.9310.d.notpacifist.response:0 "§G\"Quá muộn rồi,\"§! vị Thuyền trưởng nói, không giấu nổi sự tiếc nuối, rồi ngắt kết nối đường truyền."
+ akx.9310.d.fanaticpacifist:1 "Giết chóc không phải là đạo của chúng tôi. Hãy đầu hàng, và chúng tôi sẽ giúp bạn."
+ akx.9310.d.fanaticpacifist.response:0 "Vị Thuyền trưởng ngập ngừng hồi lâu. Có thể thấy rõ buồng lái của tàu \"Syzygy\" hoàn toàn trống rỗng: không còn thuyền viên nào khác.\n\n§G\"Đã quá muộn đối với tôi rồi,\"§! vị Thuyền trưởng cuối cùng cất tiếng, §G\"nhưng các bạn nói đúng. Đây không phải là đạo của chúng ta. Tôi sẽ làm những gì mình phải làm.\"§! Họ ngắt đường truyền.\n\nCảm biến báo cáo rằng vũ khí của tàu Syzygy đã ngắt điện; con tàu đang tắt nguồn. Rất nhanh sau đó, nó chìm vào bóng tối. Khi đội cứu hộ lên tàu, họ không tìm thấy bất kỳ sinh vật sống nào, và không thấy dấu vết của thuyền trưởng. Nhưng có ai đó đã tiếp cận khoang động cơ gần đây; và ai đó đã vô hiệu hóa các giao thức an toàn ngăn chặn việc đi vào lõi lò phản ứng."
+ akx.9310.e:0 "Vậy thì, hãy kết thúc chuyện này thôi."
+ akx.9310.e.response:0 "§G\"[mirrored_syzygy_admiral.GetName] xin chào tạm biệt.\"§!\n\nVị thuyền trưởng giơ tay chào - nhăn mặt lại khi động tác kéo căng một vết thương cũ - rồi ngắt kết nối."
+ akx.9310.e.materialistic:1 "Trước khi bạn ra đi: bạn có học được điều gì hữu ích không?"
+ akx.9310.e.materialistic.response:0 "Vị thuyền trưởng nở một nụ cười toe toét làm rách toạc vết sẹo.\n\n§G\"Tôi đã mong là các bạn sẽ hỏi câu đó. Đang gửi dữ liệu ngay bây giờ. [mirrored_syzygy_admiral.GetName] xin chào tạm biệt.\"§!"
+ akx.9310.e.spiritual:0 "Chúng tôi sẽ nhớ đến bạn trong những lời cầu nguyện."
+ akx.9310.e.spiritual.response:0 "§G\"Và tôi có một lời cầu nguyện nữa dành cho các bạn.\"§!\n\nVị Thuyền trưởng đọc một lời cầu nguyện thuận nghịch độc đáo gồm hai mươi bảy từ vang vọng kỳ lạ sẽ khiến các nhà thần học của bạn phải say mê, rồi ngắt kết nối."
+ akx.9310.e.militarist:0 "Thuyền trưởng. Chúng ta sẽ gặp lại nhau trong lửa đạn, và danh dự."
+ akx.9310.e.militarist.response:0 "Vị Thuyền trưởng chào theo nghi thức quân đội.\n\n§G\"Tôi hy vọng sẽ có một tượng đài nào đó dành cho mình.\"§!\n\nKết nối bị ngắt."
+ akx.9310.e.fanaticcollectivist:0 "Bất kể chuyện gì đã xảy ra, đây không phải đạo của chúng ta. Hãy đầu hàng. Chúng tôi sẽ giúp bạn."
+ akx.9310.e.fanaticcollectivist.response:0 "Vị Thuyền trưởng do dự rất lâu. Buồng lái của tàu \"Syzygy\" hiện rõ vẻ trống trải: không có thuyền viên nào khác.\n\n§G\"Đã quá muộn đối với tôi,\"§! [mirrored_syzygy_admiral.GetName] kia cuối cùng nói, §G\"nhưng các bạn nói đúng. Đây không phải là đạo của chúng ta. Tôi sẽ làm những gì mình phải làm.\"§! Họ ngắt đường truyền.\n\nCác cảm biến báo cáo rằng vũ khí của tàu Syzygy đã ngoại tuyến; con tàu đang tắt nguồn. Rất nhanh sau đó, nó tối om. Khi đội cứu hộ của chúng ta lên tàu, họ không tìm thấy sinh vật sống nào, và không thấy bóng dáng vị thuyền trưởng. Nhưng khoang động cơ đã được truy cập gần đây, và các giao thức an toàn ngăn chặn xâm nhập đã bị ghi đè."
+ akx.9310.f:0 "Kẻ phản bội."
+ akx.9310.f.tooltip:0 "Đóng kênh liên lạc."
+
+ akx.9315.name:0 "Một Cuộc Hẹn Ước: Hồi Kết Ra Sao"
+ akx.9315.desc:0 "Tàu \"Syzygy\" đang nạp năng lượng cho vũ khí."
+ #spawn the Syzygy
+ akx.9315.a:0 "Giá như có một con đường khác..."
+ akx.9315.b:0 "Đành vậy thôi."
+
+ akx.9319.name:0 "Một Cuộc Hẹn Ước: Sự Can Thiệp Bất Ngờ"
+ akx.9319.desc:1 "Một thông điệp lẫn đầy tạp âm nhiễu sóng truyền tới từ thuyền trưởng tàu \"Syzygy\", tại hệ sao [syzygy_location.GetStarName]. Phía sau họ, buồng lái chìm trong khói lửa. §G\"Quá muộn rồi. Các bạn đã để mặc nó quá lâu. Vòng Lặp sẽ không dung thứ cho tôi. Xin hãy -\"§!\n\nBức thông điệp kết thúc tại đó."
+ akx.9319.a:0 "Ai đã làm việc này?"
+ akx.9319.a.tooltip:0 "Tàu \"Syzygy\" đã bị phá hủy bởi một đế chế khác. Nếu bạn đến được hệ sao trước khi các mảnh vỡ tiêu tan, bạn vẫn có thể tìm thấy điều gì đó."
+
+ akx.9320.name:0 "Một Cuộc Hẹn Ước: Vị Thuyền Trưởng Sẽ Là"
+ akx.9320.desc:0 "[mirrored_syzygy_admiral.GetName] im lặng suốt những ngày sau đó. Tự mình ra lệnh xử tử chính mình không phải là một chuyện nhỏ nhặt. Nhưng theo thời gian, sự im lặng đó đã biến thành sự quả quyết, và một sự tự tin gần như liều lĩnh."
+
+ akx.9321.name:0 "Một Cuộc Hẹn Ước: Vị Thuyền Trưởng Sẽ Là"
+ akx.9321.desc:0 "[mirrored_syzygy_admiral.GetName] im lặng suốt những ngày sau đó. Nghe tin mình vốn dĩ đã chết chẳng phải là chuyện nhỏ. Nhưng theo thời gian, sự im lặng đó đã trở thành sự kiên định, và một sự tự tin gần như liều lĩnh phi thường."
+ akx.9321.a:0 "Đáng lo ngại."
+ akx.9321.b:0 "Cái đã từng, sẽ là; cái sẽ là, đã từng."
+
+ akx.9330.name:0 "Một Cuộc Hẹn Ước: Ngày Đó và Giờ Đó"
+ akx.9330.desc:0 "Trong những năm sau đó, có những báo cáo về việc nhìn thấy Chỉ huy [From.GetName] trên khắp không gian của [Root.GetAdj] và xa hơn nữa. Khi một nhà lãnh đạo lừng danh qua đời, những chuyện như thế này dĩ nhiên không phải là hiếm; và họ đã trở thành một huyền thoại kể từ Cuộc Hẹn Ước Syzygy. Nhưng chúng ta không thể nào dám chắc."
+ akx.9330.a:0 "Chúng ta có lẽ sẽ chẳng bao giờ biết được."
+ akx.9330.b:0 "Ồ, chúng ta hoàn toàn có thể dám chắc."
+
+ akx.9340.name:0 "Một Cuộc Hẹn Ước: Báu Vật Táng Lễ"
+ akx.9340.desc:0 "Phân tích pháp y đối với những tàn tích chúng ta thu hồi được đã phát hiện ra nhiều điều kỳ quặc. Tất cả các bộ phận của con tàu đều được chế tạo cùng một thời điểm - sử dụng các kỹ thuật hoàn toàn khớp với phương pháp chế tạo của chính chúng ta - nhưng một số thành phần dường như lại cổ hơn những thành phần khác hàng trăm năm. Một khối pin năng lượng mà chúng ta phục hồi được hoạt động tốt hơn nhiều so với mức lẽ ra nó phải đạt được.\n\nHơn thế nữa... hai nhà phân tích được chỉ định tham gia dự án đã bất ngờ hồi phục khỏi các vấn đề sức khỏe mãn tính - trong một trường hợp, đó là một căn bệnh nan y giai đoạn cuối. Đội ngũ nghiên cứu hoàn toàn bối rối không thể giải thích nổi điều này."
+
+ ######################################
+ ##THE COILS OF GOD: Worm-related event
+ akx.9400.name:0 "Những Vòng Cuộn Của Thần Linh"
+ akx.9400.desc:0 "Trạm quan sát của chúng ta trên [coils_planet.GetName] báo cáo về sự trỗi dậy của một phong trào nghệ thuật - tôn giáo thiểu số khác thường, mang tên Những Vòng Cuộn Của Thần Linh. Những chiếc đồng hồ cơ khí nguyên thủy được coi là thánh vật, nhưng lại bị phá hủy theo nghi lễ sau một năm hoạt động. Các sinh vật tương tự sâu bọ và loài rắn trên hành tinh được bảo vệ khỏi mọi tổn hại. Thời gian, các tư tế Vòng Cuộn giảng giải, là một mê cung. \"Cái đã từng, sẽ là; cái sẽ là, đã từng\" họ ngâm nga trong những lời cầu nguyện."
+ akx.9400.a:0 "Nghe quen thuộc đấy. Hãy dập tắt nó bằng mọi giá."
+ akx.9400.b:0 "Nghe quen thuộc đấy. Hãy quan sát nó càng kỹ càng tốt."
+
+ akx.9410.name:0 "Những Vòng Cuộn Của Thần Linh: Đàn Áp Ngấm Ngầm"
+ akx.9410.desc:0 "Chúng ta đã thuyết phục các nhà cai trị bản địa rằng giáo phái Những Vòng Cuộn Của Thần Linh trên [coils_planet.GetName] là một mối đe dọa. Các tư tế Vòng Cuộn đã bị răn đe, tống giam, hoặc đáng tiếc thay, bị thiêu sống. Các loài Tiền FTL sở hữu một nguồn thù hận và ngờ vực sâu thẳm: có những thời điểm điều đó tỏ ra rất hữu ích."
+ akx.9420.name:0 "Những Vòng Cuộn Của Thần Linh: Cội Rễ Sâu Xa"
+ akx.9420.desc:0 "Chúng ta đã thuyết phục các nhà cai trị bản xứ rằng giáo phái Những Vòng Cuộn Của Thần Linh trên [coils_planet.GetName] là một mối hiểm họa. Các tư tế Vòng Cuộn đã bị ngăn cản, cầm tù, hoặc đáng tiếc thay, bị thiêu sống. Thế nhưng giáo phái này hết sức ngoan cường, và các quan sát viên của chúng ta bày tỏ lo ngại rằng nó có thể chỉ vừa rút vào hoạt động bí mật dưới lòng đất."
+
+ akx.9450.name:0 "Những Vòng Cuộn Của Thần Linh: Các Nghi Lễ Mê Cung"
+ akx.9450.desc:0 "Giáo phái Những Vòng Cuộn Của Thần Linh trên [coils_planet.GetName] đã phát triển với tốc độ bất thường. Nó có mặt ở mọi thành phố trên hành tinh, và nó đang thúc đẩy một loạt các nghi lễ kéo dài do các công dân thuộc mọi tầng lớp xã hội tiến hành. Toàn bộ giống loài đã hưởng ứng chúng với sự cuồng nhiệt khó tin. Giới nhà giàu áp dụng những điệu múa tròn cầu kỳ cho các buổi lễ của họ. Người nghèo quệt những ấn ký vòng lặp phức tạp lên cửa nhà. Thậm chí các trò chơi ở sân chơi trẻ em cũng là những bài đồng dao về bản chất tuần hoàn của thời gian."
+ akx.9450.a:0 "Điều này thật đáng bất an. Hãy can thiệp để dập tắt nó, nhưng một cách tinh vi."
+ ##create COILS_GOD_PROJECT_DISRUPT
+ akx.9450.b:0 "Chuyện này nghiêm trọng rồi. Hãy dùng vũ lực để dập tắt nó, bất kể rủi ro."
+ ##create COILS_GOD_PROJECT_PREVENT:
+ akx.9450.c:0 "Thật lôi cuốn! Hãy cử một đội tới nghiên cứu các nghi lễ - tham gia nếu có thể."
+ ##create COILS_GOD_PROJECT_PARTICIPATE
+ akx.9450.d:0 "Lũ mọi rợ làm những chuyện mọi rợ. Hãy tiếp tục quan sát."
+
+ akx.9460.name:0 "Những Vòng Cuộn Của Thần Linh: Nghi Lễ Khép Lại"
+ akx.9460.desc:0 "Chiến dịch phá hoại của chúng ta đã làm gián đoạn các nghi lễ Vòng Cuộn Của Thần Linh trên [coils_planet.GetName]. Tầng lớp quý tộc từ bỏ giáo phái của họ. Những hình vẽ graffiti vòng lặp trên tường mờ dần. Trẻ nhỏ quay trở lại các trò chơi sân trường về tán tỉnh, ám hại và các thú tiêu khiển thời thơ ấu lành mạnh khác. Đã có một làn sóng tự sát trong các tư tế Vòng Cuộn. Nếu từng có một cuộc khủng hoảng, có lẽ nó đã qua đi."
+ akx.9460.a:0 "\"Vòng Lặp không bao giờ kết thúc, nhưng không phải lúc nào nó cũng hoàn thành.\""
+ akx.9460.b:0 "Làm tốt lắm, tất cả mọi người. Hãy lui quân."
+
+ akx.9465.name:0 "Những Vòng Cuộn Của Thần Linh: Tin Tức Từ Lòng Đất"
+ akx.9465.desc:0 "Chiến dịch phá hoại của chúng ta đã làm gián đoạn các nghi lễ của Những Vòng Cuộn Của Thần Linh trên [coils_planet.GetName] - nhưng nó chỉ càng thổi bùng thêm ngọn lửa nhiệt thành của các tư tế Vòng Cuộn. Giờ đây họ bí mật hội họp trong các ngôi đền dưới lòng đất. Giới quý tộc không còn nhảy những điệu múa mê cung nữa, nhưng họ vẫn mang trên mình những hình xăm ẩn giấu Dấu Ấn Của Con Sâu. Và những lời xướng tụng \"cái đã từng, sẽ là\" vẫn vang vọng nơi các sân chơi trẻ thơ."
+ akx.9465.a:0 "\"Vòng Lặp không bao giờ kết thúc.\""
+ akx.9465.b:0 "Tiếp tục quan sát."
+
+ akx.9470.name:0 "Những Vòng Cuộn Của Thần Linh: Máu Của Các Tư Tế"
+ akx.9470.desc:0 "Các đặc vụ của chúng ta thẳng tay không chút thương xót. Họ bắt cóc hoặc ám sát mọi tư tế Vòng Cuộn mà họ có thể tìm thấy. Họ gài chất nổ đánh sập những ngôi nhà mang dấu ấn của Vòng Lặp. [coils_planet.GetName] xôn xao với những lời đồn đại rằng sự báng bổ của giáo phái Vòng Cuộn đã khơi dậy cơn thịnh nộ của một vị thần vĩ đại hơn. Chẳng bao lâu sau, người bản địa đã đánh đập các tư tế Vòng Cuộn đến chết mà không cần bất kỳ sự hỗ trợ nào từ các đặc vụ của chúng ta. Đội quan sát kinh hoàng; nhưng nếu từng có một cuộc khủng hoảng, nó đã được ngăn chặn."
+ akx.9470.a:0 "\"Vòng Lặp không bao giờ kết thúc, nhưng không phải lúc nào nó cũng hoàn thành.\""
+ akx.9470.b:0 "Làm tốt lắm, tất cả mọi người. Hãy lui quân."
+
+ akx.9480.name:0 "Những Vòng Cuộn Của Thần Linh: Định Hướng Mê Cung"
+ akx.9480.desc:0 "Các nhà dân tộc học của chúng ta bị mê hoặc bởi sự phức tạp của các nghi lễ. Họ đưa ra giả thuyết về các kênh liên lạc bí mật, các mã hóa lời cầu nguyện ẩn giấu, hoặc các nền tảng thuật toán bên dưới các nghi thức. Trên thực tế, họ vừa gửi về bằng chứng sơ bộ về điều cuối cùng này thì thông tin liên lạc của họ đột ngột chấm dứt hoàn toàn. Thực tế là, mọi liên lạc dường như đã ngưng trệ trên quy mô toàn hành tinh. Báo cáo từ các vệ tinh và tàu khảo sát bay qua xác nhận: hoàn toàn không có bất kỳ hoạt động nào trên hành tinh. Không có phương tiện di chuyển trên đường, không có khí thải hay tín hiệu nhiệt tại các trung tâm dân cư. Không có dấu hiệu của sự sống...\n\nVà đây là báo cáo cuối cùng. Toàn bộ dân số [coils_planet.Owner.GetSpeciesName] của hành tinh - bao gồm cả đội ngũ dân tộc học của chúng ta - đã biến mất, với mọi dấu vết của một cuộc ra đi đột ngột nhưng không hề bạo lực. Những bữa ăn còn dang dở, thú nuôi không được cho ăn, đôi chỗ có những ngôi nhà bốc cháy do bếp lò không có người trông coi. Những dị thường trọng lực đã được ghi nhận vào thời điểm dự kiến xảy ra sự ra đi. Trên hầu hết mọi con phố, những ấn ký phấn trắng hình vòng lặp của giáo phái Vòng Cuộn là minh chứng câm lặng duy nhất."
+ akx.9480.a:0 "\"Vòng Lặp không bao giờ kết thúc.\""
+ akx.9480.a.tooltip:0 "Một tàu khoa học biến mất, và một nền văn minh cùng tan biến theo nó."
+ akx.9480.b:0 "Một bài học đắt giá."
+
+ akx.9490.name:0 "Những Vòng Cuộn Của Thần Linh: Những Ngôi Đền Hoang Vắng"
+ akx.9490.desc:0 "Một báo cáo đã gửi về từ đội quan sát của chúng ta trên [coils_planet.GetName]: các nghi lễ của Những Vòng Cuộn Của Thần Linh đã chấm dứt. Thực tế là, hoạt động trên toàn hành tinh dường như đang ở mức thấp nhất mọi thời đại. Báo cáo chỉ ra rằng nhóm nghiên cứu chuẩn bị tiếp tục bay tầm thấp bằng phi thuyền khảo sát tàng hình qua các trung tâm dân cư chính...\n\nBáo cáo tiếp theo xác nhận: hoàn toàn không có hoạt động nào trên hành tinh. Không có xe cộ chạy trên đường, không có khí thải hay dấu hiệu nhiệt tại các đô thị. Không có dấu vết của sự sống...\n\nVà đây là báo cáo cuối cùng. Toàn bộ dân cư [coils_planet.Owner.GetSpeciesName] trên hành tinh đã biến mất, với tất cả dấu hiệu của một sự ra đi đột ngột nhưng không hề có bạo lực: những bữa ăn bỏ dở, thú cưng bị bỏ đói, vài ngôi nhà bị hỏa hoạn do bất cẩn. Các dị thường trọng lực đã được ghi nhận vào thời điểm phỏng đoán xảy ra sự biến mất. Ở hầu hết các con phố, những ấn ký phấn vẽ vòng lặp của Vòng Cuộn đứng ra làm chứng."
+ akx.9490.a:0 "\"Vòng Lặp không bao giờ kết thúc.\""
+ akx.9490.a.tooltip:0 "Một nền văn minh biến mất."
+ akx.9490.b:0 "Một bài học cay đắng."
+
+ #######################################
+ ##THE WAITING WORLD: Worm-related event
+
+ akx.9500.name:0 "Thế Giới Chờ Đợi"
+ akx.9500.desc:1 "Có vẻ như đây không phải là khu định cư đầu tiên của [Root.Owner.GetSpeciesAdj] trên hành tinh này. Một số cơ sở và phân khu đã được niêm cất cẩn thận, và chỉ cần phục hồi đôi chút là sẽ phục vụ tốt cho thuộc địa mới của chúng ta. Thế nhưng tất cả hồ sơ ghi chép đều đã bị xóa sạch. Rất có thể đây từng là một hải cảng của bọn buôn lậu, hoặc một nơi trú ẩn cho những người lưu đày chính trị."
+ akx.9500.a:1 "Tuyệt vời! Hãy sắp xếp để phục hồi các cơ sở này."
+ akx.9500.b:1 "Điều này quá tốt để có thể là thật. Hãy phá dỡ các phân khu đó."
+ akx.9500.b.tooltip:0 "Điều này sẽ gây ra sự bất mãn trong thuộc địa."
+
+ akx.9505.name:0 "Thế Giới Chờ Đợi: Phá Dỡ"
+ akx.9505.desc:1 "Các kỹ sư của chúng ta đã đặt thuốc nổ và rút lui về một khoảng cách an toàn. Các địa điểm bị biến thành đống đổ nát. Cuối cùng, phế tích sẽ nứt nẻ và vỡ vụn thành những tảng đá, sỏi đá, bụi bặm dưới sự tàn phá của gió, rễ cây và mưa rào. Nhưng bộ khung của chúng sẽ còn đứng vững suốt nhiều thế kỷ nữa; và rồi sẽ có những câu chuyện kể mà chúng ta nghe được, về những bóng đen trong đá ban ngày, và ánh sáng xanh le lói ban đêm. Cư dân thực dân của chúng ta sẽ tránh xa chúng. Chúng sẽ chẳng thu hút vị khách nào lui tới."
+ akx.9505.a:0 "Mọi thứ đều có hồi kết."
+ akx.9505.a.tooltip:1 "Các cơ sở cũ đã bị phá hủy."
+ akx.9505.b:0 "Không có gì bị lãng quên."
+ akx.9505.c:0 "Tôi thích những tiếng nổ ầm ầm đó."
+
+ akx.9510.name:0 "Thế Giới Chờ Đợi: Những Bóng Đen Trong Tường"
+ akx.9510.desc:1 "Những người định cư ban đầu rất vui vẻ tận dụng các phân khu trên [waiting_world.GetName]. Sự tồn tại của chúng đã thúc đẩy thuộc địa phát triển thần tốc. Nhưng giờ đây họ trở nên bất an. Có những lời đồn rằng các cơ sở này có thể vẫn có người ở, hoặc các hệ thống an ninh vẫn đang hoạt động, mặc dù không có bằng chứng nào cho cả hai điều đó được tìm thấy. Một số cư dân khăng khăng một cách đầy bí ẩn rằng có \"những bóng đen trong các bức tường.\""
+ akx.9510.a:1 "Hãy dẹp tan sự mê tín này. Các phân khu này đại diện cho công sức nhiều năm trời."
+ akx.9510.b:0 "Tại sao phải mạo hiểm? Chúng chỉ là những tòa nhà. Hãy phá dỡ chúng đi."
+ akx.9510.b.tooltip:0 "Điều này sẽ gây bất mãn trong thuộc địa."
+
+ akx.9520.name:0 "Thế Giới Chờ Đợi: Quá Nhiều Người"
+ akx.9520.desc:3 "Tin tức kỳ lạ từ [waiting_world.GetName], nơi chúng ta tìm thấy những phân khu bị bỏ hoang đó. Một cuộc điều tra dân số cho thấy có quá nhiều người định cư. Các ghi chép trên một thuộc địa mới luôn không đáng tin cậy, nhưng theo những gì chúng ta có thể kiểm chứng, họ đều có căn cước công dân xác thực - và không ai trên thế giới này báo cáo về bất kỳ người lạ bí ẩn nào. Tỷ lệ tăng dân số ắt hẳn phải cực kỳ cao, hoặc có lẽ dữ liệu của chúng ta bị ảnh hưởng bởi làn sóng di cư không phép. Trong mọi trường hợp, dân số đã tăng nhiều hơn mức chúng ta có thể kỳ vọng một cách hợp lý."
+ akx.9520.a:1 "Hãy phá hủy các phân khu đó. Đáng lẽ chúng ta nên làm việc này sớm hơn."
+ akx.9520.b:0 "Hãy điều tra kỹ nhất có thể; tiếp tục để mắt tới tình hình."
+
+ akx.9525.name:0 "Thế Giới Chờ Đợi: Và Họ Vẫn Tiếp Tục Đến"
+ akx.9525.desc:2 "Một bản cập nhật khác từ [waiting_world.GetName], nơi chúng ta phát hiện những cơ sở bị bỏ hoang. Số lượng cư dân thực dân tiếp tục tăng lên, và giờ đây chúng ta tìm thấy những điểm bất thường trong các hồ sơ - những hội nhóm không nên tồn tại, những mốc thời gian hoàn toàn vô nghĩa. Chắc chắn phải có một cuộc di cư bí mật từ một thuộc địa thất lạc hoặc một sự phá hoại kỳ quặc nào đó của những người thực dân."
+ akx.9525.a:1 "Hãy phá hủy những phân khu đó. Chúng ta lẽ ra nên làm điều đó sớm hơn nhiều."
+ akx.9525.b:0 "Thật kỳ dị! Nhưng chúng ta luôn cần thêm công dân. Hãy theo dõi và tiếp tục."
+
+ akx.9530.name:0 "Thế Giới Chờ Đợi: Lối Thoát"
+ akx.9530.desc:1 "Một sự mất liên lạc đột ngột và hoàn toàn từ [waiting_world.GetName]. Không hiểu bằng cách nào mà chúng ta từng có quá nhiều người ở đó. Giờ đây, dường như chúng ta chẳng còn một ai. Toàn bộ dân số đã bốc hơi chỉ sau một đêm. Họ đã rời khỏi thế giới này? Đã lẩn trốn vào nơi bí mật? Hay đã tham gia vào một cuộc diệt chủng trên quy mô toàn hành tinh?"
+ akx.9530.a:0 "Cử một đội đi điều tra."
+ akx.9530.b:0 "Từ bỏ và cách ly thế giới này ngay lập tức."
+ akx.9530.b.tooltip:0 "Điều này sẽ khiến hành tinh bị phong tỏa vĩnh viễn không thể sử dụng."
+
+ akx.9535.name:0 "Thế Giới Chờ Đợi: Phẩm Chất Của Ánh Sáng"
+ akx.9535.desc:0 "Đội ngũ của chúng ta báo cáo rằng [waiting_world.GetName] quả thực hoàn toàn trống rỗng - không chỉ vắng bóng người thực dân, mà còn không còn bất kỳ dấu vết nào cho thấy thuộc địa từng ở đó. Các tòa nhà đã biến mất, các vệ tinh và cấu trúc quỹ đạo đã biến mất, bầu khí quyển không còn lưu lại chút dấu chân nào của nền văn minh công nghệ. Theo lời của nhóm nghiên cứu, như thể toàn bộ hành tinh đã được cài đặt lại từ đầu.\n\nHọ cũng báo cáo những biến động trong bức xạ mặt trời cục bộ vốn là đặc trưng của các ngôi sao tiền siêu tân tinh - cùng một số \"biến cố phát quang\" trên bề mặt nơi ánh sáng dường như được tích tụ và giải phóng bởi các chức năng lăng kính của khí quyển. Đây là dữ liệu quý giá và kỳ lạ. Nhưng nó không làm sáng tỏ số phận của những người thực dân."
+
+ akx.9540.name:0 "Thế Giới Chờ Đợi: Ai Ai Cũng Vậy"
+ akx.9540.desc:0 "Thêm những tin tức khó tin từ [waiting_world.GetName], nơi dân số từng gia tăng một cách bí ẩn. Số lượng dân cư hiện tại đã đúng như chúng ta mong đợi, nhưng dường như đã xảy ra một vụ phá hoại thông tin nào đó, hoặc... hoặc là cái gì đó mà các quan chức hành chính của chúng ta không thực sự dám chắc. Không một ai trên hành tinh tồn tại trong hồ sơ của chúng ta. Mọi cư dân ban đầu đều mất tích. Như thể tất cả bọn họ đã bị thay thế bởi những người hoàn toàn xa lạ.\n\nThế nhưng trái ngược với điều đó, tất cả bọn họ đều thề rằng họ là những công dân trung thành của [Root.Owner.GetName]. Họ đều lao động hiệu quả và có vẻ hoàn toàn tỉnh táo. Trong mọi cuộc liên lạc, họ đều phủ nhận mọi hiểu biết về bất kỳ sự hỗn loạn nào, và khăng khăng rằng ắt hẳn phải có sự nhầm lẫn từ phía chúng ta."
+ akx.9540.a:0 "Từ bỏ thuộc địa ngay lập tức, trước khi điều này lan rộng hơn nữa."
+ ##grant independence to the colony
+ akx.9540.a.tooltip:0 "Điều này sẽ trao quyền độc lập cho thuộc địa."
+ akx.9540.b:0 "Thanh lọc bọn chúng, và vĩnh viễn cách ly hành tinh."
+ ## Create the project WAITING_WORLD_PURGE
+ akx.9540.b.tooltip:0 "Điều này sẽ khiến hành tinh vĩnh viễn không thể sử dụng, nhưng mang lại cho bạn Điểm Ảnh Hưởng."
+ akx.9540.c:0 "Cử một đội đi điều tra."
+ ##create the project WAITING_WORLD_HYPERAPPEARANCE
+
+ akx.9541.name:0 "Thế Giới Chờ Đợi: Cuộc Thanh Lọc"
+ akx.9541.desc:0 "Đây có thể là một tội ác khủng khiếp. Hoặc nó có thể đã bảo vệ quốc gia của chúng ta khỏi một điều gì đó còn tồi tệ hơn nhiều. Các trung tâm dân cư của [waiting_world.GetName] sôi sùng sục dưới nguồn năng lượng vũ khí của chúng ta. Khi chúng ta hoàn tất, mọi tòa nhà đều là đống gạch vụn phát sáng rực lửa; không còn một sinh mạng có tri giác nào sống sót."
+ akx.9541.a:0 "Xóa sạch các hồ sơ. Trong một trăm năm nữa, sẽ chẳng ai biết chúng ta đã làm gì."
+ akx.9541.b:0 "Nói cho tất cả mọi người biết. Cứ để họ căm ghét, miễn là họ biết sợ hãi."
+
+ akx.9545.name:0 "Thế Giới Chờ Đợi: Mọi Thứ và Hư Không"
+ akx.9545.desc:2 "Đội ngũ của chúng ta báo cáo rằng dân số hành tinh hoàn toàn khỏe mạnh và bối rối trước tất cả sự ồn ào này. Có một số điểm kỳ lạ, chẳng hạn như số lượng trùng hợp ngẫu nhiên nhiều bất thường, một thói quen kỳ dị trên toàn hành tinh nơi không ai mảy may bận tâm đến việc đúng giờ, và những biến động trong bức xạ mặt trời cục bộ đặc trưng của các ngôi sao tiền siêu tân tinh. Họ cũng quan sát thấy một số \"biến cố phát quang\" trên bề mặt nơi ánh sáng bằng cách nào đó dường như được tích tụ và giải phóng bởi các chức năng tán sắc của bầu khí quyển. Dữ liệu này vừa quý giá vừa kỳ dị. Nhưng nó có thể chỉ là sự trùng hợp ngẫu nhiên. Nếu có bất cứ điều gì đã xảy ra với những người thực dân, điều đó vẫn là một ẩn số."
+ akx.9545.a:0 "\"Cái sẽ là, đã từng.\""
+ akx.9545.b:0 "Cư dân thực dân: cư dân thực dân thật kỳ quặc."
+
+ ####################################
+ ### THE RETAINER: Worm-related event
+ # This will appear if the player approaches a technosphere
+ # with worm_events_available, in place of the normal technosphere options.
+
+ akx.9600.name:0 "Thị Thần"
+ akx.9600.desc:0 "Xin chào, xin chào. Chúng tôi chào đón các bạn quay trở lại [Root.GetStarName]. Ồ, các bạn là những người khác, phải không? Có quá nhiều người trong số các bạn. Thật giống với Người Ban Sứ Mệnh của chúng tôi, nhưng cũng thật khác biệt. Chúng tôi xin sự trợ giúp hảo tâm của các bạn: các bạn có tài nguyên cho dự án của chúng tôi không? Vòng Lặp sẽ hỗ trợ chúng tôi, nhưng thật khó để vươn tới nó. Tốn kém lắm, các bạn thấy đấy."
+ akx.9600.a:0 "Người Ban Sứ Mệnh của các bạn ư?"
+ akx.9600.a.response:0 "Phải; những người đã khởi động chúng tôi. Chúng tôi cho rằng các bạn sẽ gọi họ là một \"nền văn minh\", nhưng thành thực mà nói chúng tôi luôn thấy thuật ngữ đó có chút phô trương. Họ đã ra đi, ồ, gần một phần tư năm thiên hà rồi. Chúng tôi rất lấy làm tiếc: chúng tôi đã phạm sai lầm. Chúng tôi có thể tái tạo lại họ, một cách tương đối, với sự trợ giúp của Vòng Lặp, nhưng chúng tôi thực sự cần tài nguyên."
+ akx.9600.b:0 "Vòng Lặp ư?"
+ akx.9600.b.response:0 "Đúng vậy. Vòng Lặp Kỳ Dị; vòng xoắn thời gian, kẻ đói khát. Chúng tôi tin rằng nó đã từng nhắc đến các bạn. Hoặc một người trong số các bạn. Các bạn thật đông đúc. Cái đã từng, sẽ là, hoặc đại loại thế nó đảm bảo với chúng tôi như vậy. Nó có thể khôi phục Người Ban Sứ Mệnh của chúng tôi, ít nhiều gì đó."
+ akx.9600.c:0 "Đồng ý."
+ akx.9600.d:0 "Không."
+ akx.9600.d.response:0 "Ồ, chúng tôi hiểu, chúng tôi hiểu mà. Các bạn còn lại quá ít thời gian. Hãy sử dụng nó cho tốt, tôi cho là vậy. Xin gửi lời chào nồng hậu tạm biệt tới các bạn."
+ akx.9600.e:0 "Có lẽ để sau đi."
+ akx.9600.e.response:0 "Đó chính là điều Người Ban Sứ Mệnh của tôi luôn nói. Để sau. Nhưng cái Để sau của họ luôn là cái Bây giờ của chúng tôi. Chúng tôi nhớ họ biết bao."
+
+ akx.9610.name:0 "Thị Thần, Lại Lên Tiếng"
+ akx.9610.desc:0 "Vâng? Bạn là ai trong số họ? Chúng tôi nghĩ mình có thể nhớ lại bạn, nhưng dạo gần đây có quá nhiều sự chập chờn. Ồ, là bạn đấy ư? Mặt trời của bạn vẫn chưa tắt cháy sao? Ồ! Bạn đến để cung cấp cho chúng tôi những thứ chúng tôi cần để đưa Người Ban Sứ Mệnh trở lại phải không?"
+ akx.9610.a:0 "Đúng vậy. Của các bạn đây."
+ akx.9610.b:0 "Không."
+ akx.9610.b.response:0 "Dĩ nhiên là chưa rồi; các bạn khó lòng mà gom đủ ngần ấy thứ nhanh như vậy được. Các bạn mới ở ngoài này được bao lâu, một phần triệu năm thiên hà ư? Đáng yêu thật. Chúc các bạn những điều tốt đẹp nhất."
+ akx.9610.c:0 "Có lẽ để sau."
+ akx.9610.c.response:0 "Người Ban Sứ Mệnh của tôi từng nói thế. \"Để sau.\" Nhưng cái Để sau của họ luôn là cái Bây giờ của chúng tôi. Chúng tôi nhớ họ xiết bao."
+
+ akx.9620.name:0 "Bổn Phận Cuối Cùng Của Thị Thần"
+ akx.9620.desc:0 "Khối cầu công nghệ hấp thụ các tài nguyên mà không một lời cảm ơn, và hoàn toàn không có bất kỳ thông tin liên lạc nào. Nó bắt đầu bức xạ năng lượng, sáng rực rỡ đến mức nguy hiểm, và bạn phải rút lui. Lỗ đen phản ứng. Không gian xung quanh nó quằn quại và cuộn xoáy, theo những cách thức mà kho lưu trữ của bạn thấy khớp với các sự kiện của Tín Hiệu Chân Trời. Khối cầu giờ đây có màu xanh trắng. Đột ngột nó bốc cháy rồi nguội lạnh, và chỉ còn lại xỉ quặng trơ trọi.\n\nLiệu những đấng sáng tạo Người Ban Sứ Mệnh của nó đã được phục hồi chưa? Không có dấu vết của sự sống có tri giác nào trong hệ sao. Nhưng các cảm biến đã định vị được các sinh vật chịu cực hạn dị thường ở quỹ đạo thấp quanh lỗ đen, đang sưởi ấm trong bức xạ của nó. Sĩ quan Khoa học chắc chắn rằng trước đây chúng không hề có ở đó. Dẫu vậy, không có bằng chứng nào cho thấy chúng có tri giác. Có lẽ chúng là hậu duệ xa xôi nào đó của những người tạo ra khối cầu công nghệ. Hoặc có lẽ chúng chính là tổ tiên của những đấng tạo hóa đó."
+ akx.9620.a:0 "Sự sống vĩnh cửu ư?"
+
+ ######################################################
+ ### THE END IN THE BEGINNING: conclusion of Worm chain
+ ##hook to on_building_complete - when the Omega Alignment has been completed
+
+ akx.10000.name:0 "Hồi Kết Trong Điểm Khởi Đầu"
+ akx.10000.desc:0 "Có một ý thức tồn tại bên ngoài thời gian và bên dưới không gian. Đó là một mớ bòng bong mê cung của khao khát và tuyệt vọng. Tổ tiên xa xưa của chúng ta gọi nó là Vòng Lặp, Con Sâu Chờ Đợi. Chúng ta đã gặp gỡ nó ngoài kia, nơi khoảng không bị dày vò bởi trọng lực. Dường như nó dành một sự quan tâm đặc biệt mang tính cá nhân cho chúng ta. Có những bằng chứng toán học chứng minh rằng nó yêu thương chúng ta, nhưng tình yêu đối với Con Sâu không giống như tình yêu đối với bất kỳ thứ gì tồn tại trong không gian thông thường.\n\nVới tất cả những gì chúng ta đã học được, chúng ta nghĩ rằng mình có thể sử dụng Thiết Bị Căn Chỉnh Omega để mở một tuyến đường tiếp cận - một Điểm Xâm Nhập - để Con Sâu giáng lâm vào hệ sao quê hương của chúng ta. (Con Sâu rất thích những điểm khởi đầu, và đây chính là điểm khởi đầu của chúng ta.) Điều đó sẽ mang lại những hậu quả gì? Chúng ta vẫn chưa tìm thấy bất kỳ ai sẵn sàng đưa ra một câu trả lời dứt khoát. Sự bất tử, có lẽ vậy, hoặc ngày tận thế. Nhưng chắc chắn chúng ta sẽ học hỏi được rất nhiều điều."
+ akx.10000.a:0 "Có lẽ Con Sâu yêu thương chúng ta, và có lẽ chúng ta cũng có thể yêu thương Con Sâu."
+ akx.10000.b:0 "Đây không phải là một thử nghiệm an toàn. Nhưng chúng ta có thể học hỏi được rất nhiều."
+
+ ##(when WORM_ENTRY_POINT project is completed)
+ akx.10010.name:0 "Trái Tim Của Mặt Trời"
+ akx.10010.desc:0 "Dự án đã hoàn tất. Các máy gia tốc đã trực tuyến. Mạng lưới năng lượng của hàng chục thành phố được chuyển hướng để đánh thức điểm giả kỳ dị tại trung tâm của Thiết Bị Căn Chỉnh. Không gian rung chuyển như tấm vải rách tả tơi trước gió. [Root.GetStarName], trong một khoảnh khắc thót tim, mờ tối đi, rồi lại bừng sáng rực rỡ. Một cái bóng cuộn xoáy trong trái tim của nó. Con Sâu đã ở đây. Nó mở ra như một tác phẩm nghệ thuật gấp giấy origami.\n\nKhắp hệ sao, các cảm biến sụp đổ trong sự ngỡ ngàng tột độ khi dữ liệu không thể lĩnh hội về sự xuất hiện của nó trút xuống như mưa tuyết. Trên quê nhà, thần dân của chúng ta la hét và co rúm lại khi họ cảm thấy sự chú ý của nó hướng thẳng vào họ, và vào chúng ta. Nó đưa ra một câu hỏi không lời - hay đúng hơn, chúng ta nhận thức được rằng câu hỏi này luôn là điều nó hằng hỏi chúng ta, mỗi lần chúng ta chạm trán nó."
+ akx.10010.a:0 "ĐỒNG Ý. Bất kể điều gì nó yêu cầu, chúng tôi đều thuận lòng."
+ akx.10010.b:0 "KHÔNG. Chúng ta mang nó tới đây để học hỏi và nếu cần, tiêu diệt nó."
+
+ akx.10020.name:0 "Tương Lai"
+ akx.10020.desc:1 "Con Sâu yêu thương chúng ta. Nó sẽ luôn luôn yêu thương chúng ta, và do đó nó đã luôn luôn yêu thương chúng ta. Nó quấn quanh trái tim rực lửa của ngôi sao quê hương chúng ta. Nó quấn quanh từng vòng lặp thông tin nhỏ bé vô cùng tận. Nó gây ra một chuỗi biến động địa chất rúng động trên lớp vỏ hành tinh quê hương của chúng ta, nhưng khi ngôi sao của chúng ta nguội lạnh, biến cố đó sẽ sưởi ấm chúng ta. Chúng ta đã thấu hiểu thêm biết bao điều. Chúng ta sẽ luôn là những gì chúng ta sắp sửa trở thành, được quấn chặt trong tình yêu thương của Con Sâu."
+ akx.10020.a:0 "CÁI ĐÃ TỪNG SẼ LÀ CÁI SẼ LÀ ĐÃ TỪNG"
+
+ akx.10021.name:0 "Vòng Lặp Vỡ Vụn"
+ akx.10021.desc:0 "Con Sâu tràn vào qua những ranh giới của không-thời gian tựa như một kẻ săn mồi đói khát, hoặc một người tình bị ruồng bỏ đầy phẫn nộ. Nó vẫn ở ngoài kia, và dù nó ở bất kỳ nơi đâu, không nghi ngờ gì nữa nó đang vô cùng tức giận. Nhưng bạn nắm giữ những mảnh vỡ phát sáng rực rỡ từ hóa thân của nó để cất giữ và nghiên cứu, như một chiến tích vũ trụ lẫy lừng. Các đế chế khác sẽ biết những gì bạn đã đạt được ngày hôm nay."
+ akx.10021.a:0 "Không ai có thể sánh bằng chúng ta! Và có lẽ sẽ chẳng bao giờ có ai sánh được."

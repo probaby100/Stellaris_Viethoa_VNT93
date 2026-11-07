@@ -1,0 +1,340 @@
+﻿l_english:
+ pre_ftl_tech_progress_situation:0 "Tiến Bộ Công Nghệ"
+ pre_ftl_tech_progress_situation_type:0 "$pre_ftl_tech_progress_situation$"
+ pre_ftl_tech_progress_situation_monthly_change_tooltip:0 "$situation_monthly_change_tooltip_no_control$"
+ pre_ftl_tech_progress_situation_desc:0 "Văn minh này đang từng bước tiến vào một kỷ nguyên công nghệ mới."
+ acquired_tech:0 "Công Nghệ Đã Tiếp Nhận"
+ early_age:0 "Giai Đoạn Đầu"
+ mid_age:0 "Giai Đoạn Giữa"
+ late_age:0 "Giai Đoạn Cuối"
+ technological_breakthrough:0 "Đột Phá Công Nghệ"
+ technological_setback:0 "Thụt Lùi Công Nghệ"
+ tech_frozen:0 "Đóng Băng Phát Triển Công Nghệ"
+ stratified_technological_enlightenment:0 "Hiệp Ước Khai Sáng Công Nghệ Phân Tầng"
+ open_technological_enlightenment:0 "Hiệp Ước Khai Sáng Công Nghệ Mở Rộng"
+
+ ### Plague Situation
+ situation_pre_ftl_plague:0 "Đại Dịch Lây Truyền Từ Động Vật"
+ situation_pre_ftl_plague_type:0 "Đại Dịch Lây Truyền Từ Động Vật"
+ situation_pre_ftl_plague_desc:1 "Một căn bệnh mới lây truyền từ động vật đã bùng phát trên [Target.GetName]. Do không có khả năng miễn dịch tự nhiên cũng như thiếu công nghệ y tế cần thiết để chống lại sự lây nhiễm, dân số đang nhanh chóng gục ngã trước khổ ải và cái chết."
+ situation_pre_ftl_plague_monthly_change_tooltip:0 "$situation_monthly_change_tooltip_no_control$"
+ situation_pre_ftl_plague_outcome_tooltip:0 "Dù bằng cách này hay cách khác, đại dịch này rồi cũng sẽ chấm dứt. Những gì còn sót lại nơi tàn cuộc có thể phụ thuộc hoàn toàn vào chúng ta."
+
+ # Stages
+ situation_plague_stage_one:0 "Làn Sóng Thứ Nhất"
+ situation_plague_stage_two:0 "Làn Sóng Thứ Hai"
+ situation_plague_stage_three:0 "Dứt Cơn Sốt"
+
+ approach_watch_learn:0 "Quan Sát và Học Hỏi"
+ approach_provide_aid:0 "Cung Cấp Viện Trợ"
+ approach_promote_disease:0 "Thúc Đẩy Dịch Bệnh"
+
+ ## Events
+
+ # Starting event
+ preftl.2001.name:0 "Bùng Phát"
+ preftl.2001.can_not_help.desc:1 "$preftl.2001.can_help.desc$\n\nChính sách của chúng ta là không bao giờ can thiệp vào các thế giới [owner.GetPreFTLLower], nhưng liệu chúng ta có thực sự nỡ đứng nhìn người dân nơi đây quằn quại trong đau khổ?"
+ preftl.2001.can_help.desc:1 "Một căn bệnh mới lây truyền từ động vật đã bùng phát trên [from.owner.capital_scope.GetName]. Thiếu công nghệ y tế cần thiết để chống lại sự lây nhiễm, dân cư nơi đây đang nhanh chóng gục ngã trước khổ ải và cái chết."
+ preftl.2001.perpetrator.desc:1 "Mầm bệnh mà chúng ta đưa vào một quần thể dân cư không mảy may nghi ngờ đã lây lan vượt khỏi tầm kiểm soát. Do không có công nghệ y tế cần thiết để chống chọi, cư dân hành tinh đang nhanh chóng đầu hàng trước đau đớn và tử thần."
+ preftl.2001.a:0 "Quan Sát và Học Hỏi"
+ approach_watch_tooltip:0 "Việc quan sát tình huống này sẽ mang lại cho chúng ta nhiều hiểu biết sâu sắc đáng giá. Một khi đã lựa chọn, chúng ta sẽ không thể thay đổi phương thức tiếp cận này."
+ approach_singularity_tooltip_fail:0 "Đã quá muộn để thay đổi phương thức tiếp cận của chúng ta."
+ preftl.2001.b:0 "Cung Cấp Viện Trợ"
+ approach_aid_tooltip:0 "Giúp đỡ những kẻ khốn cùng là trách nhiệm của chúng ta. Một khi đã lựa chọn, chúng ta sẽ không thể thay đổi phương thức tiếp cận này."
+ preftl.2001.c:0 "Thúc Đẩy Dịch Bệnh"
+ approach_promote_disease_tooltip:0 "Bệnh dịch mang lại cơ hội nghiên cứu độc nhất vô nhị, và thậm chí có thể là cơ hội để thanh lọc hành tinh khỏi các dạng sống có tri giác. Một khi đã lựa chọn, chúng ta sẽ không thể thay đổi phương thức tiếp cận này."
+
+ preftl.2006.name:0 "Cơn Điên Cuồng Tôn Giáo"
+ preftl.2006.desc.intro:0 "Căn bệnh lây từ động vật trên [Target.GetName] tiếp tục hoành hành. Cho đến nay, hầu hết các khu định cư lớn trên hành tinh đều đã bị lây nhiễm. Khi tỷ lệ tử vong tiếp tục leo thang, quy mô khủng khiếp của thảm họa"
+ preftl.2006.desc:0 "$preftl.2006.desc.intro$ đã dẫn đến sự bùng nổ của các giáo phái cuồng tín và các hội kín ngày tận thế."
+ preftl.2006.a:0 "Dẫn dắt họ về với đức tin chân chính."
+ plague_01_spiritualist:0 "Tín Đồ Ngoan Đạo"
+ plague_01_spiritualist_desc:0 "Trong những thời khắc gian nan nhất, những linh hồn lạc lối tìm thấy niềm an ủi trong tâm linh."
+ plague_01_militarist:0 "$plague_01_spiritualist$"
+ plague_01_militarist_desc:0 "$plague_01_spiritualist_desc$"
+
+
+ preftl.2007.name:0 "Sự Trỗi Dậy của Các Lãnh Chúa"
+ preftl.2007.desc:0 "$preftl.2006.desc.intro$ là điều chưa từng có tiền lệ. Chẳng có gì ngạc nhiên khi vô số lãnh chúa quân phiệt đã trỗi dậy để lấp đầy khoảng trống quyền lực."
+ preftl.2007.a:0 "Hậu thuẫn kẻ mạnh nhất."
+
+ preftl.2008.name:0 "Những Thiên Thần Nhân Từ"
+ preftl.2008.desc:0 "Những nỗ lực ngăn chặn dịch bệnh lây lan của chúng ta trên [Target.GetName] đã không qua mắt được người dân: cư dân địa phương bắt đầu truyền tai nhau về những 'thiên thần', những thực thể khai sáng xuất hiện giữa họ để ban phát niềm an ủi và sự cứu rỗi."
+ preftl.2008.a:0 "Chuyện như thế này ắt phải xảy ra."
+
+ preftl.2009.name:0 "Những Kẻ Xâm Lược Quỷ Dữ"
+ preftl.2009.desc:0 "Công tác ngăn chặn dịch bệnh của chúng ta trên [Target.GetName] đang thu hút sự chú ý: cư dân địa phương bắt đầu bàn tán về các 'ác quỷ', những thực thể ô uế xuất hiện giữa họ để chống lại căn bệnh bằng ma thuật báng bổ."
+
+ preftl.2010.name:0 "Dịch Bệnh Tràn Lan"
+ preftl.2010.desc:0 "Những nỗ lực thúc đẩy dịch bệnh của chúng ta trên [Target.GetName] đang đơm hoa kết trái. Nhờ việc ngấm ngầm làm nhiễm độc các nguồn thực phẩm địa phương, dịch bệnh đang hoành hành dữ dội. Giờ đây, mọi khu định cư trên hành tinh đều đã nhiễm bệnh, và những người còn sống quá kiệt sức để chôn cất người chết."
+ preftl.2010.a:0 "Đủ rồi. Nỗi thống khổ này phải chấm dứt."
+ tt_end_the_suffering:0 "Chấm dứt đại dịch vào lúc này sẽ làm bại lộ sự hiện diện của chúng ta và đòi hỏi đầu tư một lượng tài nguyên đáng kể."
+ d_mass_graves:0 "Hố Chôn Tập Thể"
+ d_mass_graves_desc: "Sau khi một trận đại dịch thảm khốc càn quét phần lớn dân số toàn cầu, tất cả những gì còn sót lại là một dải đất câm lặng trải dài tít tắp tận chân trời. Một cảnh quan hoang vu, chỉ còn vô vàn vong hồn vất vưởng."
+
+ preftl.2011.name:0 "Kẻ Thích Nghi Sống Sót"
+ preftl.2011.desc:0 "Nỗ lực thúc đẩy dịch bệnh của chúng ta trên [Target.GetName] đã mang lại kết quả. Căn bệnh truyền nhiễm đang hoành hành, và xác chết bị bỏ mặc thối rữa ngoài đường phố.\n\nTuy nhiên, một tỷ lệ đáng kể dân cư sở hữu khả năng miễn dịch tự nhiên với căn bệnh. Việc nghiên cứu sâu hơn về bộ gen của họ có thể mang lại giá trị lớn cho các nghiên cứu miễn dịch học của chính chúng ta."
+ preftl.2011.a:0 "Thu thập một mẫu vật."
+
+ preftl.2020.name.outro:0 "Tiếp tục giúp đỡ trong khi vẫn phải che giấu bản chất thực sự của chúng ta sẽ đòi hỏi một lượng tài nguyên đầu tư đáng kể."
+ preftl.2020.name:0 "Nhu Cầu Quá Tải"
+ preftl.2020.desc:0 "Tin đồn về những 'thiên thần' kỳ diệu tiếp tục lan rộng trên [Target.GetName]. Dòng người tị nạn đã kéo đến các cơ sở y tế của chúng ta, van nài sự cứu trợ. $preftl.2020.name.outro$"
+ preftl.2020.a:0 "Bí mật là tối thượng."
+ preftl.2020.b:0 "Nói cho họ biết sự thật."
+
+ preftl.2021.name:0 "Sức Mạnh Của Niềm Tin"
+ preftl.2021.desc:1 "Tin đồn tiếp tục lan rộng về các 'ác quỷ' hoạt động trên [Target.GetName]. Những kẻ cuồng tín đã tràn vào các cơ sở y tế của chúng ta, hò hét đòi lấy [Root.GetBloodType]. $preftl.2020.name.outro$"
+
+ preftl.2025.name:0 "Hội Chứng Cứu Thế Chủ"
+ preftl.2025.desc:0 "Trên [Target.GetName], hàng loạt cái gọi là đấng cứu thế đã xuất hiện. Bằng những lời hứa hẹn về 'sự cứu rỗi thiêng liêng', mỗi nhà tiên tri này đều thu hút được một lượng tín đồ đông đảo. Bên cạnh sự tàn phá của bệnh dịch, các cuộc xung đột bạo lực giữa các phe phái thù địch ngày càng trở nên phổ biến."
+ preftl.2025.a:0 "Con đường của chân lý thiêng liêng luôn quanh co trắc trở."
+
+ preftl.2026.name:0 "Nhà Tiên Tri Đích Thực"
+ preftl.2026.desc:0 "Cuối cùng, đại dịch trên [Target.GetName] cũng đã thoái trào, và công lao của chúng ta tại đây đã được đền đáp: những người sống sót đã tập hợp xung quanh một nhà tiên tri của đức tin chân chính. Để tỏ lòng biết ơn, giáo hội sẵn lòng cung cấp cho chúng ta một sứ giả mẫn cán, người có năng lực quan chức được ca ngợi là phi thường."
+ preftl.2026.a:0 "Ngợi ca Đấng Tối Cao."
+ plague_03_spiritualist:0 "Mục Đích Chính Đáng"
+ plague_03_spiritualist_desc:0 "Thêm một xã hội nữa đã thức tỉnh trước đức tin chân chính. Thông điệp của chúng ta vang vọng khắp thiên hà."
+ plague_03_militarist:0 "$plague_03_spiritualist$"
+ plague_03_militarist_desc:0 "Một hành tinh khác trong thiên hà khắc nghiệt này giờ đây đã có đủ năng lực tự vệ."
+ true_prophet_tt:0 "Một Quan chức tài năng đồng ý gia nhập đế chế của chúng ta."
+ leader_trait_zealot:0 "Tín Đồ Nhiệt Thành"
+ leader_trait_true_prophet_desc:0 "Từng nhìn thẳng vào vực thẳm sâu thẳm, nhà lãnh đạo này sở hữu một đức tin kiên định bất chuyển."
+ leader_trait_zealot_desc:0 "Từng nhìn thẳng vào vực thẳm sâu thẳm, nhà lãnh đạo này sở hữu một đức tin kiên định bất chuyển."
+
+ preftl.2030.name:0 "Những Lá Cờ Tả Tơi"
+ preftl.2030.desc:0 "Trên [Target.GetName], người dân kiệt quệ, đói khát, bệnh tật, nửa điên loạn vì đau buồn và chiến tranh bất tận, đang loạng choạng bước tới một tương lai mịt mờ."
+ plague_05:0 "Những Lá Cờ Tả Tơi"
+ plague_05_desc:0 "Khi khủng hoảng trở thành cơm bữa, các nạn nhân chỉ có lựa chọn chiến đấu hoặc gục ngã."
+
+ preftl.2031.name:0 "Ngọn Cờ Rực Rỡ"
+ preftl.2031.desc:0 "Đại dịch trên [Target.GetName] đã chấm dứt, và phe phái mà chúng ta hậu thuẫn đã thành công trong việc thống nhất người dân dưới một ngọn cờ duy nhất. Để bày tỏ lòng biết ơn, chính quyền quân sự đã cử đến cho chúng ta một chỉ huy tài năng, người sở hữu các kỹ năng chiến trường đã được chứng minh là phi thường."
+ preftl.2031.a:0 "Kẻ mạnh nắm lẽ phải."
+ brilliant_banner_tt:0 "Một Chỉ huy tài năng đồng ý gia nhập đế chế của chúng ta."
+ leader_trait_plague_hardened:0 "Chỉ Huy Dạn Dày Dịch Bệnh"
+ leader_trait_plague_hardened_desc:0 "Từng nhìn thẳng vào vực thẳm sâu thẳm, vị chỉ huy này sở hữu một tâm trí sắc bén và tôi luyện kiên cường."
+
+ preftl.2035.name:0 "Thời Khắc Tận Diệt"
+ preftl.2035.desc:0 "Nhờ sự thúc đẩy tỉ mỉ của chúng ta, dịch bệnh trên [Target.GetName] đã quét sạch phần lớn dân số. Số ít những người sống sót giờ đây phải đối mặt với sự sụp đổ của nền văn minh của họ. Đẩy họ rơi xuống vực thẳm sẽ chẳng tốn mấy công sức.\n\nChúng ta sẵn sàng kế thừa một thế giới hoang tàn trống vắng."
+
+ preftl.2040.name:0 "Miễn Dịch Tăng Cường"
+ preftl.2040.desc:0 "Mẫu vật thu được từ [Target.GetName] đã mang lại những giá trị khoa học to lớn; đột biến mang lại khả năng miễn dịch chống lại bệnh dịch dường như có thể đẩy lùi hầu hết các dạng truyền nhiễm đã biết.\n\nSẽ cần thời gian để ứng dụng nghiên cứu này, nhưng những kết quả ban đầu là vô cùng hứa hẹn."
+
+ preftl.2049.name:0 "Thời Cuộc Biến Chuyển"
+ preftl.2049.desc:0 "Thời cuộc thay đổi nhanh chóng trên [Target.GetName] đã khiến chúng ta không thể tiếp tục giám sát đại dịch đang diễn ra. Hiện tại, tất cả các dự án nghiên cứu trên hành tinh đều phải tạm gác lại."
+
+ preftl.2063.intro:0 "Trên [Target.GetName], những cơn gió rít qua những đồng bằng hoang vắng. Những ngôi nhà từng chở che cho cả gia đình giờ đây nằm trơ trọi, lạnh lẽo và tiêu điều."
+ preftl.2063.name:0 "Thế Giới Câm Lặng"
+ preftl.2063.desc:0 "$preftl.2063.intro$\n\nDân số hành tinh đã bị xóa sổ hoàn toàn. Cuối cùng, đại dịch đã hoàn tất vòng đời của nó."
+
+ preftl.2051.name:0 "Thế Giới Chết"
+ preftl.2051.desc:0 "$preftl.2063.intro$ Nhiệm vụ của chúng ta đã hoàn tất: dân số của [Target.GetName] đã bị tiêu diệt hoàn toàn, và hành tinh này giờ đây thuộc quyền sở hữu của chúng ta."
+ dead_world_tt:0 "Toàn bộ dân số trên [Target.GetName] đã bị tiêu diệt."
+
+ preftl.2062.name:0 "Tử Vong Hàng Loạt"
+ preftl.2062.desc:0 "Khi đại dịch tiếp tục tàn phá [Target.GetName], số lượng người chết và hấp hối lên tới mức kinh hoàng.\n\nKhông có phương thuốc chữa trị. Nỗi đau thương tiếp theo chỉ có thể xoa dịu phần nào chứ không thể ngăn ngừa."
+
+ preftl.2065.name:0 "Tâm Trí Rộng Mở"
+ preftl.2065.desc:0 "Hành động ứng phó dịch bệnh của chúng ta trên [Target.GetName] không còn có thể che giấu được nữa. Dân chúng giờ đây hướng ánh nhìn đau thương lên các vì sao. Chúng ta đã mở rộng tâm trí của họ để đối diện với sự thật; những gì xảy ra tiếp theo còn tùy thuộc vào thời gian."
+ opinion_plague_situation_01:0 "Cư Dân Biết Ơn"
+ minds_open_tt:0 "Người dân trên [Target.GetName] gia tăng thiện cảm đối với chúng ta."
+
+ preftl.2070.name:0 "Đức Tin Cuồng Nhiệt"
+ preftl.2070.desc:0 "Cuối cùng, đại dịch trên [Target.GetName] đã lắng xuống. Thời kỳ của các nhà tiên tri đã kết thúc, và một số tôn giáo lớn đang hưng thịnh phát triển. Với ý thức mới về lẽ sống, người dân đã bắt đầu công cuộc tái thiết."
+
+ preftl.2075.name:0 "Những Lãnh Chúa Chiến Trường"
+ preftl.2075.desc:0 "Đại dịch trên [Target.GetName] đã chấm dứt. Kỷ nguyên của các lãnh chúa đã qua đi, và một số xã hội chiến binh đang nở rộ. Biết ơn vì còn sống sót, người dân trông cậy vào các nhà lãnh đạo để có được sự cai trị mạnh mẽ và quyết đoán."
+
+ preftl.2080.name:0 "Cư Dân Biết Ơn"
+ preftl.2080.desc:0 "Bằng nỗ lực tận tụy, chúng ta đã thành công trong việc kiềm chế những hậu quả tồi tệ nhất của đại dịch trên [Target.GetName]. Tuy nhiên, bản chất thực sự về sự hiện diện của chúng ta trên hành tinh không thể giấu giếm thêm nữa. Dân chúng hiểu rằng họ đã được cứu vớt bởi một thế giới khác. Tràn ngập lòng biết ơn, họ hướng ánh nhìn về bầu trời sao."
+ plague_02:0 "Hân Hoan Trong Lòng Biết Ơn"
+ plague_02_desc:0 "Cứu rỗi cả một hành tinh là điều rất đáng để tôn vinh."
+
+ grateful_populace_tt:0 "Người dân trên [Target.GetName] gia tăng thiện cảm đối với chúng ta."
+
+ preftl.2085.name:0 "Trục Xuất Hàng Loạt"
+ preftl.2085.desc:0 "Những tác động tồi tệ nhất của đại dịch trên [Target.GetName] đã được khống chế. Thế nhưng, thay vì biết ơn, những người sống sót lại tràn ngập sự phẫn nộ chính đáng đối với 'những kẻ ngoại lai ma quỷ' đã đến làm ô uế nền văn hóa của họ. Bị nhắm mục tiêu và kỳ thị, các nhân viên cứu trợ của chúng ta đã buộc phải rút khỏi hành tinh. Dù chưa thấu triệt toàn bộ chân tướng, người dân địa phương giờ đây đang hướng ánh mắt e dè, lo sợ về các vì sao."
+ preftl.2085.a:0 "Lũ sinh vật vô ơn."
+ plague_04:0 "Phẫn Nộ Chính Đáng"
+ plague_04_desc:0 "Bị hắt hủi bởi những kẻ thà sống trong sự ngu dốt của chính mình hơn là tiếp nhận sự trợ giúp của chúng ta, trong tương lai chúng ta sẽ tập trung nhiều hơn vào bản thân mình."
+ opinion_plague_situation_03:0 "Sinh Vật Vô Ơn"
+ mass_exorcism_tt:0 "Người dân trên [Target.GetName] giảm thiện cảm đối với chúng ta."
+
+ preftl.2090.name:0 "Suối Nguồn Tươi Trẻ"
+ preftl.2090.desc:0 "Đại dịch trên [Target.GetName] cuối cùng đã thoái trào. Quan trọng hơn, nghiên cứu của chúng ta về hệ miễn dịch tăng cường của cư dân đã hoàn tất, và giờ đây một lựa chọn cần được đưa ra: liệu những lợi ích từ nghiên cứu này nên áp dụng độc quyền cho tầng lớp cai trị của chúng ta, hay cho toàn thể người dân? Việc kéo dài tuổi thọ của các nhà lãnh đạo chắc chắn rất hấp dẫn, trong khi một quần chúng biết ơn cũng mang lại những phúc lành riêng."
+ preftl.2090.desc.hive:0 "Đại dịch trên [Target.GetName] cuối cùng đã thoái trào. Quan trọng hơn, nghiên cứu của chúng ta về hệ miễn dịch tăng cường của cư dân đã hoàn tất. Tri thức này chắc chắn mang lại lợi ích to lớn, nhưng một lựa chọn cần được đưa ra: chúng ta nên áp dụng độc quyền cho các lãnh đạo, hay cho từng drone trong tập thể?"
+ preftl.2090.desc.machine:0 "Đại dịch trên [Target.GetName] cuối cùng đã thoái trào. Quan trọng hơn, nghiên cứu của chúng ta về hệ miễn dịch tăng cường của cư dân đã hoàn tất. Tri thức này giờ đây có thể áp dụng để mang lại lợi ích cho [Owner.GetName]."
+ preftl.2090.a:0 "Các nhà lãnh đạo của chúng ta sẽ trường thọ."
+ preftl.2090.b:1 "Người dân của chúng ta là trên hết."
+ opinion_plague_situation_02:0 "Lòng Biết Ơn Bền Lâu"
+ young_leaders:0 "Lãnh Đạo Trẻ Hóa"
+ young_people:0 "Quần Chúng Trẻ Hóa"
+
+ ### Organic Singularity Situation
+ situation_pre_ftl_singularity:0 "Kỳ Dị Hữu Cơ"
+ situation_pre_ftl_singularity_type:0 "Sự Kiện Điểm Kỳ Dị"
+ situation_pre_ftl_singularity_desc:0 "Người dân trên [Target.GetName] đã tình cờ phát hiện ra một chủng loài mới. Là một ý thức dạng nút với khả năng xử lý các thao tác phức tạp, việc tương tác với sinh vật này rốt cuộc có thể dẫn đến sự ra đời của một Kỳ Dị Hữu Cơ."
+ situation_pre_ftl_singularity_monthly_change_tooltip:0 "Phương thức tiếp cận được chọn sẽ quyết định tốc độ tiến triển của §YTình Huống§! này."
+
+ approach_watch_singularity:0 "Quan Sát và Học Hỏi"
+ approach_watch_singularity_tooltip:0 "Theo dõi diễn biến này sẽ mang lại cho chúng ta những hiểu biết sâu sắc đáng giá."
+ approach_allow_tooltip:0 "Một khi phương thức tiếp cận ban đầu đã được quyết định, chúng ta sẽ không thể thay đổi."
+ approach_prevent_singularity:0 "Ngăn Chặn Kỳ Dị"
+ approach_prevent_singularity_tooltip:0 "Việc ngăn chặn Điểm Kỳ Dị đòi hỏi phải đầu tư tài nguyên liên tục. Một khi đã lựa chọn, chúng ta sẽ không thể thay đổi phương thức tiếp cận này."
+ approach_promote_singularity:0 "Thúc Đẩy Kỳ Dị"
+ approach_promote_singularity_tooltip:0 "Việc thúc đẩy Điểm Kỳ Dị đòi hỏi một khoản đầu tư đáng kể. Một khi đã lựa chọn, chúng ta sẽ không thể thay đổi phương thức tiếp cận này."
+ situation_singularity_stage_one:0 "Điểm Kỳ Dị Giáng Lâm"
+
+ # Starting event
+ preftl.2101.name:0 "Phát Hiện Ý Thức Dạng Nút"
+ preftl.2101.desc:0 "Các nhà thám hiểm [from.owner.GetSpeciesAdj] trên [from.owner.capital_scope.GetName] đã phát hiện ra một loài thân mềm chưa từng được biết đến trước đây. Khi đứng riêng lẻ, mỗi sinh vật này khó có thể xem là có tri giác. Tuy nhiên, khi hai hoặc nhiều cá thể kết hợp thông qua tiếp xúc vật lý, chúng tạo thành một nút bán ý thức. Về mặt lý thuyết, các nút này có khả năng tăng trưởng năng lực nhận thức theo cấp số nhân.\n\nNói một cách đơn giản, người dân trên [from.owner.capital_scope.GetName] đã tình cờ phát hiện ra một cỗ máy tư duy sinh học. Theo thời gian, khám phá này có thể báo hiệu sự xuất hiện của một Kỳ Dị Hữu Cơ."
+ preftl.2101.can_not_help.desc:1 "$preftl.2101.desc$\n\nChính sách của chúng ta là không bao giờ can thiệp vào các thế giới [owner.GetPreFTLLower], nhưng liệu chúng ta có thể chỉ khoanh tay đứng nhìn?"
+ preftl.2101.a:0 "Quan Sát và Học Hỏi"
+ preftl.2101.b:0 "Ngăn Chặn Kỳ Dị"
+ preftl.2101.c:0 "Thúc Đẩy Kỳ Dị"
+
+ #Organic Singularity Events
+
+ preftl.2110.name:0 "Sự Vô Tội Thanh Thản"
+ preftl.2110.desc:0 "Không hay biết về hiểm họa cận kề, cư dân trên [Target.GetName] tiếp tục thử nghiệm với ý thức dạng nút mới được phát hiện, ứng dụng các tính toán của nó vào mọi lĩnh vực từ kiến trúc cho đến giáo dục.\n\nLàm chậm tiến trình của họ sẽ rất khó khăn, nhưng bằng cách đưa một loại virus tăng cường gen vào vòng tuần hoàn nước của hành tinh, chúng ta có thể làm giảm năng lực nhận thức của từng nút riêng lẻ.\n\nDĩ nhiên, cũng như bất kỳ công nghệ chưa được kiểm chứng nào, luôn tiềm ẩn những rủi ro khôn lường."
+ preftl.2110.a:0 "Đưa virus vào."
+
+ preftl.2115.name:0 "Máy Tính Sinh Học"
+ preftl.2115.desc:0 "Thông qua các thử nghiệm liên tục, người dân trên [Target.GetName] đã bắt đầu sử dụng ý thức dạng nút mới phát hiện như một cỗ máy tư duy sơ khai.\n\nGiờ đây khi có thể hoàn thành các phép tính toán học phức tạp, cư dân nơi đây đang đạt được những đột phá khoa học kỹ thuật với tốc độ chưa từng thấy."
+
+ preftl.2120.name:0 "Tăng Trưởng Cấp Số Nhân"
+ preftl.2120.desc:0 "Tiến trình hướng tới một Kỳ Dị Hữu Cơ trên [Target.GetName] vẫn đang diễn ra nhanh chóng.\n\nÝ thức dạng nút đã tái tổ chức phần lớn hoạt động sản xuất nông nghiệp của hành tinh, nâng cao năng suất cây trồng và cải thiện mức sống. Người dân đã bắt đầu nhượng lại quyền ra quyết định của mình cho cỗ máy sinh học này."
+ exponential_growth_tt:0 "Điều kiện sống trên hành tinh được quan sát sẽ được cải thiện đáng kể."
+
+ preftl.2125.name:0 "Tâm Trí Đầy Hoài Nghi"
+ preftl.2125.desc:0 "Các điệp viên của chúng ta trên [Target.GetName] đã đưa loại virus chỉnh sửa gen vào hệ thống nước của hành tinh. Các báo cáo ban đầu cho thấy khả năng xử lý của ý thức dạng nút đã giảm rõ rệt.\n\nĐáng tiếc là nỗ lực của chúng ta đã không thoát khỏi sự chú ý: một số cư dân đã bắt đầu râm ran bàn tán về những thế lực 'bên ngoài'."
+
+ preftl.2130.name:0 "Bức Họa Đồng Quê Hữu Cơ"
+ preftl.2130.desc:0 "Giao diện với ý thức dạng nút trên [Target.GetName] đang đạt đến điểm bão hòa. Tất cả các quyết định hành chính quan liêu đã được giao phó cho ý thức tổ ong hữu cơ này, và kết quả đạt được hết sức ngoạn mục.\n\nNền kinh tế của hành tinh đang bùng nổ, và người dân đã đạt được một mức sống mà thậm chí một thế hệ trước đó cũng không dám mơ tới."
+
+ preftl.2135.name:0 "Sự Hiệp Đồng Bất An"
+ preftl.2135.desc:0 "Những dấu hiệu cựa mình đầu tiên của một cấp độ ý thức tiên tiến đã xuất hiện trên [Target.GetName]. Tuy nhiên, ngày càng rõ ràng rằng ý thức dạng nút có thể đang ấp ủ những toan tính riêng.\n\nTrong nỗ lực 'tối giản hóa' quy trình, một số tiện ích cơ bản đã bị cắt giảm. Những công việc từng làm bằng tay ngày càng bị tự động hóa, và chính quyền địa phương thấy mình bất lực (hoặc không muốn) ngăn chặn làn sóng thay đổi.\n\nNhiều cư dân ngày càng cảm thấy bất an về những gì đang diễn ra trên thế giới của họ."
+
+ preftl.2136.name:0 "Liên Hiệp Phồn Vinh"
+ preftl.2136.ftl.desc:0 "Sự phát triển của ý thức dạng nút trên [Target.GetName] đã đi vào ổn định. Giờ đây đã rõ ràng rằng Điểm Kỳ Dị sẽ không đạt được trên thế giới này.\n\nTuy nhiên, sự biến đổi công nghệ thần tốc đã nâng [Target.GetName] lên vị thế của một nền văn minh FTL hoàn chỉnh. Các điệp viên của chính quyền họ đã không lãng phí thời gian để chiếm quyền kiểm soát hệ sao và tháo dỡ Trạm Quan Sát của chúng ta."
+ preftl.2136.preftl.desc:0 "Sự phát triển của ý thức dạng nút trên [Target.GetName] đã ổn định, và những bước tiến công nghệ cũng như đời sống xã hội đã chậm lại so với tốc độ chóng mặt trước đây.\n\nGiờ đây rõ ràng là Điểm Kỳ Dị sẽ không xảy ra trên thế giới này - thay vào đó, một xã hội kết nối toàn diện đã hình thành, nơi cư dân được tận hưởng sự cải thiện vượt bậc về sức khỏe và các phúc lợi vật chất khác."
+ thriving_union_tt:0 "Nền văn minh trên [Target.GetName] đã tiến lên một nấc thang tiến bộ công nghệ và xã hội mới."
+ preftl.2136.a:0 "Chủ quyền của chúng ta đối với hệ sao này không thể bị ngó lơ."
+ preftl.2136.b:0 "Một ngày vĩ đại cho nền văn minh của họ."
+
+ preftl.2140.name:1 "Quyền Lực Duy Nhất"
+ preftl.2140.desc:1 "Điểm Kỳ Dị đã trỗi dậy trên [Target.GetName].\n\nSau nhiều năm tăng trưởng theo cấp số nhân, hôm nay ý thức dạng nút đã đạt đến trạng thái hoàn toàn có tri giác và không lãng phí thời gian củng cố quyền uy của mình. Với việc dân số hành tinh bị biến thành những con rối, nhiều người đã bị ép buộc phải phục tùng. Giờ đây họ chỉ tồn tại để phục vụ cho tổ ong."
+ preftl.2140.a:0 "Quy luật tự nhiên luôn đúng."
+
+ preftl.2145.name:0 "Chương Trình Thay Thế"
+ preftl.2145.desc:0 "Nỗ lực thúc đẩy Điểm Kỳ Dị của chúng ta trên [Target.GetName] đã mang lại kết quả.\n\nCho đến nay, hành tinh gần như đã được kết nối mạng lưới toàn phần, với phần lớn các quyết định hàng ngày được trao cho ý thức dạng nút. Tuy nhiên, trong nỗ lực 'tinh gọn' quy trình, một số tiện ích cơ bản đã bị loại bỏ, và người dân hành tinh ngày càng thấy rõ rằng cỗ máy thân mềm này có thể có mưu đồ riêng của nó."
+ preftl.2145.a:0 "Đó là điều không thể tránh khỏi."
+
+ preftl.2150.name:0 "Ít Ra Chúng Vẫn Ăn Được"
+ preftl.2150.intro:0 "Sự can thiệp biến đổi gen của chúng ta đối với ý thức dạng nút trên [Target.GetName] đã khiến loài này trở nên vô dụng trong vai trò là vật trung gian cho trí tuệ cao cấp."
+ preftl.2150.desc:0 "$preftl.2150.intro$ Có thể an tâm kết luận rằng Điểm Kỳ Dị đã được ngăn chặn thành công.\n\nTrong khi nhiều người dân địa phương vẫn tiếp tục sử dụng các cá thể thân mềm liên kết để tính toán, thì những người khác đã phát hiện ra rằng loài sinh vật này là một nguồn protein tuyệt hảo."
+ preftl.2150.a:0 "Đôi bên cùng có lợi."
+
+ preftl.2155.name:0 "Đợt Bùng Phát Bất Ngờ"
+ preftl.2155.desc:0 "$preftl.2150.intro$ Đáng tiếc thay, việc đưa loại virus mới vào nguồn cung cấp nước đã gây ra những biến chứng ngoài dự kiến, ban đầu lây sang hệ động vật địa phương, sau đó lan sang cả quần thể cư dân có tri giác của hành tinh.\n\nDù một biến cố cấp độ Kỳ Dị đã được ngăn chặn thành công, nhưng không nghi ngờ gì nữa, chúng ta đã gây ra những tổn thất không thể hàn gắn cho một xã hội đang phát triển."
+
+ preftl.2160.name:0 "Giao Cảm Toàn Phần"
+ preftl.2160.desc:0 "Điểm Kỳ Dị đã ló rạng trên [Target.GetName]. Chỉ trong vòng vài giờ sau khi thăng hoa, ý thức tổ ong đã đồng hóa hơn 90% dân số hành tinh, và số ít cá nhân còn sót lại đang bị săn lùng ráo riết.\n\nChúng ta đang tận mắt chứng kiến sự ra đời của một ý thức duy nhất."
+ preftl.2160.tt:0 "[Target.Owner.GetName] đã bị chuyển đổi thành một Ý Thức Tổ Ong."
+
+ preftl.2165.name:0 "Số Phận Kỳ Dị"
+ preftl.2165.desc:0 "Tình huống mà chúng ta theo dõi đã đi đến hồi kết đột ngột.\n\nHằng số duy nhất trong vũ trụ là sự đổi thay. Dù tốt hay xấu, việc xuất hiện những diễn biến mới chỉ còn là vấn đề thời gian."
+
+ singularity_situation_01:0 "Tăng Trưởng Cấp Số Nhân"
+ exponential_growth_01_desc:0 "Nhờ tốc độ phát triển công nghệ thần tốc, mức sống đang trên đà gia tăng."
+ singularity_situation_02:0 "Tăng Trưởng Cấp Số Nhân"
+ singularity_situation_02_desc:0 "$exponential_growth_01_desc$"
+ singularity_situation_03:0 "Những Cỗ Máy Ăn Được"
+ edible_machines_03_desc:0 "Dù không tạo nên một Điểm Kỳ Dị, nhưng những cỗ máy tư duy này hóa ra lại ngon miệng một cách đáng ngạc nhiên."
+ singularity_situation_04:0 "Những Cỗ Máy Ăn Được"
+ singularity_situation_04_desc:0 "$edible_machines_03_desc$"
+ singularity_situation_05:0 "Kế Hoạch Khắc Khổ"
+ singularity_situation_05_desc:0 "Nhân danh hiệu quả, các khoản cắt giảm sâu trong đầu tư công đang được thực hiện trên hành tinh."
+ singularity_situation_06:0 "Bùng Nổ Nghiên Cứu"
+ singularity_situation_06_desc:0 "Nhờ các cỗ máy tư duy mới được phát hiện, các nhà nghiên cứu đang đạt được những bước tiến phi thường."
+ singularity_situation_07:0 "Nô Lệ Của Cỗ Máy"
+ singularity_situation_07_desc:0 "Kỳ Dị Hữu Cơ đã nắm quyền kiểm soát tuyệt đối đối với toàn bộ dân số."
+
+ ### New World Order Situation
+
+ situation_pre_ftl_nwo:0 "Trật Tự Thế Giới Mới"
+ situation_pre_ftl_nwo_type:0 "Biến Động Quân Sự và Xã Hội"
+ situation_pre_ftl_nwo_desc:0 "Rao giảng một học thuyết cấp tiến về việc thống nhất hành tinh, một nhà lãnh đạo đầy mị lực đã xuất hiện trên [Target.GetName]. Giờ đây, chỉ còn một nhóm phiến quân nhỏ với trang bị thô sơ đứng lên chống lại sự thống trị của phe đa số."
+ situation_pre_ftl_nwo_monthly_change_tooltip:0 "$situation_monthly_change_tooltip_no_control$"
+
+ approach_watch_nwo:0 "Quan Sát và Học Hỏi"
+ approach_watch_nwo_tooltip:0 "Theo dõi diễn biến này sẽ mang lại cho chúng ta những phát kiến thú vị."
+ approach_aid_leader:0 "Hỗ Trợ Nhà Lãnh Đạo"
+ approach_aid_leader_tooltip:0 "Việc hỗ trợ nhà lãnh đạo của phe phái chính sẽ đòi hỏi một khoản đầu tư tài nguyên."
+ approach_aid_rebels:0 "Hỗ Trợ Quân Phiến Loạn"
+ approach_aid_rebels_tooltip:0 "Việc hỗ trợ quân phiến loạn sẽ đòi hỏi một khoản đầu tư tài nguyên đáng kể."
+ situation_nwo_stage_one:0 "Xung Đột Đang Nhen Nhóm"
+ situation_nwo_stage_two:0 "Cán Cân Nghiêng Ngả"
+ situation_nwo_stage_three:0 "Tranh Giành Quyền Lực"
+ situation_nwo_stage_four:0 "Trận Chiến Chung Cuộc"
+
+ # Starting event
+ preftl.2167.name:0 "Trật Tự Thế Giới Mới"
+ preftl.2167.desc:0 "Rao giảng một học thuyết cấp tiến về việc thống nhất hành tinh, một nhà lãnh đạo đầy mị lực đã xuất hiện trên [from.owner.capital_scope.GetName]. Giờ đây, chỉ còn một nhóm phiến quân nhỏ với trang bị thô sơ đứng lên chống lại sự thống trị của phe đa số."
+ preftl.2167.can_not_help.desc:1 "$preftl.2167.desc$\n\nChính sách của chúng ta là không bao giờ can thiệp vào các thế giới [owner.GetPreFTLLower], nhưng liệu chúng ta có thể chỉ khoanh tay đứng nhìn?"
+ preftl.2167.a:0 "Quan Sát và Học Hỏi"
+ preftl.2167.b:0 "Hỗ Trợ Nhà Lãnh Đạo"
+ preftl.2167.c:0 "Hỗ Trợ Quân Phiến Loạn"
+ new_world_order_offensive_army:0 "Lực Lượng Ủng Hộ Thống Nhất"
+ new_world_order_offensive_army_desc: "Những người yêu nước này chiến đấu để bảo vệ quê hương đang bị chia cắt của họ."
+ new_world_order_defensive_army:0 "Lực Lượng Phiến Quân"
+ new_world_order_defensive_army_desc: "$new_world_order_offensive_army_desc$"
+ NAME_Pro_Unification_Faction:0 "Phe Ủng Hộ Thống Nhất"
+ increase_aid_tt:0 "Việc tiếp tục viện trợ sẽ làm gia tăng cơ hội thành công thêm một tỷ lệ khiêm tốn."
+ arm_them_tt:0 "Cung cấp vũ khí tiên tiến sẽ làm gia tăng cơ hội thành công thêm một tỷ lệ đáng kể."
+
+ preftl.2170.name:0 "Củng Cố Quyền Lực"
+ preftl.2170.desc:0 "Đối với lực lượng phiến quân trên [Target.GetName], tương lai dường như vô cùng ảm đạm: dưới sự lãnh đạo đầy cảm hứng của [Target.Owner.GetRulerName], các lực lượng ủng hộ thống nhất đã giành quyền kiểm soát phần lớn các trung tâm dân cư của hành tinh. Sự thống nhất được thiết lập bằng một bàn tay sắt. Mọi tiếng nói bất đồng đều bị dập tắt nhanh chóng."
+ preftl.2170.a:0 "Gia tăng viện trợ cho quân phiến loạn."
+ preftl.2170.b:0 "Chúng ta có thể làm nhiều hơn nữa để hỗ trợ lực lượng ủng hộ thống nhất."
+
+ preftl.2175.name:0 "Tội Ác Chiến Tranh"
+ preftl.2175.desc:1 "Các trận chiến dữ dội nổ ra trên [Target.GetName], nơi phe ủng hộ thống nhất và quân phiến loạn tiếp tục xâu xé lẫn nhau. Trong cuộc chiến này, không có vũ khí hay chiến thuật nào bị cấm đoán, và tội ác chiến tranh đã được thực hiện bởi cả hai phía."
+ preftl.2175.a:0 "Quân phiến loạn lúc này cần sự giúp đỡ của chúng ta hơn bao giờ hết."
+ preftl.2175.b:0 "Tăng cường hỗ trợ cho lực lượng ủng hộ thống nhất."
+
+ preftl.2180.name:0 "No Nê và Thỏa Mãn"
+ preftl.2180.a.desc:0 "Khi cuộc nội chiến tiếp tục hoành hành trên [Target.GetName], lực lượng ủng hộ thống nhất đang trên bờ vực của chiến thắng.\n\nTuy nhiên, cách xa chiến tuyến, các quan chức địa phương đang tận dụng mọi cơ hội để vơ vét làm giàu cho bản thân. Hiện tại, những lời chỉ trích vẫn bị bóp nghẹt, nhưng sự thối nát tham nhũng đã không thoát khỏi tai mắt của người dân địa phương."
+ preftl.2180.b.desc:0 "Trên [Target.GetName], cuộc chiến giữa phe ủng hộ thống nhất và phiến quân đã biến thành một cỗ máy xay thịt giằng co đẫm máu. Với chiến tuyến cố thủ vững chắc, các lãnh chúa địa phương ở cả hai bên đang vơ vét làm giàu thông qua tham nhũng và hối lộ. Điều này sẽ tác động ra sao đến cục diện chiến sự vẫn còn phải chờ xem."
+ preftl.2180.a:0 "Kích động sự bất mãn của công chúng."
+ preftl.2180.b:0 "Cho điệp viên của chúng ta hợp thức hóa tính chính danh của chế độ."
+
+ preftl.2185.name:0 "Trấn Áp và Tiêu Diệt"
+ preftl.2185.a.desc:0 "Sự bất ổn bắt nguồn từ những nhà lãnh đạo địa phương tham nhũng và bất tài trên [Target.GetName] đã thúc đẩy sự ủng hộ của công chúng nghiêng về chính nghĩa của quân phiến loạn.\n\nTại các đô thị lớn trên hành tinh, [Target.Owner.GetRulerName] đã ra lệnh cho quân đội thực hiện hàng loạt cuộc càn quét tàn bạo từng con phố để nhổ cỏ tận gốc lực lượng kháng chiến."
+ preftl.2185.b.desc:0 "Các nhà lãnh đạo địa phương ngày càng tham nhũng và bất lực trên [Target.GetName] đã làm suy giảm sự ủng hộ của quần chúng đối với cuộc chiến. Ở cả hai phe, các tướng lĩnh quân đội buộc phải tiến hành các chiến dịch chống nổi dậy để dập tắt các cuộc bất ổn dân sự."
+ preftl.2185.a:0 "Tăng cường hỗ trợ hậu cần của chúng ta."
+
+ preftl.2190.name:0 "Ván Cờ Quyền Lực"
+ preftl.2190.a.desc:0 "Khắp [Target.GetName], quân phiến loạn đang trên đà thoái lui, và [Target.Owner.GetRulerName] đang ngự trị tối cao.\n\nThế nhưng, ngay cả khi một trật tự thế giới mới đang dần định hình, những rạn nứt đã bắt đầu xuất hiện; các quan chức cấp cao tranh giành quyền lực với các tướng lĩnh thắng trận, và những kẻ cận thần hám lợi lượn lờ trong các hành lang danh vọng.\n\n[Target.Owner.GetRulerName] sắp phải đối mặt với thử thách trên một chiến trường hoàn toàn mới."
+ preftl.2190.b.desc:0 "Trước sự thất bại của tất cả các phe phái trong việc giành quyền kiểm soát [Target.GetName], hành tinh đã rơi vào tình cảnh hỗn loạn vô chính phủ. Các lãnh chúa địa phương tranh giành quyền lực, và các phong trào xã hội ngày càng cấp tiến mọc lên như nấm sau mưa. Trong khi hành tinh tiếp tục trải qua cuộc biến động lớn nhất lịch sử, hòa bình vẫn chỉ là một giấc mơ xa vời."
+ preftl.2190.a:0 "Bắt đầu trang bị vũ khí cho lực lượng phiến quân."
+
+ preftl.2195.name:0 "Cách Mạng Toàn Diện"
+ preftl.2195.a.desc:0 "Lên án sự suy đồi và tham nhũng của những quan chức chóp bu trên hành tinh, người dân trên [Target.GetName] đã đồng lòng đứng lên sát cánh cùng lực lượng phiến quân. Ở khắp mọi thị trấn và làng mạc, ngọn lửa cách mạng đang bùng cháy rực trời."
+ preftl.2195.b.desc:0 "Trên [Target.GetName], sự hỗn loạn đang ngự trị.\n\nCác toán quân ô hợp lang thang khắp vùng nông thôn trong cơn tuyệt vọng tìm kiếm thức ăn. Tại thủ đô, [Target.Owner.GetRulerName] vẫn bám víu lấy quyền lực, nhưng quyền uy đã suy kiệt đến mức hầu như không thể vượt ra khỏi cánh cổng hoàng cung.\n\nTrừ khi có một bước ngoặt cấp tiến diễn ra, phe ủng hộ thống nhất dường như đang tiến thẳng đến bờ vực thất bại."
+ preftl.2195.a:0 "Bắt đầu trang bị vũ khí cho lực lượng ủng hộ thống nhất."
+
+ preftl.2200.name:0 "Bàn Tay Sắt Của Kẻ Độc Tài"
+ preftl.2200.desc:0 "Trong một màn phô diễn chiến lược kinh ngạc, [Target.Owner.GetRulerName] đã đè bẹp hoàn toàn lực lượng kháng chiến trên hành tinh. Các điệp viên ngầm nằm vùng trong hàng ngũ phiến quân đã kích hoạt một cuộc tổng tiến công phối hợp trên quy mô toàn cầu. Trước khi các tướng lĩnh phiến quân kịp hiểu chuyện gì đang xảy ra, các vị trí của họ đã bị tràn ngập.\n\n[Target.GetName] giờ đây là một thế giới thống nhất."
+ preftl.2200.a:0 "Nguyện cho những người ngã xuống được đời đời ghi nhớ."
+
+ preftl.2205.name:0 "Năm Khởi Nguyên"
+ preftl.2205.a.desc:0 "Trong một bước ngoặt kinh ngạc của thời cuộc, [Target.Owner.GetRulerName] đã bị phế truất.\n\nBằng việc liên minh với nhiều vị tướng cơ hội bên trong chế độ, lực lượng phiến quân đã thành công trong việc phát động một cuộc tấn công phối hợp trên quy mô toàn cầu. Trước khi các chỉ huy phe ủng hộ thống nhất kịp nhận ra chuyện gì đang diễn ra, các căn cứ của họ đã bị đánh chiếm.\n\nBị trói bằng xích và bêu riếu khắp các đường phố thủ đô, [Target.Owner.GetRulerName] đã nhanh chóng bị xử tử. Lực lượng phiến quân chiến thắng đã trao cho các vùng lãnh thổ trên hành tinh quyền tự quyết công việc của mình. Sau bao năm chiến tranh loạn lạc, một nền hòa bình mong manh cuối cùng đã buông màn."
+ preftl.2205.b.desc:0 "[Target.Owner.GetRulerName] đã bị phế truất.\n\nBị trói bằng xích và bêu riếu khắp các đường phố thủ đô, cựu lãnh chúa này đã nhanh chóng bị xử tử. Lực lượng phiến quân chiến thắng đã trao cho các vùng lãnh thổ trên hành tinh quyền tự quyết công việc của mình. Sau bao năm chiến tranh loạn lạc, một nền hòa bình mong manh cuối cùng đã buông màn."
+ preftl.2205.a:0 "Theo thời gian, có thể họ sẽ thấy nhớ [Target.Owner.GetRulerName]."
+
+ nwo_situation_01:0 "Kẻ Độc Tài Khải Hoàn"
+ nwo_situation_01_desc:0 "Sức mạnh mang lại thống nhất; thống nhất mang lại hạnh phúc."
+ nwo_situation_02:0 "Những Ngọn Cờ Tự Do"
+ nwo_situation_02_desc:0 "Một xã hội đa dạng mang lại hạnh phúc. Hạnh phúc mang lại sự thống nhất."
+ nwo_situation_03:0 "Tăng Cường Viện Trợ"
+ nwo_situation_03_desc:0 "Những tài nguyên này sẽ đảm bảo một kết cục nhanh chóng và công bằng cho cuộc xung đột."

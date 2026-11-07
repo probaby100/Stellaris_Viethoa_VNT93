@@ -1,0 +1,394 @@
+﻿l_english:
+ ### Pre-FTL Espionage Operations
+ diplomacy_wrong_interference_policy:0 "$TRIGGER_FAIL$§RChính Sách §Y$policy_interference$§! của chúng ta không cho phép chúng ta tiến hành Hoạt Động Gián Điệp ở đây.§!"
+
+ operation_requires_observation_outpost:0 "$TRIGGER_FAIL$§RCần phải có một §YTrạm Quan Sát§! trên quỹ đạo quanh hành tinh mẹ của họ.§!"
+ operation_has_disguise:0 " " # Intentionally empty string
+ operation_no_disguise_bio:0 "§HViệc thiếu §Y$tech_gene_tailoring$§! sẽ khiến đặc vụ của chúng ta gặp nhiều khó khăn hơn trong việc ngụy trang thành người dân địa phương, điều này sẽ làm tăng xác suất kích hoạt các sự kiện tiêu cực ngẫu nhiên.§!"
+ operation_no_disguise_machine:0 "§HViệc thiếu §Y$tech_robomodding$§! sẽ khiến các drone thâm nhập của chúng ta gặp nhiều khó khăn hơn trong việc ngụy trang thành người dân địa phương, điều này sẽ làm tăng xác suất kích hoạt các sự kiện tiêu cực ngẫu nhiên.§!"
+ operation_wrong_tech_level:0 "$TRIGGER_FAIL$§RCấp độ công nghệ của nền văn minh này chưa đủ tiên tiến, vẫn chưa thể gia nhập đế chế của chúng ta.§!\n\n"
+ operation_is_gestalt:0 "$TRIGGER_FAIL$§RHọ là §YÝ thức Gestalt§!. Họ không thể hòa nhập với các hình thái xã hội khác.§!\n\n"
+ operation_gestalt_cant_indoctrinate:0 "$TRIGGER_FAIL$§RChúng ta là §YÝ thức Gestalt§!. Chúng ta không thể cải đạo cho họ.§!\n\n"
+ operation_gestalt_mismatched:0 "$TRIGGER_FAIL$§RChúng ta không thể thâm nhập một đế chế quá khác biệt với mình.§!\n\n"
+ operation_wrong_interference_policy:0 "$TRIGGER_FAIL$§RChính Sách §Y$policy_interference$§! của chúng ta không cho phép Chiến Dịch này.§!\n\n"
+ operation_wrong_enlightenment_policy:0 "$TRIGGER_FAIL$§RChính Sách §Y$policy_enlightenment$§! của chúng ta không cho phép Chiến Dịch này.§!\n\n"
+ operation_same_ethos:0 "$TRIGGER_FAIL$§RHệ tư tưởng của nền văn minh này đã giống với chúng ta.§!\n\n"
+ operation_failed_infiltration:0 "$TRIGGER_FAIL$§RHoạt động gần đây của chúng ta đã khiến cư dân địa phương nâng cao cảnh giác.§!\n\n"
+
+ operation_awareness_risk:0 "\nLàm tăng nguy cơ [from.target.GetName] đạt được £awareness£§YThức tỉnh§! trong quá trình hoạt động gián điệp của chúng ta." # event tooltip
+ operation_random_event_resolved:0 "§YChiến dịch [from.GetName]§! sẽ tiếp tục theo kế hoạch."
+ operation_random_event_resolved_poor:0 "§YChiến dịch [from.GetName]§! sẽ vượt qua trở ngại §Rtiêu cực§! này và tiếp tục tiến hành."
+ operation_random_event_resolved_good:0 "§YChiến dịch [from.GetName]§! sẽ được khôi phục, và có xu hướng đạt được kết quả §Gtích cực§! hơn."
+ operation_random_event_resolved_excellent:0 "§YChiến dịch [from.GetName]§! sẽ được khôi phục, và có thể đạt được kết quả §Gtích cực§!."
+
+ operation_infiltrate_government:0 "Thâm Nhập Chính Phủ"
+ operation_infiltrate_government_desc:0 "Các đặc vụ sẽ thâm nhập vào mọi khía cạnh trong xã hội của họ, dần dần thay thế các nhà lãnh đạo thế giới của họ, luôn sẵn sàng cho việc sáp nhập hành tinh."
+ operation_infiltrate_government_on_success:0 "$IF_SUCCESSFUL|E$\nSáp nhập hành tinh này, đồng thời làm cho mức độ hạnh phúc của người dân địa phương tăng mạnh trong thời gian ngắn.\n\n[owner.GetDisguiseState]"
+
+ operation_indoctrinate_society:0 "Truyền Bá Xã Hội"
+ operation_indoctrinate_society_desc:1 "Bằng cách tác động đến một nhóm nhỏ người trong [target.GetName], các đặc vụ của chúng ta có thể dẫn dắt cách tư duy của toàn bộ xã hội họ đi theo con đường đúng đắn của chúng ta."
+ operation_indoctrinate_society_on_success:0 "$IF_SUCCESSFUL|E$\nChuyển dịch hệ tư tưởng của dân số địa phương sang hệ tư tưởng của chúng ta.\n\n[owner.GetDisguiseState]"
+
+ operation_plant_advanced_knowledge:0 "Gieo Mầm Tri Thức Tiên Tiến"
+ operation_plant_advanced_knowledge_desc:0 "[target.GetName] có thể là một xã hội Tiền-FTL, nhưng họ có khả năng vươn tới các vì sao. Điều duy nhất họ cần là một cú hích nhẹ từ ai đó."
+ operation_plant_advanced_knowledge_on_success:0 "$IF_SUCCESSFUL|E$\nThúc đẩy tiến độ công nghệ của mục tiêu.\n\n[owner.GetDisguiseState]"
+
+ operation_increase_awareness:0 "Nâng Cao Mức Độ Thức Tỉnh"
+ operation_increase_awareness_desc:0 "Đã đến lúc để [root.target.GetName] hiểu ra rằng, họ không hề đơn độc trong vũ trụ này."
+ operation_increase_awareness_on_success:0 "$IF_SUCCESSFUL|E$\nNâng cao cấp độ thức tỉnh của [root.target.GetName].\n\n[owner.GetDisguiseState]"
+
+ operation_spread_disinformation:0 "Phát Tán Thông Tin Sai Lệch"
+ operation_spread_disinformation_desc:0 "Chân lý luôn ở đó, nhưng [root.target.GetName] vẫn chưa sẵn sàng để đối mặt với nó."
+ operation_spread_disinformation_on_success:0 "$IF_SUCCESSFUL|E$\nGiảm cấp độ thức tỉnh của [root.target.GetName].\n\n[owner.GetDisguiseState]"
+
+ operation_infiltrate_hive:0 "Thâm Nhập Tổ Đàn"
+ operation_infiltrate_hive_desc:0 "Thông qua việc thay thế các cá thể nút mạng một cách có chiến lược, ý thức của chúng ta có thể dần dần tích hợp các chức năng then chốt của cụm tổ đàn địa phương."
+ operation_infiltrate_hive_on_success:0 "$IF_SUCCESSFUL|E$\nHòa nhập các cá thể địa phương vào ý thức của chúng ta để từ đó sáp nhập hành tinh này.\n\n[owner.GetDisguiseState]"
+
+### Operation Events
+
+ preftl_operation.1000.name:0 "[from.GetName]: Đặc vụ đã sẵn sàng" # Operation name, i.e. 'Infiltrate Government'
+ preftl_operation.1000.desc.okay:0 "Tất cả các nhà lãnh đạo quan trọng của [target.GetSpeciesName] tại [target.capital_scope.GetName] đều đã bị mật vụ của chúng ta đánh tráo. Giờ đây, các nhân sự thâm nhập đang củng cố những bước tiến của chúng ta trên [target.capital_scope.GetPlanetHabitat]. Đã đến lúc hành động."
+ preftl_operation.1000.desc.good:0 "Hiện tại, chúng ta có hàng ngàn đặc vụ bí mật tại [target.capital_scope.GetName], và đã thâm nhập vào mọi ngóc ngách của [root.target.capital_scope.GetPlanetHabitat]. Một số đặc vụ đã vươn lên vị trí cao trong hệ thống quyền lực địa phương, và lợi dụng sức ảnh hưởng từ chức vụ của mình để tạo điều kiện thuận lợi cho các đặc vụ khác."
+ preftl_operation.1000.desc.poor:0 "Mặc dù trên bề mặt, chúng ta có hàng ngàn đặc vụ tại [target.capital_scope.GetName], nhưng tiến độ vẫn luôn chậm chạp. Chúng ta từng cố gắng lật đổ một khu định cư chính do [target.GetName] tạo thành, nhưng kết cục lại vô cùng thê thảm. Các đặc vụ liên quan đều đã hy sinh hoặc tự sát.\n\nNhờ hành động dũng cảm của một nhóm điệp viên nằm vùng, chính quyền đã không tìm thấy xác chết, và không thể nhìn thấu các hoạt động của chúng ta trên hành tinh này."
+ #preftl_operation.1001.name:1 "Shaping the Future"
+ #preftl_operation.1001.desc:1 "Our operatives have successfully embedded themselves within the [infiltrated_country_species.GetAdj] political leadership. We now hold control over every world power, and can shape the future of [infiltrated_country_planet.GetName] to our will."
+ #preftl_operation.1002.name:1 "Influencing Affairs"
+ #preftl_operation.1002.desc:1 "Our operatives have covertly gained a foothold over the [infiltrated_country_species.GetAdj] political leadership. We are now in a position of great influence regarding the internal affairs of [infiltrated_country_planet.GetName]. The mission was a success."
+ #preftl_operation.1003.name:1 "Minor Influence"
+ #preftl_operation.1003.desc:1 "After a poor start, our operatives were able to infiltrate the governments of [infiltrated_country_planet.GetName]. We were unable to secure many high ranking roles within the political leadership, but we are now in a position to influence minor tactical decisions concerning the [infiltrated_country_species.GetName]."
+#  observation.3008.desc:1 "While our agents have successfully replaced most of the local leaders on [root.target.GetSpeciesName], a stubborn few remain. A concerted effort is now underway to remove the last holdouts, but the date of our planned reveal will need to be pushed forward."
+ preftl_operation.1005.name:0 "Đại Giá Quang Lâm"
+ preftl_operation.1005.desc:1 "Sau khi hoàn toàn kiểm soát giới lãnh đạo chính trị cấp cao của [infiltrated_country_species.GetAdj], nhân sự thâm nhập của chúng ta đã chuẩn bị sẵn sàng để chào đón chuyến thăm chính thức đầu tiên của nhóm liên lạc.\n\nTại một buổi lễ quy mô lớn được tổ chức ở thủ đô mới của hành tinh, toàn bộ các nhà lãnh đạo của [infiltrated_country_planet.GetName] đã cùng ký vào lá đơn thỉnh cầu sáp nhập ngay lập tức [infiltrated_country_planet.GetPlanetHabitat] vào [root.GetName]. Đại sứ ngoại giao của chúng ta đã vô cùng độ lượng chấp nhận yêu cầu này. Người dân hân hoan đổ ra đường, reo hò chào đón những ân nhân ngoài hành tinh của họ."
+ preftl_operation.1006.name:1 "Sự Đón Tiếp Nồng Nhiệt"
+ preftl_operation.1006.desc:1 "Sau khi tạo được chỗ đứng vững chắc trong giới lãnh đạo chính trị của [infiltrated_country_species.GetAdj], đội ngũ thâm nhập của chúng ta đã dọn đường cho sự xuất hiện chính thức của đơn vị liên lạc đầu tiên. Tại một buổi lễ được tổ chức vô cùng trang trọng ở thủ đô hành tinh, đặc sứ của chúng ta đã khiêm tốn nhận lấy bản trần tình do đích thân thủ lĩnh của hành tinh [infiltrated_country_planet.GetName] ký tên. Tài liệu này vạch ra kế hoạch sáp nhập [infiltrated_country_planet.GetPlanetHabitat] vào [root.GetName]. Rất đông cư dân đã đổ ra đường để nồng nhiệt chào đón những người ân nhân ngoài hành tinh mới của họ."
+ preftl_operation.1007.name:1 "Sự Đón Tiếp Lạnh Nhạt"
+ preftl_operation.1007.desc:1 "Sau khi thâm nhập vào giới lãnh đạo chính trị của [infiltrated_country_species.GetAdj], các đặc vụ của chúng ta đã dọn đường cho sự xuất hiện của đơn vị liên lạc đầu tiên. Họ không hề có ý định tổ chức bất kỳ buổi lễ nào để chào đón sự xuất hiện của sứ thần ngoại giao của chúng ta. Tuy nhiên, chúng ta đã đạt được sự đồng thuận với tập đoàn lãnh đạo của [infiltrated_country_planet.GetName]. [infiltrated_country_planet.GetPlanetHabitat] của họ sẽ được sáp nhập vào [root.GetName]."
+ preftl_operation.1005.tt:0 "§Y[infiltrated_country_planet.GetName]§! cùng toàn bộ cư dân sẽ gia nhập §Y[root.GetName]§!."
+ preftl_operation.1008.name:0 "Chiến dịch [From.GetName] Thất bại"
+ preftl_operation.1008.desc:0 "Việc chúng ta thâm nhập vào giới lãnh đạo chính trị của [infiltrated_country_species.GetAdj] hoàn toàn không hề triệt để như những gì chúng ta được nhồi sọ. Sau khi bước đầu thâm nhập vào các quốc gia chủ chốt thất bại, chúng ta đã cố gắng kích động đảo chính ở một số chế độ nhỏ hơn. Thế nhưng ngay cả khi làm như vậy, chúng ta vẫn không thể giành được sự ủng hộ của người dân.\n\nChúng ta đã rút toàn bộ các đặc vụ còn sống sót khỏi [infiltrated_country_planet.GetName]. Rõ ràng là cư dân địa phương sẽ tiếp tục duy trì sự cảnh giác cao độ trong nhiều năm tới."
+ preftl_operation.failed_annaxation.tt:0 "§RChúng ta không thể phát động bất kỳ nhiệm vụ §H[From.GetName]§! nào nữa trong vòng 5 năm tới.§!"
+ attempted_infiltration:0 "Thâm nhập bất thành"
+
+# Operation Indoctrinate Society
+ preftl_operation.1015.name:1 "Chuẩn bị lôi kéo [target.GetName]" # pre-FTL country name
+ preftl_operation.1015.desc:1 "Công việc của chúng ta nhằm gây ảnh hưởng ngầm lên những cư dân [owner.GetPreFTLLower] tại [target.capital_scope.GetName] đã đạt đến đỉnh điểm. Các đặc vụ của chúng ta đã sẵn sàng để truyền bá các giá trị văn hóa của chúng ta vào xã hội người [target.GetSpeciesAdj]."
+
+ preftl_operation.1016.name:1 "Tác động đến quần chúng"
+ preftl_operation.1016.intro:0 "Mặc dù đà phát triển ban đầu có vẻ khá khả quan, nhưng chỉ có thời gian mới trả lời được những nỗ lực của chúng ta đối với §H[from.target.GetAdj]§! có thể duy trì được bao lâu. Những người ủng hộ [from.target.GetSpeciesNamePlural] đã hoàn toàn chấp nhận hệ tư tưởng của chúng ta và coi nó như của chính mình." # used for both pre- and post-industrial societies
+ preftl_operation.1016.intro.good:0 "Công việc của chúng ta tại §H[from.target.GetName]§! đã đạt được những tiến bộ to lớn. Bằng cách thao túng cẩn thận các meme văn hóa và phong tục xã hội, chúng ta đã thúc đẩy một sự thay đổi văn hóa sâu sắc, và gần như khiến người ta nhầm tưởng đây là một hiện tượng hoàn toàn tự phát." # used for both pre- and post-industrial societies
+ preftl_operation.1016.intro.poor:0 "Công việc của chúng ta tại §H[from.target.GetName]§! không hề thuận buồm xuôi gió, nhưng cuối cùng cũng đã thành công. Mặc dù những nỗ lực của chúng ta không thu hút được nhiều người ủng hộ địa phương như mong đợi, nhưng cũng đã đạt được một số kết quả tích cực." # used for both pre- and post-industrial societies
+
+ preftl_operation.1016.autho:0 "Các đặc vụ của chúng ta đã vận dụng khéo léo những kinh nghiệm của các bậc tiền bối vinh quang để thiết lập một mô hình nguyên thủy mang màu sắc §YChủ nghĩa Độc đoán§! của [root.GetAdj]. Một nhóm người địa phương được sàng lọc kỹ càng đã được trao quyền cai trị những cộng đồng này, một số sẽ phát triển phồn vinh, trong khi một số khác sẽ dần lụi tàn. Và tất cả những điều này sẽ trở thành một bài học sâu sắc cho [from.target.GetSpeciesNamePlural], hướng dẫn họ học cách suy ngẫm về các hình thức tổ chức xã hội phù hợp." # pre-industrial societies only
+ preftl_operation.1016.egali:0 "Các đặc vụ của chúng ta đã đi sâu vào cơ sở, giao lưu với các cộng đồng địa phương về các vấn đề công bằng và bình đẳng. Mặc dù sự hiểu biết của người [from.target.GetSpeciesAdj] về chính trị vẫn đang ở giai đoạn sơ khai, nhưng chúng ta đã thúc đẩy một số hoạt động thảo luận sâu hơn trong số những người dân địa phương. Chiến dịch [from.GetName] đã kết thúc, chúng ta sẽ để lại quyền tự quyết cho những người ủng hộ tại địa phương, để họ tự mình tìm ra con đường hướng tới §YChủ nghĩa Cá nhân§!." # pre-industrial societies only
+ preftl_operation.1016.mater:0 "Các đặc vụ được chúng ta tuyển chọn kỹ lưỡng đều có kiến thức uyên thâm trong lĩnh vực nghệ thuật và giáo dục tư duy, họ đang thực hiện công cuộc khai sáng cho các cộng đồng khác nhau trên [from.target.capital_scope.GetPlanetHabitat]. Họ đã áp dụng phương pháp giáo dục tùy theo năng lực đối với các nền văn hóa [from.target.GetSpeciesAdj] khác nhau, và đã gặt hái được vô số thành quả dưới hình thức các salon, tác phẩm văn học nghệ thuật và tổ chức giáo dục. Những công cụ mang màu sắc §YChủ nghĩa Duy vật§! này đã được kế thừa lại cho [from.target.GetSpeciesNamePlural]." # pre-industrial societies only
+ preftl_operation.1016.milit:0 "Ngày nay, trong nhiều nền văn hóa của người [from.target.GetSpeciesAdj], danh dự và sự dũng cảm đã trở thành những điều quan trọng hàng đầu. Các đặc vụ của chúng ta đã cải trang thành lính đánh thuê, quân khởi nghĩa và những kẻ buôn bán vũ khí, sử dụng các loại vũ khí nghi lễ tinh xảo, kỹ thuật chiến đấu đẹp mắt và một loạt các cuộc chạm trán được dàn dựng công phu để làm cho người dân địa phương phải há hốc mồm kinh ngạc. Tất cả những điều này đang truyền cảm hứng cho một [from.target.GetName] ngày càng mang đậm chất §YChủ nghĩa Quân phiệt§! hơn." # used for both pre- and post-industrial societies
+ preftl_operation.1016.pacif:0 "Các đặc vụ được chúng ta tuyển chọn kỹ lưỡng đều rất thành thạo các kỹ năng hòa giải, họ đã tiến hành hòa giải giữa vô số các nhóm người địa phương, và bốc ra những phương thuốc mang đậm tính §YChủ nghĩa Hòa bình§! của [root.GetAdj] để chữa trị cho vô số căn bệnh xã hội thâm căn cố đế của người [from.target.GetSpeciesAdj]. Giờ đây, trong mắt những cộng đồng này, bạo lực đã không còn là sự lựa chọn ưu tiên hàng đầu nữa." # used for both pre- and post-industrial societies
+ preftl_operation.1016.phile:0 "Các đặc vụ của chúng ta đã thúc đẩy tiến độ công việc một cách toàn diện, sử dụng những câu chuyện, nghệ thuật và các hoạt động cộng đồng để thúc đẩy sự tò mò và thái độ trân trọng đối với các nền văn hóa khác. Giờ đây, chiến dịch [from.GetName] đã kết thúc, các đặc vụ của chúng ta đặt nhiều kỳ vọng vào những kẻ §YThân ngoại§! tại địa phương, hy vọng họ có thể tiếp tục cuộc thảo luận, để [from.target.GetName] chuẩn bị sẵn sàng cho việc sinh sống trong một vũ trụ đa dạng." # used for both pre- and post-industrial societies
+ preftl_operation.1016.phobe:0 "Nỗi sợ hãi và sự nghi ngờ rất dễ nảy sinh từ sự bốc đồng, nhưng lại rất khó để kiểm soát. Các đặc vụ của chúng ta đã cẩn thận biên soạn các bài phát biểu và tác phẩm nghệ thuật để thể hiện những mặt tích cực của việc tự bảo vệ bản thân, đồng thời dạy cho họ biết về những mối nguy hiểm từ các ảnh hưởng bên ngoài. Những người ủng hộ [from.target.GetSpeciesAdj] vô cùng tán thành các khóa học của các đặc vụ về các vấn đề §YBài ngoại§!." # pre-industrial societies only
+ preftl_operation.1016.spiri:0 "Chúng ta đã tiến hành theo hai hướng, một mặt để cho một nhóm đặc vụ có sức lôi cuốn lãnh đạo một số giáo phái dựa trên tín ngưỡng địa phương, mặt khác lại phái một nhóm đặc vụ khác để bảo vệ những phong trào đang phát triển mạnh mẽ này khỏi sự can thiệp và chèn ép của chính trị. Những cộng đồng [from.target.GetSpeciesAdj] đã được khai sáng này đã chấp nhận một loại §YChủ nghĩa Duy tâm§! dựa trên nền tảng văn hóa địa phương. Họ sẽ tự mình bước lên con đường thần thánh." # used for both pre- and post-industrial societies
+
+ preftl_operation.1016.autho.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1016.autho$"
+ preftl_operation.1016.egali.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1016.egali$"
+ preftl_operation.1016.mater.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1016.mater$"
+ preftl_operation.1016.milit.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1016.milit$"
+ preftl_operation.1016.pacif.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1016.pacif$"
+ preftl_operation.1016.phile.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1016.phile$"
+ preftl_operation.1016.phobe.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1016.phobe$"
+ preftl_operation.1016.spiri.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1016.spiri$"
+ preftl_operation.1017.autho.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1016.autho$"
+ preftl_operation.1017.egali.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1016.egali$"
+ preftl_operation.1017.mater.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1016.mater$"
+ preftl_operation.1017.milit.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1016.milit$"
+ preftl_operation.1017.pacif.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1016.pacif$"
+ preftl_operation.1017.phile.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1016.phile$"
+ preftl_operation.1017.phobe.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1016.phobe$"
+ preftl_operation.1017.spiri.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1016.spiri$"
+ preftl_operation.1018.autho.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1016.autho$"
+ preftl_operation.1018.egali.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1016.egali$"
+ preftl_operation.1018.mater.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1016.mater$"
+ preftl_operation.1018.milit.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1016.milit$"
+ preftl_operation.1018.pacif.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1016.pacif$"
+ preftl_operation.1018.phile.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1016.phile$"
+ preftl_operation.1018.phobe.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1016.phobe$"
+ preftl_operation.1018.spiri.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1016.spiri$"
+
+ preftl_operation.1019.name:0 "Tác động đến công chúng"
+ preftl_operation.1019.autho:0 "Các đặc vụ của chúng ta đã vận dụng những kinh nghiệm được truyền lại từ các bậc tiền bối vinh quang để thiết lập một mô hình thu nhỏ mang màu sắc §YChủ nghĩa Độc đoán§! của [root.GetAdj] trên [from.target.capital_scope.GetName]. Họ đã đúc kết lại một số tổ chức, sắp xếp vô số các tổ chức [from.target.GetSpeciesNamePlural] thành những tầng lớp được thiết kế tỉ mỉ. Không phải tất cả các cộng đồng đều có thể trụ lại đến cuối cùng, nhưng những cộng đồng thất bại sẽ trở thành những bài học kinh nghiệm quý giá, nuôi dưỡng trật tự xã hội của họ." # post-industrial societies only
+ preftl_operation.1019.egali:0 "Các đặc vụ của chúng ta đã đi sâu vào cơ sở, giao lưu với các cộng đồng và cơ quan địa phương về các vấn đề công bằng và bình đẳng. Khoa học chính trị của người [from.target.GetSpeciesAdj] đã có xu hướng trưởng thành, nhưng chúng ta vẫn thúc đẩy một số phong trào, nhằm đẩy mạnh các cuộc tranh luận mang tính bao trùm hơn và các chính sách §YChủ nghĩa Bình đẳng§!." # post-industrial societies only
+ preftl_operation.1019.mater:0 "Các đặc vụ được chúng ta tuyển chọn kỹ lưỡng đều có kiến thức uyên thâm trong lĩnh vực nghệ thuật và giáo dục tư duy, họ đang thực hiện công cuộc khai sáng cho các cộng đồng và cơ sở giáo dục trên [from.target.capital_scope.GetPlanetHabitat]. Những nỗ lực của họ đã hình thành nên một số trung tâm nghiên cứu, quỹ giáo dục và thậm chí là khởi đầu cho một phong trào văn hóa nghệ thuật mới. Những công cụ mang màu sắc §YChủ nghĩa Duy vật§! này đã được kế thừa lại cho [from.target.GetSpeciesNamePlural]." # post-industrial societies only
+ preftl_operation.1019.phobe:0 "Nỗi sợ hãi và sự nghi ngờ rất dễ nảy sinh từ sự bốc đồng, nhưng lại rất khó để kiểm soát, đặc biệt là đối với một xã hội đã tiếp cận truyền thông trên diện rộng như thế này thì điều đó lại càng đúng hơn. Các đặc vụ của chúng ta đã âm thầm cấy ghép những luận điệu §YChủ nghĩa Bài ngoại§! và các phong trào văn hóa thể hiện những mặt tích cực của việc tự bảo vệ bản thân bám rễ vào nơi này, đồng thời dạy cho họ biết về những mối nguy hiểm từ các ảnh hưởng bên ngoài. Những người ủng hộ và các nhóm chính trị của người [from.target.GetSpeciesAdj] vô cùng tán thành các khóa học của các đặc vụ." # post-industrial societies only
+
+ preftl_operation.1019.autho.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1019.autho$"
+ preftl_operation.1019.egali.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1019.egali$"
+ preftl_operation.1019.mater.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1019.mater$"
+ preftl_operation.1019.milit.desc:0 "$preftl_operation.1016.milit.desc$"
+ preftl_operation.1019.pacif.desc:0 "$preftl_operation.1016.pacif.desc$"
+ preftl_operation.1019.phile.desc:0 "$preftl_operation.1016.phile.desc$"
+ preftl_operation.1019.phobe.desc:0 "$preftl_operation.1016.intro$\n\n$preftl_operation.1019.phobe$"
+ preftl_operation.1019.spiri.desc:0 "$preftl_operation.1016.spiri.desc$"
+ preftl_operation.1020.autho.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1019.autho$"
+ preftl_operation.1020.egali.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1019.egali$"
+ preftl_operation.1020.mater.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1019.mater$"
+ preftl_operation.1020.milit.desc:0 "$preftl_operation.1017.milit.desc$"
+ preftl_operation.1020.pacif.desc:0 "$preftl_operation.1017.pacif.desc$"
+ preftl_operation.1020.phile.desc:0 "$preftl_operation.1017.phile.desc$"
+ preftl_operation.1020.phobe.desc:0 "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1019.phobe$"
+ preftl_operation.1020.spiri.desc:0 "$preftl_operation.1017.spiri.desc$"
+ preftl_operation.1021.autho.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1019.autho$"
+ preftl_operation.1021.egali.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1019.egali$"
+ preftl_operation.1021.mater.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1019.mater$"
+ preftl_operation.1021.milit.desc:0 "$preftl_operation.1018.milit.desc$"
+ preftl_operation.1021.pacif.desc:0 "$preftl_operation.1018.pacif.desc$"
+ preftl_operation.1021.phile.desc:0 "$preftl_operation.1018.phile.desc$"
+ preftl_operation.1021.phobe.desc:0 "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1019.phobe$"
+ preftl_operation.1021.spiri.desc:0 "$preftl_operation.1018.spiri.desc$"
+
+ espionage_pre_ftl_indoctrination:0 "Biến Động Xã Hội"
+ espionage_pre_ftl_indoctrination_desc:0 "Một bộ phận người dân trong xã hội này gần đây đã thay đổi quan điểm về triển vọng chính trị, và chấp nhận một hệ tư tưởng mới hoàn toàn khác biệt."
+ espionage_pre_ftl_indoctrination_authoritarian:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_authoritarian_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_egalitarian:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_egalitarian_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_materialist:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_materialist_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_militarist:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_militarist_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_pacifist:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_pacifist_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_spiritualist:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_spiritualist_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_xenophile:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_xenophile_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_xenophobe:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_xenophobe_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+
+# Operation Increase Awareness
+ preftl_operation.1025.name:1 "[this.GetName]: Chuẩn bị hiện diện" # Operation name, i.e. 'Increase Awareness'
+ preftl_operation.1025.desc:1 "Công tác chuẩn bị của chúng ta trên [target.capital_scope.GetName] đã hoàn tất; các đặc vụ của chúng ta đã sẵn sàng để dẫn dắt [target.GetName] bước ra sân khấu lớn của biển sao, nơi chỉ còn cách họ một bước chân."
+ preftl_operation.1026.name:0 "Nơi đó liệu có sự sống?"
+ preftl_operation.1026.desc.intro:0 "Nhờ vào hành động của các đặc vụ của chúng ta, [this.GetSpeciesNamePlural] đang ngắm nhìn bầu trời đêm với một niềm hứng thú hoàn toàn mới."
+ preftl_operation.1026.desc.low:1 "Lấy cảm hứng từ những câu chuyện do chúng ta lan truyền, [this.GetSpeciesNamePlural] đang chuyển sự chú ý của mình lên bầu trời. Họ bắt đầu tự hỏi bản thân rằng, liệu có tồn tại những sinh mệnh có tri giác khác trong vũ trụ, đang phát triển mạnh mẽ dưới ánh sáng của những ngôi sao khác hay không."
+ preftl_operation.1026.desc.medium:1 "$preftl_operation.1026.desc.intro$ Họ thì thầm kể cho nhau nghe những câu chuyện mà hầu như chẳng ai tin, nội dung về bầu trời và những vị khách đến từ những thế giới xa xôi ngoài kia. Những câu chuyện này có pha lẫn một chút sự thật."
+ preftl_operation.1026.desc.high:1 "$preftl_operation.1026.desc.intro$ Xem xét những sự thật đang phơi bày trước mắt, nhiều người đã bắt đầu tin rằng họ không hề đơn độc trong vũ trụ. Họ tin rằng bằng chứng đang ở ngay trước mắt, và việc tìm ra sự thật chỉ là vấn đề thời gian."
+ preftl_operation.1026.desc.full:1 "Nhờ vào nỗ lực của chúng ta, [this.capital_scope.GetName] tin chắc rằng họ không hề đơn độc trong vũ trụ. Giờ đây, họ đã chuẩn bị sẵn sàng cho việc tiếp nhận liên lạc, mà không gây ra cú sốc đối với lối sống của họ."
+
+ # Good and Great Outcomes
+ preftl_operation.1027.name:0 "Ngoài bầu trời vẫn còn có người"
+ preftl_operation.1027.desc.intro:0 "Nhờ vào thành quả xuất sắc của các đặc vụ của chúng ta, [this.GetSpeciesNamePlural] đã bắt đầu say sưa ngắm nhìn bầu trời đầy sao."
+ preftl_operation.1027.desc.low:0 "$preftl_operation.1027.desc.intro$\n\nĐược khích lệ và truyền cảm hứng từ những câu chuyện do các đặc vụ của chúng ta lan truyền, [this.GetSpeciesNamePlural] đang hướng sự chú ý của họ lên bầu trời. Họ đang tích cực tưởng tượng về sự tồn tại của các sinh mệnh có tri giác khác trong vũ trụ."
+ preftl_operation.1027.desc.medium:0 "$preftl_operation.1027.desc.intro$\n\nHọ hào hứng chia sẻ những câu chuyện về những luồng ánh sáng bí ẩn trên bầu trời và những vị khách đến từ thế giới bên ngoài những vì sao. Rất nhiều người tin rằng những câu chuyện này không phải là vô căn cứ."
+ preftl_operation.1027.desc.high:0 "$preftl_operation.1027.desc.intro$\n\nRất nhiều người đã tin chắc rằng họ không hề đơn độc trong vũ trụ. Họ biết rằng bằng chứng đang ở ngay trước mắt, và chắc chắn sẽ có thể tìm thấy nếu cho họ thêm thời gian."
+ preftl_operation.1027.desc.full:0 "$preftl_operation.1027.desc.intro$\n\nNhững hành động táo bạo của các đặc vụ trong mạng lưới gián điệp của chúng ta đã giúp cư dân trên [this.capital_scope.GetName] hiểu ra rằng họ không hề đơn độc trong vũ trụ. Giờ đây, họ đã chuẩn bị sẵn sàng cho việc tiếp nhận liên lạc, mà không gây ra cú sốc đối với lối sống của họ."
+
+ # Poor Outcome
+ preftl_operation.1028.name:0 "Bên ngoài không có gì cả"
+ preftl_operation.1028.desc.intro:0 "Hoạt động của các đặc vụ của chúng ta đã khiến cho [this.GetSpeciesNamePlural] bắt đầu cảm thấy sợ hãi bầu trời đêm."
+ preftl_operation.1028.desc.low:0 "$preftl_operation.1028.desc.intro$\n\n[this.GetSpeciesNamePlural] đã bị dọa sợ bởi những câu chuyện do các đặc vụ của chúng ta lan truyền, giờ đây họ thậm chí còn nơm nớp lo sợ ngay cả khi chỉ ngước nhìn lên. Họ bắt đầu nghi ngờ liệu trong vũ trụ có tồn tại những sinh mệnh có tri giác khác đang rình rập trong bóng tối hay không."
+ preftl_operation.1028.desc.medium:0 "$preftl_operation.1028.desc.intro$\n\nHọ ngập ngừng kể cho nhau nghe những câu chuyện kinh dị về những luồng ánh sáng kỳ dị trên bầu trời và những kẻ xâm lược đến từ thế giới ngoài hành tinh."
+ preftl_operation.1028.desc.high:0 "$preftl_operation.1028.desc.intro$\n\nRất nhiều người hiện tại tin rằng họ không hề đơn độc trong vũ trụ. Họ biết rằng sự thật đang nằm ở ngoài kia, nhưng lại hoàn toàn không có hứng thú với điều đó."
+ preftl_operation.1028.desc.full:0 "$preftl_operation.1028.desc.intro$\n\nNhững nỗ lực của các đặc vụ trong mạng lưới gián điệp của chúng ta đã giúp cư dân trên [this.capital_scope.GetName] hiểu ra rằng họ không hề đơn độc trong vũ trụ. Hiện tại có thể loại trừ nguy cơ họ bị sốc nặng trong quá trình tiến hành liên lạc."
+
+ preftl_operation.1035.name:0 "$preftl_operation.1026.name$"
+ preftl_operation.1035.desc:0 "$role_spymaster$ [spynetwork.leader.GetName] của chúng ta đã thu thập và tổng hợp lại các kết quả, liên quan đến hoạt động che giấu sự tồn tại của sự sống giữa các vì sao của chúng ta trên [target.capital_scope.GetName]."
+
+# Operation Spread Disinformation
+ # Standard conclusion
+ preftl_operation.1036.name:0 "Phát tán thông tin sai lệch trên [from.target.GetName]"
+ preftl_operation.1036.desc.intro:0 "Thông qua những nỗ lực của mình, các đặc vụ của chúng ta trên §H[this.capital_scope.GetName]§! đã thành công khiến cho người dân địa phương bắt đầu nghi ngờ về những bằng chứng về sự sống ngoài hành tinh đã được phát hiện cho đến nay."
+ preftl_operation.1036.desc.none:0 "$preftl_operation.1036.desc.intro$ Những câu chuyện liên quan đến sự tồn tại của những vị khách giữa các vì sao đang dần bị công chúng lãng quên, và bị coi là sự hoang tưởng viển vông của thiểu số những người theo thuyết âm mưu."
+ preftl_operation.1036.desc.low:0 "$preftl_operation.1036.desc.intro$ [this.GetSpeciesNamePlural] vẫn đang truyền tai nhau những bằng chứng về sự tồn tại của người ngoài hành tinh, nhưng đã không còn nhiều người tin vào những truyền thuyết này nữa."
+ preftl_operation.1036.desc.medium:0 "$preftl_operation.1036.desc.intro$ Mặc dù một số quan chức cấp cao nắm quyền lực có thể sẽ nghi ngờ về sự tồn tại thực sự của chúng ta, nhưng chúng ta đã che mắt thành công những người dân thường."
+ # Great conclusion
+ preftl_operation.1037.name:0 "Chiến dịch phát tán thông tin sai lệch trên [from.target.GetName] đã thành công"
+ preftl_operation.1037.desc.intro:0 "Các đặc vụ xuất sắc của chúng ta trên §H[this.capital_scope.GetName]§! đã xóa tan những đồn đoán về nền văn minh du hành vũ trụ."
+ preftl_operation.1037.desc.none:0 "$preftl_operation.1037.desc.intro$ Hiện tại, việc lan truyền những câu chuyện về người ngoài hành tinh sẽ nhanh chóng bị coi là kẻ mất trí và bị tẩy chay."
+ preftl_operation.1037.desc.low:0 "$preftl_operation.1037.desc.intro$ Hầu như không còn [this.GetSpeciesNamePlural] nào cân nhắc đến khả năng tồn tại sự sống ngoài hành tinh nữa."
+ preftl_operation.1037.desc.medium:0 "$preftl_operation.1037.desc.intro$ Mặc dù một số người giữ chức vụ quan trọng có thể nghi ngờ về sự tồn tại thực sự của chúng ta, nhưng họ biết rằng tốt nhất là không nên công khai thảo luận về những suy nghĩ bị coi là ngụy biện đó."
+ # Good conclusion
+ preftl_operation.1038.name:0 "Phát tán thông tin sai lệch trên [from.target.GetName]"
+ preftl_operation.1038.desc.intro:0 "Các đặc vụ của chúng ta trên §H[this.capital_scope.GetName]§! đã làm giảm đáng kể những đồn đoán về nền văn minh du hành vũ trụ."
+ preftl_operation.1038.desc.none:0 "$preftl_operation.1038.desc.intro$ Hiện tại, việc lan truyền những câu chuyện về người ngoài hành tinh sẽ bị coi là một hành động cần phải tránh xa."
+ preftl_operation.1038.desc.low:0 "$preftl_operation.1038.desc.intro$ Hầu như không còn [this.GetSpeciesNamePlural] nào thèm cân nhắc đến khả năng tồn tại sự sống ngoài hành tinh nữa."
+ preftl_operation.1038.desc.medium:0 "$preftl_operation.1038.desc.intro$ Mặc dù một số người giữ chức vụ quan trọng có thể nghi ngờ về sự tồn tại thực sự của chúng ta, nhưng họ không muốn công khai thảo luận về những vấn đề này nữa."
+ # Poor conclusion
+ preftl_operation.1039.name:1 "Phát tán thông tin sai lệch trên [from.target.GetName] thất bại"
+ preftl_operation.1039.desc.intro:0 "Các đặc vụ của chúng ta trên §H[this.capital_scope.GetName]§! đã thất bại trong việc gieo rắc sự nghi ngờ về việc liệu có tồn tại các nền văn minh ngoài hành tinh hay không."
+ preftl_operation.1039.desc.none:0 "$preftl_operation.1036.desc.intro$ Những câu chuyện về sự tồn tại của những vị khách giữa các vì sao đang làm mưa làm gió."
+ preftl_operation.1039.desc.low:0 "$preftl_operation.1036.desc.intro$ [this.GetSpeciesNamePlural] vẫn đang công khai lan truyền về sự tồn tại của người ngoài hành tinh, và rất nhiều người dân đã tin đó là sự thật."
+ preftl_operation.1039.desc.medium:0 "$preftl_operation.1036.desc.intro$ Những người giữ chức vụ quan trọng đó đang công khai thảo luận về những vị khách ngoài hành tinh. Về cơ bản, họ đã khẳng định sự tồn tại của chúng ta."
+
+ preftl_operation.1041.name:0 "$preftl_operation.1005.name$"
+ preftl_operation.1041.desc:0 "Các đặc vụ của chúng ta báo cáo rằng, nhiệm vụ nâng cao trình độ công nghệ trên §H[root.target.GetName]§! đang được thực hiện theo đúng kế hoạch."
+
+ preftl_operation.1045.name:0 "Chiến dịch [from.GetName]: Chuẩn bị sẵn sàng" # Operation name, i.e. Plant Advanced Knowledge
+ preftl_operation.1045.desc:0 "Các đặc vụ của chúng ta đã làm hết sức mình để gieo rắc những tiến bộ công nghệ nhỏ nhặt vào xã hội người [from.target.GetSpeciesAdj]. Giờ đây, chỉ còn chờ xem người dân địa phương sẽ kết nối những điểm nhỏ này lại với nhau như thế nào, để biến sự thay đổi về lượng thành sự thay đổi về chất. Họ đã chuẩn bị sẵn sàng cho mọi thứ."
+
+ preftl_operation.1046.name:0 "[from.target.GetName]: Phát triển thần tốc"
+ preftl_operation.1046.desc:0 "Thành công rồi! Công nghệ và kiến thức mà chúng ta gieo mầm vào xã hội người [from.target.GetSpeciesAdj] đang phát triển vô cùng mạnh mẽ, thúc đẩy đáng kể nền văn minh của họ từ bên trong. Chỉ có thời gian mới có thể trả lời được những tác động lâu dài có thể nảy sinh từ điều này, nhưng hiện tại các đặc vụ của chúng ta báo cáo rằng, [from.target.capital_scope.GetName] đang rất phồn vinh, với một thiện chí chưa từng có."
+
+ preftl_operation.1047.name:0 "[from.target.GetName]: Bước nhảy vọt"
+ preftl_operation.1047.desc:0 "Các đặc vụ của chúng ta đã gửi tin mừng từ [from.target.capital_scope.GetName]! Công nghệ và kiến thức mà chúng ta gieo mầm vào xã hội người [from.target.GetSpeciesAdj] đã đơm hoa kết trái, thúc đẩy nền văn minh của họ tiến bước ra ngoài hệ sao. Chỉ có thời gian mới có thể trả lời được những tác động lâu dài có thể nảy sinh từ điều này, nhưng hiện tại các đặc vụ của chúng ta báo cáo rằng, mức độ phồn vinh của hành tinh [from.owner.GetPreFTLLower] đã được cải thiện."
+
+ preftl_operation.1048.name:0 "[from.target.GetName]: Thăng tiến vững chắc"
+ preftl_operation.1048.desc:0 "Các đặc vụ của chúng ta báo cáo rằng, chiến dịch khai sáng cho cư dân trên [from.target.capital_scope.GetName] đã thành công tốt đẹp. Công nghệ và kiến thức mà chúng ta truyền bá cho xã hội người [from.target.GetSpeciesAdj] đã bén rễ và nảy mầm, thúc đẩy nền văn minh của họ tiến thêm một bước trên con đường hướng tới biển sao."
+
+ preftl_operation.1049.name:0 "[from.target.GetName]: Chuyện tốt thường gian nan"
+ preftl_operation.1049.desc:0 "Chiến dịch khai sáng cho cư dân trên [from.target.capital_scope.GetName] của chúng ta đã đạt được một phần thành công. Mặc dù gặp phải một số trở ngại, chúng ta vẫn thúc đẩy được một số tiến bộ công nghệ cơ bản, và tin chắc rằng xã hội người [from.target.GetSpeciesAdj] cuối cùng cũng sẽ cất cánh. Tuy nhiên, nền văn minh của họ có lẽ sẽ không thể phát triển lên cấp độ giữa các vì sao một cách nhanh chóng hay suôn sẻ như chúng ta đã từng hy vọng."
+
+ preftl_operation.1060.name:0 "Chiến dịch [from.GetName]: Tích hợp các cá thể nút mạng" # Operation name, i.e. 'Infiltrate Government'
+ preftl_operation.1060.desc.okay:0 "Chúng ta đã dần dần tích hợp được một số trung tâm nút mạng then chốt của [target.GetSpeciesNamePlural] địa phương trên [target.capital_scope.GetName]. Mục tiêu là làm cho tổ đàn địa phương ngày càng phụ thuộc vào chúng ta hơn trong các hoạt động thường ngày, để từ đó chúng ta có thể sáp nhập hành tinh của họ một cách liền mạch vào phút cuối. Đơn vị thâm nhập đang củng cố tiến độ của chúng ta trên [target.capital_scope.GetPlanetHabitat]. Việc khi nào thì bắt đầu hành động hoàn toàn phụ thuộc vào chúng ta."
+ preftl_operation.1060.desc.good:0 "Việc chúng ta thâm nhập vào [target.capital_scope.GetName] gần như đã hoàn tất, gần như tất cả các nút mạng trên toàn bộ [root.target.capital_scope.GetPlanetHabitat] đều đã bị chúng ta đồng hóa. Chúng ta đã tiếp quản rất nhiều hoạt động thường ngày ở đây. Chẳng bao lâu nữa, chúng ta sẽ sẵn sàng để tích hợp họ hoàn toàn."
+ preftl_operation.1060.desc.poor:0 "Ngay cả khi trên bề mặt [target.capital_scope.GetName] có vô số trung tâm nút mạng nằm dưới sự kiểm soát của chúng ta, nhưng tiến độ vẫn rất chậm chạp. Nỗ lực tích hợp hoàn toàn một tổ đàn nguyên thủy quy mô lục địa đã trở thành một thảm họa, và các đặc vụ của chúng ta tại địa phương cũng đã bị trục xuất.\n\nNhờ vào nhiều biện pháp dự phòng của chúng ta, bao gồm cả việc liên tục thu hồi các cá thể con, mới giúp cho các di tích và công việc của chúng ta trên hành tinh này tránh khỏi việc bị bại lộ."
+ preftl_operation.1065.name:0 "Hòa Làm Một"
+ preftl_operation.1065.desc:0 "Sau khi hoàn thành việc thống trị ý thức của [infiltrated_country_species.GetAdj], chúng ta nhanh chóng đảm bảo rằng không có bất kỳ một cá thể con nào bị bỏ sót.\n\nÝ thức của [infiltrated_country_species.GetName] không hề tiêu vong, mà chỉ là bị chúng ta hấp thu. Ý thức của chúng ta tiếp tục vươn xa vào những nơi sâu thẳm của vũ trụ. \"Một\" như đã từng."
+ preftl_operation.1066.name:0 "Nắm Giữ Quyền Kiểm Soát"
+ preftl_operation.1066.desc:0 "Sau khi giành được ảnh hưởng mang tính then chốt đối với ý thức của [infiltrated_country_species.GetAdj], các trung tâm nút mạng của chúng ta đã chuẩn bị sẵn sàng để tiến hành kiểm soát trực tiếp. Ngoại trừ một số vấn đề bất thường cực kỳ hiếm gặp, hiện tại chúng ta đã hoàn toàn tích hợp [infiltrated_country_planet.GetPlanetHabitat] vào [root.GetName]."
+ preftl_operation.1067.name:0 "Sự Trì Hoãn Miễn Cưỡng"
+ preftl_operation.1067.desc:0 "Sau khi thâm nhập vào ý thức tổ đàn của [infiltrated_country_species.GetAdj], các trung tâm nút mạng mà chúng ta đã tích hợp đã chuẩn bị sẵn sàng để sáp nhập [infiltrated_country_planet.GetPlanetHabitat] còn lại. Khi chúng ta giành quyền kiểm soát, một khu vực nhỏ trên lục địa đã thể hiện sự kháng cự đối với ảnh hưởng của chúng ta, thà chọn cách tự kết liễu bản thân chứ không muốn bị ý thức của chúng ta hấp thụ. [infiltrated_country_planet.GetPlanetHabitat] của họ sẽ được sáp nhập vào [root.GetName]."
+ preftl_operation.1068.name:0 "Chiến dịch [From.GetName] Thất bại"
+ preftl_operation.1068.desc:0 "Ý thức tổ đàn của [infiltrated_country_species.GetAdj] đã phát hiện ra ảnh hưởng của chúng ta. Ngay khoảnh khắc chúng ta chuẩn bị kích hoạt trung tâm nút mạng đã tích hợp, kết nối với toàn bộ tổ đàn đã bị cắt đứt. Sau khi nhanh chóng đình chỉ các hoạt động của mình, chúng ta phải thừa nhận rằng, chiến dịch [from.GetName] đã thất bại. Dân số [infiltrated_country_species.GetClass] hiện đang vô cùng cảnh giác đối với những sự can thiệp từ bên ngoài."
+
+### Random event chains
+
+# Sorcery!
+ preftl_operation.3000.name:0 "Yêu thuật!"
+ preftl_operation.3000.desc:0 "Những nỗ lực gây ảnh hưởng đến [from.target.GetSpeciesNamePlural] của chúng ta trên [from.target.capital_scope.GetName] đã vấp phải sự nghi ngờ trên diện rộng. Rất nhiều người dân địa phương tin chắc rằng các đặc vụ của chúng ta nếu không phải là yêu quái thì cũng là ác linh, và đang tìm mọi cách để tránh xa họ. Các cuộc biểu tình phản đối dường như rất có khả năng sẽ xảy ra."
+ preftl_operation.3000.a:0 "Thuận theo tình hình chung."
+ preftl_operation.3000.b:0 "Hành động cẩn trọng. Chuyển đến nơi khác."
+ preftl_operation.3000.c:0 "Đảo lộn tín ngưỡng của họ!"
+
+ preftl_operation.3001.name:0 "Yêu thuật: Không Thể Phủ Nhận"
+ preftl_operation.3001.desc:0 "Các đặc vụ của chúng ta đã tận dụng danh tiếng từ thế giới khác của mình để thiết lập một vị thế đặc quyền tại địa phương. Do đó, [from.target.GetSpeciesNamePlural] đã bị thuyết phục và chấp nhận công nghệ của chúng ta. Tuy nhiên, giờ đây họ đã nhận thức rõ ràng hơn về sự tồn tại của những sinh vật \"siêu nhiên\" giống như chúng ta."
+
+ preftl_operation.3002.name:0 "Yêu thuật: Thuyết Phục"
+ preftl_operation.3002.desc:0 "Các đặc vụ của chúng ta đã sử dụng những sự thật và logic không thể chối cãi để lật đổ thành công hệ thống tư tưởng mê tín đang nhen nhóm trong xã hội người [from.target.GetSpeciesAdj]. Kết quả là, người dân địa phương không chỉ bắt đầu chấp nhận các kế hoạch của chúng ta, mà còn bắt đầu có một cái nhìn khách quan hơn đối với thế giới xung quanh họ."
+
+ preftl_operation.3003.name:0 "Yêu thuật: Hành Quyết"
+ preftl_operation.3003.desc:0 "Một tin tức khủng khiếp được gửi đến từ [from.target.capital_scope.GetName], những kẻ bạo loạn đã bắt giữ và sát hại một đặc vụ của chúng ta. Các nhà lãnh đạo và cư dân địa phương đều cho rằng họ đã bị các pháp sư siêu nhiên xâm lược một cách ác ý, và vô cùng phẫn nộ trước điều này. Nhiệm vụ giúp [from.target.GetName] bước vào một kỷ nguyên mới sẽ trở nên khó khăn hơn."
+
+# Pariah
+ preftl_operation.3010.name:1 "Kẻ Bị Ruồng Bỏ"
+ preftl_operation.3010.desc:1 "Chúng ta cứ tưởng rằng mình đã hiểu rõ về văn hóa của người [from.target.GetSpeciesAdj], đủ để các đặc vụ hòa nhập thành công vào xã hội của họ, nhưng thực tế là họ vẫn gặp phải muôn vàn khó khăn. Người dân địa phương dường như tỏ thái độ lạnh nhạt với họ, loại trừ các đặc vụ của chúng ta ra khỏi các hoạt động xã hội, thậm chí bao gồm cả một số hoạt động văn hóa thường nhật.\n\nGiờ đây, việc thuyết phục bất kỳ ai tiếp nhận chúng ta đều trở nên vô cùng khó khăn, chứ đừng nói đến việc thực hiện các mục tiêu của chiến dịch [from.GetName]. Xem xét tình hình cân bằng xã hội hiện đang ở trong một trạng thái rất tinh tế và phức tạp, chúng ta nên cân nhắc cẩn thận cho các bước đi tiếp theo."
+ preftl_operation.3010.a:1 "Có lẽ họ sẽ phản ứng với tiền bạc chăng?"
+ preftl_operation.3010.b:1 "Thử những cách làm táo bạo hơn."
+ preftl_operation.3010.c:1 "Dành thêm thời gian để nghiên cứu văn hóa của họ."
+
+ preftl_operation.3011.name:0 "Không Còn Bị Tẩy Chay"
+ preftl_operation.3011.desc:0 "Người dân trên [from.target.capital_scope.GetName] đã bắt đầu tôn sùng chúng ta! Nói cách khác, các đặc vụ của chúng ta không còn cần phải cố gắng hòa nhập với họ một cách gượng ép nữa, giờ đây bất kể họ đi đến đâu cũng đều nhận được sự chào đón nồng nhiệt. Có lẽ chúng ta đã không chú ý đến một mâu thuẫn tuy nhỏ bé nhưng lại mang tính then chốt trong văn hóa của người [from.target.GetSpeciesAdj]: Mặc dù trên bề mặt, xã hội của họ đề cao sự hòa hợp, nhưng trong thâm tâm, họ lại rất tán thưởng những hành vi phá cách và phô trương.\n\nGiờ đây, các đặc vụ của chúng ta đã trở thành những người dẫn đầu xu hướng thời trang tại địa phương, và chúng ta cũng có thể vui vẻ báo cáo rằng, chiến dịch [from.GetName] đang tiến triển mượt mà hơn bao giờ hết."
+
+ preftl_operation.3012.name:0 "Bị Trục Xuất"
+ preftl_operation.3012.desc:0 "Những sắc thái tinh tế trong văn hóa của người [from.target.GetSpeciesAdj] vẫn rất khó để nắm bắt, thậm chí tình hình còn tồi tệ hơn: Một số đặc vụ của chúng ta thậm chí còn bị trục xuất vì những tội ác mà họ vừa mới phạm phải. Có vẻ như [from.target.GetSpeciesNamePlural] là một nhóm người bảo thủ và đa nghi hơn chúng ta dự tính.\n\nNhững sai lầm trong giao tiếp xã hội này đã làm chậm tiến độ của chiến dịch [from.GetName], tuy nhiên ít nhất chúng ta cũng đã rút ra được một số bài học kinh nghiệm. Những thân phận giả mạo mới và các quy tắc đào tạo đã được phác thảo, và các đặc vụ của chúng ta sẽ không vấp ngã hai lần ở cùng một chỗ."
+ operation_pariahs:0 "Những Kẻ Bị Xua Đuổi"
+ operation_pariahs_desc:0 "Sau khi vi phạm một số cấm kỵ văn hóa, nhiều đặc vụ của chúng ta đã bị trục xuất khỏi xã hội địa phương. Những nguồn lực còn lại đang ngày càng trở nên căng thẳng."
+
+## Distracted Agent
+ preftl_operation.3020.name:0 "Kẻ Nổi Loạn"
+ preftl_operation.3020.desc:0 "Một đặc vụ chủ chốt của chúng ta đang làm việc trên [from.target.capital_scope.GetName] có vẻ như đã... mê mẩn nền văn minh địa phương, và từ chối thực hiện nhiều nhiệm vụ đã được giao. Ngược lại, đặc vụ quá độc lập này đã bắt đầu tiến hành các nghiên cứu độc lập về các giống loài khác, và đệ trình nhiều yêu cầu đòi xuất bản chúng một cách chính thức.\n\nNhững hành vi này đã khiến chiến dịch [from.GetName] có nguy cơ bị trì hoãn, nhưng chúng ta phải thừa nhận rằng, những công việc của đặc vụ ngang bướng đó thực sự khá hữu ích đối với chúng ta. Phủ nhận những nỗ lực này ngược lại sẽ làm chậm tiến độ của chúng ta."
+ preftl_operation.3020.a:0 "Cần phải nhấn mạnh tính kỷ luật."
+ preftl_operation.3020.b:0 "Tinh thần độc lập này rất đáng được khen ngợi!"
+ operation_no_more_distractions:0 "Tập Trung Toàn Lực"
+ operation_no_more_distractions_desc:0 "Chúng ta sẽ không còn nhận được những lợi ích từ những hiểu biết về dị chủng của đặc vụ nổi loạn đó nữa."
+ observation_distraction_insights:0 "Nghiên Cứu Bí Mật Độc Lập"
+ observation_distraction_insights_desc:0 "Một cựu đặc vụ đã mang đến một vài hiểu biết độc quyền trong quá trình nghiên cứu nền văn hóa này của chúng ta."
+
+## Mimicry
+ preftl_operation.3030.name:0 "Sự Bắt Chước"
+ preftl_operation.3030.desc:0 "Công việc của chúng ta trên [from.target.capital_scope.GetName] đã gặp phải một bài toán vô cùng kỳ lạ: Tổ đàn [from.target.GetSpeciesAdj] đang bắt chước lại các hành vi của chúng ta. Ban đầu, chúng ta tưởng rằng đó chỉ là những hành vi lập dị của những con ong thợ địa phương, nhưng phần lớn những thói quen mới này chắc chắn đều mang bản chất của [from.owner.GetSpeciesAdj].\n\nĐiều này không chỉ ám chỉ rằng chúng ta đã tác động đến tổ đàn địa phương nằm ngoài phạm vi được thiết kế tỉ mỉ của chiến dịch [from.GetName], mà còn nhắc nhở chúng ta rằng sự thất bại trong việc hòa nhập của chính chúng ta đang phản chiếu lại chính chúng ta. Hiện tại không có dấu hiệu nào cho thấy tổ đàn này đã nhận thức được các hoạt động của chúng ta, nhưng có lẽ việc chúng ta bị lộ chỉ còn là vấn đề thời gian."
+ preftl_operation.3030.a:0 "Vậy ra họ trở nên... dễ kiểm soát hơn sao?"
+ preftl_operation.3030.b:0 "Chúng ta phải cẩn thận hơn nữa."
+ preftl_operation.3030.b.tt:0 "Điều động thêm nhiều nguồn lực hơn để đảm bảo kiềm chế được những bản năng và thói quen không phù hợp của các đặc vụ của chúng ta."
+ preftl_operation.3030.c:0 "Chúng ta cứ kiên trì làm cho đến cùng."
+ preftl_operation.3030.d:0 "Rút lui, từ bỏ."
+ spynetwork_hive_mimicry:0 "Sự Bắt Chước Linh Hoạt"
+ spynetwork_hive_mimicry_desc:0 "Tổ đàn này đã bắt đầu bắt chước các hành vi của chúng ta, và những con ong thợ của nó cũng đã thiết lập một sự tương tác mang tính bản năng với các đặc vụ của chúng ta."
+ espionage_hive_mimicry:0 "Sự Bắt Chước Bị Phơi Bày"
+ espionage_hive_mimicry_desc:0 "Tổ đàn này có thói quen bắt chước các hành vi của những sự vật bên ngoài. Điều này có thể sẽ giúp nó dễ dàng phát hiện ra các tác động từ bên ngoài hơn."
+
+## Academic Shenanigans (note only some of these strings refer to the intended event ID, preftl_operation.3040)
+ preftl_operation.1100.name:0 "Theo Đuổi Học Thuật"
+ preftl_operation.1100.desc:1 "Các đặc vụ của chúng ta tại [from.target.capital_scope.GetName] được trang bị những kiến thức tiên tiến nhất, đã thâm nhập vào các trường đại học địa phương, và nhờ vào các lý thuyết mang tính đột phá để xác lập vị thế của bản thân như những nhà tư tưởng lỗi lạc. Tuy nhiên, những thành công liên tiếp của người này đã vấp phải sự nghi ngờ từ các học giả địa phương: rất nhiều người từ chối tiếp xúc với người này, và cáo buộc họ là kẻ lừa đảo.\n\nNhững cuộc tranh cãi học thuật không hồi kết đã cản trở các đặc vụ của chúng ta truyền bá những tư tưởng mới. $role_spymaster$ của chúng ta đang thỉnh cầu các chỉ thị tiếp theo."
+ preftl_operation.1100.a:0 "Xóa bỏ sự cạnh tranh."
+ preftl_operation.1100.b:1 "Sử dụng một số thủ đoạn cực đoan hơn để hối lộ những học giả này: Kinh phí nghiên cứu khoa học."
+ preftl_operation.1100.c:0 "Cứ để họ cãi nhau đi. Chuyện này chắc chắn sẽ rất thú vị đây."
+
+ preftl_operation.1101.name:0 "Sự Cố Bất Ngờ..."
+ preftl_operation.3041.desc:0 "$preftl_operation.3042.desc$\n\nTrời ạ, kế sách này của chúng ta thiếu đi sự tinh tế, khiến các đặc vụ rước lấy sự nghi ngờ. Phần lớn họ đều bị đuổi khỏi các học viện của người [from.target.GetSpeciesAdj], và vị trí của họ đã nhanh chóng được thay thế bởi một số nhà tư tưởng bảo thủ hơn."
+ preftl_operation.3042.desc:0 "Trong vài tuần gần đây, nhiều học giả phản đối các lý thuyết của đặc vụ chúng ta đã phải rời khỏi vị trí của mình, và theo sau đó là một loạt các \"sự cố ngoài ý muốn\" tưởng chừng như không có mối liên hệ nào——và đôi khi còn khá là bạo lực." # note this forms the first paragraph for preftl_operation.3041
+ preftl_operation.3042.a:0 "Rất tốt. Đây chính là đòn phủ đầu của chúng ta."
+
+ preftl_operation.1103.name:0 "Tài Trợ Nghiên Cứu Khoa Học"
+ preftl_operation.3043.desc:0 "Ý đồ hối lộ các học giả bất đồng chính kiến của chúng ta trên [from.target.capital_scope.GetName] đã bị phát hiện và báo cáo ngay lập tức. Các cơ quan tư pháp địa phương đã hành động vô cùng nhanh chóng: rất nhiều đặc vụ của chúng ta đã bị đuổi khỏi các học viện. Vị trí trống của họ đã nhanh chóng bị những nhà tư tưởng [from.target.GetSpeciesAdj] bảo thủ hơn chiếm lấy."
+ operation_academic_bribery_caught:0 "Tội Danh Hối Lộ Thành Lập"
+ operation_academic_bribery_caught_desc:0 "Chiến dịch gián điệp này đã bị trì hoãn do các đặc vụ của chúng ta đã bị bắt vì tội hối lộ."
+ preftl_operation.3044.desc:0 "Nhờ vào một nhà tài trợ ẩn danh hào phóng, kinh phí nghiên cứu của các học giả địa phương cuối cùng cũng đã được giải quyết: miếng bánh từ trên trời rơi xuống này đến quá bất ngờ, đến mức họ không còn cả thời gian dành cho những cuộc cạnh tranh vô bổ.\n\nSự bùng nổ gần đây cũng đã tạo ra một số vị trí học thuật mới, và đã nhanh chóng bị các đặc vụ của chúng ta chiếm lấy. Chúng ta dần dần siết chặt sự kiểm soát đối với các học viện của [from.target.GetSpeciesAdj], để giúp cho việc truyền bá những tư tưởng của chúng ta trở nên dễ dàng hơn."
+ operation_academic_bribery:0 "Hối Lộ Thành Công"
+ operation_academic_bribery_desc:0 "Sau khi chúng ta sử dụng việc tài trợ nghiên cứu để bịt miệng những đối thủ cạnh tranh học thuật, chiến dịch gián điệp này đã tiến triển ngày càng suôn sẻ hơn."
+
+ preftl_operation.1105.name:0 "Tranh Cãi Không Hồi Kết"
+ preftl_operation.3045.desc:0 "Những cuộc tranh luận học thuật không hồi kết trên [from.target.capital_scope.GetName] quả nhiên là một trở ngại lớn, chứ không phải là một cơ hội. Các đặc vụ của chúng ta đã không thể giành được một chỗ đứng trong các học viện văn hóa chủ chốt trên [from.target.capital_scope.GetPlanetHabitat]. Có lẽ những tư tưởng mà chúng ta cố gắng mang đến ở thời điểm hiện tại vẫn còn quá gây tranh cãi."
+ preftl_operation.3046.desc:0 "Chúng ta vớ được một cơ hội ngon ăn rồi! Trong quá trình tranh luận với các nhà tư tưởng của [from.target.GetName], các đặc vụ của chúng ta nhận ra rằng họ đã bị một số đối thủ gay gắt nhất đẩy đến một vị thế mà ai ai cũng biết đến. Kết quả là, những tư tưởng của chúng ta hiện đã được mang đến trước mặt những đại diện của tổ chức học thuật được kính trọng nhất trên [from.target.capital_scope.GetName].\n\nNhững tổ chức này không những thấu hiểu được tư tưởng của chúng ta, mà còn bắt đầu chọn lọc chúng, và biến chúng thành những thứ không ai ngờ tới: một vài kiến giải mới có thể đã được nảy sinh sau quá trình trao đổi ý kiến đầy hỗn loạn."
+
+## Spymaster Exposed / Blackmail
+ preftl_operation.3050.name:0 "[from.spynetwork.leader.GetName] Bị Bại Lộ"
+ preftl_operation.3050.desc:0 "Đã xảy ra những vi phạm nghiêm trọng! $role_spymaster$ [from.spynetwork.leader.GetName] đã vô tình làm lộ dấu vết trong một chuyến thăm dò bí mật trên bề mặt [from.target.capital_scope.GetName]. Hiện tại các chi tiết của vụ việc vẫn đang được điều tra, nhưng [from.spynetwork.leader.GetHeShe] đã có một cuộc tiếp xúc ngắn nhưng trực tiếp với người [from.target.GetSpeciesName] địa phương, và họ đã bỏ chạy thục mạng chỉ trong tích tắc. Các đặc vụ của chúng ta đã nỗ lực hết sức để bắt giữ những người làm chứng, nhưng hiện tại vẫn chưa có kết quả.\n\nChiến dịch [from.GetName] vẫn đang được tiến hành, nhưng chúng ta sẽ thực hiện các biện pháp đặc biệt để ngăn chặn sự cố này."
+ preftl_operation.3050.a:0 "Tốt, giữ liên lạc."
+ preftl_operation.3050.a.gestalt:0 "Tiếp tục theo dõi."
+ preftl_operation.3050.b:0 "Bắt lấy tên [from.target.GetSpeciesName] này, khiến hắn biến mất khỏi thế giới này."
+ preftl_operation.3050.c:0 "Quá càn rỡ rồi! Chúng ta phải đình chỉ chiến dịch này."
+ preftl_operation.3050.d:0 "Chúng ta nên thông báo cho [global_event_country.GetGalCommunityOrGalImperium]."
+ spynetwork_extra_containment:0 "Giao Thức Ngăn Chặn Đặc Biệt"
+ spynetwork_extra_containment_desc:0 "Các hoạt động trong mạng lưới gián điệp này đã bị phong tỏa sau một sự cố bại lộ nghiêm trọng gần đây."
+
+ preftl_operation.3051.name:0 "Loại Bỏ Người Làm Chứng"
+ preftl_operation.3051.desc:0 "Các đặc vụ của chúng ta báo cáo rằng, họ đã loại bỏ thành công mục tiêu: nhân chứng duy nhất trong vụ xâm nhập gần đây của chúng ta tại [from.target.GetName]. Chúng ta đã truy lùng người này đến một khu nhà hẻo lánh nằm ở ngoại ô của một khu định cư lớn của người [from.target.GetSpeciesAdj]. Nhân chứng này dường như đang trong trạng thái vô cùng hoảng sợ, không có dấu hiệu nào cho thấy người này đã tiếp xúc với những [from.target.GetSpeciesNamePlural] khác. Chúng ta tin chắc rằng sự việc này đã được kiểm soát."
+
+ preftl_operation.3055.name:0 "Tống Tiền"
+ preftl_operation.3055.desc:0 "Người [from.target.GetSpeciesName] đã tận mắt chứng kiến cuộc xâm nhập gần đây của chúng ta tại [from.target.GetName] không những vẫn đang lẩn trốn, mà thậm chí còn đưa ra một tối hậu thư đầy thô bạo cho chúng ta. Nhân chứng này đe dọa sẽ vạch trần $role_spymaster$ của chúng ta——và cả [from.owner.GetName]——rằng chúng ta đã nhúng tay can thiệp vào các vấn đề của người [from.target.GetSpeciesAdj] như thế nào.\n\nKẻ trơ trẽn này đang cản trở chúng ta bằng cách ở lỳ trong một khu vực đông dân cư, nơi mà chúng ta không thể làm gì hắn nếu không muốn đối mặt với nguy cơ bị bại lộ. Có lẽ chúng ta đành phải đồng ý với yêu cầu của người này vậy."
+ preftl_operation.3055.a:0 "Không thể chấp nhận được. Hủy bỏ nhiệm vụ, rút lui ngay lập tức."
+ preftl_operation.3055.b:0 "Chúng ta tuyệt đối không đàm phán. Tiêu diệt người làm chứng."
+ preftl_operation.3055.c:0 "Một cái giá cắt cổ, nhưng chúng ta sẽ chi số tiền này."
+ preftl_operation.3055.c.tt:1 "Các đặc vụ sẽ được chỉ định để giám sát đối tượng này liên tục suốt ngày đêm, nhằm đảm bảo tính bảo mật tuyệt đối.\n§RĐiều này sẽ gây tác động tiêu cực đến§! §Y$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§! của chúng ta."
+ spynetwork_blackmailed:0 "Bị Tống Tiền"
+ spynetwork_blackmailed_desc:0 "Năng lực của Mạng Lưới Gián Điệp này bị giảm nhẹ kể từ khi chúng ta nhượng bộ trước sự tống tiền của một cư dân địa phương. Các đặc vụ đã được chỉ định để giám sát đối tượng này liên tục suốt ngày đêm."
+
+## Stricken
+ preftl_operation.3060.name:0 "Bị Thương"
+ preftl_operation.3060.desc:1 "Hai đặc vụ chủ chốt của chúng ta trên [from.target.capital_scope.GetName] đã bị thương nặng trong một thảm họa thiên nhiên bất ngờ, thảm họa này cũng đã gây ra thương vong cho rất nhiều [from.target.GetSpeciesNamePlural]. Những người dân sống gần đó đã khẩn cấp ứng cứu, vài đặc vụ đó hiện đã nhận được những sự chăm sóc cơ bản.\n\n[from.target.GetSpeciesNamePlural] vẫn chưa bắt đầu nghi ngờ các đặc vụ của chúng ta, mặc dù họ bị thương rất nặng, nhưng so với số lượng lớn những người gặp nạn ở địa phương thì chẳng đáng là bao. Chẳng bao lâu nữa, chiến dịch [from.GetName] sẽ phải chịu sự giám sát nghiêm ngặt hơn——đặc biệt là trong tình huống hai đặc vụ chủ chốt của chúng ta đang bị thương tích đầy mình."
+ preftl_operation.3060.hive.desc:0 "Hai đặc vụ chủ chốt của chúng ta trên [from.target.capital_scope.GetName] đã bị thương nặng trong một thảm họa thiên nhiên bất ngờ, thảm họa này cũng đã phá hủy rất nhiều cá thể con của [from.target.GetSpeciesAdj]. Những người cứu hộ đã khẩn cấp ứng cứu, và đưa hai đặc vụ bị thương của chúng ta đi để tiến hành những sự chăm sóc cơ bản.\n\nHiện tại, tổ đàn chủ của [from.target.GetSpeciesAdj] đang có xu hướng quan tâm hơn đến những vết thương nghiêm trọng hơn. Nhưng chẳng bao lâu nữa, chiến dịch [from.GetName] sẽ phải chịu sự giám sát nghiêm ngặt hơn——đặc biệt là trong tình huống hai đặc vụ chủ chốt của chúng ta đang bị thương tích đầy mình. Chúng ta có nguy cơ bị bại lộ rất lớn."
+ preftl_operation.3060.a:0 "Lập tức giải cứu các đặc vụ của chúng ta."
+ preftl_operation.3060.a.tt:0 "Nếu chúng ta thành công, §YChiến dịch [from.GetName]§! sẽ được tiến hành theo đúng kế hoạch. Tuy nhiên, có một tỷ lệ nhỏ sẽ thất bại, và hậu quả tiềm tàng sẽ khá nghiêm trọng."
+ preftl_operation.3060.b:0 "Chúng ta phải tin rằng vỏ bọc của họ đủ vững chắc."
+ preftl_operation.3060.c:1 "Chúng ta không thể mạo hiểm để bị bại lộ! Đình chỉ chiến dịch."
+ preftl_operation.3060.d:0 "Đã đến lúc để tiết lộ bộ mặt thật của chúng ta."
+ preftl_operation.3060.d.negative.tt:0 "Giao phó hoàn toàn các đặc vụ của chúng ta cho sự chăm sóc y tế của [from.target.GetSpeciesAdj]. Điều này sẽ gây ra ảnh hưởng §Rtiêu cực§! cho §YChiến dịch [from.GetName]§!."
+ preftl_operation.3060.d.positive.tt:0 "Giao phó hoàn toàn các đặc vụ của chúng ta cho sự chăm sóc y tế của [from.target.GetSpeciesAdj]. Điều này sẽ mang lại ảnh hưởng §Gtích cực§! cho §YChiến dịch [from.GetName]§!."
+ operation_stricken_operatives:0 "Đặc Vụ Bị Thương"
+ operation_stricken_operatives_desc:0 "Một vài đặc vụ chủ chốt của chúng ta không may đã bị thương, dẫn đến sự chậm trễ đáng kể trong tiến độ."
+
+ preftl_operation.3061.success.desc:1 "$role_spymaster$ [from.spynetwork.leader.GetName] báo cáo rằng, các đặc vụ bị thương của chúng ta đã được sơ tán khỏi các cơ sở y tế địa phương trên [from.target.capital_scope.GetName]. Dưới góc nhìn của [from.target.GetSpeciesNamePlural], những \"người sống sót\" này đã phải hứng chịu những vết thương chí mạng vô hình. Bản sao thi thể của họ đã được xử lý ổn thỏa."
+ preftl_operation.3061.failure.desc:1 "$role_spymaster$ [from.spynetwork.leader.GetName] khẩn cấp báo cáo rằng, chiến dịch giải cứu các đặc vụ bị thương khỏi bề mặt [from.target.capital_scope.GetName] đã thất bại. Một vài người [from.target.GetSpeciesAdj] đã chứng kiến những gì họ cho là một \"vụ bắt cóc bất thành\", và đã can thiệp bằng những định kiến của mình. Họ không chỉ tăng cường an ninh cho một vài đặc vụ bị thương đó, mà thậm chí còn bắt giữ các thành viên trong đội cứu hộ của chúng ta!\n\nNgười [from.target.GetSpeciesName] hiện đang cảnh giác cao độ. Ít nhất theo một nghĩa nào đó, chiến dịch [from.GetName] đã bị bại lộ."
+ preftl_operation.3061.a:0 "Cảnh báo cho [global_event_country.GetGalCommunityOrGalImperium]."
+
+ preftl_operation.3062.success.desc:0 "Vỏ bọc của chúng ta vẫn chưa bị lộ. Việc các đặc vụ của chúng ta trốn thoát khỏi những vết thương chí mạng một cách gần như kỳ diệu quả thực đã gây ra một số nghi ngờ, nhưng [from.target.GetSpeciesNamePlural] dường như cho rằng may mắn chỉ đang mỉm cười với họ.\n\nCác đặc vụ của chúng ta sẽ phải mất một thời gian nữa mới có thể trở lại với công việc, nhưng hiện tại họ đã bắt tay vào việc báo cáo tình hình. Chiến dịch [from.GetName] sẽ khôi phục lại lịch trình ban đầu của nó."
+ preftl_operation.3062.failure.desc.intro:1 "$role_spymaster$ [from.spynetwork.leader.GetName] khẩn cấp báo cáo rằng, chúng ta đã không thể duy trì vỏ bọc trên [from.target.GetName]. Mặc dù được đào tạo bài bản và sở hữu công nghệ ngụy trang tiên tiến nhất mà chúng ta có thể cung cấp, nhưng thân phận không phải là [from.target.GetSpeciesNamePlural] của các đặc vụ của chúng ta vẫn bị lộ."
+ preftl_operation.3062.failure.unaware.desc:0 "$preftl_operation.3062.failure.desc.intro$\n\nThực tế phũ phàng đã giáng một đòn chí mạng vào các đặc vụ của chúng ta: Trong lúc họ đang được phẫu thuật cơ bản, nhân viên điều dưỡng của người [from.target.GetSpeciesAdj] đã phát hiện ra danh tính thực sự của họ, và vô cùng hoảng loạn vì điều này."
+ preftl_operation.3062.failure.aware.desc:0 "$preftl_operation.3062.failure.desc.intro$\n\nMay mắn là người dân địa phương không hề hoảng loạn, và các đặc vụ của chúng ta tạm thời vẫn không bị tổn hại gì. Tuy nhiên, hy vọng tiếp tục che đậy sự tồn tại của họ và thành công của chiến dịch là vô cùng mong manh. Có vẻ như chúng ta phải đối mặt với những hậu quả nhãn tiền rồi."
+
+## Mixed Signals
+ preftl_operation.3100.name:0 "Tín Hiệu Hỗn Loạn"
+ preftl_operation.3100.desc:0 "Các cá thể con tại một khu định cư lớn trên [from.target.capital_scope.GetName] hôm nay đã bất ngờ nổ ra một cuộc xung đột. Các đặc vụ của chúng ta đã sử dụng nhầm pheromone khi ngụy trang thành những cá thể con cấp thấp của địa phương, và đã gây ra một vụ giẫm đạp kinh hoàng. Tổ đàn [from.target.GetSpeciesAdj] có vẻ như đặc biệt nhạy cảm với các loại pheromone mà chúng ta đã chuẩn bị sẵn từ trước. Nhưng nếu tiếp tục biên đạo những cuộc giao tranh bùng nổ như vậy giữa các khu định cư địa phương, chúng ta chắc chắn sẽ học hỏi được rất nhiều điều.\n\nRõ ràng là, sự tồn tại của chính chúng ta đang gây nguy hiểm cho tiến độ của chiến dịch [from.GetName]. Lần tới nếu gửi bất kỳ tín hiệu nào, chúng ta bắt buộc phải đảm bảo sự hoàn hảo tuyệt đối."
+ preftl_operation.3100.a:0 "Nghiên cứu phản ứng của chúng đối với việc giải phóng hormone có kiểm soát."
+ preftl_operation.3100.b:0 "Che đậy pheromone lại."
+ preftl_operation.3100.b.tt:0 "Điều động thêm tài nguyên, đảm bảo các đặc vụ của chúng ta hoàn thành nhiệm vụ, tránh khỏi nguy cơ xảy ra thêm các sự cố ngoài ý muốn."
+ spynetwork_hive_no_pheromones:0 "Vô Hiệu Hóa Pheromone"
+ spynetwork_hive_no_pheromones_desc:0 "Bởi vì ý thức tổ đàn gần đây đã bị phơi nhiễm với pheromone nhân tạo, chúng ta quyết định sẽ hạn chế sử dụng phương pháp này trong các chiến dịch tương lai."
+
+## Technological Contamination
+ preftl_operation.3105.name:0 "Ô Nhiễm Công Nghệ"
+ preftl_operation.3105.desc:0 "Một cá thể con trên [from.target.capital_scope.GetName] đã cố gắng đặt [from.target.species.GetHandNamePlural] của mình lên thiết bị đo đạc của chúng ta. Nó đã bắt đầu tháo rời thiết bị của chúng ta, nếu nó hiểu ra được điều gì đó, việc ý thức này lan truyền đến ý thức tổ đàn địa phương sẽ chỉ là vấn đề thời gian.\n\nNếu chúng ta muốn tránh can thiệp vào sự phát triển tự nhiên của chúng, chúng ta phải hành động thật nhanh chóng."
+ preftl_operation.3105.a:0 "Hãy để những cá thể con này nghịch ngợm đống phế liệu của chúng ta."
+ preftl_operation.3105.a.tt:0 "§Y[from.target.GetName]§!: Tiến độ công nghệ §G+20%§!."
+ preftl_operation.3105.b:0 "Nếu chúng ta khởi động thiết bị thì sao?"
+ preftl_operation.3105.b.tt:0 "§Y[from.target.GetName]§! sẽ tiến tới cấp độ công nghệ tiếp theo."
+ preftl_operation.3105.c:1 "Kích nổ từ xa toàn bộ các thiết bị thâm nhập tại địa phương."

@@ -1,0 +1,402 @@
+﻿l_english:
+
+# Observation Events from base game
+# Refactored as part of the 3.7 "Canis Minor" update.
+
+# Asteroid Sighted!
+ observation.2.name:1 "Tiểu hành tinh đang tiếp cận [pre_ftl_planet.GetName]"
+ observation.2.desc:2 "Phòng thí nghiệm thiên thể nhỏ trên trạm quan sát quỹ đạo của chúng ta tại [pre_ftl_planet.GetName] đã phát hiện một tiểu hành tinh cấp 4 đang tiến lại gần. Nếu không hành động, nó sẽ va chạm với lực cực lớn vào bán cầu [GetRandomCompassDirection] của [pre_ftl_planet.GetPlanetHabitat], đủ để gây ra một sự kiện tuyệt chủng.\n\nNhiệm vụ của chúng ta là quan sát thụ động, thông thường chúng ta không được phép can thiệp, nhưng nhiều nhà khoa học cho rằng nên phá lệ trong trường hợp này. Nếu không làm gì, [pre_ftl_country.GetName] trên [pre_ftl_planet.GetName] chắc chắn sẽ diệt vong."
+ observation.2.a:1 "Tình hình không mấy lạc quan."
+# Asteroid Impacts Pre-FTL planet.
+ observation.4.name:1 "Tiểu hành tinh va chạm với [pre_ftl_planet.GetName]"
+ observation.4.desc:1 "Đúng như dự đoán, tiểu hành tinh bay về phía [pre_ftl_planet.GetName] đã va chạm vào bề mặt [pre_ftl_planet.GetPlanetHabitat], gây ra những thiệt hại không thể cứu vãn cho hệ sinh thái. Các nhà khoa học trên trạm quan sát chỉ có thể lặng lẽ đứng nhìn phần lớn nền văn minh [GetPreFTLLower] mà họ nghiên cứu bấy lâu nay bị xóa sổ dưới tác động của cú va chạm."
+ observation.4.a:1 "Thật bi thảm, nhưng chúng ta không có quyền can thiệp."
+ observation.4.a.tt:0 "§Y[pre_ftl_country.GetName]§!: Thoái lui về §YThời đại Đồ đá§!."
+# Asteroid Collides with Observation Post.
+ observation.5.name:1 "Trạm Quan sát bị phá hủy"
+ observation.5.desc:1 "Các nhà nghiên cứu trên trạm quan sát phía trên [pre_ftl_planet.GetName] đã điều khiển động cơ đẩy quỹ đạo, khiến trạm va chạm trực diện với tiểu hành tinh đang lao tới. Sự hy sinh của họ đã giúp tiểu hành tinh chệch hướng khỏi quỹ đạo [pre_ftl_planet.GetPlanetHabitat] một cách an toàn, nhưng không một ai trên trạm sống sót.\n\nRõ ràng, họ không nỡ nhìn nền văn minh mà mình dành cả đời nghiên cứu bị diệt vong như vậy."
+ observation.5.a:1 "Một đòn giáng nặng nề vào khoa học!"
+# Observing Empire Destroys Asteroid
+ observation.7.name:1 "Tiểu hành tinh bị phá hủy"
+ observation.7.desc:1 "Tiểu hành tinh bay về phía [pre_ftl_planet.GetName] đã bị phá hủy trước khi kịp chạm tới bề mặt [pre_ftl_planet.GetPlanetHabitat]. Các mảnh vỡ đều đã cháy rụi an toàn khi đi vào bầu khí quyển mà không gây ra bất kỳ thiệt hại thực chất nào.\n\nNhững người ngoài hành tinh [GetPreFTLLower] của [pre_ftl_country.GetName] đã được chiêm ngưỡng một trận mưa sao băng cực kỳ tráng lệ, mà hoàn toàn không hay biết mình vừa thoát khỏi một thảm họa diệt vong..."
+ observation.7.a:1 "Họ sẽ không bao giờ phát hiện ra đâu."
+# Third Party Destroys Asteroid (Event for Third Party)
+ observation.8.name:0 "$observation.7.name$"
+ observation.8.desc:0 "$observation.7.desc$"
+ observation.8.a:0 "$observation.7.a$"
+# Third Party Destroys Asteroid (Event for Observing Empire)
+ observation.9.name:0 "$observation.7.name$"
+ observation.9.desc:0 "$observation.7.desc$"
+ observation.9.a:0 "$observation.7.a$"
+# Pre-FTL civilization Diverts Asteroid (Event for Observing Empire)
+ observation.10.name:0 "Tiểu hành tinh đã chệch hướng"
+ observation.10.desc:0 "Để cứu lấy [pre_ftl_planet.GetName] trong một nỗ lực tuyệt vọng, [pre_ftl_country.GetName] đã phóng vài tên lửa hạt nhân vào tiểu hành tinh. Dù những tên lửa này không đủ để phá hủy nó, nhưng những [GetPreFTLLowerPlural] trên [pre_ftl_planet.GetName] vẫn thành công khiến tiểu hành tinh chệch khỏi quỹ đạo bay."
+ observation.10.a:0 "Làm tốt lắm!"
+ observation.10.a.tt:0 "§Y[pre_ftl_country.GetName]§! nhận được: §G+25%§! tiến bộ công nghệ trong 24 tháng."
+
+# Missing Scientist
+ observation.101.name:1 "Nhà khoa học mất tích"
+ observation.101.desc:2 "Một trong những nhà khoa học làm việc tại Trạm Quan Sát trên quỹ đạo [pre_ftl_planet.GetName] vừa được báo cáo là mất tích. [missing_scientist.GetHeSheCap] trước đó tham gia một nhiệm vụ bí mật nhằm thu thập các mẫu thực vật trên bề mặt [pre_ftl_planet.GetPlanetHabitat], nhưng đã không trở lại tàu con thoi cùng các thành viên khác trong đội của [missing_scientist.GetHisHer].\n\nChúng ta đã tiến hành tìm kiếm trong phạm vi giới hạn để tránh đánh động các [GetPreFTLLowerPlural], nhưng cho đến nay vẫn chưa có kết quả."
+ observation.101.a:1 "Tiếp tục tìm kiếm."
+ observation.102.name:1 "Phát hiện nhà khoa học đã tử nạn"
+ observation.102.desc:1 "Cuối cùng chúng ta cũng tìm thấy di hài của nhà khoa học mất tích trên [pre_ftl_planet.GetName]... hay ít nhất là những gì còn sót lại. Có vẻ như [missing_scientist.GetHeShe] đã trở thành bữa tối cho một loài thú săn mồi cỡ lớn tại địa phương. Đây là một tổn thất lớn cho đội ngũ nghiên cứu, nhưng ít nhất các [GetPreFTLLowerPlural] vẫn hoàn toàn không hay biết về sự tồn tại của chúng ta."
+ observation.102.a:1 "Ít nhất thì cũng không vi phạm chỉ thị."
+ observation.103.name:1 "Báo cáo bất thường từ [pre_ftl_planet.GetName]"
+ observation.103.desc:1 "Trạm quan sát phía trên [pre_ftl_planet.GetName] đã gửi về những báo cáo kỳ lạ. Một vương quốc địa phương dường như đang tập hợp dưới trướng một nhân vật tôn giáo huyền bí, và có dấu hiệu cho thấy họ đang sử dụng công nghệ cao vượt xa trình độ phát triển hiện tại. Chẳng lẽ việc này có liên quan đến nhà khoa học mất tích của chúng ta?"
+ observation.104.desc:1 "Chào các bạn, những người bạn cũ. Đã lâu rồi nhỉ.\n\nTrước hết, tôi chân thành xin lỗi vì tất cả những gì các bạn đã bỏ ra để tìm kiếm tôi. Việc tôi mất tích trên [pre_ftl_planet.GetName] hoàn toàn là cố ý.\n\nCác [GetPreFTLLowerPlural] ở đây đến yết kiến tôi, tôn thờ tôi như thần thánh... và tại sao họ lại không làm thế chứ? Sau khi cân nhắc kỹ lưỡng, tôi đã quyết định mang nền văn minh thực thụ đến cho những [GetPreFTLLowerPlural] này."
+ observation.104.a:1 "Anh bị cái quái gì ám thế này?!"
+ observation.104.a.response:1 "Tôi mệt rồi. Tôi đã phát chán với những hạn chế đạo đức hẹp hòi, phát chán với việc bị đồng nghiệp chế nhạo. Quan trọng nhất là, tôi đã phát chán với việc quan sát \"thụ động\".\n\nThật nực cười! Can thiệp vào văn hóa [GetPreFTLLower] mới là sứ mệnh của chúng ta — dẫn dắt họ, nhào nặn họ theo con đường chúng ta chọn. Khoanh tay đứng nhìn một cách trơ trẽn chẳng qua chỉ là trốn tránh trách nhiệm mà thôi."
+ observation.104.b:1 "Rút lui ngay lập tức cho tôi!"
+ observation.104.b.response:1 "E là đã quá muộn rồi. Tôi đã quyết định không nghe lệnh từ những kẻ thấp kém hơn mình nữa. Trí tuệ của tôi vốn dĩ để phục vụ các người, nhưng các người lại phí hoài nó.\n\nỞ đây, tôi nhận được sự tôn trọng mà tôi xứng đáng có. Nơi đây giờ là nhà của tôi. Với kiến thức và công nghệ tôi mang tới, tôi sẽ khiến nền văn minh này nhảy vọt thần tốc, tiến tới thời đại hoàng kim."
+ observation.104.c:1 "Anh điên thật rồi."
+ observation.104.c.response:1 "Ngược lại mới đúng! Tôi chưa bao giờ tỉnh táo hơn thế! Sự diệt vong của [Root.GetName] là không thể tránh khỏi. Nếu không nhìn ra hàng loạt điềm báo đó thì các người mù quáng thật rồi.\n\nÀ thì, toàn bộ quá trình có thể mất hàng chục, thậm chí hàng trăm năm, nhưng ngày tàn của các người đang tới gần. Sau khi các người tự hủy hoại mình vì thói lười biếng và trì trệ, toàn bộ dải ngân hà sẽ được tiếp quản bởi những nền văn minh đầy sức sống, như nền văn minh mà tôi đang gầy dựng đây.\n\nChẳng còn gì để nói nữa. Vĩnh biệt. "
+ observation.105.name:1 "Nhà khoa học phản bội củng cố quyền lực"
+ observation.105.desc:2 "Chúng ta nhận được vài báo cáo cảnh báo từ bề mặt [pre_ftl_planet.GetName]. Có vẻ như nhà khoa học phản bội đang tiếp tục củng cố uy quyền của mình — [missing_scientist.GetHeShe] đã gửi vũ khí tiên tiến cho một trong những vương quốc phong kiến, và giờ họ đang nhân danh [missing_scientist.GetHisHer] để chinh phạt phần còn lại của [pre_ftl_planet.GetPlanetMoon].\n\nChúng ta đã đề xuất một kế hoạch bắt giữ cưỡng chế [missing_scientist.GetHimHer], nhưng kế hoạch này cần sự phối hợp của lực lượng mặt đất khổng lồ. Vì nhiều người địa phương coi [missing_scientist.GetHimHer] là thần thánh, nên chưa rõ kế hoạch này sẽ ảnh hưởng đến dân chúng địa phương như thế nào."
+ observation.105.a:1 "Phê duyệt hành động. Loại bỏ [missing_scientist.GetHimHer]."
+ observation.105.b:1 "Làm vậy chỉ tổ khiến mọi chuyện tệ thêm..."
+ observation.106.name:1 "Bắt giữ thành công"
+ observation.106.desc:1 "Chúng ta đã bắt được nhà khoa học phản bội rời khỏi [pre_ftl_planet.GetName] thành công! Trong chiến dịch, hàng trăm [owner.GetPreFTLLowerPlural] đã mở các đợt tấn công tự sát vào quân đội của ta để bảo vệ \"thiên nhân\" của chúng, buộc lòng chúng ta phải tiêu diệt họ. Thật là một bi kịch.\n\nHệ thống tư pháp của chúng ta hiện đang xử lý nhà khoa học này, nhưng chuỗi sự kiện này chắc chắn đã gây ra tác động nghiêm trọng đến nền văn minh [pre_ftl_planet.GetPlanetHabitat]. Họ vẫn đang nắm giữ một phần công nghệ của chúng ta, và \"thiên nhân\" của họ thì vừa bị những kẻ xâm lược từ các vì sao bắt đi mất..."
+ observation.106.a:1 "Ít nhất thì một vấn đề đã được giải quyết."
+ observation.107.name:1 "Xung đột tôn giáo trên [pre_ftl_planet.GetName]"
+ observation.107.desc:1 "Sau khi chúng ta bắt nhà khoa học phản bội đi, [pre_ftl_planet.GetName] đã rơi vào loạn lạc. Đế chế mà [missing_scientist.GetHeShe] gầy dựng đã tan rã thành nhiều phe phái thù địch lẫn nhau, mỗi phe lại có cách diễn giải khác nhau về các giáo điều tôn giáo của [missing_scientist.GetHisHer].\n\nVũ khí mà thổ dân sử dụng hiện nay có sức hủy diệt rất lớn, khiến cuộc chiến diễn ra vô cùng khốc liệt. Các phe đối lập đã phóng vài quả \"bom bẩn\" phóng xạ vào nhau, và xem chừng chiến sự sẽ còn leo thang dữ dội."
+ observation.107.a:1 "Chuyện này không thể kết thúc êm đẹp được..."
+ observation.108.name:1 "Sự việc trên [pre_ftl_planet.GetName] đã lắng xuống"
+ observation.108.desc:1 "Sau khi chúng ta bắt giữ thành công nhà khoa học phản bội, tình hình trên [pre_ftl_planet.GetName] có vẻ đã bình ổn lại. Thiếu đi sự giải thích dữ liệu của [missing_scientist.GetHimHer], các nguyên mẫu công nghệ mà [missing_scientist.GetHeShe] mang tới trở nên vô dụng đối với người dân trên [pre_ftl_planet.GetName]. Các [GetPreFTLLowerPlural] đã bắt đầu dần quay trở lại lối sống ban đầu."
+ observation.108.a:1 "Cuối cùng cũng có tin tốt."
+ observation.109.name:1 "Tên lửa bắn trúng trạm quan sát!"
+ observation.109.desc:1 "Sáng sớm hôm nay, một loạt tên lửa đất đối không đã rời bệ phóng từ bề mặt [pre_ftl_planet.GetName], bắn thẳng vào trạm quan sát của chúng ta! Trạm không gian lập tức bị phá hủy, không một ai sống sót.\n\nKhông còn nghi ngờ gì nữa, nền văn minh [GetPreFTLLower] trên bề mặt [pre_ftl_planet.GetPlanetHabitat] đang tiếp tục phát triển với tốc độ khó tin — dù chúng ta đã xóa bỏ ảnh hưởng từ cái gọi là \"thần\" của họ. Công nghệ mà [missing_scientist.GetHeShe] trao cho họ chắc chắn đã kích hoạt một cuộc cách mạng khoa học bền bỉ."
+ observation.109.a:1 "Bởi vậy mới nói, sự tồn tại của chỉ thị không can thiệp là vô cùng cần thiết."
+ observation.110.desc:1 "Thánh linh phù hộ! Dù các người trông y hệt như Thánh Cứu Thế của chúng tôi, nhưng vẫn có sự khác biệt rõ rệt. [missing_scientist.GetHeSheCap] từng nói rằng, ác quỷ sẽ giả mạo diện mạo của [missing_scientist.GetHimHerCap], rồi một ngày nào đó từ trên trời giáng xuống bắt [missing_scientist.GetHimHerCap] đi. Lời tiên tri đã ứng nghiệm, không nghi ngờ gì nữa chính các người là kẻ thủ ác.\n\nThánh Cứu Thế của chúng tôi đang ở đâu, lũ sinh vật độc ác kia? Ta yêu cầu thả [missing_scientist.GetHimHerCap] ngay lập tức!"
+ observation.110.a:1 "\"Thánh Cứu Thế\" của các người là một nhà khoa học ngoài hành tinh."
+ observation.110.a.response:1 "Ngừng ngay hành vi báng bổ đó lại! Xúc phạm danh dự Thánh Cứu Thế là trọng tội không thể tha thứ, có thể bị xử tử. Nền văn minh của chúng tôi chỉ có được ngày hôm nay nhờ sự khai sáng từ thánh vật của [missing_scientist.GetHisHerCap]. Chỉ cần các người trả lại Thánh Cứu Thế cho chúng tôi, phía chúng tôi sẽ tha thứ cho sự báng bổ của các người."
+ observation.110.b:1 "[missing_scientist.GetHeSheCap] đã bị xử tử vì những tội ác của [missing_scientist.GetHisHer] đối với người dân các bạn."
+ observation.110.b.response:1 "Lũ đao phủ. Lũ ác quỷ hèn hạ, bội tín.\n\nHãy nhớ lấy lời ta: tội ác này sẽ không thể trốn thoát. Dù có mất cả ngàn năm, chúng ta cuối cùng cũng sẽ san bằng cả đế chế độc ác của các người."
+ observation.110.c:1 "Rất tốt. [missing_scientist.GetHeSheCap] sẽ được thả và bàn giao cho các người giam giữ."
+ observation.110.c.response:1 "Ác quỷ, nguyện Thánh Cứu Thế rộng lòng tha thứ cho tội ác của ngươi. Có lẽ ngươi vẫn chưa đến mức không thể cứu vãn."
+ observation.111.desc:1 "Tôi nghĩ, tôi nên cảm ơn vì đã đưa tôi quay lại với những môn đồ của mình. Mặc dù tôi đã phải chịu sự đối đãi bất công, bị giam giữ cũng như những bài đánh giá tâm lý nực cười, nhưng tôi sẵn lòng để quá khứ ngủ yên. Chỉ cần các người đừng động đến tôi và nhân dân của tôi, chúng ta có thể tìm ra cách để cùng tồn tại. Dù sao thì, vũ trụ này rộng lớn lắm."
+ observation.111.a:1 "Cứ chống mắt lên mà xem."
+ observation.112.desc:1 "Một loạt tên lửa đất đối không phóng lên từ bề mặt [pre_ftl_planet.GetName], trực tiếp bắn trúng trạm quan sát trên quỹ đạo cao của chúng ta! Trạm quan sát lập tức bị phá hủy, không một ai sống sót.\n\nCó vẻ như nền văn minh trên bề mặt [pre_ftl_planet.GetPlanetHabitat] đang phát triển thần tốc với tốc độ khó tin — không nghi ngờ gì nữa, tất cả đều nhờ ơn nhà khoa học phản bội của chúng ta. Chúng ta không thể coi họ là nền văn minh nguyên thủy nữa, và chúng ta cũng chẳng còn cơ hội nào để lật đổ nhà khoa học đó khỏi ngai vàng quyền lực nữa rồi."
+
+# Shuttle Intercepted
+ observation.201.name:1 "Tàu con thoi rơi xuống [pre_ftl_planet.GetName]"
+ observation.201.reg_pre_ftl.desc:0 "Trong một nhiệm vụ bí mật thực hiện trên bề mặt [pre_ftl_planet.GetName], một tàu con thoi của ta đã bị phi đội tiêm kích tầng khí quyển của một quốc gia địa phương chặn đánh. Một quả tên lửa may mắn đã bắn trúng động cơ tàu, khiến nó rơi xuống vùng hoang dã hẻo lánh.\n\nNếu muốn cứu toàn bộ những người sống sót trước khi các [GetPreFTLLowerPlural] tiếp cận được địa điểm rơi, chúng ta phải hành động thật nhanh. Mọi bằng chứng về sự tồn tại của chúng ta đều phải bị xóa sạch!"
+ observation.201.hive_pre_ftl.desc:0 "Trong một nhiệm vụ bí mật thực hiện trên bề mặt [pre_ftl_planet.GetName], một tàu con thoi của ta đã bị phi đội tiêm kích khí quyển danh tính bất minh chặn đánh. Một quả tên lửa may mắn đã bắn trúng động cơ và làm nó tê liệt, khiến tàu rơi xuống vùng hoang dã hẻo lánh.\n\nNếu muốn cứu toàn bộ những người sống sót trước khi các [GetPreFTLLowerPlural] tiếp cận địa điểm rơi, chúng ta phải hành động thật nhanh. Mọi bằng chứng về sự tồn tại của chúng ta đều phải bị xóa sạch!"
+ observation.201.reg_pre_ftl.desc.gestalt:0 "Tàu con thoi XB-23-968H, trong khi đang tới [pre_ftl_planet.GetName] thực hiện nhiệm vụ quan sát bí mật V45-BM, đã bị phi đội tiêm kích tầng khí quyển của một quốc gia danh tính bất minh chặn đánh, và báo cáo đã xảy ra tình trạng mất kiểm soát nghiêm trọng. Chúng ta đã lần theo được vị trí rơi của nó.\n\nTrước khi bất kỳ [GetPreFTLLowerPlural] nào tiếp cận điểm rơi, toàn bộ drone tự chủ phải được sơ tán, và phải xóa sạch mọi bằng chứng về sự tồn tại của chúng ta."
+ observation.201.hive_pre_ftl.desc.gestalt:0 "Tàu con thoi của chúng ta, trong khi đang tới [pre_ftl_planet.GetName] thực hiện nhiệm vụ quan sát bí mật, đã bị phi đội tiêm kích tầng khí quyển chặn đánh, và báo cáo đã xảy ra tình trạng mất kiểm soát nghiêm trọng. Chúng ta đã lần theo được vị trí rơi của nó.\n\nTrước khi [GetPreFTLLowerPlural] tiếp cận điểm rơi, toàn bộ các [GetIndividualNamePlural] tự chủ phải được sơ tán, và phải xóa sạch mọi bằng chứng về sự tồn tại của chúng ta."
+ observation.201.a:1 "Hành động ngay."
+
+ observation.202.name:1 "Đặc vụ trên [pre_ftl_planet.GetName] đã được cứu"
+
+ observation.202.start:0 "Các đặc vụ của [Root.GetName] đã cứu thoát thành công nhiều người sống sót từ chiếc tàu con thoi rơi trên [pre_ftl_planet.GetName]. Phần xác tàu còn lại đã bị phá hủy trong một vụ nổ có kiểm soát, chỉ để lại một hố nhỏ cho các [GetPreFTLLowerPlural] tìm kiếm."
+ observation.202.gestalt.start:0 "Các đặc vụ của [Root.GetName] đã cứu thoát thành công nhiều cá thể con tự chủ từ chiếc tàu con thoi rơi trên [pre_ftl_planet.GetName]. Phần xác tàu còn lại đã bị phá hủy trong một vụ nổ có kiểm soát, chỉ để lại một hố nhỏ cho các [GetPreFTLLowerPlural] tìm kiếm."
+ observation.202.reg.end:0 "Quốc gia nơi xảy ra sự cố này chắc chắn sẽ đổ lỗi cho các nước láng giềng vì hành vi xâm phạm biên giới, hy vọng thiệt hại gây ra cho quá trình phát triển tự nhiên của họ từ sự kiện này sẽ được giảm thiểu tối đa."
+ observation.202.hive_mind.end:0 "Ý thức tập thể nơi xảy ra sự cố này chắc chắn sẽ đổ lỗi cho các nước láng giềng vì hành vi xâm phạm biên giới, hy vọng thiệt hại gây ra cho quá trình phát triển tự nhiên của họ từ sự kiện này sẽ được giảm thiểu tối đa."
+
+ observation.202.reg_pre_ftl.desc:0 "$observation.202.start$\n\n$observation.202.reg.end$"
+ observation.202.hive_pre_ftl.desc:0 "$observation.202.start$\n\n$observation.202.hive_mind.end$"
+ observation.202.reg_pre_ftl.desc.gestalt:0 "$observation.202.gestalt.start$\n\n$observation.202.reg.end$"
+ observation.202.hive_pre_ftl.desc.gestalt:0 "$observation.202.gestalt.start$\n\n$observation.202.hive_mind.end$"
+
+ observation.203.name:1 "Đặc vụ trên [pre_ftl_planet.GetName] bị bắt"
+
+ observation.203.start:0 "Quân đội [GetPreFTLUpper] của [pre_ftl_planet.GetName] đã tới điểm rơi trước khi chúng ta tìm thấy đội ngũ nghiên cứu bị nạn, toàn bộ những người sống sót đã bị bắt giữ."
+ observation.203.gestalt.start:0 "Quân đội [GetPreFTLUpper] của [pre_ftl_planet.GetName] đã tới điểm rơi trước khi chúng ta tìm thấy đội ngũ nghiên cứu bị nạn, toàn bộ các cá thể con đặc vụ tự chủ đã bị bắt giữ."
+ observation.203.reg.end:0 "Các [GetPreFTLLowerPlural] đã thiết lập vành đai phòng thủ quanh xác tàu con thoi, những nhà khoa học giỏi nhất của họ chắc chắn đang tiến hành phân tích nó.\n\nGiờ đây họ đã có bằng chứng xác thực rằng, ngoài hành tinh của chính họ cũng tồn tại sự sống. Việc này rốt cuộc sẽ gây ra tác động gì đến xã hội của họ thì vẫn còn phải chờ xem..."
+ observation.203.hive_mind.end:0 "Các [GetPreFTLLowerPlural] đã thiết lập vành đai phòng thủ quanh xác tàu, họ không nghi ngờ gì nữa đang tiến hành phân tích nó.\n\nGiờ đây họ đã có bằng chứng xác thực rằng, sự sống tồn tại bên ngoài hành tinh của chính họ. Việc này rốt cuộc sẽ gây ra tác động gì đến xã hội của họ thì vẫn còn phải chờ xem..."
+
+ observation.203.reg_pre_ftl.desc:0 "$observation.203.start$\n\n$observation.203.reg.end$"
+ observation.203.hive_pre_ftl.desc:0 "$observation.203.start$\n\n$observation.203.hive_mind.end$"
+ observation.203.reg_pre_ftl.desc.gestalt:0 "$observation.203.gestalt.start$\n\n$observation.203.reg.end$"
+ observation.203.hive_pre_ftl.desc.gestalt:0 "$observation.203.gestalt.start$\n\n$observation.203.hive_mind.end$"
+ observation.203.a:1 "Chuyện này không ổn rồi."
+
+# Nuclear War, everyone dead, planet is a tomb world
+ observation.205.name:0 "[pre_ftl_planet.GetName] rơi vào chiến tranh hạt nhân"
+
+ observation.205.reg.start:0 "Vài quốc gia trên [pre_ftl_planet.GetName] đã liên minh lại để chống lại quốc gia đã bắn hạ tàu con thoi của ta, bởi quốc gia đó từ chối chia sẻ những công nghệ thu hồi được từ hiện trường vụ rơi tàu."
+ observation.205.hive_mind.start:0 "Một bước ngoặt chưa từng có đã xảy ra, vài ý thức trên [pre_ftl_planet.GetName] bắt đầu hợp nhất để đối đầu với ý thức đã bắn hạ tàu con thoi của ta, phía sau đã từ chối chia sẻ công nghệ mà họ thu hồi được từ địa điểm rơi tàu."
+ observation.205.end:0 "Sau một cuộc chiến tranh quy ước ngắn ngủi, đôi bên đã phóng một lượng lớn tên lửa hạt nhân vào nhau, phá hủy hoàn toàn phần lớn các khu vực của [pre_ftl_planet.GetPlanetHabitat].\n\nKhông tìm thấy bất kỳ ai sống sót trên bề mặt, bao gồm cả những nhà khoa học bị bắt của chúng ta, và môi trường cũng bị tàn phá rõ rệt."
+ observation.205.gestalt.end:0 "Sau một cuộc chiến tranh quy ước ngắn ngủi, đôi bên đã phóng một lượng lớn tên lửa hạt nhân vào nhau, phá hủy hoàn toàn phần lớn các khu vực của [pre_ftl_planet.GetPlanetHabitat].\n\nKhông tìm thấy bất kỳ ai sống sót trên bề mặt, bao gồm cả những [GetIndividualNamePlural] bị bắt của chúng ta, và môi trường cũng bị tàn phá rõ rệt."
+
+ observation.205.reg_pre_ftl.desc:0 "$observation.205.reg.start$\n\n$observation.205.end$"
+ observation.205.hive_pre_ftl.desc:0 "$observation.205.hive_mind.start$\n\n$observation.205.end$"
+ observation.205.reg_pre_ftl.desc.gestalt:0 "$observation.205.reg.start$\n\n$observation.205.gestalt.end$"
+ observation.205.hive_pre_ftl.desc.gestalt:0 "$observation.205.hive_mind.start$\n\n$observation.205.gestalt.end$"
+
+ observation.205.a:1 "Giá như tàu con thoi của chúng ta không bị rơi..."
+
+# Nuclear War, everyone dead, planet is a toxic world
+ observation.206.name:0 "$observation.205.name$"
+
+ observation.206.reg.start:0 "$observation.205.reg.start$"
+ observation.206.hive_mind.start:0 "$observation.205.hive_mind.start$"
+ observation.206.end:0 "Sau một cuộc chiến tranh quy ước ngắn ngủi, đôi bên đã phóng một lượng lớn tên lửa hạt nhân vào nhau, phá hủy hoàn toàn phần lớn các khu vực của [pre_ftl_planet.GetPlanetHabitat].\n\nMọi người trên bề mặt đã bị xóa sổ sạch sành sanh, [pre_ftl_planet.GetName] không còn khả năng duy trì sự sống nữa. Những nhà khoa học bị bắt của chúng ta cũng nằm trong số hàng tỷ người đã khuất."
+ observation.206.gestalt.end:0 "Sau một cuộc chiến tranh quy ước ngắn ngủi, đôi bên đã phóng một lượng lớn tên lửa hạt nhân vào nhau, phá hủy hoàn toàn phần lớn các khu vực của [pre_ftl_planet.GetPlanetHabitat].\n\nMọi người trên bề mặt đã bị xóa sổ sạch sành sanh, [pre_ftl_planet.GetName] không còn khả năng duy trì sự sống nữa. Những [GetIndividualNamePlural] bị bắt của chúng ta cũng nằm trong số hàng tỷ người đã khuất."
+
+ observation.206.reg_pre_ftl.desc:0 "$observation.206.reg.start$\n\n$observation.206.end$"
+ observation.206.hive_pre_ftl.desc:0 "$observation.206.hive_mind.start$\n\n$observation.206.end$"
+ observation.206.reg_pre_ftl.desc.gestalt:0 "$observation.206.reg.start$\n\n$observation.206.gestalt.end$"
+ observation.206.hive_pre_ftl.desc.gestalt:0 "$observation.206.hive_mind.start$\n\n$observation.206.gestalt.end$"
+
+ observation.206.a:1 "$observation.205.a$"
+
+# Nuclear War, pre-ftls regress to stone age, planet is a tomb world
+ observation.207.name:0 "$observation.205.name$"
+
+ observation.207.reg.start:0 "$observation.205.reg.start$"
+ observation.207.hive_mind.start:0 "$observation.205.hive_mind.start$"
+ observation.207.end:0 "Sau một cuộc chiến tranh quy ước ngắn ngủi, đôi bên đã phóng một lượng lớn tên lửa hạt nhân vào nhau, phá hủy hoàn toàn phần lớn các khu vực của [pre_ftl_planet.GetPlanetHabitat].\n\n[pre_ftl_planet.GetPlanetHabitat] đã bị tàn phá nghiêm trọng, toàn bộ các thành phố lớn đều bị phá hủy, hơn 90% dân số thiệt mạng. Dẫu có vài người sống sót lẻ tẻ hiện diện từ trong đống đổ nát, nhưng các nhà nghiên cứu của chúng ta dự đoán nền văn minh [pre_ftl_planet.GetPlanetHabitat] sẽ thoái lui về một trạng thái cực kỳ kém phát triển nào đó. Những nhà khoa học bị bắt của chúng ta cũng nằm trong số hàng tỷ người đã khuất."
+ observation.207.gestalt.end:0 "Sau một cuộc chiến tranh quy ước ngắn ngủi, đôi bên đã phóng một lượng lớn tên lửa hạt nhân vào nhau, phá hủy hoàn toàn phần lớn các khu vực của [pre_ftl_planet.GetPlanetHabitat].\n\n[pre_ftl_planet.GetPlanetHabitat] đã bị tàn phá nghiêm trọng, toàn bộ các thành phố lớn đều bị phá hủy, hơn 90% dân số thiệt mạng. Dẫu có vài người sống sót lẻ tẻ hiện diện từ trong đống đổ nát, nhưng chúng ta dự đoán nền văn minh [pre_ftl_planet.GetPlanetHabitat] sẽ thoái lui về một trạng thái cực kỳ kém phát triển nào đó. Những [root.GetIndividualNamePlural] bị bắt của chúng ta cũng nằm trong số hàng tỷ người đã khuất."
+
+ observation.207.reg_pre_ftl.desc:0 "$observation.207.reg.start$\n\n$observation.207.end$"
+ observation.207.hive_pre_ftl.desc:0 "$observation.207.hive_mind.start$\n\n$observation.207.end$"
+ observation.207.reg_pre_ftl.desc.gestalt:0 "$observation.207.reg.start$\n\n$observation.207.gestalt.end$"
+ observation.207.hive_pre_ftl.desc.gestalt:0 "$observation.207.hive_mind.start$\n\n$observation.207.gestalt.end$"
+
+ observation.207.a:1 "$observation.205.a$"
+
+ observation.209.name:1 "Vũ khí mới trên [pre_ftl_planet.GetName]"
+
+ observation.209.reg_pre_ftl.desc:0 "Quốc gia bắn hạ tàu con thoi của ta trên [pre_ftl_planet.GetName] đã ép buộc các nhà khoa học bị bắt của ta thiết kế vũ khí kiểu mới cho quân đội của họ. Nhờ vào những trang bị này, họ đã xâm lược thành công vài nước láng giềng, và giờ đây đang hừng hực khí thế thâu tóm toàn bộ [pre_ftl_planet.GetPlanetHabitat] dưới sự thống trị của mình."
+ observation.209.hive_pre_ftl.desc:0 "Ý thức đã bắn hạ tàu con thoi của ta trên [pre_ftl_planet.GetName] đã ép buộc các nhà khoa học bị bắt của ta thiết kế vũ khí kiểu mới cho quân đội của họ. Nhờ vào những trang bị này, họ đã xâm lược thành công vài ý thức bầy đàn lân cận, và giờ đây đang hừng hực khí thế thâu tóm toàn bộ [pre_ftl_planet.GetPlanetHabitat] dưới sự thống trị của mình."
+ observation.209.reg_pre_ftl.desc.gestalt:0 "Quốc gia bắn hạ tàu con thoi của ta trên [pre_ftl_planet.GetName] đã ép buộc các cá thể con bị bắt của ta thiết kế vũ khí kiểu mới cho quân đội của họ. Nhờ vào những trang bị này, họ đã xâm lược thành công vài nước láng giềng, và giờ đây đang hừng hực khí thế thâu tóm toàn bộ [pre_ftl_planet.GetPlanetHabitat] dưới sự thống trị của mình."
+ observation.209.hive_pre_ftl.desc.gestalt:0 "Ý thức đã bắn hạ tàu con thoi của ta trên [pre_ftl_planet.GetName] đã ép buộc các [root.GetIndividualName] bị bắt của ta thiết kế vũ khí kiểu mới cho quân đội của họ. Nhờ vào những trang bị này, họ đã xâm lược thành công vài ý thức bầy đàn lân cận, và giờ đây đang hừng hực khí thế thâu tóm toàn bộ [pre_ftl_planet.GetPlanetHabitat] dưới sự thống trị của mình."
+
+ observation.209.a:1 "Thật không thể nhẫn nhịn thêm được nữa!"
+
+ observation.211.name:1 "Trao đổi con tin"
+
+ observation.211.reg.start:0 "Quốc gia đã bắn hạ tàu con thoi của ta trên [pre_ftl_planet.GetName] đã thông qua một vệ tinh của họ để phát tín hiệu công khai vào không gian. Có vẻ như nó được gửi cho chúng ta."
+ observation.211.hive_mind.start:0 "Ý thức đã bắn hạ tàu con thoi của ta trên [pre_ftl_planet.GetName] đã thông qua một vệ tinh của họ để phát tín hiệu công khai vào không gian. Có vẻ như nó được gửi cho chúng ta."
+ observation.211.end:0 "Họ yêu cầu chúng ta chia sẻ một số công nghệ tiên tiến với họ, đổi lại mạng sống của các nhà khoa học bị bắt tại điểm rơi tàu. Nếu chúng ta từ chối, những nhà khoa học của chúng ta sẽ bị hành quyết công khai thông qua hệ thống truyền hình vô tuyến thô sơ của họ."
+ observation.211.gestalt.end:0 "Họ yêu cầu chúng ta chia sẻ một số công nghệ tiên tiến với họ, đổi lại mạng sống của các [GetIndividualNamePlural] bị bắt tại điểm rơi tàu. Nếu chúng ta từ chối, những [GetIndividualNamePlural] của chúng ta sẽ bị hành quyết công khai thông qua hệ thống truyền hình vô tuyến thô sơ của họ."
+
+ observation.211.reg_pre_ftl.desc:0 "$observation.211.reg.start$\n\n$observation.211.end$"
+ observation.211.hive_pre_ftl.desc:0 "$observation.211.hive_mind.start$\n\n$observation.211.end$"
+ observation.211.reg_pre_ftl.desc.gestalt:0 "$observation.211.reg.start$\n\n$observation.211.gestalt.end$"
+ observation.211.hive_pre_ftl.desc.gestalt:0 "$observation.211.hive_mind.start$\n\n$observation.211.gestalt.end$"
+ observation.211.a:1 "Sự an toàn của nhân dân ta phải được đặt lên hàng đầu."
+ observation.211.a.gestalt:1 "Phải ưu tiên hàng đầu sự an toàn của các đơn vị tự chủ."
+ observation.211.b:1 "Lúc này họ chưa thể tiếp cận những công nghệ này."
+
+ observation.212.name:1 "Con tin bị hành quyết"
+
+ observation.212.desc:1 "Trong một cảnh tượng mà chúng ta chỉ có thể dùng từ thô thiển để mô tả, những nhà khoa học bị bắt của chúng ta trên [pre_ftl_planet.GetName] đã bị đem đi diễu phố thị chúng như \"những kẻ ngoài hành tinh đáng ghê tởm\" dưới ống kính truyền hình trực tiếp."
+ observation.212.desc.mach:1 "Trong một cảnh tượng mà chúng ta chỉ có thể dùng từ thô thiển để mô tả, những đơn vị khoa học bị bắt của chúng ta trên [pre_ftl_planet.GetName] đã bị đem đi diễu phố thị chúng như \"những cỗ máy đáng ghê tởm từ phương trời xa\" dưới ống kính truyền hình trực tiếp."
+ observation.212.a:1 "Thật bi thảm làm sao!"
+
+# Smuggler Outpost
+ observation.301.name:1 "Trạm canh gác của bọn buôn lậu"
+ observation.301.desc:1 "Trạm quan sát phía trên [pre_ftl_planet.GetName] của chúng ta đã phát hiện một điểm định cư trái phép trên bề mặt [pre_ftl_planet.GetPlanetHabitat]. Có thể đây là trạm canh gác do một số kẻ buôn lậu [Root.GetSpeciesName] hoặc các phần tử bất hảo của [Root.GetName] thiết lập.\n\nVì thi thoảng những kẻ buôn lậu này đụng độ với các [GetPreFTLLowerPlural] địa phương, nên đã xảy ra một số sự cố lẻ tẻ — vài sự cố thậm chí còn leo thang thành hành vi bạo lực. Chúng ta cần hành động nhanh chóng để đưa những phần tử bất hảo này đi trước khi chúng gây ra tổn thất lớn hơn."
+ observation.301.a:1 "Dọn dẹp sạch bọn chúng."
+ observation.301.b:1 "Chỉ là vài tên buôn lậu thôi mà, có thể làm gì được chứ?"
+ observation.302.name:1 "Đột kích bọn buôn lậu"
+ observation.302.desc:1 "Trong một chiến dịch đột kích chớp nhoáng, quân đội mặt đất của chúng ta đã thực hiện cuộc tấn công vào trạm canh gác của bọn buôn lậu trên [pre_ftl_planet.GetName]. Sau một cuộc đấu súng ngắn ngủi, những tên tội phạm còn sống sót đã bị bắt giữ và chuyển lên quỹ đạo. Sau đó chúng ta đã xóa sổ tòa nhà trống rỗng này khỏi mặt đất bằng cách kích nổ thuốc nổ.\n\nChúng ta tin rằng đã giảm thiểu tối đa sự ô nhiễm văn hóa, quân đội của ta cũng đã tịch thu được lượng lớn hàng cấm. Toàn bộ lợi nhuận từ việc tịch thu đã được nộp vào ngân khố quốc gia."
+ observation.302.a:1 "Thắng lợi lớn."
+ observation.303.name:1 "Buôn lậu vũ khí"
+ observation.303.desc:3 "Đã quá muộn. Những kẻ buôn lậu trên [pre_ftl_planet.GetName] đã bắt đầu dùng vũ khí tiên tiến và thuốc kích thích ảo giác rẻ tiền để đổi lấy kim loại quý và nô lệ từ các [GetPreFTLLowerPlural] địa phương.\n\nNhiều nhóm [GetPreFTLLower] đã nổ ra chiến tranh. Do có vũ khí công nghệ cao trong tay, thương vong của đôi bên vô cùng nặng nề. Sự việc diễn biến đến nước này, hậu quả xấu do ô nhiễm văn hóa gây ra đã không thể cứu vãn được nữa."
+ observation.303.a:1 "Đây là một thảm họa."
+
+# Scientist Abduction
+ observation.1001.name:0 "Đề xuất bắt cóc"
+ observation.1001.desc:1 "Chúng ta đã phát hiện ra một nhà khoa học [owner.GetPreFTLLower] [pre_ftl_country.GetSpeciesNamePlural] đầy triển vọng trên [pre_ftl_planet.GetName]. Những nghiên cứu xuất chúng của [abducted_scientist.GetHisHerCap] đã bỏ xa các đồng nghiệp của mình, trong đó có vài thành quả nghiên cứu có tính cách mạng ngay cả khi đánh giá theo tiêu chuẩn của chúng ta.\n\nMặc dù công việc của [abducted_scientist.GetHisHer] thực sự đã thúc đẩy tiến bộ công nghệ của [pre_ftl_country.GetSpeciesNamePlural], nhưng tiềm năng của [abducted_scientist.GetHisHer] hoàn toàn bị phí hoài trong nền văn minh [owner.GetPreFTLLower] của họ. Trong phòng thí nghiệm tiên tiến của chúng ta, [abducted_scientist.GetHeShe] sẽ có cơ hội được làm khoa học thực thụ."
+ observation.1001.a:0 "Hoạch định phương án bắt cóc."
+ observation.1001.b:1 "[abducted_scientist.GetHeSheCap] vẫn là một [owner.GetPreFTLLower]. Hãy để [abducted_scientist.GetHimHer] ở lại cùng đồng bào của [abducted_scientist.GetHisHer]."
+ observation.1002.name:0 "Bắt cóc thành công"
+ observation.1002.desc:2 "Các đặc vụ của chúng ta đã bắt cóc thành công nhà khoa học [pre_ftl_country.GetName] khỏi tay lũ [owner.GetPreFTLLower]! Một tàu con thoi mặt đất của ta đã chặn được xe hơi của [abducted_scientist.GetHisHer], lúc đó [abducted_scientist.GetHeShe] đang tăng ca muộn và chuẩn bị về nhà, chúng ta đã dùng vụ nổ điện từ để khiến xe hơi bị hỏng.\n\nNhà khoa học đã bị chúng ta tạm thời làm tê liệt các chức năng cơ thể và được đưa lên tàu con thoi, đồng thời trí nhớ của vệ sĩ của [abducted_scientist.GetHisHer] cũng đã bị xóa sạch. Chúng ta tự tin có thể \"thuyết phục\" nhà khoa học ưu tú này làm việc cho mình."
+ observation.1002.tt:0 "Nhận được một §YNhà khoa học [pre_ftl_country.GetSpeciesName] cấp 6§!, sở hữu đặc điểm §Y$leader_trait_spark_of_genius$§!."
+ observation.1003.name:0 "Bắt cóc thất bại"
+ observation.1003.desc:2 "Thật không may, nỗ lực bắt cóc nhà khoa học [pre_ftl_country.GetName] khỏi tay lũ [owner.GetPreFTLLower] đã thất bại. Một tàu con thoi mặt đất của ta đã chặn được xe mô tô của [abducted_scientist.GetHisHer], nhưng khi chúng ta dùng tia nâng để khống chế nhà khoa học đang chết khiếp này thì một chiếc tiêm kích nội khí quyển của [pre_ftl_country.GetSpeciesName] đột ngột có mặt tại hiện trường.\n\nTàu con thoi của ta đã tháo chạy an toàn về quỹ đạo, nhưng tia nâng đã bị cắt đứt, và nhà khoa học... à thì, đó là một cú rơi khá dài đấy. Hy vọng cái chết của [abducted_scientist.GetHisHer] sẽ được đổ lỗi cho đế chế thù địch của [pre_ftl_country.GetSpeciesName]."
+ observation.1004.name:0 "Đột phá trên [pre_ftl_planet.GetName]!"
+ observation.1004.desc:0 "Nhà khoa học mà ban đầu chúng ta phát hiện trên [pre_ftl_planet.GetName] đã phát triển thành một nhân tài kiệt xuất. Nền tảng nghiên cứu phá vỡ các quy tắc thông thường cùng lối tư duy phân tích cực cao của [abducted_scientist.GetHisHer] đã thúc đẩy mạnh mẽ sự phát triển công nghệ của [pre_ftl_country.GetName]."
+ observation.1004.a:0 "Làm tốt lắm!"
+
+# Defense Force
+ observation.1101.name:1 "[pre_ftl_planet.GetName]: Biệt đội Phản ứng Ngoại lai"
+ observation.1101.desc:1 "Sau khi phát hiện ra các hoạt động của ta trên hành tinh [GetPreFTLLower] của chúng, nhiều quốc gia [pre_ftl_country.GetSpeciesName] trên [pre_ftl_planet.GetName] đã tạm gác lại những tranh chấp đôi bên để cùng nhau thành lập một tổ chức quân sự xuyên biên giới.\n\nTheo báo cáo từ truyền thông địa phương, trách nhiệm chính của biệt đội này là bảo vệ [pre_ftl_planet.GetPlanetHabitat] của họ khỏi \"các hoạt động thù địch của thế lực ngoài hành tinh vô danh nhằm vào toàn thể [pre_ftl_country.GetSpeciesName]\"."
+# Interceptions
+ observation.1102.name:1 "[pre_ftl_planet.GetName]: Hành động của Biệt đội"
+ observation.1102.desc:1 "Hình ảnh dò tìm từ trạm quan sát phía trên [pre_ftl_planet.GetName] của chúng ta cho thấy, trên bề mặt [pre_ftl_planet.GetPlanetHabitat] đã mọc lên hàng loạt căn cứ quân sự và cơ sở radar mới, những doanh trại này đều thuộc quyền quản lý của Biệt đội Phản ứng Ngoại lai xuyên biên giới do các [pre_ftl_country.GetSpeciesNamePlural] thành lập.\n\nChúng ta nhận thấy, những quốc gia này đang hợp tác chặt chẽ với nhau ở mức độ chưa từng có, các phi thuyền được ta phái đi thực hiện nhiệm vụ bắt cóc giờ đây thường xuyên bị các tiêm kích tầng khí quyển của lực lượng này chặn đánh. Dù chúng ta chiếm ưu thế về công nghệ, nhưng số lượng của chúng quá đông đảo, vẫn có thể bắn hạ được vài chiếc tàu con thoi bắt cóc của ta!"
+ observation.1102.a:0 "Việc này sẽ gây cản trở cho các hoạt động quan sát chủ động của chúng ta."
+# Observation Post Lost
+ observation.1103.name:1 "[pre_ftl_planet.GetName]: Mất Trạm Quan sát"
+ observation.1103.desc:1 "Trạm quan sát phía trên [pre_ftl_planet.GetName] của chúng ta đã bị hủy! Một căn cứ quân sự dưới quyền kiểm soát của Biệt đội Phản ứng Ngoại lai [pre_ftl_country.GetSpeciesName] đã phóng một quả tên lửa đất đối không khổng lồ bắn trúng trạm quan sát của ta.\n\nCân nhắc tới việc trước đó chúng ta đã áp dụng hàng loạt biện pháp phòng ngừa để che giấu sự hiện diện của trạm quan sát với các [pre_ftl_country.GetSpeciesNamePlural], chúng ta lúc này vẫn chưa thể xác định được rốt cuộc chúng dùng phương pháp gì để lần ra vị trí của trạm. Có ý kiến cho rằng, thổ dân đã xoay sở để chiếm đoạt được một số công nghệ thông qua việc đảo ngược kỹ thuật từ chiếc tàu con thoi bị bắn hạ của ta."
+ observation.1103.a:0 "Thật không ra thể thống gì cả!"
+# Strike
+ observation.1105.name:1 "[pre_ftl_planet.GetName]: Đòn đánh chính xác"
+ observation.1105.desc:1 "Nhân viên trên trạm quan sát quỹ đạo [pre_ftl_planet.GetName] yêu cầu chúng ta hỗ trợ xử lý Biệt đội Phản ứng Ngoại lai do các [pre_ftl_country.GetSpeciesNamePlural] thành lập vì các hoạt động quan sát quyết liệt của ta. Mặc dù so với tiêu chuẩn của chúng ta thì tổ chức này khá nguyên thủy, nhưng nó đã phát triển đến mức có thể gây can thiệp vào các hoạt động bắt cóc của ta.\n\nCăn cứ chính của chúng đã được xác định nằm sâu trong [pre_ftl_planet.GetAMountainFeature] trên bề mặt [pre_ftl_planet.GetPlanetHabitat]. Oanh tạc quỹ đạo không mấy hiệu quả, nhưng một đợt tập kích chớp nhoáng bởi đội đột kích tinh nhuệ được trang bị tận răng sẽ có thể đánh úp chúng. Nếu có thể phá hủy nó, đây sẽ là một đòn chí tử giáng vào Biệt đội [pre_ftl_country.GetSpeciesName] ngoan cố."
+ observation.1105.a:1 "Cứ làm thế đi."
+ observation.1105.b:1 "Không, chúng ta nên tránh khiêu khích chúng thêm nữa..."
+ observation.1106.name:2 "[pre_ftl_planet.GetName]: Tấn công thành công"
+ observation.1106.desc:2 "Nhiệm vụ phá hủy căn cứ chính của Biệt đội xuyên biên giới [pre_ftl_country.GetSpeciesName] đã thắng lợi vẻ vang! Đội đột kích của ta đã xâm nhập được vào căn cứ, trước mặt các đặc vụ được huấn luyện bài bản của ta, lũ lính canh căn cứ với những vũ khí thô lậu hoàn toàn không phải là đối thủ.\n\nSau khi đặt xong thuốc nổ bên trong căn cứ, đội đột kích của ta đã được vài chiếc tàu con thoi chờ sẵn đón đi. Biệt đội [pre_ftl_country.GetSpeciesName] phiền phức đó giờ đây chẳng còn lại gì nữa."
+ observation.1106.a:1 "Nhiệm vụ thành công."
+ observation.1107.name:3 "[pre_ftl_planet.GetName]: Tấn công thất bại"
+ observation.1107.desc:2 "Nhiệm vụ phá hủy căn cứ chính của Biệt đội xuyên biên giới [pre_ftl_country.Owner.GetSpeciesName] đã kết thúc trong thất bại thảm hại! Vài chiếc tàu con thoi chở đội đột kích của ta đã bị các ụ pháo phòng không ngụy trang bắn hạ trước khi kịp tới căn cứ. Những đặc vụ còn lại khi tới lối vào căn cứ đã gặp phải sự kháng cự ngoan cường nằm ngoài kế hoạch.\n\nCân nhắc tới việc quân viện trợ của [pre_ftl_country.Owner.GetSpeciesName] đang tới gần, chỉ huy đội đột kích cuối cùng đã hạ lệnh rút lui. Tuy nhiên thật không may, những tàu con thoi trở về quỹ đạo của ta đã bị số lượng lớn tiêm kích tầng khí quyển chặn đánh trên đường đi. Tổn thất vô cùng nặng nề."
+ observation.1107.a:1 "Đây quả thực là một thảm họa!"
+# Disbanded
+ observation.1104.name:1 "[pre_ftl_planet.GetName]: Biệt đội giải tán"
+ observation.1104.desc:1 "Biệt đội xuyên biên giới do các quốc gia [pre_ftl_country.GetSpeciesName] thành lập nhằm cản trở hành động của ta trên [pre_ftl_planet.GetName] đã giải tán! Mặc dù trong các chiến dịch nhắm vào tàu con thoi và đội bắt cóc của ta, họ đã xoay sở đạt được vài thắng lợi then chốt, nhưng một vài quốc gia sáng lập đã quyết định ngừng cấp vốn và rút khỏi kế hoạch này.\n\nThông tin tình báo cho thấy, bước ngoặt ngoài dự kiến này là do những cuộc nội chiến và tranh chấp ngoại giao giữa các quốc gia [pre_ftl_country.GetSpeciesName]."
+ observation.1104.a:1 "Dù nằm ngoài dự kiến, nhưng diễn biến như vậy cũng khá tốt."
+
+# Malfunctioning Implants
+ observation.1201.name:1 "[pre_ftl_planet.GetName]: Thể cấy ghép bị lỗi"
+ observation.1201.desc:1 "Là một phần trong kế hoạch quan sát [pre_ftl_planet.GetName], đội bắt cóc đã dùng phương thức phẫu thuật để gắn các thể cấy ghép vào não bộ của một bộ phận [pre_ftl_country.GetSpeciesName], nhằm theo dõi vị trí và giám sát hành vi của chúng. Thật không may, do một số khiếm khuyết trong khâu sản xuất, nhiều thể cấy ghép đã bị hỏng, và giờ đây... trên người các đối tượng thử nghiệm của chúng ta đã xuất hiện một số tác dụng phụ.\n\nVài đối tượng thử nghiệm đã tự sát, và có ít nhất ba đối tượng rơi vào trạng thái cuồng loạn bạo lực. Các [root.GetResearcherPlural] trên trạm quan sát của ta yêu cầu hỗ trợ để kiểm soát những đối tượng thử nghiệm còn lại, nhằm tháo bỏ thể cấy ghép trước khi có thêm nhiều sự cố xảy ra."
+ observation.1201.a:0 "Chúng ta phải dọn dẹp đống hỗn độn này."
+ observation.1201.b:0 "Đây đâu phải vấn đề của chúng ta."
+ observation.1202.name:3 "[pre_ftl_planet.GetName]: Đã tháo bỏ thể cấy ghép"
+ observation.1202.desc:2 "Đội bắt cóc trên trạm quan sát [pre_ftl_planet.GetName] đã hợp tác với nhân sự của [Root.GetName], nhanh chóng tập trung tất cả các đối tượng thử nghiệm [pre_ftl_country.GetSpeciesName] có thể cấy ghép bị lỗi lại.\n\nNhân viên phẫu thuật trên trạm đã thay thế bằng các thể cấy ghép hoạt động bình thường, và đưa các đối tượng thử nghiệm quay trở lại bề mặt [pre_ftl_planet.GetPlanetHabitat]. Không chỉ có vậy, đặc viên khoa học [Root.GetLeaderName] còn thành công trích xuất được lượng lớn dữ liệu từ những thể cấy ghép bị tháo bỏ — dẫu cho chúng bị lỗi."
+ observation.1202.a:0 "Ít nhất thì cũng có chuyện tốt xảy ra."
+ observation.1203.name:3 "[pre_ftl_planet.GetName]: Chưa tháo bỏ thể cấy ghép"
+ observation.1203.desc:2 "Nhóm đối tượng thử nghiệm [pre_ftl_country.GetSpeciesName] cuối cùng của chúng ta trên [pre_ftl_planet.GetName], do sự hiện diện của các thể cấy ghép bị lỗi trong não bộ, đã rơi vào trạng thái điên loạn hoàn toàn. Nhiều người trở nên cực kỳ hung hãn, miệng gào thét những đoạn mã mà [Root.GetSpeciesName] lập trình cho thể cấy ghép, điên cuồng tấn công bất cứ ai hay bất cứ thứ gì xung quanh họ."
+ observation.1203.a:0 "Sao chuyện như vậy lại có thể xảy ra chứ?"
+ observation.1205.name:0 "[pre_ftl_planet.GetName]: Tiếp nhận thể cấy ghép"
+ observation.1205.desc:1 "Các [pre_ftl_country.GetSpeciesName] trên [pre_ftl_planet.GetName] đã tự mình tiến hành nghiên cứu những thể cấy ghép mà chúng ta để lại. Không hiểu bằng cách nào, các nhà nghiên cứu [GetPreFTLLower] đã thành công thiết kế ra các bộ phận cơ thể nhân tạo kỹ thuật, có khả năng tương thích với đặc điểm sinh học của [pre_ftl_country.GetSpeciesName] tốt hơn cả phiên bản do chúng ta thiết kế."
+ observation.1205.a:0 "Làm tốt lắm!"
+ observation.1205.tt:0 "§Y[pre_ftl_country.GetSpeciesName]§! đã chấp nhận khái niệm về §YThân thể Nhân tạo§!."
+
+# Ethic Shifts
+ observation.1301.name:1 "[pre_ftl_planet.GetName]: Tư tưởng thay đổi"
+ observation.1301.xenophobe:0 "Chúng ta nhận thấy đã có một sự thay đổi rõ rệt xảy ra với những [GetPreFTLLower] [pre_ftl_country.GetSpeciesNamePlural] trên [pre_ftl_planet.GetName]. Xã hội của họ đã chuyển sang xu hướng bế quan tỏa cảng, họ không còn dễ dàng chấp nhận những thứ xa lạ như trước nữa.\n\nHành vi quan sát chủ động cùng các chiến dịch bắt cóc được thực hiện trên khắp [pre_ftl_planet.GetPlanetHabitat] của ta có vẻ là một phần nguyên nhân dẫn đến tình trạng này, khiến các [pre_ftl_country.GetSpeciesNamePlural] cảnh giác hơn với những thứ chưa biết."
+ observation.1301.xenophile:0 "Chúng ta nhận thấy đã có một sự thay đổi rõ rệt xảy ra với những [GetPreFTLLower] [pre_ftl_country.GetSpeciesNamePlural] trên [pre_ftl_planet.GetName]. Xã hội của họ bắt đầu chuyển sang xu hướng mở cửa, dân chúng cũng bắt đầu tiếp nhận những thứ xa lạ.\n\nCác chuyến bay quan sát được thực hiện trên khắp [pre_ftl_planet.GetPlanetHabitat] của ta có vẻ là một phần nguyên nhân dẫn đến tình trạng này, khiến các [pre_ftl_country.GetSpeciesNamePlural] khao khát tìm hiểu những thứ chưa biết hơn."
+ observation.1301.spiritualist:0 "Vài đội bắt cóc thuộc trạm quan sát trên quỹ đạo [pre_ftl_planet.GetName] của ta, đã cố ý dùng động cơ đẩy của tàu con thoi để đốt cháy những vòng tròn khổng lồ và hoa văn phức tạp trên những cánh đồng lúa mì của các [GetPreFTLLower] [pre_ftl_country.GetSpeciesNamePlural], những thổ dân trên [pre_ftl_planet.GetPlanetHabitat].\n\nVì trò đùa này, phi hành đoàn tàu con thoi của ta đã bị khiển trách nghiêm khắc, nhưng những vòng tròn trên cánh đồng có vẻ mang một tầm quan trọng tâm linh nào đó đối với thổ dân. Nhờ những hoa văn này, một tôn giáo mới đang được hình thành, và nó đang ngày càng trở nên phổ biến trong cộng đồng [pre_ftl_country.GetSpeciesNamePlural] với tốc độ đáng kinh ngạc."
+ observation.1301.materialist:0 "Vài đội bắt cóc thuộc trạm quan sát trên quỹ đạo [pre_ftl_planet.GetName] của ta, đã cố ý dùng động cơ đẩy của tàu con thoi để đốt cháy những vòng tròn khổng lồ và hoa văn phức tạp trên những cánh đồng lúa mì của các [GetPreFTLLower] [pre_ftl_country.GetSpeciesNamePlural], những thổ dân trên [pre_ftl_planet.GetPlanetHabitat].\n\nVì trò đùa này, phi hành đoàn tàu con thoi của ta đã bị khiển trách nghiêm khắc, nhưng thổ dân có vẻ tin chắc rằng các vòng tròn trên cánh đồng tồn tại một ý nghĩa toán học nào đó. Một phong trào khoa học tận lực nghiên cứu những hoa văn này bắt đầu trỗi dậy, và nó đang ngày càng trở nên phổ biến trong cộng đồng [pre_ftl_country.GetSpeciesNamePlural] với tốc độ đáng kinh ngạc."
+
+# Nuclear War, everyone dead, planet is a tomb world
+ observation.1402.name:0 "[pre_ftl_planet.GetName] rơi vào chiến tranh hạt nhân"
+
+ observation.1402.reg.start:0 "Gần đây, một cuộc chiến tranh quy mô lớn đã nổ ra giữa vài cường quốc trên [pre_ftl_planet.GetName]."
+ observation.1402.hive_mind.start:0 "Gần đây, một cuộc chiến tranh quy mô lớn đã nổ ra giữa vài ý thức trên [pre_ftl_planet.GetName]."
+ observation.1402.end:0 "Trong khi các nhà nghiên cứu của ta đang quan sát từ quỹ đạo an toàn, cuộc xung đột đã nhanh chóng phát triển thành một đợt tấn công bằng vũ khí hạt nhân lẫn nhau trên phạm vi toàn cầu.\n\nToàn bộ dân số của [pre_ftl_planet.GetPlanetHabitat] có vẻ đều đã diệt vong trong hỏa tiễn hạt nhân, môi trường tự nhiên cũng bị tàn phá nặng nề."
+ observation.1402.gestalt.end:0 "Trong khi các [root.GetIndividualNamePlural] quan sát của ta đang quan sát từ quỹ đạo an toàn, cuộc xung đột đã nhanh chóng phát triển thành một đợt tấn công bằng vũ khí hạt nhân lẫn nhau trên phạm vi toàn cầu.\n\nToàn bộ dân số của [pre_ftl_planet.GetPlanetHabitat] có vẻ đều đã diệt vong trong hỏa tiễn hạt nhân, môi trường tự nhiên cũng bị tàn phá nặng nề."
+
+ observation.1402.reg_pre_ftl.desc:0 "$observation.1402.reg.start$\n\n$observation.1402.end$"
+ observation.1402.hive_pre_ftl.desc:0 "$observation.1402.hive_mind.start$\n\n$observation.1402.end$"
+ observation.1402.reg_pre_ftl.desc.gestalt:0 "$observation.1402.reg.start$\n\n$observation.1402.gestalt.end$"
+ observation.1402.hive_pre_ftl.desc.gestalt:0 "$observation.1402.hive_mind.start$\n\n$observation.1402.gestalt.end$"
+
+ observation.1402.a:1 "Một bài học đau xót."
+
+# Nuclear War, everyone dead, planet is a toxic world
+ observation.1404.name:0 "$observation.1402.name$"
+
+ observation.1404.reg.start:0 "$observation.1402.reg.start$"
+ observation.1404.hive_mind.start:0 "$observation.1402.hive_mind.start$"
+ observation.1404.end:0 "Trong khi các nhà nghiên cứu của ta đang quan sát từ quỹ đạo an toàn, cuộc xung đột đã nhanh chóng phát triển thành một đợt tấn công bằng vũ khí hạt nhân lẫn nhau trên phạm vi toàn cầu.\n\nMọi mạng sống trên bề mặt đã bị xóa sổ hoàn toàn, toàn bộ [pre_ftl_planet.GetPlanetHabitat] đã không còn thích hợp để cư trú nữa."
+ observation.1404.gestalt.end:0 "Trong khi các [root.GetIndividualNamePlural] quan sát của ta đang quan sát từ quỹ đạo an toàn, cuộc xung đột đã nhanh chóng phát triển thành một đợt tấn công bằng vũ khí hạt nhân lẫn nhau trên phạm vi toàn cầu.\n\nMọi mạng sống trên bề mặt đã bị xóa sổ hoàn toàn, toàn bộ [pre_ftl_planet.GetPlanetHabitat] đã không còn thích hợp để cư trú nữa."
+
+ observation.1404.reg_pre_ftl.desc:0 "$observation.1404.reg.start$\n\n$observation.1404.end$"
+ observation.1404.hive_pre_ftl.desc:0 "$observation.1404.hive_mind.start$\n\n$observation.1404.end$"
+ observation.1404.reg_pre_ftl.desc.gestalt:0 "$observation.1404.reg.start$\n\n$observation.1404.gestalt.end$"
+ observation.1404.hive_pre_ftl.desc.gestalt:0 "$observation.1404.hive_mind.start$\n\n$observation.1404.gestalt.end$"
+
+ observation.1404.a:1 "$observation.1402.a$"
+
+# Nuclear War, pre-ftls regress to stone age, planet is a tomb world
+ observation.1406.name:0 "$observation.1402.name$"
+
+ observation.1406.reg.start:0 "$observation.1402.reg.start$"
+ observation.1406.hive_mind.start:0 "$observation.1402.hive_mind.start$"
+ observation.1406.end:0 "Trong khi các nhà nghiên cứu của ta đang quan sát từ quỹ đạo an toàn, cuộc xung đột đã nhanh chóng phát triển thành một đợt tấn công bằng vũ khí hạt nhân lẫn nhau trên phạm vi toàn cầu.\n\n[pre_ftl_planet.GetPlanetHabitat] đã bị tàn phá nghiêm trọng, toàn bộ các thành phố lớn đều bị phá hủy, 90% dân số bị tiêu diệt. Những người sống sót lẻ tẻ hiện diện từ trong đống đổ nát, nhưng các nhà nghiên cứu của ta dự đoán nền văn minh [pre_ftl_planet.GetPlanetHabitat] sẽ thoái lui về một trạng thái kém phát triển hơn nhiều so với hiện tại."
+ observation.1406.gestalt.end:0 "Trong khi các [root.GetIndividualNamePlural] quan sát của ta đang quan sát từ quỹ đạo an toàn, cuộc xung đột đã nhanh chóng phát triển thành một đợt tấn công bằng vũ khí hạt nhân lẫn nhau trên phạm vi toàn cầu.\n\n[pre_ftl_planet.GetPlanetHabitat] đã bị tàn phá nghiêm trọng, toàn bộ các thành phố lớn đều bị phá hủy, 90% dân số bị tiêu diệt. Những người sống sót lẻ tẻ hiện diện từ trong đống đổ nát, nhưng chúng ta dự đoán nền văn minh [pre_ftl_planet.GetPlanetHabitat] sẽ thoái lui về một trạng thái kém phát triển hơn nhiều so với hiện tại."
+
+ observation.1406.reg_pre_ftl.desc:0 "$observation.1406.reg.start$\n\n$observation.1406.end$"
+ observation.1406.hive_pre_ftl.desc:0 "$observation.1406.hive_mind.start$\n\n$observation.1406.end$"
+ observation.1406.reg_pre_ftl.desc.gestalt:0 "$observation.1406.reg.start$\n\n$observation.1406.gestalt.end$"
+ observation.1406.hive_pre_ftl.desc.gestalt:0 "$observation.1406.hive_mind.start$\n\n$observation.1406.gestalt.end$"
+
+ observation.1406.a:1 "$observation.1402.a$"
+
+# Research Proposal
+ observation.1501.name:1 "Đề xuất nghiên cứu"
+ observation.1501.desc:2 "Các nhà khoa học trên trạm quan sát quỹ đạo [pre_ftl_planet.GetName] xin cấp một tàu nghiên cứu để họ thu thập mẫu vật từ bề mặt [pre_ftl_planet.GetPlanetHabitat]. Vì mục đích nghiên cứu, họ muốn bí mật bắt cóc một bộ phận [GetPreFTLLowerPlural] và tiến hành thử nghiệm trên người chúng. Sau đó, chúng sẽ được đưa trở lại bề mặt một cách an toàn, với toàn bộ trí nhớ bị xóa sạch."
+ observation.1501.a:1 "Việc này có thể giúp chúng ta tìm hiểu sâu hơn về họ."
+ observation.1501.b:1 "Không, chúng ta nên để họ thuận theo tự nhiên."
+ observation.1501.b.tt:0 "§Y$mission_passive_observation$§! giờ đây sẽ sản sinh §G+2§! $r_unity$\n$t$§RSẽ bị khóa vào $mission_passive_observation$!§!"
+ observation.1502.desc:2 "[Root.GetName] đã hoàn thành nhiệm vụ khoa học trên [pre_ftl_planet.GetName]. Các tàu con thoi phái đi từ tàu nghiên cứu đã bay lướt qua mặt đất ở độ cao thấp trong đêm, sử dụng xung điện từ để làm tê liệt những chiếc xe động cơ đốt trong lỗi thời mà các [GetPreFTLLowerPlural] sử dụng. Những người lái xe sau đó bị đông lạnh và thu thập, trong khi các đội tiền trạm khác thu thập mẫu vật bằng cách giải phẫu gia súc địa phương.\n\nNhiệm vụ của chúng ta có vẻ không gây ra quá nhiều sự chú ý từ người dân trên [pre_ftl_planet.GetPlanetHabitat], dẫu có vài báo cáo về \"những ánh sáng lạ\", ngoài ra một thành viên phi hành đoàn tàu con thoi của ta đã cố ý dùng động cơ đẩy để tạo ra các hoa văn hình tròn trên cánh đồng lúa mì gây ra sự cố. Những người này đã bị cảnh cáo."
+ observation.1502.a:0 "Làm tốt lắm."
+
+# Special Projects for events above.
+ EXTRACT_MISSING_SCIENTIST:1 "Bắt giữ nhà khoa học mất tích"
+ EXTRACT_MISSING_SCIENTIST_DESC:1 "Một nhà khoa học của chúng ta đã đào tẩu, và đang được các [GetPreFTLLowerPlural] địa phương trên [pre_ftl_planet.GetName] tôn thờ như một vị thần. Phải có hành động để đưa [missing_scientist.GetHimHer] đi — nếu cần có thể dùng vũ lực."
+ SHUTTLE_INTERCEPTED:1 "Giải cứu những người sống sót trên tàu con thoi"
+ SHUTTLE_INTERCEPTED_DESC:1 "Một tàu con thoi của ta đã bị thổ dân [pre_ftl_country.GetName] bắn hạ, chúng ta phải cứu toàn bộ những người sống sót trước khi họ bị quân đội địa phương bắt giữ."
+ ABDUCT_SCIENTIST_PROJECT:1 "Bắt cóc nhà khoa học [GetPreFTLUpper]"
+ ABDUCT_SCIENTIST_PROJECT_DESC:1 "Chúng ta đã phát hiện ra một nhà khoa học tài năng trong số các [GetPreFTLLower] [pre_ftl_country.GetSpeciesNamePlural] trên [pre_ftl_planet.GetName]. Tài năng xuất chúng của [abducted_scientist.GetHisHerCap] đang bị phí hoài trong nền văn minh [abducted_scientist.GetHisHer] [GetPreFTLLower], nhưng [abducted_scientist.GetHeShe] sẽ có tác dụng thúc đẩy to lớn cho các dự án nghiên cứu của chính chúng ta. Kế hoạch bắt cóc [abducted_scientist.GetHisHer] và \"thuyết phục\" [abducted_scientist.GetHisHer] làm việc cho chúng ta đã được đưa vào chương trình nghị sự."
+ DEFENSE_FORCE_STRIKE_PROJECT:1 "Phá hủy lực lượng phòng vệ thổ dân"
+ DEFENSE_FORCE_STRIKE_PROJECT_DESC:1 "Các quốc gia dân tộc [pre_ftl_country.GetSpeciesName] từ [pre_ftl_planet.GetName] đã liên minh lại và thành lập lực lượng quân sự phản kháng người ngoài hành tinh, sứ mệnh của họ là cản trở hành động của ta trên hành tinh này. Đây là điều không thể dung thứ. Chúng ta phải thực hiện một đòn đánh trừng phạt vào căn cứ chính của chúng."
+ IMPLANT_MALFUNCTIONS_PROJECT:1 "Tháo bỏ thể cấy ghép bị lỗi"
+ IMPLANT_MALFUNCTIONS_PROJECT_DESC:1 "Sau khi gắn các thể cấy ghép não bộ cho vài đối tượng thử nghiệm [GetPreFTLLowerPlural] [pre_ftl_country.GetSpeciesNamePlural] trên [pre_ftl_planet.GetName], chúng ta đã gặp phải một số vấn đề. Họ nảy sinh hàng loạt vấn đề về lỗi chức năng, gây ra các hành vi bạo lực của người thử nghiệm, thậm chí dẫn đến cái chết của người bị thử nghiệm. Chúng ta cần tháo bỏ những thể cấy ghép này trước khi phát sinh thêm nhiều vấn đề khác."
+ PROBE_ALIENS_PROJECT:1 "Thăm dò người ngoài hành tinh"
+ PROBE_ALIENS_PROJECT_DESC:1 "Các nhà khoa học của chúng ta muốn tìm kiếm đối tượng thí nghiệm từ nền văn minh thổ dân trên [pre_ftl_planet.GetName] để thu thập dữ liệu. Sau khi thử nghiệm xong, đối tượng mục tiêu sẽ bị xóa trí nhớ và đưa trở lại bề mặt [pre_ftl_planet.GetPlanetHabitat]."
+
+ # Custom Tooltips
+ cannot_reveal_tt:1 "§RChúng ta không thể lộ diện trước khi sự kiện này kết thúc.§!"
+ cannot_dismantle_outpost_tt:1 "§RChúng ta không thể tháo dỡ trạm quan sát trước khi sự kiện này kết thúc.§!"
+ tech_progress_gain_tt:0 "§Y[pre_ftl_country.GetName]§!: §G+[pre_ftl_country.TechProgressPercentage]%§! tiến bộ công nghệ."
+ tech_progress_loss_tt:0 "§Y[pre_ftl_country.GetName]§!: §R-[pre_ftl_country.TechProgressPercentage]%§! tiến bộ công nghệ."
+ locked_to_passive_observation:0 "Trạm quan sát bị khóa vào $mission_passive_observation$"
+ acquired_tech_tooltip:1 "§Y[pre_ftl_country.GetName]§!: Tỷ lệ tiến bộ công nghệ §G+50§!."
+ acquired_tech_tooltip_five_years:0 "§Y[pre_ftl_country.GetName]§!: Tiến bộ công nghệ §G+50%§!, kéo dài §Y5 năm§!."
+ advance_to_age_tt:0 "§Y[pre_ftl_country.GetName]§!: Tiến bộ tới §Y[pre_ftl_country.GetNewAge]§!."
+ regress_to_age_tt:0 "§Y[pre_ftl_country.GetName]§!: Thoái lui về §Y[pre_ftl_country.GetNewAge]§!."
+
+# Scripted Loc
+ mountain:0 "một ngọn núi"
+ mountain_habitat:0 "cấu trúc phụ"
+
+ #Refactored Observation Events
+
+ observation.2011.name:2 "Khai sáng công nghệ: Trở ngại trên [pre_ftl_planet.GetName]"
+ observation.2011.desc:1 "Các cố vấn của ta trên [pre_ftl_planet.GetName] đã cố gắng giáo dục cư dân địa phương nhằm nâng cao trình độ công nghệ của họ, nhưng nhiệm vụ này đã gặp phải một số trở ngại. Nhiều [pre_ftl_planet.Owner.GetSpeciesNamePlural] từ chối tiếp xúc với ta, thậm chí những người hiếu học trong số họ cũng giữ thái độ hoài nghi và chán ghét đối với các nhà khoa học của ta.\n\nTâm lý bài ngoại này đã làm chậm trễ lịch trình của chúng ta. Việc giáo dục các [pre_ftl_planet.Owner.GetSpeciesNamePlural] tốn nhiều thời gian hơn chúng ta dự tính."
+ observation.2014.name:1 "Phát triển công nghệ: Tiến triển trên [pre_ftl_planet.GetName]"
+ observation.2014.desc:1 "Cư dân trên [pre_ftl_planet.GetName] cảm thấy vui mừng vì những công nghệ mà chúng ta chia sẻ. Họ nườm nượp kéo tới các vùng biệt lập mà ta thiết lập trên hành tinh của họ, hỏi dồn dập các câu hỏi liên quan đến văn hóa và lịch sử của chúng ta.\n\nSự khao khát học hỏi từ chúng ta của các [pre_ftl_planet.Owner.GetSpeciesNamePlural] đã thúc đẩy tiến độ nhiệm vụ nâng cao trình độ công nghệ của nền văn minh này, vì thế chúng ta đã sửa đổi đánh giá ban đầu về thời gian cần thiết cho nhiệm vụ."
+ observation.2014.tt:0 "§Y[pre_ftl_country.GetName]§!: §G+20%§! tiến bộ công nghệ."
+ observation.2016.name:1 "Phát triển công nghệ: Trở ngại trên [pre_ftl_planet.GetName]"
+ observation.2016.desc:1 "Thật không may, chúng ta phát hiện các [pre_ftl_species.GetName] trên [pre_ftl_planet.GetName] rất khó giáo dục. Các cố vấn khoa học báo cáo rằng, những người ngoài hành tinh này chuyển biến rất chậm chạp trong việc từ bỏ truyền thống của bản thân để tiếp nhận những khái niệm và lý niệm mới. Xem ra thời gian nhiệm vụ của chúng ta sẽ dài hơn dự kiến một chút."
+ observation.2016.tt:0 "§Y[pre_ftl_country.GetName]§!: §R-20%§! tiến bộ công nghệ."
+ observation.2018.name:1 "Phát triển công nghệ: Trở ngại trên [pre_ftl_planet.GetName]"
+ observation.2018.desc:1 "Chúng ta đã gặp khó khăn trong việc sắp xếp các nhà khoa học đi thực hiện nhiệm vụ phát triển công nghệ trên [pre_ftl_planet.GetName]. Bởi vì [pre_ftl_species.GetName] sở hữu ngoại hình và mùi hương... độc lạ, nói sao nhỉ, việc có thể đứng vững trước mặt họ thôi cũng đã không dễ dàng gì rồi.\n\nViệc đi thực hiện nhiệm vụ trên bề mặt [pre_ftl_planet.GetName] bị mọi người coi như một hình phạt. Điều này không may đã kéo lùi tiến độ nhiệm vụ của chúng ta."
+ observation.2018.tt:0 "§Y[pre_ftl_country.GetName]§!: §R-20%§! tiến bộ công nghệ."
+ observation.2020.desc:1 "Các [pre_ftl_species.GetNamePlural] trên [pre_ftl_planet.GetName] là những nhà khoa học bẩm sinh. Các cố vấn đồn trú trên hành tinh mẹ của chúng cảm thấy kinh ngạc trước những tiến bộ mà chúng đạt được. Các cố vấn cho biết trong báo cáo rằng, nhiệm vụ thúc đẩy nền văn minh [pre_ftl_species.GetName] tiến vào kỷ nguyên không gian của chúng ta có thể sẽ được hoàn thành sớm hơn thời hạn."
+ observation.2022.desc:0 "Nhiệm vụ mang lại sự phát triển công nghệ cho các [pre_ftl_species.GetNamePlural] trên [pre_ftl_planet.GetName] của chúng ta đã có tiến độ vượt kế hoạch so với lịch trình, phần lớn là nhờ vào trí tuệ phi thường của họ. Mặc dù nền văn minh này còn rất non trẻ, nhưng các cố vấn khoa học của ta đã nhìn thấy tiềm năng to lớn ở [pre_ftl_species.GetName]."
+ observation.2030.name:0 "Thay đổi tư tưởng trên [pre_ftl_planet.GetName]"
+ observation.2030.desc:0 "Sau một thời gian dài tiếp xúc với các nhà khoa học mà ta phái tới [pre_ftl_planet.GetName], mức độ tiếp nhận các giống loài và nền văn hóa khác của thổ dân địa phương đã tăng lên rất nhiều. Các [pre_ftl_species.GetNamePlural] không còn dễ dàng tỏ thái độ bài trừ đối với những thứ từ bên ngoài nữa."
+ observation.2031.desc:1 "Sau khi hợp tác chặt chẽ với các nhà khoa học và cố vấn mà ta phái tới [pre_ftl_planet.GetName], các [pre_ftl_species.GetNamePlural] đã nảy sinh sự hứng thú nồng nhiệt đối với mọi khía cạnh liên quan đến những thứ ngoài hành tinh."
+ observation.2031.tt:0 "Người dân trên [pre_ftl_planet.GetName] sẽ trở nên thiên về chủ nghĩa thân ngoại."
+ observation.social.intro:0 "Các cố vấn của ta báo cáo rằng, thổ dân trên [pre_ftl_planet.GetName] không chỉ bị mê hoặc bởi công nghệ của chúng ta, mà thậm chí họ còn đang bắt chước cử chỉ và điệu bộ của ta."
+ observation.2032.desc:0 "$observation.social.intro$\n\nHọ có vẻ về tổng thể đã chấp nhận triết lý tôn sùng hòa bình và phi bạo lực của chúng ta. Kể từ khi chúng ta tới đây, các cuộc xung đột giữa các nhóm văn hóa [pre_ftl_species.GetName] khác nhau gần như đã chấm dứt."
+ observation.2032.tt:0 "Người dân trên [pre_ftl_planet.GetName] sẽ trở nên thiên về chủ nghĩa hòa bình."
+ observation.2033.desc:1 "$observation.social.intro$\n\nVới những loại vũ khí kiểu mới mà ta trao cho, các [pre_ftl_species.GetNamePlural] đã có nhận thức mới về con đường chiến tranh. Kể từ sau khi chúng ta tới đây, xã hội của họ đã quân sự hóa một cách thần tốc."
+ observation.2033.tt:0 "Người dân trên [pre_ftl_planet.GetName] sẽ trở nên thiên về chủ nghĩa quân phiệt."
+ observation.2034.desc:0 "$observation.social.intro$\n\nChúng ta đã trở thành một tấm gương tuyệt vời, dạy cho họ giá trị của một ban lãnh đạo mạnh mẽ và đoàn kết. Giờ đây các [pre_ftl_species.GetNamePlural] đã nhận ra rằng, đây là con đường tất yếu để khiến một nền văn minh trở nên vĩ đại."
+ observation.2034.tt:0 "Người dân trên [pre_ftl_planet.GetName] sẽ trở nên thiên về chủ nghĩa uy quyền."
+ observation.2035.desc:1 "$observation.social.intro$\n\nSau khi được truyền cảm hứng từ nghệ thuật và văn hóa của chúng ta, xã hội [pre_ftl_species.GetName] dường như đã phát triển một nhận thức hoàn toàn mới về chủ nghĩa bình đẳng. Kể từ khi chúng ta tới đây, mức độ tự do cá nhân của họ đã tăng lên đáng kể."
+ observation.2035.tt:0 "Người dân trên [pre_ftl_planet.GetName] sẽ trở nên thiên về chủ nghĩa bình đẳng."
+ observation.2036.desc:0 "$observation.social.intro$\n\nNhiệm vụ truyền bá quan điểm khoa học của chúng ta cho [pre_ftl_species.GetName] đã gây ra tác động sâu rộng đến xã hội của họ. Tôn giáo có tổ chức đang suy tàn, nhiều hủ tục mê tín đã bị mọi người từ bỏ."
+ observation.2036.tt:0 "Người dân trên [pre_ftl_planet.GetName] sẽ trở nên thiên về chủ nghĩa duy vật."
+ observation.2037.desc:1 "$observation.social.intro$\n\nSau khi chứng kiến sức mạnh từ niềm tin của chúng ta, nhiều [pre_ftl_species.GetNamePlural] đã rầm rộ quay trở lại với tôn giáo cổ xưa của nền văn minh mình, đồng thời còn dung hợp một số yếu tố trong tín ngưỡng của ta với niềm tin của riêng họ."
+ observation.2037.tt:0 "Người dân trên [pre_ftl_planet.GetName] sẽ trở nên sùng đạo hơn."
+ observation.2038.desc:0 "Một bộ phận các nhà khoa học mà ta phái tới [pre_ftl_planet.GetName] để thực hiện công tác tư vấn cho các [pre_ftl_species.GetNamePlural] đã bắt đầu hoài nghi về tính sáng suốt của nhiệm vụ này. Họ báo cáo rằng, thổ dân địa phương dường như chỉ nảy sinh sự hứng thú đối với việc sở hữu công nghệ vũ khí mới.\n\nThật không may, hành vi biến những công nghệ hòa bình mà ta mang tới thành công cụ chiến tranh của họ đã kéo lùi tiến độ nhiệm vụ của chúng ta."
+ observation.2039.desc:1 "Nhiệm vụ khai sáng nền văn minh thổ dân trên [pre_ftl_planet.GetName] của chúng ta đã không diễn ra theo đúng kế hoạch. Khi chúng ta truyền thụ cho họ công nghệ vũ khí mới, các nhà khoa học [pre_ftl_species.GetName] thường cảm thấy kinh hãi.\n\nDo các cố vấn khoa học của ta đã trình chiếu màn mô phỏng kích nổ một quả bom nhiệt hạch trên bầu trời thành phố đông dân cư, nên họ phải mất tới mấy tuần lễ mới xoa dịu được cảm xúc của thổ dân. Thật không may, việc này đã làm chậm trễ tiến độ của ta rất nhiều."
+ observation.2040.desc:0 "Chúng ta đã gặp phải một số khó khăn khi triển khai công tác nâng cao trình độ văn minh cho người dân trên [pre_ftl_planet.GetName]. Các [pre_ftl_species.GetNamePlural] thực tế vô cùng mê tín, có rất nhiều người dân ôm khư khư truyền thống tôn giáo cổ hủ không chịu buông tay, từ chối tiếp nhận các bằng chứng duy vật, điều này khiến các cố vấn khoa học của ta cảm thấy vô cùng nản lòng.\n\nThật không may là, dự tính của chúng ta đối với nhiệm vụ này có vẻ đã quá mức lạc quan."
+ observation.2041.desc:1 "Kế hoạch khai sáng các [pre_ftl_species.GetNamePlural] và dẫn dắt họ tiến bước tới các vì sao theo đúng con đường đã gặp phải trở ngại. Các cố vấn tôn giáo và khoa học của ta trên [pre_ftl_planet.GetName] báo cáo rằng, thổ dân không có niềm tin để dựa vào, điều này khiến người ta cảm thấy lo ngại. Họ rất sẵn lòng tiếp nhận công nghệ của ta, nhưng đối với những lời dạy bảo tinh thần cần thiết để sử dụng các công nghệ này một cách có trách nhiệm, họ lại không muốn tiếp nhận.\n\nViệc này đã gây cản trở rất lớn cho nhiệm vụ dẫn dắt khai sáng các [pre_ftl_species.GetNamePlural]. Phen này kế hoạch của ta lại phải trì hoãn rồi."
+ observation.2042.desc:0 "Xã hội độc tài, áp bức trên [pre_ftl_planet.GetName] đã cản trở nhiệm vụ thúc đẩy tiến bộ công nghệ của các [pre_ftl_species.GetNamePlural]. Tư tưởng độc lập và tinh thần khai phá — vốn là những phẩm chất cần thiết để khoa học phát triển rực rỡ — lại rất hiếm thấy ở các [pre_ftl_species.GetNamePlural].\n\nChủ nghĩa uy quyền hống hách này đã kéo lùi tiến độ nhiệm vụ của chúng ta —— các cố vấn khoa học phái tới địa phương báo cáo rằng, thời gian thực tế tiêu tốn đã vượt quá dự kiến."
+ observation.2043.desc:1 "Chế độ vô chính phủ đang thịnh hành ở thế giới mặt đất [pre_ftl_planet.GetName], các cố vấn của ta đã gặp rất nhiều khó khăn khi truyền thụ khoa học hiện đại cho các [pre_ftl_species.GetNamePlural]. Đôi khi, mỗi nhà khoa học dường như đều có quan điểm khác nhau về dự án này, hoàn toàn không màng tới nhu cầu của đội ngũ hay lợi ích công cộng.\n\nNhiệm vụ khai sáng của chúng ta vẫn đang tiếp tục, dân chúng địa phương vì bị dẫn dắt sai lệch nên đã biểu hiện một mức độ chủ nghĩa bình đẳng nhất định, vì thế nhiệm vụ cần nhiều thời gian hơn dự kiến mới có thể hoàn thành."
+
+ ### New events which fire before nuclear war/apocalypse gatekeepers, giving the player a final chance to stop pre-FTLs from blowing themselves up! ###
+ # This event appears prior to observation.107 (religious nuclear war) #
+ observation.3205.name:0 "Ngày tận thế cận kề trên [pre_ftl_planet.GetName]"
+ observation.3205.desc:0 "Sau khi chứng kiến màn hiển linh của Đấng Cứu Thế của mình, cư dân trên [pre_ftl_planet.GetName] đã rơi vào cảnh khốn cùng. Xã hội nảy sinh sự chia rẽ, cục diện căng thẳng đã leo thang tới mức không thể chịu đựng nổi nữa.\n\nNếu chúng ta không hành động, họ sẽ lợi dụng công nghệ của chúng ta để phát động một cuộc chiến tranh tôn giáo trên toàn hành tinh khiến nó bị xẻ nghé tan đàn."
+ observation.3205.a:0 "Thu hồi công nghệ của chúng ta."
+ observation.3205.b:0 "Chúng ta không thể mạo hiểm gây thêm ô nhiễm văn hóa."
+ # This event appears prior to observation.204 (nuclear war following downed shuttle and stolen tech) #
+ observation.3210.name:0 "Thảm họa bao trùm [pre_ftl_planet.GetName]"
+ observation.3210.desc:0 "Công nghệ được thu lượm từ phi thuyền bị rơi của ta trên [pre_ftl_planet.GetName] đang đe dọa đến mọi mạng sống trên hành tinh này. Do họ thiếu đi sự thấu hiểu khoa học tương ứng, họ có thể dễ dàng lợi dụng công nghệ của ta để tự hủy diệt chính mình.\n\nTrừ phi chúng ta can thiệp, nếu không đây sẽ là một thảm họa."
+ observation.3210.a:0 "Kích hoạt chức năng tự hủy của tàu con thoi."
+ observation.3210.b:0 "Tổn thất đã gây ra rồi."
+ # This event appears prior to observation.1400 (random nuclear war) #
+ observation.3215.name:0 "Chiến tranh hạt nhân đang cận kề trên [pre_ftl_planet.GetName]"
+ observation.3215.desc:0 "Tình hình căng thẳng đang nhen nhóm trên [pre_ftl_planet.GetName]. Chiến tranh hạt nhân đang cận kề. Nếu chúng ta không làm gì, họ sẽ tự hủy diệt chính mình.\n\nChúng ta là hy vọng duy nhất của họ."
+ observation.3215.a:0 "Bí mật thâm nhập, xoa dịu tình hình."
+ observation.3215.b:0 "Không cần thiết phải tiến hành các hoạt động gián điệp thêm nữa."
+

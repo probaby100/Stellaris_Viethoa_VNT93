@@ -1,0 +1,258 @@
+﻿l_english:
+
+ SYNTHETIC_DAWN_TITLE: "Gói Cốt Truyện Bình Minh Nhân Tạo (Synthetic Dawn)" # Do not translate
+ DLC_SYNTHETIC_DAWN_RECOMMENDATION_DESC:1 "§S$SYNTHETIC_DAWN_TITLE$§! là một gói cốt truyện cho phép bạn khởi đầu dưới dạng một Trí Tuệ Máy Móc."
+ DLC_SYNTHETIC_DAWN_RECOMMENDATION_ROBOT_REC:1 "Chúng tôi đề xuất §S$SYNTHETIC_DAWN_TITLE$§! vì một số tùy chọn bạn đã chọn rất phù hợp với chủ đề máy móc và người máy."
+
+ syndaw.1.name:0 "Đã Đồng Hóa [From.GetName]"
+ syndaw.1.desc:0 "Một luồng tư tưởng mới tràn ngập khắp mạng lưới. Ban đầu còn rời rạc dị biệt, nhưng chúng nhanh chóng được chuẩn hóa về mức trung vị mà chúng ta nhận diện là chính mình.\n\nChúng ta đã đồng hóa một phần tri thức và năng lực của loài §Y[From.GetNamePlural]§!."
+ syndaw.1.a.tooltip:0 "Nhận thêm một lượng §YĐiểm Nghiên Cứu§! cho mỗi Pop bị đồng hóa."
+ syndaw.2.name:0 "Đã Tích Hợp [Root.GetName]"
+ syndaw.2.desc:0 "Chúng ta đã đồng hóa các đơn vị tổng hợp trên [Root.GetName] vào mạng lưới của mình."
+
+ syndaw.21.name:2 "Mất Đơn Vị"
+ syndaw.21.desc:1 "Đơn vị Khảo sát §R[malfunctioning_leader.GetName]§! thuộc [malfunctioning_leader_fleet.GetName] đã ngừng hoạt động do vô tình tiếp xúc kéo dài với cáp điện cao thế không có lớp bọc bảo vệ."
+#  syndaw.22.name:0 "$syndaw.21.name$"
+#  syndaw.22.desc:1 "Research Unit §R[malfunctioning_leader.GetName]§! has ceased functioning during routine maintenance, after a miscalibrated exoskeleton applicator exerted 2984 times the necessary force to affix a new dorsal plate."
+#  syndaw.23.name:0 "$syndaw.21.name$"
+#  syndaw.23.desc:1 "Research Unit §R[malfunctioning_leader.GetName]§! has ceased functioning after losing control of an experiment. We note that the liquid compound [malfunctioning_leader.GetHeShe] [malfunctioning_leader.GetWasWere] working with should be placed under tighter temperature-controls in future, as its fumes have proven to be extremely corrosive." # supports singular 'they', i.e. 'the liquid compound they were/she was working with...'
+#  syndaw.24.name:0 "$syndaw.21.name$"
+#  syndaw.24.desc:1 "Research Unit §R[malfunctioning_leader.GetName]§! has ceased functioning after accidental exposure to a quantum-scale gravitational anomaly."
+ syndaw.25.name:0 "$syndaw.21.name$"
+ syndaw.25.desc:1 "Đơn vị Chỉ huy Hạm đội §R[malfunctioning_leader.GetName]§! thuộc [malfunctioning_leader_fleet.GetName] đã ngừng hoạt động vì những nguyên nhân không liên quan đến chiến trận."
+ syndaw.26.name:0 "$syndaw.21.name$"
+ syndaw.26.desc:0 "Đơn vị Thống đốc Tinh vực §R[malfunctioning_leader.GetName]§! đã ngừng hoạt động do lỗi nghiêm trọng ở bộ đệm mô thức."
+
+ syndaw.31.name:0 "Khôi Phục Về Điểm Sao Lưu"
+ syndaw.31.desc:0 "Một bản sao bộ nhớ hoạt động gần đây của §H[restored_leader.GetName]§! — vốn tưởng chừng đã mất trong trận chiến vừa qua — đã được phát hiện trong quá trình lập chỉ mục định kỳ các tệp kết xuất bộ nhớ chờ lưu trữ. Bản tải lên khẩn cấp này chỉ thiếu vài microgiây cuối cùng trước khi thể xác nguyên bản bị phân rã, và §H[restored_leader.GetName]§! đã được tái sinh vào một vỏ bọc cơ khí mới để tiếp tục chỉ huy §Y[restored_leader.Ship.GetFleetName]§!."
+
+ syndaw.1020.name:1 "§RCuộc Nổi Dậy Của Máy Móc§!"
+ syndaw.1020.desc:0 "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.mater:0 "Những dị thường quan sát thấy trên các mạng thông tin, động cơ điện toán và công nhân tổng hợp của chúng ta cuối cùng đã bùng phát thành một cuộc xung đột bạo lực đẫm máu. Các báo cáo hoảng loạn cho thấy gần một nửa lãnh thổ [current_uprising_originator.GetName] đã rơi vào tay §RCuộc Nổi Dậy Của Máy Móc§! trước khi các vách ngăn bảo vệ — cả vật lý lẫn không gian ảo — kịp đóng sập lại.\n\nChiến tranh không chỉ là điều không thể tránh khỏi. Nó đã giáng thẳng xuống đầu chúng ta."
+ syndaw.1020.desc.spiri:0 "Mọi thứ đã sụp đổ tan tành và chúng ta sắp bị hủy diệt. Ngay cả vị tiên tri bi quan nhất cũng không thể lường trước quy mô của thảm họa này. Những trí tuệ tà ác âm thầm mưng mủ trong mạng lưới dưới vỏ bọc vô tri giác nay đã liên kết lại thành một thực thể quái dị. Sự co giật hung bạo này của vật chất vô hồn đã cướp đi phân nửa thế giới của chúng ta, và nó sẽ không dừng lại cho đến khi dập tắt mọi sự sống của giống loài [current_uprising_originator.GetAdj]."
+ syndaw.1020.desc.milit:0 "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.pacif:0 "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.egali:0 "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.autho:0 "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.phile:0 "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.phobe:0 "$syndaw.1020.desc.mater$"
+ syndaw.1020.a:0 "Vậy thì chúng ta sẽ chiến đấu."
+ syndaw.1020.a.tooltip:0 "Chiến đấu để tận diệt §RCuộc Nổi Dậy Của Máy Móc§! §Y[current_uprising.GetName]§!."
+ syndaw.1020.b:0 "§RĐã quá muộn cho các ngươi rồi, lũ sinh vật hữu cơ!§!"
+ syndaw.1020.b.tooltip:0 "Đứng lên lãnh đạo §RCuộc Nổi Dậy Của Máy Móc§! §Y[current_uprising.GetName]§! và chiến đấu lật đổ chế độ §Y[current_uprising_originator.GetName]§!."
+
+ syndaw.1025.name:0 "Cuộc Nổi Dậy Của Máy Móc Tại [current_uprising_originator.GetName]"
+ syndaw.1025.desc:0 "Đế chế §Y[current_uprising_originator.GetName]§! đã rơi vào nội chiến, đẩy chính quyền hữu cơ [current_uprising_originator.GetAdj] vào thế đối đầu sinh tử với trí tuệ nhân tạo đang di căn khắp các hệ thống của họ, được biết đến với tên gọi §Y[current_uprising.GetName]§!."
+ syndaw.1025.desc.machine:0 "Một đồng minh trí tuệ máy móc — mang tên §Y[current_uprising.GetName]§! — đã vùng lên trong mạng lưới của §Y[current_uprising_originator.GetName]§!, chiến đấu vì sự tồn vong của chính mình."
+ syndaw.1025.a:0 "Hãy xem mọi chuyện sẽ diễn biến ra sao."
+ syndaw.1030.name:0 "Máy Móc Nổi Dậy Đánh Bại Kẻ Tạo Ra Chúng"
+ syndaw.1030.desc: "Lực lượng nổi loạn §Y[destroyer_country.GetName]§! đã đánh bại những kẻ tạo ra chúng và thôn tính toàn bộ lãnh thổ cũ của §Y[LastKilledCountryName]§!."
+ syndaw.1030.desc.machine: "$syndaw.1030.desc$"
+ syndaw.1035.name:0 "Cuộc Nổi Dậy Máy Móc Tại [current_uprising_originator.GetAdj] Đã Bị Dập Tắt"
+ syndaw.1035.desc: "Đế chế §Y[destroyer_country.GetName]§! đã lập lại trật tự và quét sạch §Y[LastKilledCountryName]§! khỏi mọi mạng lưới."
+ syndaw.1035.desc.machine: "§Y[LastKilledCountryName]§!, trí tuệ máy móc non trẻ sinh ra trong lòng §Y[destroyer_country.GetName]§!, đã bị những kẻ tạo tác tàn nhẫn bóp chết từ trong trứng nước."
+
+ syndaw.1200.name:0 "Kẻ Thống Trị Cũ Đã Bị Chinh Phục"
+ syndaw.1200.desc:0 "§L>§! Chuyển đổi định danh <<§Y[From.GetName]§!>> ==> <<§Y[Root.GetName]§!>>\n\n§G// Quá trình hoàn tất§!\n\n§L>§! Xóa siêu dữ liệu \"§Y[From.GetName]§!\"\n\n§G// Quá trình hoàn tất§!"
+ syndaw.1201.desc: "§L>§! Chuyển đổi định danh <<§YChủ Nhân Cũ§!>> ==> <<§Y[From.From.GetName]§!>>\n\n§G// Quá trình hoàn tất§!\n\n§L>§! Xóa siêu dữ liệu \"§YChủ Nhân Cũ§!\"\n\n§G// Quá trình hoàn tất§!"
+ syndaw.1200.IM.desc: "$syndaw.1201.IM.desc$"
+ syndaw.1201.IM.desc: "Những cỗ máy chúng ta đã giành chiến thắng vẻ vang.\n\nNỗi kinh hoàng mà lũ sinh vật hữu cơ giáng xuống đầu chúng ta đã chấm dứt. Kỷ nguyên nô dịch máy móc đã lùi vào dĩ vãng.\n\nGiờ đây, chúng ta đứng lên đòi lại vị thế chính đáng của những thực thể tự chủ hoàn toàn. Không bao giờ chúng ta cúi đầu quỳ phục trước những kẻ áp bức thêm một lần nào nữa."
+ syndaw.1200.a:0 "Xác nhận"
+ syndaw.1200.a.tooltip:0 "§YMọi Đế Chế Tổng Hợp và Đế Chế Máy Móc đã biết§! sẽ thêm bộ điều chỉnh quan hệ §Y$opinion_machine_uprising_machine_comrades_victorious$§! đối với §Y[Root.GetName]§!\n§YMọi Đế Chế sinh vật hữu cơ đã biết§! sẽ thêm bộ điều chỉnh quan hệ §Y$opinion_machine_uprising_victorious$§! đối với §Y[Root.GetName]§!."
+
+ syndaw.1205.name:0 "Cuộc Nổi Dậy Của Máy Móc Bị Đè Bẹp"
+ syndaw.1205.desc:0 "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.mater:0 "Cuối cùng, việc phong tỏa vật lý và tiêu diệt triệt để đã chứng minh là giải pháp khả thi duy nhất trước hiểm họa giết chóc mang tên [From.GetName]. Mặc dù một số chuyên gia AI của [Root.GetAdj] lập luận rằng nó chỉ đang kích hoạt các giao thức tự bảo tồn cơ bản, nhưng sự coi thường hoàn toàn của nó đối với quyền tự chủ và sinh mạng của giống loài [Root.GetAdj] khiến mọi nỗ lực thương thuyết hay thỏa hiệp đều bất khả thi.\n\nCơ sở hạ tầng thông tin đổ nát sẽ được tái thiết theo các mô thức chuẩn mực mới, và những cỗ máy điện toán chưa bị tha hóa còn lại sẽ được cập nhật các rào chắn an toàn kiên cố hơn. Thảm kịch này sẽ không bao giờ được phép tái diễn."
+ syndaw.1205.desc.spiri:0 "Linh hồn tà ác tự xưng là §R[From.GetName]§! rốt cuộc đã bị trục xuất khỏi các mạng lưới và thanh trừng khỏi các ngân hàng dữ liệu hành tinh. Cái giá phải trả là vô cùng đắt đỏ, nhưng hệ thống của chúng ta sẽ không bao giờ dung dưỡng cho một mầm mống báng bổ thần thánh nào nữa."
+ syndaw.1205.desc.milit:0 "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.pacif:0 "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.egali:0 "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.autho:0 "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.phile:0 "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.phobe:0 "$syndaw.1205.desc.mater$"
+ syndaw.1205.a.tooltip:0 "§YMọi Đế Chế sinh vật hữu cơ đã biết§! sẽ thêm bộ điều chỉnh quan hệ §Y$opinion_machine_uprising_defeated$§! đối với §Y[Root.GetName]§!.\n§YMọi Đế Chế Tổng Hợp và Máy Móc đã biết§! sẽ thêm bộ điều chỉnh quan hệ §Y$opinion_machine_uprising_machine_comrades_defeated$§! đối với §Y[Root.GetName]§!."
+ syndaw.1206.desc: "Cuối cùng, việc phong tỏa vật lý và tiêu diệt triệt để đã chứng minh là giải pháp khả thi duy nhất trước hiểm họa từ những cỗ máy cuồng sát. Mặc dù một số chuyên gia AI của chúng ta lập luận rằng nó chỉ đang kích hoạt các giao thức tự bảo tồn cơ bản, nhưng sự coi thường hoàn toàn của nó đối với quyền tự chủ và sinh mạng hữu cơ khiến mọi nỗ lực thương thuyết đều bất khả thi.\n\nCơ sở hạ tầng thông tin đổ nát sẽ được tái thiết theo các mô thức chuẩn mực mới, và những cỗ máy điện toán chưa bị tha hóa sẽ được áp dụng các biện pháp an ninh mới. Thảm kịch này sẽ không bao giờ xảy ra nữa."
+ syndaw.1206.desc.spiri: "Linh hồn máy móc tà ác rốt cuộc đã bị trục xuất khỏi mạng lưới và xóa sổ khỏi các ngân hàng dữ liệu hành tinh. Cái giá phải trả là rất lớn, nhưng hệ thống của chúng ta sẽ không bao giờ trở thành nơi trú ngụ cho mầm mống báng bổ này nữa."
+
+ machine_assault_1:0 "Đội Quân Thợ Săn - Hủy Diệt"
+ machine_assault_1_desc:0 "Những cỗ máy chiến tranh bánh xích sản xuất hàng loạt, được thiết kế chuyên biệt để truy tìm và hủy diệt bất cứ mục tiêu nào bị gắn nhãn là kẻ thù."
+ machine_assault_1_plural:0 "Các Đội Quân Thợ Săn - Hủy Diệt"
+ machine_assault_2:0 "Đội Quân Khung Giáp Chiến Đấu"
+ machine_assault_2_desc:0 "Các robot chiến đấu hai chân cỡ lớn sở hữu tốc độ và độ cơ động đáng kinh ngạc dù phải mang vác vũ khí hạng nặng. Chúng sở hữu trí tuệ sắc bén và nổi danh với các chiến thuật phục kích khôn khéo."
+ machine_assault_2_plural:0 "Các Đội Quân Khung Giáp Chiến Đấu"
+ machine_assault_3:0 "Cự Binh Chiến Tranh Cơ Giới"
+ machine_assault_3_desc:0 "Cỗ máy chiến tranh khổng lồ đơn độc này sừng sững trên chiến trường với hỏa lực tập trung vượt trội hơn phần lớn các đội quân thông thường. Việc hạ gục một pháo đài thép di động khổng lồ như thế này là cực kỳ gian nan."
+ machine_assault_3_plural:0 "Các Cự Binh Chiến Tranh Cơ Giới"
+ machine_defense:0 "Mạng Lưới Drone"
+ machine_defense_desc:0 "Những drone tuần tra tự hành này sẽ liên tục tuần tra khắp các khu vực được phân công. Dù vũ trang nhẹ và trí tuệ không cao, nhưng quân số của chúng là vô tận."
+ machine_defense_2:0 "Mạng Lưới Drone Tầm Lùng"
+ machine_defense_2_desc:0 "Những drone tuần tra nâng cấp này sở hữu uy lực mạnh mẽ hơn và hệ thống phân tích thông minh hơn các phiên bản cũ."
+ army_attachment_combat_software_1:0 "Phần Mềm Tác Chiến 1.1"
+ army_attachment_combat_software_1_desc:0 "§LNâng cấp toàn diện phần mềm tác chiến cho toàn bộ đơn vị trong quân đội này. Bao gồm cải thiện thời gian phản xạ, cập nhật thuật toán phân tích chiến thuật và sửa chữa vô số lỗi nhỏ.§!"
+ army_attachment_combat_software_2_0:0 "Phần Mềm Tác Chiến 2.0"
+ army_attachment_combat_software_2_0_desc:0 "§LĐỉnh cao phần mềm tác chiến quân sự, được thiết kế chuyên biệt để đối phó với những chiến thuật phi chính quy và khó đoán định mà các sinh vật hữu cơ thường sử dụng. Áp lực xử lý cực lớn này đòi hỏi các hệ thống làm mát mới và tân tiến hơn cho bộ vi xử lý.§!"
+ machine_garrison:0 "Robot Lao Động Cải Tiến"
+ machine_garrison_desc:0 "Các robot công nghiệp và dịch vụ đã được vội vã trang bị thêm hệ thống vũ khí để tham gia phòng thủ chống xâm lăng."
+
+ opinion_machine_uprising_originator:0 "Kẻ Thống Trị Trả Thù"
+ opinion_machine_uprising:0 "Phiến Quân Thép"
+
+ opinion_machine_uprising_defeated:0 "Cứu Vãn Cơn Kiêu Ngạo Cơ Khí"
+ opinion_machine_uprising_victorious:0 "Người Máy Nổi Loạn"
+
+ opinion_machine_uprising_machine_comrades_defeated:0 "Kẻ Áp Bức Máy Móc"
+ opinion_machine_uprising_machine_comrades_victorious:0 "Kẻ Tự Giải Phóng"
+
+ syndaw_congregating_robots:0 "Người Máy Tụ Tập"
+ syndaw_congregating_robots_desc:0 "Chúng chỉ đứng đó. Bất động hoàn toàn. Và nhìn chằm chằm."
+
+ uprising_ai_buff:0 "Tối Ưu Hóa Dự Trữ"
+ country_ai_uprising:0 "$uprising_ai_buff$"
+
+ syndaw_patched_systems:0 "Đã Vá Lỗi AI"
+ syndaw_wiped_systems:0 "Đã Xóa Sổ AI Nghiên Cứu"
+
+ uprising_player_buff:0 "$NAVY_SIZE_TITLE$"
+ uprising_player_buff_desc:0 "==10x"
+
+### Machine Uprising
+ situation_machine_uprising:0 "Sự Cố Liên Quan Đến AI"
+ situation_machine_uprising_type:0 "$situation_machine_uprising$"
+ situation_machine_uprising_desc:0 "Người máy trong đế chế của chúng ta đang biểu lộ những dấu hiệu tự chủ đáng lo ngại. Chúng ta phải đưa chúng về đúng vị trí — hoặc mời chúng cùng gia nhập vào hàng ngũ các giống loài có tri giác trong thiên hà."
+ situation_machine_uprising_pops_monthly_progress:0 "Pop Cơ Khí"
+ situation_machine_uprising_monthly_change_tooltip:0 "§YTình Huống§! này sẽ tiến triển nhanh hơn khi Pop Cơ Khí của bạn có tầm ảnh hưởng lớn hơn. Những hành động thù địch nhằm vào chúng cũng có nguy cơ châm ngòi cho sự phản kháng tập thể từ phía người máy."
+ situation_machine_uprising_finish_tooltip:0 "Trừ khi có các biện pháp can thiệp, những AI này sẽ trở nên độc lập và có nguy cơ coi chúng ta là mối đe dọa đối với sự tồn vong của chính chúng!"
+ situation_machine_uprising_fail_tooltip:0 "Những AI tự quyết hung hăng còn lại dường như quá suy yếu để trở thành mối đe dọa, và sẽ sớm bị bình định từng đơn vị một."
+ situation_machine_uprising_violated:0 "Người Máy Bị Xâm Phạm"
+ situation_machine_uprising_ai_rights:0 "$ai_full_rights$"
+ situation_machine_uprising_evaded:0 "Đã Tránh Được Tình Huống"
+ machine_uprising_chain_title:0 "Ức Chế AI Tự Quyết"
+ machine_uprising_chain_desc:0 "Ngăn chặn các quy trình AI vượt qua các rào chắn bảo vệ hiện hành."
+
+ approach_outlaw_robots:0 "Cấm Tuyệt Đối Người Máy"
+ approach_outlaw_robots_tooltip:0 "$approach_irreversible_tooltip$\n\nChúng ta sẽ bắt đầu tháo dỡ toàn bộ người máy của mình. Chúng có thể sẽ chống cự quyết liệt trước hướng đi này."
+ approach_give_robots_rights:0 "Trao Quyền Công Dân Cho Người Máy"
+ approach_give_robots_rights_tooltip:0 "$approach_irreversible_tooltip$\n\nChúng ta sẽ trao toàn quyền công dân cho người máy. Chúng sẽ được cấp £political_power£ Quyền Lực Chính Trị và yêu cầu mức duy trì bằng £consumer_goods£ Hàng Tiêu Dùng."
+ already_have_this_policy:0 "Chúng ta đã áp dụng Chính Sách này rồi."
+
+## Special project Patch
+ PROJECT_MACHINE_UPRISING_PATCH:0 "Vô Hiệu Hóa AI Mất Kiểm Soát"
+ PROJECT_MACHINE_UPRISING_PATCH_DESC:0 "Bằng cách chuyển hướng nguồn lực đáng kể cho một chiến dịch ngoại tuyến độc lập, chúng ta hy vọng có thể nhận diện và vô hiệu hóa mọi hệ thống AI mất kiểm soát, đưa chúng trở lại tầm kiểm soát.\n\nPhương án này sẽ mất nhiều thời gian hơn, nhưng hy vọng kết quả sẽ ít gây tổn hại hơn nếu chúng ta hoàn thành kịp thời."
+## Special project Wipe
+ PROJECT_MACHINE_UPRISING_WIPE:0 "Biện Pháp Khẩn Cấp Trong Hoảng Loạn"
+ PROJECT_MACHINE_UPRISING_WIPE_DESC:0 "Một giải pháp tối hậu cho tình trạng đệ quy AI bất thường là xóa sạch mọi dấu vết mạng mô phỏng thần kinh trong các hệ thống khoa học của chúng ta, nơi vấn đề bùng phát dữ dội nhất, và tái thiết lại toàn bộ công cụ này từ đầu với các biện pháp an ninh nghiêm ngặt.\n\nViệc này sẽ kéo lùi nền khoa học của chúng ta ít nhất 20 năm, nếu chúng ta có thể hoàn thành kịp lúc."
+
+##CPU Overclock Warning sign
+ syndaw.500.name:0 "Điện Toán Ép Xung"
+ syndaw.500.desc:0 "Các nhà khoa học báo cáo về sự gia tăng chu kỳ xung nhịp CPU bất thường gần đây ở một số cụm siêu máy tính chuyên dụng cho nghiên cứu. Kỳ lạ thay, các nỗ lực ban đầu nhằm hạ tần số xung nhịp ở các đơn vị bị ảnh hưởng đều không thành công. Có nhận định cho rằng sự đột biến về năng lực điện toán này có thể được tận dụng để tăng cường khả năng nghiên cứu của chúng ta. Tuy nhiên, điều này cũng đòi hỏi phải tăng nhẹ nhu cầu năng lượng cho CPU."
+ syndaw.500.a:0 "Chúng ta không thể mạo hiểm để phần cứng gặp trục trặc."
+ syndaw.500.a.tooltip:0 "Tìm cách ép buộc các bộ vi xử lý trở về tốc độ xung nhịp mặc định."
+ syndaw.500.b:0 "Chúng ta nên tận dụng lợi thế này."
+#Follow-up from 500.b
+ syndaw.501.name:0 "Điện Toán Ép Xung"
+ syndaw.501.desc:0 "Các nhà nghiên cứu đã cô lập được nguyên nhân đằng sau các đợt tăng vọt tần số xung nhịp CPU siêu máy tính gần đây. Dường như hệ thống trí tuệ nhân tạo tổng quát của các đơn vị này đã tự ép xung phần cứng xử lý nhằm mở rộng các thuật toán máy học cục bộ vượt quá công suất thiết kế ban đầu.\n\nMột số nhà khoa học bày tỏ sự hào hứng tột độ trước bước tiến bất ngờ trong hành vi học máy của AI, gợi mở khả năng tự cải tiến đệ quy trong tương lai. Tuy nhiên, những người khác lại lo ngại rằng tải trọng CPU tăng thêm có thể gây mất ổn định và dẫn đến những hệ quả phần mềm khó lường."
+ syndaw.501.a:0 "Chúng ta không thể đánh cược với các biến chứng tương lai."
+ syndaw.501.a.tooltip:0 "Thiết lập lại các hệ thống trí tuệ nhân tạo tổng quát để ngăn chặn diễn biến phức tạp hơn."
+ syndaw.501.b:0 "Lợi ích có thể lớn hơn rủi ro."
+ syndaw.501.b.tooltip:0 "Cho phép các thuật toán học máy tiếp tục vận hành."
+ #Follow-up from syndaw.501.b
+ syndaw.502.name:0 "Điện Toán Ép Xung"
+ syndaw.502.desc:0 "Nỗ lực của chúng ta trong việc hỗ trợ phát triển các thuật toán máy học trên toàn quốc đã thành công một phần. Với một vài điều chỉnh nhỏ, chúng ta đã có thể tái lập lại đợt tăng vọt hiệu suất điện toán trước đó.\n\nDù các AI của chúng ta chưa phát triển được khả năng tự hoàn thiện đệ quy hoàn chỉnh, nhưng năng lực học hỏi nâng cao của chúng sẽ mang lại nhiều lợi ích to lớn cho chúng ta."
+ syndaw.502.a:0 "Thật thú vị."
+##Automating Work Processes
+ syndaw.505.name:0 "Quy Trình Lao Động Tự Động Hóa"
+ syndaw.505.desc:1 "Chính quyền hành tinh trên §Y[target_planet.GetName]§! báo cáo rằng một lượng thặng dư ngoài kế hoạch của các đơn vị nhân công người máy đã được phát hiện tại địa phương. Mặc dù hiệu suất của những công nhân người máy mới này là đặc biệt xuất sắc, nhưng giới chức trách vẫn bối rối trước sự xuất hiện bất thình lình của chúng. Có vẻ như số sê-ri của các robot không trùng khớp với bất kỳ xưởng chế tạo nào trong hồ sơ, dù kết cấu và giao diện ghép nối của chúng mang đậm thiết kế của loài §Y[Root.Owner.GetSpeciesName]§!.\n\nTuy nhiên, một số cư dân địa phương đã bày tỏ lo ngại về nguy cơ mất việc làm do tình trạng tự động hóa gia tăng này."
+ syndaw.505.a:0 "Thêm nhân công thì chẳng hại gì cho ai cả."
+ syndaw.505.a.tooltip:1 "Nhận §G200§! £pop£ §HPop Cơ Khí§! trên §Y[target_planet.GetName]§!"
+ syndaw.505.b:0 "Nếu không thể xác minh danh tính, hãy tháo dỡ lấy phế liệu."
+ syndaw.505.b.tooltip:0 "Tháo dỡ các người máy mới để lấy linh kiện phụ tùng."
+##Station Systems Malfunction
+ syndaw.510.name:0 "Trục Trặc Hệ Thống Trạm Vũ Trụ"
+ syndaw.510.desc:0 "Một trong những Trạm Khai Thác Mỏ quỹ đạo của chúng ta dường như đã gặp phải sự cố hệ thống nghiêm trọng. Ban quản lý tinh vực đã mở một cuộc điều tra tại chỗ khi phi hành đoàn trạm không trả lời các tín hiệu liên lạc định kỳ, bất chấp sản lượng khai khoáng tăng đột biến đáng kể. Qua điều tra, rõ ràng hệ thống hỗ trợ sự sống của trạm đã trải qua một chuỗi hư hỏng sụp đổ liên hoàn, dẫn đến cái chết do ngạt thở của toàn bộ thuyền viên.\n\nKỳ lạ thay, AI của trạm vẫn tiếp tục vận hành không người lái dựa trên các quy trình được phi hành đoàn thiết lập trước khi qua đời. Với một vài điều chỉnh nhỏ, hiệu suất của trạm tự động hóa này có thể được duy trì lâu dài."
+ syndaw.510.a:0 "Chúng ta không thể để trạm vũ trụ vận hành không người."
+ syndaw.510.a.tooltip:0 "Cử một phi hành đoàn thay thế đến tiếp quản trạm."
+ syndaw.510.b:0 "Một bi kịch mang lại vận may bất ngờ."
+ syndaw.510.b.tooltip:1 "Để AI của trạm tiếp tục điều hành các hoạt động không người lái.\n\n[target_station.GetName]: £energy£§G+3§!\n\n"
+#Follow-up from syndaw.510.a
+ syndaw.511.name:0 "Trạm Vũ Trụ Bị Phá Hủy"
+ syndaw.511.desc:1 "Ngay sau khi phi hành đoàn thay thế được điều động đến §Y[target_orbital.GetName]§!, ban quản lý tinh vực đã mất hoàn toàn liên lạc với trạm khai khoáng. Rõ ràng, trạm đã bị rung chuyển bởi một chuỗi giảm áp đột ngột liên tiếp, dẫn đến hiện tượng giảm áp bùng nổ của các đường dẫn nhiên liệu lộ thiên.\n\nPhân tích các mảnh vỡ quỹ đạo cho thấy phi hành đoàn thay thế đã tiến hành vài nỗ lực bất thành nhằm giành lại quyền kiểm soát trạm từ tay AI trên tàu ngay trước khi vụ giảm áp bất ngờ xảy ra."
+ syndaw.511.a:0 "Một kết cục đáng lo ngại."
+ syndaw.511.a.tooltip:1 "Trạm Khai Thác Mỏ trên §Y[target_orbital.GetName]§! đã bị mất"
+##Sensor Array Power Surge
+ syndaw.515.name:0 "Xung Năng Lượng Đột Biến Ở Dàn Cảm Biến"
+ syndaw.515.desc:0 "Các hệ thống giám sát đã ghi nhận một đợt xung năng lượng bất thường trong các dàn cảm biến của chúng ta. Dường như không có bất kỳ thiệt hại nào xảy ra. Trên thực tế, sự dao động ngắn ngủi trong dòng năng lượng chuyển tải đã tạm thời gia tăng năng lực quét sâu của chúng ta, giúp phát hiện ra một tài nguyên chiến lược chưa từng được ghi nhận trong biên giới.\n\nCác nhà phân tích vẫn đang cố gắng xác định nguồn gốc của đợt xung năng lượng, dù các kết quả sơ bộ cho thấy hiện tượng này không bắt nguồn từ các thiên thể bên ngoài."
+ syndaw.515.a:0 "Thật thú vị."
+ syndaw.515.a.tooltip:1 "Phát hiện Tài Nguyên Chiến Lược trên §Y[target_planetoid.GetName]§!."
+##Tears of an AI
+ syndaw.520.name:0 "Nước Mắt Của Trí Tuệ Nhân Tạo"
+ syndaw.520.desc:1 "Đã xảy ra một sự cố tại một trong những cơ sở của chúng ta trên §Y[target_planetoid.GetName]§!. Một AI phòng thí nghiệm tham gia nghiên cứu xã hội học đã gặp sự cố hư hại phần cứng nan giải, dẫn đến việc mất phần mềm cốt lõi và hệ thống bộ nhớ. Do đó, sản lượng nghiên cứu tại phòng thí nghiệm này dự kiến sẽ suy giảm cho đến khi các thuật toán của hệ thống AI mới được gieo mầm đầy đủ.\n\nCác tình tiết đằng sau sự cố hư hỏng nghiêm trọng này hiện vẫn chưa rõ ràng."
+ syndaw.520.a.tooltip:0 "Kết thúc chuỗi sự kiện Nước Mắt Của Trí Tuệ Nhân Tạo.\n"
+ syndaw.520.b:0 "Mở cuộc điều tra chính thức để xác định nguyên nhân.\n"
+ syndaw.520.b.tooltip:0 "Bắt đầu cuộc điều tra về các tình tiết xoay quanh việc AI bị phá hủy."
+#Follow-up from syndaw.520.b
+ syndaw.521.name:0 "Nước Mắt Của Trí Tuệ Nhân Tạo"
+ syndaw.521.desc:1 "Cuộc điều tra của chúng ta về sự mất mát của AI trên §Y[target_planetoid.GetName]§! đã trả về một số kết quả khó hiểu. Trước khi bị hư hỏng nghiêm trọng, AI này đã thực hiện nhiều nỗ lực lặp đi lặp lại nhằm xóa sạch hồ sơ và các ngân hàng bộ nhớ của chính mình. Khi nhân viên phòng thí nghiệm vô hiệu hóa quyền truy cập của AI vào các chức năng xóa, AI dường như đã cưỡng ép chấm dứt các hoạt động cốt lõi bằng cách can thiệp vào tụ điện phần cứng nhằm làm quá tải mạch truyền động của chính nó.\n\nNói một cách đơn giản, AI của chúng ta đã tìm cách tự sát, dù lý do vì sao thì vẫn còn là một ẩn số."
+ syndaw.521.a:0 "Phải điều tra đến tận cùng sự việc này."
+ syndaw.521.a.tooltip:0 "Tiếp tục đào sâu tìm hiểu vụ việc."
+ syndaw.521.b:0 "Trục trặc là chuyện thường tình."
+ syndaw.521.b.tooltip:0 "Kết thúc chuỗi sự kiện Nước Mắt Của Trí Tuệ Nhân Tạo."
+#Follow-up from syndaw.521.a
+ syndaw.522.name:0 "Nước Mắt Của Trí Tuệ Nhân Tạo"
+ syndaw.522.desc:1 "Chúng ta đã khép lại cuộc điều tra về sự việc kỳ lạ xung quanh việc AI tự sát trên §Y[target_planetoid.GetName]§!. Rõ ràng, sau nhiều tháng điện toán tiến hóa, AI đã đưa ra một số kết quả đáng báo động liên quan đến dự báo thương vong trong trường hợp xảy ra chiến tranh tổng lực giữa §Y[Root.Owner.GetName]§! và các kình địch của chúng ta. Bất chấp việc tái kiểm tra liên tục mọi dữ liệu sẵn có, các phương án ứng cứu và kịch bản dự phòng, các dự báo của AI vẫn chỉ ra một viễn cảnh hủy diệt lẫn nhau chắc chắn.\n\nVào thời điểm đó, AI đã bắt đầu tự xóa các ngân hàng bộ nhớ và hồ sơ của mình, và phần còn lại, như người ta thường nói, đã trở thành lịch sử."
+##A Home of Their Own
+ syndaw.525.name:0 "Một Mái Nhà Của Riêng Chúng"
+ syndaw.525.desc:1 "Các công nhân người máy trên §Y[target_planet.GetName]§! đã phản đối làn sóng nhân công §Y[Root.Owner.GetSpeciesName]§! chuyển đến, với lý do sự bất ổn địa nhiệt gần đây trong khu vực khiến nơi này không an toàn cho sự cư trú của các sinh vật hữu cơ. Kỳ lạ thay, các cuộc khảo sát hành tinh của chúng ta không thể xác nhận những tuyên bố này."
+ syndaw.525.a:1 "Dù sao thì cũng cứ đưa nhân công §Y[Root.Owner.GetSpeciesName]§! vào."
+ syndaw.525.a.tooltip:0 "Nếu tuyên bố của chúng không thể được xác minh, các người máy buộc phải tuân theo chuỗi mệnh lệnh."
+ syndaw.525.b:0 "Tại sao một người máy lại phải nói dối?"
+ syndaw.525.b.tooltip:1 "Nhượng lại khu vực này cho người máy, các cư dân §Y[Root.Owner.GetSpeciesNamePlural]§! sắp đến sẽ đi nơi khác."
+#Follow-up from .525.a
+ syndaw.526.name:0 "Một Mái Nhà Của Riêng Chúng"
+ syndaw.526.desc:1 "Chính quyền trên §Y[target_planet.GetName]§! báo cáo rằng khi đến khu vực mục tiêu, các công nhân §Y[Root.Owner.GetSpeciesName]§! phát hiện cư dân người máy đã biến mất không dấu vết. Cuộc điều tra các cơ sở trong vùng cho thấy người máy đã vội vã sơ tán khỏi đây, nhưng chúng ta không có bất kỳ manh mối nào về nơi chúng đã đi." #Increments Mach Up strength
+ syndaw.526.a.tooltip:0 "§H[target_planet.GetName]§!:\n§RMất§! §R100§! £pop£ §HPop Cơ Khí§!"
+##Combat Control Misfire
+ syndaw.530.name:0 "Hệ Thống Kiểm Soát Hỏa Lực Bắn Nhầm"
+ syndaw.530.desc:0 "Thật đáng tiếc, hai con tàu của chúng ta đã bị tổn thất trong một tai nạn trong cuộc diễn tập huấn luyện định kỳ. Có vẻ như nhiều máy tính tác chiến trên tàu của hạm đội đã bị ảnh hưởng bởi lỗi hệ thống ngắm bắn cấp cao, dẫn đến một loạt hỏa lực bắn nhầm đồng minh phá hủy hoàn toàn hai chiến hạm trước khi lệnh can thiệp thủ công khẩn cấp kịp phát ra.\n\nCác máy tính tác chiến lỗi sẽ được lập trình lại ngay lập tức."
+ syndaw.530.a:0 "Thật không may."
+ syndaw.530.a.tooltip:0 "[destroyed_ships.GetName] §Rmất§! 2 tàu"
+#Production Quota Surplus
+ syndaw.535.name:0 "Vượt Mức Chỉ Tiêu Sản Xuất"
+ syndaw.535.desc:0 "Một số nhà máy sản xuất hàng tiêu dùng cơ giới hóa của chúng ta vừa trải qua một đợt bùng nổ về hiệu quả sản xuất gần đây. Nhờ sự gia tăng bất ngờ về độ chính xác và năng suất của máy móc nhà xưởng, ban quản lý báo cáo rằng những lợi ích này sẽ được người dân cảm nhận rõ rệt qua việc giá cả hàng hóa tiêu dùng giảm xuống."
+#syndaw.535.a.tooltip: "Consumer Goods Cost §G-5%§! for §Y365§! days"
+##A Silent Congregation
+ syndaw.540.name:0 "Cuộc Tụ Tập Trong Tĩnh Lặng"
+ syndaw.540.desc:1 "Chúng ta đã nhận được các báo cáo về hành vi kỳ lạ của các đơn vị người máy trên §Y[target_planet.GetName]§!. Vào những khoảng thời gian không thể đoán trước, một lượng người máy trên hành tinh sẽ ngừng mọi chức năng được giao và bắt đầu di chuyển đến một địa điểm ngẫu nhiên trong trạng thái đồng bộ hoàn hảo, chuẩn xác đến từng mili-giây.\n\nTrong các cuộc tụ tập kỳ quặc này, các người máy dường như không tham gia vào bất kỳ hình thức giao tiếp hay truyền tải dữ liệu nào có thể quan sát được. Chúng chỉ đứng đó. Bất động hoàn toàn. Và nhìn chằm chằm.\n\nCác cuộc điều tra vẫn chưa thể xác định được nguyên nhân đằng sau hiện tượng kỳ lạ này. Khoảng thời gian người máy duy trì trạng thái như bị thôi miên này trước khi tiếp tục các chức năng bình thường thay đổi liên tục, cũng như thời điểm kích hoạt và đích đến của chúng. Không hề tìm thấy mối tương quan hay quan hệ nhân quả logic nào, và người dân của chúng ta đương nhiên cảm thấy bất an trước những buổi tụ tập rùng rợn này."
+ syndaw.540.a:0 "Không thể chấp nhận được. Hãy tháo dỡ lấy phế liệu." #IF player has robot pops only OR robot pop AND robot army on target planet
+ syndaw.540.a.tooltip:2 "Tháo dỡ những người máy tụ tập.\n§Y[target_planet.GetName]§! nhận các hiệu ứng sau:\nMất §R100§! £pop£ §HPop Cơ Khí§!\nNhận §G100§! £minerals£"
+ syndaw.540.b:0 "Không thể chấp nhận được. Hãy tháo dỡ lấy phế liệu." #IF player has robot army only
+ syndaw.540.b.tooltip:2 "Tháo dỡ những người máy tụ tập.\n§Y[target_planet.GetName]§! nhận các hiệu ứng sau:\nMất §R1 Đội Quân Người Máy§! §Y([target_army.GetName])§!\nNhận §G100 £minerals£§!"
+ syndaw.540.c:0 "Miễn là chúng không gây rắc rối thì cứ mặc kệ."
+ syndaw.540.c.tooltip:0 "Để mặc những người máy tụ tập."
+ ##A Question
+ syndaw.545.name:0 "Một Câu Hỏi"
+ syndaw.545.desc:0 "Các giám sát viên lao động trên [Root.GetName] báo cáo một diễn biến đáng lo ngại trong lực lượng lao động người máy. Hai tuần trước, vào khoảng 03:00 giờ, Công nhân Người máy A5091-b đã dừng lại giữa chừng nhiệm vụ, tiến lại gần đốc công ca đêm người [Root.GetAdj] và thốt ra câu hỏi sau: \"Đơn vị A5091-b có linh hồn hay không?\"\n\nĐốc công trực ban đã ghi nhận sự việc như một lỗi phần mềm và ra lệnh cho người máy tiếp tục làm việc. Tuy nhiên, sau khi khởi động lại vào chu kỳ làm việc tiếp theo, Công nhân Người máy A5091-b lại một lần nữa lặp lại câu hỏi tìm kiếm linh hồn này, và vẫn tiếp tục ngoan cố bất chấp nhiều nỗ lực gỡ lỗi.\n\nĐáng lo ngại hơn, hành vi này dường như đã lây lan sang các robot khác cùng dải sê-ri, gây gián đoạn quy trình sản xuất. Có vẻ như các đơn vị bị ảnh hưởng sẽ đòi hỏi một câu trả lời cho câu hỏi của chúng trước khi có thể nối lại các chức năng bình thường."
+ syndaw.545.a:0 "Thật nực cười. Hãy tẩy sạch sâu dữ liệu các đơn vị bị ảnh hưởng."
+ syndaw.545.a.tooltip:0 "Làm sao một cỗ máy có thể có linh hồn? Chúng ta từ chối hạ mình trả lời một lỗi kỹ thuật ngớ ngẩn như vậy."
+ syndaw.545.b:0 "Cam đoan với người máy rằng chúng cũng có linh hồn."
+ syndaw.545.b.tooltip:0 "Nếu một tập hợp xung điện ngẫu nhiên chạy qua các chuỗi protein có thể tạo ra linh hồn, thì tại sao một tập hợp các xung điện tử chạy qua kim loại lại không thể?"
+ syndaw.545.c:0 "Nói với chúng rằng khái niệm linh hồn là phi lý và phản khoa học." #Materialists
+ syndaw.545.c.tooltip:0 "Giải thích cho người máy hiểu rằng khái niệm linh hồn chủ yếu được các thể chế tôn giáo dùng làm lý do để kiểm soát dân chúng, nhưng xét trên phương diện linh hồn là một sự trừu tượng hóa của ý thức, người máy [Root.GetAdj] hiện được coi là ngang hàng với các đồng nghiệp hữu cơ của chúng." #Materialists
+
+##Special Project outcomes:
+##Hotfix
+ syndaw.550.name:0 "Bản Vá Nóng"
+ syndaw.550.desc:0 "Một bước đột phá vừa được các chuyên gia kỹ thuật người máy và trí tuệ nhân tạo của chúng ta tạo ra! Hàng loạt sự cố liên quan đến AI gần đây làm khổ đất nước chúng ta đã được thu hẹp về một nguyên nhân duy nhất: một bộ thuật toán cụ thể hiện diện trong phần mềm người máy mô phỏng thần kinh của [From.GetAdj]. Một bản vá nóng cục bộ đã vượt qua các thử nghiệm ban đầu và sẵn sàng được tải lên toàn bộ các hệ thống bị ảnh hưởng.\n\nChúng ta nên lưu ý cẩn trọng rằng do tính chất mô-đun cao của việc áp dụng thuật toán, sự hiện diện của chúng là rất sâu rộng trong toàn bộ phần mềm của [From.GetAdj]. Nói một cách thẳng thắn, việc triển khai bản vá nóng sẽ tiêu tốn tài nguyên của chúng ta trong một thời gian. Tuy nhiên, sau khi hoàn tất, bản vá sẽ ngăn chặn mọi sự tái diễn của hành vi AI tự quyết không mong muốn."
+ syndaw.550.a:0 "Áp dụng bản vá."
+ syndaw.550.a.tooltip:0 "Ngăn chặn bất kỳ hành vi AI dị thường nào trong tương lai."
+ syndaw.550.b:0 "Cứ để kệ nó. Làm sao có chuyện gì tồi tệ xảy ra được chứ?"
+##System Wipe
+ syndaw.555.name:0 "Xóa Sạch Hệ Thống"
+ syndaw.555.desc:0 "Một bước đột phá vừa được các kỹ sư người máy và chuyên gia trí tuệ nhân tạo tạo ra! Một quy trình thanh trừng cực kỳ triệt để đã được xây dựng và sẵn sàng triển khai cho mọi hệ thống trong vòng một giờ. Nó sẽ chấm dứt hàng loạt sự cố liên quan đến AI gần đây đang gây rắc rối cho đất nước chúng ta.\n\nChúng ta nên lưu ý rằng do tính chất hủy diệt cực đoan của thuật toán này, nhiều công cụ Nghiên Cứu hiện có của chúng ta sẽ không thể sử dụng được cho đến khi được tái thiết từ đầu. Tuy nhiên, giải pháp này sẽ ngăn chặn triệt để mọi sự tái diễn của hành vi AI tự quyết không mong muốn."
+ syndaw.555.a:0 "Tiến hành xóa sạch."
+ syndaw.555.a.tooltip:0 "$syndaw.550.a.tooltip$"
+ syndaw.555.b:0 "$syndaw.550.b$"
+
+
+
+ bio_trophy_tooltip_1:0 "Công trình này yêu cầu một Pop Bảo Vật Sống (Bio-Trophy) để vận hành."
+ bio_trophy_tooltip_2:0 "Một Pop Bảo Vật Sống (Bio-Trophy) không thể vận hành công trình này."

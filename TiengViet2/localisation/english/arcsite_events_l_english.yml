@@ -1,0 +1,170 @@
+﻿l_english:
+####################
+# ARCHAEOLOGY SITES
+####################
+
+# Ice Trauma (by Gemma Thomson)
+ site_ice_trauma:0 "Dưới Lớp Băng"
+ site_ice_trauma_desc:0 "Vùng đất hoang băng giá bao la của [from.planet.GetName] từng là đại dương, trải dài trên vô số hẻm núi núi lửa sâu thẳm. Dù môi trường không còn khả năng duy trì sự sống, chúng ta đã phát hiện tàn tích của các khu định cư tàu ngầm cổ đại trong các rãnh băng sát bề mặt hành tinh."
+
+ arcsite.1000.name:0 "Ngọn Tháp Ma Quái"
+ arcsite.1000.desc:0 "Các [owner.GetScientistPlural] của chúng ta đã dựng trại quanh rìa một hồ băng trong như thủy tinh. Dưới ánh sáng chan hòa, người ta có thể thoáng thấy những tòa tháp ma quái bên dưới. Chúng vươn thẳng lên từ đáy hồ tựa như những chiếc tua kiên định.\n\nNhững thành viên ít kinh nghiệm hơn trong đội vẫn đang phải thích nghi để làm việc trong cái lạnh buốt giá, cằn cỗi đến thấu xương này. Dù vậy, công tác khai quật của chúng ta vẫn tiến triển nhanh chóng. Chúng ta đã để lộ nhiều chốt gió, tất cả đều được thiết kế cho các tàu ngầm sơ khai. Hiện tại, vẫn chưa thấy bóng dáng của chính những con tàu đó. Dù cư dân của ngọn tháp ở lại hay đã chạy trốn, mọi bến cảng của nó đều bị bỏ trống."
+ arcsite.1000.a:0 "Chúng ta nên đầu tư sâu hơn vào các kỹ thuật phá băng này."
+
+ arcsite.1005.name:0 "Chút Hao Mòn"
+ arcsite.1005.desc:0 "Khi chúng ta tiếp tục dọn sạch các mảng băng lớn quanh các môi trường sống bị đóng băng, các [owner.GetScientistPlural] của chúng ta tại tháp neo đậu đã phát hiện một thiết bị đầu cuối máy tính sơ khai. Vỏ kim loại giòn của nó dường như đã bị... gặm nhấm.\n\nThiết bị đầu cuối đã khởi động bình thường sau một vài sửa chữa nhỏ. Phần lớn mạng dữ liệu của khu môi trường sống vẫn ngoại tuyến, nhưng chúng ta có thể suy ra rất nhiều điều từ các bản lưu trữ cục bộ về bảng kê hàng tồn kho, hồ sơ nhân sự, và thứ dường như là một kho nhật ký nhiệm vụ."
+
+ arcsite.1010.name:0 "Diễn Biến Đáng Lo Ngại"
+ arcsite.1010.desc:0 "Hiểu biết của chúng ta về khu định cư cổ đại trên [from.planet.GetName] ngày càng sâu sắc, nhưng nỗi lo ngại của chúng ta cũng theo đó nhân lên. Những gì chúng ta phát hiện là tàn tích của một thuộc địa tiền tiêu - dấu tích của một nền văn minh đã bị lãng quên từ quá lâu đến mức chúng ta thậm chí không thể nhận ra tên của họ.\n\nKhi các vùng biển còn là đặc điểm chiếm ưu thế trên thế giới này, các nhóm cư dân định cư khác nhau đã được đưa đến từ hành tinh mẹ của họ và được trưng tập vào các đội thủy thủ tàu ngầm tiên phong. Mục tiêu của họ: thành lập các thuộc địa và khai thác tài nguyên thiên nhiên của hành tinh. Tuy nhiên, thực tế nghiệt ngã của họ lại là những thí nghiệm sinh học không được kiểm soát, biến động chính trị triệt để, và mối hiểm nguy to lớn khi phải chống đỡ trước §Yhệ động thực vật thù địch§!.\n\nNhật ký cảm biến từ một phao điều hướng dường như đã theo dõi một đội thủy thủ như vậy trên đường đến một tiền đồn gần đó. Chúng ta tin rằng con tàu của họ có thể vẫn còn ở đó, bị mắc kẹt trong băng cùng một kho vật liệu hữu ích."
+ arcsite.1010.a:0 "Lập tức phái một đội nghiên cứu đến."
+ arcsite.1010.b:0 "Xem chúng ta có thể tìm hiểu được gì về những cư dân đại dương hung hãn đó."
+
+ arcsite.1016.name:0 "Lửa Và Nước"
+ arcsite.1016.desc:0 "Băng đen bao bọc hang động nơi chúng ta tìm thấy xác một con tàu ngầm cổ đại bị đè nát và cháy rụi. Được che chắn khỏi những chu kỳ đóng băng - tan băng khắc nghiệt nhất của hành tinh này, hang động cháy xém này đã lưu giữ bằng chứng về vô số tai họa ập xuống đầu đội thủy thủ.\n\nĐộng cơ hạt nhân thô sơ của con tàu mang dấu vết của những cuộc sửa chữa chắp vá vội vàng; trong khoang thủy thủ đoàn, chúng ta tìm thấy những vết cào xước và cặn mờ từ các vết bỏng hóa chất. Tại một thời điểm nào đó, tất cả các thoi thoát hiểm của tàu ngầm đều đã được phóng đi, nhưng chỉ còn một chiếc ở gần đây - nó bị kẹt lại bên trong một miệng dung nham đã tắt.\n\nKhông còn nhiều điều để thu thập thêm từ đống xác tàu cháy rụi này, nhưng điểm đến trước đây của đội thủy thủ - một §Ykho tiếp tế§! thuộc địa - vẫn còn nguyên vẹn. Do đó, đội thu hồi của chúng ta đã thành công trong việc lấy lại những thứ mà những thủy thủ tàu ngầm xấu số không thể."
+
+ arcsite.1017.name:0 "Tàu Ngầm Tự Trị"
+ arcsite.1017.desc:0 "Chúng ta đã đào đường hầm qua lượng băng khổng lồ để tìm thấy xác một con tàu ngầm còn nguyên vẹn, được niêm phong bên trong một hang động kín khí. Điều kiện lãnh nguyên từ lâu đã biến mọi vật chất hữu cơ thành lớp bụi mịn, nhưng đồng thời cũng bảo tồn một kho tàng cổ vật văn hóa phong phú.\n\nKhảo sát nhân chủng học của chúng ta cho thấy đây từng là điểm nóng của các hoạt động chính trị khi thủy thủ đoàn tàu ngầm này tách khỏi thuộc địa gần đó. Họ tuyên bố một vài ranh giới có chủ quyền ngay bên trong thân con tàu ngầm của chính mình, tán thành đủ mọi loại ý thức hệ chính trị. Thật đáng kinh ngạc, chủ nghĩa phe phái cực đoan này dường như đã củng cố mối liên kết xã hội của thủy thủ đoàn thay vì chia rẽ họ. Vấn đề này chắc chắn sẽ châm ngòi cho cuộc tranh luận sôi nổi giữa các nhà khoa học chính trị của chúng ta."
+ arcsite.1017.auth.a:0 "...Giúp chúng ta luôn đi trước những kẻ bất đồng chính kiến một bước."
+
+ arcsite.1018.name:0 "Di Sản Di Truyền"
+ arcsite.1018.desc:0 "Chúng ta từng dự đoán xác tàu cổ xưa như vậy ắt đã bị nghiền nát từ lâu. Nhưng ngược lại, chúng ta phát hiện xác tàu gặp nạn này đã bị đóng băng tức thì, bảo tồn nguyên vẹn cấu trúc thượng tầng cùng với thi thể của vô số sinh vật. Một vài trong số này dường như là hệ động vật bản địa: to lớn, hung dữ và mang bản tính săn mồi rõ rệt. Những kẻ khác dường như là con mồi của chúng: một nhóm nhỏ các sinh vật có tri giác đang mặc đồ bảo hộ môi trường.\n\nNhững cá nhân này - thủy thủ đoàn tàu ngầm - không bắt nguồn từ [fromfrom.planet.GetName]. Thay vào đó, cuộc khám nghiệm của chúng ta chỉ ra rằng những người ngoài hành tinh này đã tự ghép gen của chính mình với vật liệu từ các dạng sống địa phương. Chúng ta chỉ có thể mường tượng điều gì đã thôi thúc các cư dân thuộc địa biến đổi bản thân sâu rộng đến vậy, dẫu thế chúng ta không thể phủ nhận: bằng cách lưu giữ vật liệu di truyền này bên trong cơ thể, họ đã đảm bảo sự sống sót của một lịch sử di truyền quý giá."
+ arcsite.1018.phobe.a:0 "Thật là một sự ô uế ghê tởm."
+ arcsite.1018.b.evopred: "Quả là một giống loài khai sáng!"
+
+ arcsite.1020.name:0 "Thử Thách Băng Giá"
+ arcsite.1020.desc.intro:0 "Sau khi khảo sát mọi thứ có thể từ xác tàu ngầm và các môi trường sống bị bỏ hoang, các đội của chúng ta trên [from.planet.GetName] đang chuẩn bị tập hợp lại gần bề mặt hành tinh. Vẫn còn nhiều điều chúng ta chưa biết về thuộc địa này. Hầu hết những gì chúng ta tìm thấy chỉ đơn thuần là một di sản góp nhặt, về cuộc sống trên một biên cương cô độc đến cùng cực."
+ arcsite.1020.tech.desc:0 "$arcsite.1020.desc.intro$\n\nDù thiếu khả năng du hành nhanh hơn ánh sáng, những thủy thủ tàu ngầm cổ đại này đã dẫn lối cho chúng ta đến những đột phá đáng kinh ngạc trong các lĩnh vực khác. Họ đã đạt được những khám phá này giữa muôn vàn gian nan, những điều mà chúng ta có thể nỗ lực để không bao giờ phải tự mình trải qua."
+ arcsite.1020.default.desc:0 "$arcsite.1020.desc.intro$\n\nDù nền văn minh của họ chưa sở hữu công nghệ nhanh hơn ánh sáng, những gian nan dường như đã dẫn dắt thuộc địa tàu ngầm một thời này hướng tới một số đột phá đặc sắc về khoa học và kinh tế, mà giờ đây chúng ta có thể tự do khai thác."
+ arcsite.1020.a:0 "Những câu chuyện cảnh giác này có thể mang lại lợi ích cho các cư dân thuộc địa của chúng ta."
+ arcsite.1020.b:0 "Môi trường sống dưới bề mặt là một ý tưởng thú vị."
+ arcsite.1020.c:0 "Chúng ta có thể tận dụng tốt vũ khí của con tàu ngầm đó."
+ arcsite.1020.a.memorialist:0 "Chúng ta sẽ trân trọng ký ức về họ."
+ arcsite.1020.a.prospectors:0 "Một dự án kinh doanh kỳ lạ."
+
+ ice_trauma_insights_colony:0 "Di Sản Thủy Thủ Băng Giá" #modifier
+ ice_trauma_insights_engineering:0 "Tài Trí Thủy Thủ Băng Giá" #modifier
+ ice_trauma_memorialist_unity:0 "Tưởng Nhớ Thủy Thủ Băng Giá" #modifier
+
+# Engineered Species
+ site_engineered_species:0 "Hóa Thạch Phong Phú"
+ site_engineered_species_desc:1 "[from.planet.GetName] thoạt nhìn là một hành tinh có thể sinh sống tiêu chuẩn, nhưng khi kiểm tra kỹ hơn, đội nghiên cứu của chúng ta đã phát hiện những mỏ hóa thạch lớn trong điều kiện bảo tồn dường như rất tốt. Thú vị thay, các cụm hóa thạch lớn hơn lại chứa nhiều mẫu vật thuộc các loài khác nhau trên cùng một tầng địa chất, cho thấy chúng hoặc đã chết cùng một lúc hoặc được cố tình đặt ở đó. Việc kiểm tra những di cốt này mang lại cho chúng ta cơ hội hiểu rõ hơn về quá trình tiến hóa của các loài từng sinh sống trên hành tinh này."
+
+ arcsite.2000.name:0 "Chồng Chất Xương Tàn"
+ arcsite.2000.desc:0 "Chúng ta đã quét bề mặt và tìm thấy một vài mỏ đầy triển vọng, chứa đầy hài cốt của nhiều loài khác nhau. Một số giống với những loài vẫn đang sinh sống trên bề mặt, trong khi những loài khác lại hoàn toàn khác biệt so với bất cứ thứ gì chúng ta từng thấy trước đây.\n\nDù công việc rất gian khổ và động vật hoang dã bị kích động bởi sự hiện diện của chúng ta, [leader.GetName] đã đạt được những khám phá đáng chú ý và phục dựng thành công một số loài đã tuyệt chủng. Điều này, đổi lại, đã làm dấy lên một cuộc tranh luận trong đội nghiên cứu. Trong khi một số người muốn trưng bày các loài này trong triển lãm, những người khác lại muốn nghiên cứu vật liệu, vì chúng là những hóa thạch được bảo tồn tốt nhất từng được tìm thấy cho đến nay, và địa điểm khai quật này sắp cạn kiệt."
+ arcsite.2000.study:0 "Nghiên cứu các hóa thạch."
+ arcsite.2000.use:0 "Tổ chức một cuộc triển lãm từ chúng."
+ arcsite.2001.name:0 "Nghiên Cứu Hóa Thạch" #Study
+ arcsite.2001.desc:0 "Chúng ta đã tiến hành nghiên cứu sâu rộng để xác định mối quan hệ của các loài hóa thạch với sinh quyển hiện tại trên [from.planet.GetName]. Hóa ra một số loài trong đó thuộc cùng một chi, có nhiều nét tương đồng. Nghiên cứu sâu hơn có thể đem lại cho chúng ta thêm nhiều câu trả lời."
+ arcsite.2002.name:0 "Triển Lãm Liên Hành Tinh" #Use
+ arcsite.2002.desc:0 "Khá nhiều người đã đến tham quan triển lãm của chúng ta. Dù chúng ta không thể sử dụng vật liệu thu thập được cho nghiên cứu, chúng ta đã thu hút được một số nhà tài trợ hào phóng và đưa các hóa thạch đi lưu diễn liên hành tinh. Diện mạo kỳ lạ của các hiện vật đã tạo nên một làn sóng quan tâm nhỏ đối với ngành khảo cổ học ngoại chủng."
+
+ arcsite.2010.name:0 "Cư Dân Hang Động"
+ arcsite.2010.desc:0 "Sau khi khai thác cạn kiệt địa điểm đầu tiên, chúng ta quyết định di chuyển đến những nơi xa xôi hơn để tìm kiếm thêm vật liệu nghiên cứu. [leader.GetName] đã tìm được một địa điểm khá lý tưởng, một hang động từng là nơi cư trú của một số loài có trí tuệ đã tuyệt chủng. Việc dò tìm và kiểm tra cẩn thận đã hé lộ một điều bất thường: bất kể sinh vật nào từng sống trong hang động này đều đã sử dụng một loại thuốc nhuộm tài tình, chỉ hiện hình khi tiếp xúc với nhiệt độ và ánh sáng.\n\nChúng ta đã nhận diện được hai loại bích họa: một loại kể lại câu chuyện quá khứ, và loại còn lại mô tả đời sống thường nhật. Thật không may, chúng ta đã phá vỡ hệ sinh thái mỏng manh vốn lưu giữ các bức vẽ này. Phản ứng dây chuyền xảy ra, kết hợp với niên đại lâu đời của thuốc nhuộm, khiến chúng mờ dần và biến mất trong chốc lát. Đội nghiên cứu phải quyết định xem loại bích họa nào đáng để cứu giữ."
+ arcsite.2010.study:0 "Lưu giữ phần lịch sử."
+ arcsite.2010.use:0 "Lưu giữ phần đời sống thường nhật."
+ arcsite.2011.name:0 "Lịch Sử Cư Dân Hang Động" #Study
+ arcsite.2011.desc:0 "Chúng ta đã ghi lại các bức vẽ liên quan đến quá khứ và thu được hiểu biết sâu sắc về lịch sử của giống loài này. Dường như những cư dân hang động này đã tiếp xúc với một nền văn minh tiên tiến, nền văn minh đó đã phần nào ảnh hưởng đến diện mạo và sự phát triển của họ. Dựa vào những mô tả về các sinh vật, chúng ta suy đoán rằng loài này có xu hướng đột biến gen nhanh chóng, và các thế hệ của họ có diện mạo khác nhau đáng kể."
+ arcsite.2012.name:0 "Đời Sống Cư Dân Hang Động" #Use
+ arcsite.2012.desc:0 "Chúng ta đã ghi lại các bức vẽ liên quan đến đời sống thường nhật và thu được hiểu biết sâu sắc về lịch sử của giống loài này. Chúng miêu tả những cư dân hang động như một tập hợp các loài có diện mạo khác nhau nhưng trí tuệ tương đương nhau, cùng tham gia vào các nghi lễ phức tạp. [leader.GetName] giả định rằng các sinh vật khác nhau đã đắm mình dưới ánh sáng của thần linh, phụng sự Ngài, và đổi lại họ được ban cho tự do."
+
+ arcsite.2020.name:0 "Kiến Trúc Khung Xương"
+ arcsite.2020.desc:0 "Thám hiểm sâu hơn vào các khe nứt thẳm sâu của hang động, chúng ta bắt gặp một hang nhân tạo có kiến trúc khung xương kỳ lạ bên trong. Dựa trên tình trạng hiện tại của kiến trúc, có vẻ như nó đã sụp đổ và chìm vào lòng đất - có lẽ là do một trận động đất. [Leader.GetName] đã ra lệnh dựng trại, và chúng ta đã tiến hành một số lần quét chu vi, nhưng nền đất không hề ổn định. Chúng ta có thể không có đủ thời gian để kiểm tra toàn diện cấu trúc một khi bước vào bên trong.\n\nLợi ích tiềm năng lớn nhất cho các nghiên cứu của chúng ta nằm ở chính bản thân tòa nhà. Chúng ta có thể nghiên cứu loại vật liệu giống như xương đầy hấp dẫn này hoặc tập trung nỗ lực vào việc thám hiểm, tìm kiếm thêm manh mối bên trong cấu trúc về những người ngoài hành tinh đã xây dựng và sử dụng nó cùng nếp sinh hoạt thường nhật của họ."
+ arcsite.2020.study:0 "Nghiên cứu công trình."
+ arcsite.2020.use:0 "Nghiên cứu bên trong nó."
+ arcsite.2021.name:0 "Cấu Trúc Sống" #Study
+ arcsite.2021.desc:0 "Sau quá trình nghiên cứu không gặp trở ngại nào, [Leader.GetName] kết luận rằng tòa nhà này từng... còn sống. Không phải bây giờ, mà là từ nhiều năm trước, vào thời điểm nó được tạo ra. Đó là một khối xương và các mô được đúc kết lại với nhau để tạo thành một công trình có thể định hình lại theo mục đích mong muốn. Nhìn vào cách công trình sụp đổ, người ta thậm chí có thể giả định rằng đây là một hành động có chủ đích từ phía chính cấu trúc đó.\n\nThật không may, chúng ta đã vô tình làm tổn hại cấu trúc trong quá trình nghiên cứu và nó càng sụp đổ nặng nề hơn, khiến công trình trở nên vô dụng cho nghiên cứu tiếp theo. [Leader.GetName] đã ra lệnh cho toàn đội tiếp tục tiến lên."
+ arcsite.2022.name:0 "Văn Minh Dưới Lòng Đất" #Use
+ arcsite.2022.desc:0 "Bên trong cấu trúc kỳ quái này hóa ra là một mê cung các hành lang sụp đổ một nửa với vật liệu giống xương nằm rải rác khắp nơi. Vượt qua nhiều khó khăn, chúng ta đã trích xuất được một số công cụ và đồ vật chứng minh rằng một nền văn hóa phức tạp từng sinh sống trên hành tinh này. Chúng sẽ mang lại cho chúng ta hiểu biết sâu sắc về cuộc sống của các loài đã tuyệt chủng này.\n\nThật không may, chúng ta đã vô tình làm tổn hại cấu trúc trong quá trình nghiên cứu và nó càng sụp đổ nặng nề hơn, khiến công trình trở nên vô dụng cho nghiên cứu tiếp theo. [Leader.GetName] đã ra lệnh cho toàn đội tiếp tục tiến lên."
+
+ arcsite.2030.name:0 "Cơ Sở Dưới Lòng Đất"
+ arcsite.2030.desc:0 "Cuối cùng chúng ta đã đến điểm tận cùng của hang động. Chúng ta bước vào một nơi trông giống như một boongke cũ bị bỏ hoang được xây sâu dưới lòng đất. Nó không giống với bất cứ thứ gì chúng ta từng tìm thấy trước đây: chúng ta phỏng đoán những vị khách ngoài hành tinh đã thiết lập một phòng thí nghiệm nghiên cứu tại nơi này. Và nhìn vào những bể chứa đổ nát, các loại xương và hóa thạch nằm rải rác xung quanh, họ cũng từng nghiên cứu những loài này giống hệt như chúng ta... Chỉ khác là họ có cơ hội tiến hành nghiên cứu khi các mẫu vật của họ vẫn còn sống.\n\n[Leader.GetName] lập tức bắt tay vào việc, cố gắng thu thập bất kỳ thông tin hữu ích nào từ địa điểm và các ngân hàng dữ liệu, ngay khi chúng ta kết nối chúng vào nguồn năng lượng."
+ arcsite.2030.proceed:0 "Những bí ẩn nào sẽ được chúng ta hé lộ?"
+
+ arcsite.2040.name:0 "Đột Phá"
+ arcsite.2040.revelation.desc:0 "Chúng ta đã so sánh kiến thức từ các nghiên cứu trước với thông tin từ các ngân hàng dữ liệu. Kết luận đưa ra thật đáng quan ngại. Hóa ra hàng ngàn năm trước, một nền văn minh du hành vũ trụ đã đổ bộ xuống thế giới này và nhận thấy các mẫu vật bản địa rất dễ thuần hóa bằng kỹ thuật thao túng gen của họ. Ban đầu, họ nô dịch quần thể cư dân bản địa có trí tuệ - dẫu chưa phát triển đầy đủ - và tiến hành đủ loại thí nghiệm trên cơ thể họ. Những thí nghiệm này bao gồm biến họ thành mô sống phục vụ cho mục đích xây dựng. Hoặc biến thành nô lệ ngoan ngoãn. Hay thành thú cưng và gia súc.\n\nCác mẫu vật chúng ta tìm thấy trước đây có lẽ là tàn dư của những giống loài này trước khi chúng thoái hóa thành sinh quyển không có tri giác hiện đang phát triển mạnh mẽ trên [from.planet.GetName]. Một kết cục kinh hoàng cho một giống loài lẽ ra một ngày nào đó có thể vượt qua dải ngân hà như chúng ta."
+ arcsite.2040.ignorance.desc:0 "Dường như hàng ngàn năm trước, một nền văn minh tiên tiến đã nhận thấy các mẫu vật sinh sống tại đây là một đề tài nghiên cứu thú vị. Họ đã bị mê hoặc bởi sinh quyển đa dạng nơi này. Các ngân hàng dữ liệu cũ kỹ vẫn còn hoạt động, chứa đầy những kết luận kỳ lạ và các thí nghiệm có phần đáng lo ngại. Chúng chứa thành phần di truyền cơ bản của các loài và cách chúng có thể đã phát triển trong quá khứ cũng như tương lai.\n\nChuyện gì đã xảy ra với chính những nhà nghiên cứu đó? Liệu họ có bị thoái hóa thành tình trạng của những cư dân hang động mà chúng ta đã tìm thấy trước đây không? Hay điều ngược lại mới đúng, rằng họ tiến hóa từ chính cư dân hang động rồi rời khỏi hành tinh vào một thời điểm nào đó? Điều này khiến chúng ta phải tự hỏi: vũ trụ còn cất giấu những bí ẩn nào khác nữa?"
+ arcsite.2040.revelation:0 "Thật kinh hoàng."
+ arcsite.2040.ignorance:0 "Vũ trụ đầy ắp những điều kỳ diệu."
+ arcsite.2040.phobe:0 "Điều này chứng minh không thể tin cậy loài ngoại chủng!"
+ arcsite.2040.phile:0 "Những tội ác như vậy sẽ không bao giờ có thể xảy ra dưới chính quyền của chúng ta!"
+ arcsite.2040.evopred.ignorance: "Quả là một sáng kiến vị tha!"
+ arcsite.2040.evopred: "Ngân hà quả là một nơi khắc nghiệt."
+
+ engineered_species_revelation:0 "Sự Thật Nghiệt Ngã" #modifier
+ engineered_species_revelation_desc:0 "Dù chúng ta có thể tiếp thu kiến thức từ những người ngoài hành tinh đã chết từ lâu và các đối tượng thử nghiệm thao túng gen của họ, điều đó cũng chứng minh cho chúng ta thấy vũ trụ không phải là một nơi thân thiện. Kẻ săn mồi có thể rất dễ dàng biến thành con mồi."
+ engineered_species_ignorance:0 "Vũ Trụ Huyền Bí" #modifier
+ engineered_species_ignorance_desc:0 "Khám phá vũ trụ là một sự nghiệp tràn đầy những điều kỳ diệu. Thật đáng kinh ngạc khi sự sống có thể nảy nở ngay cả ở những góc xa xôi nhất của thiên hà và trong những điều kiện hiểm nghèo nhất. Nhân dân chúng ta, bị cuốn hút bởi những câu chuyện về các sinh vật đa dạng chung sống hòa thuận, đã sẵn sàng đối mặt với những bí ẩn của vũ trụ."
+ engineered_species_ownway:0 "Tư Tưởng Thống Nhất"
+ engineered_species_ownway_desc:0 "Vũ trụ thật khắc nghiệt, nhưng chúng ta phải kiên định với con đường của mình để không giẫm vào vết xe đổ của những kẻ đi trước."
+
+ # Debris Belt
+ site_debris_belt:0 "Vành Đai Mảnh Vỡ"
+ site_debris_belt_desc:0 "Kết quả quét của chúng ta về hệ sao [From.Planet.System.GetName] cho thấy vành đai tiểu hành tinh ở đây thuộc một dạng bất thường. Thay vì sự pha trộn tiêu chuẩn của đá, băng và rác vũ trụ thường cấu thành nên những dạng địa hình như vậy, nó dường như là tàn tích của một số môi trường sống nhân tạo quy mô lớn. Những công trình này ắt hẳn đã bị phá hủy với bạo lực kinh hoàng vào một thời điểm nào đó trong vài thiên niên kỷ qua. Vô vàn bí mật chưa từng được kể có thể ẩn giấu bên trong vùng mảnh vỡ này, nhưng nó quá rộng lớn đến mức việc lập bản đồ có thể mất khá nhiều thời gian."
+ r_odryskan_crystal:0 "Pha Lê Odryskia"
+ r_odryskan_crystal_desc:0 "Viên pha lê mang giá trị vô lượng. Người ta đồn rằng giá trị của dù chỉ một mảnh vỡ đơn lẻ cũng đủ để đẩy tâm trí phàm trần vào cơn điên loạn."
+ r_odryskan_crystal_regular_effect:0 "Một trong các nhà khoa học của chúng ta có thể nhận đặc tính §Y$leader_trait_maniacal$§!."
+ NAME_The_Cabin:0 "Căn Nhà Gỗ Vũ Trụ"
+
+ arcsite.2500.name:0 "Căn Nhà Gỗ Vũ Trụ"
+ arcsite.2500.desc:0 "Chúng ta không phải là những người đầu tiên phát hiện vành đai mảnh vỡ trong hệ sao §Y[From.Planet.System.GetName]§!: một chiếc phi thuyền - nhỏ đến mức các [Root.Owner.GetResearchers] của chúng ta gọi đùa nó là \"căn nhà gỗ vũ trụ\" - đã được tìm thấy, chứa hài cốt của một cá thể ngoại chủng hệ độc tố (toxoid) cùng một lượng đáng kể các tinh thể dữ liệu. Đánh giá theo tốc độ phân rã, phán đoán tốt nhất của chúng ta là cá thể ngoại chủng này chỉ mới qua đời cách đây vài thế kỷ."
+ arcsite.2505.name:0 "Chuyến Lưu Lại Dằng Dặc"
+ arcsite.2505.desc:0 "Các tinh thể dữ liệu được phát hiện trong căn nhà gỗ vũ trụ của người ngoài hành tinh thực chất là nhật ký nhiệm vụ. Các [Root.Owner.GetResearchers] của chúng ta đã gửi cho chúng ta một mẫu, cùng với bản dịch sơ bộ. Chúng bắt đầu bằng một giọng điệu phấn chấn:\n\n\"Đây là cơ hội có một không hai trong đời. Tàn tích của nền văn minh Odryskia huyền thoại đã ở ngay trong tầm tay. Ngôi nhà mới của ta không có gì nhiều, nhưng thế là đủ tốt cho ta rồi, và chẳng mấy chốc ta sẽ có thể gửi đủ tiền về nhà để chi trả cho việc chữa trị của con gái ta.\"\n\nTuy nhiên, chẳng mấy chốc, những trang nhật ký bắt đầu nhuốm màu cay đắng:\n\n\"Vợ và con gái đều đã chết. Không còn ai sống để tiếc thương ta nữa. Đồ vớt được đem bán trên chợ đen chỉ vừa đủ trang trải chi phí sinh hoạt. Giờ quay đầu thì đã quá muộn rồi.\"\n\nTính tổng cộng, người ngoài hành tinh này đã dành hơn năm thập kỷ rà quét vành đai đống đổ nát trong một nỗ lực tìm kiếm của cải dường như hoàn toàn vô vọng."
+ arcsite.2505.A:0 "Chắc chắn suốt ngần ấy năm họ phải tìm thấy thứ gì đó chứ!"
+ arcsite.2515.name:0 "Lún Sâu Vào Điên Loạn"
+ arcsite.2515.desc:0 "Không phải là sự thật\nKhông phải là sự thật\nKhông phải là sự thật\nKhông phải là sự thật\n§RDỐI TRÁ!§!\n...\n...\n...\nNhưng nếu nó là sự thật thì sao?\n\nCác trang nhật ký ngày càng trở nên đáng sợ khi người ngoài hành tinh ngày càng lún sâu hơn vào sự điên loạn."
+ arcsite.2520.name:0 "Bình Yên Lúc Cuối Cùng"
+ arcsite.2520.desc:0 "Các [Root.Owner.GetResearchers] của chúng ta đã hoàn tất việc dịch các tinh thể dữ liệu của người ngoài hành tinh. Họ trình bày bản giải nghĩa của trang nhật ký cuối cùng, trong đó, không lâu trước khi qua đời, người ghi chép đã trải qua một khoảnh khắc tỉnh táo hiếm hoi:\n\n\"Cuối cùng ta cũng tìm thấy thứ ta hằng tìm kiếm. Nhiều kẻ sẽ cho rằng ta điên rồ khi tiếp tục cuộc tìm kiếm lâu đến vậy. Ta nghĩ, có lẽ, họ đã đúng. Giờ ta đã già - thậm chí đang hấp hối - và thân quyến của ta từ lâu đã hóa thành cát bụi. Chẳng còn ích gì khi đem bán cổ vật này, nhưng có lẽ giờ đây ta có thể tìm thấy sự thanh thản.\"\n\nCác trang nhật ký tiếp tục chỉ rõ vị trí chính xác nơi người ngoài hành tinh giấu kho báu. Đi theo chỉ dẫn, chúng ta đã lần ra một viên đá quý khổng lồ đến kinh ngạc mang giá trị vô lượng."
+ arcsite.2520.A:0 "Báu vật của chúng ta..."
+
+ #Krazura Arcsite
+ site_krazura_dig: "Di Chỉ Cổ Đô"
+ site_krazura_desc: "Chúng ta đã phát hiện tàn tích của một thành phố cổ đại trên [From.Planet.GetName]. Dựa vào kích thước và quy mô của nó, đây có thể là thủ đô hoặc trung tâm hành chính đầu não của một nền văn minh du hành vũ trụ lớn.\n\nMột cuộc khai quật toàn diện sẽ là điều cần thiết để xác định chính xác nguồn gốc của nó."
+
+ arcsite.3025.name: "Tổ Cũ Đổ Nát"
+ arcsite.3025.desc: "Những thánh điện tráng lệ và đền thờ đổ nát nằm rải rác khắp phong cảnh thủ đô. Thám hiểm sâu hơn đã hé lộ rằng nền văn minh này đã bị hủy diệt hơn nửa triệu năm trước.\n\nDựa trên phát hiện về một số bức bích họa được bảo tồn tốt đến kinh ngạc, các cư dân dường như mang đặc điểm sinh học loài chim. Bản chuyển ngữ sơ bộ ngôn ngữ của họ chỉ ra rằng họ tự gọi mình là người Krazura."
+ arcsite.3025.a: "Tiếp tục đào bới."
+ arcsite.3030.name: "Tàn Dư Khe Nứt"
+ arcsite.3030.intro: "Khai quật sâu hơn đã dẫn đến một phát hiện đáng kinh ngạc: một căn phòng khổng lồ đến mức có thể chứa được một trong những ngọn núi nhỏ hơn của hành tinh. Bất chấp quy mô kỳ vĩ trong kiến trúc, \'Đại Điện\' này dường như không có công năng rõ ràng, chỉ có một lối duy nhất để ra vào.\n\nCó dạng gần như hình cầu, các bức tường của căn phòng thể hiện bằng chứng rõ rệt về sự biến dạng chiều không gian; hoàn toàn hợp lý khi kết luận rằng căn phòng được xây dựng bao quanh một lỗ sâu hoặc một cổng không gian phụ nào đó."
+ arcsite.3030.a.desc: "$arcsite.3030.intro$\n\nHơn thế nữa, một bức bích họa được khắc ngay bên ngoài Đại Điện đã mang lại một phát hiện khó tin: hành tinh này không gì khác chính là Skravird, quê hương tổ tiên của Đô Đốc Skrand Sharpbeak lừng danh!"
+ arcsite.3030.b.desc: "$arcsite.3030.intro$\n\nMột bức bích họa được khắc ngay bên ngoài Đại Điện chỉ ra rằng hành tinh này từng được gọi là Skravird."
+ arcsite.3030.tt: "Đổi tên hành tinh thành §YSkravird§!."
+ arcsite.3031.name: "Chẳng Nơi Đâu Bằng Nhà"
+ arcsite.3031.desc: "Các bạn đã tìm thấy Skravird. Tôi cứ ngỡ quê hương mình đã vĩnh viễn mất đi.\n\nĐược cơ hội cắm móng vuốt vào lòng đất mẹ, được cảm nhận ngọn gió phương nam ấm áp thổi lùa qua từng sợi lông vũ... Những gì các bạn đã làm cho tôi và cho nhân dân tôi là không gì đong đếm được.\n\nTôi cảm thấy như được tái sinh, cả thể xác lẫn tâm hồn. Xin gửi tới các bạn lòng biết ơn sâu sắc nhất của tôi."
+ arcsite.3031.a: "Chúc Đô Đốc may mắn."
+ arcsite.3035.name: "Mở Rộng Tầm Mắt"
+ arcsite.3035.desc: "Chúng ta đã xác định được rằng người Krazura không phải là cư dân bản địa trong chiều không gian của chúng ta. Đến đây thông qua một loại cổng không gian nào đó, họ thấy mình trôi dạt vào một thiên hà xa lạ và dị biệt. Rất lâu sau đó, Đại Điện mới được xây dựng bao quanh địa điểm họ đặt chân tới.\n\nMột vài ghi chép ít ỏi còn sót lại chỉ ra rằng họ tự coi mình là những người phán xử mang quyền năng thần bí và vĩ đại. Lãnh tụ tối cao của họ, được gọi là \'Yakura\', được cho là một cá thể duy nhất, tái sinh vào một thân xác mới qua mỗi thế hệ.\n\nBên dưới Đại Điện, chúng ta đã khai quật được hài cốt của một vài vị quân vương như vậy. Thú vị thay, những vị đầu tiên sở hữu cấu trúc di truyền khác biệt so với những người kế vị sau đó. Có vẻ như cuộc hành trình đến vũ trụ này đã tác động sâu sắc lên chính ADN của người Krazura, dẫn đến sự xuất hiện của một cặp mắt \'kép\'."
+ arcsite.3035.b.evopred: "Ngươi nói là ADN liên chiều không gian sao?"
+ arcsite.3040.name: "Mối Hiểm Họa"
+ arcsite.3040.desc: "Người Krazura khởi đầu là những người tị nạn trong vũ trụ của chúng ta. Dẫu vậy, những ghi chép được phát hiện gần Đại Điện cho thấy họ đã nhanh chóng gây dựng nên một đế chế liên sao hùng mạnh. Qua nhiều thế hệ, họ đã tận hưởng một Thời Kỳ Hoàng Kim. Thần dân của họ hưng thịnh, còn năng lực cùng quyền uy tối thượng của Yakura là không thể bàn cãi. Rồi Mối Hiểm Họa xuất hiện.\n\nMột kẻ thù không giống bất cứ kẻ thù nào họ từng giáp mặt trước đây, kẻ thù vô danh này dường như bị ám ảnh bởi việc tận diệt họ. Những hiền giả vĩ đại nhất của người Krazura đứng bất lực trước mối đe dọa bất khuất này, phép thuật hùng mạnh của họ trở nên vô dụng."
+ arcsite.3045.name: "Chuyến Di Cư Cuối Cùng"
+ arcsite.3045.a.desc: "Chúng ta đã phát hiện một kho tư liệu cung cấp những manh mối về số phận của người Krazura.\n\nChỉ huy soái hạm hải quân của họ là một Đô Đốc huyền thoại, một người anh hùng vĩ đại của thần dân ông. Trước khi Mối Hiểm Họa ngoại lai có thể giành lấy chiến thắng sau cùng, ông và thủy thủ đoàn đã được cử đi thực hiện một nhiệm vụ táo bạo cuối cùng. Trong nỗ lực đánh bọc sườn kẻ thù, họ đã tiến vào một Cổng Không Gian chưa qua thử nghiệm. Kể từ đó, không ai còn nghe thấy tin tức gì về con tàu và thủy thủ đoàn nữa.\n\nNhững gì xảy ra vẫn còn là một bí ẩn. Liệu có khả năng con tàu này vẫn đang ở ngoài kia?"
+ arcsite.3045.b.desc: "Chúng ta đã phát hiện một kho tư liệu cung cấp những manh mối về số phận của người Krazura.\n\nTrong một nỗ lực táo bạo nhằm đánh bọc sườn kẻ thù, Yakura đã hạ lệnh cho soái hạm tiến vào một Cổng Không Gian chưa qua thử nghiệm. Người nắm quyền chỉ huy chính là Đô Đốc Skrand Sharpbeak huyền thoại.\n\nÔng và thủy thủ đoàn là những người thừa kế của một di sản phi thường. Dù Skrand có muốn đón nhận danh hiệu đó hay không, nhân dân giờ đây đều suy tôn ông là Yakura."
+ arcsite.3045.a: "Cầu chúc cho đôi cánh của ông bay cao."
+
+ #Krazura Random Events
+
+ arcsite.3055.name: "Điểu Tượng Ám Ảnh"
+ arcsite.3055.desc: "Ngay cả khi tiến độ chung bị đình trệ, các [owner.GetResearchers] của chúng ta đã phát hiện lối vào một căn phòng chưa từng thấy trước đây. Bên trong là một bức tượng đồ sộ, vừa uy nghiêm vừa tuyệt mỹ.\n\nMang hình dáng loài chim, chiếc cổ dài và khỏe khoắn của nó được chế tác từ các mắt xích kim loại lơ lửng tại chỗ một cách thần kỳ. Bộ lông sắc bén mọc ra từ một hộp sọ quý tộc, và đôi mắt của nó là biểu tượng hoàng kim của quyền lực. Di chuyển qua căn phòng, các [owner.GetResearchers] của chúng ta có cảm giác khó chịu như thể đang bị ai đó dõi theo.\n\nPhía sau bức tượng, họ phát hiện một cánh cửa hoặc phong ấn ẩn giấu, nhưng bất cứ thứ gì mà loài chim ma mị này từng canh giữ đều đã ngừng hoạt động từ lâu."
+ arcsite.3060.name: "Bệnh Mục Lông"
+ arcsite.3060.desc: "Dựa trên những gì chúng ta đã khám phá cho đến nay, nền văn minh này không hề xa lạ với bi kịch.\n\nCác ghi chép cổ xưa được lưu giữ trong một hầm mộ hoặc lăng tẩm nào đó kể chi tiết về sự xuất hiện của một đại dịch lớn, một dịch bệnh đã tàn phá diện mạo sinh học loài chim của giống loài này theo những cách đặc biệt kinh hoàng.\n\nBan đầu biểu hiện trên bộ lông, virus khiến lông vũ bị thối rữa ngay từ chân lông. Chỉ trong vài ngày, những triệu chứng này đã lan vào máu. Chúng ta không thể biết chắc chắn, nhưng các ước tính ban đầu cho thấy tỷ lệ tử vong lên tới hơn 30%.\n\nMột đài tưởng niệm nhói lòng đã được dựng lên tại một trong những quảng trường trung tâm thành phố. Trên đỉnh một gò xương, một con chim trơ khung xương đang tuyệt vọng nhìn lên bầu trời, những sợi lông rụng của nó vương vãi quanh đôi móng vuốt giòn vụn."
+ arcsite.3060.a: "Nghĩ đến thôi cũng đủ kinh hãi."
+ arcsite.3060.b: "Thật ghê rợn."
+
+################
+# RANDOM EVENTS
+################
+
+ arcsite.9000.name:0 "Đêm Canh Cô Độc"
+ arcsite.9000.desc:0 "Nhà khảo cổ học trưởng [leader.GetName] gần đây ngày càng trở nên thu mình khép kín. [leader.GetHeSheCap] dường như ít chú tâm vào các mục tiêu nghiên cứu của chúng ta, thay vào đó lại bị ám ảnh bởi những cuốn nhật ký và sổ ghi chép mà chúng ta phát hiện được cho đến nay. [leader.GetHeSheCap] thường lẩm bẩm về việc \"những con người này ắt hẳn đã cô đơn biết bao\".\n\nCó thể sự hoang vu ảm đạm của địa điểm khai quật này đang gây tổn hại tâm lý. Chúng ta có thể sắp xếp tư vấn tâm lý cho toàn đội, hoặc tin tưởng rằng [leader.GetName] sẽ tìm thấy lối thoát trong công việc của [leader.GetHisHer]." #Uses he/she/they loc., i.e. 'She appears' vs. 'They appear'
+ arcsite.9000.a:0 "Hãy thu xếp ngay. Sức khỏe của toàn đội là điều tối quan trọng."
+ arcsite.9000.b:0 "Hãy để mặc [leader.GetHimHer]. Biết đâu [leader.GetHeShe] đang phát hiện ra điều gì đó."
+ arcsite.9001.desc:0 "Nhà khảo cổ học trưởng [absconded_archaeologist.GetName] đã bỏ trốn, mang theo một lượng lớn dữ liệu nhân chủng học cùng với [absconded_archaeologist.GetHimHer]. Toàn đội báo cáo thiếu một phương tiện mặt đất, nhưng toàn bộ đồ bảo hộ môi trường của chúng ta vẫn còn tại căn cứ.\n\nCó khả năng [absconded_archaeologist.GetName] đã trốn đến một khu môi trường sống tàu ngầm khác đâu đó băng qua vùng lãnh nguyên, nhưng thực tế mà nói... Chúng ta phải chuẩn bị cho tình huống xấu nhất."
+ arcsite.9001.a:0 "Vô cùng đáng tiếc."
+ arcsite.9002.desc:0 "Một cái giá đắt đã giáng xuống nhà khảo cổ học [leader.GetName]. Dù giờ đây trông [leader.GetHeShe] khá tiều tụy, [leader.GetHeShe] đã quay trở lại với đội và đưa ra một giả thuyết đầy thuyết phục. Dường như chúng ta đã bỏ qua một vài chi tiết tinh tế trong tập hợp tài liệu cá nhân. Cùng nhau, những manh mối này mang lại chính bước đột phá mà chúng ta hằng hy vọng."
+ arcsite.9002.a:0 "Nhưng liệu nó có đáng với cái giá phải trả không?"
+
+ arcsite.9005.name:0 "Phá Băng"
+ arcsite.9005.desc:0 "Đội khai quật trên [fromfrom.planet.GetName] đã và đang làm việc chặt chẽ với các [owner.GetResearchers] của chúng ta trên [owner.capital_scope.GetName], thử nghiệm các giải pháp mới để làm việc trong vùng lãnh nguyên khắc nghiệt. Đội mặt đất đã triển khai một máy xúc nguyên mẫu có thiết kế kế thừa sâu sắc từ các kỹ thuật cải tạo địa hình.\n\nCác thử nghiệm ban đầu cho thấy cỗ máy này sẽ đẩy nhanh đáng kể công việc của chúng ta ở đây. Tuy nhiên, họ đã xác định được §Hmột số rủi ro§!. Chúng ta sẽ cần thêm kinh phí nếu muốn cố gắng giảm thiểu những rủi ro đó."
+ arcsite.9005.a:0 "Rủi ro và chi phí tiềm ẩn là quá lớn."
+ arcsite.9005.tt.carefree:0 "thêm §G4 manh mối§! cho §H$site_ice_trauma$§!\n§H[leader.GetName]§! nhận:\n$t$Đặc tính §Y$leader_trait_carefree$§!\n$t$Kinh nghiệm: +§G150§!" #directly follows loc string 'RANDOM_EFFECT'
+ arcsite.9005.tt.paranoid:0 "thêm §R-2 manh mối§! cho §H$site_ice_trauma$§!\n§H[leader.GetName]§! nhận:\n$t$Đặc tính §Y$leader_trait_paranoid$§!\n$t$Kinh nghiệm: +§G50§!" #directly follows loc string 'RANDOM_EFFECT'

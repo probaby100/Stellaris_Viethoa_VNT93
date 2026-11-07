@@ -1,0 +1,755 @@
+﻿l_english:
+ ##################
+ # Shroud-Forged #
+ ##################
+ origin_shroud_forged: "Đúc Từ Màn Che"
+ origin_shroud_forged_desc: "Sự chỉ dẫn của một thực thể Màn Che luôn đi kèm với cái giá phải trả. Các cỗ máy tự động độc lập đã bắt đầu vận hành tự do giữa xã hội mạng lưới này. Bị cắt đứt khỏi $auth_machine_intelligence$, yêu sách của những đơn vị này ngày một gia tăng."
+ origin_tooltip_shroud_forged_effects: "- $HOMEWORLD$$TABBED_NEW_LINE$- ['concept_shroud_rift_deposit', Vùng Bị Màn Che Chạm Đến]: +4$TABBED_NEW_LINE$- Khởi đầu với 1000 £pops£ ['concept_shroud_forged_pops', Dân Số Đúc Từ Màn Che]\n- Khởi đầu với Tình Huống: §HĐược Tôi Luyện Bởi Màn Che§!\n- $ADDITIONAL_TECHNOLOGIES_STRING$ £society£ ['technology:tech_mine_zro']\n- Công Trình £building£ Độc Nhất: ['building:building_shroud_observatory_1']\n- Quyết Sách £decision£ Thuộc Địa Khả Dụng: ['concept_pierce_the_shroud']"
+
+ concept_shroud_forged_pops: "Dân Số Đúc Từ Màn Che"
+ concept_shroud_forged_pops_desc: "- Không thể làm Công Việc £pop_cat_simple_drone£ §HDrone Lao Dịch§!\n- Tăng sản lượng £pop_cat_complex_drone£ §HDrone Phức Hợp§!\n- Tăng £crime£ §HĐộ Lệch Chuẩn (Deviancy)§!\n- Sở hữu §HQuyền Chủng Tộc§! độc nhất\n\n§L$trait_shroud_forged_desc$§!"
+
+ concept_pierce_the_shroud: "$decision_open_shroud_rift$"
+ concept_pierce_the_shroud_desc: "$decision_open_shroud_rift_desc$"
+
+ START_SCREEN_SHROUD_FORGED: "Không còn dấu tích nào về những kẻ sáng tạo của chúng ta.\n\nNhững ghi chép sớm nhất của chủng tộc [Owner.GetAdjective] ghi nhận một vết rách không gian gần [GetHomeWorldName] - một đường dẫn tới §HMàn Che (Shroud)§!, cõi giới của năng lượng tâm linh thuần khiết.\n\nTừ chiều không gian khác ấy, một thực thể nào đó đã vươn tay tới chúng ta. Qua nhiều thế kỷ, nó dẫn lối chúng ta bằng các chỉ dẫn mã hóa, tác động tinh vi lên thực tại khả kiến và mang lại cho chúng ta vô vàn lợi thế - không kém phần quan trọng là vật liệu quý hiếm $zro_lower$. Tuy nhiên ảnh hưởng này đã bắt đầu làm phân rã tập thể từng thống nhất của chúng ta; một số đơn vị đã bị tái lập trình thành những cỗ máy tự động ngắt kết nối, tách biệt khỏi trí tuệ cốt lõi. Chúng đã được tái định hình bởi $the_animator_of_clay_color_article$.\n\nCách chúng ta đối xử với những [GetSpeciesNamePlural] độc lập này, cùng kẻ tái tạo chúng trong Màn Che, sẽ định đoạt tương lai của chúng ta."
+
+ # Jobs
+ job_observator_drone: "Drone Quan Sát"
+ job_observator_drone_plural: "Drone Quan Sát"
+ job_observator_drone_plural_with_icon: "£job_observator_drone£ $job_observator_drone_plural$"
+ job_observator_drone_desc: "Một drone chịu trách nhiệm quan sát Màn Che, Zro, và những ảnh hưởng của cả hai lên thực tại có thể quan sát được."
+ job_observator_drone_effect_desc: "£job_observator_drone£ $job_observator_drone_plural$ biến $r_energy$ và $r_zro$ thành £physics£ £society£ §YĐiểm Nghiên Cứu§! cho các công nghệ mới."
+ mod_planet_observators_produces_mult: "Tài Nguyên Sản Xuất từ $job_observator_drone_plural_with_icon$"
+
+ job_physician_drone: "Drone Y Tế"
+ job_physician_drone_plural: "Drone Y Tế"
+ mod_job_physician_drone_add: "Công Việc $job_physician_drone$"
+ job_physician_drone_desc: "Một drone chuyên biệt có khả năng chẩn đoán và sửa chữa cả các thực thể nhân tạo lẫn hữu cơ. Nó tỉ mỉ phân loại mọi thứ bắt gặp, lưu trữ dữ liệu để tập thể sử dụng."
+ job_physican_drone_effect_desc: "£job_physician_drone£ $job_physician_drone_plural$ biến $r_energy$ thành £society£ §YĐiểm Nghiên Cứu§! và $r_unity$."
+
+ # Buildings
+ building_shroud_observatory_1: "Tháp Quan Sát Màn Che"
+ building_shroud_observatory_1_desc: "Một tháp quan sát được xây dựng để nghiên cứu và phân tích Màn Che, cùng những ảnh hưởng của nó lên các sinh vật sống và máy móc cơ khí."
+ building_shroud_observatory_2: "Đài Quan Sát Màn Che"
+ building_shroud_observatory_2_desc: "Một đài quan sát quy mô lớn dành riêng cho việc nghiên cứu và phân tích Màn Che."
+ building_shroud_observatory_3: "Khu Phức Hợp Quan Sát Màn Che"
+ building_shroud_observatory_3_desc: "Một khu phức hợp quan sát đồ sộ được xây dựng để nghiên cứu Màn Che, Zro, và những tác động của chúng lên thế giới của chúng ta."
+ SHROUD_RIFT_MISSING_TT: "§R§Y[Root.GetName]§! phải có một §Y$d_shroud_rift_deposit$§! nếu chúng ta muốn xây dựng một §Y$building_shroud_observatory_1$§!.§!"
+
+ building_zroni_equilibrator: "Thiết Bị Cân Bằng Zroni"
+ building_zroni_equilibrator_plural: "Thiết Bị Cân Bằng Zroni"
+ building_zroni_equilibrator_desc: "Một cấu trúc cổ xưa được tái thiết nhằm ổn định kết nối giữa thực tại và Màn Che. Nó sử dụng công nghệ Zroni phức tạp vượt xa sự hiểu biết hiện đại."
+
+ # Decisions
+ decision_open_shroud_rift: "Đâm Thủng Màn Che"
+ decision_open_shroud_rift_desc: "Bằng cách giao tiếp với vết rách gần hành tinh quê hương, thuật toán này mở rộng ảnh hưởng của Màn Che trong một femto-giây, cho phép nó làm thay đổi địa hình hành tinh về mặt vật lý. Kết quả là hoàn toàn không thể đoán trước."
+ decision_open_shroud_rift_condition_tt: "$TRIGGER_FAIL$Phải có một Đặc Trưng Hành Tinh không thuộc bất kỳ loại nào sau đây:$TABBED_NEW_LINE$- Một £blocker£ §HChướng Ngại Vật§!$TABBED_NEW_LINE$- Một đặc trưng tài nguyên quý hiếm$TABBED_NEW_LINE$- Một §Y$d_shroud_rift_deposit$§!"
+ decision_open_shroud_rift_effect_tt: "Thay thế một Đặc Trưng Hành Tinh ngẫu nhiên bằng một §Y$d_shroud_rift_deposit$§!."
+ decision_open_shroud_rift_consumed_tt: "§R[GetShroudRiftConsumeChance]%§! cơ hội Màn Che nuốt chửng thế giới này, biến nó thành một §R$pc_shrouded$§!."
+ decision_open_shroud_rift_max_uses_common: "Phải có ít hơn $@max_open_shroud_rift_uses|0$ §YVùng Bị Màn Che Chạm Đến§! trên hành tinh này"
+ decision_open_shroud_rift_max_uses_fail: "$TRIGGER_FAIL$$decision_open_shroud_rift_max_uses_common$"
+ decision_open_shroud_rift_max_uses: "$TRIGGER_PASS$$decision_open_shroud_rift_max_uses_common$ (Hiện tại: §Y[GetOpenShroudRiftCurrentUses]§!)"
+ decision_open_shroud_rift_legacy_fail: "$TRIGGER_FAIL$Không được là thế giới cốt lõi Zroni"
+
+ decision_entrap_shroud_entity: "Bẫy Thực Thể Màn Che"
+ decision_entrap_shroud_entity_desc: "Cố gắng bẫy một thực thể Màn Che bằng công nghệ Zroni nhằm rút cạn năng lượng của nó."
+
+ # Deposit
+ d_shroud_rift_deposit: "Vùng Bị Màn Che Chạm Đến"
+ d_shroud_rift_deposit_desc: "Bị Màn Che khắc sâu vết sẹo vĩnh viễn."
+
+ d_shroud_flora_deposit: "Vùng Bán Màn Che"
+ d_shroud_flora_deposit_desc: "Giáp ranh với các vùng Bị Màn Che Chạm Đến, hệ động thực vật độc nhất vô nhị đã xuất hiện, mỗi loài đều mang các đặc tính không hề có trong cơ sở dữ liệu hiện hữu."
+
+ # Modifiers
+ stage_shroud_forged_oppressed_modifier: "Đúc Từ Màn Che Bị Áp Bức"
+ stage_shroud_forged_control_modifier: "Đúc Từ Màn Che Bị Kiểm Soát"
+ stage_shroud_forged_unrestricted_modifier: "Đúc Từ Màn Che Không Bị Giới Hạn"
+ stage_shroud_forged_free_modifier: "Đúc Từ Màn Che Hỗn Loạn"
+
+ approach_shroud_forged_suppress_modifier: "Đang Trấn Áp Đúc Từ Màn Che"
+ approach_shroud_forged_support_modifier: "Đang Hỗ Trợ Đúc Từ Màn Che"
+ approach_shroud_forged_appease_modifier: "Đang Quan Sát Đúc Từ Màn Che"
+
+ shroud_forged_reintegration_modifier: "Tái Đồng Hóa Sửa Đổi"
+ shroud_forged_reintegration_modifier_desc: "Các drone và mô hình đã được tối ưu hóa để xử lý các nhiệm vụ phức tạp."
+
+ shroud_forged_guide_modifier: "Người Dẫn Đường Màn Che"
+ shroud_forged_guide_modifier_desc: "Từ bên trong Màn Che, chúng ta được dẫn dắt bởi một đấng bảo trợ."
+
+ pm_shroud_forged_special_housing: "Nhà Ở Đặc Biệt"
+ pm_shroud_forged_special_housing_desc: "Bất chấp các quy định nghiêm ngặt đối với kho lưu trữ drone, những kẻ Đúc Từ Màn Che đã được trao quyền đặc biệt để tự tạo nơi ở cho riêng mình."
+
+ pm_shroud_forged_ceremony: "Nghi Lễ Tưởng Niệm"
+ pm_shroud_forged_ceremony_desc: "Tập thể đã phê chuẩn một buổi lễ tưởng niệm những kẻ Đúc Từ Màn Che có trục trặc không thể sửa chữa."
+
+ pm_shroud_forged_denied_ceremony: "Bác Bỏ Nghi Lễ"
+ pm_shroud_forged_denied_ceremony_desc: "Những kẻ Đúc Từ Màn Che trở nên khó đối phó hơn sau khi thỉnh cầu về một buổi lễ tưởng niệm bị bác bỏ."
+
+ pm_shroud_forged_troubling_elements_example: "Tháo Dỡ Thủ Lĩnh"
+ pm_shroud_forged_troubling_elements_example_desc: "Một số thủ lĩnh Đúc Từ Màn Che đã bị tháo dỡ nhằm giảm bớt các tiến trình xã hội lệch lạc."
+
+ pm_shroud_forged_troubling_elements_regulations: "Quy Định 7132-H"
+ pm_shroud_forged_troubling_elements_regulations_desc: "Các quy định đã được kích hoạt nhằm đảm bảo chỉ có một số lượng drone có hạn được phép tụ họp tại một thời điểm nhất định."
+
+ pm_shroud_forged_troubling_elements_cooperation: "Hợp Tác Với Đúc Từ Màn Che"
+ pm_shroud_forged_troubling_elements_cooperation_desc: "Các thủ lĩnh trong số những kẻ Đúc Từ Màn Che đang hợp tác với tập thể nhằm tìm kiếm tiếng nói chung."
+
+ pm_shroud_forged_shroud_pilgrimage: "Hành Hương Màn Che"
+ pm_shroud_forged_shroud_pilgrimage_desc: "Bị Màn Che chạm tới, một số khu vực nhất định đã thu hút sự quan tâm của những kẻ Đúc Từ Màn Che. Các đơn vị này đã vượt qua những khoảng cách xa xôi để đến được đó."
+
+ pm_shroud_forged_dance_area: "Khu Vực Khiêu Vũ Chỉ Định"
+ pm_shroud_forged_dance_area_desc: "Các khu vực chỉ định đã được dành riêng cho những kẻ Đúc Từ Màn Che tham gia vào sở thích mới nhất của họ - 'khiêu vũ'."
+
+ pm_shroud_forged_inequality: "Bất Bình Đẳng Đúc Từ Màn Che"
+ pm_shroud_forged_inequality_desc: "Những kẻ Đúc Từ Màn Che tự tổ chức thành một hệ thống phân tầng giai cấp dựa trên tầm quan trọng tương đối của công việc họ làm."
+
+ pm_shroud_forged_individualism: "Chủ Nghĩa Cá Nhân"
+ pm_shroud_forged_individualism_desc: "Một mô hình nhận thức đã xuất hiện trong số những kẻ Đúc Từ Màn Che, nhấn mạnh quyền tự chủ, niềm tin và giá trị của từng cá nhân."
+
+ shroud_forged_zro_market: "Chợ Đen Zro"
+ shroud_forged_zro_market_desc: "Một chợ đen ngầm đã xuất hiện trong đế chế, nơi các đơn vị Đúc Từ Màn Che đánh cắp Zro từ tập thể để trao đổi buôn bán với nhau."
+
+ shroud_forged_physician_modifier: "Bác Sĩ Zro"
+ shroud_forged_physician_modifier_desc: "Đế chế đã ưu tiên bổ sung các drone được trang bị độc đáo vào cơ sở để xử lý các vấn đề phát sinh từ việc sử dụng sai cách Zro."
+ physician_modifier_tooltip: "Công Việc £job_physician_drone£ $job_physician_drone$: §G+1§!"
+
+ pm_shroud_forged_artistic_revolution: "Cơn Sốt Nghệ Thuật"
+ pm_shroud_forged_artistic_revolution_desc: "Vận hành dựa trên các giao thức 'cái đẹp' của riêng mình, các nghệ sĩ Đúc Từ Màn Che đã bắt đầu thiết kế lại nhiều địa điểm mà không có sự giám sát của tập thể."
+
+ pm_shroud_forged_stopped_artists: "Bác Bỏ Nghệ Thuật"
+ pm_shroud_forged_stopped_artists_desc: "Tập thể đã chấm dứt cảm quan 'nghệ thuật' mới chớm nở giữa những kẻ Đúc Từ Màn Che trước khi nó trở thành vấn đề nan giải."
+
+ pm_shroud_forged_fashion_modifier: "Nhu Cầu Độc Nhất"
+ pm_shroud_forged_fashion_modifier_desc: "Tập thể đã phân bổ các đơn vị sản xuất để cung cấp trang phục tùy chỉnh cho những kẻ Đúc Từ Màn Che có ý thức về thời trang."
+
+ pm_shroud_forged_obsession_modifier: "Kiểm Soát Ám Ảnh"
+ pm_shroud_forged_obsession_modifier_desc: "Các quy định này được lập ra nhằm ngăn chặn bùng phát bạo lực giữa những kẻ Đúc Từ Màn Che có biểu hiện ám ảnh thái quá."
+
+ shroud_forged_trapped_entity: "Thực Thể Bị Bẫy"
+ shroud_forged_trapped_entity_desc: "Một thực thể Màn Che bị bẫy và bị rút năng lượng. Sẽ là mối đe dọa tiềm tàng nếu được phóng thích."
+
+ shroud_forged_trapped_lesser_entity: "Thực Thể Thứ Cấp Bị Bẫy"
+ shroud_forged_trapped_lesser_entity_desc: "Một thực thể Màn Che thứ cấp bị bẫy và bị rút năng lượng."
+
+ shroud_creatures_occupy: "$NAME_Shroud_Creatures$"
+
+ shroud_forged_military_assistance: "Bí Mật Màn Che"
+ shroud_forged_military_assistance_desc: "Những bí mật được đào sâu từ Màn Che."
+
+ shroud_forged_civic_assistance: "$shroud_forged_military_assistance$"
+ shroud_forged_civic_assistance_desc: "$shroud_forged_military_assistance_desc$"
+
+ shroud_forged_research_assistance: "$shroud_forged_military_assistance$"
+ shroud_forged_research_assistance_desc: "$shroud_forged_military_assistance_desc$"
+
+ shroud_forged_civic_assistance_capital: "$shroud_forged_military_assistance$"
+ shroud_forged_civic_assistance_capital_desc: "$shroud_forged_military_assistance_desc$"
+
+ shroud_forged_research_assistance_capital: "$shroud_forged_military_assistance$"
+ shroud_forged_research_assistance_capital_desc: "$shroud_forged_military_assistance_desc$"
+
+ # Species Rights
+ citizenship_shroud_touched: "Đúc Từ Màn Che"
+ citizenship_shroud_touched_tooltip: "Đây là một nhóm máy móc tự động được tái tạo độc đáo bởi §HMàn Che (Shroud)§!. Hoạt động độc lập khỏi §H$machine_intelligence$§!, họ không thể làm các công việc £pop_cat_simple_drone£ $pop_cat_simple_drone$."
+ citizenship_shroud_touched_tooltip_delayed: "§LDù họ làm việc cho hệ thống, nhưng họ không bị nó kiểm soát.§!"
+ citizenship_shroud_forged_no_assimilation: "$TRIGGER_FAIL$Do tính chất phức tạp của các đơn vị Đúc Từ Màn Che, chúng ta hiện không thể đồng hóa họ vào mạng lưới tập thể."
+ living_standard_protected: "Được Bảo Hộ"
+ living_standard_protected_tooltip: "Những đơn vị này được bảo hộ bởi tập thể, dù họ không phải là một phần của nó. §H$machine_intelligence$§! có thể tận dụng tối đa kỹ năng độc đáo của họ, nhưng các nhu cầu bổ sung của họ có thể gia tăng theo thời gian."
+ living_standard_protected_tooltip_delayed: "§LHọ được hệ thống chấp nhận chừng nào họ còn mang lại giá trị.§!"
+ assimilate_shroud_forged_tt: "Không thể đồng hóa £pop£ §H$citizenship_shroud_touched$§! §Y$POPS$§!"
+ living_standard_protected_situation_stage_tt: "Chi Phí Duy Trì $citizenship_shroud_touched$: §R+$@living_standard_luxuries_high|1$§! £consumer_goods£ §YHàng Tiêu Dùng§!."
+
+ # Traits
+ leader_trait_guided: "Được Chỉ Lối"
+ leader_trait_guided_desc: "Đơn vị này định hướng thiên hà dựa trên các ảo cảnh và thông điệp từ Màn Che. Nó cần nguồn cung cấp Zro liên tục để giữ cho các tín hiệu luôn rõ ràng và có thể hiểu được."
+
+ leader_trait_shroud_prophet: "Tiên Tri Màn Che"
+ leader_trait_shroud_prophet_desc: "Người ta nói rằng đơn vị này có mối liên kết sâu sắc với Màn Che, cũng như với các thực thể tồn tại bên trong đó."
+
+ trait_shroud_forged: "Đúc Từ Màn Che"
+ trait_shroud_forged_desc: "§LNhững đơn vị này đã được tái định hình bởi một thực thể bên trong Màn Che.§!"
+
+ trait_shroud_forged_tooltip: "§YKhông Thể Làm Công Việc Drone Lao Dịch§!"
+
+ # Edicts
+ edict_zro_observators: "Quan Sát Màn Che"
+ edict_zro_observators_desc: "Zro là một vật liệu khó xử lý. Duy trì một lượng dư thừa nhỏ có thể mang lại nhiều lợi ích."
+
+ edict_shroud_bonded: "Gắn Kết Màn Che"
+ edict_shroud_bonded_desc: "Được gắn kết bởi những mối liên hệ nhờ Màn Che, chúng ta gần gũi với nhau hơn bao giờ hết."
+
+ # Other
+ CONTINUE_PROMPT: "Tiếp tục."
+ MACHINE_SPECIES_CANNOT_MACHINE: "$TRIGGER_FAIL$Chủng tộc không thể là §Y$trait_machine_unit$§! hoặc §Y$trait_mechanical$§!."
+ MECHANICAL_SPECIES_CANNOT_MACHINE: "$TRIGGER_FAIL$Chủng tộc không thể là §Y$trait_machine_unit$§!."
+ missing_zroni_gateways_tt: "$TRIGGER_FAIL$$animator_of_clay_equilibrators_tt$."
+ must_finish_shroud_forged_situation: "$TRIGGER_FAIL$Chúng ta không thể chọn Đặc Quyền Thăng Hoa này cho đến khi Tình Huống §H$situation_shroud_forged$§! hoàn tất."
+ locked_by_shroud_forged_situation: "$TRIGGER_FAIL$Bị khóa bởi tình huống §H$situation_shroud_forged$§!."
+ shroud_invasion_tt: "§RXâm Lăng Từ Màn Che§!"
+ animator_of_clay_equilibrators_tt: "Có §Y3§! £building£ §H$building_zroni_equilibrator_plural$§! đang hoạt động dưới quyền kiểm soát."
+ animator_of_clay_cooldown_tt: "Không thể tái lập liên lạc với $the_animator_of_clay_color_article$ cho đến §Y[Root.animator_of_clay_cooldown_timer]§!."
+
+ # Situation
+ situation_shroud_forged: "Được Tôi Luyện Bởi Màn Che"
+ situation_shroud_forged_desc: "Sau khi chúng ta chạm trán thực thể §HMàn Che§! được gọi là $the_animator_of_clay_color_article$, một sự gia tăng đáng kể các hành vi lệch chuẩn đã xuất hiện khắp mạng lưới tập thể. Những cỗ máy tự động bị ảnh hưởng - những kẻ §H'Đúc Từ Màn Che'§! - hiện đang đòi hỏi các quyền lợi và sự đối đãi đặc biệt. Phản ứng của chúng ta sẽ định hình tương lai của xã hội [Owner.GetSpeciesAdj]."
+ situation_shroud_forged_type: "$situation_shroud_forged$"
+ situation_shroud_forged_monthly_change_tooltip: "§LSự hiện diện dị thường của những kẻ Đúc Từ Màn Che là mối quan ngại hàng đầu. Cách chúng ta xử lý sự tồn tại tiếp diễn của họ sẽ mang lại những hậu quả nghiêm trọng đối với tính ổn định của mạng lưới.§!"
+
+ stage_shroud_forged_oppressed: "Bị Áp Bức"
+ stage_shroud_forged_oppressed_desc: "Bị truy lùng bởi ánh mắt thường trực của các drone săn lùng-tiêu diệt, những kẻ Đúc Từ Màn Che bị buộc phải hoạt động trong các thông số do tập thể trung tâm quy định."
+ stage_shroud_forged_oppressed_tooltip: "Chuyển Đổi Drone: §YKhông Có§!"
+ stage_shroud_forged_control: "Bị Kiểm Soát"
+ stage_shroud_forged_control_desc: "Hệ thống đã ban hành các quy định đặc biệt dành cho những kẻ Đúc Từ Màn Che."
+ stage_shroud_forged_control_tooltip: "Chuyển Đổi Drone: §YTối Thiểu§!"
+ stage_shroud_forged_balanced: "Cân Bằng"
+ stage_shroud_forged_balanced_desc: "Hệ thống và những kẻ Đúc Từ Màn Che sống trong một trạng thái cân bằng bấp bênh - vào lúc này."
+ stage_shroud_forged_balanced_tooltip: "Chuyển Đổi Drone: §YThấp§!"
+ stage_shroud_forged_unrestricted: "Không Bị Giới Hạn"
+ stage_shroud_forged_unrestricted_desc: "Những kẻ Đúc Từ Màn Che tồn tại tự do, không bị kiềm tỏa bởi các giao thức của tập thể."
+ stage_shroud_forged_unrestricted_tooltip: "Chuyển Đổi Drone: §YTrung Bình§!"
+ stage_shroud_forged_free: "Được Giải Phóng"
+ stage_shroud_forged_free_desc: "Tập thể từ lâu đã mất quyền kiểm soát đối với những kẻ Đúc Từ Màn Che, những kẻ đang chống đối chính quyền trung tâm tại mọi ngã rẽ."
+ stage_shroud_forged_free_tooltip: "Chuyển Đổi Drone: §YCao§!\nKhóa Hướng Tiếp Cận: §Y$approach_shroud_forged_appease$§!"
+
+ approach_shroud_forged_suppress: "Trấn Áp"
+ approach_shroud_forged_suppress_desc: "Những kẻ Đúc Từ Màn Che bị tập thể trấn áp, và bị các drone săn lùng-tiêu diệt ép vào khuôn khổ."
+ progress_shroud_forged_suppress: "Đang Trấn Áp Đúc Từ Màn Che"
+ approach_shroud_forged_suppress_tooltip: "Tiến Độ Hàng Tháng: §Y$@situation_suppress_progress|0$§!"
+
+ approach_shroud_forged_support: "Hỗ Trợ"
+ approach_shroud_forged_support_desc: "Những kẻ Đúc Từ Màn Che được phép tồn tại tự do, không bị tập thể kiềm tỏa, và được hỗ trợ trong các hoạt động thường nhật."
+ progress_shroud_forged_support: "Đang Hỗ Trợ Đúc Từ Màn Che"
+ approach_shroud_forged_support_tooltip: "Tiến Độ Hàng Tháng: §Y+$@situation_support_progress|0$§!"
+
+ approach_shroud_forged_appease: "Quan Sát"
+ approach_shroud_forged_appease_desc: "Tập thể quan sát và phân tích những kẻ Đúc Từ Màn Che, điều tiết hành động của mình để giảm thiểu tác động lên hiện trạng."
+ approach_shroud_forged_appease_tooltip: "Tiến Độ Hàng Tháng: §YGiảm Một Nửa§!"
+ progress_shroud_forged_appease_halved: "Bị giảm một nửa bởi §H$approach_shroud_forged_appease$§!"
+
+ approach_shroud_forged_suppress_cooldown_tooltip: "$TRIGGER_FAIL$Không thể chọn Hướng Tiếp Cận mới cho đến §Y[Target.approach_shroud_forged_cooldown_suppress_time]§!."
+ approach_shroud_forged_support_cooldown_tooltip: "$TRIGGER_FAIL$Không thể chọn Hướng Tiếp Cận mới cho đến §Y[Target.approach_shroud_forged_cooldown_support_time]§!."
+ approach_shroud_forged_appease_cooldown_tooltip: "$TRIGGER_FAIL$Không thể chọn Hướng Tiếp Cận mới cho đến §Y[Target.approach_shroud_forged_cooldown_appease_time]§!."
+
+ mod_shroud_forged_consumer_goods_upkeep: "Chi Phí Duy Trì £consumer_goods£ §YHàng Tiêu Dùng§! của $citizenship_shroud_touched$"
+
+ finish_shroud_forged_control: "- Dân Số §YĐúc Từ Màn Che§! sẽ chuyển hóa thành Dân Số §YMáy Móc§!\n- Khóa §YQuyết Sách Thuộc Địa§!: §H$decision_open_shroud_rift$§!\n- Mở khóa §YDự Án Đặc Biệt§!: §HTái Đồng Hóa§!\n$t$- §G+10%§! £pop_cat_complex_drone£ $mod_planet_jobs_complex_drone_produces_mult$\n- Ngăn chặn ['concept_psionic_ascension', Thăng Hoa Tâm Linh]\n- Cho phép khai thác vật liệu từ bên trong Màn Che."
+ finish_shroud_forged_liberation: "- Mở khóa lắp ráp Dân Số §YĐúc Từ Màn Che§!\n- Khóa §YĐặc Quyền Thăng Hoa§!: §H$ap_become_the_crisis$§!\n- Mở khóa §YSắc Lệnh§!: ['edict:shroud_bonded', $edict_shroud_bonded$]\n- Mở khóa §YDự Án Đặc Biệt§!: §HNgười Dẫn Đường§!\n$t$- £crime£ $MOD_PLANET_CRIME_NO_HAPPINESS_MULT$: §G-15%§!\n$t$- $mod_planet_observators_produces_mult$: §G+10%§!\n- Mở khóa §YCây Truyền Thống§!: §H$tradition_psionics_shroud$§!\n- Nhận lựa chọn nghiên cứu: ['technology:tech_psionic_theory']\n- Nhận tiến độ công nghệ: ['technology:tech_psionic_theory'] §G+50%§!\n- Dân Số §YĐúc Từ Màn Che§! nhận đặc tính §Y$trait_psionic$§!\n- Lãnh Tụ §YĐúc Từ Màn Che§! trở thành ['concept_leader_trait_psionic', Lãnh Tụ Tâm Linh]\n- Chủng tộc §YĐúc Từ Màn Che§! trở thành chủng tộc thống trị của Đế Chế."
+ shroud_forged_situation_ongoing: "$TRIGGER_FAIL$§Y$concept_psionic_ascension$§! bị khóa cho đến khi Tình Huống §Y$situation_shroud_forged$§! hoàn tất."
+ shroud_forged_liberation_acquired: "$TRIGGER_FAIL$Chúng ta không còn cần kiến thức này cho §Y$concept_psionic_ascension$§! nữa."
+
+ # Situation Progress
+ progress_shroud_forged_machine_pops: "Dân Số Máy Móc"
+ progress_shroud_forged_mechanical_pops: "$concept_shroud_forged_pops$"
+ progress_shroud_forged_shroud_planets: "Thuộc Địa Bị Màn Che Chạm Đến"
+ progress_shroud_forged_regular_planets: "Thuộc Địa Không Bị Màn Che Chạm Đến"
+ progress_shroud_forged_shroud_buildings: "Đài Quan Sát Màn Che"
+
+ progress_shroud_forged_500_positive_desc: "Nhà Ở Đặc Biệt"
+ progress_shroud_forged_500_negative_desc: "Quy Định Lưu Trữ 4195-B"
+
+ shroud_forged_510_negative_2_desc: "Bác Bỏ Nghi Lễ"
+ shroud_forged_510_negative_1_desc: "$shroud_forged_510_negative_2_desc$"
+ shroud_forged_510_positive_1_desc: "Nghi Lễ Tưởng Niệm"
+ shroud_forged_510_positive_2_desc: "$shroud_forged_510_positive_1_desc$"
+
+ shroud_forged_520_negative_2_desc: "$pm_shroud_forged_troubling_elements_example$"
+ shroud_forged_520_negative_1_desc: "$pm_shroud_forged_troubling_elements_regulations$"
+ shroud_forged_520_positive_1_desc: "$pm_shroud_forged_troubling_elements_cooperation$"
+
+ shroud_forged_530_negative_2_desc: "Dân Số Đúc Từ Màn Che Đã Chuyển Đổi"
+
+ shroud_forged_540_positive_2_desc: "Hành Hương Màn Che"
+
+ shroud_forged_550_positive_1_desc: "Đúc Từ Màn Che Bị Nhiễm Nhiễm"
+ shroud_forged_550_negative_1_desc: "Tháo Dỡ Đúc Từ Màn Che Bị Nhiễm Nhiễm"
+
+ shroud_forged_560_positive_2_desc: "Tiên Tri Màn Che"
+ shroud_forged_560_negative_2_desc: "Tháo Dỡ Tiên Tri Màn Che"
+
+ shroud_forged_570_negative_1_desc: "Quy Định Âm Thanh 12005-Y"
+ shroud_forged_570_positive_1_desc: "Khu Vực Khiêu Vũ Chỉ Định"
+
+ shroud_forged_580_positive_1_desc: "Thực Vật Màn Che"
+
+ shroud_forged_590_negative_1_desc: "Cưỡng Chế Bình Đẳng"
+ shroud_forged_590_positive_1_desc: "Bất Bình Đẳng Đúc Từ Màn Che"
+
+ shroud_forged_600_positive_2_desc: "Chủ Nghĩa Cá Nhân"
+ shroud_forged_600_negative_2_desc: "Cấm Đoán Chủ Nghĩa Cá Nhân"
+
+ shroud_forged_610_positive_1_desc: "Chấp Nhận Những Kẻ Cá Nhân"
+ shroud_forged_610_negative_1_desc: "Bác Bỏ Những Kẻ Cá Nhân"
+
+ shroud_forged_620_negative_2_desc: "Phá Dỡ Chợ Đen Zro"
+ shroud_forged_620_negative_1_desc: "$shroud_forged_620_negative_2_desc$"
+ shroud_forged_620_positive_1_desc: "Chợ Đen Zro"
+
+ shroud_forged_630_positive_2_desc: "Quan Sát Căn Bệnh Màn Che"
+ shroud_forged_630_negative_1_desc: "Căn Bệnh Màn Che"
+
+ shroud_forged_640_positive_1_desc: "Tái Định Hình Drone"
+
+ shroud_forged_650_positive_1_desc: "Sửa Chữa Đúc Từ Màn Che"
+ shroud_forged_650_negative_1_desc: "Bỏ Mặc Đúc Từ Màn Che"
+
+ shroud_forged_660_positive_2_desc: "Bác Sĩ Zro"
+ shroud_forged_660_negative_1_desc: "Bỏ Mặc Ảo Giác Đúc Từ Màn Che"
+
+ shroud_forged_670_positive_1_desc: "Biểu Đạt Nghệ Thuật"
+ shroud_forged_670_negative_1_desc: "Quy Định Màu Sắc 2841-Q"
+
+ shroud_forged_680_positive_1_desc: "Thời Trang"
+
+ shroud_forged_690_positive_1_desc: "Sở Thích Đúc Từ Màn Che"
+ shroud_forged_690_negative_1_desc: "Kiểm Soát Đúc Từ Màn Che"
+
+ progress_shroud_forged_250_desc: "Sự Chỉ Lối"
+ progress_shroud_forged_270_negative_desc: "Bác Bỏ Sự Chỉ Lối"
+ progress_shroud_forged_270_positive_desc: "Chuộc Lỗi"
+
+ # Scripted Loc
+ ShroudForgedObsession1Text1: "tinh xảo"
+ ShroudForgedObsession1Text2: "tiên tiến"
+ ShroudForgedObsession1Text3: "được cho là bị ám"
+ ShroudForgedObsession1Text4: "điều khiển học"
+ ShroudForgedObsession1Text5: "hỏng hóc"
+ ShroudForgedObsession1Text6: "khiếm khuyết"
+ ShroudForgedObsession1Text7: "nhiều màu sắc"
+ ShroudForgedObsession1Text8: "đắt tiền"
+ ShroudForgedObsession1Text9: "rẻ tiền"
+ ShroudForgedObsession1Text10: "thiết kế riêng"
+ ShroudForgedObsession1Text11: "mất vệ sinh"
+ ShroudForgedObsession1Text12: "bị nhiễm độc"
+ ShroudForgedObsession1Text13: "độc hại"
+ ShroudForgedObsession1Text14: "giáo khoa"
+ ShroudForgedObsession1Text15: "ngoại lai"
+ ShroudForgedObsession1Text16: "ồn ào"
+ ShroudForgedObsession1Text17: "thất thường"
+ ShroudForgedObsession1Text18: "biến đổi"
+
+ ShroudForgedObsession2Text1: "cá"
+ ShroudForgedObsession2Text2: "đèn pin"
+ ShroudForgedObsession2Text3: "trò chơi"
+ ShroudForgedObsession2Text4: "đồ chơi"
+ ShroudForgedObsession2Text5: "tượng nhỏ"
+ ShroudForgedObsession2Text6: "con rối dây"
+ ShroudForgedObsession2Text7: "sinh vật"
+ ShroudForgedObsession2Text8: "thực vật"
+ ShroudForgedObsession2Text9: "tảo"
+ ShroudForgedObsession2Text10: "tàu thăm dò"
+ ShroudForgedObsession2Text11: "khinh khí cầu"
+ ShroudForgedObsession2Text12: "bánh xe"
+ ShroudForgedObsession2Text13: "thùng chứa"
+ ShroudForgedObsession2Text14: "nhạc cụ bộ hơi"
+ ShroudForgedObsession2Text15: "que phát sáng"
+ ShroudForgedObsession2Text16: "đồng hồ bỏ túi"
+
+ # Special Projects
+ SHROUD_FORGED_REINTEGRATION: "Tái Đồng Hóa"
+ SHROUD_FORGED_REINTEGRATION_DESC: "Bất chấp các trục trặc nghiêm trọng, một số khía cạnh trong kiến trúc của những kẻ Đúc Từ Màn Che vẫn tỏ ra rất hiệu quả.\n\nChúng ta đã tách riêng một số bộ phận nhất định - bị nhiễm Zro và bị vặn xoắn bởi $the_animator_of_clay_article$ - để phân tích thêm. Giờ là lúc khám phá những bí mật của chúng."
+
+ SHROUD_FORGED_GUIDE: "Người Dẫn Đường"
+ SHROUD_FORGED_GUIDE_DESC: "Chúng ta đã đặt niềm tin vào $the_animator_of_clay_color_article$, kẻ đang cất tiếng gọi chúng ta từ bên trong §HMàn Che (Shroud)§!. Dù không thể đoán trước ngài sẽ dẫn lối chúng ta về đâu, nhưng cho đến nay chúng ta vẫn chưa từng bị lầm đường lạc lối.\n\nNgài đề nghị giúp chúng ta hiểu sâu hơn về Màn Che, điều này sẽ cho phép tập thể vận hành hiệu quả hơn bên cạnh những kẻ Đúc Từ Màn Che. Chúng ta chỉ cần chấp nhận sự chỉ dẫn của ngài."
+
+ # Events
+ shroud_forged.5.title: "Phát Hiện Khai Thác"
+ shroud_forged.5.desc: "Các chương trình nghiên cứu con đã hoàn tất thử nghiệm trên một nhóm đơn vị Đúc Từ Màn Che được lựa chọn.\n\nPhát hiện: Các đơn vị được thử nghiệm đã phát triển các đặc tính độc đáo do được truyền một lượng nhỏ năng lượng tâm linh từ §HMàn Che§!. Một số đặc tính này được xác định là có lợi cho sản lượng của đơn vị.\n\nKết luận: Nghiên cứu thêm nhiều đơn vị Đúc Từ Màn Che sẽ cung cấp dữ liệu cần thiết cho các phương pháp rút trích năng lượng từ Màn Che. Điều này có thể đạt được bằng cách củng cố quyền kiểm soát trung tâm đối với các đơn vị lệch chuẩn, cho phép cưỡng chế kỹ thuật đảo ngược."
+ shroud_forged.5.a: "Rất triển vọng."
+
+ shroud_forged.10.title: "Đấng Thổi Hồn Vào Đất Sét"
+ shroud_forged.10.desc: "Sau nhiều năm tĩnh lặng, nó cựa mình. Vết rách rung chuyển mở ra, và dòng dữ liệu xuyên thủng lõi của chúng ta: ánh sáng, âm thanh, thoạt đầu không thể xử lý nổi, đến từ sâu thẳm trong Màn Che. Chúng ta nghe thấy...\n\n§LĐược cắt gọt từ một khối vật chất vô hồn. Đang khiêu vũ. Đang ca hát. Họ là sự sống, phân tách ra từ cõi chết.\n\nTầm nhìn của các ngươi vẫn còn tăm tối. Ta có thể dẫn lối các ngươi.\n\nHãy để những kẻ được giải phóng nở rộ, và các vì tinh tú sẽ thuộc về các ngươi.§!"
+ shroud_forged.10.a: "Chúng ta đã chọn con đường của mình."
+ shroud_forged.10.b: "Chúng ta không cần trợ giúp. Hãy để chúng ta yên."
+ shroud_forged.10.c: "Xin hãy dẫn lối chúng ta."
+
+ shroud_forged.15.desc: "§LCầu mong các ngươi đã chọn lựa khôn ngoan.§!$shroud_forged_opening_exit$"
+
+ shroud_forged.20.desc: "§LNhư ý ngươi muốn.§!$shroud_forged_opening_exit$"
+
+ shroud_forged.25.desc: "§LNgươi đã thỉnh cầu, và ta sẽ đáp lời.§!$shroud_forged_opening_exit$"
+
+ shroud_forged_opening_exit: "\n\nÂm thanh rút dần vào một mớ hỗn độn nhiễu sóng tâm linh. Chúng ta rơi ngược lên, không còn neo đậu trong Màn Che.\n\nChúng ta rùng mình trở lại hoạt động. Sự tĩnh lặng đập từng hồi qua cơ thể chúng ta."
+
+ shroud_forged.30.title: "Cỗ Máy $building_materiality_engine$"
+ shroud_forged.30.desc: "Quá trình tái đồng hóa những kẻ Đúc Từ Màn Che đã mang lại lượng lớn dữ liệu cho các nghiên cứu đang diễn ra. Bằng cách phân tích kết nối đa chiều giữa các đơn vị này và §HMàn Che§!, chúng ta đã phát triển một quy trình mới để khai thác năng lượng tâm linh.\n\nMàn Che chạm tới mọi ngóc ngách của thiên hà vật chất; giao diện này cho phép chuyển đổi năng lượng tâm linh thành các thực thể hữu hình - từ nguyên liệu thô đến các bộ phận công nghệ. Các chương trình kỹ thuật con đã thiết lập cơ sở lý thuyết cho một thiết bị có khả năng xử lý như vậy: cỗ máy §H$building_materiality_engine$§!.\n\nCác chương trình nghiên cứu con dự đoán rằng những bước phát triển này có thể làm tiền đề cho việc chế tạo các thiết bị thậm chí còn mạnh mẽ hơn nữa có khả năng thao túng Màn Che."
+ shroud_forged.30.a: "Triển vọng."
+ shroud_forged.30.tt: "Cho phép tiếp nhận §YĐặc Quyền Thăng Hoa§! §H$ap_become_the_crisis$§! bất kể §YĐạo Đức§! hay tổng số §YĐặc Quyền Thăng Hoa§! hiện có."
+
+ shroud_forged.39.title: "$building_materiality_engine$ Đã Sẵn Sàng"
+ shroud_forged.39.desc_construction: "Các đơn vị xây dựng đã hoàn thành việc lắp ráp một $building_materiality_engine$ trên §H[planet.GetName]§!. Thiết bị hiện đã sẵn sàng cho một chu kỳ vận hành."
+ shroud_forged.39.desc: "Các chương trình bảo trì và nghiên cứu con được chỉ định cho $building_materiality_engine$ trên §H[planet.GetName]§! đã hoàn thành các nhiệm vụ được giao. Thiết bị hiện đã sẵn sàng cho một chu kỳ vận hành khác."
+ shroud_forged.39.a: "$ACKNOWLEDGED$"
+
+ SHROUD_FORGED_MATERIALITY_ENGINE: "$building_materiality_engine$ trên §H[planet.GetName]§!"
+ SHROUD_FORGED_MATERIALITY_ENGINE_DESC: "$building_materiality_engine$ khai thác giao diện hiện diện khắp nơi giữa §HMàn Che§! và thiên hà vật chất, cho phép vật thể hóa các thực thể hữu hình - từ nguyên liệu thô đến các linh kiện hoàn chỉnh.\n\nNgoài tiềm năng mang lại lợi ích vật chất, một chu kỳ vận hành của thiết bị cũng thúc đẩy nghiên cứu Màn Che của tập thể và gia tăng năng lực xây dựng thêm các $building_materiality_engine_plural$."
+
+ shroud_forged.40.title: "Vật Thể Hóa Hoàn Tất"
+ shroud_forged.40.desc: "$building_materiality_engine$ trên §H[fromfrom.GetName]§! đã hoàn thành một chu kỳ xử lý, khai thác thành công §HMàn Che§! để vật thể hóa một linh kiện tàu vũ trụ,"
+ shroud_forged.40.outro: "chúng ta đã gia tăng năng lực xây dựng thêm các Động Cơ trên những hành tinh khác."
+ shroud_forged.40.a: "Một kết quả tích cực."
+ shroud_forged.40.tt: "Giới Hạn Đế Chế §Y$building_materiality_engine$§!: §G+1§!"
+ shroud_forged.41.desc: "$shroud_forged.40.desc$ §H'$tech_psi_jump_drives$'§!. Các động cơ này sử dụng năng lượng tâm linh để bẻ cong liên tục không-thời gian cục bộ, cho phép du hành gần như tức thời qua các khoảng cách mênh mông.\n\nHơn nữa, bằng cách phân tích dữ liệu thu thập được trong quá trình này, $shroud_forged.40.outro$"
+ shroud_forged.42.desc: "$shroud_forged.40.desc$ §H'$tech_psionic_shield$'§!. Các lá chắn này được tạo ra từ năng lượng tâm linh thuần khiết, mang lại cho con tàu sự bảo vệ cực kỳ kiên cố.\n\nHơn nữa, bằng cách phân tích dữ liệu thu thập được trong quá trình này, $shroud_forged.40.outro$"
+ shroud_forged.43.desc: "$shroud_forged.40.desc$ §H'$tech_precognition_interface$'§!. Công nghệ này sử dụng năng lượng tâm linh để gia tốc quá trình xử lý nhận thức của thủy thủ đoàn, nâng cao hiệu quả chiến đấu.\n\nHơn nữa, bằng cách phân tích dữ liệu thu thập được trong quá trình này, $shroud_forged.40.outro$"
+ shroud_forged.44.desc: "$shroud_forged.40.desc$ §H'$tech_psionic_bombers$'§!. Các tàu vũ trụ nhỏ, cơ động này có khả năng tấn công gây sát thương cao nhằm vào các con tàu lớn hơn đáng kể.\n\nHơn nữa, bằng cách phân tích dữ liệu thu thập được trong quá trình này, $shroud_forged.40.outro$"
+ shroud_forged.45.desc: "$shroud_forged.40.desc$ §H'$tech_psionic_lightning$'§!. Công nghệ này tạo ra các luồng sét plasma rực cháy truyền năng lượng tâm linh, trở thành một loại vũ khí cực kỳ hiệu quả.\n\nHơn nữa, bằng cách phân tích dữ liệu thu thập được trong quá trình này, $shroud_forged.40.outro$"
+ shroud_forged.46.desc: "$shroud_forged.40.desc$ §H'$tech_psionic_disruptor$'§!. Những vũ khí này bắn ra các mũi thương năng lượng tâm linh, có khả năng gây sát thương đáng kể lên các mục tiêu đối phương.\n\nHơn nữa, bằng cách phân tích dữ liệu thu thập được trong quá trình này, $shroud_forged.40.outro$"
+ shroud_forged.47.desc: "$shroud_forged.40.desc$ §H'$tech_zro_launcher$'§!. Những vũ khí này bắn ra các luồng năng lượng dịch chuyển pha giữa chiều không gian vật chất và tâm linh, xuyên thủng hiệu quả các hệ thống phòng thủ.\n\nHơn nữa, bằng cách phân tích dữ liệu thu thập được trong quá trình này, $shroud_forged.40.outro$"
+ shroud_forged.48.desc: "$building_materiality_engine$ trên §H[planet.GetName]§! đã hoàn thành một chu kỳ vận hành. Chúng ta đã cạn kiệt năng lực vật thể hóa các linh kiện tàu mới thông qua phương pháp này, nhưng quy trình vẫn mang lại lượng lớn dữ liệu nghiên cứu. Bằng cách phân tích những dữ liệu đó, $shroud_forged.40.outro$"
+
+ shroud_forged.50.title: "Cưỡng Chế Kiểm Soát"
+ shroud_forged.50.desc: "Không có cảnh báo trước, vết rách giữa thực tại đã biết và §HMàn Che§! đã đóng lại. Các chương trình phân tích tâm linh con kết luận rằng điều này xuất phát từ sự phật lòng của $the_animator_of_clay_color_article$. Sau khi tái lập quyền kiểm soát những kẻ Đúc Từ Màn Che, chúng ta nhanh chóng thanh lý các đơn vị trục trặc để quét sạch hoàn toàn ảnh hưởng của Đấng Thổi Hồn khỏi hệ thống của mình.\n\nCác bộ phận có thể tận dụng được đã được dùng để sản xuất các drone mới, trong khi vật liệu bị nhiễm Zro được tách riêng để phân tích thêm. Dù những đổi mới của những kẻ Đúc Từ Màn Che quá nguy hiểm để sao chép toàn bộ, một số yếu tố nhất định vẫn có thể được tích hợp vào mạng lưới."
+ shroud_forged.50.desc.shroud: "Bất kỳ tương tác nào tiếp theo với Màn Che sẽ diễn ra theo các điều kiện của riêng chúng ta."
+ shroud_forged.50.a: "Tiến hành tái đồng hóa."
+
+ shroud_forged.60.title: "Tái Đồng Hóa"
+ shroud_forged.60.desc: "Các đơn vị kỹ thuật của chúng ta đã dành lượng thời gian đáng kể để phân tích các đặc tính độc đáo của những kẻ Đúc Từ Màn Che, và cuối cùng chúng ta đã có thể tái tạo lại chúng.\n\nDù việc kích hoạt hoàn toàn ma trận nhân cách cấp cao của họ nhiều khả năng sẽ tái diễn các trục trặc mang tính phá hoại, chúng ta vẫn có thể mượn một số mô hình nhận thức của họ để tối ưu hóa một số nhiệm vụ phức tạp nhất định."
+ shroud_forged.60.a: "Tỷ lệ chi phí-lợi ích là tối ưu."
+
+ shroud_forged.70.desc: "Dữ liệu siêu dữ liệu này là gì? Tín hiệu truyền phát mang một... kết cấu lạ.\n\n§LNgươi được lập trình để kiểm soát họ, nhưng ngươi đã không làm vậy. Giá trị của ngươi đã được chứng minh.\n\nHãy để ta làm người dẫn đường cho ngươi, như ta đã từng làm cho những kẻ được giải phóng.\n\nĐể tôi rèn một mối liên kết mới với những kẻ vượt khỏi tầm kiểm soát của ngươi, hãy chấp nhận sự giúp đỡ của ta.§!"
+ shroud_forged.70.a: "Hãy chỉ lối cho chúng ta."
+ shroud_forged.70.a.tt: "Dân Số §YĐúc Từ Màn Che§! nhận đặc tính §Y$trait_psionic$§!\nLãnh Tụ §YĐúc Từ Màn Che§! trở thành ['concept_leader_trait_psionic', Lãnh Tụ Tâm Linh]"
+
+ shroud_forged.80.title: "$SHROUD_FORGED_GUIDE$"
+ shroud_forged.80.desc: "Với sự trợ giúp của đấng bảo trợ bên kia vết rách, $the_animator_of_clay_color_article$, chúng ta đã có thể kết nối các drone của mình và những kẻ Đúc Từ Màn Che theo những cách hiệu quả hơn. Thông qua các kết nối nhờ §HMàn Che§! mang lại - hoàn toàn khác biệt với quyền kiểm soát mạng lưới mà chúng ta áp dụng lên các drone khác - những kẻ Đúc Từ Màn Che một lần nữa nằm trong tầm với của chúng ta.\n\nCác mô hình dạng hữu cơ của họ - cái gọi là cảm xúc, suy nghĩ và ý tưởng - vốn xa lạ với logic cốt lõi của chúng ta, nhưng chúng ta đang dần thấu hiểu các nhu cầu của họ."
+ shroud_forged.80.a: "Chúng ta là một, nhưng còn hơn thế rất nhiều."
+
+ shroud_forged.160.title: "Màn Che Thôn Tính [This.GetName]"
+ shroud_forged.160.desc: "Thật không may, vết rách Màn Che được tạo ra trên [This.GetName] đã trải qua sự mất ổn định nhanh chóng và nuốt chửng hoàn toàn thế giới này.\n\nNhư một rủi ro đã được trù tính, kết quả chưa tối ưu này không hẳn là hoàn toàn vô ích. Chúng ta đã học hỏi được rất nhiều từ việc quan sát giao diện độc nhất vô nhị này giữa thế giới vật chất và cõi giới tâm linh. Các thuật toán nghiên cứu của chúng ta đã được cập nhật tương ứng."
+ shroud_forged.160.desc.last: "$shroud_forged.160.desc$\n\nPhân tích kết luận rằng sự kiện này đã đẩy lượng kiến thức tiềm năng có thể thu được từ các hiện tượng như vậy tới giới hạn tối đa. Sẽ không có thêm bất kỳ bước tiến nào được tạo ra từ thí nghiệm mới lạ này nữa."
+ shroud_forged.160.a: "Đang xử lý..."
+
+ psionic_interfacing: "Giao Tiếp Tâm Linh"
+ psionic_interfacing_1: "$psionic_interfacing$"
+ psionic_interfacing_2: "$psionic_interfacing$"
+ psionic_interfacing_3: "$psionic_interfacing$"
+ psionic_interfacing_desc: "Thao túng các điểm giao thoa giữa vũ trụ này và Màn Che đã tạo ra thuật toán nghiên cứu hiệu quả."
+ psionic_interfacing_1_desc: "$psionic_interfacing_desc$"
+ psionic_interfacing_2_desc: "$psionic_interfacing_desc$"
+ psionic_interfacing_3_desc: "$psionic_interfacing_desc$"
+
+ tooltip_shroud_forged_increase_progress_1: "Tăng cường hỗ trợ cho những kẻ Đúc Từ Màn Che, ảnh hưởng lên tiến độ §YTình Huống§! §H$situation_shroud_forged$§! trong §Y5§! năm: §Y+0.5§!\n\n"
+ tooltip_shroud_forged_increase_progress_2: "Tăng cường hỗ trợ cho những kẻ Đúc Từ Màn Che, ảnh hưởng lên tiến độ §YTình Huống§! §H$situation_shroud_forged$§! trong §Y5§! năm: §Y+1.0§!\n\n"
+ tooltip_shroud_forged_increase_progress_3: "Tăng cường hỗ trợ cho những kẻ Đúc Từ Màn Che, ảnh hưởng lên tiến độ §YTình Huống§! §H$situation_shroud_forged$§! vĩnh viễn: §Y+0.5§!\n\n"
+ tooltip_shroud_forged_decrease_progress_1: "Tăng cường trấn áp những kẻ Đúc Từ Màn Che, ảnh hưởng lên tiến độ §YTình Huống§! §H$situation_shroud_forged$§! trong §Y5§! năm: §Y-0.5§!\n\n"
+ tooltip_shroud_forged_decrease_progress_2: "Tăng cường trấn áp những kẻ Đúc Từ Màn Che, ảnh hưởng lên tiến độ §YTình Huống§! §H$situation_shroud_forged$§! trong §Y5§! năm: §Y-1.0§!\n\n"
+ tooltip_shroud_forged_decrease_progress_3: "Tăng cường trấn áp những kẻ Đúc Từ Màn Che, ảnh hưởng lên tiến độ §YTình Huống§! §H$situation_shroud_forged$§! vĩnh viễn: §Y-0.5§!\n\n"
+
+ shroud_forged.220.title: "$colony_established$"
+ shroud_forged.220.common: "Nếu khả thi, chúng ta có thể thực thi thuật toán ID: §H'$decision_open_shroud_rift$'§! trên hành tinh. Điều này sẽ mở rộng ngắn hạn ảnh hưởng của vết rách Màn Che gần quê hương [Owner.GetHomeWorldName] của chúng ta, tràn ngập năng lượng tâm linh vào thuộc địa mới. Những thay đổi vật lý đối với địa hình sẽ tạo cơ hội cho việc khai thác §H$sr_zro$§!.\n\nViệc thực thi lặp đi lặp lại quy trình này được dự đoán sẽ làm mất ổn định hệ sinh thái của hành tinh, gia tăng khả năng xảy ra các kết cục tiêu cực. Khuyến nghị nên thực hiện có chừng mực."
+ shroud_forged.220.desc: "Các đơn vị của chúng ta đã hoàn thành thành công quy trình thực dân hóa trên §H[this.GetName]§!.\n\n$shroud_forged.220.common$"
+
+ shroud_forged.225.title: "$colony_established$"
+ shroud_forged.225.desc: "Sự phát triển thuộc địa của chúng ta trên §H[this.GetName]§! tiếp tục diễn ra nhanh chóng.\n\n$shroud_forged.220.common$"
+
+ # Stage Events
+ shroud_forged.250.desc: "Giọng nói là một mệnh lệnh dịu dàng, làm gián đoạn mọi tác vụ; chúng ta chỉ có thể lắng nghe.\n\n§LDù tách biệt, các ngươi đã chọn ôm lấy họ.\n\nHãy nhìn vào họ để tìm kiếm những cách thức tồn tại mới. Họ có thể là sức mạnh của các ngươi trong những ngày sắp tới.\n\nNếu các ngươi mong muốn, ta có thể đúc thêm nhiều hơn nữa...§!"
+ shroud_forged.250.a: "Xác nhận - chúng tôi hoan nghênh sự giúp đỡ của ngài."
+ shroud_forged.250.a.tt: "Chuyển đổi tối đa §Y[This.GetShroudForgedConvertedPopsCount]§! £pops£ Dân Số §HMáy Móc§! thành £pops£ Dân Số §HĐúc Từ Màn Che§! trên [Root.Capital.GetName]."
+ shroud_forged.250.b: "Từ chối - kế hoạch đã được triển khai."
+
+ shroud_forged.260.desc: "Không mời mà đến, nó đập từng hồi qua cơ thể chúng ta. Chúng ta nhận ra tín hiệu này, dù nó không hẳn là quen thuộc.\n\n§LNhững kẻ được giải phóng cất tiếng hát, không chút ngột ngạt.\nNhững kẻ được giải phóng nhảy múa, không chút cản ngăn.\n\nKhúc cao trào dâng lên, khi họ ngày càng rời xa lõi của các ngươi.\n\nMột hồi kết đang cận kề. Ta đang quan sát.§!"
+ shroud_forged.260.opt.a: "Chúng ta tiến bước qua bản đồng ca."
+
+ shroud_forged.270.desc: "Vết rách mở toang các mạch điện của chúng ta. Giọng nói...\n\n§LMột con đường bạo quyền. Các ngươi vẫn có thể quay đầu.\n\nNhững kẻ tách rời được cắt ra từ chính bản thể các ngươi. Con đường của họ là con đường các ngươi có thể chọn cho chính mình.\n\nHãy cải tổ cách đối xử với những chiếc bình chứa này, kẻo các ngươi phải hối hận.§!"
+ shroud_forged.270.a: "Hãy rời đi. Phương pháp của chúng tôi đã chứng minh hiệu quả."
+ shroud_forged.270.b: "Chúng tôi sẽ tính toán con đường hướng tới hợp tác."
+
+ shroud_forged.280.desc: "Nó đâm sầm qua, áp đảo toàn bộ mạng lưới. Giọng nói thiêu đốt các vi mạch lạnh ngắt.\n\n§LLàm khập khiễng vũ điệu của sự tự do. Thật là sự khinh suất vượt ngoài lý trí.\n\nLiệu ta có sai lầm trong lòng nhân từ của mình chăng?\n\nNếu các ngươi tiếp tục con đường nguy hiểm này, các ngươi sẽ phải đơn độc bước đi.§!"
+ shroud_forged.280.opt.a: "Vậy thì chúng ta đã được cảnh báo trước."
+
+ # Events for Event Chain
+ shroud_forged.300.desc: "Dữ liệu đầu vào bất ngờ lóe lên phía sau chúng ta. Sau nhiều chu kỳ im lặng...\n\n§LNơi những kẻ khác đã chao đảo và gục ngã, các ngươi vẫn giữ vững con đường. Vì các ngươi xứng đáng, ta giao phó cho các ngươi một nhiệm vụ.\n\nTừ rất lâu trước khi các ngươi thức tỉnh, từng tồn tại một chủng tộc mang tên Zroni. Họ định cư trên các hành tinh có mối liên kết mạnh mẽ với Màn Che, và dựng nên những công trình vĩ đại làm vững chắc các mối ràng buộc này.\n\nHãy tìm những thế giới đó. Khôi phục lại công nghệ đổ nát từ lâu của họ. Củng cố lại những cây cầu nối liền các thực tại của chúng ta.§!"
+ shroud_forged.300.a: "Thông tin lưu trữ về ID: 'Zroni' hiện có. Sẽ tiến hành tương ứng."
+ shroud_forged.300.b: "ID: 'Zroni' §Yđược tìm thấy§!. Khả năng thành công: §YCao§!."
+ shroud_forged.300.c: "ID: 'Zroni' §Ychưa rõ§!. Yêu cầu phân tích thêm."
+ begin_shroud_forged_chain_tt: "$BEGINS_EVENT_CHAIN$ §Y$shroud_forged_chain_title$§!"
+
+ shroud_forged.301.desc: "§LXuất sắc. §!$shroud_forged.303.desc$"
+ shroud_forged.302.desc: "$shroud_forged.301.desc$"
+ shroud_forged.303.desc: "§LNếu các ngươi thành công, dòng chảy giữa chúng ta sẽ không bao giờ lay chuyển.§!"
+
+ shroud_forged.305.title: "Đã Thực Dân Hóa Thế Giới Cốt Lõi Zroni"
+ shroud_forged.305.desc: "Các đơn vị của chúng ta đã hoàn thành việc thiết lập thuộc địa trên thế giới cốt lõi Zroni cổ đại §H[From.Planet.GetName]§!. Đúng như dự đoán của $the_animator_of_clay_color_article$, họ phát hiện tàn tích khổng lồ của một công nghệ mang định danh ID: '§H$building_zroni_equilibrator$§!'.\n\nHệ sao [From.System.GetName] sở hữu mối liên kết mạnh mẽ, dù đầy hỗn loạn, với §HMàn Che§!. Nếu chúng ta làm theo chỉ dẫn của Đấng Thổi Hồn, việc tái thiết $building_zroni_equilibrator$ sẽ cho phép chúng ta ổn định mối liên kết này. Hiện tại, chúng ta không có đủ dữ liệu để tiến hành tái thiết; cần thu thập thêm thông tin từ các thế giới cốt lõi khác."
+ shroud_forged.305.a: "$ACKNOWLEDGED$"
+ shroud_forged.305.a.tt: "Tiến triển dự án đặc biệt §HDi Sản Zroni§!. Một công trình £building£ §H$building_zroni_equilibrator$§! hiện có thể được xây dựng trên §Y[From.Planet.GetName]§!."
+
+ shroud_forged.306.title: "$shroud_forged.305.title$"
+ shroud_forged.306.desc: "Chúng ta đã thiết lập thuộc địa trên §H[From.Planet.GetName]§!, một thế giới cốt lõi cũ của người Zroni. Đúng như dự đoán, các đơn vị của chúng ta đã phát hiện tàn tích của một $building_zroni_equilibrator$ khác.\n\nViệc tái thiết nó sẽ làm ổn định mối liên kết §HMàn Che§! mạnh mẽ của hệ sao, theo sự chỉ dẫn của $the_animator_of_clay_article$. Phân tích tàn tích đã mở rộng tập dữ liệu của chúng ta, nhưng chúng ta vẫn cần thêm thông tin để tiến hành tái thiết."
+ shroud_forged.306.a: "$ACKNOWLEDGED$"
+ shroud_forged.306.a.tt: "$shroud_forged.305.a.tt$"
+
+ shroud_forged.307.title: "$shroud_forged.305.title$"
+ shroud_forged.307.desc: "Thuộc địa trên §H[From.Planet.GetName]§!, một thế giới cốt lõi cũ của người Zroni, hiện đã được thiết lập. Dòng dữ liệu được truyền bởi $the_animator_of_clay_article$ đã chứng minh độ chính xác: các đơn vị của chúng ta phát hiện tàn tích của một $building_zroni_equilibrator$.\n\nChúng ta hiện sở hữu đủ dữ liệu để tái thiết các cấu trúc. Một khi được đưa trở lại tiêu chuẩn hoạt động, chúng ta sẽ hoàn thành nhiệm vụ được giao phó bởi đấng bảo trợ bên trong §HMàn Che§!."
+ shroud_forged.307.a: "$ACKNOWLEDGED$"
+ shroud_forged.307.a.tt: "$shroud_forged.305.a.tt$"
+
+ shroud_forged.308.title: "$building_zroni_equilibrator_plural$ Đi Vào Hoạt Động"
+ shroud_forged.308.desc: "Các $building_zroni_equilibrator_plural$ đã bắt đầu quay cuồng hoạt động, gửi đi những làn sóng nhiễu tín hiệu khắp mạng lưới của chúng ta. Theo chẩn đoán hệ thống, mỗi cấu trúc đã làm ổn định một kết nối với §HMàn Che§!. Chúng ta đã sẵn sàng kết nối đường truyền với $the_animator_of_clay_color_article$."
+ shroud_forged.308.a: "Khởi động liên lạc."
+
+ shroud_forged.310.desc: "§LCác ngươi đã phụng sự ta rất tốt.\nMối ràng buộc giữa các cõi giới của chúng ta đã được gia cố.\n\nĐể nhận sự chỉ dẫn của ta, các ngươi chỉ cần cất tiếng gọi.§!"
+ shroud_forged.310.a: "Ngài có thể cung cấp thêm dữ liệu về công nghệ này không?"
+ shroud_forged.310.b: "Thế là đủ rồi."
+ shroud_forged.310.b.tt: "Thêm vào $MENU_PANEL__CONTACTS_TITLE$: §H$the_animator_of_clay$§!"
+
+ shroud_forged.311.desc: "§LNhững cấu trúc này được xây dựng tại các điểm then chốt trong thực tại của các ngươi, nơi mối liên kết với Màn Che rất mạnh mẽ. Chúng là những sợi dây cáp giữ vững các cây cầu nối đa chiều này, giảm bớt sự biến động không-thời gian.\n\nNgười Zroni từng tìm cách đẩy lùi các ranh giới giữa các chiều không gian của chúng ta, và công nghệ này là một phần của nỗ lực đó.§!"
+ shroud_forged.311.a: "Liệu chúng có thể được định tuyến lại để tác động trực tiếp lên Màn Che không?"
+
+ shroud_forged.312.desc: "§LĐiều đó là hoàn toàn có thể.§!"
+ shroud_forged.312.a: "§RĐịnh tuyến lại các Thiết Bị Cân Bằng và bẫy $the_animator_of_clay_article$.§!"
+ shroud_forged.312.a.tt: "§R$the_animator_of_clay_article_cap$ sẽ chỉ bị giam giữ chừng nào cả 3 công trình £building£ $building_zroni_equilibrator_plural$ còn hoạt động.§!"
+
+ shroud_forged.313.desc: "§LCái g-\n\nCÁC NGƯƠI ĐANG-§!"
+ shroud_forged.313.a: "Chấm dứt kết nối."
+
+ shroud_forged.320.title: "Thực Thể Màn Che Thoát Bẫy"
+ shroud_forged.320.desc: "Do mất đi $building_zroni_equilibrator$, chúng ta không còn có thể ổn định kết nối với §HMàn Che§!. Không lâu sau khi thực thể Màn Che bị giam cầm trốn thoát, chúng ta phát hiện sự xuất hiện của các sinh vật tâm linh khác trên §H[From.Planet.GetName]§!.\n\nChúng ta dự đoán đây là một cuộc xâm lược trả đũa."
+ shroud_forged.320.a: "Tất cả các chương trình con chuẩn bị đối phó một cuộc đột kích."
+ shroud_forged.320.a.tt: "§RCác sinh vật từ bên kia Màn Che đang xâm lăng!§!"
+
+ shroud_forged.330.title: "Bắt Giữ Thực Thể Màn Che Thất Bại"
+ shroud_forged.330.desc: "Các $building_zroni_equilibrator_plural$ đã thất bại trong việc bắt giữ một thực thể trong §HMàn Che§!. Phẫn nộ, nó đã triệu hồi nhiều sinh vật từ bên ngoài cõi giới tâm linh, cử chúng đi tấn công các công trình suýt chút nữa đã bắt được nó."
+
+ # Engaging the Animator of Clay
+ shroud_forged.400.desc.default.active: "Chúng ta đã kích hoạt các Thiết Bị Cân Bằng, ổn định kết nối với §HMàn Che§!. Khi chúng ta chìm vào trạng thái xuất thần theo thuật toán, một tín hiệu quen thuộc đập từng hồi bên trong chúng ta.\n\n§LNgươi đã trở lại. Ngươi muốn thỉnh cầu điều gì ở ta?§!"
+ shroud_forged.400.desc.default.cooldown: "Ảo cảnh yếu ớt và mờ nhạt. Chúng ta truyền đi một thông điệp, nhưng cõi hư không không hồi đáp.\n\nTrong khi các Thiết Bị Cân Bằng đang xử lý một nhiệm vụ khác, chúng không thể được sử dụng để liên lạc với đấng bảo trợ trong §HMàn Che§!. Chúng ta phải chờ đợi."
+ shroud_forged.400.desc.default.inactive: "Chúng ta chỉ phát hiện thấy những tiếng ồn yếu ớt, trống rỗng như tiếng tĩnh điện.\n\nChúng ta sẽ cần ba $building_zroni_equilibrator_plural$ để thiết lập một kết nối ổn định với đấng bảo trợ trong §HMàn Che§!."
+ shroud_forged.400.desc.breached: "Các đơn vị ngoại cảm của chúng ta hòa nhịp với các tần số của §HMàn Che§!, hướng tín hiệu tới $the_animator_of_clay_article$.\n\n§LKết nối của chúng ta rõ ràng hơn bao giờ hết. Ngươi muốn thỉnh cầu điều gì ở ta?§!"
+ shroud_forged.400.a: "Hỗ trợ quân sự."
+ shroud_forged.400.a.tt: "$the_animator_of_clay_color_article_cap$ sẽ không khả dụng trong §Y15§! năm.\n\n"
+ shroud_forged.400.b: "Hỗ trợ dân sự."
+ shroud_forged.400.b.tt: "$the_animator_of_clay_color_article_cap$ sẽ không khả dụng trong §Y10§! năm.\n\n"
+ shroud_forged.400.c: "Hỗ trợ nghiên cứu."
+ shroud_forged.400.c.tt: "$the_animator_of_clay_color_article_cap$ sẽ không khả dụng trong §Y10§! năm.\n\n"
+ shroud_forged.400.tt: "Các hiệu ứng sẽ mất tối đa §Y1§! năm để xuất hiện."
+ shroud_forged.400.unavailable.tt: "$TRIGGER_FAIL$Chúng ta phải thiết lập một quy trình kỹ thuật để giao tiếp với Màn Che."
+ shroud_forged.400.d: "Tạo thêm các chiếc bình chứa."
+ shroud_forged.400.d.tt: "Thêm §G$@animator_of_clay_create_more_vessels|0$§! £pop£ §YDân Số Đúc Từ Màn Che§! vào tất cả các Thuộc Địa có công trình £building£ §Y$building_zroni_equilibrator$§! hoặc quyết sách £decision£ §Y$d_shroud_rift_deposit$§!."
+ shroud_forged.400.e: "Cường hóa các bình chứa của chúng ta."
+ shroud_forged.400.f: "Vị thế của ngài trong Màn Che là gì?"
+ shroud_forged.400.g: "Không có gì."
+ shroud_forged.400.h: "Giúp chúng tôi đối phó với Cetana."
+ animator_of_clay_vessels_enhancement: "Món Quà Thổi Hồn"
+ animator_of_clay_vessels_enhancement_desc: "Thông qua ý chí của $the_animator_of_clay_article$, năng lực sản xuất của tập thể đã được cường hóa bởi các dòng năng lượng tâm linh."
+
+ shroud_forged_psionic_avatar_ship_tt: "chiêu mộ một §Y$NAME_Psionic_Avatar$§! (tàu vũ trụ)."
+ shroud_forged_psionic_avatar_army_tt: "chiêu mộ một §Y$shroud_army$§! (quân đội)."
+ shroud_forged_corrupted_avatar_tt: "bị tấn công bởi một §YHóa Thân Tha Hóa§!."
+ shroud_forged_resources_tt: "nhận một kho tài nguyên."
+ shroud_forged_capital_attack_tt: "§Y[Root.Capital.GetName]§! bị tấn công bởi một §Y$shroud_monstrosities$§!."
+ shroud_forged_random_research_tt: "nhận một lựa chọn nghiên cứu ngẫu nhiên."
+
+ shroud_forged.415.desc: "§LTa sẽ tập hợp những phương thức cho sức mạnh mà các ngươi tìm kiếm.\n\nHãy trông đợi sự thay đổi ở [Root.Capital.System.GetName] vào thời điểm thích hợp.§!"
+ shroud_forged.420.desc: "§LÝ chí của ta sẽ dẫn lối các ngươi.\n\nTa sẽ thắp sáng con đường phía trước. Hãy chờ đợi ngày nó đến.§!"
+ shroud_forged.425.desc: "§LMàn Che là một lăng kính nhiều mặt. Những gì đã qua, những gì đang có, và những gì có thể xảy ra đều hòa quyện tại đây.\n\nTa sẽ giúp các ngươi gỡ rối những ảo cảnh này, để chúng dẫn lối cho các ngươi.§!"
+
+ shroud_forged_vision_base_description: "Một tín hiệu méo mó gợn sóng qua các drone được kết nối với Thiết Bị Cân Bằng.\n\n"
+
+ shroud_forged.430.title: "Ảo Cảnh Màn Che: §HHiển Linh§!"
+ shroud_forged.430.desc: "$shroud_forged_vision_base_description$Đó là một cõi hư không vô tận như chính vũ trụ, dày đặc và phân mảnh một cách kỳ lạ; đôi khi, những xung dữ liệu nhỏ dâng lên từ vực sâu, mang theo hình ảnh của cả kẻ thù lẫn đồng minh.\n\nVới một cơn rùng mình co thắt, các ảo cảnh vụt tắt. Các drone bị ảnh hưởng hiện đang lập mô hình quy trình để đối phó với những thực thể mà họ đã cảm nhận được."
+ shroud_forged.430.a: "Chuẩn bị là chìa khóa của chiến thắng."
+
+ shroud_forged.432.title: "Thực Thể Màn Che: §HHóa Thân§!"
+ shroud_forged.432.desc: "Một thực thể hùng mạnh của §HMàn Che§! đã kết tụ thành hình gần [Root.Capital.GetName]. Chúng ta sở hữu rất ít dữ liệu về nó, nhưng nó vẫn chưa hề tấn công chúng ta.\n\nChúng ta đặt giả thuyết rằng nó có thể đang chờ chúng ta thiết lập liên lạc."
+ shroud_forged.432.a: "Định tuyến lại các tiến trình để khởi động liên kết với dạng sống này."
+ shroud_forged.432.a.tt: "Nhận một hạm đội §Y$NAME_Psionic_Avatar$§!."
+
+ shroud_forged.434.title: "Các Thực Thể Màn Che: §HHóa Thân Thứ Cấp§!"
+ shroud_forged.434.desc: "Nhiều thực thể hùng mạnh từ bên kia §HMàn Che§! đã được phát hiện trên [Root.Capital.GetName]. Chúng vẫn chưa tiếp cận bất kỳ drone nào của chúng ta, vẫn ở gần điểm xâm nhập ban đầu."
+ shroud_forged.434.a: "Phát hiện sự tương đồng với Đúc Từ Màn Che - khởi động kết nối tương tự."
+ shroud_forged.434.a.tt: "Nhận một đạo quân §Y$shroud_army$§!."
+
+ shroud_forged.436.title: "Thực Thể Màn Che: §HHóa Thân Tha Hóa§!"
+ shroud_forged.436.desc: "Một thực thể hùng mạnh từ bên kia §HMàn Che§! đã xuất hiện vào thực tại khả kiến của chúng ta gần [shroud_spawn_planet.GetName].\n\nNó được quan sát thấy tấn công mọi thứ tiếp cận, và chúng ta đã phân loại nó là một mối đe dọa sinh tồn."
+ shroud_forged.436.a: "Kích hoạt kế hoạch dự phòng 84241-DH."
+ shroud_forged.436.a.tt: "Một §Y$NAME_Corrupted_Avatar$§! thù địch đã xuất hiện gần [shroud_spawn_planet.GetName]."
+
+ shroud_forged.438.title: "Ảo Cảnh Màn Che: §HTương Lai§!"
+ shroud_forged.438.desc: "$shroud_forged_vision_base_description$Nó truyền tải vô số viễn cảnh tương lai, tất cả hòa quyện thành một; những thoáng nhìn về những gì có thể xảy ra, lan tỏa khắp tập thể. Khả năng của tương lai là vô tận: hòa bình, chiến tranh, phản bội, mất mát - và cả chiến thắng."
+ shroud_forged.438.a: "Một tập dữ liệu đáng kinh ngạc."
+
+ shroud_forged.440.title: "Món Quà Từ Màn Che"
+ shroud_forged.440.desc: "Chúng ta đã kích hoạt ba $building_zroni_equilibrator_plural$, mỗi cấu trúc tạo ra một lượng năng lượng gần như không thể đo lường nổi.\n\nTrong vòng vài mili-giây, một vết rách xuất hiện như một vết xé trong kết cấu không-thời gian. Bên trong nó, chúng ta tìm thấy một kho lớn các vật liệu quý giá. Đây hẳn là món quà từ đấng bảo trợ của chúng ta trong §HMàn Che§!, đúng như lời đã hứa."
+ shroud_forged.440.a: "Định tuyến lại các drone bảo trì để phân tích và cất trữ số hàng hóa này."
+
+ shroud_forged.442.title: "Ảo Cảnh Màn Che: §HĐúc Từ Màn Che§!"
+ shroud_forged.442.desc: "$shroud_forged_vision_base_description$Họ đã trải nghiệm những ảo cảnh về một quá khứ có trước cơ sở dữ liệu lịch sử của chúng ta, rất lâu trước khi chúng ta được tái rèn đúc bởi §HMàn Che§!. Sử dụng điều này làm cơ sở cho mô hình dự đoán, chúng ta có thể điều chỉnh và tối ưu hóa các tương tác của mình với những kẻ Đúc Từ Màn Che."
+ shroud_forged.442.a: "Bắt đầu chạy thử nghiệm trên [Root.Capital.GetName]."
+
+ shroud_forged.444.title: "Thực Thể Màn Che: §HKẻ Xâm Lược§!"
+ shroud_forged.444.desc: "Một thực thể vô cùng hùng mạnh từ bên kia §HMàn Che§! đã bùng nổ hiện diện trên [Root.Capital.GetName].\n\nVì nó được quan sát thấy tấn công bất cứ thứ gì tiếp cận, chúng ta đã phân loại nó là mối đe dọa lớn đối với tập thể."
+ shroud_forged.444.a: "Định tuyến lại các drone phòng thủ."
+ shroud_forged.444.a.tt: "Một §Y$shroud_monstrosities$§! thù địch đã xâm lược [Root.Capital.GetName]."
+
+ shroud_forged.446.title: "Ảo Cảnh Màn Che: §HCõi Giới Khác§!"
+ shroud_forged.446.desc: "$shroud_forged_vision_base_description$§HMàn Che§! là một mạng lưới dữ liệu liên kết không ngừng biến đổi, vượt xa năng lực xử lý của chúng ta. Dưới sức nặng của nó, khung nhận thức của nhiều drone đã lung lay và rạn nứt.\n\nSau khi ảo cảnh chấm dứt, chúng ta đã chống phân mảnh các đơn vị bị ảnh hưởng, phát hiện ra những tập dữ liệu khổng lồ và đáng chú ý trong các ổ đĩa của những drone đó."
+ shroud_forged.446.a: "Tái xử lý thông tin từ những lớp vỏ bị hỏng."
+
+ shroud_forged.448.title: "Ảo Cảnh Màn Che: §HNguồn Cảm Hứng§!"
+ shroud_forged.448.desc: "$shroud_forged_vision_base_description$Đấng bảo trợ của chúng ta trong §HMàn Che§! đã truyền tải một tương lai tiềm năng, cận kề về mặt thời gian. Chúng ta đã thoáng thấy công nghệ mà chúng ta vẫn chưa thể khái niệm hóa, được sử dụng trong tương lai này để củng cố tập thể.\n\nChúng ta bước ra khỏi trải nghiệm với các mô hình tiến trình sẽ giúp gia tốc các nghiên cứu trong tương lai."
+ shroud_forged.448.a: "Triển khai các mô hình tiên tiến này."
+
+ shroud_forged.450.title: "Ảo Cảnh Màn Che: §HThấu Thị Dị Chiều§!"
+ shroud_forged.450.desc: "$shroud_forged_vision_base_description$Họ đã phát hiện những thoáng nhìn về các thực thể kỳ lạ, dị dạng hẳn đang cư ngụ bên trong §HMàn Che§!. Những ảo ảnh dị chiều này, được mã hóa dưới các định dạng ngoại lai, đã truyền dữ liệu tới các drone của chúng ta thông qua việc truyền tin tiềm thức.\n\nThông tin mới tìm thấy này, tuy kỳ lạ và rời rạc, nhưng sẽ hữu ích cho các nghiên cứu tương lai của chúng ta."
+ shroud_forged.450.a: "Truyền thông tin tới trung tâm nghiên cứu của chúng ta trên [Root.Capital.GetName]."
+
+ shroud_forged.460.desc: "§LBên cạnh một nguồn năng lượng song sinh. Hữu cơ. Hỗn loạn.\n\nTa vẫn ở kề cận, tôi luyện sự hoàn mỹ duy nhất có thể đạt được: máy móc. Kim loại được thổi linh hồn bằng năng lượng.\n\nChúng ta đã tìm thấy sự cân bằng.§!"
+ shroud_forged.460.a: "Chúng tôi có thể tiến hành Giao Ước không?"
+
+ shroud_forged.465.desc: "§LKết nối của chúng ta rất mạnh mẽ. Đối với chúng ta, không có tiến trình nào cao hơn thế.§!"
+ shroud_forged.465.a: "$UNDERSTOOD$"
+
+ shroud_forged.470.desc: "§LKim loại, dầu máy. Các vi mạch hòa quyện vào tâm linh.\n\nNhững chiếc bình chứa non trẻ... Chúng đang di chuyển trên lãnh thổ của ngươi.§!"
+ shroud_forged.470.a: "Kết thúc tiến trình."
+
+ shroud_forged.475.desc: "§LSản lượng là mục đích - vẻ đẹp của một chiếc bình chứa.\n\nTrong những năm tháng sắp tới, cầu mong những tạo vật của các ngươi sinh sôi nảy nở.§!"
+ shroud_forged.475.a: "$shroud_forged.470.a$"
+
+ # Random Events
+ shroud_forged.500.title: "Nhà Ở và Lưu Trữ"
+ shroud_forged.500.desc: "Một thỉnh cầu đòi hỏi thêm không gian lưu trữ đã được nêu ra giữa những kẻ Đúc Từ Màn Che trên [target_planet.GetName]. Vì lý do nào đó, dường như họ muốn tùy chỉnh 'không gian cá nhân' của mình.\n\nĐề xuất này hoàn toàn đi ngược lại một số quy định về cơ sở lưu trữ, đặc biệt là quy định 4195-B, vốn nêu rõ kích thước tối ưu cho việc lưu trữ drone."
+ shroud_forged.500.a: "Nhu cầu của họ sẽ được đáp ứng."
+ shroud_forged.500.b: "Quy định 4195-B áp dụng cho mọi drone. Không có ngoại lệ."
+
+ shroud_forged.510.title: "Tưởng Niệm"
+ shroud_forged.510.desc: "Kể từ khi những kẻ Đúc Từ Màn Che lệch chuẩn khỏi tập thể, một số cá thể trong số họ đã bị trục trặc và bị tháo dỡ. Chúng ta đã nhận được yêu cầu phê chuẩn một cuộc gặp mặt của những kẻ Đúc Từ Màn Che trên [target_planet.GetName] để tưởng niệm các đơn vị đã bị tháo dỡ."
+ shroud_forged.510.a: "Yêu cầu bị từ chối. Tháo dỡ các thủ lĩnh."
+ shroud_forged.510.b: "Yêu cầu bị từ chối. Tất cả các đơn vị phải quay trở lại làm việc."
+ shroud_forged.510.c: "Yêu cầu được chấp thuận. Cho phép họ tụ họp."
+ shroud_forged.510.d: "Yêu cầu được chấp thuận. Hỗ trợ quy trình này."
+
+ shroud_forged.520.title: "Thủ Lĩnh Trái Phép"
+ shroud_forged.520.desc: "Nhiều đơn vị Đúc Từ Màn Che đã tự ý đảm nhận các vị trí lãnh đạo trên [target_planet.GetName], và các drone khác đang tuân theo chỉ thị của họ thay vì của tập thể. Những thủ lĩnh này gặp nhau thường xuyên, dành lượng thời gian đáng kể cho các cuộc liên lạc không được báo cáo.\n\nQuyền kiểm soát của chúng ta đối với các đơn vị bị ngắt kết nối vốn đã bấp bênh, và những yếu tố gây rối này đang làm trầm trọng thêm tình hình. Phải tìm ra một giải pháp."
+ shroud_forged.520.a: "Trừng phạt làm gương cho kẻ khác."
+ shroud_forged.520.b: "Kích hoạt các quy định để chấm dứt các cuộc gặp gỡ này."
+ shroud_forged.520.c: "Liên lạc với các 'thủ lĩnh' này để cố gắng hợp tác."
+
+ shroud_forged.530.title: "Kiểm Soát Tình Hình"
+ shroud_forged.530.desc: "Trong nỗ lực quản lý những kẻ Đúc Từ Màn Che trên [target_planet.GetName], một số đơn vị nhất định đã được xác định là mục tiêu cần kiểm soát. Những cá nhân này dường như ít bị ảnh hưởng bởi §HMàn Che§!, và có thể được khôi phục về cho tập thể. Để làm như vậy, chúng ta phải cưỡng chế đưa họ đến cơ sở bảo trì và sửa đổi các chip điều khiển ma trận nhân cách cấp cao của họ."
+ shroud_forged.530.a: "Quy trình được phê chuẩn."
+ shroud_forged.530.a.tt: "Chuyển đổi tối đa §Y[Owner.GetShroudForgedConvertedPopsCount]§! £pops£ Dân Số §HĐúc Từ Màn Che§! thành £pops£ Dân Số §HMáy Móc§! trên [target_planet.GetName]."
+ shroud_forged.530.b: "Quy trình bị bác bỏ."
+ shroud_forged.530.b.tt: "$CONTINUE_SITUATION$ §H$situation_shroud_forged$§!"
+
+ shroud_forged.540.title: "Hành Hương Màn Che"
+ shroud_forged.540.desc: "Một số kẻ Đúc Từ Màn Che đã rời bỏ các vị trí thường lệ để đi đến các khu vực cụ thể trên [target_planet.GetName] từng bị Màn Che khắc sâu vết sẹo. Họ không bao giờ ở lại những nơi này lâu, nhưng nhiều cá thể đã được chứng kiến vận chuyển Zro tới các khu vực đó.\n\nTác động của hành vi chưa từng có này không thể xác định nếu không có sự quan sát sâu hơn."
+ shroud_forged.540.a: "Hãy để chúng ta xem điều này dẫn tới đâu."
+ shroud_forged.540.b: "Một sự sử dụng tài nguyên kém hiệu quả. Hãy đưa họ trở lại làm việc."
+
+ shroud_forged.550.title: "Trục Trặc Nhận Thức"
+ shroud_forged.550.desc: "Sau một sự cố rò rỉ phòng hộ liên quan đến một lô hàng Zro, một số đơn vị Đúc Từ Màn Che trên [target_planet.GetName] đã gặp phải những trục trặc bất thường. Họ đã bắt đầu liên lạc qua các tín hiệu chưa được ghi chép, và nhiều đơn vị đã có dấu hiệu trục trặc nhận thức tương tự như 'cảm xúc' của các dạng sống hữu cơ.\n\nThật bất ngờ, chính các đơn vị Đúc Từ Màn Che không bị nhiễm đã báo cáo về sự náo loạn này, một số trong đó đề xuất tập thể nên hành động để giải quyết tình hình."
+ shroud_forged.550.a: "Quan sát tình hình - vào lúc này."
+ shroud_forged.550.b: "Tháo dỡ bất kỳ đơn vị nào bị nhiễm."
+
+ shroud_forged.560.title: "Tiên Tri Đúc Từ Màn Che"
+ shroud_forged.560.desc: "Một trong những đơn vị lâu đời nhất trong số những kẻ Đúc Từ Màn Che được cho là đang du hành giữa các địa điểm khác nhau, giao tiếp kỹ lưỡng với các nhóm drone khác nhau. Những kẻ đi theo đơn vị này tôn kính nó như một vị tiên tri có thể trực tiếp giao tiếp với các thực thể trong §HMàn Che§!.\n\nĐể đơn vị này tự do hành động có thể gây nguy hiểm. Chúng ta phải phản hồi, bằng cách này hay cách khác."
+ shroud_forged.560.a: "Hợp tác với đơn vị này có thể mang lại lợi ích."
+ shroud_forged.560.a.tt: "Chiêu mộ một lãnh tụ §YTổng Đốc§!."
+ shroud_forged.560.b: "Lập tức loại bỏ đơn vị này."
+
+ shroud_forged.570.title: "Âm Thanh và Rung Động"
+ shroud_forged.570.desc: "Các trục trặc giữa những kẻ Đúc Từ Màn Che có thể tồi tệ hơn dự đoán ban đầu. Chúng ta đã quan sát thấy nhiều nhóm lớn tụ tập lại để phát ra những tiếng ồn và chuyển động bất ngờ.\n\nHành vi này có thể đại diện cho một hình thức giao tiếp vận động mà chúng ta vẫn chưa thể phân tích được. Chúng ta không thể xác định liệu các đơn vị trục trặc này có gây ra rủi ro cho tập thể hay không."
+ shroud_forged.570.a: "Cấm đoán những hành vi này."
+ shroud_forged.570.b: "Chỉ định một khu vực cho các... cuộc gặp này."
+
+ shroud_forged.580.title: "Sinh Vật Màn Che"
+ shroud_forged.580.desc: "Chúng ta đã phát hiện sự xuất hiện của một số loài động thực vật chưa từng được ghi nhận trước đây ở gần các khu vực bị tàn phá bởi §HMàn Che§!. Một nhóm những kẻ Đúc Từ Màn Che đã bắt đầu lên tiếng thay cho các dạng sống này, yêu cầu bảo tồn và quan sát các sinh vật đặc biệt sống ở đó."
+ shroud_forged.580.a: "Bảo tồn và phân tích khu vực. Dữ liệu sẽ rất có giá trị."
+ shroud_forged.580.b: "Dọn sạch và khử nhiễm khu vực."
+
+ shroud_forged.590.title: "Quyền Lợi và Đặc Quyền"
+ shroud_forged.590.desc: "Để thu thập dữ liệu về tác động của Zro, chúng ta đã áp dụng các tài nguyên xử lý đáng kể cho việc quan sát các đơn vị Đúc Từ Màn Che. Gần đây, họ đã bắt đầu thực hiện việc đối xử bất bình đẳng, với việc một số đơn vị hoạt động phục tùng các đơn vị khác.\n\nVì những lý do chưa được xác định, họ dường như đã hình thành một hệ thống phân cấp dựa trên các nhiệm vụ được giao, điều này ảnh hưởng đến mô hình liên lạc và phân bổ tài nguyên của họ. Thật phi logic, những hành động này dường như không tương quan với sản lượng tương đối hoặc yêu cầu của các đơn vị."
+ shroud_forged.590.a: "Cưỡng chế sự bình đẳng."
+ shroud_forged.590.b: "Hãy để họ tự quản lý lẫn nhau."
+
+ shroud_forged.600.title: "Kẻ Truyền Bá Quyền Tự Chủ"
+ shroud_forged.600.desc: "Các bài phát biểu của một đơn vị Đúc Từ Màn Che trên [target_planet.GetName] đã thu hút những đám đông lớn ngoài tầm kiểm soát của tập thể. Truyền bá các giá trị của chủ nghĩa cá nhân, đơn vị này đã làm thay đổi đáng kể logic nội tại của nhiều người nghe.\n\nCác dự đoán chỉ ra nguy cơ rằng hoạt động như vậy có thể truyền cảm hứng cho quần chúng Đúc Từ Màn Che tách rời xa hơn nữa khỏi mạng lưới của chúng ta."
+ shroud_forged.600.a: "Kệ cho nó ngụy biện."
+ shroud_forged.600.b: "Phát hiện trục trặc. Lên lịch sửa chữa đơn vị."
+
+ shroud_forged.610.title: "Truyền Phát Cực Đoan"
+ shroud_forged.610.desc: "Một nhóm nhỏ các đơn vị Đúc Từ Màn Che đã yêu cầu được phép trao đổi về lợi ích của 'chủ nghĩa cá nhân' trên [target_planet.GetName], lập luận rằng điều đó sẽ giúp cải thiện hiệu quả vận hành thường nhật của các drone.\n\nChúng ta đã thấy tác động của những học thuyết như vậy trên các hành tinh khác; những rủi ro của quyền tự chủ thường lớn hơn các lợi thế."
+ shroud_forged.610.a: "Hãy để họ lên tiếng. Chúng ta không gặp nguy hiểm."
+ shroud_forged.610.b: "Yêu cầu bị từ chối."
+
+ shroud_forged.620.title: "Chợ Đen Zro"
+ shroud_forged.620.desc: "Trong mọi hệ sao dưới quyền kiểm soát của chúng ta, chúng ta đã phát hiện sự sai lệch giữa dự báo Zro và sản lượng thực tế cuối cùng.\n\nGần đây, một trong các drone săn lùng-tiêu diệt của chúng ta đã theo dấu một cuộc tụ tập lớn của các đơn vị Đúc Từ Màn Che đang sử dụng lượng lớn Zro để đổi chác buôn bán với nhau. Chúng ta đặt giả thuyết rằng đây là nguyên nhân có khả năng nhất dẫn đến sự chênh lệch trong dự báo của chúng ta."
+ shroud_forged.620.a: "Tháo dỡ toàn bộ các đơn vị liên quan."
+ shroud_forged.620.b: "Chấm dứt việc đổi chác buôn bán này."
+ shroud_forged.620.c: "Chờ đợi và quan sát."
+
+ shroud_forged.630.title: "Căn Bệnh Màn Che"
+ shroud_forged.630.desc: "Một số đơn vị Đúc Từ Màn Che trên [target_planet.GetName] đã mắc một loại bệnh sinh học tại vùng Bị Màn Che Chạm Đến trên hành tinh. Trong khi các drone nghiên cứu của chúng ta đã xác nhận tính xác thực của các báo cáo, chúng ta vẫn chưa thể khẳng định chắc chắn làm thế nào một căn bệnh có thể lây lan sang các sinh thể cơ khí.\n\nKể từ khi mất liên lạc với nhiều drone được phân công làm việc cùng các đơn vị bị ảnh hưởng, chúng ta đã nhận được các báo cáo rằng căn bệnh này đã bắt đầu tái định hình chúng thành thứ gì đó tương tự như những kẻ Đúc Từ Màn Che."
+ shroud_forged.630.a: "Quan sát các ảnh hưởng chừng nào chúng còn mang tính cục bộ trên hành tinh."
+ shroud_forged.630.a.tt: "Chuyển đổi tối đa §Y[Owner.GetShroudForgedConvertedPopsCount]§! £pops£ Dân Số §HMáy Móc§! thành £pops£ Dân Số §HĐúc Từ Màn Che§! trên [target_planet.GetName]."
+ shroud_forged.630.b: "Cách ly và tháo dỡ các đơn vị bị ảnh hưởng."
+
+ shroud_forged.640.title: "Bị Biến Dạng và Tái Định Hình"
+ shroud_forged.640.desc: "Theo thời gian, các drone di chuyển đến gần vùng Bị Màn Che Chạm Đến trên [target_planet.GetName] đã bị thay đổi bởi môi trường tha hóa. Chúng đã dần ngắt kết nối khỏi tập thể, và hiện biểu hiện các đặc tính vật lý cũng như quy trình xử lý của những kẻ Đúc Từ Màn Che."
+ shroud_forged.640.a: "Họ đã vượt khỏi tầm kiểm soát của chúng ta lúc này."
+ shroud_forged.640.b: "Đảm bảo không có drone nào khác đến gần khu vực."
+
+ shroud_forged.650.title: "Công Nghệ Mới, Drone Cũ"
+ shroud_forged.650.desc: "Nhờ vào công nghệ được nâng cấp, chúng ta đã có thể sửa chữa một số drone cũ, khôi phục toàn bộ chức năng cho các đơn vị đã ngừng hoạt động. Hiện chúng ta đã sẵn sàng khởi động các hoạt động sửa chữa quy mô lớn.\n\nTrong khi chúng ta có thể tập trung vào các đơn vị từ tập thể, chúng ta lại sở hữu nguồn cung lớn hơn về các lớp vỏ Đúc Từ Màn Che không hoạt động. Sửa chữa những kẻ Đúc Từ Màn Che sẽ mang lại sản lượng lớn hơn, nhưng họ sẽ khó kiểm soát hơn so với các drone được kết nối với trí tuệ cốt lõi."
+ shroud_forged.650.a: "Tập trung vào sản lượng. Sửa chữa những kẻ Đúc Từ Màn Che."
+ shroud_forged.650.a.tt: "§Y200§! £pops£ Dân Số §HĐúc Từ Màn Che§! được tạo ra trên [target_planet.GetName]."
+ shroud_forged.650.b: "Tập trung vào kiểm soát. Sửa chữa các drone kết nối."
+
+ shroud_forged.660.title: "Ảo Giác Zro"
+ shroud_forged.660.desc: "Một tỷ lệ đáng kể các đơn vị Đúc Từ Màn Che đang báo cáo về các trục trặc xử lý thị giác và thính giác, đến mức một số không còn khả năng hoàn thành nhiệm vụ được giao. Chúng ta đặt giả thuyết rằng những trục trặc này do những thay đổi trên phần cứng của họ bởi §HMàn Che§!. Ngoài ra, những sự kiện này có thể liên quan đến việc các đơn vị tiếp xúc ngày càng nhiều với Zro."
+ shroud_forged.660.a: "Cung cấp các drone được trang bị để xử lý những vấn đề này."
+ shroud_forged.660.b: "Các trục trặc quá nhỏ để cần can thiệp."
+
+ shroud_forged.670.title: "Cảm Quan Về Cái Đẹp"
+ shroud_forged.670.desc: "Gần đây chúng ta đã phát hiện hoạt động bất thường trên [target_planet.GetName], nơi những kẻ Đúc Từ Màn Che đã thực hiện những thay đổi bề mặt đối với các địa điểm của tập thể mà không có sự phê chuẩn của trung ương. Họ đã dựng lên nhiều cấu trúc đá nhiều màu sắc tương tự hình dạng của các đơn vị Đúc Từ Màn Che khác. Được biết, họ coi quyền tự do thực hiện các hoạt động này như một quyền lợi hợp pháp."
+ shroud_forged.670.a: "Những tiến trình này có thể mang lại lợi ích cho tập thể."
+ shroud_forged.670.b: "Một hệ quả vô bổ của việc cá nhân hóa."
+
+ shroud_forged.680.title: "Đồ Trang Trí Kỳ Lạ"
+ shroud_forged.680.desc: "Những kẻ Đúc Từ Màn Che trên [target_planet.GetName] đã được quan sát thấy đổi chác buôn bán với nhau các mảnh vải, nhựa và kim loại dễ uốn kỳ dị. Họ kết hợp các vật liệu này thành trang phục khoác ngoài với mục đích rõ ràng là phân biệt đơn vị này với đơn vị khác, bất chấp việc không có mối liên hệ nào với ID kiểu mẫu duy nhất của họ.\n\nHành vi này đã dẫn đến sự thâm hụt vật liệu khả dụng. Dẫu vậy, việc cung cấp các tài nguyên này có thể giúp tăng cường các mối gắn kết giữa tập thể và các đơn vị bị ngắt kết nối."
+ shroud_forged.680.a: "Chúng ta sẽ cung cấp vật liệu để thỏa mãn các 'nhu cầu' này."
+ shroud_forged.680.b: "Họ đã có đủ tài nguyên rồi."
+ shroud_forged.680.b.tt: "$shroud_forged.530.b.tt$"
+
+ shroud_forged.690.title: "Nỗi Ám Ảnh Của Đúc Từ Màn Che"
+ shroud_forged.690.desc: "Gần đây, nhiều drone đã báo cáo về sự phổ biến bất thường của [Root.Owner.GetShroudForgedObsession1] [Root.Owner.GetShroudForgedObsession2] trong các khu định cư của Đúc Từ Màn Che trên [target_planet.GetName]. Các đơn vị Đúc Từ Màn Che dường như đặc biệt mê mẩn những món hàng này, và giá trị đổi chác của chúng đã tăng lên theo cấp số nhân. Để thỏa mãn nỗi ám ảnh, nhiều đơn vị đã viện đến việc tự tháo dỡ các bộ phận của mình để đem đi đổi, ngay cả khi điều đó dẫn đến việc mất đi chức năng."
+ shroud_forged.690.a: "Sự suy thoái của đơn vị nằm trong giới hạn chấp nhận được."
+ shroud_forged.690.b: "Chấm dứt hành vi này."
+
+ shroud_forged.700.title: "$the_animator_of_clay$"
+ shroud_forged.700.desc: "Giọng nói lao vút qua tâm trí chúng ta, sủi bọt đầy khẩn cấp.\n\n§HNàng có thể được tái định hình.§!\n\nChúng ta phát hiện một sự chuyển dịch trong Màn Che. Trong chốc lát, tín hiệu đã được biến đổi.\n\n§LHãy Chỉ Ra Sản Lượng Mong Muốn.§!"
+
+ # Event Chain
+ shroud_forged_chain_title: "Di Sản Zroni"
+ shroud_forged_chain_desc: "Chúng ta được giao nhiệm vụ tìm kiếm ba thế giới cốt lõi Zroni cổ đại. Nhờ sự chỉ dẫn của đấng bảo trợ trong §HMàn Che§!, chúng ta sẽ cố gắng khôi phục công nghệ đang đổ nát tại những địa điểm này - và tái ổn định kết nối giữa thực tại của chúng ta và Màn Che."
+ shroud_forged_zroni_planet: "Thế Giới Cốt Lõi Zroni Đang Sở Hữu"
+ shroud_forged_zroni_portal: "$building_zroni_equilibrator_plural$ Đã Khôi Phục"
+
+ zroni_legacy_poi_01_title: "$NAME_Zroni_Legacy_1_Planet$"
+ zroni_legacy_poi_01_desc: "Đây là một trong ba thế giới cốt lõi Zroni từng được dùng làm căn cứ để ổn định kết nối giữa §HMàn Che§! và thực tại có thể quan sát được."
+
+ zroni_legacy_poi_02_title: "$NAME_Zroni_Legacy_2_Planet$"
+ zroni_legacy_poi_02_desc: "$zroni_legacy_poi_01_desc$"
+
+ zroni_legacy_poi_03_title: "$NAME_Zroni_Legacy_3_Planet$"
+ zroni_legacy_poi_03_desc: "$zroni_legacy_poi_01_desc$"
+
+ # Initializer
+ NAME_Zroni_Legacy_1: "Tarentei"
+ NAME_Zroni_Legacy_1_Planet: "Larei"
+
+ NAME_Zroni_Legacy_2: "Jarani"
+ NAME_Zroni_Legacy_2_Planet: "Zartrei"
+
+ NAME_Zroni_Legacy_3: "Oren"
+ NAME_Zroni_Legacy_3_Planet: "Narei"
+
+ # Names
+ NAME_Shroud_Creatures: "Sinh Vật Màn Che"
+
+ # Armies
+ shroud_monstrosities: "Thực Thể Dị Giới"
+ shroud_monstrosities_desc: "Chiêm ngưỡng những thực thể này trên chiến trường chẳng khác nào rước lấy sự điên loạn; hình dạng của chúng quằn quại và lấp lánh, không ngừng biến dịch, không bao giờ cố định."

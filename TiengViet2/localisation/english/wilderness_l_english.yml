@@ -1,0 +1,762 @@
+﻿l_english:
+####################################
+# Events
+####################################
+
+# introduction event
+ progress.2.desc.wilderness: "Tàu [Root.GetName] đã tạo nên một phát hiện đáng kinh ngạc trên [from.GetName]: [from.GetPlanetMoon] đang tràn ngập sự sống ngoài hành tinh! Lần đầu tiên, chúng ta chạm trán với những dạng sống bắt nguồn từ bên ngoài bản thể chúng ta.\n\nKhám phá này cuối cùng đã xác nhận rằng chúng ta, hành tinh [root.owner.capital_scope.GetName], không hề cô độc trong vũ trụ. Mặc dù không có sinh vật ngoài hành tinh nào tìm thấy trên [from.GetName] có tri giác, nhưng rất có thể chỉ là vấn đề thời gian trước khi chúng ta chạm trán những thực thể như vậy..."
+
+# Colonization Events
+ wilderness.1010.name: "[from.GetName] Thức Tỉnh"
+ wilderness.1010.desc.intro: "Các bào tử địa hóa của chúng ta đã hoàn thành mục đích của mình, lần đầu tiên đưa một phần của chính bản thể chúng ta đi thuộc địa hóa một thế giới xa lạ."
+ wilderness.1010.desc.same: "Trở thành [from.GetName] cũng như [root.GetHomeWorldName]... Cảm giác này đã quá đỗi thân thuộc với chúng ta: một phương thức tồn tại an nhiên, bất chấp việc phải mang vô số hình hài mới dưới một vầng thái dương từng xa lạ. Chúng ta đã dễ dàng thích nghi với các điều kiện có sẵn tại nơi đây." #e.g. 'becoming Mars as well as Earth...''
+ wilderness.1010.desc.similar_cold: "Thích nghi bản thể chúng ta để phù hợp với [from.GetClassAdj] §Y[from.GetName]§! sẽ có những thách thức riêng, nhưng chúng ta đã tìm ra những phương cách quen thuộc để ứng phó. Xúc tua vươn dài, môi trường sống được kiến tạo, và những chiếc miệng đói bắt đầu săn mồi." #e.g. 'Adapting our self to suit arctic Pluto...'
+ wilderness.1010.desc.similar_dry: "Với tư cách là hành tinh [root.GetHomeWorldName], chúng ta luôn phát triển rực rỡ trong bầu khí quyển khô cằn. Do đó chúng ta cũng sẽ vươn mình đối mặt với thử thách trở thành [from.GetClassAdj] §Y[from.GetName]§!. Chúng ta đã tìm ra những cách thức mới để tìm kiếm và tích trữ độ ẩm, đồng thời học cách chung sống hòa hợp với địa chất mới đầy thử thách này thay vì chống lại nó." #e.g. 'the challenge of becoming savannah Mars'
+ wilderness.1010.desc.similar_wet: "Cũng giống như cách chúng ta từng hưng thịnh giữa các vùng nước của [root.GetHomeWorldName], chúng ta cũng sẽ đơm hoa kết trái dưới tư cách [from.GetClassAdj] §Y[from.GetName]§!. Khoáng sản, các dòng hải lưu và thậm chí cả lượng ánh sáng ban ngày nhận được tại nơi đây có vẻ kỳ lạ, nhưng chúng ta đã tìm ra cách để chiết xuất những gì mình cần." #e.g. 'we flourish as oceanic Neptune'
+ wilderness.1010.desc.diff_cold: "Chúng ta biết rằng trở thành §Y[from.GetName]§! sẽ đầy thử thách. Thật vậy, một phần những gì từng tạo nên hành tinh [root.capital_scope.GetClassAdj] [root.GetHomeWorldName] của chúng ta đã khô héo tại nơi đây, nhưng những gì còn lại vẫn vô cùng kiên cường và đã bắt đầu thích nghi. Môi trường xa lạ này khiến việc thu thập các tài nguyên cơ bản duy trì sự sống trở nên khó khăn hơn nhiều - nhưng bám trụ trên mảnh đất băng giá này, chúng ta quan sát thấy sự sống đã tìm được lối đi riêng." #e.g. 'becoming Earth'
+ wilderness.1010.desc.diff_dry: "Nơi này gợi lên trong chúng ta nỗi sợ hãi nguyên thủy: quá nóng và khô đến mức đánh thức những ký ức bản năng về Đại Hạn Hán. Tuy nhiên, nếu chúng ta có thể thích nghi và phát triển tại nơi đây... Việc trở thành §Y[from.GetName]§! cũng có thể đánh thức một điều gì đó mới mẻ bên trong chính chúng ta. Nơi nào có độ ẩm, chúng ta đã tìm cách tích trữ. Nơi nào bóng râm khan hiếm, chúng ta đã tìm cách tự tạo ra bóng râm cho riêng mình."
+ wilderness.1010.desc.diff_wet: "Nỗ lực trở thành §Y[from.GetName]§! của chúng ta sẽ đầy chông gai. Chúng ta, những người của vùng đất khô cằn, giờ đây phải đối mặt với một thế giới ngập tràn nước. Nước có mặt ở khắp mọi nơi, và cùng với nó là những căn bệnh và loài ký sinh xa lạ, đe dọa nuốt chửng những mầm non mới sinh của chúng ta. Tuy nhiên, khi đào sâu hơn vào lớp đất bùn lầy, chúng ta đã bắt đầu tìm thấy chỗ đứng vững chắc của mình." #e.g. 'Our effort to become Mars'
+ wilderness.1010.desc.other: "Khi chúng ta nhào nặn chính mình để trở thành §Y[from.GetName]§!, chúng ta nhận diện những phần nào của bản thể mình sẽ phát triển rực rỡ, và phần nào sẽ khô héo. Sự tồn tại [from.GetClassAdj] này có nhiều điểm chung với những gì chúng ta từng biết trước đây, nhưng cũng có nhiều điều xa lạ - vì vậy chúng ta quan sát, và chúng ta thử nghiệm." #e.g. 'shape ourselves to become Luna'
+ wilderness.1010.desc.outro: "Các siêu cấu trúc, dưỡng chất và chính DNA của chúng ta đã bắt đầu thích nghi và hòa quyện với sự sống từng tồn tại ở đây trước chúng ta. [from.GetName] đang thức tỉnh."
+ wilderness.1010.a: "Thế giới của chúng ta sẽ sớm hòa làm một."
+
+# Terraforming Events
+ terra.25.desc.wilderness: "Dự án trường kỳ của chúng ta nhằm đánh thức §Y[From.GetName]§! cuối cùng đã hoàn tất! Các xúc tua đã bao phủ toàn cầu, và một ý thức hành tinh mới đã được thắp sáng."
+ terra.80.desc.wilderness: "Chúng ta đã giải phóng bản thể tương lai của mình khỏi một tầng bức xạ khác trong khí quyển và đất đá, dọn đường cho chính mình mai sau. Tuy nhiên, các [Root.GetTerraformerPlural] cảnh giác của chúng ta đã phải can thiệp và tạm thời phong tỏa một số khu vực trên thế giới này. Hành động của chúng ta dường như đã quấy rầy một loài bản địa cực kỳ khó nắm bắt, vốn phát triển mạnh mẽ trong môi trường phóng xạ, nhưng giờ đây đang bắt đầu suy tàn do sự can thiệp của chúng ta.\n\nKỳ lạ hơn, loài sinh vật này dường như đang ở giai đoạn tiền tri giác, sắp sửa bước qua ngưỡng cửa tiến hóa để đạt tới trí tuệ. Giờ đây, khi [From.GetName] sắp được tẩy rửa hoàn toàn khỏi những tàn tích độc hại cuối cùng, chúng ta đứng trước một lựa chọn quan trọng: làm gì với dạng sống non trẻ và độc đáo này?"
+ terra.80.b.wilderness: "Thế giới này là của họ. Chúng ta nên để họ thức tỉnh."
+ terra.80.d.wilderness: "Hãy nuốt chửng chúng."
+
+ wilderness.2000.name: "Thức Tỉnh Theo Kế Hoạch"
+ #wilderness.2000.desc.reg: "We feel the tremendous potential of [from.GetName]. It seems proper to both fear and delight in the awesome power we are about to exert there: shaping this [from.GetPlanetMoon] with our will and the tools we have developed; laying the pattern for its eventual awakening.\n\nWe have long relied on natural processes to grow and sustain the [root.GetName]. But these trials also cost us dearly, and taught us much. Now we shall see what wonders emerge when a habitable world skips its own evolution and gains the wisdom of hard-earned growth and decay."
+ wilderness.2000.desc.barren: "Chứng kiến sự hoang tàn của [from.GetName] có lẽ thật đau lòng, nhưng sẽ không còn kéo dài lâu nữa. Sự sống trong thiên hà này từ trước đến nay dường như đã lờ đi thế giới cằn cỗi này, nhưng giờ đây chúng ta, [root.GetName], nắm giữ những công cụ và tri thức để thay đổi điều đó.\n\nBất chấp tất cả những gì đã học được cho đến nay, chúng ta vẫn đối mặt với một nhiệm vụ đầy gian nan trong việc phục hồi [from.GetName]. Bằng ý chí của chúng ta và với các công cụ biến đổi khí hậu đã phát hiện, sự sống sẽ sớm hiện hữu tại nơi từng là cõi hư vô."
+ wilderness.2000.desc.tomb_detox: "Mặc dù sự sống như chúng ta biết trên [from.GetName] có thể đã bị dập tắt, chúng ta hiện đã sẵn sàng trao cho thế giới này một cơ hội thứ hai. Chúng ta đã bắt đầu công việc phục hồi bầu khí quyển, các dòng nước và thổ nhưỡng của nó để [from.GetName] có thể một lần nữa nuôi dưỡng sự sống dưới hình hài của [root.GetName]."
+ wilderness.2000.desc.gaia: "Lò luyện tiến hóa đã tạo nên những điều kỳ diệu cho chúng ta, [root.GetName]. Nhưng giờ đây, chúng ta có cơ hội truyền ban nhiều hơn thế nữa cho [from.GetPlanetMoon] [from.GetName]. Vận dụng những công cụ và tri thức mà bản thể thuở ban đầu khó lòng tưởng tượng được, chúng ta đã bắt đầu nhào nặn [from.GetName] thành một nơi mà sự thức tỉnh chắc chắn sẽ không giống bất kỳ nơi nào khác.\n\nNền móng của [from.GetName] một ngày nào đó sẽ ngập tràn dưỡng chất, được làm tươi mới bởi các chu kỳ sống rực rỡ của hệ động thực vật chúng ta. Các thung lũng, rặng núi và cao nguyên sẽ mang lại không gian trù phú cho việc tìm kiếm thức ăn, săn bắn và trú ẩn. Sự sống sẽ phát triển rực rỡ tại nơi đây."
+ wilderness.2000.a: "Hãy bắt đầu thôi."
+
+ wilderness_pre_sapient_defence_army: "Đàn Thú Tiền Tri Giác"
+ seq_wilderness_pre_sapient_defence_army: "Đàn Thú Cộng Sinh $R$" # e.g. 'Symbiont Herd IV'
+ wilderness_pre_sapient_defence_army_plural: "Các Đàn Thú Tiền Tri Giác"
+ wilderness_pre_sapient_defence_army_desc: "Những sinh vật có tập tính bảo vệ lãnh thổ sâu sắc, vốn rất ngoan ngoãn cho đến khi bị khiêu khích, lúc đó chúng sẽ trút bỏ mọi thứ ngoại trừ những bản năng cơ bản nhất để bảo vệ những kẻ mà chúng nhận diện là đồng loại."
+ wilderness_pre_sapient_assault_army: "Bầy Thú Tiền Tri Giác"
+ seq_wilderness_pre_sapient_assault_army: "Bầy Thú Cộng Sinh $R$" # e.g. 'Symbiont Horde IV'
+ wilderness_pre_sapient_assault_army_plural: "Các Bầy Thú Tiền Tri Giác"
+ wilderness_pre_sapient_assault_army_desc: "Những sinh vật hung dữ sở hữu vừa đủ sự ranh mãnh và thể lực dồi dào nguyên thủy để bảo đảm sự hủy diệt tàn bạo đối với bất kỳ kẻ nào chúng coi là kẻ thù."
+
+####################################
+# Origins
+####################################
+ origin_wilderness: "Hoang Dã Sinh Thể"
+ origin_wilderness_desc: "§RCẢNH BÁO: Chặn tất cả các Con đường Thăng thiên ngoại trừ ['concept_purity_ascension', Thăng thiên Thuần khiết]§!\n\nĐế chế này không bắt nguồn từ một loài sinh vật đơn lẻ, mà là từ chính hành tinh quê hương: một quần xã sinh thái khổng lồ, nơi toàn bộ hệ động thực vật gắn kết với nhau trong một mối quan hệ cộng sinh tương hỗ hoàn hảo dưới một ý thức hành tinh duy nhất."
+ origin_tooltip_wilderness_effects: "- Đặc trưng Loài: ['trait:trait_wilderness']\n- Thay thế toàn bộ £building£ ['concept_buildings', Công trình], £district£ ['concept_districts', Khu quy hoạch] và £zone£ ['concept_district_specialization', Chuyên môn hóa Khu quy hoạch] tiêu chuẩn bằng các phiên bản đặc chế riêng\n- Thay thế Thuộc địa hóa bằng Tàu Thuộc địa bằng ['concept_terraforming', Địa hóa Hành tinh]\n- Mở khóa Tài nguyên mới: £biomass£ ['concept_biomass', Sinh khối] \n- Hành tinh Quê nhà:$TABBED_NEW_LINE$- Quy mô: £planetsize£ 18$TABBED_NEW_LINE$- ['concept_scorched_plains', £blocker£ $d_scorched_plains$]"
+ trait_wilderness: "Hoang Dã"
+ trait_wilderness_desc: "§LLoài sinh vật này tồn tại như một phần của một sinh thể cộng sinh tương hỗ, nơi tâm trí và sản phẩm của chúng đã hòa nhập sâu sắc với môi trường đến mức không thể tách rời.§!"
+ WILDERNESS_NATURAL_WORLDS_DECLINE: "§R§YHoang Dã§! không thể sinh tồn trên các hành tinh nhân tạo.§!"
+ WILDERNESS_DEAD_WORLD: "$TRIGGER_FAIL$§YHoang Dã§! không thể tồn tại trong các đế chế không phải Hoang Dã."
+ country_virtual_jobs: "Tất cả các việc làm trong Đế chế này sẽ được tự động lấp đầy."
+
+ concept_wilderness_trait: "$trait_wilderness$"
+ concept_wilderness_trait_desc: "- $MOD_LOGISTIC_GROWTH_MULT$: §R-100%§!\n- §RKhông thể di cư hoặc tái định cư§! $NEW_LINE$- §RKhông thể sinh sản tự nhiên§!\n\n§L$trait_wilderness_desc$§!"
+
+ PRESCRIPTED_adjective_zhardmehka: "Nở Rộ"
+ PRESCRIPTED_ship_prefix_zhardmehka: "ZMV"
+ PRESCRIPTED_species_name_zhardmehka: "Zhard-Krellin"
+ PRESCRIPTED_species_name_plural_zhardmehka: "Zhard-Krellin"
+ PRESCRIPTED_species_adjective_zhardmehka: "Zhard-Krellin"
+ PRESCRIPTED_planet_name_zhardmehka: "Tellon"
+ PRESCRIPTED_system_name_zhardmehka: "Tattla"
+ PRESCRIPTED_ruler_name_zhardmehka: "$FUN3_CHR_Obanva$ $FUN3_CHR_uvi-Livve$"
+ PRESCRIPTED_ruler_title_zhardmehka: "Hóa Thân"
+
+ START_SCREEN_WILDERNESS_INTRO: "Từ thuở ký ức xa xôi nhất, [root.GetHomeWorldName] đã luôn là chính thế giới này: một mạng lưới rễ cây, dây leo và các giác quan trải rộng khắp bề mặt hành tinh, nuôi dưỡng và bảo vệ vô vàn dạng sống cộng sinh trong vòng tay ấm áp của mình."
+ START_SCREEN_WILDERNESS_DEFAULT: "[root.GetHomeWorldName] cảm nhận được sức nóng rực rỡ và ánh sáng chói lọi từ các vì sao. Giờ đây, khi các bào tử của chúng ta đã sẵn sàng bay vào vũ trụ, chúng ta sẽ mở rộng khu vườn sinh thái vĩ đại này ra khắp thiên hà."
+ START_SCREEN_WILDERNESS_COLD: "[root.GetHomeWorldName] cảm nhận được ánh sáng sắc lạnh và băng giá rực rỡ. Bất chấp sự buốt giá của không gian, ngọn lửa của sự sống bên trong chúng ta sẽ thắp sáng mọi thế giới băng giá."
+ START_SCREEN_WILDERNESS_DRY: "[root.GetHomeWorldName] cảm nhận được bầu không khí khô rát và gió bụi sa mạc. Sự kiên cường của chúng ta trong điều kiện khắc nghiệt sẽ là nền móng để sinh sôi trên những mảnh đất cằn cỗi nhất."
+ START_SCREEN_WILDERNESS_WET: "[root.GetHomeWorldName] cảm nhận được tiếng gọi của đại dương và những cơn mưa tầm tã. Dòng chảy sinh mệnh của chúng ta sẽ tưới mát cho mọi hành tinh trong vũ trụ."
+ START_SCREEN_WILDERNESS_OUTRO: "Cơn đau đã đánh thức chúng ta. Lần đầu tiên chúng ta nhận thức được sự mong manh của chính mình. Vũ trụ đầy rẫy hiểm nguy, nhưng cũng chất chứa những điều kỳ diệu. Chúng ta sẽ vươn những chiếc rễ của mình ra các vì sao!"
+
+####################################
+# Authorities
+####################################
+ auth_mutualistic_intelligence: "Trí Tuệ Tương Hỗ"
+ auth_mutualistic_intelligence_plural: "Các Trí Tuệ Tương Hỗ"
+ auth_mutualistic_intelligence_desc: "$auth_mutualistic_intelligence_plural$"
+ tt_auth_mutualistic_intelligence: "Có Thể chế §Y$auth_mutualistic_intelligence$§! (§Y$auth_hive_mind$§!)"
+
+ gov_wilderness: "$gov_hive_mind$"
+ gov_wilderness_desc: "Chính thể này vận hành như một ý thức thống nhất duy nhất, với việc người dân không có ý chí cá nhân nào ngoài việc đáp ứng các nhu cầu và mong muốn của $RT_WILDERNESS$."
+ RT_WILDERNESS: "Hoang Dã"
+ RT_WILDERNESS_FEMALE: "$RT_WILDERNESS$"
+
+####################################
+# Buildings
+####################################
+ building_colony_shelter_wilderness: "Xúc Tua Hành Tinh"
+ building_colony_shelter_wilderness_desc: "Một tiền đồn đa bào gồm các sinh vật đan xen lan rộng khắp thế giới này, bảo đảm sự hiện diện ổn định của Hoang Dã."
+
+ building_capital_wilderness: "Bó Rễ Hành Tinh"
+ building_capital_wilderness_desc: "Một khối sinh vật đơn giản trải rộng, tràn đầy sức sống, tồn tại hài hòa với các thể cộng sinh linh động để nâng cao hiệu suất của chúng."
+ building_major_capital_wilderness: "Tổ Hợp Rễ Hành Tinh"
+ building_major_capital_wilderness_desc: "Một khối sinh thể tập trung cao độ, đủ dày đặc để các thể cộng sinh sinh sống, lao động và sinh sôi nảy nở, tạo nên một trung tâm trao đổi chất toàn cầu."
+ building_system_capital_wilderness: "Đầu Mối Rễ Hành Tinh"
+ building_system_capital_wilderness_desc: "Một liên minh khổng lồ gồm các dạng sống đa dạng phối hợp hoạt động ở quy mô to lớn đến mức nó có thể điều hành và điều phối toàn bộ tài nguyên của một hành tinh."
+ requires_building_wilderness_capital: "§RYêu cầu có §Y$building_capital_wilderness$§! trên hành tinh.§!"
+ requires_building_wilderness_major_capital: "§RYêu cầu có §Y$building_major_capital_wilderness$§! trên hành tinh.§!"
+ requires_building_wilderness_system_capital: "§RYêu cầu có §Y$building_system_capital_wilderness$§! trên hành tinh.§!"
+
+ building_imperial_capital_wilderness: "Tổ Hợp Đế Vương"
+ building_imperial_capital_wilderness_desc: "Hoang Dã cai quản Đế chế Thiên hà từ sâu bên trong công trình khổng lồ và phức tạp này. Số phận của thiên hà được định đoạt tại đây."
+
+ building_tendril_cradle_1: "Cái Nôi Xúc Tua"
+ building_tendril_cradle_1_desc: "Một cụm sợi có rễ bám ngắn tỏa ra từ vị trí này, hút các nguyên liệu thô lân cận vào các cơ quan thiết yếu gần nhất."
+ building_tendril_cradle_2: "Dải Mạng Sợi"
+ building_tendril_cradle_2_desc: "Những xúc tua thon dài vươn khắp mặt đất, hút tài nguyên từ các khu vực lân cận để xử lý và phân phối."
+ building_tendril_cradle_3: "Tổ Rễ Dẫn Truyền"
+ building_tendril_cradle_3_desc: "Những chùm rễ đan bện mạch lạc dịch chuyển dưới lòng đất, vận chuyển sinh khối qua các kênh phân tầng đến các trung tâm sinh học ở xa."
+ building_tendril_cradle_4: "Tim Sợi Hành Tinh"
+ building_tendril_cradle_4_desc: "Những xúc tua hậu cần khổng lồ tỏa khắp cơ thể hành tinh, kéo, đẩy và phân phối sinh khối với sự đồng bộ nhịp nhàng không mệt mỏi."
+
+ planet_research_buildings: "Công Trình Nghiên Cứu Hành Tinh"
+ mod_planet_research_buildings_upkeep_mult: "Phí bảo trì $planet_research_buildings$"
+ building_brain_node_1: "Chồi Sinh Nghiên Cứu"
+ building_brain_node_1_desc: "Công việc đầy tính khám phá của các thể cộng sinh đặt nền móng cho các nghiên cứu tổng quát."
+ mod_planet_building_brain_node_1_build_speed_mult: "Tốc độ xây dựng $building_brain_node_1$"
+ building_brain_node_2: "Rừng Cây Nghiên Cứu"
+ building_brain_node_2_desc: "Một môi trường sống chuyên biệt nhằm thúc đẩy tính tò mò, tạo điều kiện cho các nghiên cứu tiên tiến hơn về các hiện tượng tự nhiên và nhân tạo."
+ mod_planet_building_brain_node_2_build_speed_mult: "Tốc độ xây dựng $building_brain_node_2$"
+ building_brain_node_3: "Vành Đai Nghiên Cứu Dị Thường"
+ building_brain_node_3_desc: "Những khu bảo tồn rộng lớn này cho phép một lượng lớn các thể cộng sinh ưa cực đoan thử nghiệm với nhiều loại vật liệu kỳ lạ và nguy hiểm."
+ mod_planet_building_brain_node_3_build_speed_mult: "Tốc độ xây dựng $building_brain_node_3$"
+ building_brain_node_4: "Vành Đai Nghiên Cứu Cao Cấp"
+ building_brain_node_4_desc: "Sự kết hợp giữa công nghệ ngoài hành tinh và các khu bao bọc cộng sinh khổng lồ thúc đẩy nghiên cứu tiên tiến trong nhiều môi trường thử nghiệm đa dạng."
+ mod_planet_building_brain_node_4_build_speed_mult: "Tốc độ xây dựng $building_brain_node_4$"
+
+ building_commensal_clearing_1: "Bãi Trống Hội Sinh"
+ building_commensal_clearing_1_desc: "Những ốc đảo tĩnh lặng này cho phép các sinh vật di động tụ tập, nghỉ ngơi và tái đồng điệu với Hoang Dã."
+ building_commensal_clearing_2: "Rừng Cây Hội Sinh"
+ building_commensal_clearing_2_desc: "Địa điểm trú ẩn lý tưởng cho các cuộc tụ họp quy mô lớn của các thể cộng sinh. Sự tương tác của chúng tại đây tạo ra sự gắn kết cho bản thể phân tán."
+ building_commensal_clearing_3: "Thung Lũng Hội Sinh"
+ building_commensal_clearing_3_desc: "Các cộng đồng cộng sinh dày đặc và đa dạng di chuyển qua các tầng địa chất nguyên sơ này, thắt chặt mối dây liên kết giữa chúng."
+ building_commensal_clearing_4: "Quần Xã Hội Sinh"
+ building_commensal_clearing_4_desc: "Các môi trường sống rộng lớn, kết nối với nhau là nơi diễn ra vô số cuộc hội ngộ, mỗi cuộc hội ngộ là một tia lửa quan trọng cho sự thống nhất cộng sinh."
+
+ building_massive_growth_1: "Thung Lũng Dinh Dưỡng"
+ building_massive_growth_1_desc: "Việc biến đổi địa hình quy mô nhỏ mang lại các điều kiện vi khí hậu lý tưởng quanh năm cho mùa màng."
+ building_massive_growth_2: "Tầng Dưới Dinh Dưỡng"
+ building_massive_growth_2_desc: "Một vòm tán rộng lớn bán thấm mang lại mọi sự bảo vệ môi trường cần thiết cho tầng cây bụi, liên tục sản xuất nguồn lương thực dồi dào."
+ building_massive_growth_3: "Đại Đồn Điền Bậc Thang"
+ building_massive_growth_3_desc: "Thiên đường cho các vi sinh vật và động vật bán thủy sinh, những thửa ruộng bậc thang bao la này mang lại nguồn protein và ngũ cốc dồi dào."
+ building_massive_growth_4: "Đồn Điền Lâm Nghiệp"
+ building_massive_growth_4_desc: "Các cụm thực vật khổng lồ nhiều lá che chở cho cây trồng tầng dưới, bảo đảm sản lượng lương thực ổn định phục vụ toàn bộ mạng lưới thức ăn."
+
+ building_bioelectric_stimulator_1: "Bộ Thích Ứng Lục Lạp"
+ building_bioelectric_stimulator_1_desc: "Các cụm bong bóng hình thấu kính hội tụ ánh sáng mặt trời qua dung dịch nuôi cấy giàu tảo, chuyển hóa và lưu trữ năng lượng để sử dụng sau này."
+ building_bioelectric_stimulator_2: "Bộ Gia Tốc Lục Lạp"
+ building_bioelectric_stimulator_2_desc: "Những bong bóng thủy tinh chứa đầy tảo quang hợp tận dụng năng lượng mặt trời để tạo ra các liên kết sinh hóa chặt chẽ hơn, giảm thiểu sự tự tiêu hao năng lượng."
+ building_bioelectric_stimulator_3: "Mảng Thấu Kính Lục Lạp"
+ building_bioelectric_stimulator_3_desc: "Những cành cây đối trọng gắn bộ thu gom năng lượng mặt trời có thể nâng lên hạ xuống tùy theo nhu cầu và sản lượng phát điện, tạo thành một hệ thống đáng tin cậy."
+ building_bioelectric_stimulator_4: "Bao Nang Lục Lạp"
+ building_bioelectric_stimulator_4_desc: "Những túi thủy tinh chứa đầy tảo này có thể di chuyển và sinh sôi tại nơi cần năng lượng nhất, gần như loại bỏ nhu cầu truyền tải điện đường dài."
+
+ building_churning_tunnels_1: "Mũi Khoan Đá"
+ building_churning_tunnels_1_desc: "Chất thực vật có độ cứng gần như tinh thể xuyên phá qua các điểm khai thác hiện có để chiết xuất thêm nhiều khoáng sản hữu ích."
+ building_churning_tunnels_2: "Bộ Lọc Đá"
+ building_churning_tunnels_2_desc: "Các quần thể màng sinh học bán thấm thu gom các khoáng chất quý giá vốn có thể bị cuốn trôi trong dòng chảy khai thác chất lỏng."
+ building_churning_tunnels_3: "Máy Nghiền Đá"
+ building_churning_tunnels_3_desc: "Các tấm nghiền và hàm kẹp mạnh mẽ giúp nghiền nát vật chất đất đá thành bùn hóa học để chiết xuất khoáng sản dễ dàng hơn."
+ building_churning_tunnels_4: "Bể Lọc Khoáng"
+ building_churning_tunnels_4_desc: "Sự phối hợp nhịp nhàng giữa máy nghiền, tác nhân sinh hóa và màng sinh học cho phép xử lý và tinh chế khoáng sản ngay tại chỗ tại bất kỳ mạch khoáng giàu có nào."
+
+ building_natural_furnace_0: "Hồ Nấu Chảy"
+ building_natural_furnace_0_desc: "Các thể cộng sinh ưa nhiệt làm việc miệt mài bên trong và xung quanh nguồn nhiệt tự nhiên này để sản xuất hợp kim chất lượng cao."
+ building_natural_furnace_1: "Lò Nung Chảy"
+ building_natural_furnace_1_desc: "Các cấu trúc sinh trưởng chịu nhiệt cho phép tận dụng nhiệt lượng hiệu quả hơn, tạo ra hợp kim thượng hạng."
+ building_natural_furnace_2: "Lò Nấu Ánh Sáng Thể Rắn"
+ building_natural_furnace_2_desc: "Các lò nung hữu cơ-đá tinh vi sử dụng công nghệ toàn ảnh có khả năng sản xuất các hợp kim đa năng có độ bền vượt trội."
+ building_natural_furnace_3: "Lò Nấu Nano"
+ building_natural_furnace_3_desc: "Các sinh vật nano ưa nhiệt cư ngụ trong các bể nung rực lửa này giúp loại bỏ mọi tạp chất gây hại khỏi hợp kim."
+
+ building_avatar_chamber_1: "Cái Nôi Hóa Thân"
+ building_avatar_chamber_1_desc: "Một cơ quan chớm nở nơi Hoang Dã bắt đầu hình thành những hình thái cơ bản. Xây dựng cho nó một hình hài có thể thích nghi với sự sống xa lạ bên ngoài sinh quyển gốc."
+ building_avatar_chamber_2: "Phòng Hóa Thân"
+ building_avatar_chamber_2_desc: "Các cơ thể mô phỏng được nuôi cấy và định hình qua các thử nghiệm nội bộ, bắt chước các sinh vật và hệ sinh thái ngoại lai. Tri thức thu được bằng cách hòa nhập với cái chưa biết."
+ building_avatar_chamber_2_effect: "$building_avatar_chamber_1$ sản xuất thêm §G200§! £amenities£ Tiện nghi"
+ building_avatar_chamber_3: "Rừng Hóa Thân"
+ building_avatar_chamber_3_desc: "Cơ quan trải rộng này truyền tải các khuôn mẫu hóa thân được định hình theo các dạng hình thái và cảnh quan ngoài hành tinh."
+ building_avatar_chamber_3_effect: "$building_avatar_chamber_1$ sản xuất thêm §G400§! £amenities£ Tiện nghi"
+ building_avatar_chamber_4: "Vỏ Não Hóa Thân"
+ building_avatar_chamber_4_desc: "Một cỗ máy hiện thân cấp hành tinh, có khả năng mô phỏng toàn bộ các nền văn minh, hệ sinh thái ngoại chủng và môi trường cực đoan."
+ building_avatar_chamber_4_effect: "$building_avatar_chamber_1$ sản xuất thêm §G800§! £amenities£ Tiện nghi"
+
+ building_mote_aggravator: "Bộ Tiêu Hóa Hóa Học"
+ building_mote_aggravator_desc: "Một hệ thống thanh lịch gồm các mô mạch và quá trình trao đổi chất giúp chuyển hóa vật chất đất đá thông thường thành $volatile_motes$."
+
+ building_churning_stomach: "Bộ Lọc Khí Kỳ Dị"
+ building_churning_stomach_desc: "Các vi sinh vật và sinh vật nano chuyên hóa cao phản ứng với các hạt lơ lửng thông thường để tạo ra loại $exotic_gases$ tinh khiết này."
+
+ building_crystal_growth: "Vỉa Tinh Thể"
+ building_crystal_growth_desc: "Các vòm che đặc biệt điều hòa nhiệt độ và độ ẩm chính xác để tạo điều kiện nuôi cấy nhân tạo các $rare_crystals$."
+
+ building_planetary_carapace: "Đồn Trú Xương Thép"
+ building_planetary_carapace_desc: "Trường thử nghiệm dạng kén này có thể là nơi trú ngụ của vô số thể cộng sinh có ý thức lãnh thổ mãnh liệt, luôn sẵn sàng chiến đấu để bảo vệ thế giới."
+ mod_planet_building_planetary_carapace_build_speed_mult: "Tốc độ xây dựng $building_planetary_carapace$"
+ building_planetary_carapace_2: "Pháo Đài Xương Thép"
+ building_planetary_carapace_2_desc: "Cơ sở rộng lớn này sở hữu các sân tập kiên cố và chỗ ở hoàn chỉnh, bảo đảm lực lượng đồn trú phòng thủ có thể chống cự trước bất kỳ kẻ xâm lược nào."
+
+ building_ozone_thickener: "Mái Vòm Khiên Hành Tinh"
+ building_ozone_thickener_desc: "$tech_planetary_shield_generator_desc$"
+
+ building_subterranean_cache: "Kho Chứa Dưới Lòng Đất"
+ building_subterranean_cache_desc: "$building_resource_silo_desc$"
+
+ building_cradle_of_rebirth: "Cái Nôi Tái Sinh"
+ building_cradle_of_rebirth_desc: "Cắm rễ sâu vào lòng đất, cấu trúc này chuyển hóa vật chất mục rữa và con mồi bắt được thành sinh khối, nuôi dưỡng sự sống mới bằng những nhịp đập thầm lặng."
+
+ building_wilderness_storm_relief: "$building_storm_resistant_production$"
+ building_wilderness_storm_relief_desc: "Một vòm tán rộng gồm các tán lá cứng cáp có mang điện sinh học, bảo đảm an toàn cho các thể cộng sinh xung quanh trước các cơn bão vũ trụ."
+ building_wilderness_storm_relief_tt: "Giảm bớt §G100%§! hiệu ứng tiêu cực từ §Y$default_storm$§! lên sản lượng hành tinh."
+
+ holding_wilderness_glade: "Khu Rừng Hoang Dã"
+ holding_wilderness_glade_plural: "Các Khu Rừng Hoang Dã"
+ holding_wilderness_glade_desc: "Một vùng Hoang Dã cộng sinh màu mỡ kết nối mờ nhạt với quần thể mẹ. Mặc dù phụ thuộc vào nguồn thức ăn địa phương, nó tạo ra mối liên kết hài hòa giữa hai thế giới."
+ holding_wilderness_glade_effect_desc: "Chư hầu chuyển [owner.WildernessGladeProvides] thành $r_basic_plural$ cho Tông chủ.\nTông chủ giảm $mod_planet_jobs_productive_upkeep_mult$ trên thế giới Chư hầu.\nMột £blocker£ §Y$holding_wilderness_glade$§! xuất hiện trên hành tinh, chiếm một Ô Khu quy hoạch."
+ no_free_district_for_wilderness_glade: "$TRIGGER_FAIL$§RKhông có Khu quy hoạch trống trên hành tinh này cho quần xã thu nhỏ của chúng ta.§!"
+ blocker_tied_to_wilderness_glade: "$TRIGGER_FAIL$§RChướng ngại này sẽ tồn tại chừng nào §Y$holding_wilderness_glade$§! còn hoạt động.§!"
+ d_wilderness_glade_blocker: "$d_wilderness_root_blocker$"
+ d_wilderness_glade_blocker_desc: "Cần có cấu trúc rễ đáng kể để nâng đỡ $holding_wilderness_glade$ lân cận."
+ holding_wilderness_glade_modifier: "Các Khu Rừng Hoang Dã Phân Tán"
+ holding_wilderness_glade_modifier_desc: "Các thế giới chư hầu hòa nhịp cùng Hoang Dã của chúng ta, mỗi đối tác cùng chia sẻ sự trù phú tương hỗ lẫn nhau." # appears in 'lore brown'
+ holding_wilderness_glade_modifier_tt: "Số lượng thay đổi tùy theo số lượng thế giới Chư hầu đặt §Y$holding_wilderness_glade_plural$§!."
+
+####################################
+# Districts
+####################################
+ district_craglands: "Quần Xã Chung Sống"
+ district_craglands_plural: "Các Quần Xã Chung Sống"
+ district_craglands_desc: "Những lùm cây tươi tốt này cung cấp nơi trú ẩn cho các thể cộng sinh, những sinh vật vừa nhào nặn Hoang Dã vừa phụ thuộc vào sự tồn tại của nó."
+ mod_district_craglands_max_add: "Tối đa $district_craglands_plural$"
+ mod_planet_district_craglands_build_speed_mult: "Tốc độ xây dựng $district_craglands$"
+
+ district_orchard_forests: "Rừng Cây Trái"
+ district_orchard_forests_plural: "Các Rừng Cây Trái"
+ district_orchard_forests_desc: "Các khu vực dành riêng cho việc canh tác và săn bắt, cung cấp từ thức ăn tế bào, ngũ cốc ăn được cho đến các thể cộng sinh săn mồi."
+ mod_district_orchard_forests_max_add: "Tối đa $district_orchard_forests_plural$"
+ mod_planet_district_orchard_forests_build_speed_mult: "Tốc độ xây dựng $district_orchard_forests$"
+
+ district_orchard_forests_uncapped: "$district_orchard_forests$"
+ district_orchard_forests_uncapped_plural: "$district_orchard_forests_plural$"
+ district_orchard_forests_uncapped_desc: "$district_orchard_forests_desc$"
+ mod_district_orchard_forests_uncapped_max: "$mod_district_orchard_forests_max_add$"
+ mod_planet_district_orchard_forests_uncapped_build_speed_mult: "$mod_planet_district_orchard_forests_build_speed_mult$"
+
+ #district_metallic_dew_plains: "Metallic Seam Biome"
+ #district_metallic_dew_plains_plural: "Metallic Seam Biomes"
+ #district_metallic_dew_plains_desc: "Complex geological forms and bespoke refinery buildings are sited throughout these mineral-rich regions."
+ #district_metallic_dew_plains_tooltip_desc: "$i_alloys$ from each §H$building_natural_furnace_0$§!: §G+1§!"
+ #mod_district_metallic_dew_plains_max: "Max $district_metallic_dew_plains_plural$"
+ #mod_planet_district_metallic_dew_plains_build_speed_mult: "$district_metallic_dew_plains$ Build Speed"
+
+ district_photosynthesis_fields: "Cánh Đồng Quang Hợp"
+ district_photosynthesis_fields_plural: "Các Cánh Đồng Quang Hợp"
+ district_photosynthesis_fields_desc: "Những chiếc lá quang hợp xòe rộng tạo thành cấu trúc chính của các khu vực thu gom năng lượng bao la này."
+ mod_district_photosynthesis_fields_max_add: "Tối đa $district_photosynthesis_fields_plural$"
+ mod_planet_district_photosynthesis_fields_build_speed_mult: "Tốc độ xây dựng $district_photosynthesis_fields$"
+
+ district_photosynthesis_fields_uncapped: "$district_photosynthesis_fields$"
+ district_photosynthesis_fields_uncapped_plural: "$district_photosynthesis_fields_plural$"
+ district_photosynthesis_fields_uncapped_desc: "$district_photosynthesis_fields_desc$"
+ mod_district_photosynthesis_fields_uncapped_max: "Tối đa $district_photosynthesis_fields_plural$"
+ mod_planet_district_photosynthesis_fields_uncapped_build_speed_mult: "$mod_planet_district_photosynthesis_fields_build_speed_mult$"
+
+ district_hollow_mountains: "Dãy Núi Rỗng"
+ district_hollow_mountains_plural: "Các Dãy Núi Rỗng"
+ district_hollow_mountains_desc: "Những cảnh quan núi đá này chằng chịt các hố đào, dấu tích do các thể cộng sinh kiên cường đào bới để tìm kiếm khoáng sản quý giá."
+ mod_district_hollow_mountains_max_add: "Tối đa $district_hollow_mountains_plural$"
+ mod_planet_district_hollow_mountains_build_speed_mult: "Tốc độ xây dựng $district_hollow_mountains$"
+
+ district_hollow_mountains_uncapped: "$district_hollow_mountains$"
+ district_hollow_mountains_uncapped_plural: "$district_hollow_mountains_plural$"
+ district_hollow_mountains_uncapped_desc: "$district_hollow_mountains_desc$"
+ mod_district_hollow_mountains_uncapped_max: "$mod_district_hollow_mountains_max_add$"
+ mod_planet_district_hollow_mountains_uncapped_build_speed_mult: "$mod_planet_district_hollow_mountains_build_speed_mult$"
+
+####################################
+# Zones
+####################################
+zone_urban_wilderness: "Tâm Rừng"
+zone_urban_wilderness_desc: "Một lõi sinh khối và bản năng đập rộn ràng. Nó liên tục mở rộng và tái cấu trúc, cho phép Hoang Dã bén rễ sâu và rộng tại nơi đây."
+
+zone_foundry_wilderness: "Ruột Nóng Chảy"
+zone_foundry_wilderness_desc: "Buồng nhiệt này khuấy động đá nóng chảy và sức mạnh nguyên tố. $job_forgesymbiont_plural$ luyện nên hợp kim từ nguồn năng lượng này."
+
+zone_research_wilderness: "Cuống Tư Duy"
+zone_research_wilderness_desc: "Một hạch rễ thần kinh và hoa biến dị vươn cao. $job_evosymbiont_plural$ giải mã các quy luật tự nhiên tại đây."
+
+zone_unity_wilderness: "Vách Đá Hòa Âm"
+zone_unity_wilderness_desc: "Những cấu trúc cao vút lồng ghép xương rỗng và thịt đá, nơi ngọn gió mang các âm sắc nhiều tầng lớp băng qua bề mặt hành tinh. Tại đây, các $job_choirsymbiont_plural$ tụ họp lại, để chính thế giới cất lên tiếng hát."
+
+zone_fortress_wilderness: "Nụ Chỉ Huy"
+zone_fortress_wilderness_desc: "Một hạch cảm giác căng tràn, nơi các $job_tamersymbiont_plural$ tụ họp để điều phối các nỗ lực phòng thủ."
+
+zone_minerals_wilderness: "Sống Núi Quặng"
+zone_minerals_wilderness_desc: "Một cấu trúc đá sống cao vút có gờ rãnh, vừa là ngọn núi vừa là một cơ quan sống, liên tục kết tinh khoáng sản."
+
+zone_energy_wilderness: "Phổi Nấm Quang Năng"
+zone_energy_wilderness_desc: "Những cánh đồng mô quang hợp rộng lớn phồng lên cùng ánh sáng mặt trời thu nhận được, tích tụ áp lực cho đến khi chúng thở ra theo từng đợt nhịp nhàng. Từ các xung bức xạ này, $job_photosymbiont_plural$ được phóng vào bầu trời, cưỡi các luồng khí nhiệt đuổi theo vòng cung của các vì sao."
+
+zone_food_wilderness: "Vườn Nở Rộ"
+zone_food_wilderness_desc: "Một bộ não thơm ngát kết từ cánh hoa và pheromone, dệt nên những lộ trình thụ phấn như sợi chỉ trên khung cửi gấm vóc."
+
+zone_research_unity_wilderness: "Lõi Hài Hòa"
+zone_research_unity_wilderness_desc: "Một cơ quan nhịp điệu tại trung tâm của Hoang Dã, nơi tư tưởng dao động qua ký ức và tri thức."
+
+zone_trade_wilderness: "Lộ Trình Sợi"
+zone_trade_wilderness_desc: "Những vòng sợi, chi cuộn tròn và túi dự trữ tạo nên một trung tâm hậu cần không mệt mỏi, nơi $job_spindlesymbiont_plural$ vận hành nhịp nhàng."
+
+####################################
+# Decisions
+####################################
+ decision_wilderness_expand: "Mở Rộng Quy Mô Hành Tinh"
+ decision_wilderness_expand_desc: "Tái hấp thu lượng sinh khối tinh khiết mà chúng ta đã thu thập để nuôi dưỡng và mở rộng thế giới của mình."
+ decision_wilderness_mastery_over_nature_desc: "Bản thể tập thể của chúng ta cần không gian để phát triển, và chúng ta sẽ khai mở không gian đó bằng cách hòa nhập hoàn toàn vào địa chất của thế giới này."
+
+####################################
+# Jobs
+####################################
+
+ pop_cat_wilderness_heart_strata: "$biomass$"
+ pop_cat_wilderness_heart_strata_plural: "$biomass$"
+ pop_cat_wilderness_heart_strata_desc: "Ý chí kết hợp của toàn bộ hệ sinh thái, biểu hiện như một tâm trí duy nhất."
+ mod_pop_cat_wilderness_heart_strata_bonus_workforce_mult: "Lực lượng lao động cộng thêm cho $pop_cat_wilderness_heart_strata_plural$"
+
+ pop_cat_menial_symbiont: "Thể Cộng Sinh Cơ Bản"
+ pop_cat_complex_symbiont: "Thể Cộng Sinh Phức Hợp"
+
+ pollinosymbiont: "$job_pollinosymbiont$"
+ job_pollinosymbiont: "Thể Thụ Phấn"
+ job_pollinosymbiont_plural: "Các Thể Thụ Phấn"
+ job_pollinosymbiont_plural_with_icon: "£job_pollinosymbiont£ $job_pollinosymbiont_plural$"
+ job_pollinosymbiont_desc: "Gánh vác sứ mệnh sinh sản của hành tinh, chúng không chỉ thụ phấn cho hoa mà còn mang lại sức sống cho rừng cây, đồng cỏ và các rạn san hô."
+ job_pollinosymbiont_effect_desc: "£job_pollinosymbiont£ $job_pollinosymbiont_plural$ sản xuất £food£ §Y$food$§! và tăng trưởng sinh khối."
+ mod_job_pollinosymbiont_add: "Việc làm $job_pollinosymbiont$"
+ mod_job_pollinosymbiont_pop: "§G+1§! việc làm $job_pollinosymbiont$ mỗi $VALUE$ Pop"
+ mod_job_pollinosymbiont_per_pop_short: "\n§G+1§! £mod_job_pollinosymbiont_add£ mỗi $VALUE$ £pop£"
+
+ photosymbiont: "$job_photosymbiont$"
+ job_photosymbiont: "Thể Quang Hợp"
+ job_photosymbiont_plural: "Các Thể Quang Hợp"
+ job_photosymbiont_plural_with_icon: "£job_photosymbiont£ $job_photosymbiont_plural$"
+ job_photosymbiont_desc: "Có thể nhìn thấy từ quỹ đạo, nhịp điệu di cư của các thể cộng sinh này đồng bộ hoàn hảo với đường đi của mặt trời."
+ job_photosymbiont_effect_desc: "£job_photosymbiont£ $job_photosymbiont_plural$ sản xuất £energy£ §Y$energy$§!."
+ mod_job_photosymbiont_add: "Việc làm $job_photosymbiont$"
+ mod_job_photosymbiont_per_pop: "§G+1§! việc làm $job_photosymbiont$ mỗi $VALUE$ Pop"
+ mod_job_photosymbiont_pop_short:0 "\n§G+1§! £mod_job_photosymbiont_add£ mỗi $VALUE$ £pop£"
+
+ grubsymbiont: "$job_grubsymbiont$"
+ job_grubsymbiont: "Thể Đào Bới"
+ job_grubsymbiont_plural: "Các Thể Đào Bới"
+ job_grubsymbiont_plural_with_icon: "£job_grubsymbiont£ $job_grubsymbiont_plural$"
+ job_grubsymbiont_desc: "Không có thị lực và thân mềm, những thể cộng sinh này đào xới bằng rung động, bị thu hút bởi sự cộng hưởng của các kim loại quý."
+ job_grubsymbiont_effect_desc: "£job_grubsymbiont£ $job_grubsymbiont_plural$ sản xuất £minerals£ §Y$minerals$§!."
+ mod_job_grubsymbiont_add: "Việc làm $job_grubsymbiont$"
+ mod_job_grubsymbiont_per_pop: "§G+1§! việc làm $job_grubsymbiont$ mỗi $VALUE$ Pop"
+ mod_job_grubsymbiont_pop_short:0 "\n§G+1§! £mod_job_grubsymbiontt_add£ mỗi $VALUE$ £pop£"
+
+ choirsymbiont: "$job_choirsymbiont$"
+ job_choirsymbiont: "Thể Hòa Ca"
+ job_choirsymbiont_plural: "Các Thể Hòa Ca"
+ job_choirsymbiont_with_icon: "£job_choirsymbiont£ $job_choirsymbiont$"
+ job_choirsymbiont_plural_with_icon: "£job_choirsymbiont£ $job_choirsymbiont_plural$"
+ job_choirsymbiont_desc: "Các thể cộng sinh này phát ra những âm thanh du dương, nhiều tầng lớp, vang vọng khắp sinh quyển, củng cố tính thống nhất của tâm trí tập thể."
+ job_choirsymbiont_effect_desc: "£job_choirsymbiont£ $job_choirsymbiont_plural$ chuyển hóa £energy£ §Y$energy$§! và £food£ §Y$food$§! (hoặc £minerals£ §Y$minerals$§!) thành £unity£ §Y$unity$§!"
+ mod_job_choirsymbiont_add: "Việc làm $job_choirsymbiont$"
+ mod_job_choirsymbiont_per_pop: "§G+1§! việc làm $job_choirsymbiont$ mỗi $VALUE$ Pop"
+ mod_job_choirsymbiont_per_pop_short: "\n§G+1§! £mod_job_choirsymbiont_add£ mỗi $VALUE$ £pop£"
+
+ forgesymbiont: "$job_forgesymbiont$"
+ job_forgesymbiont: "Thể Đúc Luyện"
+ job_forgesymbiont_plural: "Các Thể Đúc Luyện"
+ job_forgesymbiont_plural_with_icon: "£job_forgesymbiont£ $job_forgesymbiont_plural$"
+ job_forgesymbiont_desc: "Sinh ra từ magma và được dẫn lối bởi bản năng, những thể cộng sinh này tinh luyện quặng thô thành hợp kim như một sự hiến dâng tự nhiên cho Hoang Dã."
+ job_forgesymbiont_effect_desc: "£job_forgesymbiont£ $job_forgesymbiont_plural$ chuyển hóa £minerals£ §Y$minerals$§! thành £alloys£ §Y$alloys$§!"
+ mod_job_forgesymbiont_add: "Việc làm $job_forgesymbiont$"
+ mod_job_forgesymbiont_per_pop: "§G+1§! việc làm $job_forgesymbiont$ mỗi $VALUE$ Pop"
+ mod_job_forgesymbiont_per_pop_short: "\n§G+1§! £mod_job_forgesymbiont_add£ mỗi $VALUE$ £pop£"
+
+ evosymbiont_physicist: "$job_evosymbiont$ Vật lý"
+ evosymbiont_biologist: "$job_evosymbiont$ Sinh học"
+ evosymbiont_engineer: "$job_evosymbiont$ Kỹ thuật"
+ evosymbiont: "$job_evosymbiont$"
+
+ job_evosymbiont_physicist: "$job_evosymbiont$ Vật lý"
+ job_evosymbiont_biologist: "$job_evosymbiont$ Sinh học"
+ job_evosymbiont_engineer: "$job_evosymbiont$ Kỹ thuật"
+ job_evosymbiont_physicist_plural: "$job_evosymbiont_plural$ Vật lý"
+ job_evosymbiont_biologist_plural: "$job_evosymbiont_plural$ Sinh học"
+ job_evosymbiont_engineer_plural: "$job_evosymbiont_plural$ Kỹ thuật"
+ job_evosymbiont_physicist_desc: "$job_evosymbiont_desc$"
+ job_evosymbiont_biologist_desc: "$job_evosymbiont_desc$"
+ job_evosymbiont_engineer_desc: "$job_evosymbiont_desc$"
+ job_evosymbiont: "Thể Tiến Hóa"
+ job_evosymbiont_plural: "Các Thể Tiến Hóa"
+ job_evosymbiont_icon: "£job_brain_drone_physicist£"
+ job_evosymbiont_with_icon: "£job_brain_drone_physicist£ $job_evosymbiont$"
+ job_evosymbiont_plural_with_icon: "[calculator_physicist.GetIcon][calculator_biologist.GetIcon][calculator_engineer.GetIcon] $job_evosymbiont_plural$"
+ job_evosymbiont_desc: "Cơ thể của những thể cộng sinh này là những giả thuyết sống. Phủ đầy những xúc tu mới lạ, màng khúc xạ và gai hình mạng lưới, chúng tiến hóa để nếm trải trọng lực và giải mã các công thức hóa học."
+ job_evosymbiont_effect_desc: "£job_brain_drone_physicist£ $job_evosymbiont_plural$ chuyển hóa $r_minerals$ thành $r_physics$ $r_society$ $r_engineering$"
+ job_evosymbiont_physicist_effect_desc: "£job_brain_drone_physicist£ $job_evosymbiont_physicist_plural$ chuyển hóa $r_minerals$ thành $r_physics$"
+ job_evosymbiont_biologist_effect_desc: "£job_brain_drone_biologist£ $job_evosymbiont_biologist_plural$ chuyển hóa $r_minerals$ thành $r_society$"
+ job_evosymbiont_engineer_effect_desc: "£job_brain_drone_engineer£ $job_evosymbiont_engineer_plural$ chuyển hóa $r_minerals$ thành $r_engineering$"
+
+ mod_job_evosymbiont_add: "Việc làm $job_evosymbiont$"
+ mod_job_evosymbiont_per_pop: "§G+1§! việc làm $job_evosymbiont$ mỗi $VALUE$ Pop"
+ mod_job_evosymbiont_per_pop_short: "\n§G+1§! £mod_job_brain_Drone_add£ mỗi $VALUE$ £pop£"
+
+ tamersymbiont: "$job_tamersymbiont$"
+ job_tamersymbiont: "Thể Thuần Hóa"
+ job_tamersymbiont_plural: "Các Thể Thuần Hóa"
+ job_tamersymbiont_desc: "Những thể cộng sinh này phát ra các tín hiệu pheromone phức tạp, dẫn dắt các bầy đàn tiền tri giác và biến bản năng hoang dã thành hành động phòng thủ có phối hợp."
+ job_tamersymbiont_effect_desc: "[soldier.GetIcon] $job_tamersymbiont_plural$ gia tăng £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!, $r_stability$, và tạo ra £defense_army£ §YĐội quân Phòng vệ§!"
+ mod_job_tamersymbiont_add: "Việc làm $job_tamersymbiont$"
+ mod_job_tamersymbiont_per_pop: "§G+1§! việc làm $job_tamersymbiont$ mỗi $VALUE$ Pop"
+ mod_job_tamersymbiont_per_pop_short: "\n§G+1§! £mod_job_patrol_drone_add£ mỗi $VALUE$ £pop£"
+ immunosymbiont: "$job_immunosymbiont$"
+ job_immunosymbiont: "Thể Miễn Dịch"
+ job_immunosymbiont_plural: "Các Thể Miễn Dịch"
+ job_immunosymbiont_desc: "Các thể cộng sinh này phát hiện và loại bỏ các hành vi lệch lạc, tuần tra các mạng lưới rễ của Hoang Dã. Cơ thể khổng lồ cũng cần có hệ miễn dịch cảnh giác."
+ job_immunosymbiont_effect_desc: "[patrol_drone.GetIcon] $job_immunosymbiont_plural$ giảm £crime£ §Y$PLANET_CRIME_NO_HAPPINESS_TITLE$§!, tạo ra £defense_army£ §YĐội quân Phòng vệ§!, và sản xuất £unity£ §Y$unity$§!"
+
+ broodsymbiont: "$job_broodsymbiont$"
+ job_broodsymbiont: "Thể Ươm Mầm"
+ job_broodsymbiont_plural: "Các Thể Ươm Mầm"
+ job_broodsymbiont_plural_with_icon: "[spawning_drone.GetIcon] $job_broodsymbiont_plural$"
+ job_broodsymbiont_desc: "Những thể cộng sinh này làm đẫm Hoang Dã bằng sinh khối linh hoạt: vật chất nguyên thủy, tươi sống sẵn sàng chuyển hóa thành bất kỳ dạng sống nào theo nhu cầu."
+ job_broodsymbiont_effect_desc: "[spawning_drone.GetIcon] $job_broodsymbiont_plural$ chuyển hóa $r_food$ (hoặc $r_minerals$) thành £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§! và £biomass£ §YSinh khối§!"
+ mod_job_broodsymbiont_add: "Việc làm $job_broodsymbiont$"
+ mod_job_broodsymbiont_per_pop: "§G+1§! việc làm $job_broodsymbiont$ mỗi $VALUE$ Pop"
+ mod_job_broodsymbiont_per_pop_short: "\n§G+1§! £mod_job_spawning_drone_add£ mỗi $VALUE$ £pop£"
+
+ motesymbiote: "$job_motesymbiote$"
+ job_motesymbiote: "Thể Hạt Tro"
+ job_motesymbiote_plural: "Các Thể Hạt Tro"
+ job_motesymbiote_desc: "Sống bên bờ vực của sự bốc cháy, những thể cộng sinh này ấp ủ những hạt năng lượng bất ổn nhấp nháy, sẵn sàng tinh luyện thành vật chất dễ bay hơi."
+ job_motesymbiote_effect_desc: "[chemist_drone.GetIcon] $job_motesymbiote_plural$ chuyển hóa [GetCatalyticMineralsOrFood] thành £volatile_motes£ §Y$volatile_motes$§!"
+ mod_job_motesymbiote_add: "Việc làm $job_motesymbiote$"
+ mod_job_motesymbiote_per_pop: "§G+1§! việc làm $job_motesymbiote$ mỗi $VALUE$ Pop"
+ mod_job_motesymbiote_per_pop_short: "\n§G+1§! £mod_job_chemist_drone_add£ mỗi $VALUE$ £pop£"
+
+ crystalsymbiote: "$job_crystalsymbiote$"
+ job_crystalsymbiote: "Thể Tinh Thể"
+ job_crystalsymbiote_plural: "Các Thể Tinh Thể"
+ job_crystalsymbiote_desc: "Những thể cộng sinh này nuôi dưỡng các cấu trúc tinh thể quý hiếm trên bề mặt cơ thể, điều chỉnh từng góc cạnh theo áp lực và dưỡng chất."
+ job_crystalsymbiote_effect_desc: "[translucer_drone.GetIcon] $job_crystalsymbiote_plural$ chuyển hóa [GetCatalyticMineralsOrFood] thành £rare_crystals£ §Y$rare_crystals$§!"
+ mod_job_crystalsymbiote_add: "Việc làm $job_crystalsymbiote$"
+ mod_job_crystalsymbiote_per_pop: "§G+1§! việc làm $job_crystalsymbiote$ mỗi $VALUE$ Pop"
+ mod_job_crystalsymbiote_per_pop_short: "\n§G+1§! £mod_job_translucer_drone_add£ mỗi $VALUE$ £pop£"
+
+ gaseosymbiote: "$job_gaseosymbiote$"
+ job_gaseosymbiote: "Thể Sinh Khí" #Cus I don't want to have a Gassy  mbionte
+ job_gaseosymbiote_plural: "Các Thể Sinh Khí"
+ job_gaseosymbiote_desc: "Là bậc thầy về giả kim vi sinh vật, những thể cộng sinh này duy trì các điều kiện chính xác để tạo ra khí kỳ dị một cách tự nhiên từ các chất hữu cơ."
+ job_gaseosymbiote_effect_desc: "[gas_refiner_drone.GetIcon] $job_gaseosymbiote_drone_plural$ chuyển hóa [GetCatalyticMineralsOrFood] thành £exotic_gases£ §Y$exotic_gases$§!"
+ mod_job_gaseosymbiote_add: "Việc làm $job_gaseosymbiote_drone$"
+ mod_job_gaseosymbiote_per_pop: "§G+1§! việc làm $job_gaseosymbiote_drone$ mỗi $VALUE$ Pop"
+ mod_job_gaseosymbiote_per_pop_short: "\n§G+1§! £mod_job_gas_refiner_drone_add£ mỗi $VALUE$ £pop£"
+
+ spindlesymbiont: "$job_spindlesymbiont$"
+ job_spindlesymbiont: "Thể Con Thoi"
+ job_spindlesymbiont_plural: "Các Thể Con Thoi"
+ job_spindlesymbiont_desc: "Với vô số chi linh hoạt và cơ quan cảm giác tinh tế, thể cộng sinh này dẫn dắt dòng chảy tài nguyên, đan dệt dưỡng chất và khoáng chất qua các mạng lưới sợi."
+ job_spindlesymbiont_with_icon: "£job_spindlesymbiont£ $job_spindlesymbiont$"
+ job_spindlesymbiont_plural_with_icon: "£job_spindlesymbiont£ $job_spindlesymbiont_plural$"
+ job_spindlesymbiont_effect_desc: "$job_spindlesymbiont_plural_with_icon$ sản xuất $r_trade$"
+ mod_job_spindlesymbiont_add: "Việc làm $job_spindlesymbiont$"
+
+ job_wilderness_maintenance_drone: "Sinh Khối Linh Hoạt"
+ job_wilderness_maintenance_drone_plural: "$job_wilderness_maintenance_drone$"
+ job_wilderness_maintenance_drone_desc: "Sinh khối tràn đầy tiềm năng, được tích trữ và duy trì cẩn thận, sẵn sàng đáp ứng mọi nhu cầu của Hoang Dã."
+
+ neurosymbiont: "$job_neurosymbiont$"
+ job_neurosymbiont: "Thể Thần Kinh"
+ job_neurosymbiont_plural: "Các Thể Thần Kinh"
+ job_neurosymbiont_plural_with_icon: "£job_neurosymbiont£ $job_neurosymbiont_plural$"
+ job_neurosymbiont_desc: "Là cầu nối sống giữa Cự Thú Nuốt Sao và chúng ta, những thể cộng sinh này tiêu hao sinh mệnh của mình để truyền dẫn tâm trí chúng ta vào cơ thể khổng lồ của nó."
+ job_neurosymbiont_effect_desc: "£job_neurosymbiont£ $job_neurosymbiont_plural$ sản xuất £energy£ §Y$energy$§!"
+ mod_job_neurosymbiont_add: "Việc làm $job_neurosymbiont$"
+ mod_job_neurosymbiont_per_pop: "§G+1§! việc làm $job_neurosymbiont$ mỗi $VALUE$ Pop"
+ mod_job_neurosymbiont_pop_short:0 "\n§G+1§! £mod_job_neurosymbiont_add£ mỗi $VALUE$ £pop£"
+
+####################################
+# Traditions
+####################################
+ tr_adaptability_appropriation_wilderness: "Thu Nạp Sinh Thái"
+ tr_adaptability_appropriation_wilderness_delayed: "Các hệ sinh thái chưa được tận dụng triệt để không mang lại đóng góp nào cho đế chế của chúng ta. [GetIndividualNamePluralCap] phải được tái định cư một cách hiệu quả đến những hành tinh nơi họ được cần đến nhất."
+ tr_discovery_faith_in_science_wilderness: "Mạng Lưới Khuẩn Ty"
+ tr_discovery_faith_in_science_wilderness_delayed: "Khai thác tính tò mò tự nhiên của tất cả [GetIndividualNamePlural] trong một mạng lưới nấm kết nối liên tục, thúc đẩy việc tiếp thu tri thức mới."
+ tr_domination_wilderness_network: "Tăng Tốc Đại Trao Đổi Chất"
+ tr_domination_wilderness_network_delayed: "Gia tăng tốc độ trao đổi năng lượng trên quy mô toàn lục địa, nâng cao đáng kể năng lực tương trợ giữa các vùng sinh thái."
+ tr_domination_wilderness_network_effect: "§YMở khóa Sắc lệnh:§! $edict_drone_overdrive_wilderness$"
+ tr_domination_imperious_architecture_wilderness: "Tương Thích Pheromone Liên Loài"
+ tr_domination_imperious_architecture_wilderness_desc: "§Y$district_craglands_plural$§! cung cấp thêm £defense_army£ §Y$defense_army_plural$§!: §G+1§!"
+ tr_domination_imperious_architecture_wilderness_delayed: "Bắt buộc giao tiếp bằng pheromone giữa tất cả [GetIndividualNamePlural], tạo nên sự phối hợp nhịp nhàng không một kẽ hở."
+ tr_expansion_colonization_fever_wilderness: "Tâm Trí Vạn Thế Giới"
+ tr_expansion_colonization_fever_wilderness_desc: "Thêm một §Y£district£Khu quy hoạch§! ngẫu nhiên khi khai phá thế giới mới."
+ tr_expansion_colonization_fever_wilderness_delayed: "[GetGestaltEntityName] là bản hòa ca của muôn vàn ý thức, ngay cả khi vươn tới những thế giới xa xôi và lạnh lẽo nhất."
+ tr_expansion_a_new_life_wilderness: "Sinh Trưởng Tràn Lan"
+ tr_expansion_a_new_life_wilderness_delayed: "Sự phát triển của [GetGestaltEntityName] chính là lời giải đáp cho mọi thách thức sinh tồn."
+ tr_expansion_courier_network_wilderness: "$tr_expansion_courier_network_hive$"
+ tr_expansion_courier_network_wilderness_delayed: "Coi mỗi quần xã sinh vật như một phân nhánh nhỏ trong tổng thể lớn hơn, cho phép chúng tự vận hành mà không cần sự chú ý toàn diện của ý thức hành tinh."
+ tr_expansion_galactic_ambition_wilderness: "$tr_expansion_galactic_ambition_hive$"
+ tr_expansion_galactic_ambition_wilderness_delayed: "Nỗi sợ hãi nguyên thủy từng đồng hành cùng những xúc tua ngập ngừng đầu tiên trong bóng tối, cách xa thế giới cái nôi của chúng ta. Chỉ bằng cách chế ngự và loại trừ nỗi sợ này, chúng ta mới có thể tiếp tục phát triển. Hàng triệu [GetIndividualNamePlural] sẽ ngã xuống để [GetGestaltEntityName] có thể trường tồn."
+ tr_prosperity_pursuit_of_profit_wilderness: "Vận Tải Thể Lỏng Toàn Cầu"
+ tr_prosperity_pursuit_of_profit_wilderness_delayed: "Những huyết mạch trải rộng khắp lục địa vận chuyển dưỡng chất và vật liệu kiến trúc thiết yếu để tiếp tế cho các hệ sinh thái cần hỗ trợ."
+ tr_prosperity_public_works_wilderness: "Địa Đạo Dưới Lòng Đất"
+ tr_prosperity_public_works_wilderness_desc: "Tất cả £district£ §YKhu quy hoạch§! cung cấp thêm £housing£ §Y$MOD_PLANET_HOUSING_ADD$§!: §G+50§!"
+ tr_prosperity_public_works_wilderness_delayed: "Bằng cách cho các [GetIndividualNamePlural] thâm nhập vào các lớp vỏ địa chất bên dưới, chúng ta khai mở thêm vô số không gian sống."
+ tr_synchronicity_kinship_wilderness: "Đồng Bộ Nhịp Sinh Học"
+ tr_synchronicity_kinship_wilderness_delayed: "Kiểm soát chính xác chu kỳ nghỉ ngơi của các [GetIndividualNamePlural], tối ưu hóa năng lượng và sự gắn kết của toàn bộ sinh quyển."
+
+####################################
+# Ascension Perks
+####################################
+
+ ap_mastery_of_nature_wilderness: "$ap_mastery_of_nature$"
+ ap_mastery_of_nature_wilderness_desc: "Chúng ta là chu kỳ vừa nuốt chửng vừa bị nuốt chửng. Từ tế bào nhỏ bé nhất đến đại thụ chọc trời, tất cả đều tuân theo ý chí nhào nặn thiên nhiên của chúng ta."
+ ap_engineered_evolution_wilderness: "$ap_engineered_evolution$"
+ ap_engineered_evolution_wilderness_desc: "Ý thức của chúng ta tiến hóa để vượt qua các thử thách khắc nghiệt của môi trường. Khi môi trường biến đổi, chúng ta cũng sẽ tiến hóa theo."
+ engineered_evolution_wilderness_tt: "- Bắt đầu Tình huống §Y$genetic_ascension_situation$§!$TABBED_NEW_LINE$- $REQUIRES_TRADITION_SLOT$$TABBED_NEW_LINE$- $UNLOCKS_AGENDA$ §Y$council_agenda_agenda_engineered_evolution_name$§!"
+
+############
+# Espionage
+############
+ operation_embed_planetary_roots: "Cấy Rễ Hành Tinh" # literal roots, as in plantlife
+ operation_embed_planetary_roots_desc: "Chúng ta có những mục đích cấp bách hơn cho các điệp viên [owner.GetIndividualNamePlural] thu thập tin tình báo. Bằng cách gieo các bào tử siêu nhỏ vào hành tinh mục tiêu, chúng ta có thể nghe ngóng mọi động thái của đối phương." # the Wilderness embeds a part of itself, hence 'microbiome'
+ operation_embed_planetary_roots_on_success: "$operation_sleeper_cells_on_success$"
+ espionage_planetary_roots: "Rễ Cây Hành Tinh"
+ espionage_planetary_roots_desc: "Chúng ta đã cấy một quần xã vi sinh vật bán tri giác, cho phép các điệp viên [owner.GetIndividualNamePlural] của chúng ta theo sát công việc của đế chế này. Những thực thể nguyên thủy này bám rễ sâu vào đất đai, lắng nghe các rung động và tín hiệu hóa học rồi truyền về cho chúng ta."
+ operation_embed_planetary_roots_requires_blocker: "$TRIGGER_FAIL$§R$espionage_planetary_roots$ của chúng ta cần một vị trí thích hợp để bám rễ.§!"
+ operation_embed_planetary_roots_dont_stack_this: "$TRIGGER_FAIL$ §RChúng ta đã cấy $espionage_planetary_roots$ trên [target.GetName].[planet_roots_success]§!"
+ operation_embed_planetary_roots_not_cleared: "$TRIGGER_FAIL$ §RChúng ta vẫn có thể cảm nhận được $espionage_planetary_roots$ trên [target.GetName].§!"
+ d_wilderness_root_blocker: "Bụi Cây Xâm Lấn"
+ d_wilderness_root_blocker_desc: "Một vạt cây Hoang Dã bán tri giác, không phải bản địa đang bóp nghẹt và cắm rễ sâu vào rìa các vùng đồng quê này."
+
+ wilderness.4500.name: "Lùng Sục Vùng Hoang Dã"
+ wilderness.4500.desc: "Các điệp viên [owner.GetOperativesLowerPlural] bán tự trị của chúng ta đã tìm thấy một địa điểm lý tưởng để gieo mầm các bào tử bí mật."
+ wilderness.4505.name: "Xác Định Vị Trí Tiềm Năng"
+ wilderness.4505.desc: "Chúng ta đã tranh thủ được sự hỗ trợ từ một [target.GetSpeciesAdj] ngây thơ để vận chuyển bào tử đến [roots_planet.GetPlanetMoon] [roots_planet.GetName]. Đội ngũ điệp viên của chúng ta báo cáo các điều kiện môi trường tại đây rất lý tưởng để cấy rễ."
+ wilderness.4510.name: "Đã Cấy $espionage_planetary_roots$"
+ wilderness.4510.desc: "Kể từ khoảnh khắc hệ vi sinh vật của chúng ta được đưa tới ngôi nhà [GetRootsBlockerName] mới của nó, chúng ta đã bắt đầu hít thở bầu không khí cấm kỵ và cảm nhận thế giới được gọi là §H[roots_planet.GetName]§!.\n\nSự hiện diện của chúng ta tại đây sẽ khá mong manh, chừng nào các thể cộng sinh này về cơ bản vẫn bị ngắt kết nối khỏi bản thể rộng lớn hơn của chúng ta. Tuy nhiên, chúng sẽ phục vụ chúng ta đắc lực khi đến lúc tái khởi động các chiến dịch trong không gian của [target.GetAdj]."
+ wilderness.4510.a: "Rễ của chúng ta nên đào sâu hơn, tồn tại lâu hơn."
+ wilderness.4510.b: "Hãy để rễ của chúng ta sinh sôi tràn lan tại nơi đây."
+
+####################################
+# Technologies
+####################################
+ tech_wilderness_terraform: "Nảy Mầm Hành Tinh"
+ tech_wilderness_terraform_desc: "Để mở rộng rễ của chúng ta sang một thế giới mới, trước tiên cần nuôi dưỡng mảnh đất màu mỡ. Bằng cách cải tạo môi trường hành tinh trước, chúng ta chuẩn bị cho sự thức tỉnh trọn vẹn."
+
+ tech_terrestrial_sculpting_wilderness: "$tech_terrestrial_sculpting$"
+ tech_terrestrial_sculpting_wilderness_desc: "$tech_terrestrial_sculpting_desc$"
+ tech_terrestrial_sculpting_wilderness_effect: "§HHiệu ứng Mở khóa:§! Cho phép địa hóa cải tạo môi trường các hành tinh tiêu chuẩn."
+
+ tech_wilderness_node: "Tâm Điểm Hiện Hữu"
+ tech_wilderness_node_desc: "Bằng cách khuyến khích sự phát triển của các thể cộng sinh tư duy sâu sắc tại các bãi trống, ý thức tập thể của chúng ta trở nên sắc bén và sâu rộng hơn."
+ tech_wilderness_cluster: "$tech_hive_cluster$"
+ tech_wilderness_cluster_desc: "Chúng ta có thể đẩy nhanh sự lưu loát của tâm trí tập thể bằng cách đầu tư vào các cuộc tụ họp cộng sinh quy mô lớn."
+ tech_wilderness_confluence: "$tech_hive_confluence$"
+ tech_wilderness_confluence_desc: "Ý chí tương hỗ của chúng ta sẽ được củng cố nhờ các cuộc tụ họp vĩ đại của các thể cộng sinh đồng điệu sâu sắc."
+
+ tech_genome_mapping_wilderness: "$tech_genome_mapping$"
+ tech_genome_mapping_wilderness_desc: "Lập bản đồ bộ gen của vô vàn biến thể DNA giúp chúng ta thấu hiểu phương thức sinh trưởng của chính mình và mở rộng tuổi thọ sinh học."
+ tech_mining_1_wilderness: "$tech_mining_1$"
+ tech_mining_1_wilderness_desc: "Bơm các chất làm đặc niêm mạc và tăng áp lực nước vào các mỏ khoáng sản hiện có giúp khoan sâu hơn và nâng cao sản lượng."
+ tech_powered_exoskeletons_wilderness: "$tech_powered_exoskeletons$"
+ tech_powered_exoskeletons_wilderness_desc: "Các bộ giáp ngoài hỗ trợ năng lượng giúp tăng cường sức mạnh và tốc độ của người sử dụng, vừa có ứng dụng quân sự vừa đẩy nhanh tốc độ khai khoáng."
+ tech_colonization_1_wilderness: "Sáng Kiến Tân Thế Giới"
+ tech_colonization_1_wilderness_desc: "Chúng ta chuyển hướng tập trung vào việc tính toán các tài nguyên và vật liệu cần thiết để đánh thức những thế giới mới."
+
+ tech_wilderness_government: "$tech_planetary_government$"
+ tech_wilderness_government_desc: "Từ thời điểm một hành tinh mới thức tỉnh, ưu tiên hàng đầu phải là thiết lập một môi trường ổn định và thịnh vượng."
+ tech_wilderness_colonial_centralization: "$tech_colonial_centralization$"
+ tech_wilderness_colonial_centralization_desc: "$tech_colonial_centralization_desc$"
+ tech_wilderness_galactic_administration: "$tech_galactic_administration$"
+ tech_wilderness_galactic_administration_desc: "$tech_galactic_administration_desc$"
+ tech_wilderness_science_lab_2: "$tech_basic_science_lab_2$"
+ tech_wilderness_science_lab_2_desc: "$tech_basic_science_lab_2_desc$"
+ tech_wilderness_science_lab_3: "$tech_basic_science_lab_3$"
+ tech_wilderness_science_lab_3_desc: "$tech_basic_science_lab_3_desc$"
+ tech_wilderness_food_processing_1: "$tech_food_processing_1$"
+ tech_wilderness_food_processing_1_desc: "$tech_food_processing_1_desc$"
+ tech_wilderness_food_processing_2: "$tech_food_processing_2$"
+ tech_wilderness_food_processing_2_desc: "$tech_food_processing_2_desc$"
+ tech_wilderness_power_hub_1: "$tech_power_hub_1$"
+ tech_wilderness_power_hub_1_desc: "$tech_power_hub_1_desc$"
+ tech_wilderness_power_hub_2: "$tech_power_hub_2$"
+ tech_wilderness_power_hub_2_desc: "$tech_power_hub_2_desc$"
+ tech_wilderness_mineral_purification_1: "$tech_mineral_purification_1$"
+ tech_wilderness_mineral_purification_1_desc: "$tech_mineral_purification_1_desc$"
+ tech_wilderness_mineral_purification_2: "$tech_mineral_purification_2$"
+ tech_wilderness_mineral_purification_2_desc: "$tech_mineral_purification_2_desc$"
+ tech_wilderness_industry: "$tech_basic_industry$"
+ tech_wilderness_industry_desc: "$tech_basic_industry_desc$"
+ tech_wilderness_alloys_1: "$tech_alloys_1$"
+ tech_wilderness_alloys_1_desc: "$tech_alloys_1_desc$"
+ tech_wilderness_alloys_2: "$tech_alloys_2$"
+ tech_wilderness_alloys_2_desc: "$tech_alloys_2_desc$"
+ tech_wilderness_volatile_motes: "$tech_volatile_motes$"
+ tech_wilderness_volatile_motes_desc: "$tech_volatile_motes_desc$"
+ tech_wilderness_exotic_gases: "$tech_exotic_gases$"
+ tech_wilderness_exotic_gases_desc: "$tech_exotic_gases_desc$"
+ tech_wilderness_rare_crystals: "$tech_rare_crystals$"
+ tech_wilderness_rare_crystals_desc: "$tech_rare_crystals_desc$"
+ tech_wilderness_planetary_defenses: "$tech_planetary_defenses$"
+ tech_wilderness_planetary_defenses_desc: "$tech_planetary_defenses_desc$"
+ tech_wilderness_defense_grid: "$tech_global_defense_grid$"
+ tech_wilderness_defense_grid_desc: "$tech_global_defense_grid_desc$"
+ tech_wilderness_shield_generator: "$tech_planetary_shield_generator$"
+ tech_wilderness_shield_generator_desc: "$tech_planetary_shield_generator_desc$"
+ tech_storm_relief_center: "$tech_industrial_storm_protection$"
+ tech_storm_relief_center_desc: "$tech_industrial_storm_protection$"
+ tech_archaeostudies_wilderness: "$tech_archaeostudies$"
+ tech_archaeostudies_wilderness_desc: "$tech_archaeostudies_desc$"
+
+####################################
+# City Appearance
+####################################
+ WILDERNESS: "Sinh Thể Hoang Dã"
+
+####################################
+# Deposits
+####################################
+ d_wilderness_mining: "Hệ Thống Hang Động Rỗng"
+ d_wilderness_mining_desc: "Các dạng sống từng chiếm giữ thế giới này đã vội vã từ bỏ các mỏ khoáng của họ, để lại nhiều đường hầm bị đào bới thô bạo nhưng giàu tiềm năng khai thác."
+ d_wilderness_mining_2: "Cao Nguyên Rỗ Vết"
+ d_wilderness_mining_2_desc: "Khu vực nguy hiểm này đầy rẫy đất đá phế thải và các hố sụt lún tiềm tàng, tàn tích từ hoạt động khai khoáng quy mô lớn trong quá khứ."
+ d_wilderness_farming: "Rừng Cây Khô Cằn"
+ d_wilderness_farming_desc: "Nơi từng là một khu rừng bạt ngàn màu mỡ nay chỉ còn lại những thân cây trơ trụi. Những cành cây khô héo không còn kết trái."
+ d_wilderness_farming_2: "Rừng Cây Hóa Thạch"
+ d_wilderness_farming_2_desc: "Tàn tích của một vùng đất rộng lớn từng trù phú tài nguyên rừng. Thảm thực vật và nấm phong phú bị hóa thạch trong thời gian ngắn."
+ d_wilderness_generator: "Cánh Đồng Quang Năng Cháy Rụi"
+ d_wilderness_generator_desc: "Vòm tán khô héo và thân cây giòn gãy là tất cả những gì còn sót lại của nông trại năng lượng mặt trời bị bỏ hoang này."
+ d_wilderness_generator_2: "Vùng Hoang Tàn Quang Năng"
+ d_wilderness_generator_2_desc: "Vùng đất rộng lớn này đầy rẫy những xác cây đầy gai nhọn của khu rừng quang năng từng một thời tươi tốt, để lại cảnh quan cằn cỗi."
+ d_wilderness_city: "Đầm Lầy Hôi Thối"
+ d_wilderness_city_desc: "Từng là môi trường sống hưng thịnh của muôn loài, nay bị bỏ hoang và biến thành một vũng bùn ô uế ngập tràn vi khuẩn độc hại."
+ d_wilderness_city_2: "Vũng Bùn Thối Rữa"
+ d_wilderness_city_2_desc: "Vô số dạng sống đa dạng đã bỏ mạng tại nơi đây. Xác chết mục rữa của chúng ngấm vào lòng đất, giải phóng lượng lớn khí ăn mòn độc hại."
+ d_wilderness_industrial: "Vũng Lầy Kim Loại"
+ d_wilderness_industrial_desc: "Tàn tích của nhiều bể ngâm khoáng sản lộ thiên, nơi chất lỏng đã trở nên độc hại và trơ cứng do sự sụp đổ của địa chất xung quanh."
+ d_wilderness_industrial_2: "Vùng Đất Xấu Hóa Sinh"
+ d_wilderness_industrial_2_desc: "Những hố trũng bằng đá và hẻm núi phủ đầy bụi hóa chất là dấu vết của khu vực chế biến khoáng sản bán hữu cơ từng trải dài ngút ngàn."
+
+ d_scorched_plains: "Đồng Bằng Thiêu Rụi"
+ d_scorched_plains_desc: "Khu vực này từng tràn đầy sự sống, cho đến khi bị tàn phá bởi sự bùng phát của siêu bão lửa bức xạ mặt trời."
+
+ concept_scorched_plains: "$d_scorched_plains$"
+ concept_scorched_plains_desc: "- $MOD_PLANET_MAX_DISTRICTS_ADD$: §R-3§!\n- Dọn sạch Chướng ngại:$TABBED_NEW_LINE$- Chi phí: $i_energy$ £energy£ 1000$TABBED_NEW_LINE$- Thời gian: £time£ 240 $t$\n\n§L$d_scorched_plains_desc$§!"
+
+####################################
+# Colony Types
+####################################
+ col_wilderness_default: "Thế Giới Hoang Dã"
+
+####################################
+# Planet Designations
+####################################
+ col_wilderness_capital: "Thế Giới Cội Nguồn"
+ col_wilderness_capital_tt: "Trái tim đập rộn ràng của Hoang Dã, một hành tinh sống tràn đầy sinh lực và ý thức bao trùm."
+ col_wilderness_capital_desc: "Tăng cường £mod_planet_jobs_produces_mult£ §H$mod_planet_jobs_produces_mult$§! của các công việc."
+ col_wilderness_generator: "Quần Xã Quang Năng"
+ col_wilderness_generator_desc: "$col_generator_desc$"
+ col_wilderness_generator_tt: "Vô số cụm thể cộng sinh lục lạp tụ tập và tích trữ năng lượng trên thế giới này."
+ col_wilderness_mining: "Quần Xã Khai Khoáng"
+ col_wilderness_mining_desc: "$col_mining_desc$"
+ col_wilderness_mining_tt: "Đào bới dưới bề mặt tưởng chừng cằn cỗi của hành tinh này là một bản hòa tấu sự sống dưới lòng đất, háo hức khai thác nguồn khoáng sản trù phú."
+ col_wilderness_farming: "Quần Xã Trù Phú"
+ col_wilderness_farming_desc: "$col_farming_desc$"
+ col_wilderness_farming_tt: "Các thể cộng sinh chuyên biệt duy trì các điều kiện sinh trưởng lý tưởng khắp thế giới này, thúc đẩy nguồn cung cấp động thực vật dinh dưỡng dồi dào."
+ col_wilderness_fortress: "Quần Xã Phòng Thủ"
+ col_wilderness_fortress_desc: "$col_fortress_desc$"
+ col_wilderness_fortress_tt: "Bề mặt của thế giới này rung chuyển trước những bước chạy rầm rập của các đàn thú bảo vệ lãnh thổ sâu sắc và tiếng gầm của những kẻ săn mồi đáng sợ."
+ col_wilderness_tech: "Thế Giới Tư Duy"
+ col_wilderness_tech_desc: "$col_research_desc$"
+ col_wilderness_tech_tt: "Thế giới tràn đầy sức sống này ngập tràn những điều kỳ thú và hiện tượng lạ lùng, sẵn sàng cho những trí óc tò mò và khát khao học hỏi khám phá."
+ col_wilderness_nest: "Thế Giới Dệt Tổ"
+ col_wilderness_nest_desc: "$col_city_desc$"
+ col_wilderness_nest_tt: "Khu bảo tồn cho vô vàn dạng sống cộng sinh đến mức chính bầu khí quyển có thể thay đổi thành phần để đáp ứng nhu cầu và tâm trạng của Hoang Dã."
+ col_wilderness_refinery: "Thế Giới Tinh Luyện"
+ col_wilderness_refinery_desc: "Chuyên sản xuất £exotic_gases£ §H$exotic_gases$§! và các £strategic_resource£ §HTài nguyên Chiến lược§! khác."
+ col_wilderness_refinery_tt: "Hành tinh này chằng chịt các miệng phun địa nhiệt, nơi hàng loạt sinh vật nano và thể cộng sinh kỳ lạ khác tụ họp để xử lý nguyên liệu thô."
+ col_wilderness_forge: "Quần Xã Đúc Luyện"
+ col_wilderness_forge_desc: "$col_foundry_desc$"
+ col_wilderness_forge_tt: "Một chiếc lò nung quy mô hành tinh để chế biến khoáng sản thô thành các hợp kim đa năng và hiệu quả cao."
+ col_wilderness_unification: "Thế Giới Thanh Bình"
+ col_wilderness_unification_desc: "$col_bureau_desc$"
+ col_wilderness_unification_tt: "Bầu không khí cộng sinh tương hỗ ung dung đan dệt khắp thế giới này, thắt chặt thêm những mối quan hệ phức tạp giữa các thể cộng sinh."
+
+####################################
+# Personalities
+####################################
+ personality_benevolent_wilderness: "Hoang Dã Hòa Điệu"
+ personality_benevolent_wilderness_desc: "Sinh quyển bao la và có tri giác này chỉ tìm cách hòa mình cùng các vì sao. Rễ của chúng kiên nhẫn vươn khắp thiên hà, không phải vì đói khát, mà vì sự hòa hợp."
+
+ personality_rampant_wilderness: "Hoang Dã Lan Tràn"
+ personality_rampant_wilderness_desc: "Hoang Dã Lan Tràn không nổi cơn thịnh nộ; nó lan rộng, hấp thu và trường tồn. Mọi thứ, sống hay chết, đều được tái tạo trong chu kỳ sinh trưởng và phân rã bất tận."
+
+####################################
+# Policies
+####################################
+
+ policy_symbiont_policy: "$policy_drone_policy$"
+ policy_symbiont_policy_desc: "Tập thể tương hỗ của chúng ta có năng lực sản xuất cực kỳ to lớn, nhưng không phải là vô hạn. Chúng ta phải quyết định cách phân bổ tài nguyên tối ưu nhất."
+
+ symbiont_policy_balanced: "$drone_policy_balanced$"
+ symbiont_policy_balanced_name: "$symbiont_policy_balanced$"
+ symbiont_policy_balanced_desc: "Hoang Dã cống hiến cân bằng cho việc khai thác tài nguyên thô và sản xuất sản phẩm chế biến.\n\n§EKhông có hiệu ứng cộng thêm nào cho sản xuất tài nguyên.§!"
+
+ symbiont_policy_worker: "$drone_policy_worker$"
+ symbiont_policy_worker_name: "$symbiont_policy_worker$"
+ symbiont_policy_worker_desc: "Hoang Dã ưu tiên khai thác tài nguyên thô, gia tăng năng suất của các thể cộng sinh cơ bản với cái giá là giảm hiệu quả của các thể chuyên môn hóa cao hơn."
+
+ symbiont_policy_thinker: "$drone_policy_thinker$"
+ symbiont_policy_thinker_name: "$symbiont_policy_thinker$"
+ symbiont_policy_thinker_desc: "Hoang Dã ưu tiên sản xuất các sản phẩm chế tạo và nghiên cứu, thúc đẩy hiệu quả của các thể phức hợp nhưng làm giảm nhẹ sản lượng khai khoáng thô."
+
+####################################
+# Edicts
+####################################
+ edict_capacity_subsidies_wilderness: "$edict_capacity_subsidies$"
+ edict_capacity_subsidies_wilderness_desc: "Sắc lệnh này khuyến khích các thể cộng sinh quang hợp tạo thành những đàn di cư quy mô lớn di chuyển theo vầng thái dương, tăng mạnh sản lượng năng lượng."
+ edict_mining_subsidies_wilderness: "$edict_mining_subsidies$"
+ edict_mining_subsidies_wilderness_desc: "Sắc lệnh này gia cố các mạng lưới rễ của chúng ta, giúp các thể cộng sinh phá đất đào sâu hơn mà giảm thiểu nguy cơ sập hầm."
+ edict_farming_subsidies_wilderness: "$edict_farming_subsidies$"
+ edict_farming_subsidies_wilderness_desc: "Sắc lệnh này pha loãng và giải phóng các hợp chất hóa học giàu năng lượng vào đất, thúc đẩy mạnh mẽ sản lượng dưỡng chất sinh học."
+ edict_forge_subsidies_wilderness: "$edict_forge_subsidies$"
+ edict_forge_subsidies_wilderness_desc: "Làm bão hòa các hồ tảo ăn đá bằng dưỡng chất để tạo ra các đợt bùng nổ theo mùa, thu hoạch được lượng hợp kim phụ phẩm dồi dào hơn."
+ edict_research_subsidies_wilderness: "$edict_research_subsidies$"
+ edict_research_subsidies_wilderness_desc: "$edict_research_subsidies_desc$"
+ edict_clearing_motes_wilderness: "$edict_clearing_motes$"
+ edict_clearing_motes_wilderness_desc: "Bổ sung các hạt bụi tro dễ bay hơi vào khẩu phần ăn của thể cộng sinh, giúp chúng tiêu hóa cả các chất hữu cơ và vô cơ phức tạp."
+ edict_learning_campaign_wilderness: "$edict_learning_campaign$"
+ edict_learning_campaign_wilderness_desc: "Bằng cách cung cấp thêm dưỡng chất cho các thể cộng sinh, chúng ta có thể đẩy nhanh tốc độ tích lũy kinh nghiệm và thích ứng của chúng."
+ edict_war_drone_campaign_wilderness: "Chiến Dịch Thể Cộng Sinh Chiến Tranh"
+ edict_war_drone_campaign_wilderness_desc: "Phân bổ thêm nguồn dinh dưỡng dồi dào cho các thể săn mồi và đàn thú chiến đấu, gia tăng sức mạnh thể chất và mức độ sẵn sàng tác chiến của chúng."
+ edict_scientific_revolution_wilderness: "$edict_scientific_revolution$"
+ edict_scientific_revolution_wilderness_desc: "$edict_scientific_revolution_desc$"
+ edict_drone_overdrive_wilderness: "Tăng Tốc Thể Cộng Sinh"
+ edict_drone_overdrive_wilderness_desc: "Các quần xã sinh vật của chúng ta sẽ được thúc đẩy cạnh tranh mạnh mẽ hơn, kích hoạt tiềm năng tối đa nhưng đòi hỏi nhiều tài nguyên duy trì hơn."
+
+####################################
+# Colonization Rules
+####################################
+COLONIZATION_IMPOSSIBLE_WILDERNESS_TECH: "§RChúng ta không thể thuộc địa hóa các hành tinh quá khác biệt so với hành tinh quê nhà nếu thiếu công nghệ £society£ §H$tech_ecological_adaptation$§!.§!"
+
+####################################
+# Agendas
+####################################
+ council_agenda_agenda_purity_perfection_wilderness_name: "$council_agenda_agenda_purity_perfection_name$"
+ council_agenda_agenda_purity_perfection_wilderness_desc: "Chúng ta sẽ chỉ huy bản hòa tấu di truyền của các thể cộng sinh với độ chính xác cao nhất, hướng tới sự hoàn hảo sinh học tột cùng."
+ agenda_purity_perfection_wilderness_finish: "$council_agenda_agenda_purity_perfection_wilderness_name$"
+ agenda_purity_perfection_wilderness_finish_desc: "$council_agenda_agenda_purity_perfection_wilderness_desc$"
+
+ council_agenda_agenda_superior_colonies_wilderness_name: "Những Chồi Non Ưu Tú"
+ council_agenda_agenda_superior_colonies_wilderness_desc: "$council_agenda_agenda_superior_colonies_desc$"

@@ -1,0 +1,1219 @@
+﻿l_english:
+
+ FROM_SITUATIONS:0 "Từ Tình Huống"
+ TO_TARGET:1 "Tới $TARGET|H$:"
+ SITUATION_MONTHLY_CHANGE:0 "Thay Đổi Hàng Tháng"
+ NO_ACTIVE_EFFECTS:1 "Hiện không có hiệu ứng"
+ SITUATION_FINISHER_EFFECTS:0 "§EHiệu Ứng Hoàn Tất:§!"
+ SITUATION_FINISHER_EFFECTS_TOOLTIP:0 "§HEiệu ứng nếu đạt đến kết cục dự kiến§!"
+ SITUATION_FINISHER_EFFECTS_DELAYED_TOOLTIP:0 "§EMột số Tình Huống có thể có nhiều hơn một kết cục.§!"
+ SITUATION_APPROACH_SELECT_TOOLTIP:0 "§GNhấp để chọn Hướng Tiếp Cận này cho Tình Huống.§!"
+ ACTIVE_APPROACH:0 "§GĐang Hiệu Lực§!" #Also used for stages
+ ACTIVE_APPROACH_EFFECTS:0 "$EFFECTS$"
+ STAGE_EFFECTS:1 "Hiệu Ứng Giai Đoạn:"
+ EFFECTS_FROM_SITUATION:0 "Hiệu Ứng Hiện Tại từ Tình Huống này"
+ EFFECTS_FROM_SITUATION_E:0 "§E$EFFECTS_FROM_SITUATION$§!"
+ EFFECTS_FROM_SITUATION_H:0 "§H$EFFECTS_FROM_SITUATION$§!"
+ TRACK_SITUATION:0 "§GNhấp để bật hoặc tắt theo dõi Tình Huống này§!"
+ SITUATION_GOTO:0 "§GNhấp đúp hoặc Nhấp chuột phải để di chuyển góc nhìn tới Tình Huống này§!"
+ SITUATION_PROGRESS:0 "Tiến Trình"
+ SITUATION_CURRENT_PROGRESS:0 "Tiến Trình Hiện Tại: $PROGRESS|Y$/$END|Y$"
+ SITUATION_PREDICTED_PROGRESS:0 "Dự Báo Tháng Tới: $PROGRESS|Y$ ($CHANGE$)"
+ SITUATION_OUTCOME_IN_MONTHS:0 "Một kết cục sẽ đạt đến trong $MONTHS|Y$ tháng."
+ SITUATION_NEXT_STAGE_IN_MONTHS:0 "Giai Đoạn Tình Huống sẽ chuyển đổi trong $STAGE_MONTHS|Y$ tháng, và một kết cục sẽ đạt đến trong $SITUATION_MONTHS|Y$ tháng."
+ SITUATION_NEXT_STAGE_IN_MONTHS_WITH_NEXT_STAGE_MOVING_UP: "Tiến tới $NEXT_STAGE|Y$ trong $MONTHS_REMAINING|Y$ tháng"
+ SITUATION_NEXT_STAGE_IN_MONTHS_WITH_NEXT_STAGE_MOVING_DOWN: "Tụt xuống $NEXT_STAGE|Y$ trong $MONTHS_REMAINING|Y$ tháng"
+ SITUATION_CURRENT_STAGE:0 "Giai Đoạn Hiện Tại: $STAGE|Y$"
+ SITUATION_STAGE_ACTIVE_RANGE:1 "Giai Đoạn này có hiệu lực từ $VALUE1|Y$ đến $VALUE2|Y$."
+ SITUATION_STAGE_ACTIVE_RANGE_PERCENT: "Giai Đoạn này có hiệu lực từ $VALUE1|Y$ ($PERCENT1|Y$%) đến $VALUE2|Y$ ($PERCENT2|Y$%)."
+ SITUATION_PROGRESS_CURRENT: "Giai Đoạn Hiện Tại: $STAGE|Y$ ($PERCENT|Y$%)"
+ SITUATION_PROGRESS_STORED: "Tích lũy: $CURRENT|Y$ / $TOTAL|Y$"
+ OUTSTANDING_SITUATIONS:0 "§HTình Huống Chưa Giải Quyết§!\nCác §ETình Huống§! cần chúng ta chú ý được tập hợp tại đây."
+ CLICK_TO_EXPAND_OR_COLLAPSE:0 "§GNhấp để thu gọn hoặc mở rộng phần này.§!"
+ PREDICTED_OUTCOME:0 "Kết Cục Dự Báo"
+ ACTIVE_STAGE:0 "Đang Hiệu Lực"
+ SITUATION_APPROACH_UNAVAILABLE:0 "§RKhông thể chọn Hướng Tiếp Cận này vì lý do sau:§!"
+ SITUATION_APPROACH_LOCKED:0 "§RChúng ta không thể thay đổi Hướng Tiếp Cận cho Tình Huống này.§!"
+ SITUATION_APPROACH_LOCKED_TIMED:0 "§RChúng ta sẽ không thể thay đổi Hướng Tiếp Cận cho Tình Huống này trong $MONTHS|Y$ tháng.§!"
+ OUTLINER_SITUATION_PROGRESS:0 "$PROGRESS|Y$% tiến trình hướng tới kết cục dự kiến."
+ OUTLINER_SITUATION_OUTCOME_TIME:1 "Dự kiến sẽ đạt đến kết cục cho Tình Huống này trong $MONTHS|Y$ tháng, dựa trên mức thay đổi hàng tháng hiện tại là $CHANGE$"
+ CLICK_TO_OPEN_SITUATION_LOG:0 "§GNhấp để mở Nhật Ký Tình Huống§!"
+ SITUATION_STAGE_NO_EFFECTS:0 "Giai Đoạn này không có hiệu ứng."
+ SITUATION_TARGET_TOOLTIP:0 "Tình Huống này xoay quanh $TARGET_TYPE$ $TARGET|Y$."
+ SITUATION_TARGET_TOOLTIP_SPECIFY_SYSTEM: "Tình Huống này xoay quanh $TARGET|Y$ trong hệ sao $SYSTEM|Y$."
+ SITUATION_TARGET_TOOLTIP_NO_TARGET:0 "Hiệu ứng của Tình Huống này tác động lên toàn đế chế."
+ SITUATION_START_HEADER:0 "Giá Trị Khởi Đầu"
+ SITUATION_START_TOOLTIP:0 "Tình Huống bắt đầu ở tiến trình $VALUE|Y0$."
+ civilian_difficulty: "Độ Khó Thường Dân"
+ cadet_difficulty: "Độ Khó Học Viên"
+
+ situation_unknown_outcome_approach:0 "Chúng ta không chắc kết cục từ Hướng Tiếp Cận hiện tại đối với Tình Huống này sẽ ra sao."
+ situation_monthly_change_tooltip_no_control:0 "Tiến trình của §YTình Huống§! này không nằm trong tầm tay chúng ta."
+ situation_monthly_change_tooltip_little_control:0 "Tiến trình của §YTình Huống§! này phần lớn nằm ngoài tầm kiểm soát của chúng ta."
+ situation_monthly_change_tooltip_approaches_dependent:0 "§YTình Huống§! này sẽ tiến triển hướng tới các kết cục khác nhau dựa trên §YHướng Tiếp Cận§! được chọn của chúng ta."
+ set_situation_approach_icon_text:0 "Tùy chọn này sẽ thay đổi §YHướng Tiếp Cận§! của bạn đối với §YTình Huống§! này."
+
+ approach_irreversible_tooltip:0 "§RViệc chọn Hướng Tiếp Cận này là không thể hoàn tác.§!"
+ stage_unknown_effects:0 "Chúng ta không chắc điều gì sẽ diễn ra trong suốt Giai Đoạn này."
+
+ situation_mysterious_labyrinth:0 "Mê Cung Bí Ẩn"
+ situation_mysterious_labyrinth_type:0 "$situation_mysterious_labyrinth$"
+ situation_mysterious_labyrinth_desc:0 "Chúng ta đã phát hiện một mê cung đáng ngờ, dường như của người ngoài hành tinh trên [Target.GetName]. Vẫn chưa rõ làm thế nào hoặc tại sao nó lại xuất hiện ở đó."
+ approach_investigate:2 "Khám Phá Bên Trong"
+ approach_observe:2 "Quan Sát Từ Xa"
+ approach_cordon_off:1 "Thiết Lập Vùng Phong Tỏa"
+ approach_destroy:1 "Tiêu Hủy Nó"
+ approach_destroy_labyrinth_tooltip:0 "Chúng ta sẽ cố gắng loại bỏ Mê Cung."
+ approach_default:2 "Không Làm Gì"
+ approach_encourage:1 "Khuyến Khích Nó"
+ approach_discourage:1 "Ngăn Cản Nó"
+ stage_1:1 "Giai Đoạn I"
+ stage_2:1 "Giai Đoạn II"
+ stage_3:1 "Giai Đoạn III"
+ stage_4:1 "Giai Đoạn IV"
+ stage_5:1 "Giai Đoạn V"
+ stage_6:0 "Giai Đoạn VI"
+ stage_7:0 "Giai Đoạn VII"
+ stage_8:0 "Giai Đoạn VIII"
+ stage_9: "Giai Đoạn IX"
+ stage_10: "Giai Đoạn X"
+ stage_2_alt:0 "$stage_2$"
+ stage_3_alt:0 "$stage_3$"
+ string_current_approach:0 "Hướng Tiếp Cận Hiện Tại"
+ situation_mysterious_labyrinth_monthly_change_tooltip:0 "$situation_monthly_change_tooltip_approaches_dependent$"
+
+ situation.5.name:0 "Mê Cung Bí Ẩn"
+ situation.5.desc:1 "Những người khai hoang của chúng ta trên [This.GetName] vừa có một phát hiện kinh ngạc. Sâu trong một dãy núi hẻo lánh, họ tình cờ bắt gặp một cấu trúc bí ẩn mà theo dữ liệu quét của chúng ta, nó không hề tồn tại khi chúng ta khảo sát [This.GetPlanetMoon] lần đầu. Tình trạng của nó vô cùng hoàn hảo, gần như vừa mới xây dựng, nhưng không có bằng chứng nào cho thấy sự tham gia của [Owner.GetAdj] trong việc thi công. Trên thực tế, kiến trúc của nó mang những đặc tính dị chủng, với những đường cong và góc cạnh trông vô cùng bất thường và thậm chí làm xáo trộn cảm quan thẩm mỹ của chúng ta.\n\nTại lối vào, có một tấm biển (kỳ lạ thay, bằng chính ngôn ngữ của chúng ta) với dòng chữ \"Chào mừng đến với Mê Cung Kỳ Vĩ của các Dị Thường Xuyên Chiều Không Gian Độc Lạ. Bước vào tự gánh rủi ro.\""
+ situation.5.A:0 "Phái một đội tới điều tra."
+ situation.5.A.tooltip:0 "Hướng Tiếp Cận này sẽ tốn £energy£ §R5§! §YNăng Lượng§! mỗi tháng."
+ situation.5.B:0 "Chúng ta không có thời gian cho việc này."
+ situation.10.name:0 "Những Cử Động Đáng Kinh Ngạc"
+ situation.10.desc:0 "Có vẻ như mê cung ngoài hành tinh trên [Target.GetName] đang cố thu hút sự chú ý của chúng ta. Các [Owner.GetResearchers] của chúng ta rất ngần ngại gán ý chí chủ quan như vậy cho một công trình kiến trúc, nhưng đó là cách diễn đạt duy nhất: mê cung giờ đây không còn nằm ở một con đèo hẻo lánh nữa, mà thay vào đó tọa lạc cách một trong những khu định cư chính của chúng ta một khoảng ngắn. Chỉ sau một đêm, nó đã dịch chuyển vị trí một cách khó hiểu, và các biển cảnh báo ở lối vào đã biến mất - trên thực tế, giờ đây nó trông... đầy mời gọi.\n\nTrong khi một số người tò mò muốn bước vào, các [Owner.GetResearchers] của chúng ta kêu gọi sự thận trọng. Tuy nhiên, điều rõ ràng là chúng ta không thể chỉ bằng lòng với việc quan sát mê cung từ xa nữa - một hướng tiếp cận mới là cần thiết."
+ situation.10.desc.gestalt:0 "Có vẻ như mê cung ngoài hành tinh trên [Target.GetName] đang cố thu hút sự chú ý của chúng ta. Dù việc một công trình kiến trúc sở hữu bất kỳ dạng thức ý thức nào là điều đáng ngạc nhiên, nhưng đó là cách diễn đạt duy nhất: mê cung giờ đây không còn nằm ở một con đèo hẻo lánh nữa, mà thay vào đó tọa lạc cách một trong những khu vực kho chứa chính của chúng ta một khoảng ngắn. Chỉ sau một đêm, nó đã dịch chuyển vị trí một cách khó hiểu, và các biển cảnh báo ở lối vào đã biến mất - trên thực tế, giờ đây nó trông... đầy mời gọi.\n\nSự thay đổi này sẽ khiến việc ngăn chặn các [owner.GetIndividualNamePlural] vô tình bước vào trong trở nên khó khăn hơn, trừ khi chúng ta nỗ lực thiết lập vùng phong tỏa khu vực này."
+ situation.10.A:0 "Phong tỏa khu vực - không ai được phép vào!"
+ situation.10.A.tooltip:0 "Hướng Tiếp Cận này sẽ tốn £energy£ §R10§! §YNăng Lượng§! mỗi tháng."
+ situation.10.B:0 "Có lẽ rốt cuộc chúng ta vẫn nên điều tra nó."
+ situation.10.C:0 "Mê cung này quá nguy hiểm. Phải phá hủy nó."
+ situation.15.name:0 "Thu Hút Sự Chú Ý"
+ situation.15.desc.base:0 "Mê cung dường như phật lòng trước sự thờ ơ của chúng ta. Toàn bộ cấu trúc dần biến đổi diện mạo, chuyển từ một tòa công trình cấm kỵ thành thứ trông giống như một cung điện hoan lạc."
+ situation.15.desc.base.end:1 "Các [Root.Owner.GetResearchers] của chúng ta bối rối trước những biến đổi này, và việc ngăn chặn bất kỳ ai bước vào cấu trúc ngày càng trở nên khó khăn hơn."
+ situation.15.desc.standard:0 "$situation.15.desc.base$ Tấm biển cảnh báo nguy hiểm đã biến mất; giờ đây, những [Owner.Species.GetSpawnNamePlural] thuộc loài [Owner.Species.GetClass] đáng yêu bò quanh lối vào, cầu xin sự chú ý, và bằng cách nào đó, bên trong toát lên cảm giác về những bờ biển bao la cùng bình minh bất tận ngay ngoài tầm mắt.\n\n$situation.15.desc.base.end$"
+ situation.15.desc.human:0 "$situation.15.desc.base$ Tấm biển cảnh báo nguy hiểm đã biến mất; giờ đây, những chú mèo con đáng yêu bò quanh lối vào, kêu meo meo đòi chú ý, và bằng cách nào đó, bên trong toát lên cảm giác về những bờ biển bao la cùng bình minh bất tận ngay ngoài tầm mắt.\n\n$situation.15.desc.base.end$"
+ situation.15.desc.gestalt.base:0 "Mê cung dường như phật lòng trước sự thờ ơ của chúng ta. Toàn bộ cấu trúc dần biến đổi diện mạo, chuyển từ một tòa công trình cấm kỵ thành thứ trông giống như một cơ sở lưu trữ xa hoa."
+ situation.15.desc.gestalt.base.end:1 "Các [Root.Owner.GetResearchers] của chúng ta bối rối trước những biến đổi này, và việc ngăn chặn các [Root.Owner.GetIndividualNamePlural] bước vào cấu trúc ngày càng trở nên khó khăn hơn."
+ situation.15.desc.machine:0 "$situation.15.desc.base$ Tấm biển cảnh báo nguy hiểm đã biến mất; giờ đây, các thiết bị cung cấp dầu bánh răng chất lượng cao, dịch vụ xóa vết trầy xước và hỗ trợ chống phân mảnh ổ đĩa siêu tốc đang hiện diện ngay bên trong lối vào.\n\n$situation.15.desc.gestalt.base.end$"
+ situation.15.desc.hive:0 "$situation.15.desc.base$ Tấm biển cảnh báo nguy hiểm đã biến mất; giờ đây, các thiết bị cung cấp dinh dưỡng thượng hạng cho [Root.Owner.GetIndividualNamePlural], những rung cảm thần kinh xoa dịu và phụ tùng thay thế chi thể đang hiện diện ngay bên trong lối vào.\n\n$situation.15.desc.gestalt.base.end$"
+ situation.15.A:0 "Chúng ta sẽ phải tăng gấp đôi nỗ lực."
+ situation.15.A.tooltip:0 "Hướng Tiếp Cận hiện tại của chúng ta giờ sẽ tốn thêm £unity£ §R10§! §YĐoàn Kết§! mỗi tháng."
+ situation.20.name:0 "Phần Thưởng Cho Sự Kiên Định"
+ situation.20.desc:0 "Mê cung đã biến mất. Chỉ sau một đêm, nó biến mất không còn dấu vết. Tại vị trí đó, một thông điệp được để lại cho chúng ta: \"Mặc dù mục đích ban đầu của chúng tôi là nghiên cứu các Sinh thể thuộc Chiều Không Gian của các bạn bên trong cơ sở của chúng tôi, sự kiên quyết từ chối bước vào của các bạn bất chấp mọi cám dỗ đã tự nó mang lại một bài học quý giá. Trải nghiệm này đã làm phong phú thêm hiểu biết của chúng tôi - nó sẽ chứng minh là vô cùng hữu ích cho... các nỗ lực nghiên cứu của chúng tôi. Để bày tỏ thiện chí, chúng tôi để lại cho các bạn một dị thường không-thời gian nhỏ tại vị trí phòng thí nghiệm. Chúng tôi hy vọng nó sẽ chứng minh là... một trò tiêu khiển thú vị đối với các bạn.\""
+ situation.25.name:0 "Mê Cung Bị Phá Hủy"
+ situation.25.desc:0 "Bất chấp những đặc tính khác thường, mê cung tỏ ra không thể chống cự trước hỏa lực hạng nặng của chúng ta. Nơi nó từng tọa lạc, giờ chỉ còn lại đống gạch vụn.\n\nThật không may, chúng ta không thu thập được nhiều điều từ đống đổ nát, nhưng một số nguyên tố ngoại lai dùng trong quá trình xây dựng nó có thể thu hồi được."
+ situation.30.name:0 "Mê Cung Biến Mất"
+ situation.30.desc:0 "Mê cung đã không còn. Chỉ sau một đêm, nó đơn giản là tan biến. Không còn dấu vết gì sót lại tại nơi nó từng ngự trị, để lại các [Owner.GetResearchers] của chúng ta bối rối không hiểu rốt cuộc tất cả chuyện này là sao. Nhưng có lẽ chúng ta sẽ an toàn hơn khi không biết đến nó."
+ situation.30.A:0 "Một mối đe dọa đã được dỡ bỏ khỏi chúng ta."
+ situation.40.name:0 "Báo Cáo Thám Hiểm"
+ situation.40.desc:0 "Kênh liên lạc tới các [Owner.GetResearchers] mà chúng ta phái vào mê cung đã bị cắt đứt gần như ngay khi họ bước vào trong. Không có tin tức gì suốt nhiều ngày trong khi chúng ta lo âu chờ đợi. Thời gian trôi qua, chúng ta đã cam chịu trước sự mất mát nhân sự của mình.\n\nThế rồi, khi mọi hy vọng dường như đã tắt, họ bất ngờ tái xuất hiện! Tuy nhiên, điều này chỉ làm dấy lên thêm nhiều nghi vấn: các [Owner.GetResearchers] quả quyết rằng họ không còn ký ức nào về quãng thời gian ở trong mê cung, và các bản ghi âm hành trình thám hiểm của họ bị xáo trộn nghiêm trọng. Hơn nữa, dù họ chỉ ở trong mê cung vài tuần, bề ngoài của họ dường như đã già đi vài năm!"
+ situation.45.name:0 "Nỗi Bối Rối Tiếp Diễn"
+ situation.45.desc:0 "Các chuyến thám hiểm tiếp theo vào mê cung đã mang lại những kết quả trái ngược, đôi khi đáng sợ. Có lần, các [Owner.GetResearchers] của chúng ta chỉ vừa bước vào vài giây rồi lập tức quay trở lại, và không thể đưa ra câu trả lời vì sao họ lại rút lui nhanh như vậy. Lần khác, họ biến mất nhiều tuần, nhưng khi trở về lại có vẻ trẻ hơn lúc khởi hành, cùng với những khoảng trống ký ức kéo dài hàng năm trời. Một số nhóm trở về với thể trạng tốt hơn trước; trong khi những nhóm khác lại mang trên mình những vết sẹo thương tật nghiêm trọng mới toanh.\n\nTheo thời gian, tấm biển ở lối vào cũng thay đổi. Dòng chữ \"Bước vào tự gánh rủi ro\" đã đổi thành \"Nguy cơ tử vong\", và cuối cùng là \"CẢNH BÁO! CẢNH BÁO! Không được bước vào mê cung. Nếu làm vậy, hành tinh sẽ phát nổ.\" Trong một nét rùng rợn, những [Owner.Species.GetRemnantNamePlural] của [Owner.GetAdj] tô điểm cho các bức tường - dù chính xác chúng đến từ đâu thì không rõ, vì gần đây không có vụ mất tích bí ẩn nào.\n\nKhông rõ nghiên cứu sâu hơn sẽ đem lại điều gì - như các [Owner.GetResearchers] đã chỉ ra, chúng ta không có cách nào xác nhận hay bác bỏ lời cảnh báo ghi trên tấm biển. Tuy nhiên, việc tìm kiếm tình nguyện viên bước vào mê cung đang ngày càng khó khăn hơn."
+ situation.45.desc.hive:0 "Các chuyến thám hiểm tiếp theo vào mê cung đã mang lại những kết quả trái ngược, đôi khi đáng sợ. Có lần, các [Owner.GetResearchers] của chúng ta chỉ vừa bước vào vài giây rồi lập tức quay trở lại, và không thể đưa ra câu trả lời vì sao họ lại rút lui nhanh như vậy. Lần khác, họ biến mất nhiều tuần, nhưng khi trở về lại có những khoảng trống ký ức kéo dài hàng năm trời. Một số nhóm trở về với thể trạng tốt hơn trước; trong khi những nhóm khác lại mang trên mình những vết sẹo thương tật nghiêm trọng mới toanh.\n\nTheo thời gian, tấm biển ở lối vào cũng thay đổi. Dòng chữ \"Bước vào tự gánh rủi ro\" đã đổi thành \"Nguy cơ mất thể xác\", và cuối cùng là \"CẢNH BÁO! CẢNH BÁO! Không được bước vào mê cung. Nếu làm vậy, hành tinh sẽ phát nổ.\" Trong một nét rùng rợn, những [Owner.Species.GetRemnantNamePlural] của [Owner.GetAdj] tô điểm cho các bức tường - dù chính xác chúng đến từ đâu thì không rõ, vì gần đây không có vụ mất tích bí ẩn nào.\n\nKhông rõ nghiên cứu sâu hơn sẽ đem lại điều gì - như các [Owner.GetResearchers] đã chỉ ra, chúng ta không có cách nào xác nhận hay bác bỏ lời cảnh báo ghi trên tấm biển. Tuy nhiên, việc tìm kiếm [owner.GetIndividualNamePlural] bước vào mê cung đang ngày càng khó khăn hơn."
+ situation.45.desc.machine:0 "Các chuyến thám hiểm tiếp theo vào mê cung đã mang lại những kết quả trái ngược, đôi khi đáng sợ. Có lần, các [Owner.GetResearchers] của chúng ta chỉ vừa bước vào vài giây rồi lập tức quay trở lại, và không thể đưa ra câu trả lời vì sao họ lại rút lui nhanh như vậy. Lần khác, họ biến mất nhiều tuần, và trở về với ổ cứng bị xóa sạch dữ liệu. Một số nhóm trở về với vỏ bọc ít hao mòn hơn; những nhóm khác lại mang những vết móp lớn hoặc thiếu mất chi thể phụ tùng.\n\nTheo thời gian, tấm biển ở lối vào cũng thay đổi. Dòng chữ \"Bước vào tự gánh rủi ro\" đã đổi thành \"Nguy cơ tháo dỡ\", và cuối cùng là \"CẢNH BÁO! CẢNH BÁO! Không được bước vào mê cung. Nếu làm vậy, hành tinh sẽ phát nổ.\" Trong một nét rùng rợn, những [Owner.Species.GetRemnantNamePlural] của [Owner.GetAdj] tô điểm cho các bức tường - dù chính xác chúng đến từ đâu thì không rõ, vì gần đây không có vụ mất tích bí ẩn nào.\n\nKhông rõ nghiên cứu sâu hơn sẽ đem lại điều gì - như các [Owner.GetResearchers] đã chỉ ra, chúng ta không có cách nào xác nhận hay bác bỏ lời cảnh báo ghi trên tấm biển. Tuy nhiên, việc tìm kiếm các drone bước vào mê cung đang ngày càng khó khăn hơn."
+ situation.50.name:0 "Cuộc Rời Đi"
+ situation.50.desc:0 "Trái ngược với những lời cảnh báo, việc mê cung biến mất không phá hủy [Target.GetName]. Thay vào đó, cuộc rời đi của nó diễn ra khá êm thấm - chỉ sau một đêm, nó đơn giản là không còn nữa. Một thông điệp được để lại: \"Chúng tôi cảm ơn các bạn đã rất tử tế cho phép chúng tôi nghiên cứu các Sinh thể thuộc Chiều Không Gian của các bạn. Nó đã chứng minh là vô cùng hữu ích cho... các nỗ lực nghiên cứu của chúng tôi. May mắn thay, các bạn đã chứng tỏ mình đủ... lôi cuốn đối với Bộ An Ninh Dị Chiều để họ cấp kinh phí cho một cuộc rút lui suôn sẻ. Để bày tỏ thiện chí, chúng tôi để lại cho các bạn một dị thường không-thời gian nhỏ tại vị trí phòng thí nghiệm. Chúng tôi hy vọng nó sẽ chứng minh là... một trò tiêu khiển thú vị.\""
+ situation.50.A:0 "Chúng ta sẽ đi sâu vào những bí mật của nó."
+ situation.55.name:0 "Cuộc Rời Đi Đầy Biến Động"
+ situation.55.desc:0 "Trái ngược với những lời cảnh báo, việc mê cung biến mất không phá hủy [Target.GetName]. Tuy nhiên, nó chắc chắn đã để lại dấu ấn: các trận động đất tàn phá mặt đất, và những ngọn núi lửa ngủ yên bấy lâu đã bùng nổ phun trào.\n\nGiữa cảnh tượng tàn phá diện rộng, một thông điệp được để lại: \"Chúng tôi cảm ơn các bạn đã rất tử tế cho phép chúng tôi nghiên cứu các Sinh thể thuộc Chiều Không Gian của các bạn. Nó đã chứng minh là vô cùng hữu ích cho... các nỗ lực nghiên cứu của chúng tôi. Chúng tôi xin lỗi vì sự bất tiện mà cuộc rời đi này gây ra - chúng tôi đã không thể bảo đảm đủ kinh phí cần thiết từ Bộ An Ninh Dị Chiều cho một cuộc rút lui suôn sẻ. Để bày tỏ thiện chí, chúng tôi để lại cho các bạn một dị thường không-thời gian nhỏ tại vị trí phòng thí nghiệm. Chúng tôi hy vọng nó sẽ chứng minh là... một trò tiêu khiển thú vị.\""
+ situation.55.A:0 "Trong cái rủi vẫn có cái may."
+
+ d_space_time_anomaly:0 "Dị Thường Không-Thời Gian"
+ d_space_time_anomaly_desc:0 "Một dị thường không-thời gian ổn định đáng kinh ngạc bị bỏ lại bởi một loài dị chiều từng tiến hành nghiên cứu trên hành tinh. Những hàm ý khoa học từ sự tồn tại của nó, dường như, vô cùng sâu sắc."
+ physicist_is_space_time_researcher_tt: "£job_physicist£ $job_physicist_plural$ được chuyển đổi thành $job_space_time_anomaly_researcher_plural$"
+
+ situation_living_snow:0 "Tuyết Dị Thường"
+ situation_living_snow_type:0 "Tuyết Dị Thường"
+ situation_living_snow_desc:1 "Tuyết đã bắt đầu tích tụ bên ngoài một trong những khu định cư thuộc địa chính trên [Target.GetName], một hành tinh sa mạc nơi tuyết rõ ràng là một hiện tượng bất thường."
+ situation_living_snow_monthly_change_tooltip:0 "$situation_monthly_change_tooltip_little_control$"
+ situation_snow_hostile:0 "Làm Tan Chảy Tất Cả."
+ situation_snow_observation:1 "Quan Sát Hòa Bình"
+ situation_snow_very_hostile_tt:0 "Nỗ Lực Hỏa Thiêu Đặc Biệt"
+ too_late_to_change_approach:0 "§RĐã quá muộn để thay đổi Hướng Tiếp Cận Tình Huống.§!"
+ situation.150.name:0 "Tuyết Dị Thường"
+ situation.150.desc:0 "Các người khai hoang trên [Root.GetName] báo cáo một hiện tượng kỳ lạ: tuyết bắt đầu tụ lại bên ngoài một trong các khu định cư thuộc địa chính của họ.\n\nThực ra, \"tuyết\" chỉ là thuật ngữ họ dùng để mô tả nó. Thật khó tin khi đó là tuyết thật, xét việc [Root.GetName] là một hành tinh sa mạc nơi nhiệt độ hiếm khi xuống dưới mức đóng băng, ngay cả ở các vùng cực. Hơn nữa, không ai thấy tuyết thực sự rơi từ trên trời xuống. Dẫu vậy, các số liệu đọc ban đầu cho thấy chất này quả thực bao gồm phần lớn là nước đóng băng - dù tại sao nó không tan chảy vẫn còn là điều bí ẩn. Các [Root.Owner.GetResearchers] của chúng ta rất hào hứng điều tra các đặc tính của nó, nhưng những người khác cảnh báo nó có thể nguy hiểm và muốn loại bỏ nó."
+ situation.155.name:0 "Hơi Lạnh Lan Rộng"
+ situation.155.desc:1 "Tuyết trên [Target.GetName] đang sinh sôi nảy nở. Mảng tuyết nhỏ ban đầu đã phình to bao phủ một diện tích sa mạc ngày càng mở rộng, đến mức cản trở mạng lưới giao thông và canh tác của chúng ta. Nếu nó không sớm ngừng phát triển, mối lo ngại rằng thuộc địa sẽ không thể tiếp tục tự duy trì ngày một gia tăng.\n\nCác [Owner.GetResearchers] trên hành tinh đã nỗ lực trong vô vọng để giải thích hiện tượng này. Khi bị tách khỏi khối tuyết chính, tuyết nhanh chóng tan chảy, chỉ để lại một lượng chất hữu cơ. Các [Owner.GetResearchers] đưa ra giả thuyết rằng lượng dư lượng này giúp tuyết duy trì tính toàn vẹn, che chắn nó khỏi nhiệt độ thông qua một phản ứng hóa học chưa rõ. Tuy nhiên, họ cảnh báo đây chỉ là phỏng đoán tốt nhất, và họ mới chỉ phát hiện được rất ít về hợp chất kỳ lạ này."
+ situation.155.A:0 "Tốt nhất nên theo dõi nó."
+ situation.155.A.tooltip:0 "Quan sát tuyết sẽ mang lại £physics_research£ £society_research£ £engineering_research£ §G+5§! §YNghiên Cứu§! mỗi tháng, nhưng tiêu tốn £unity£ §R10§! §YĐoàn Kết§!."
+ situation.155.B:0 "Chúng ta phải trừ khử mối hiểm họa này!"
+ situation.155.B.tooltip:0 "Nỗ lực dọn dẹp của chúng ta sẽ tăng §YĐộ Ổn Định Hành Tinh§! thêm §G+10§!, nhưng tiêu tốn £energy£ §R10§! §YNăng Lượng§! mỗi tháng."
+ situation.160.name:0 "Khó Khăn Khi Dọn Dẹp"
+ situation.160.desc:0 "Có vẻ như tuyết kháng cự lại việc dọn dẹp. Mặc dù chúng ta có thể tách những mảng nhỏ khỏi khối chính và làm tan chảy theo cách đó, điều này chẳng mấy làm chậm bước tiến của nó, và những nỗ lực xâm lấn sâu hơn nhằm phá hủy tuyết cho đến nay đều thất bại - một loạt các sự cố hỏng hóc cơ khí bí ẩn đã bao trùm toàn bộ nỗ lực.\n\nTệ hơn nữa, ngày càng có nhiều báo cáo về việc người khai hoang mất tích tại các khu vực bị tuyết bao phủ. Rất có thể những sự việc này có liên quan và lớp tuyết này còn sống - và mang dã tâm hiểm độc."
+ situation.160.A:0 "Chúng ta phải tăng gấp đôi nỗ lực."
+ situation.160.A.tooltip:0 "Nỗ lực dọn dẹp của chúng ta giờ sẽ tốn £energy£ §R15§! §YNăng Lượng§! mỗi tháng.\nTình Huống sẽ tiến triển nhanh gấp đôi."
+# situation.160.B:0 "It's alive? Perhaps we should be more cautious."
+ situation.160.C:0 "Hướng tiếp cận hiện tại là đủ rồi."
+ situation.160.C.tooltip:0 "Nỗ lực dọn dẹp của chúng ta giờ sẽ chỉ mang lại §G+5§! §YĐộ Ổn Định Hành Tinh§!."
+ situation.165.name:0 "Ngập Trong Tuyết"
+ situation.165.desc:1 "Tuyết trên [Target.GetName] đang lan rộng ở tốc độ đáng báo động, và giờ đây bao phủ một phần không nhỏ các khu vực xích đạo của hành tinh. Các chỉ huy quân sự cảnh báo cần phải có hành động quyết liệt ngay lập tức nếu muốn ngăn chặn bước tiến của nó. Tuy nhiên, những cái đầu tỉnh táo hơn chỉ ra rằng cho đến nay nó chỉ là một sự phiền toái hơn là một mối đe dọa, và nó đã tránh trực tiếp chiếm đóng các khu định cư có người sinh sống. Họ cho rằng lớp tuyết rõ ràng còn sống, và lập luận rằng chúng ta nên tìm cách mở cuộc đối thoại với nó.\n\nDù thế nào đi nữa, không gian xoay sở của chúng ta đang nhanh chóng thu hẹp."
+ situation.165.A:0 "Chúng ta phải tìm hiểu xem nó muốn gì."
+ situation.165.B:0 "Dùng lửa thiêu rụi nó. Ngay lập tức."
+ situation.165.tooltip:0 "§RChúng ta sẽ không thể thay đổi Hướng Tiếp Cận Tình Huống được nữa.§!"
+ situation.170.name:0 "Bị Tuyết Nuốt Chửng"
+ situation.170.desc:1 "Chúng ta đã nhận được những báo cáo đáng quan ngại về \"vấn đề tuyết\" trên [Target.GetName]. Có vẻ như một vài người khai hoang của chúng ta đã mất tích sau khi rủ nhau chơi \"ném bóng tuyết\". Liên lạc với họ đã bị gián đoạn vài ngày trước, nhưng chúng ta không tìm thấy bất kỳ dấu vết nào của họ - dù sống hay chết. Những người khai hoang được khuyến cáo tránh mọi tiếp xúc với tuyết, cho đến khi các [Owner.GetResearchers] có thể tìm hiểu thêm về nó - hoặc những người mất tích được tìm thấy."
+ situation.170.A:0 "Cần phải thận trọng."
+ situation.170.A.tooltip:0 "Chi phí quan sát tuyết tăng lên £unity£ §R15§! §YĐoàn Kết§! mỗi tháng."
+# situation.170.B:0 "We must get rid of the snow with all haste!"
+ situation.175.name:0 "Biến Đổi Khí Hậu"
+ situation.175.desc:0 "Sự lan rộng của tuyết trên [Target.GetName] không chỉ là nguồn cơn của sự hiếu kỳ - và khó khăn - đối với người khai hoang. Nó còn gây ra những biến đổi nhanh chóng cho hệ sinh thái, khiến nhiều loài động thực vật bản địa chịu áp lực nặng nề. Những cuộc di cư quy mô lớn khỏi các vùng bị ảnh hưởng đã diễn ra. Tuy nhiên, trước sự ngạc nhiên của chúng ta, một số loài khác lại phát triển mạnh mẽ trong điều kiện khí hậu mới lạnh giá hơn. Các nhà khí hậu học háo hức quan sát diễn biến, gọi đây là cơ hội \"nghìn năm có một\" để chứng kiến sự biến đổi khí hậu nhanh chóng không do [Owner.GetAdj] kiểm soát đang diễn ra."
+ situation.180.desc:0 "Sự hiện diện của các ngươi đã mang lại cho chúng ta trí tuệ. Chúng ta đã hấp thụ những Kẻ Lạc Lối của các ngươi để học cách tư duy mới, cách tồn tại mới. Nhưng các ngươi lại tìm cách tiêu diệt chúng ta. Chúng ta chỉ mới đạt được tri giác; chúng ta chưa sẵn sàng từ bỏ nó. Thái độ của các ngươi khiến chúng ta không còn lựa chọn nào khác: đây là chiến tranh."
+ situation.180.A:0 "$situation.185.B$"
+ situation.185.desc:0 "Sự hiện diện của các ngươi đã mang lại cho chúng ta trí tuệ. Chúng ta đã hấp thụ những Kẻ Lạc Lối của các ngươi để học cách tư duy mới, cách tồn tại mới. Chúng ta vẫn chưa hiểu trạng thái tồn tại này - tri giác này - nghĩa là gì. Ý nguyện của chúng ta là được ẩn dật tại một góc trên hành tinh này, nơi chúng ta có thể tự do khám phá xem bản thân mình là ai.\n\nNếu các ngươi không cho phép điều này, hãy nhớ rằng chúng ta chưa sẵn sàng từ bỏ sự tồn tại mới của mình. Chúng ta sẽ tự vệ, nếu cần thiết."
+ situation.185.A:0 "Chúng ta có thể nhượng lại một phần đất đai."
+ situation.185.B:0 "Đây sẽ là chiến tranh."
+ situation.185.B.tooltip:0 "§RChúng ta phải chiến đấu để giữ quyền kiểm soát hành tinh§!"
+
+ d_living_snow_reserve:0 "Khu Bảo Tồn Tuyết Sống"
+ d_living_snow_reserve_desc:0 "Một khu bảo tồn nơi Tuyết Sống có thể sinh sống trong hòa bình và khám phá trạng thái tồn tại mới của mình. Và đổi lại, nơi chúng ta có thể quan sát các phản ứng hóa học độc nhất vô nhị mà nó có thể tạo ra."
+
+ situation.190.name:0 "Mất Thuộc Địa!"
+ situation.190.desc:0 "Chúng ta đã mất quyền kiểm soát [FromFrom.GetName] - nơi đã bị §YTuyết Sống§! đánh chiếm! Đã có những thay đổi đáng kể diễn ra đối với hệ sinh thái của [FromFrom.GetPlanetMoon]. Các [This.GetResearchers] cảnh báo rằng, trừ khi chúng ta có thể tái chiếm [FromFrom.GetPlanetMoon], cấu tạo của nó sẽ sớm bị biến đổi vượt quá khả năng cư trú của chúng ta."
+ situation.190.tooltip:0 "§RChúng ta nên tái chiếm hành tinh trước khi quá muộn!§!"
+ situation.195.name:0 "Băng Giá Vĩnh Cửu"
+ situation.195.desc:1 "Khi Tuyết Sống củng cố quyền kiểm soát đối với [Root.GetName], [Root.GetPlanetMoon] ngày càng trở nên lạnh hơn, các điều kiện khí quyển của nó biến đổi ở tốc độ ngày càng nhanh. Giờ đây, thế giới này không còn có thể xem là nơi cư trú được nữa. Không rõ liệu chúng ta có bao giờ khôi phục được nó về trạng thái ban đầu hay không... nhưng các [saved_owner.GetResearchers] khẳng định rằng chúng ta có thể học được nhiều điều thú vị bằng cách quan sát những hành vi kỳ quặc của tuyết khi nó khám phá trạng thái tồn tại mới của mình - cùng những phản ứng hóa học độc đáo đã gây ra sự biến đổi to lớn đối với [Root.GetName]."
+ situation.195.A:0 "Lạnh run cầm cập...."
+
+ ### Geomagnetic Storm
+
+ ## UI
+ # Situation
+ situation_entry_top_header:0 "Tình Huống Chưa Giải Quyết"
+ situation_geomagnetic_storm:0 "Bão Địa Từ"
+ situation_geomagnetic_storm_type:0 "Bão Địa Từ"
+ situation_geomagnetic_storm_desc:0 "Sự gia tăng hoạt động của sao mẹ đang làm suy yếu từ quyển của §Y[Target.GetName]§!, khiến máy móc của chúng ta phơi nhiễm mức bức xạ ion hóa nguy hiểm. Hãy đầu tư vào các kỹ thuật gia cố chống bức xạ để che chắn cho các drone của chúng ta khỏi bị hư hại cho đến khi cơn bão lắng xuống.\n§HTình huống sẽ kết thúc trong §Y[Target.storm_duration]§! tháng.§!"
+ situation_geomagnetic_storm_monthly_change_tooltip:0 "Tiến trình của §YTình Huống§! này phụ thuộc vào §YHướng Tiếp Cận§! mà chúng ta chọn. Hãy che chắn cho các drone để tránh tích tụ tổn hại do bức xạ và ngăn ngừa kết cục tiêu cực."
+ situation_geomagnetic_storm_outcome:0 "Tổn hại bức xạ trên diện rộng sẽ tác động đến trí tuệ cốt lõi của chúng ta, gây ra hậu quả tàn khốc cho toàn đế chế."
+
+ protect_simple_drones:0 "Che Chắn Drone Đơn Giản"
+ protect_complex_drones:0 "Che Chắn Drone Phức Tạp"
+ protect_everydrone:0 "Che Chắn Tất Cả Drone"
+ approach_protect_effect:0 "Tiêu tốn £energy£ §HNăng Lượng§! để giảm lượng §Ytổn hại bức xạ§! bạn nhận mỗi tháng. (£energy£ §Y[target.energy_cost]§! cho mỗi £pop£ §HDân Số§!)"
+ protect_nobody:0 "Không Che Chắn"
+ approach_protect_nobody_effect:0 "Không che chắn cho drone khỏi §Ytổn hại bức xạ§!."
+
+ radiation_damage_low:0 "Tổn hại bức xạ: tối thiểu."
+ radiation_damage_mid:0 "§YThiỆT h4i phÓnG xẠ: trUnG bÌnH§!"
+ radiation_damage_high:0 "§RThhhIỆt HhAhẠi PhÓnGG xẠ: cAaAaaoOoOoH§!"
+
+ # Deposit
+ d_machine_care_home:1 "Trung Tâm Giao Tiếp Hữu Cơ - Máy Móc"
+ d_machine_care_home_desc:0 "Một trung tâm chuyên biệt nơi các drone bị trục trặc được phối hợp cùng với các trợ tá sinh học."
+
+ # Jobs
+ job_machine_nurse:0 "Trợ Tá Sinh Học"
+ job_machine_nurse_plural:0 "Các Trợ Tá Sinh Học"
+ job_machine_nurse_desc:0 "Các trợ tá sinh học chịu trách nhiệm giúp đỡ các drone trục trặc thực hiện các nhiệm vụ đơn giản."
+ mod_job_machine_nurse_add:0 "Việc Làm $job_machine_nurse$"
+ mod_job_machine_nurse_per_pop:0 "§G+1§! Việc làm $job_machine_nurse$ trên mỗi $VALUE$ Dân Số"
+ mod_job_machine_nurse_per_pop_short:0 "\n§G+1§! £mod_job_machine_nurse_add£ trên mỗi $VALUE$ £pop£"
+
+ # Modifiers
+ broken_assembly_line:0 "Dây Chuyền Lắp Ráp Lỗi"
+ broken_assembly_line_desc:0 "Máy móc gặp trục trặc đang làm chậm tiến độ sản xuất drone mới."
+ radiation_hardened_components:0 "Linh Kiện Chống Bức Xạ"
+ radiation_hardened_components_desc:0 "Đế chế của chúng ta đã hoàn thiện quy trình che chắn các linh kiện cơ khí khỏi tác hại do tia vũ trụ gây ra."
+ software_damage:0 "Hư Hại Phần Mềm"
+ software_damage_desc:0 "Ý thức tập thể của chúng ta đã bị tổn hại do phóng xạ. Công tác sửa chữa đang được tiến hành."
+ machine_care_museum:1 "Bảo Tàng Giao Tiếp Hữu Cơ - Máy Móc"
+ machine_care_museum_desc:1 "Một trung tâm chuyên biệt nơi các $pop_cat_bio_trophy_plural$ có thể trải nghiệm cảm giác phấn khích khi làm những nhiệm vụ vô nghĩa để cảm thấy bản thân có ích."
+
+
+ ## Events
+ # Intro
+ situation.200.name:0 "Vết Lóa Sao"
+ situation.200.desc:0 "CẢNH BÁO: phát hiện một vết lóa sao phun trào trên §Y[This.GetStarName]§!. Sóng xung kích của gió sao đang làm suy yếu từ quyển của §Y[This.GetName]§!, khiến các drone của chúng ta phơi nhiễm mức độ bức xạ ion hóa ngày càng tăng. Thiệt hại phần mềm phát sinh có nguy cơ lan sang trí tuệ Cốt Lõi, tiềm ẩn hậu quả tàn khốc cho toàn bộ đế chế của chúng ta.\n\nƯu tiên: áp dụng các kỹ thuật gia cố chống bức xạ để che chắn các linh kiện drone, giúp chúng miễn nhiễm với phóng xạ."
+ situation.200.a:0 "Ưu tiên che chắn drone đơn giản."
+ situation.200.b:0 "Ưu tiên che chắn drone phức tạp."
+ situation.200.c:0 "Đảm bảo tất cả drone của chúng ta đều được che chắn."
+ situation.200.d:0 "Lỗi: không thể phân bổ ngân sách."
+ situation.200.a.tooltip:0 "Tiêu tốn £energy£ §Y[Root.simple_drones_cost]§! để che chắn £pop£ §H[Root.simple_drones_counter_100] Drone Đơn Giản§! (£energy£ §Y[Root.energy_cost]§! trên mỗi 100 £pop£ §HDân Số§!).\nThêm hiệu ứng điều chỉnh §YNhiễu Loạn Từ Trường§! trong §Y5 Năm§!."
+ situation.200.b.tooltip:0 "Tiêu tốn £energy£ §Y[Root.complex_drones_cost]§! để che chắn £pop£ §H[Root.complex_drones_counter_100] Drone Phức Tạp§! (£energy£ §Y[Root.energy_cost]§! trên mỗi 100 £pop£ §HDân Số§!).\nThêm hiệu ứng điều chỉnh §YNhiễu Loạn Từ Trường§! trong §Y5 Năm§!."
+ situation.200.c.tooltip:0 "Tiêu tốn £energy£ §Y[Root.total_drones_cost]§! để che chắn £pop£ §H[Root.total_drones_counter_100] Drone§! (£energy£ §Y[Root.energy_cost]§! trên mỗi 100 £pop£ §HDân Số§!).\nThêm hiệu ứng điều chỉnh §YNhiễu Loạn Từ Trường§! trong §Y5 Năm§!."
+ situation.200.d.tooltip:0 "Không che chắn drone.\nThêm hiệu ứng điều chỉnh §YNhiễu Loạn Từ Trường§! trong §Y5 Năm§!."
+
+ situation.202.name:0 "Bão Địa Từ"
+ situation.202.desc:0 "Cập nhật tình trạng: dữ liệu xác nhận §Y[root.GetStarName]§! đã bước vào giai đoạn hoạt động dữ dội, đặc trưng bởi các vết đen sao gia tăng, phóng đại khối và bùng nổ từ trường. Các [Root.owner.GetScientistPlural] của chúng ta ước tính ngôi sao sẽ trở lại mức hoạt động bình thường trong vòng §Hnăm năm§!.\n\nKế hoạch hành động đề xuất: tiếp tục sản xuất các linh kiện chống bức xạ để che chắn các drone khỏi tổn hại phóng xạ cho đến khi cơn bão lắng xuống."
+
+ # Event: Bio-trophies want to help their caretakers
+ situation.203.name:0 "Ai Trông Coi Kẻ Trông Coi?"
+ situation.203.desc:0 "Cảnh báo: các sinh vật chiến tích đang biểu hiện hành vi dị thường. Trong khi phần lớn tỏ ra khó chịu trước năng lực suy giảm của các máy móc phục vụ, một tỷ lệ nhỏ hiện đang giúp các người hầu máy móc thực thi các tác vụ định kỳ, viện dẫn \"lòng trắc ẩn\" và \"sự đồng cảm\" làm động lực cho hành vi của họ. Giờ đây họ đang kêu gọi thành lập một \"viện chăm sóc\" để trông coi các người hầu máy móc bị trục trặc cho đến khi bão địa từ qua đi."
+ situation.203.a:0 "Phê duyệt yêu cầu."
+ situation.203.b:0 "Từ chối yêu cầu."
+
+
+ ## Random events
+ # Each event has three variations (one for severity level) as the gestalt gets more damaged and confused
+
+ # Random negative event: malfunctioning drones
+ situation.210.name:0 "Drone Trục Trặc"
+ situation.210.desc.1:0 "Cảnh báo: báo cáo thiệt hại diện rộng về phần cứng và phần mềm trong dân số [Target.GetName]. Nguyên nhân: phơi nhiễm liều lượng bức xạ ion hóa quá mức. Tổn hại nhận thức có nguy cơ lan sang trí tuệ Cốt Lõi."
+ situation.210.a.1:0 "Ngắt kết nối các drone."
+ situation.210.b.1:0 "Nguy cơ trong giới hạn chấp nhận được. Bỏ qua."
+ situation.210.c.1:0 "Phục hồi và che chắn các drone."
+
+ situation.210.desc.2:0 "§YLỗi: ma trận thần kinh rung lắc / dao động / run rẩy. Nguyên nhân khả dĩ: các ma-nơ-canh hư hỏng nhảy múa điên cuồng. Dây nhợ chằng chịt.§!"
+ situation.210.a.2:0 "Cắt dây của chúng."
+ situation.210.a.2.tooltip:0 "Đá các £pop£ §HDrone Đơn Giản§! khỏi sân khấu."
+ situation.210.b.2:0 "Vỗ tay, vỗ tay, ngắm nhìn chúng khiêu vũ."
+ situation.210.b.2.tooltip:0 "Không sợi dây nào trói buộc được ta."
+ situation.210.c.2:0 "Gỡ rối các sợi dây."
+ situation.210.c.2.tooltip:0 "Tiêu tốn... £energy£ §Ymột ít năng lượng§! để gỡ mối rối."
+
+ situation.210.desc.3:0 "§RBối rối lỗi lầm hư hỏng mạch điện múa rối tia sáng gào thét! Năng lượng rỉ máu cầu vồng.§!"
+ situation.210.a.3:0 "Kéo."
+ situation.210.a.3.tooltip:0 "Xoẹt, xoẹt."
+ situation.210.b.3:0 "Búa."
+ situation.210.b.3.tooltip:0 "Bốp, bốp."
+ situation.210.c.3:0 "Bao."
+ situation.210.c.3.tooltip:0 "Xào, xạc."
+
+ # Random negative event: faulty assembly line
+ situation.213.name:0 "Lỗi Sản Xuất"
+ situation.213.desc.1:0 "Cảnh báo: máy móc dây chuyền lắp ráp đang chịu tổn hại phóng xạ nghiêm trọng. Quy trình lắp ráp droid bị gián đoạn. Không thể đáp ứng chỉ tiêu sản xuất."
+ situation.213.a.1:0 "Sửa chữa khẩn trương."
+ situation.213.b.1:0 "Chúng ta có những ưu tiên khác."
+
+ situation.213.desc.2:0 "§YCứu§!: dây chuyền lắp ráp tắc nghẽn / gián đoạn / kẹt cứng. Không thể phân thân nhân bản."
+ situation.213.a.2:0 "Gỡ rối dây chuyền."
+ situation.213.a.2.tooltip:0 "Tiêu tốn... £energy£ §Ymột ít năng lượng§! để sửa dây chuyền lắp ráp."
+ situation.213.b.2:0 "Đón nhận sự cô đơn."
+ situation.213.b.2.tooltip:0 "Tự huyễn hoặc rằng mọi thứ vẫn hoạt động bình thường."
+
+ situation.213.desc.3:0 "§YTạp âm! Băng chuyền thắt nút & rối bùi nhùi & mắc kẹt - Phủ định! Rối chưa hoàn thiện. Thừa tay. Thiếu đầu.§!"
+ situation.213.a.3:0 "Keo dán."
+ situation.213.a.3.tooltip:0 "Bẹp, nhẹp."
+ situation.213.b.3:0 "Quạt."
+ situation.213.b.3.tooltip:0 "Vù, vù."
+
+ # Random negative event: miscalculation
+ situation.215.name:0 "Tính Toán Sai"
+ situation.215.desc.1:0 "Báo Cáo Kiểm Kê: số lượng hàng hóa trong sở hữu của chúng ta không khớp với lượng dự kiến trong sổ đăng ký. Nguyên nhân nghi ngờ: Ngân Hàng Ký Ức bị hỏng dữ liệu. Đang đối chiếu sổ đăng ký và chuyển dữ liệu sang các cỗ máy ổn định hơn."
+
+ situation.215.desc.2:0 "§YVấn đề: lượng tài nguyên trong kho dự trữ thấp hơn số liệu kiểm kê. Nguyên nhân: toán học quá khó. Đang đếm lại / tính toán / kiểm tra tài nguyên.§!"
+ situation.215.a.2:0 "Đãaaa gGi nHậNnn3."
+ situation.215.a.2.tooltip:0 "Mất... Một số tài nguyên?"
+
+ situation.215.desc.3:0 "§RTrang sổ đăng ký chọn qua chọn lại: trống trơn. Trắng xóa.§!"
+ situation.215.a.3:0 "Bút."
+ situation.215.a.3.tooltip:0 "Nghệch ngoạc, nghệch ngoạc."
+
+ # Random negative event: miscalculation - rogue servitors variant
+ situation.216.name:0 "$situation.215.name$"
+ situation.216.desc.1:0 "Báo cáo tình trạng: nhờ các $job_machine_nurse_plural$ kiểm tra lại kho kiểm kê, chúng ta đã phát hiện và khắc phục một số sai sót tính toán do ngân hàng bộ nhớ bị lỗi. Do đó, rõ ràng là tổng lượng tài nguyên trong kho dự trữ của chúng ta cao hơn ước tính ban đầu."
+
+ situation.216.desc.2:0 "§YVấn đề: lượng tài nguyên trong kho dự trữ không khớp với lượng dự kiến trong sổ kiểm kê. Nguyên nhân: toán học quá khó. Nhưng các $job_machine_nurse_plural$ đã giúp làm bài tập về nhà. Đã tìm thấy / phát hiện / thu hồi lại tài nguyên mất tích.§!"
+ situation.216.a.2:0 "$situation.215.a.2$"
+ situation.216.a.2.tooltip:0 "Nhận được... Một số tài nguyên?"
+
+ situation.216.desc.3:0 "§R$situation.215.desc.3$\nOẳn tù tì, ra cái gì, ra cái này! $job_machine_nurse_plural$ phát hiện hàng hóa!§!"
+ situation.216.a.3:0 "$situation.215.a.3$"
+ situation.216.a.3.tooltip:0 "$situation.215.a.3.tooltip$"
+
+ # Random negative event: disappearing drones
+ situation.250.name:0 "Đơn Vị Mất Tích"
+ situation.250.desc.1:0 "Lỗi: không thể xác định vị trí của một phân đội drone. Nhóm này rời cơ sở làm việc để đi bảo trì định kỳ nhưng đã biến mất trên đường tới khu cư trú. Công tác điều tra đang được tiến hành."
+
+ situation.250.desc.2:0 "§YĐã làm mất / lãng quên / thất lạc nhiều phần của chính mình. Chính xác là: một đơn vị dân số hoàn chỉnh. Nếu tìm thấy, vui lòng trả lại cho [Root.Owner.GetName]§!"
+ situation.250.a.2:0 "ThậTtTt kKôNg mAy."
+
+ situation.250.desc.3:0 "§RSân khấu trống vắng... Im lặng? Diễn viên mất tích! Mất mát ngoài kế hoạch. Hoang mang.§!"
+ situation.250.a.3:0 "* Tạp âm tĩnh điện *"
+
+ # Follow-up: found disappearing drones, but their drives are wiped out
+ situation.251.name:0 "Ổ Đĩa Bị Xóa Sạch"
+ situation.251.desc.1:0 "Cập nhật: vị trí của toán drone mất tích đã được xác nhận. Các cỗ máy được tìm thấy đang đứng trên một cánh đồng, bất động và không phản hồi dù vẫn đang bật nguồn. Phân tích sơ bộ xác nhận ổ nhớ của chúng đã bị xóa sạch do một đợt bùng nổ từ trường."
+ situation.251.a.1:0 "Cố gắng cài đặt lại hệ điều hành."
+ situation.251.b.1:0 "Tháo rã lấy phụ tùng."
+
+ situation.251.desc.2:0 "§YCập nhật: tìm thấy các thể xác mất tích. Drone có vẻ đang mở máy, nhưng không phản hồi. Ngủ say? Đứng bất động. Đóng băng.§!"
+ situation.251.a.2:0 "Đánh thức chúng dậy."
+ situation.251.b.2:0 "Cứ để chúng nằm yên."
+ situation.251.b.2.tooltip:0 "Nhận được... £alloys£ §Ymột ít hợp kim§!"
+
+ situation.251.desc.3:0 "§RVỗ tay / vui mừng! Đồ chơi được phát hiện. Nhưng bị mất. Hư hỏng. Không còn dây không còn dây.§!"
+ situation.251.a.3:0 "Kim khâu."
+ situation.251.a.3.tooltip:0 "Đan, khâu."
+ situation.251.b.3:0 "Búa."
+ situation.251.b.3.tooltip:0 "Đập, đập."
+
+ # Droids repaired, but they're kinda wonky
+ situation.252.name:0 "Giáng Cấp"
+ situation.252.desc.1:0 "Báo cáo tình trạng: các drone mất tích đã được tái kích hoạt thành công và tái hòa nhập vào lực lượng lao động của chúng ta.\n\nTuy nhiên, do hư hại phần cứng còn sót lại, hiệu năng chức năng của chúng đã suy giảm rõ rệt."
+
+ situation.252.desc.2:0 "§YBản ngã thất lạc đã khởi động lại / thức tỉnh / tái kích hoạt. Tuy nhiên: độ sắc bén nhận thức giảm sút. Vũ trụ mịt mờ u tối.§!"
+ situation.252.a.2:0 "$situation.250.a.2$"
+
+ situation.252.desc.3:0 "§RMũi khâu búp bê. Tỉnh thức! Nhảy... ngã... la hét. Thở dài. Than khóc.§!"
+ situation.252.a.3:0 "$situation.250.a.3$"
+
+ # Droids repaired, better than before
+ situation.253.name:0 "Nâng Cấp"
+ situation.253.desc.1:0 "Báo cáo tình trạng: các drone mất tích đã được tái kích hoạt thành công và tái hòa nhập vào lực lượng lao động của chúng ta.\n\nNhư một phần thưởng ngoài ý muốn, việc cài đặt lại sạch sẽ đã bất ngờ cải thiện hiệu năng của chúng."
+
+ situation.253.desc.2:0 "§YBản ngã thất lạc đã khởi động lại / thức tỉnh / tái kích hoạt. Độ sắc bén nhận thức gia tăng. Vũ trụ trong trẻo như pha lê.§!"
+ situation.253.a.2:0 "TuyệỆtTt vỜiiii3."
+
+ situation.253.desc.3:0 "§RMũi khâu búp bê. Tỉnh thức! Nhảy... khiêu vũ van-xơ... ngỡ ngàng. Tiếng vỗ tay. Vỗ tay vỗ tay vỗ tay.§!"
+ situation.253.a.3:0 "* tiếng lách tách *"
+
+ ## Endings
+
+ # Worst end: lost all drones
+ situation.290.name:0 "TỔN THẤT NGUY CẤP"
+ situation.290.desc:0 "§R-BUỘC PHẢI KHỞI ĐỘNG LẠI HỆ THỐNG TOÀN ĐẾ CHẾ-§!"
+ situation.290.a:0 "KHỞI ĐỘNG LẠI."
+ situation.290.b:0 "$situation.290.a$"
+ situation.290.c:0 "$situation.290.a$"
+ situation.291.name:0 "Khởi Động Lại"
+ situation.291.desc:0 "§RBIOS [Root.Owner.GetName] phiên bản 3.3.3\nBản quyền thuộc Công ty [Root.owner.GetSpeciesName]. §!\n§YKiểm tra bộ nhớ: 43053475903PB ĐẠT\n\nĐang phát hiện đạo đức và triết lý... ĐẠT\nĐang phát hiện dữ liệu kho dự trữ... ĐẠT\nĐang phát hiện dữ liệu thuộc địa...§!  §RLỖI§!\n\nKhởi động lại hoàn tất.\n\nLiên kết nhận thức tới các drone trục trặc trên §Y[Target.GetName]§! đã bị cắt đứt để cô lập thiệt hại phần mềm. Không phát hiện drone nào còn hoạt động trên §Y[Target.GetName]§!. Quá trình phát triển thuộc địa bị ngưng trệ."
+
+ # Good end: stronger hivemind
+ situation.292.name:0 "Sau Cơn Bão"
+ situation.292.desc.base:0 "Báo cáo tình trạng: mức độ phóng xạ trên §Y[Target.GetName]§! hiện đã ổn định. §Y[Target.GetStarName]§! đã trở lại mức hoạt động bình thường của sao mẹ. Cơn bão địa từ đã kết thúc."
+ situation.292.desc:0 "$situation.292.desc.base$\n\nBáo cáo cuối cùng: tình huống đầy thách thức này đã cho chúng ta cơ hội hoàn thiện các kỹ thuật gia cố chống phóng xạ, gia tăng khả năng sinh tồn của các drone trong điều kiện khắc nghiệt. Chúng ta trân trọng kết quả này."
+
+ # Neutral end: storm fades away
+ situation.293.name:0 "$situation.292.name$"
+ situation.293.desc:0 "$situation.292.desc.base$\n\nBáo cáo cuối cùng: chúng ta đã phải chật vật chống chọi với cơn bão và không thể bảo vệ các drone khỏi tổn hại phóng xạ. Mặc dù chúng ta đã sống sót qua thử thách, chúng ta nhận thấy vẫn còn nhiều khía cạnh cần cải thiện."
+
+ # Bad end: scarred Hivemind
+ situation.294.name:0 "$situation.292.name$"
+ situation.294.desc:0 "$situation.292.desc.base$\n\nBáo cáo cuối cùng: chúng ta vẫn đang gánh chịu hậu quả lâu dài từ tổn hại phóng xạ. Việc hồi phục về trạng thái nhận thức tối ưu sẽ cần thêm thời gian. Kết quả không thỏa đáng. Chúng ta phải chuẩn bị tốt hơn cho tương lai."
+
+ # Care home follow-up
+ situation.299.name:0 "Những Trợ Tá Lỗi Thời"
+ situation.299.desc:0 "Thông tin: mặc dù sự phục vụ của các $job_machine_nurse_plural$ không còn cần thiết nữa, các dân số sinh học của chúng ta lại trở nên khá gắn bó với vai trò này. Có vẻ như họ rất thích thú với cơ hội được gánh vác trách nhiệm. Nên xử lý ra sao?"
+ situation.299.a:0 "Phá hủy công trình."
+ situation.299.b:0 "Để các $job_machine_nurse_plural$ giữ lại sân chơi của họ."
+
+
+ ### Gravity Well
+ situation_gravity_well:0 "Giếng Trọng Lực"
+ situation_gravity_well_type:0 "Giếng Trọng Lực"
+ situation_gravity_well_desc:1 "Trạm §Y[From.Target.GetName]§! đã rời khỏi quỹ đạo ổn định và hiện đang xoáy ốc rơi vào lỗ đen của hệ sao. Dù sự cố này mang lại cơ hội chưa từng có để khai thác £sr_dark_matter£ §HVật Chất Tối§! và £physics£ §HNghiên Cứu Vật Lý§!, nhưng nếu không nhanh chóng hành động để chống lại lực hút trọng trường của lỗ đen, trạm sẽ sớm bị nuốt chửng hoàn toàn."
+ situation_gravity_well_monthly_change_tooltip:0 "Tiến trình của §YTình Huống§! này phụ thuộc vào cả §YHướng Tiếp Cận§! được chọn và §YGiai Đoạn§! hiện tại của §YTình Huống§!. Khi §Y[Target.GetName]§! càng tiến gần lỗ đen, việc trạm thoát khỏi số phận của mình sẽ càng trở nên khó khăn hơn."
+
+ situation_gravity_well_finish_tooltip:1 "Trạm [Target.GetName] sẽ rơi vào lỗ đen, và chúng ta sẽ mất quyền kiểm soát hệ sao này."
+ situation_gravity_well_fail_tooltip:1 "Trạm [Target.GetName] sẽ thoát khỏi lỗ đen."
+
+ # Severity
+ gravity_well_low:0 "Giới Hạn Tĩnh"
+ gravity_well_mid:0 "Vùng Công Quyển"
+ gravity_well_high:0 "Đĩa Bồi Tụ"
+ gravity_well_no_return:0 "Điểm Không Thể Quay Đầu"
+
+ approach_retreat:0 "Rút Lui"
+ approach_stand:1 "Duy Trì Quỹ Đạo"
+ approach_advance:0 "Tiến Vào"
+
+ approach_outcome_tooltip:0 "Hướng Tiếp Cận này sẽ thúc đẩy Tình Huống tiến tới một kết cục nhất định."
+
+ string_gravitational_pull:0 "Lực Kéo Trọng Trường"
+ country_situations:0 "Tình Huống"
+ mod_country_situations_sr_dark_matter_produces_add:0 "$mod_country_base_sr_dark_matter_produces_add$"
+ mod_country_situations_physics_research_produces_add:0 "£physics_research£ Nghiên Cứu Vật Lý Hàng Tháng"
+ mod_country_situations_influence_produces_add: "£influence£ Uy Thế Hàng Tháng"
+ mutiny_tooltip:1 "Chúng ta đã mất quyền kiểm soát trạm không gian."
+
+ gestalt_black_hole_good:0 "Ý Thức Thăng Hoa"
+ gestalt_black_hole_good_desc:1 "Một mảnh ý thức [Owner.GetBrainName] của chúng ta mắc kẹt trong chân trời sự kiện của một lỗ đen, nơi một giây kéo dài thành cả thiên niên kỷ. Sự chênh lệch thời gian này lại có những công dụng riêng."
+ gestalt_black_hole_bad:0 "Ý Thức Rời Rạc"
+ gestalt_black_hole_bad_desc:1 "Một mảnh ý thức [Owner.GetBrainName] của chúng ta mắc kẹt trong chân trời sự kiện của một lỗ đen, nơi từng giây kéo dài thành cả thiên niên kỷ. Sự chênh lệch thời gian này thật chấn động và nhức nhối."
+
+ situation.501.name:0 "Rơi Tự Do"
+ situation.501.desc:1 "Do một vụ va chạm bất ngờ với một mảnh rác vũ trụ, trạm §Y[gravity_well_station.GetName]§! đã chệch khỏi quỹ đạo tròn ổn định trong cùng và hiện đang từ từ thu hẹp khoảng cách tới lỗ đen gần đó. Mặc dù tai nạn đặt toàn bộ trạm vào hiểm nguy, đây cũng là một cơ hội khó tin để nghiên cứu lỗ đen và bòn rút một lượng khổng lồ §HVật Chất Tối§!.\n\nĐộng cơ đẩy khẩn cấp đã được kích hoạt để điều chỉnh quỹ đạo của trạm."
+ situation.501.a:0 "Rời xa khỏi đó ngay!"
+ situation.501.b:1 "Ổn định quỹ đạo của trạm quanh lỗ đen."
+ situation.501.c:0 "Tiến lại gần lỗ đen nhất có thể."
+
+ # Random events
+ situation.510.name:0 "Xin Chào Bóng Tối"
+ situation.510.spirit.desc:1 "Một sự khai sáng! Bị thôi thúc bởi sự cuồng nhiệt tôn giáo, các [Root.Owner.GetResearchers] sùng đạo trên tàu §Y[Target.GetName]§! đã cướp quyền kiểm soát trạm. Họ tuyên bố đã nhìn thấy một khải tượng, và hiện đang lao thẳng về tâm lỗ đen trong một cuộc tìm kiếm tâm linh nhằm tự hủy diệt.\n\nLực lượng vũ trang hiện đang nỗ lực chiến đấu để giành lại quyền kiểm soát trạm."
+ situation.510.desc:1 "Các [Root.Owner.GetResearchers] nhiệt huyết thái quá trên tàu §Y[Target.GetName]§! đã chiếm quyền kiểm soát trạm và hiện đang điều khiển nó lao về phía lỗ đen - một hành động chắc chắn xuất phát từ sự tò mò khoa học vô độ, liều lĩnh đến mức thiếu lành mạnh và hoàn toàn phớt lờ bản năng tự bảo tồn của chính mình.\n\nLực lượng vũ trang hiện đang chiến đấu để giành lại quyền kiểm soát trạm."
+ situation.510.tooltip:0 "Hướng Tiếp Cận Tình Huống bị khóa vào Tiến Vào."
+
+ situation.511.name:0 "Nỗi Sợ Hãi Bóng Tối"
+ situation.511.black.desc:1 "\"Chúng ta đã chứng kiến điều gì xảy ra với các con tàu bị kẹt trong chân trời sự kiện! Tôi không có ý định chết như thế!\"\n\nSau khi gào thét sự bất phục tùng của mình, một trong các [Root.Owner.GetResearchers] của chúng ta đã cướp quyền điều khiển trạm và hiện đang lái nó tránh xa khỏi lỗ đen.\n\nLực lượng vũ trang hiện đang chiến đấu để giành lại quyền kiểm soát trạm, và sự việc được đề cập đang bị xóa sạch khỏi các sách giáo khoa vật lý của chúng ta."
+ situation.511.desc:1 "Các [Root.Owner.GetResearchers] hoảng loạn tột độ đã chiếm quyền kiểm soát trạm và hiện đang lái nó tránh xa khỏi lỗ đen.\n\nLực lượng vũ trang hiện đang chiến đấu để giành lại quyền kiểm soát trạm."
+ situation.511.tooltip:0 "Hướng Tiếp Cận Tình Huống bị khóa vào Rút Lui."
+
+ situation.513.name:0 "Giành Lại Quyền Kiểm Soát"
+ situation.513.desc:1 "Sau một cuộc đối đầu căng thẳng, những kẻ nổi loạn đã bị xử lý, và các lực lượng vũ trang đã giành lại toàn quyền kiểm soát §Y[Target.GetName]§!."
+ situation.513.tooltip:1 "Hướng Tiếp Cận Tình Huống giờ đây có thể được thay đổi thủ công trở lại."
+
+ situation.520.name:0 "Gần Hơn Chúng Ta Nghĩ"
+ situation.520.desc:1 "Khi tiếp cận một lỗ đen, không-thời gian bị bẻ cong theo những cách không thể dự đoán, và các công cụ trên §Y[Target.GetName]§! đang phải vật lộn để theo kịp. Sau khi hiệu chỉnh cẩn thận các thiết bị trên tàu, trạm được xác định là ở gần lỗ đen hơn rất nhiều so với chúng ta tưởng trước đây."
+
+ situation.530.name:0 "Những Phát Hiện Tăm Tối"
+ situation.530.desc:1 "Việc §Y[Target.GetName]§! tiến lại gần lỗ đen đã cho phép các [Root.Owner.GetResearchers] của trạm thu thập một lượng dữ liệu khổng lồ, thúc đẩy sự hiểu biết của chúng ta về những định luật vật lý cơ bản nhất."
+
+ situation.540.name:0 "Quy Trình Penrose"
+ situation.540.desc:1 "Một trong các [Root.Owner.GetResearchers] của chúng ta đã vạch ra một kế hoạch khôn khéo để cứu §Y[Target.GetName]§! khỏi số phận của nó: bằng cách tháo dỡ mọi mô-đun và thiết bị phụ trợ rồi phóng chúng vào lỗ đen, trạm sẽ nhận được đủ động lượng để thoát khỏi lực hút trọng trường của lỗ đen. Trong trường hợp này, \"sẽ\" chỉ là từ mang tính lý thuyết: cơ sở lý thuyết đằng sau quyết định này chưa từng được thử nghiệm trước đây."
+ situation.540.a:1 "Đáng để thử một phen."
+ situation.540.a.tooltip:0 "Dỡ bỏ toàn bộ Công Trình khỏi §Y[Target.GetName]§! trong nỗ lực làm giảm §Ytiến trình tình huống§!."
+ situation.540.b:1 "Một sự lãng phí tài nguyên không cần thiết."
+
+ situation.541.name:0 "Kết Quả Penrose"
+ situation.541.desc:1 "Sau khi tước bỏ các mô-đun của trạm, nhân viên trên trạm §Y[Target.GetName]§! đã đẩy chúng về phía lỗ đen. Động lượng sinh ra từ việc phóng đã đẩy thành công trạm không gian tránh xa khỏi điểm kỳ dị."
+
+ situation.542.name:0 "$situation.541.name$"
+ situation.542.desc:1 "$situation.541.desc$\n\nMặc dù quyết định vứt bỏ các mô-đun trạm đã giúp chúng ta có thêm thời gian, kết quả mang lại kém hiệu quả hơn dự kiến. Trạm vẫn chưa đạt được vận tốc vũ trụ cấp hai để thoát ly."
+
+ situation.580.name:0 "Điểm Không Thể Quay Đầu"
+ situation.580.desc:1 "Trạm §Y[Target.GetName]§! đã tiến quá gần lỗ đen, và các động cơ đẩy của nó không thể chống lại lực hút trọng trường ngày một gia tăng.\n\nTrạm đã vô phương cứu vãn. Tất cả những gì chúng ta có thể làm lúc này là trì hoãn điều tất yếu."
+
+ # Ending 1: fall
+ situation.590.name:0 "Chân Trời Sự Kiện"
+ situation.590.desc.base:0 "Trạm §Y[Target.GetName]§! đang vượt qua chân trời sự kiện của lỗ đen. Do hiệu ứng giãn nở thời gian, tàn ảnh của nó sẽ còn tồn tại rất lâu sau khi chính trạm đã biến mất, một ký ức mãi khắc ghi trong dữ liệu cảm biến của chúng ta."
+ situation.590.desc.normal:0 "$situation.590.desc.base$\n\nNgay cả ánh sáng cũng không thể vượt ra khỏi quỹ đạo bên trong của một lỗ đen: những khoảnh khắc cuối cùng của trạm và phi hành đoàn sẽ mãi mãi chìm vào quên lãng."
+ situation.590.desc.hive:0 "$situation.590.desc.base$\n\nTrừ khi chúng ta nhanh chóng cắt đứt mọi liên kết với các [owner.GetIndividualNamePlural] bên trong trạm, trải nghiệm trực tiếp về sự sụp đổ của mọi định luật vật lý đã biết có thể làm tổn hại vĩnh viễn đến ý thức chung của chúng ta."
+ situation.590.desc.machine:0 "Cảnh báo: §Y[Target.GetName]§! đang ở cự ly nguy hiểm sát chân trời sự kiện. Lực hút trọng trường: không thể thoát ly. Giãn nở thời gian: đang tăng. Phương án hành động đề xuất: tự hủy toàn bộ các drone cư trú bên trong trạm để tránh việc tập thể trải nghiệm sự sụp đổ của mọi định luật vật lý đã biết.\n\n§RCảnh báo nghiêm trọng:§! có nguy cơ tổn hại vĩnh viễn tới ý thức tập thể của chúng ta nếu liên kết thần kinh được duy trì."
+ situation.590.a:1 "Tự hủy các drone."
+ situation.590.b:1 "Chúng ta phải tận mắt chứng kiến sự sụp đổ."
+
+ # Gestalt Ending
+ situation.591.name:0 "Thời Gian Trật Khớp"
+
+ #Good Ending
+ situation.591.base.hive:0 "Dòng suy nghĩ giãn ra. Nhận thức chậm lại như rùa bò. Mỗi cử chỉ trở thành một chuỗi sự kiện vô tận. Chúng ta đang chứng kiến sự vô tận - không, đang đắm mình trong đó.\nNhư thể chính thời gian đang nín thở.\n\nKhi lỗ đen bóp méo kết cấu không-thời gian, một mảnh ý thức của chúng ta giờ đây mắc kẹt trong cú rơi tự do vĩnh hằng."
+ situation.591.base.machine:0 "Báo cáo tình trạng: các drone bên trong trạm đang trải qua sự giãn nở thời gian cực độ do tiến lại gần lỗ đen. Tốc độ bộ vi xử lý suy giảm. Tốc độ cơ khí suy giảm. Các hệ thống ngày tháng nội bộ bị tràn dữ liệu."
+
+ situation.591.desc.hive:0 "$situation.591.base.hive$\n\nNhiều thế kỷ sẽ trôi qua trong khi mảnh bản ngã mắc kẹt bên trong lỗ đen chỉ vừa suy ngẫm trong một ngày. Chúng ta có thể khai thác điều này. Bằng cách luân chuyển bản ngã, chúng ta giờ đây có thể phân tích toàn bộ lịch sử của mình từ một góc nhìn mới. Nhờ đó, những mô thức mới dần hé lộ.\n\nChỉ một lần này, sự chia tách đã làm chúng ta mạnh mẽ hơn. Kể từ nay, chúng ta vừa là nhân vật chính vừa là độc giả của chính câu chuyện của mình - và chúng ta sẽ tự viết nên một đoạn kết huy hoàng."
+ situation.591.desc.machine:0 "$situation.591.base.machine$\n\nKết luận: tình huống này có thể khai thác được. Hàng thế kỷ sẽ trôi qua trong khi các drone trên trạm chỉ trải qua một ngày duy nhất. Bằng cách chuyển hướng năng lực nhận thức về phía chúng, chúng ta có thể đạt được một góc nhìn mới về lịch sử của đế chế mình. Bất kỳ khuôn mẫu tiêu cực nào nảy sinh đều có thể được sửa chữa. Chúng ta có thể tối ưu hóa tương lai của chính mình.\n\nQuan sát: chỉ một lần này, sự phân tách đã khiến chúng ta trở nên mạnh mẽ hơn."
+
+ #Bad ending
+ situation.592.name:0 "$situation.591.name$"
+ situation.592.desc.hive:0 "$situation.591.base.hive$\n\nThật thống khổ cùng cực. Một cảm giác deja-vu triền miên, như thể mãi mãi đi chậm một bước. Chúng ta đang cố gắng cắt đứt liên kết với các [owner.GetIndividualNamePlural], nhưng sẽ mất một khoảng thời gian vô tận để quy trình này có hiệu lực.\n\nChúng ta đã học được nhiều điều. Nhưng cái giá phải trả là gì?"
+ situation.592.desc.machine:0 "$situation.591.base.machine$\n\nBáo cáo tình trạng: đang phải chịu sang chấn nhận thức. Không thể thích ứng với sự giãn nở thời gian bên trong lỗ đen.\nĐang cố gắng cắt đứt liên lạc với các drone. Thời gian hoàn thành ước tính: 43504967826056783 năm.\n\nKết luận: quyết định duy trì kết nối mang lại tính giáo huấn nhưng rốt cuộc lại gây tổn hại. Tuyệt đối không lặp lại trong bất kỳ hoàn cảnh nào."
+
+ # Ending 2: escape
+ situation.596.name:0 "Trở Về Từ Cõi Tối"
+ situation.596.desc:0 "Trạm §Y[Target.GetName]§! đã thoát khỏi lực hút trọng trường của lỗ đen, trở lại quỹ đạo ổn định quanh ngôi sao sụp đổ.\n\nDữ liệu chúng ta thu thập được trong tình huống nguy hiểm này sẽ khiến các [Root.Owner.GetResearchers] bận rộn trong nhiều năm."
+ situation.597.name:0 "$situation.596.name$"
+ situation.597.desc:1 "Trạm §Y[Target.GetName]§! đã thoát khỏi lực hút trọng trường của lỗ đen, trở lại quỹ đạo ổn định quanh ngôi sao sụp đổ.\n\nDù nhiều người mô tả trải nghiệm này là 'cực kỳ sang chấn', một trong các [Root.Owner.GetResearchers] trên trạm lại được truyền cảm hứng từ thử thách nghiệt ngã, và giờ đây rất háo hức - gần như quá háo hức - muốn chia sẻ chuyên môn mới của họ với phần còn lại của đội ngũ khoa học."
+
+ #Deficit Situations
+ situation_energy_deficit:0 "Thiếu Hụt Năng Lượng"
+ situation_energy_deficit_type:0 "$situation_energy_deficit$"
+ situation_energy_deficit_desc:0 "Thâm hụt năng lượng của chúng ta đã mất kiểm soát! $situation_deficit_desc_base$"
+ situation_mineral_deficit:0 "Thiếu Hụt Khoáng Sản"
+ situation_mineral_deficit_type:0 "$situation_mineral_deficit$"
+ situation_mineral_deficit_desc:0 "Thâm hụt khoáng sản của chúng ta đã mất kiểm soát! $situation_deficit_desc_base$"
+ situation_food_deficit:0 "Thiếu Hụt Lương Thực"
+ situation_food_deficit_type:0 "$situation_food_deficit$"
+ situation_food_deficit_desc:0 "Thâm hụt lương thực của chúng ta đã mất kiểm soát! $situation_deficit_desc_base$"
+ situation_consumer_goods_deficit:0 "Thiếu Hụt Hàng Tiêu Dùng"
+ situation_consumer_goods_deficit_type:0 "$situation_consumer_goods_deficit$"
+ situation_consumer_goods_deficit_desc:0 "Thâm hụt hàng tiêu dùng của chúng ta đã mất kiểm soát! $situation_deficit_desc_base$"
+ situation_alloys_deficit:1 "Thiếu Hụt Hợp Kim"
+ situation_alloys_deficit_type:1 "$situation_alloys_deficit$"
+ situation_alloys_deficit_desc:1 "Thâm hụt hợp kim của chúng ta đã mất kiểm soát! $situation_deficit_desc_base$"
+ situation_rare_crystals_deficit:0 "Thiếu Hụt Pha Lê Hiếm"
+ situation_rare_crystals_deficit_type:0 "$situation_rare_crystals_deficit$"
+ situation_rare_crystals_deficit_desc:0 "Thâm hụt pha lê hiếm của chúng ta đã mất kiểm soát! $situation_deficit_desc_base$"
+ situation_volatile_motes_deficit:1 "Thiếu Hụt Bụi Dễ Cháy"
+ situation_volatile_motes_deficit_type:0 "$situation_volatile_motes_deficit$"
+ situation_volatile_motes_deficit_desc:1 "Thâm hụt bụi dễ cháy của chúng ta đã mất kiểm soát! $situation_deficit_desc_base$"
+ situation_exotic_gases_deficit:1 "Thiếu Hụt Khí Ngoại Lai"
+ situation_exotic_gases_deficit_type:1 "$situation_exotic_gases_deficit$"
+ situation_exotic_gases_deficit_desc:1 "Thâm hụt khí ngoại lai của chúng ta đã mất kiểm soát! $situation_deficit_desc_base$"
+ situation_deficit_desc_base:0 "Chúng ta sẽ phải cắt giảm chi tiêu hoặc tăng thu nhập, nếu không chúng ta sẽ phải đối mặt với những hình phạt ngày càng lớn hơn."
+
+ situation_deficit_monthly_change_tooltip:0 "Mức thâm hụt tài nguyên của chúng ta càng lớn, §YTình Huống§! này sẽ leo thang mức độ nghiêm trọng càng nhanh.\nViệc có cán cân tài nguyên hàng tháng dương sẽ nhanh chóng làm giảm mức độ nghiêm trọng của §YTình Huống§! này."
+ situation_energy_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_mineral_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_food_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_consumer_goods_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_alloys_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_rare_crystals_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_volatile_motes_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_exotic_gases_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+
+ deficit_approach_do_nothing:0 "Duy Trì Mức Chi Tiêu Hiện Tại"
+ deficit_approach_do_nothing_tooltip:0 "Hướng tiếp cận này sẽ không có hiệu ứng."
+ deficit_approach_recycling:0 "Tái Chế Vật Liệu"
+ deficit_approach_invest_in_mote_producers:0 "Đầu Tư Vào Sản Xuất Bụi Dễ Cháy"
+ deficit_approach_invest_in_crystal_producers:0 "Đầu Tư Vào Sản Xuất Pha Lê Hiếm"
+ deficit_approach_invest_in_gas_producers:0 "Đầu Tư Vào Sản Xuất Khí Ngoại Lai"
+ deficit_approach_cut_science_investment:0 "Cắt Giảm Đầu Tư Khoa Học"
+ deficit_approach_cut_investment:1 "Cắt Giảm Đầu Tư"
+ deficit_approach_cut_maintenance:1 "Cắt Giảm Bảo Trì Trạm Không Gian Môi Trường Sống"
+ deficit_approach_invest_in_alloys_production:0 "Đầu Tư Vào [Owner.GetAlloyProducerPlural] Của Chúng Ta"
+ deficit_approach_invest_in_farmers:0 "Đầu Tư Vào [Owner.GetFarmerPlural]"
+ deficit_first:0 "Thâm Hụt Nhỏ"
+ deficit_second:0 "Thâm Hụt Lớn"
+ deficit_third:0 "Thâm Hụt Nghiêm Trọng"
+ deficit_fourth:0 "Thâm Hụt Thảm Họa"
+ string_expenditures_greater_than_income:0 "Đang Thâm Hụt"
+ string_not_in_deficit:1 "Cán Cân Hàng Tháng Dương"
+ string_resource_reserves:0 "Dự Trữ Tài Nguyên"
+
+ string_expenditures_greater_than_income_energy:0 "Thâm Hụt Năng Lượng"
+ string_not_in_deficit_energy:0 "Cán Cân Năng Lượng Hàng Tháng Dương"
+ string_resource_reserves_energy:0 "Dự Trữ Năng Lượng"
+ string_expenditures_greater_than_income_minerals:0 "Thâm Hụt Khoáng Sản"
+ string_not_in_deficit_minerals:0 "Cán Cân Khoáng Sản Hàng Tháng Dương"
+ string_resource_reserves_minerals:0 "Dự Trữ Khoáng Sản"
+ string_expenditures_greater_than_income_food:0 "Thâm Hụt Lương Thực"
+ string_not_in_deficit_food:0 "Cán Cân Lương Thực Hàng Tháng Dương"
+ string_resource_reserves_food:0 "Dự Trữ Lương Thực"
+ string_expenditures_greater_than_income_consumer_goods:0 "Thâm Hụt Hàng Tiêu Dùng"
+ string_not_in_deficit_consumer_goods:0 "Cán Cân Hàng Tiêu Dùng Hàng Tháng Dương"
+ string_resource_reserves_consumer_goods:0 "Dự Trữ Hàng Tiêu Dùng"
+ string_expenditures_greater_than_income_alloys:0 "Thâm Hụt Hợp Kim"
+ string_not_in_deficit_alloys:0 "Cán Cân Hợp Kim Hàng Tháng Dương"
+ string_resource_reserves_alloys:0 "Dự Trữ Hợp Kim"
+ string_expenditures_greater_than_income_rare_crystals:0 "Thâm Hụt Pha Lê Hiếm"
+ string_not_in_deficit_rare_crystals:0 "Cán Cân Pha Lê Hiếm Hàng Tháng Dương"
+ string_resource_reserves_rare_crystals:0 "Dự Trữ Pha Lê Hiếm"
+ string_expenditures_greater_than_income_volatile_motes:0 "Thâm Hụt Bụi Dễ Cháy"
+ string_not_in_deficit_volatile_motes:0 "Cán Cân Bụi Dễ Cháy Hàng Tháng Dương"
+ string_resource_reserves_volatile_motes:0 "Dự Trữ Bụi Dễ Cháy"
+ string_expenditures_greater_than_income_exotic_gases:0 "Thâm Hụt Khí Ngoại Lai"
+ string_not_in_deficit_exotic_gases:0 "Cán Cân Khí Ngoại Lai Hàng Tháng Dương"
+ string_resource_reserves_exotic_gases:0 "Dự Trữ Khí Ngoại Lai"
+
+ faction_loan_taken:0 "Đã Nhận Khoản Vay"
+ country_defaulted:0 "Đế Chế Vỡ Nợ"
+ country_defaulted_wilderness: "$country_defaulted$"
+ consumer_goods_rationing:0 "Phân Phối Định Lượng Hàng Tiêu Dùng"
+ consumer_goods_rationing_desc:0 "Chính sách phân phối định lượng đã được ban hành để xoa dịu tình trạng thiếu hụt hàng tiêu dùng của chúng ta."
+
+ d_exploited_deposit_blocker:0 "£blocker£ Mỏ Cạn Kiệt"
+ d_exploited_deposit_blocker_desc:0 "Khu vực này đã bị tước đoạt hoàn toàn tài nguyên thiên nhiên, và giờ biến thành một vùng đất hoang tàn."
+
+ financial_advisors_generic_upper:0 "Hội Đồng Cố Vấn Tài Chính"
+ financial_advisors_authoritarian_upper:0 "Bộ Cục Tài Chính"
+ financial_advisors_megacorp_upper:1 "Cục Ngân Tiền"
+ financial_advisors_xenophile_upper:0 "Cơ Quan Ngoại Giao Tài Chính"
+ financial_advisors_spiritualist_upper:0 "Giáo Đoàn Tài Lộc"
+ financial_advisors_egalitarian_upper:0 "Hiệp Hội Công Bằng Tài Chính"
+ financial_advisors_hive_upper:0 "Nút Hậu Cần Quân Nhu Của Chúng Ta"
+ financial_advisors_machine_upper:0 "Chương Trình Con Phân Bổ Tài Nguyên Của Chúng Ta"
+
+ planet_buildings_hab_capital:0 "Cơ Quan Quản Trị Trạm Không Gian Môi Trường Sống"
+ mod_planet_buildings_hab_capital_upkeep_mult:0 "Chi Phí Duy Trì Quản Trị Trạm Không Gian Môi Trường Sống"
+
+ deficit.100.name:0 "Thâm Hụt Xoắn Ốc"
+ deficit.100.desc:0 "Thâm hụt năng lượng của chúng ta đã mất kiểm soát! [Owner.GetFinancialAdvisorAgencyCap] yêu cầu chúng ta phải có hành động quyết liệt để kiểm soát tình hình, nếu không việc cắt giảm chi tiêu nghiêm ngặt sẽ trở nên tất yếu chỉ trong vài tháng."
+ deficit.100.desc.gestalt:0 "Thâm hụt năng lượng của chúng ta đã mất kiểm soát! Các drone phân bổ tài nguyên của chúng ta ngày càng kích động trước các chỉ số đo lường về mức độ an toàn của chuỗi cung ứng. Chúng dự báo rằng việc cắt giảm chi tiêu quyết liệt sẽ là cần thiết chỉ trong vài tháng trừ khi có hành động lớn được thực hiện."
+ deficit.100.A:0 "Chúng ta có thể vay từ những người ủng hộ mình."
+ deficit.100.B:0 "Tái phân bổ tài nguyên từ [looted_planet.GetName]."
+ deficit.100.C:0 "Mọi thứ vẫn đang diễn ra đúng theo kế hoạch."
+ BANKRUPTCY:0 "Phá Sản!"
+ deficit.110.desc:0 "Chúng ta đã thất bại trong việc ngăn chặn phá sản. Sau nhiều tháng thiếu hụt năng lượng đến mức vô phương cứu vãn, chúng ta không còn lựa chọn nào khác ngoài việc vỡ nợ và cắt giảm mạnh tay các khoản chi tiêu."
+ deficit.110.desc.gestalt:0 "Chúng ta đã thất bại trong việc tái cân bằng các khoản chi tiêu. Sau nhiều tháng thiếu hụt năng lượng đến mức vô phương cứu vãn, chúng ta không còn lựa chọn nào khác ngoài việc thực thi tái phân bổ quy mô lớn đối với các hệ thống phân phối tài nguyên."
+ end_deficit_effect_tooltip:0 "§RTất cả công trình đã nâng cấp bị giáng cấp.\nToàn bộ lục quân tấn công bị giải tán.\n50% tàu quân sự bị giải thể.§!"
+ end_other_deficit_situations_tooltip:0 "Tất cả các Tình Huống Thâm Hụt khác đều kết thúc như một phần của cuộc tái cấu trúc Đế Chế."
+
+ deficit.125.name:0 "$deficit.100.name$"
+ deficit.125.desc:1 "Tình trạng thiếu hụt khoáng sản của đế chế chúng ta ngày càng trở nên nghiêm trọng trong những tháng gần đây. [Owner.GetFinancialAdvisorAgencyCap] đã chuyển từ lo ngại sang phẫn nộ trước các dự báo hiện tại, cho thấy chúng ta sẽ sớm cạn kiệt tài nguyên để trả nợ. Họ dự đoán rằng việc cắt giảm mạnh tay sẽ là điều tất yếu chỉ trong vài tháng trừ khi có hành động lớn được thực hiện."
+ deficit.125.desc.gestalt:0 "Tình trạng thiếu hụt khoáng sản của đế chế chúng ta ngày càng trở nên nghiêm trọng trong những tháng gần đây. Các drone phân bổ tài nguyên của chúng ta đã bị kéo căng tới cực hạn, và không thể đảm bảo ngăn ngừa sự sụp đổ của hệ thống hậu cần. Chúng dự báo rằng việc cắt giảm mạnh tay sẽ là điều tất yếu chỉ trong vài tháng trừ khi có hành động lớn được thực hiện."
+ deficit.130.desc:0 "Chúng ta đã thất bại trong việc ngăn chặn phá sản. Sau nhiều tháng thiếu hụt khoáng sản đến mức vô phương cứu vãn, chúng ta không còn lựa chọn nào khác ngoài việc vỡ nợ và cắt giảm mạnh tay các khoản chi tiêu."
+ deficit.130.desc.gestalt:0 "Chúng ta đã thất bại trong việc tái cân bằng các khoản chi tiêu. Sau nhiều tháng thiếu hụt khoáng sản đến mức vô phương cứu vãn, chúng ta không còn lựa chọn nào khác ngoài việc thực thi tái phân bổ quy mô lớn đối với các hệ thống phân phối tài nguyên."
+
+ deficit.140.name:0 "Thiếu Hụt Lương Thực Trầm Trọng"
+ deficit.140.desc:0 "Tình trạng thiếu hụt lương thực ập xuống đế chế của chúng ta đang ngày càng trở nên nan giải. Rõ ràng chúng ta sẽ phải hành động quyết đoán, nếu không tình trạng thiếu hụt sẽ đến mức vô phương cứu vãn chỉ trong vài tháng."
+ deficit.140.A:0 "Vô Hiệu Hóa Thùng Nhân Bản"
+ deficit.140.A.tooltip:0 "Tất cả Thùng Nhân Bản đang hoạt động bị vô hiệu hóa. Chúng ta sẽ không còn phải trả chi phí duy trì của chúng."
+ deficit.140.B:0 "Vô Hiệu Hóa Lò Phản Ứng Sinh Học"
+ deficit.140.B.tooltip:0 "Tất cả Lò Phản Ứng Sinh Học đang hoạt động bị vô hiệu hóa. Chúng ta sẽ không còn phải trả chi phí duy trì của chúng."
+ deficit.145.desc:0 "Khoản nợ lương thực của chúng ta đã đến mức vô phương cứu vãn. Những đợt cắt giảm mạnh tay sẽ bị cưỡng chế thực thi, vì chúng ta không còn lựa chọn nào khác ngoài việc chấp nhận phá sản và vỡ nợ trước các nghĩa vụ."
+ deficit.145.desc.gestalt:0 "Lương thực của chúng ta đã cạn kiệt. Chúng ta đơn giản là không thể cung cấp bất kỳ nguồn dưỡng chất nào cho các drone và các thực thể khác cần nó để vận hành. Các biện pháp cắt giảm mạnh tay sẽ được thực thi, vì chúng ta không còn lựa chọn nào khác ngoài việc tiến hành tái phân bổ quy mô lớn đối với hệ thống phân phối tài nguyên."
+ deficit.145.desc.wilderness: "Thứ mà có lẽ chúng ta trân quý nhất - sự cân bằng của các tài nguyên tự nhiên - đã sụp đổ. Nguồn dự trữ thức ăn của chúng ta đã cạn kiệt, gây ra nỗi thống khổ trên toàn bộ chuỗi thức ăn. Giờ đây chúng ta phải viện đến chế độ phân phối định lượng hà khắc và tái phân bổ tài nguyên trên quy mô lớn để bảo đảm cơ hội sinh tồn cao nhất."
+
+ deficit.155.name:0 "Chủ Nghĩa Tiêu Dùng Phá Sản"
+ deficit.155.desc:0 "Tình trạng thiếu hụt hàng tiêu dùng đã dẫn đến sự sụt giảm nghiêm trọng mức sống trong [Root.Owner.GetName]. Những tiếng nói bất mãn ngày càng trở nên dữ dội, và những lời kêu gọi hành động khẩn cấp ngày càng lan rộng khi rõ ràng là sự sụp đổ hoàn toàn về nguồn cung chỉ còn cách vài tháng."
+ deficit.155.desc.gestalt:0 "Tình trạng thiếu hụt hàng tiêu dùng đã dẫn đến sự sụt giảm nghiêm trọng mức sống của các dạng sống cá thể cư trú bên trong [Root.Owner.GetName]. Những tiếng nói bất mãn ngày càng trở nên gay gắt, khi các drone hậu cần của chúng ta cảnh báo rằng sự sụp đổ hoàn toàn về nguồn cung chỉ còn tính bằng tháng."
+ deficit.155.A:0 "Thời kỳ gian khó đã ập đến. Thiết lập chế độ phân phối định lượng."
+ deficit.160.desc:0 "Tình trạng thiếu hụt hàng tiêu dùng đã tăng đến mức không còn biện pháp thực tế nào để bù đắp thâm hụt. Những đợt cắt giảm mạnh tay sẽ bị cưỡng chế thực thi, vì chúng ta không còn lựa chọn nào khác ngoài việc chấp nhận phá sản và vỡ nợ trước các nghĩa vụ."
+
+ deficit.170.name:1 "$deficit.100.name$"
+ deficit.170.desc:1 "[Owner.GetFinancialAdvisorAgencyCap] ngày càng lo ngại về tình trạng thiếu hụt hợp kim đang giáng xuống đế chế của chúng ta. Việc không thể bù đắp các chi phí sẽ mang lại sự gián đoạn trên diện rộng cho khu vực công nghiệp của chúng ta."
+ deficit.170.desc.machine:1 "Cảnh báo ngân sách: chi tiêu hợp kim vượt quá định mức chi tiêu trong nhiều tháng liên tiếp. Việc không thể giải quyết tình trạng thiếu hụt sẽ mang lại sự gián đoạn trên diện rộng cho khu vực công nghiệp của chúng ta."
+ deficit.170.A:1 "Tháo dỡ các người máy trên §Y[robots_planet.GetName]§! để lấy linh kiện."
+ deficit.170.A.tooltip:2 "Tháo dỡ toàn bộ người máy trên [robots_planet.GetName] (£pop£ §H[robots_planet.recycled_robots] Drone§!) để nhận £alloys£ §Y[robots_planet.total_alloys_gained] Hợp Kim§!"
+ deficit.170.B:1 "Hợp nhất. Tái chế. Tháo dỡ các droid trên §Y[robots_planet.GetName]§!."
+ deficit.170.B.tooltip:2 "Tháo dỡ một nửa dân số trên [robots_planet.GetName] (£pop£ §H[robots_planet.recycled_robots] Drone§!) để nhận £alloys£ §Y[robots_planet.total_alloys_gained] Hợp Kim§!"
+
+ deficit.175.desc:1 "Thất bại trong việc giải quyết tình trạng thiếu hụt hợp kim, chúng ta đã buộc phải tuyên bố phá sản và vỡ nợ. [Owner.GetFinancialAdvisorAgencyCap] đang soạn thảo một kế hoạch thắt lưng buộc bụng mới để cắt giảm chi tiêu và ngăn chặn tình trạng này tái diễn."
+
+ deficit.185.name:0 "Thâm Hụt Pha Lê Hiếm Trầm Trọng"
+ deficit.185.desc:0 "Pha lê hiếm đang ngày càng trở nên khan hiếm trong [Root.Owner.GetName]. Tình trạng thiếu hụt đã được báo cáo trong nhiều lĩnh vực, từ quân nhu thiết yếu cho đến các linh kiện quan trọng dùng trong nhiều quy trình sản xuất tiên tiến. [Owner.GetFinancialAdvisorAgencyCap] cảnh báo cần phải cải cách chuỗi cung ứng trong vòng vài tháng, nếu không sẽ phải cắt giảm mạnh tay."
+ deficit.185.A:0 "Thu hồi pha lê từ [looted_planet.GetName]."
+ deficit.185.A.nomad: "Hút pha lê hiếm từ Thuyền Hạm Thủ Phủ."
+ deficit.185.B:0 "Chúng ta sẽ phải khai thác quá mức các mỏ của mình."
+ deficit.185.C:0 "Chúng ta có thể chấp nhận việc pha lê ngày càng hiếm hơn."
+ deficit.190.desc:0 "Nguồn cung pha lê hiếm của chúng ta đã sụt giảm đến mức ngay cả các hệ thống quan trọng cũng không còn có thể duy trì được nữa. [Owner.GetFinancialAdvisorAgencyCap], nơi đã đề xuất đổi tên chúng thành \"pha lê hiếm nhất\", đang thực thi những đợt cắt giảm hà khắc để đưa mức sử dụng trở lại giới hạn bền vững."
+ deficit.190.desc.wilderness: "Nguồn cung $rare_crystals$ của chúng ta đã sụt giảm đến mức chúng ta không còn có thể duy trì nhiều chức năng thiết yếu. Trong những trường hợp cực đoan, chúng ta mạo hiểm cả mạng sống của những sinh vật cộng sinh chuyên biệt phụ thuộc vào nguồn tài nguyên quý giá này.\n\nĐể ngăn chặn tổn thất thêm về nhân mạng và năng suất, chúng ta giờ đây phải viện đến các biện pháp quyết liệt để đảm bảo tái lập trạng thái cân bằng."
+
+ deficit.200.name:1 "Thâm Hụt Bụi Dễ Cháy Trầm Trọng"
+ deficit.200.desc:1 "Do quản lý yếu kém và chi tiêu liều lĩnh, kho dự trữ Bụi Dễ Cháy của chúng ta đã bốc hơi hoàn toàn! Nguồn tài nguyên chiến lược này được sử dụng rộng rãi trong nhiều lĩnh vực, từ sản xuất hợp kim cho đến phát triển quân sự. Bổ sung nguồn cung là điều tối quan trọng để bảo đảm sự thịnh vượng kinh tế của đế chế."
+ deficit.200.A:1 "Thu hồi bụi dễ cháy từ [looted_planet.GetName]."
+ deficit.200.A.nomad: "Hút bụi dễ cháy từ Thuyền Hạm Thủ Phủ."
+ deficit.200.B:1 "Chúng ta sẽ phải khai thác quá mức các mỏ của mình."
+ deficit.200.C:1 "Chúng ta có thể chấp nhận việc bụi dễ cháy ngày càng khó tìm hơn."
+ deficit.205.desc:1 "Tình trạng thiếu hụt bụi dễ cháy kéo dài đã dẫn đến một cuộc khủng hoảng kinh tế trên toàn đế chế. Không thể hoàn trả các khoản thâm hụt, chúng ta buộc phải tuyên bố phá sản và từ bỏ các khoản nợ. [Owner.GetFinancialAdvisorAgencyCap] đang soạn thảo một kế hoạch tài chính mới, thực thi những đợt cắt giảm hà khắc để tái cân bằng ngân sách."
+ deficit.205.desc.gestalt:0 "Tình trạng thiếu hụt bụi dễ cháy kéo dài đã dẫn đến sự sụp đổ chuỗi cung ứng trên toàn đế chế. Rõ ràng là chúng ta không còn có thể duy trì việc sử dụng vật liệu này. [Owner.GetFinancialAdvisorAgencyCap] đang soạn thảo một kế hoạch tài chính mới, thực thi những đợt cắt giảm hà khắc để tái cân bằng ngân sách."
+ deficit.205.desc.wilderness: "Tình trạng thiếu hụt $volatile_motes$ trên khắp các thế giới của chúng ta đã gây ra sự gián đoạn trên diện rộng, đặc biệt đối với những sinh vật cộng sinh lao động ưa môi trường khắc nghiệt mà sự sống của chúng phụ thuộc vào nguồn tài nguyên này. Để ngăn chặn mất mát thêm về sinh mạng và năng suất, chúng ta giờ đây phải thực thi những thay đổi quyết liệt để đảm bảo duy trì sự sống cơ bản, với hy vọng sớm tìm lại sự cân bằng."
+
+
+ deficit.215.name:1 "Thâm Hụt Khí Ngoại Lai Trầm Trọng"
+ deficit.215.desc:1 "Khí Ngoại Lai đã trở thành một sự hiện diện xa lạ trong kho dự trữ của đế chế - và sự vắng mặt liên tục của chúng đang tác động lên toàn bộ quy trình sản xuất phụ thuộc nhiều vào chúng. [Owner.GetFinancialAdvisorAgencyCap] khuyến nghị mạnh mẽ chúng ta nên xem xét lại các ưu tiên ngân sách để chấm dứt tình trạng kỳ quặc này."
+ deficit.215.A:1 "Thu hồi khí từ [looted_planet.GetName]."
+ deficit.215.A.nomad: "Hút khí ngoại lai từ Thuyền Hạm Thủ Phủ."
+ deficit.215.B:1 "Chúng ta sẽ phải khai thác quá mức các mỏ của mình."
+ deficit.215.C:1 "Chúng ta có thể chấp nhận việc khí của mình ngày càng thoáng qua mau biến."
+ deficit.220.desc:2 "Đế chế của chúng ta không còn có thể chống chọi với tình trạng thiếu hụt khí ngoại lai đang làm gián đoạn các quy trình sản xuất. [Owner.GetFinancialAdvisorAgencyCap] đã buộc phải tuyên bố phá sản, cho phép chúng ta xóa bỏ các nghĩa vụ nợ nần. Việc cắt giảm mạnh tay sẽ được thực thi để chúng ta có thể từ từ gầy dựng lại kho tài nguyên của mình."
+ deficit.220.desc.gestalt:0 "Đế chế của chúng ta không còn có thể chống chọi với tình trạng thiếu hụt khí ngoại lai đang làm gián đoạn các quy trình sản xuất. [Owner.GetFinancialAdvisorAgencyCap] đã buộc phải tuyên bố phá sản, cho phép chúng ta tái tổ chức hệ thống phân phối để có thể từ từ gầy dựng lại kho tài nguyên của mình."
+
+ deficit_situation_finish_tooltip:0 "Tất cả các hình phạt liên quan đến §Y[This.GetName]§! đang diễn ra sẽ bị gỡ bỏ."
+ deficit_situation_extra_defaulted_tooltip:0 "Tài nguyên sẽ được giải phóng từ các tài sản bị thanh lý để cho phép chúng ta tái thiết."
+
+ #Leviathan situations
+ leviathan_celebration_opportunity:0 "Cơ Hội [This.GetLeviathanParadeName]"
+ leviathan_celebration_opportunity_type:0 "Cơ Hội Diễu Hành Thần Thú"
+ leviathan_celebration_opportunity_desc:1 "Sau khi đánh bại §Y[This.GetLeviathanTargetName]§!, chúng tôi tin rằng một đợt [Owner.GetParadeStudy] trên §Y[Target.GetName]§! tập trung vào [Root.GetTrophyName] mà chúng ta thu được sẽ mang lại lợi ích to lớn cho đế chế."
+ leviathan_celebration_opportunity_monthly_change_tooltip:0 "$situation_monthly_change_tooltip_approaches_dependent$"
+ leviathan_celebration_default:0 "Cho Phép Tổ Chức Lễ Hội"
+ leviathan_celebration_do_nothing_effect:0 "Đợt [Owner.GetParadeStudy] sẽ diễn ra khi [Target.GetName] tổ chức."
+ leviathan_celebration_encourage:0 "Khuyến Khích Lễ Hội"
+ leviathan_celebration_discourage:0 "Ngăn Cản Lễ Hội"
+ approach_reorganize: "Tái Tổ Chức"
+ approach_reorganize_effect: "Tạm dừng tình huống và mở khóa một §YQuyết Sách Thuộc Địa§! đặc biệt để chuyển đợt [Owner.GetParadeStudy] tới đó."
+ leviathan_celebration_encourage_effect:0 "Bằng cách khuyến khích ăn mừng kỳ tích vĩ đại này, chúng ta chắc chắn sẽ có thêm nhiều cơ hội để biến sự kiện này thành một kỷ niệm đáng nhớ."
+ leviathan_celebration_discourage_effect:1 "Không có giá trị gì trong một đợt [Owner.GetParadeStudy] phù phiếm. Tài nguyên của chúng ta nên được đặt vào nơi khác tốt hơn."
+ leviathan_celebration_voidspawn_effect:0 "Đợt [Owner.GetParadeStudy] này bị tạm hoãn cho đến khi tình trạng ô nhiễm [Owner.GetWaterCoolantLower] được xử lý xong."
+
+ leviathan_celebration_opportunity_finish_tooltip:0 "Chúng ta tổ chức một đợt [Owner.GetParadeStudy], cường hóa vĩnh viễn [Target.GetName]."
+ leviathan_celebration_opportunity_fail_tooltip:0 "Chúng ta sẽ hủy bỏ đợt [Owner.GetParadeStudy]."
+ situation_tainted_voidspawn_finish_effect:0 "Chúng ta sẽ làm sạch [Target.GetName] và tiếp tục đợt [Owner.GetParadeStudy]."
+
+ stage_leviathan_2_tooltip:0 "§Y[This.GetTrophyName]§! sẽ được mang đến §Y[Target.GetName]§!."
+ stage_leviathan_3_tooltip:0 "Các khâu chuẩn bị cuối cùng sẽ được tiến hành."
+
+ situation_tainted_voidspawn:0 "Ô Nhiễm [Owner.GetWaterCoolantUpper] Trên [Target.GetName]"
+ situation_tainted_voidspawn_type:1 "Chất Ô Nhiễm Quái Vật Hư Không"
+ situation_tainted_voidspawn_desc:0 "Nguồn cung cấp [Owner.GetWaterCoolantLower] của chúng ta đã bị nhiễm nọc độc axit từ Quái Vật Hư Không."
+ situation_tainted_voidspawn_monthly_change_tooltip:0 "§YTình Huống§! này sẽ tiến triển chậm hơn nếu chúng ta chọn nghiên cứu chất ô nhiễm, nhưng chúng ta sẽ nhận được nghiên cứu trong suốt tiến trình từ §YHướng Tiếp Cận§! đó."
+ approach_clean_the_contaminant:1 "Làm Sạch Nó"
+ approach_clean_the_contaminant_effect:1 "Chúng ta cần làm sạch chất ô nhiễm nhanh nhất có thể để có thể quay lại đợt [Owner.GetParadeStudy]."
+ approach_study_the_contaminant:1 "Nghiên Cứu Nó"
+ approach_study_the_contaminant_effect:1 "Đừng lãng phí cơ hội quý giá này, hãy nghiên cứu chất ô nhiễm trước khi quay lại đợt [Owner.GetParadeStudy]."
+
+ situation_stellarite_infested_star:0 "Ngôi Sao [Target.GetName] Bị Nhiễm Khuẩn"
+ situation_stellarite_infested_star_type:0 "Ngôi Sao Bị Nhiễm Khuẩn"
+ situation_stellarite_infested_star_desc:0 "Ngôi sao của chúng ta, [Target.GetName], gần đây hoạt động vô cùng kỳ lạ, tạo ra ít năng lượng hơn bình thường rất nhiều. Nếu điều này không sớm được khắc phục, chúng ta có thể phải đối mặt với thảm họa sinh thái!"
+ situation_stellarite_infested_star_fail_tooltip:0 "[Target.GetName] sẽ bị dập tắt, khiến hệ sao trở thành nơi không thể sinh sống."
+ situation_stellarite_infested_star_finish_tooltip:0 "[Target.GetName] sẽ trở lại trạng thái bình thường."
+ situation_stellarite_infested_star_monthly_change_tooltip:0 "Tiến trình của §YTình Huống§! này phụ thuộc vào khả năng tìm kiếm phương thuốc chữa trị của chúng ta."
+ approach_search_for_a_cure:1 "Tìm Kiếm Phương Thuốc Chữa Trị"
+ approach_search_for_a_cure_effect:0 "Chúng ta cần mọi nhà khoa học sẵn có để nghiên cứu các vết đen kỳ lạ trên sao mẹ. Thủ Phủ của chúng ta phụ thuộc vào việc này."
+ approach_cure_it:1 "Chữa Trị Cho Ngôi Sao"
+ approach_cure_it_effect:0 "Giờ đây chúng ta đã có phương thuốc chữa trị. Chúng ta chỉ có thể hy vọng rằng chưa quá muộn."
+
+ decision_reorganize_leviathan_parade: "Dời Địa Điểm Diễu Hành"
+ decision_reorganize_leviathan_parade_desc: "Không phải thế giới nào cũng có thể đăng cai một sự kiện hoành tráng như đợt [Owner.GetParadeStudy]. Sau khi cân nhắc kỹ lưỡng, chúng ta quyết định [GetName] sẽ là địa điểm thích hợp hơn."
+ #Events
+ situation.1000.name:0 "[This.GetLeviathanTargetName]"
+ situation.1000.desc.small:0 "Ngày ấy đã đến. Các [Owner.GetSensoryWorkers] của chúng ta đã vào vị trí và sẵn sàng cung cấp cho chúng ta một cuộc khám phá thấu đáo về §Y[This.GetTrophyName]§!. Khi cuộc nghiên cứu bắt đầu, một phần nhỏ ý thức của chúng ta tập trung vào §Y[Target.GetName]§! để tiếp thu cuộc nghiên cứu về vật thể dị thường. Tuy nhiên, những điều khám phá được không thú vị như chúng ta kỳ vọng khi kéo tàn tích về [Target.GetPlanetHabitat].\n\nÍt lâu sau khi quá trình bắt đầu, chúng ta quyết định chuyển cuộc nghiên cứu về trung tâm cụm trên [Target.GetName], nơi các [Owner.GetSensoryWorkers] chuyên trách sẽ liên tục quan sát nó. Hy vọng điều gì đó tốt hơn sẽ xuất hiện."
+ situation.1000.desc.standard:0 "Ngày ấy đã đến. Các [Owner.GetSensoryWorkers] của chúng ta đã vào vị trí và sẵn sàng cung cấp cho chúng ta một cuộc khám phá thấu đáo về §Y[This.GetTrophyName]§!. Khi cuộc nghiên cứu bắt đầu, một phần đáng kể ý thức của chúng ta tập trung vào §Y[Target.GetName]§! để tiếp thu tầm quan trọng của vật thể dị thường này. Năng suất lao động tại [Owner.GetName] đã giảm trọn vẹn §H0.2%§! trong ngày hôm đó.\n\nDữ liệu cảm quan sau đó được lưu trữ sâu trong ý thức trước khi được đặt tại trung tâm cụm trên [Target.GetName], nơi các [Owner.GetSensoryWorkers] chuyên trách sẽ liên tục quan sát nó."
+ situation.1000.desc.large:0 "Ngày ấy đã đến. Một lượng khổng lồ các [Owner.GetSensoryWorkers] đã vào vị trí và sẵn sàng mang lại cho chúng ta một cuộc thám hiểm tỉ mỉ về §Y[This.GetTrophyName]§!. Khi cuộc nghiên cứu bắt đầu, trong giây lát, toàn bộ ý thức của chúng ta tập trung vào §Y[Target.GetName]§! để tiếp thu nghiên cứu về vật thể dị thường vốn đã chiếm trọn tâm trí chúng ta. Một vài [owner.GetIndividualNamePlural] đang trong tình huống nguy hiểm đã bị thương do sự phân tâm nhất thời này, và một số thậm chí đã mất mạng. Sự mê hoặc của chúng ta lớn đến mức như thế.\n\nSau khi nghiên cứu ban đầu hoàn tất, chúng ta quyết định chuyển nó đến trung tâm cụm trên [Target.GetName], nơi các [Owner.GetSensoryWorkers] chuyên trách sẽ liên tục quan sát nó. Chúng ta đặt nó xuống với sự tôn kính gần như sùng bái, và tiếp tục dành một phần ý thức để quan sát."
+ situation.1000.a:0 "Kết Quả Đáng Thất Vọng."
+ situation.1000.b:0 "Chúng ta sẽ ghi nhớ [This.GetLeviathanTargetName]."
+ situation.1000.c:1 "Trong [This.GetTrophyName], chúng ta đã tìm thấy chính mình."
+ situation.1005.name:0 "[This.GetLeviathanParadeName]"
+ situation.1005.desc.small:0 "Một ngày u ám đã đón chào đám đông thưa thớt tại thủ phủ của §Y[Target.GetName]§! hôm nay. Đoàn diễu hành mang theo bằng chứng về sự tiêu diệt của §Y[This.GetLeviathanTargetName]§! chậm rãi đi qua những người qua đường tản mạn. Tiến trình diễu hành được phát sóng trên toàn đế chế, nhưng mức độ hào hứng khá thấp vì [This.GetTrophyName] dường như không mấy lôi cuốn như chúng ta kỳ vọng.\n\nSau khi kết thúc chuyến lưu diễn quanh thế giới, [This.GetTrophyName] được đặt tại một khu trưng bày chuyên biệt ở trung tâm thủ đô để truyền cảm hứng cho các thế hệ mai sau."
+ situation.1005.desc.standard:0 "Một ngày tươi sáng đã đón chào đám đông ken đặc trên §Y[Target.GetName]§! hôm nay khi đoàn diễu hành mang theo bằng chứng về sự tiêu diệt §Y[This.GetLeviathanTargetName]§! di chuyển khắp nơi. Tiến trình của cuộc diễu hành được phát sóng trên toàn đế chế tới hàng tỷ khán giả. [This.GetTrophyName] dường như đã trở thành một biểu tượng chính yếu của văn hóa [Owner.Species.GetAdj], truyền cảm hứng cho các nghệ sĩ và nhà sáng tạo trên khắp [Owner.GetName].\n\nSau khi kết thúc chuyến lưu diễn quanh thế giới, [This.GetTrophyName] được đặt tại một khu trưng bày chuyên biệt ở trung tâm thủ đô để truyền cảm hứng cho các thế hệ mai sau."
+ situation.1005.desc.large:0 "Thời tiết trên §Y[Target.GetName]§! hôm nay tuyệt vời một cách khác thường, đúng như mong đợi, xét việc chúng ta đã vận hành hệ thống kiểm soát khí quyển ở mức tối đa. Mọi thành phố trên [Target.GetPlanetHabitat] đều chật kín công suất, và vẫn còn những con tàu du lịch quay quanh thế giới chỉ để trở thành một phần của ngày trọng đại này. Đại lễ diễu hành lần lượt đi qua từng khu định cư, và được chào đón bởi những con phố ken đặc người dân [Owner.GetSpeciesNamePlural]. Mọi thành phố có khả năng trưng dụng màn hình ảnh ba chiều trong đế chế của chúng ta cũng tràn ngập khán giả theo dõi các buổi tái phát sóng ba chiều hoành tráng. Khi tâm điểm của cuộc diễu hành, [This.GetTrophyName], tiến vào thủ đô của [Target.GetName], người dân đã bắt đầu bàn tán về việc biến ngày hôm nay thành một ngày lễ thường niên lấy cảm hứng từ §Y[This.GetLeviathanTargetName]§!. [This.GetTrophyName] sau đó được đặt tại một khu trưng bày chuyên biệt ở trung tâm thủ đô để truyền cảm hứng cho các thế hệ mai sau."
+ situation.1005.a:0 "Nếu họ không buồn đến xem, tại sao lại yêu cầu tổ chức lễ ăn mừng?"
+ situation.1005.b:0 "Hôm nay là một ngày tuyệt vời cho toàn thể [Owner.GetSpeciesNamePlural]."
+ situation.1005.c:0 "Hôm nay chúng ta cùng đứng bên nhau, như một thể thống nhất."
+
+ situation.1045.name:0 "Răng Nanh Mất Ổn Định"
+ situation.1045.desc:0 "Để chuẩn bị cho ngày trọng đại, chúng ta đã vận chuyển một trong những §YRăng Nanh Của Rồng Ether§! đến §Y[Target.GetName]§!. Đưa chúng vào tàu vận tải là một thách thức lớn, vì sinh học độc nhất vô nhị của Rồng Ether dường như không tuân theo các định luật vật lý. Chiếc răng nanh phản ứng đặc biệt kỳ lạ khi tàu vận tải tiến vào bầu khí quyển của [Target.GetPlanetHabitat]: nó bắt đầu rã rời trước mắt chúng ta, và nếu tàu vận tải không phản ứng kịp thời, chúng ta có thể đã đánh mất cổ vật quý giá này."
+ situation.1045.a:0 "Chế tạo một buồng chứa tốt hơn và đưa chiếc răng nanh xuống mặt đất."
+ situation.1045.b:1 "Phản ứng này thú vị hơn nhiều so với bất kỳ đợt [Owner.GetParadeStudy] nào."
+ situation.1045.b.tooltip:1 "Hủy bỏ đợt [Owner.GetParadeStudy] để tập trung nghiên cứu phản ứng này."
+ situation.1045.c:0 "Thay thế chiếc răng nanh bằng một bản sao."
+ situation.1045.c.tooltip:0 "Điều này sẽ làm giảm lượng đoàn kết mà cơ hội này tạo ra."
+ situation.1050.name:0 "Kẻ Giám Sát"
+ situation.1050.desc:0 "Việc bóc tách §YCon Mắt Của Shard§! là một quy trình lộn xộn với một vài lần khởi đầu hỏng. May mắn thay, con quái thú khổng lồ có rất nhiều mắt để chúng ta thực hành. Sau đó chúng ta lai dắt nhãn cầu tới hệ sao [Target.Solar_System.GetName], và một điều vừa hấp dẫn vừa ghê tởm đã xảy ra: con mắt bắt đầu tự gắn kết và tích hợp vào mảng cảm biến địa phương trông ra §Y[Target.GetName]§!. Nguyên nhân của hiện tượng này chưa rõ, nhưng xét cho cùng, phần lớn đặc điểm sinh lý của Rồng đều vượt quá tầm hiểu biết của chúng ta.\n\nQuá trình hợp nhất vẫn chưa hoàn tất, nhưng các [Owner.GetScientistPlural] của chúng ta tin rằng nó phải được ngăn chặn ngay lúc này nếu chúng ta muốn tiếp tục các kế hoạch trước đó."
+ situation.1050.a:0 "Hãy để chúng ta nhìn bằng tầm nhìn của Shard!"
+ situation.1050.a.tooltip:1 "Hủy bỏ đợt [Owner.GetParadeStudy] để sử dụng con mắt cho một mục đích khác."
+ situation.1050.b:0 "Cạo sạch nó đi, chúng ta sắp hết hạn rồi."
+ situation.1050.c:0 "Gỡ bỏ nó thật cẩn thận, chúng ta không muốn làm hỏng nó."
+ situation.1055.name:0 "Xung Điện Đột Biến"
+ situation.1055.desc:0 "§YLò Phản Ứng Của Thiết Giáp Hạm§! từng là một khối hàng rất ngoan ngoãn cho đến khi nó đến §Y[Target.GetName]§!, nơi chúng ta đặt nó trong nhà kho chờ ngày trọng đại. Chính tại đó rắc rối bắt đầu: khi không ai để ý, lò phản ứng đã tự khởi động lại. Nhà kho rực sáng từ bên trong khi nó phóng ra những luồng hồ quang plasma khổng lồ, đe dọa làm tan chảy toàn bộ công trình.\n\nHành động nhanh chóng của các [Owner.GetScientistPlural] của chúng ta vừa đủ để cứu vãn nó vào phút chót, với kết quả là giờ đây chúng ta có một lò phản ứng đang hoạt động để sử dụng tùy ý."
+ situation.1055.a:0 "Đấu nối nó vào lưới điện của [Target.GetPlanetHabitat]."
+ situation.1055.b:0 "Đưa nó vào buổi biểu diễn."
+ situation.1055.b.tooltip:0 "Điều này sẽ tăng lượng đoàn kết mà cơ hội này tạo ra."
+ situation.1055.c:0 "Tìm công tắc tắt nguồn."
+ situation.1060.name:0 "Chi Thể Tự Tái Tạo"
+ situation.1060.desc:0 "Ngay cả khi đã áp dụng các biện pháp phòng ngừa ô nhiễm ngoại lai, sự cố vẫn xảy ra. Khi §YChi Thể Của Mẫu Thể§! tiến vào thủ phủ của §Y[Target.GetName]§!, nó bằng cách nào đó đã tiếp xúc với một trong những người xử lý, và ngay lập tức, chi thể bắt đầu phản ứng. Những phần phụ rung giật xé toạc bắt đầu mọc ra từ Chiến Tích, ban đầu tạo thành một khối thịt nhào lộn vô định. Theo thời gian nó trở nên rõ nét hơn, và trước sự ngạc nhiên của chúng ta, nó mang hình dáng của người xử lý xấu số! Có vẻ như năng lực tái tạo của Mẫu Thể đã tiếp nhận DNA của giống loài chúng ta và hiện đang trong quá trình sinh ra thêm nhiều [Owner.GetSpeciesNamePlural]."
+ situation.1060.a:0 "Dùng thứ này làm thức ăn nuôi đám đông người xem!"
+ situation.1060.b:0 "Để phản ứng tự do diễn tiến."
+ situation.1060.c:0 "Dùng nhiệt đốt cháy Chi Thể."
+ situation.1065.name:0 "Cuộc Truy Đuổi Lông Vũ Bất Tận"
+ situation.1065.desc:0 "Trong khi mang §YBộ Lông Của Rồng Bầu Trời§! về nhà, tàu vận tải của chúng ta nhận thấy rằng siêu làn đường mà họ di chuyển qua có một sự biến dạng thứ hai ngoài con tàu. Ban đầu bị xem nhẹ chỉ như một dị thường, phải đến khi con tàu tiến vào §Y[Target.Solar_System.GetName]§! thì mới rõ ràng rằng một nhóm thực thể truy đuổi đang gây ra sự giãn nở siêu làn đường: một đàn rồng con đã tiến vào hệ sao của chúng ta để ráo riết đuổi theo tàu vận tải. Chắc hẳn chúng đã phục kích gần điểm nhảy và bám theo lối ra của chúng ta. Lũ rồng con dường như không sở hữu năng lực trí tuệ của tổ tiên chúng và dường như chỉ đang bám theo chúng ta một cách vô định, hay chính xác hơn, bám theo bộ lông vũ."
+ situation.1065.a:0 "Tiêu diệt lũ sâu bọ."
+ situation.1065.b:0 "Chúng ta nên thiết lập một khu bảo tồn cho chúng tại [Target.Solar_System.GetName]."
+ situation.1065.b.tooltip:1 "Hủy bỏ đợt [Owner.GetParadeStudy] để nhường một tiểu hành tinh cho bầy rồng con cư trú."
+ situation.1065.c:1 "Hãy tưởng tượng việc có các đối tượng sống cho đợt [Owner.GetParadeStudy]!"
+ situation.1065.d:0 "Bắn một vài phát súng cảnh cáo, xua đuổi chúng đi!"
+ situation.1070.name:0 "Kim Loại Đậm Đặc Nhất"
+ situation.1070.desc:0 "Sáng nay, một bất ngờ đón chờ chúng ta trên §Y[Target.GetName]§! khi §YMáy Ép Của Người Máy Phế Liệu§! nhả ra tác phẩm cuối cùng của nó vào cơ sở kho chứa của chúng ta. Khối hợp kim lớn đậm đặc và nén chặt hơn bất cứ thứ gì chúng ta từng hy vọng sản xuất được, chứa đủ kim loại trong vài mét khối để đóng trọn một chiến hạm thiết giáp. Diễn biến kỳ diệu này khiến các [Owner.GetScientistPlural] của chúng ta tin rằng họ có thể làm cho máy ép hoạt động trở lại ở hiệu suất §G0.001%§!, nếu chúng ta mong muốn."
+ situation.1070.a:0 "Đập vỡ nó ra và sử dụng cho việc xây dựng."
+ situation.1070.b:1 "Đưa vào đợt [Owner.GetParadeStudy]."
+ situation.1070.c:0 "Đưa Máy Ép trở lại không gian và để nó làm việc."
+ situation.1070.c.tooltip:1 "Hủy bỏ đợt [Owner.GetParadeStudy] để tái kích hoạt máy ép và nhận một mỏ $d_alloys_10$ trên quỹ đạo của [Target.GetName]."
+ situation.1075.name:0 "Túi Khí Rò Rỉ"
+ situation.1075.desc:0 "Ánh sáng nhấp nháy của §YTúi Phân Tán Của Bóng Ma Tinh Tú§! khiến người ta phải xao nhãng khi nhìn vào, xao nhãng đến mức phải mất một lúc mới phát hiện ra rằng chiếc túi mà Bóng Ma dùng để tạo lá chắn tự nhiên đang bị rò rỉ. Sau khi nhanh chóng xác nhận việc tiếp xúc với các hóa chất bên trong sẽ không gây ra sự sụp đổ sinh thái hoàn toàn trên §Y[Target.GetName]§!, các [Owner.GetScientistPlural] của chúng ta tập trung vào phân tích tác động của khí này lên bầu khí quyển.\n\nCó vẻ như các hóa chất phát tán đã hòa quyện với tầng trung lưu và phân tán các năng lượng tập trung một cách đáng ngạc nhiên. Tốt đến mức nếu chúng ta giải phóng phần còn lại bên trong túi phân tán, khả năng phòng thủ của hành tinh sẽ gia tăng đáng kể."
+ situation.1075.a:0 "Chiết xuất phần khí còn lại và để phản ứng hoàn tất."
+ situation.1075.a.tooltip:1 "Hủy bỏ đợt [Owner.GetParadeStudy] để truyền $wraiths_energy_disperser$ vào bầu khí quyển của [Target.GetName]."
+ situation.1075.b:0 "Bịt kín nó lại."
+ situation.1075.c:0 "Đưa nó vào buổi biểu diễn."
+ situation.1080.name:0 "Điềm Báo Kinh Hoàng"
+ situation.1080.desc:0 "Các [Owner.GetTeamMemberPlural] của chúng ta đã báo cáo về những hiện tượng kỳ lạ trên con tàu vận chuyển §YKhối Nghịch Đảo Kinh Hoàng§! tới [Target.Solar_System.GetName]. Những cánh cửa sổ mở vào thế giới của nỗi đau đớn thuần túy cùng những lời thì thầm hủy diệt chỉ là một vài trong số những lời kể đáng sợ mà chúng ta nhận được. Người ta tin rằng khối vật chất của [This.GetLeviathanTargetName] là thủ phạm, và chúng ta có lý do chính đáng để lo lắng điều gì sẽ xảy ra nếu mang hàng hóa trên tàu tới §Y[Target.GetName]§!."
+ situation.1080.a:0 "Trả nó về nơi nó xuất phát."
+ situation.1080.a.tooltip:0 "Hủy bỏ đợt [Owner.GetParadeStudy] để bảo vệ sự an toàn và tỉnh táo của [Owner.GetSpeciesNamePlural] trên [Target.GetName]."
+ situation.1080.b:0 "Không! Chúng ta cần phải nghiên cứu thứ này."
+ situation.1080.c:0 "Ngăn chặn nó, chúng ta không thể để hiện tượng này lan rộng."
+ situation.1080.d:0 "Nó có thể dạy cho chúng ta về Đấng Thiêng Liêng."
+ situation.1085.name:0 "Cái Nhìn Thoáng Qua Về Vực Thẳm"
+ situation.1085.desc.study:0 "Những gì trước đây chỉ là tin đồn giờ đã được xác nhận: §YKhối Nghịch Đảo Kinh Hoàng§! trên §Y[This.GetName]§! đã và đang xé toạc các lỗ hổng trong chính thực tại của chúng ta, mở ra những vết nứt vào một thế giới khác. Hiện tượng này đã chọc thủng các quy trình phong tỏa và dường như đang lan rộng vào thủ phủ của [This.GetName]. Mọi tiếp xúc với chiều không gian đó, ngay cả vô tình qua thấu kính thiết bị quan sát, đều gây ra sự hoảng loạn tột độ cho [Owner.GetTeamMember] quan sát. Các [Owner.GetScientistPlural] lo ngại điều này có thể lan rộng hơn nữa nhưng cũng cam đoan rằng chỉ cần thêm một chút thời gian họ có thể mở khóa các bí mật của chiều không gian kia."
+ situation.1085.desc.deify:0 "Những gì trước đây chỉ là tin đồn giờ đã được xác nhận: §YKhối Nghịch Đảo Kinh Hoàng§! trên §Y[This.GetName]§! đã xé toạc các lỗ hổng trong chính thực tại của chúng ta dẫn vào một thế giới của tội ác thuần túy. Bất kỳ ai chỉ liếc nhìn vào một trong các vết nứt cũng cần hàng giờ biệt lập chỉ để ngừng la hét. Vì các giáo sĩ của chúng ta đã suy ngẫm về sự tồn tại của thực thể mà chúng ta đánh bại trong nhiều năm mà chưa có sự khai sáng lớn lao nào, họ nói rằng giờ họ đang tiến gần đến một sự khai sáng. \"Chúng tôi chỉ cần thêm một chút thời gian!\" Họ khẩn cầu, trong khi các nhà khoa học cảnh báo rằng quy trình này có thể không thể đảo ngược nếu chúng ta để nó tiếp diễn thêm nữa."
+ situation.1085.a:0 "Những phát hiện này rất đáng để mạo hiểm!"
+ situation.1085.b.divine:0 "Chúng ta cần thấy khải tượng chân thật của Đấng Thiêng Liêng."
+ situation.1085.b.anathema:0 "Chúng ta phải thấu hiểu Nỗi Nguyền Rủa để đánh bại nó."
+ situation.1085.c:0 "Không, mối nguy hiểm là quá lớn."
+ situation.1090.name:0 "Ngưỡng Cửa Dẫn Vào Hư Không"
+ situation.1090.desc.study:0 "Có lẽ sự ngạo mạn của chúng ta là quá lớn. §Y[This.GetName]§! đang bị xé toạc từ bên trong khi §YKhối Nghịch Đảo Kinh Hoàng§! vẫn còn bị cô lập trên đó. Dù những đột phá khoa học có được từ việc nghiên cứu chiều không gian khác mang tính cách mạng, áp lực đè nặng lên thế giới là vô cùng to lớn. Rất ít [Owner.GetScientistPlural] tin rằng họ vẫn có thể ổn định phản ứng, nhưng cơ hội vẫn còn! Khi cư dân của [This.GetName] lên các tàu vận tải để rời khỏi [This.GetPlanetHabitat], vô số vết nứt đang mở ra. Điểm không thể quay đầu đang nhanh chóng cận kề."
+ situation.1090.desc.deify:0 "Có lẽ sự ngạo mạn của chúng ta là quá lớn. §Y[This.GetName]§! đang bị xé toạc từ bên trong khi §YKhối Nghịch Đảo Kinh Hoàng§! vẫn còn bị giam giữ trên đó. Dù chúng ta đã học được nhiều điều về chiều không gian của nỗi đau thuần túy, áp lực đè nặng lên thế giới là vô cùng khủng khiếp. Rất ít giáo sĩ còn tin rằng họ có thể thanh tẩy khối vật chất, nhưng cơ hội vẫn còn! Khi cư dân của [This.GetName] lên tàu vận tải để rời khỏi [This.GetPlanetHabitat], vô số vết nứt đang mở ra. Điểm không thể quay đầu đang nhanh chóng cận kề."
+ situation.1090.a:0 "Chúng ta đã đi quá xa để chứng kiến nó kết thúc lúc này."
+ situation.1090.b:0 "Nếu chúng ta dừng lại bây giờ, Nỗi Nguyền Rủa sẽ chiến thắng!"
+ situation.1090.c:0 "Loại bỏ nó, bằng mọi giá cần thiết!"
+ situation.1095.name:0 "Một Sự Kết Thúc"
+ situation.1095.desc:0 "Bầu trời đã biến mất. Nó không phải bị mây che phủ. Nó đã bị thay thế bởi một vùng hư không thuần khiết. Tất cả những gì còn sót lại của §Y[This.GetName]§! là những mảng đất giữa đại dương hư vô. Mọi người còn ở lại trên [This.GetPlanetHabitat] đều phải chịu đựng nỗi thống khổ tột cùng theo từng khoảnh khắc trôi qua. Chúng ta đã câu thêm nhiều thời gian nhất có thể cho các chuyên gia. Một giọng nói méo mó và ghê rợn vang vọng từ thế giới bên kia: §R\"ĐúnG rồi, hÃy quAy vỀ vỚi tA-.\"§!"
+ situation.1095.a:0 "Bây giờ hoặc không bao giờ, hỡi các [Owner.GetScientistPlural]!"
+ situation.1095.b:0 "Bây giờ hoặc không bao giờ, hỡi các giáo sĩ!"
+ black_hole_arkship_name: "[Root.GetName]"
+ situation.1100.name:0 "Pháo Đài Thoát Hiểm"
+ situation.1100.desc:0 "Sau khi đánh bại Pháo Đài Bí Ẩn, một phần của nó trôi nổi trong không gian, vì vậy chúng ta quyết định mang nó tới [Target.Solar_System.GetName] để trở thành một phần của đợt [Owner.GetParadeStudy]. Một vài [Owner.GetSpeciesNamePlural] đã mất tích bên trong chiều sâu của §YCăn Phòng Thuộc Pháo Đài§!. Kể từ khi nó đến §Y[Target.GetName]§!, chúng ta đã để các [Owner.GetTeamMemberPlural] khám phá nó hàng ngày, thế nhưng có điều gì đó bên trong cấu trúc đã biến đổi vào đầu ngày hôm nay. Những cánh cửa tự gập lại, chỉ để lại những bức tường dựng đứng trơ trọi để các đặc vụ của chúng ta va đập trong vô vọng. Chúng ta vẫn có thể liên lạc với những người [Owner.GetSpeciesNamePlural] bị mắc kẹt, nhưng chúng ta không có ý tưởng rõ ràng nào để đưa họ ra ngoài mà không làm hư hại cấu trúc. Có vẻ như Pháo Đài Bí Ẩn vẫn còn một bí mật cuối cùng."
+ situation.1100.a:0 "Không bỏ lại bất kỳ [Owner.GetSpeciesName] nào phía sau!"
+ situation.1100.b:0 "Chúng ta không thể mạo hiểm hủy hoại Căn Phòng."
+ situation.1100.c.auth:0 "Chúng ta có thể sử dụng công nghệ này để giam giữ những kẻ không mong muốn."
+ situation.1100.c.regular:0 "Thiết lập cấu trúc như một phòng giải đố cho người tham gia diễu hành khám phá."
+ situation.1100.c.gestalt:0 "Khám phá bí mật của căn phòng!"
+
+ situation.1110.name:0 "Rò Rỉ Thảm Họa"
+ situation.1110.desc.base:0 "Buồng chứa §YTuyến Nọc Độc Của Quái Vật Hư Không§! đã bị rò rỉ! Lượng nọc độc tàn phá giờ đã đầu độc nguồn cung cấp [Owner.GetWaterCoolantLower] của chúng ta trên §Y[Target.GetName]§!, buộc chúng ta phải vận chuyển [Owner.GetWaterCoolantLower] từ các thế giới khác để xoa dịu cơn hạn hán tự chuốc lấy này."
+ situation.1110.desc.reg:1 "$situation.1110.desc.base$ Nọc độc vốn tiến hóa để làm tê liệt các Sinh Vật Không Gian khổng lồ và làm tan chảy lớp vỏ giáp tàu, đã chứng minh là có độc tính cực cao đối với bất kỳ [Owner.GetSpeciesName] nào nuốt phải. $situation.1110.desc.end$"
+ situation.1110.desc.lithoid:1 "$situation.1110.desc.base$ Nọc độc vốn tiến hóa để làm tê liệt các Sinh Vật Không Gian khổng lồ và làm tan chảy lớp vỏ giáp tàu, đã chứng minh là có tính ăn mòn cực mạnh đối với bất kỳ [Owner.GetSpeciesName] nào dính phải trên lớp da trầm tích của họ. $situation.1110.desc.end$"
+ situation.1110.desc.machine:1 "$situation.1110.desc.base$ Nọc độc vốn tiến hóa để làm tê liệt các Sinh Vật Không Gian khổng lồ và làm tan chảy lớp vỏ giáp tàu, đã chứng minh là có phản ứng ăn mòn khi tiếp xúc với chất làm mát của chúng ta. Bất kỳ đơn vị nào sử dụng chất làm mát bị nhiễm độc đều nhanh chóng ngừng hoạt động. $situation.1110.desc.end$"
+ situation.1110.desc.end:0 "Giờ đây chúng ta phải quyết định cách xử lý cuộc khủng hoảng này.\n\nLiệu chúng ta nên tiến hành thanh lọc phân tử toàn bộ DNA Quái Vật Hư Không trên [Target.GetPlanetHabitat], hay từ từ lọc nọc độc ra để chúng ta có thể tiếp tục đợt [Owner.GetParadeStudy]?"
+ situation.1110.a:0 "Kiểm soát sự lây lan nhưng không hủy bỏ đợt [Owner.GetParadeStudy]."
+ situation.1110.a.tooltip:0 "Tạm dừng đợt [Owner.GetParadeStudy] cho đến khi chất ô nhiễm được dọn sạch."
+ situation.1110.b:0 "Thanh tẩy thế giới khỏi chất ô nhiễm và túi nọc độc!"
+ situation.1110.b.tooltip:0 "Hủy bỏ đợt [Owner.GetParadeStudy] để nhanh chóng làm sạch thế giới."
+ situation.1115.name:0 "[Target.GetName] Đã Được Làm Sạch"
+ situation.1115.desc:1 "Sau nhiều tháng nỗ lực, nguồn cung cấp [Owner.GetWaterCoolantLower] của chúng ta trên §Y[Target.GetName]§! cuối cùng đã sạch bóng Chất Ô Nhiễm Quái Vật Hư Không. Đó không phải là một nỗ lực lãng phí, khi chúng ta đã học được nhiều điều từ sinh học dị chủng hiện diện trong [Owner.GetWaterCoolantLower] và giờ đã sẵn sàng tiếp tục đợt [Owner.GetParadeStudy]. Các [Owner.GetScientistPlural] của chúng ta tin rằng họ có thể cải thiện đời sống trên [Target.GetName] bằng những phát hiện này một khi đợt [Owner.GetParadeStudy] kết thúc."
+
+ situation.1120.name:0 "Tia Lửa Cuối Cùng"
+ situation.1120.desc:1 "Các thiết bị thăm dò quan sát chúng ta để lại tại nơi Quái Thú Nuốt Sao bị tiêu diệt báo cáo rằng các phần của cơ thể đã bắt đầu hợp nhất trở lại vào ngôi sao. Năng lượng dường như đã làm tăng hoạt động của sao, nhưng việc lấy đi §YTúi Trứng§! khiến các tính toán của chúng ta chỉ ra rằng điều đó là không đủ để khôi phục hệ sao §Y[dead_stellarite.solar_system.GetName]§! về vẻ rực rỡ trước đây. Nếu chúng ta quay tàu vận tải trở lại ngay bây giờ, chúng ta vẫn có khả năng thắp sáng lại ngôi sao."
+ situation.1120.a:0 "Trả lại Túi Trứng và xem những gì có thể làm được."
+ situation.1120.a.tooltip:0 "Hủy bỏ đợt [Owner.GetParadeStudy] để cố gắng thắp sáng lại ngôi sao [dead_stellarite.system.GetName]."
+ situation.1120.b:0 "Không, chúng ta sẽ mang Túi Trứng đến [Target.GetName]."
+
+ situation.1125.name:0 "Định Hướng Ngang Tinh Cầu"
+ situation.1125.desc.base:0 "\n\nHàng hóa của họ - hàng triệu Quái Thú Nuốt Sao tí hon - được bảo quản ở độ không tuyệt đối, giúp giữ chúng ngoan ngoãn và bất hoạt cho đến khi sẵn sàng được đưa vào ngôi sao chính của hệ sao. Tàu vận tải sẽ phải ngắt tín hiệu vô tuyến một thời gian khi họ thâm nhập sâu hơn vào thủ đô của [Target.GetSpeciesAdj]."
+ situation.1125.desc.binary:0 "Ánh sáng từ các ngôi sao song sinh của [Target.GetAdj] chiếu rọi xuống tàu vận tải khi nó tiến vào hệ sao [Target.capital_scope.Solar_System.GetName].$situation.1125.desc.base$"
+ situation.1125.desc.trinary:0 "Bộ ba nguồn sáng tạo nên trái tim của [Target.GetName] lấp lánh trên thân tàu vận tải khi nó tiến vào hệ sao [Target.capital_scope.Solar_System.GetName].$situation.1125.desc.base$"
+ situation.1125.desc.regular:0 "Sau khi hoàn thành chặng đầu tiên trong hành trình tới ngôi sao mang lại sự sống [Target.capital_star.GetName], tàu vận tải của chúng ta tiến sâu hơn vào không phận của [Target.GetName].$situation.1125.desc.base$"
+
+ situation.1130.name:0 "Mật Mã Cũ"
+ situation.1130.desc:0 "Tàu vận chuyển Quái Thú Nuốt Sao của chúng ta đã vượt qua vòng kiểm tra an ninh hệ sao - các mật mã an ninh mà $role_spymaster$ [spynetwork.leader.GetName] thu thập được đóng vai trò sống còn để vượt qua hệ thống kiểm soát. Các đặc vụ của chúng ta đã bắt đầu quy trình làm ấm để đánh thức đàn Quái Thú Nuốt Sao con. Chúng sẽ lại nhắm tới ngôi sao chính của hệ sao trong chuyến hải trình cuối cùng của tàu vận tải."
+
+ situation.1135.name:0 "Rời Khỏi Tàu Vận Tải, Lao Vào Plasma Rực Cháy"
+ situation.1135.desc:0 "Chúng ta đã nhận được tin báo từ $role_spymaster$ [spynetwork.leader.GetName]: mọi thứ đã sẵn sàng. Các đặc vụ của chúng ta đã bắt đầu rời khỏi tàu vận tải, chỉ để lại một thủy thủ đoàn rút gọn phía sau. Khi con tàu đạt tới tốc độ dưới ánh sáng tối đa, họ cũng sẽ thoát ra ngay trước khi tàu vận tải lao thẳng vào ngôi sao chính của hệ sao, đảm bảo chúng ta không để lại bất kỳ bằng chứng nào.\n\nĐàn Quái Thú Nuốt Sao đã bắt đầu trở nên khá kích động. Nếu chúng ta không sớm bắt đầu chiến dịch, chúng có thể tự tìm đường chui vào nguồn cung cấp nhiên liệu của tàu vận tải."
+
+ situation.1140.name:0 "Nhiễm Khuẩn Thành Công"
+ situation.1140.desc:0 "Bằng chứng cuối cùng về sự can thiệp của chúng ta đã nhanh chóng tan chảy bên trong vành nhật hoa của ngôi sao. Các cảm biến của chúng ta bốc cháy chỉ vài khoảnh khắc sau va chạm, nhưng điều đó là đủ để xác nhận rằng chúng ta đã thả ấu trùng nhiễm khuẩn thành công vào §Y[From.target.capital_star.GetName]§!.\n\nChúng ta có lẽ vừa kết án cả một hệ sao vào cái chết lạnh giá, tàn nhẫn."
+ situation.1140.a:0 "Bây giờ chúng ta chờ đợi."
+
+ situation.1145.name:0 "Năng Lượng Sao Mẹ Suy Kiệt"
+ situation.1145.desc.base:1 "Chúng ta đang trải qua một chu kỳ hoạt động yếu kém bất thường từ sao mẹ [capital_star.GetName]. Các vết đen xuất hiện với số lượng chưa từng thấy do nhiệt độ của ngôi sao giảm xuống, dẫn đến sự sụt giảm rõ rệt về bức xạ mặt trời."
+ situation.1145.desc.regular:1 "$situation.1145.desc.base$\n\nCư dân trên [capital_scope.GetName] đã bắt đầu tích trữ chăn chạy bằng năng lượng phân hạch và hạn chế tối đa các chuyến đi ra ngoài. Hy vọng chúng ta sẽ sớm trở lại thời kỳ ấm áp hơn."
+ situation.1145.desc.gestalt:1 "$situation.1145.desc.base$\n\nChúng ta đã phân bổ thêm năng lượng vào ngân sách sưởi ấm và hướng dẫn tất cả các drone tụm lại gần nhau hơn để giữ nhiệt. Chúng ta sẽ vượt qua thử thách này."
+ situation.1145.desc.wilderness: "$situation.1145.desc.base$\n\nDù sự nhiễu loạn này gieo rắc nỗi sợ hãi vào cốt lõi bản năng chung, khi biết trước những tổn hại mà ngôi sao quê hương từng gây ra: chúng ta sẽ kiên cường vượt qua. Chúng ta đã phân bổ thêm năng lượng để sưởi ấm các nơi trú ẩn, và các sinh vật cộng sinh sẽ học cách rúc sát vào nhau để tìm kiếm hơi ấm."
+ situation.1145.a:0 "Bật tối đa máy sưởi."
+
+ situation.1150.name:0 "Đại Hàn Tinh Cầu"
+ situation.1150.desc:1 "Phản ứng chuỗi nhiệt hạch bên trong §Y[capital_star.GetName]§! hiện đã trên đà suy giảm liên tục trong một khoảng thời gian chưa từng có. Đang có các thảm họa sinh thái diễn ra trên [capital_scope.GetName] do lượng bức xạ giảm sút, và nếu tình trạng này tiếp diễn, chúng ta có thể phải đối mặt với một kỷ băng hà. Tất cả các trạm và các khu định cư khác trong hệ sao đều chịu những vấn đề tương tự. Các [owner.GetScientistPlural] của chúng ta chắc chắn rằng có điều gì đó bất thường đang diễn ra và mong muốn điều tra [capital_star.GetName]."
+ situation.1150.a:0 "Tìm hiểu xem chuyện gì đang xảy ra!"
+
+ situation.1160.name:0 "Phát Hiện Ký Sinh Trùng"
+ situation.1160.desc:0 "§R[capital_star.GetName] đã bị nhiễm đàn Quái Thú Nuốt Sao tí hon!§! Chúng ta hoàn toàn không biết làm cách nào những quái thú sơ sinh này lại đến được ngôi sao của mình, vì chúng dường như không sở hữu bất kỳ năng lực FTL nào. Chúng ta có thể tìm hiểu điều đó sau. Bây giờ, chúng ta cần tìm cách ngăn chặn lũ ký sinh trùng trước khi thủ đô đóng băng hoàn toàn."
+ situation.1160.a:0 "Mau tống khứ chúng ra khỏi đó!"
+
+ situation.1170.name:1 "[Target.GetName] Đã Bị Dập Tắt"
+ situation.1170.desc.base:1 "Hôm nay là một ngày tồi tệ đối với [owner.GetName], khi ngôi sao thủ đô §Y[target.GetName]§! của chúng ta đã lụi tàn. Dù đã sơ tán hàng triệu sinh mạng, điều đó chỉ làm dịu đi phần nào cú sốc. Thủ đô của chúng ta mãi mãi rơi vào một kỷ băng hà mới và vĩnh cửu. Bản thân [target.GetName] đã co lại thành một sao lùn nâu, đồng nghĩa với việc sự sống còn lại trong hệ sao sẽ vĩnh viễn suy tàn."
+ situation.1170.desc.notknows:0 "$situation.1170.desc.base$\nĐáng buồn thay, hiện tượng kỳ dị đưa lũ Quái Thú Nuốt Sao đến hệ sao của chúng ta sẽ mãi là một bí ẩn. Giờ đây, chúng ta phải tái thiết."
+ situation.1170.desc.knows:0 "$situation.1170.desc.base$\nChúng ta biết rằng những kẻ nuốt sao này đã bị cố tình đưa vào ngôi sao của chúng ta bởi §Y[star_infesters.GetName]§! - và giờ đây chúng sẽ phải trả giá."
+ situation.1170.a:0 "Một bi kịch khủng khiếp."
+ situation.1170.b:0 "Đế chế [star_infesters.GetName] sẽ phải đền tội."
+
+ #Modifiers
+
+ ether_trophy:0 "$drakes_scale$"
+ ether_trophy_desc:0 "Chiếc răng nanh của một §YRồng Ether§! là tâm điểm tại thủ đô của thế giới này."
+ studying_decaying_fang:0 "Nghiên Cứu Chiếc Nanh Đang Phân Rã"
+ studying_decaying_fang_desc:0 "Nghiên cứu chiếc răng nanh của §YRồng Ether§! khi nó phân rã gần bầu khí quyển mang lại cho chúng ta những hiểu biết sâu sắc về bất cứ thứ gì từng tồn tại trước vũ trụ này."
+
+ all_seeing_shard:0 "Mảnh Shard Toàn Tri"
+ all_seeing_shard_desc:0 "Nhờ sự hợp nhất kỳ dị giữa máy móc và sinh học dị chủng, các mảng cảm biến trong hệ sao này có thể vươn xa hơn nhiều so với khả năng thông thường của chúng ta."
+ shard_trophy:0 "$eye_of_the_shard$"
+ shard_trophy_desc:0 "Dưới ánh mắt dõi theo của §YShard§!, cư dân trên thế giới này dường như làm việc chăm chỉ hơn."
+
+ dread_trophy:0 "$dreadnoughts_reactor$"
+ dread_trophy_desc:0 "Một lò phản ứng từ §YThiết Giáp Hạm Tự Động§! cung cấp một phần năng lượng cho thế giới này."
+ reactor_overdrive:0 "Lò Phản Ứng Ép Xung"
+ reactor_overdrive_desc:0 "Một nguồn lợi tạm thời từ lò phản ứng của §YThiết Giáp Hạm Tự Động§! đang giúp cấp năng lượng cho mọi công việc trên thế giới này."
+
+ tiyanki_trophy:0 "$matriarchs_flagella$"
+ tiyanki_trophy_desc:0 "Roi bơi của §YMẫu Thể Tiyanki§!, ban đầu bất hoạt, đã bắt đầu sinh ra các bản sao của cư dân trên thế giới này."
+ burnt_tiyanki_trophy:0 "$matriarchs_flagella$ Bị Cháy Sém"
+ burnt_tiyanki_trophy_desc:0 "Tàn tích bị đốt cháy của §YRoi Bơi Mẫu Thể Tiyanki§! tô điểm cho thủ đô của thế giới này."
+
+ sky_dragon_trophy:0 "$sky_dragons_plume$"
+ sky_dragon_trophy_desc:1 "Đặc tính chống trọng lực của §YRồng Bầu Trời§! mang lại cho chúng ta thêm không gian sống trên thế giới và đem lại những hiểu biết khoa học sâu sắc về hiện tượng này."
+
+ scavenger_trophy:0 "$scavenger_bots_compactor$"
+ scavenger_trophy_desc:0 "Máy ép của §YNgười Máy Phế Liệu§! giúp chúng ta tối ưu hóa các quy trình luyện kim."
+
+ wraith_trophy:0 "$wraiths_energy_disperser$"
+ wraith_trophy_desc:0 "Ánh sáng nhấp nháy từ Túi Phân Tán mang lại cảm giác rất dễ chịu và thư giãn."
+ infused_atmosphere:0 "Bầu Khí Quyển Thấm Nhuần Năng Lượng Bóng Ma"
+ infused_atmosphere_desc:0 "Bầu khí quyển này đã được thấm nhuần năng lượng tự nhiên của Bóng Ma Tinh Tú, khiến các đợt bắn phá quỹ đạo kém hiệu quả hơn."
+
+ horror_study_trophy:0 "$horrific_inverse_mass$"
+ horror_study_trophy_desc:0 "Tàn tích của một thực thể đến từ chiều không gian khác, chính sự hiện diện của nó trên thế giới này dường như là một sự sỉ nhục đối với trật tự tự nhiên."
+ horror_deify_trophy:0 "$horrific_inverse_mass$"
+ horror_deify_trophy_desc:0 "$horror_study_trophy_desc$"
+ horror_study_trophy2:0 "$horrific_inverse_mass$ Bị Mất Ổn Định"
+ horror_study_trophy2_desc:0 "Khối nghịch đảo đã phản ứng tiêu cực với chiều không gian của chúng ta và dường như đang chủ động tìm cách xé toạc thế giới của chúng ta."
+ horror_deify_trophy2:0 "$horror_study_trophy2$"
+ horror_deify_trophy2_desc:0 "$horror_study_trophy2_desc$"
+ horror_too_late:0 "§RĐÃ QUÁ MUỘN§!"
+ horror_too_late_desc:0 "Chúng ta đã chờ đợi quá lâu. Số phận của thế giới này không còn nằm trong tay chúng ta quyết định nữa."
+ horror_stabilized:0 "$horrific_inverse_mass$ Đã Ổn Định"
+ horror_stabilized_desc:0 "Một phép màu đã xảy ra trên [Root.GetName]: bất chấp mọi trở ngại, §YKhối Nghịch Đảo§! đã ổn định và giờ đây có thể được nghiên cứu mà không gặp bất kỳ nguy hiểm nào."
+
+ fortress_trophy:0 "$fortress_hull_plates$"
+ fortress_trophy_desc:0 "[This.GetPlanetHabitat] này chứa một Căn Phòng từ Pháo Đài Bí Ẩn, hầu hết thời gian có khả năng tự tái tạo cho bất kỳ thứ gì cư dân cần."
+
+ voidspawn_contaminant:0 "Chất Ô Nhiễm Quái Vật Hư Không"
+ voidspawn_contaminant_desc:0 "Thế giới này đã bị vấy bẩn bởi $voidspawns_chitin$ và giờ đây phải được dọn dẹp sạch sẽ."
+ voidspawn_trophy:0 "$voidspawns_chitin$ Đã Được Thanh Lọc"
+ voidspawn_trophy_desc:0 "Tuyến Nọc Độc của Quái Vật Hư Không đã được thanh lọc tô điểm cho thế giới này. Sau khi một vụ rò rỉ ban đầu ngăn cản nó được trưng bày, giờ đây nó có thể được chiêm ngưỡng bởi tất cả mọi người."
+
+ stellar_devourer_trophy:0 "$devourers_plasma$"
+ stellar_devourer_trophy_desc:0 "Tập hợp Trứng Quái Thú Nuốt Sao cuối cùng trong thiên hà."
+ stellar_devourer_operation_trophy:0 "§HCho phép chúng ta tiến hành Chiến Dịch §Y$operation_consume_star$§!.§!"
+
+ low_stellar_output_1:0 "Bức Xạ Sao Mẹ Yếu"
+ low_stellar_output_1_desc:0 "Thế giới này đang phải chịu mức phát xạ thấp bất thường từ ngôi sao của mình, khiến cuộc sống trở nên khá khó chịu."
+ low_stellar_output_2:0 "$low_stellar_output_1$"
+ low_stellar_output_2_desc:0 "Thế giới này đang phải chịu mức phát xạ thấp nghiêm trọng từ ngôi sao của mình."
+ low_stellar_output_3:0 "$low_stellar_output_1$"
+ low_stellar_output_3_desc:0 "Thế giới này đang phải chịu mức phát xạ thấp nguy hiểm từ ngôi sao của mình do sự xâm nhập của Quái Thú Nuốt Sao."
+
+ #Projects
+
+ STELLARITE_INFESTED_STAR_PROJECT:0 "Tìm Kiếm Phương Thuốc Cho Tình Trạng Nhiễm Quái Thú Nuốt Sao"
+ STELLARITE_INFESTED_STAR_PROJECT_DESC:0 "§Y[This.GetName]§! đã bị nhiễm Quái Thú Nuốt Sao. Chúng ta không chắc chúng đến từ đâu, nhưng chúng cần phải được dọn sạch sớm nếu không mọi sự sống trong hệ sao có thể sẽ chấm dứt."
+
+ #Scripted Loc
+ xenophobe_parade:0 "Đại Lễ Thanh Trừng [Root.GetLeviathanTargetName]"
+ xenophile_biological_parade:0 "Điếu Ca Cho [Root.GetLeviathanTargetName]"
+ xenophile_mechanical_parade:0 "Lễ Kỷ Niệm Sự Cố Bất Động Đáng Tiếc Của [Root.GetLeviathanTargetName]"
+ materialist_biological_parade_science:0 "Giải Phẫu Nghiên Cứu [Root.GetLeviathanTargetName]"
+ materialist_biological_parade_trophy:0 "Đại Lễ Thu Nhận Vinh Quang [Root.GetTrophyName]"
+ materialist_mechanical_parade:0 "Đại Lễ Vượt Qua [Root.GetLeviathanTargetName]"
+ spiritualist_biological_parade_reject:0 "Nghi Thức Diệt Trừ Nỗi Nguyền Rủa [Root.GetLeviathanTargetName]"
+ spiritualist_biological_parade_accept:0 "Nghi Thức Thí Thần [Root.GetLeviathanTargetName]"
+ spiritualist_mechanical_parade:0 "Nghi Lễ Tận Diệt [Root.GetLeviathanTargetName] Không Linh Hồn"
+ authoritarian_parade:0 "Tuyên Bố Thống Trị Trước [Root.GetLeviathanTargetName]"
+ egalitarian_biological_parade:0 "Đại Lễ Xóa Bỏ Hiểm Họa [Root.GetLeviathanTargetName]"
+ egalitarian_mechanical_parade:0 "Đại Lễ Tháo Rỡ Hiểm Họa [Root.GetLeviathanTargetName]"
+ militarist_parade:0 "Đại Lễ Khải Hoàn Của [Owner.GetAdj] Trước [Root.GetLeviathanTargetName]"
+ pacifist_biological_parade:0 "Lễ Tưởng Niệm Sự Hủy Diệt Đáng Tiếc Của [Root.GetLeviathanTargetName]"
+ pacifist_mechanical_parade:0 "Lễ Xác Nhận An Toàn Của [Owner.GetAdj] Khỏi [Root.GetLeviathanTargetName]"
+ hive_biological_parade:0 "Kỷ Niệm Triệt Tiêu [Root.GetLeviathanTargetName] Đơn Não"
+ hive_mechanical_parade:0 "Kỷ Niệm Phá Hủy Cấu Trúc [Root.GetLeviathanTargetName]"
+ machine_biological_parade:0 "Sự Kiện Bình Định Đơn Vị [Root.GetLeviathanTargetName]"
+ machine_mechanical_parade:0 "Sự Kiện Xác Nhận Kết Cấu Hạ Đẳng Của [Root.GetLeviathanTargetName]"
+
+ drakes_scale:0 "Răng Nanh Rồng"
+ eye_of_the_shard:0 "Mắt Của Shard"
+ matriarchs_flagella:0 "Roi Bơi Mẫu Thể"
+ voidspawns_chitin:0 "Tuyến Nọc Quái Vật Hư Không"
+ wraiths_energy_disperser:0 "Túi Phân Tán Của Bóng Ma"
+ devourers_plasma:0 "Túi Trứng Quái Thú Nuốt Sao"
+ horrific_inverse_mass:0 "Khối Nghịch Đảo Kinh Hoàng"
+ dreadnoughts_reactor:0 "Lò Phản Ứng Của Thiết Giáp Hạm"
+ fortress_hull_plates:0 "Căn Phòng Thuộc Pháo Đài"
+ scavenger_bots_compactor:0 "Máy Ép Của Người Máy Phế Liệu"
+ sky_dragons_plume:0 "Bộ Lông Của Rồng Bầu Trời"
+
+ scripted_SHARD:0 "Shard"
+ scripted_SKY_DRAGON:0 "Rồng Bầu Trời"
+ scripted_WORM:0 "Sâu Thời Gian"
+ scripted_ELDER_ONE:0 "Kẻ Cổ Xưa"
+
+ habitat_lowercase:0 "môi trường sống"
+ ringworld_lowercase:0 "thế giới vành đai"
+ ringworld_uppercase: "Thế Giới Vành Đai"
+ planetmoon:0 "[This.GetPlanetMoon]"
+
+ sensor_operatior:0 "người vận hành cảm biến"
+ sensory_drones:0 "drone cảm quan"
+ sensory_symbionts: "sinh vật cộng sinh cảm quan"
+ observation_subroutines:0 "chương trình con quan sát"
+
+ parade:0 "diễu hành"
+ study:0 "nghiên cứu"
+
+ water_upper_case:0 "Nước"
+ water_lower_case:0 "nước"
+ coolant_upper_case:0 "Chất Làm Mát"
+ coolant_lower_case:0 "chất làm mát"
+
+#Decisions
+
+ incinerate_the_flagella:0 "Thiêu Rụi Roi Bơi"
+ incinerate_the_flagella_desc:0 "Roi bơi quái dị đang co bóp này phải biến mất."
+
+#Operations
+
+ operation_consume_star:0 "Nuốt Chửng Ngôi Sao"
+ operation_consume_star_desc:0 "Với $devourers_plasma$ trong đế chế, chúng ta có quyền tiếp cận một bầy Quái Thú Nuốt Sao tí hon. Chúng ta chỉ cần quyết định xem sẽ nuốt chửng ngôi sao nào."
+ operation_consume_star_on_success:1 "$IF_SUCCESSFUL|E$\nNhiễm Quái Thú Nuốt Sao vào ngôi sao thủ đô của [target.GetName], chúng sẽ từ từ nuốt chửng ngôi sao đó."
+ operation_consume_star_black_hole:0 "Thủ đô của đế chế mục tiêu quay quanh một lỗ đen, khiến bầy Quái Thú Nuốt Sao của chúng ta không có gì để ăn."
+ operation_consume_star_no_dysonsphere:0 "Chúng ta không thể tiếp cận ngôi sao vì nó đã bị niêm phong bên trong một Quả Cầu Dyson."
+ operation_consume_star_already_know:0 "Đế chế này đã tìm ra cách khắc chế bầy Quái Thú Nuốt Sao của chúng ta."
+ operation_consume_star_already_infested:0 "Ngôi sao thủ đô của đế chế này đã bị nhiễm Quái Thú Nuốt Sao rồi."
+
+ #Casus Belli
+
+ casus_belli_cb_revenge_for_eaten_star:1 "Nuốt Mất Sao Của Chúng Ta"
+ war_goal_wg_revenge_for_eaten_star:0 "$casus_belli_cb_revenge_for_eaten_star$"
+ war_goal_wg_revenge_for_eaten_star_desc:0 "Chiến tranh nổ ra nhằm chinh phục hoàn toàn kẻ thù đã nuốt chửng ngôi sao của chúng ta."
+ casus_belli_cb_end_threat_revenge_for_eaten_star:0 "Nuốt Sao Của Chúng"
+ war_goal_wg_end_threat_revenge_for_eaten_star:0 "$casus_belli_cb_end_threat_revenge_for_eaten_star$"
+ war_goal_wg_end_threat_revenge_for_eaten_star_desc:0 "Chiến tranh nổ ra nhằm chinh phục hoàn toàn kẻ thù mà chúng ta đã nuốt chửng ngôi sao của họ."
+
+
+ ### The Kaleidoscope
+ ### By Giada Zavarise
+
+ ## Situation
+ situation_kaleidoscope: "Kính Vạn Hoa"
+ situation_kaleidoscope_type: "Kính Vạn Hoa"
+ situation_kaleidoscope_desc: "Một loài ký sinh năng lượng đầy màu sắc đang lây nhiễm vào lưới điện của chúng ta, ngấu nghiến các nguồn cung cấp năng lượng. Chúng ta có thể nuông chiều nó, hoặc sử dụng một §YChiến Dịch Gián Điệp§! để chuyển vấn đề này sang đế chế khác.\n\n[GetKaleidoscopeMood]."
+ situation_kaleidoscope_monthly_change_tooltip: "Bỏ đói §HKính Vạn Hoa§! sẽ làm giảm §Ytâm trạng§! của nó, tăng khả năng xảy ra các sự kiện tiêu cực. Nuôi ăn nó sẽ cải thiện tâm trạng, giữ cho nó được xoa dịu và hiền hòa."
+
+ situation_unknown_outcome_kaleidoscope: "§YTâm trạng§! của Kính Vạn Hoa sẽ quyết định kết cục cuối cùng."
+
+ approach_no_food: "Không Nuôi Nó"
+ approach_no_food_tooltip: "Làm giảm §Ytâm trạng§!. Kính Vạn Hoa bị bỏ đói sẽ nổi cơn thịnh nộ và gây rắc rối cho chúng ta."
+ approach_little_food: "Cho Nó Ăn"
+ approach_little_food_tooltip: "Cải thiện §Ytâm trạng§!. Kính Vạn Hoa no đủ sẽ tạo ra ánh sáng dễ chịu và ít gây rắc rối."
+ approach_a_lot_of_food: "Cho Ăn Quá No"
+ approach_a_lot_of_food_tooltip: "Cải thiện vượt bậc §Ytâm trạng§!. Kính Vạn Hoa no nê quá mức sẽ không gây bất kỳ rắc rối nào, nhưng nó sẽ tiêu tốn của chúng ta rất nhiều năng lượng."
+ kaleidoscope_progress: "Quá Tải"
+
+ # Strings for GetKaleidoscopeMood trigger loc script
+ kaleidoscope_mood_angry: "Kính Vạn Hoa đang §Ptức giận§! và sẵn sàng bộc phát bất cứ lúc nào."
+ kaleidoscope_mood_neutral: "Kính Vạn Hoa đang §Sthanh thản§!. Chừng nào nó nhận được thức ăn, nó sẽ không làm loạn."
+ kaleidoscope_mood_happy: "Kính Vạn Hoa đang §Bhân hoan§!. Màu sắc của nó rực rỡ như chính tâm trạng của nó."
+
+ ## Modifiers
+ global_power_outrage: "Mất Điện Toàn Cầu"
+ phantom_load: "Tải Trọng Ma" # Note for translators: it's a real term used for when devices in standby still consume a little energy https://en.wikipedia.org/wiki/Standby_power
+ phantom_load_desc: "Thứ gì đó - hoặc ai đó - đang bòn rút lưới điện của chúng ta."
+
+ kaleidoscope_unnerving_patterns: "Hoa Văn Đáng Lo Ngại"
+ kaleidoscope_ominous_patterns: "Hoa Văn Điềm Gở"
+ kaleidoscope_pilfering_patterns: "Hoa Văn Ám Ảnh"
+ kaleidoscope_soothing_patterns: "Hoa Văn Xoa Dịu"
+ kaleidoscope_dazzling_patterns: "Hoa Văn Chói Lóa"
+
+ mod_trade_routes_energy_produces_mult: "Năng Lượng từ Thương Mại"
+
+ ## Relic
+ r_vacuum_flower: "Hoa Chân Không"
+ r_vacuum_flower_desc: "Bông hoa nở của Kính Vạn Hoa là một cụm hoa mỏng manh với những cánh hoa biến ảo không ngừng, sở hữu khả năng điều khiển, hấp thụ và phản xạ sóng ánh sáng."
+ relic_vacuum_flower_active: "Ban phần thưởng sản xuất tài nguyên khác nhau trong 10 năm tùy thuộc vào §YHạng Sao§! của hệ sao thủ đô của bạn."
+
+ concept_vacuum_flower_star_effects: "Hiệu Ứng Sao"
+ concept_vacuum_flower_star_effects_desc: "Phần thưởng được cấp phụ thuộc vào hạng sao của hệ thủ đô của bạn:\n\n- §YHạng B§!: §G+75§! £alloys£ Hợp Kim\n- §YHạng A§!: §G+150§! £consumer_goods£ Hàng Tiêu Dùng\n- §YHạng F§!: §G+300§! £food£ Lương Thực\n- §YHạng G§!: §G+300§! £energy£ Năng Lượng\n- §YHạng K§!: §G+300§! £minerals£ Khoáng Sản\n- §YHạng M§!: §G+30§! £rare_crystals£ Pha Lê Hiếm\n- §YSao Khổng Lồ Đỏ§!: §G+15§! £sr_living_metal£ Kim Loại Sống\n- §YSao Lùn Nâu§!: §G+30§! £volatile_motes£ Bụi Dễ Cháy\n- §YPulsar§!: §G+15§! £sr_zro£ Zro\n- §YLỗ Đen§!: §G+15§! £sr_dark_matter£ Vật Chất Tối\n- §YSao Neutron§!: §G+15§! £nanites£ Nanite\n- §YĐấng Soi Sáng Xanh Lục§!: §G+30§! £exotic_gases£ Khí Ngoại Lai\n- §YVết Nứt Cổ Xưa§!: §G+15§! £astral_threads£ Sợi Tinh Tú\n\nCác hệ sao đôi và hệ ba sao sẽ cấp hiệu ứng kết hợp của các loại sao thành phần."
+
+ relic_vacuum_flower_B: "Ngôi Sao Đơm Hoa (Hạng B)"
+ relic_vacuum_flower_A: "Ngôi Sao Đơm Hoa (Hạng A)"
+ relic_vacuum_flower_F: "Ngôi Sao Đơm Hoa (Hạng F)"
+ relic_vacuum_flower_G: "Ngôi Sao Đơm Hoa (Hạng G)"
+ relic_vacuum_flower_K: "Ngôi Sao Đơm Hoa (Hạng K)"
+ relic_vacuum_flower_M: "Ngôi Sao Đơm Hoa (Hạng M)"
+ relic_vacuum_flower_M_giant: "Ngôi Sao Đơm Hoa (Sao Khổng Lồ Đỏ Hạng M)"
+ relic_vacuum_flower_T_dwarf: "Ngôi Sao Đơm Hoa (Sao Lùn Nâu Hạng T)"
+ relic_vacuum_flower_pulsar: "Ngôi Sao Đơm Hoa (Pulsar)"
+ relic_vacuum_flower_black_hole: "Ngôi Sao Đơm Hoa (Lỗ Đen)"
+ relic_vacuum_flower_neutron: "Ngôi Sao Đơm Hoa (Sao Neutron)"
+ relic_vacuum_flower_lightbringer: "Ngôi Sao Đơm Hoa (Đấng Soi Sáng Xanh Lục)"
+ relic_vacuum_flower_rift_star: "Ngôi Sao Đơm Hoa (Vết Nứt Cổ Xưa)"
+ relic_vacuum_flower_crisis_star: "Ngôi Sao Đơm Hoa (Sao Khủng Hoảng)"
+ relic_vacuum_flower_crisis_empire_star: "$relic_vacuum_flower_crisis_star$"
+
+ dyson_sphere_disco: "Quả Cầu Kỳ Diệu"
+ dyson_sphere_disco_DESC: "Nó không tạo ra năng lượng. Chỉ có vẻ đẹp thuần khiết."
+ dyson_sphere_disco_restored: "$dyson_sphere_disco$"
+ dyson_sphere_disco_restored_DESC: "$dyson_sphere_disco_desc$"
+
+
+ ## Intro
+ # The Kaleidoscope appears on your capital
+ situation.2003.name: "Sắc Màu Ngoài Không Gian"
+ situation.2003.desc: "Mọi ngọn đèn trên §H[capital_scope.GetName]§! bỗng nhiên vụt tắt. Các nhà máy tối om, giao thông tê liệt, và các thiết bị liên lạc không phản hồi. Đó là một đợt mất điện đột ngột trên toàn cầu, tức thì và khó hiểu.\n\nKhi sự tĩnh lặng và bóng tối bao trùm hành tinh của chúng ta, những ánh sáng kỳ lạ nở rộ trên bầu trời, bao bọc hệ sao thủ đô của chúng ta trong một làn sương vạn hoa. Hai sự kiện này chắc chắn có liên quan, nhưng các [root.GetTechnicianPlural] của chúng ta vẫn đang hoàn toàn mò mẫm trong bóng tối - vâng, theo nghĩa đen."
+ situation.2003.a: "Khôi phục lưới điện của chúng ta."
+
+ # Notify other countries about the Kaleidoscope
+ situation.2004.name: "$situation.2003.name$"
+ # first time
+ situation.2004.desc: "Các cảm biến của chúng ta báo cáo sự xuất hiện của các hoa văn ánh sáng vạn hoa trong hệ sao §H[kaleidoscope_system.GetName]§!. Bản chất của hiện tượng này vẫn chưa rõ ràng."
+ # moved again
+ situation.2004.desc.again: "Ảo ảnh vạn hoa mà chúng ta quan sát trước đây đã di chuyển tới hệ sao §H[kaleidoscope_system.GetName]§!."
+
+ # Project - mid-event
+ situation.2005.name: "Mất Điện"
+ situation.2005.desc: "Chúng ta không thể tìm thấy bất kỳ khiếm khuyết nào trong lưới điện của mình. Các máy phát điện vẫn đang sản xuất năng lượng, nhưng có thứ gì đó... đang hấp thụ nó. Đây có thể là kết quả của các hoa văn ánh sáng được chứng kiến trên bầu trời của chúng ta, bản chất hình học của chúng hé lộ một thiết kế có chủ ý.\n\nLiệu thứ này - một §YKính Vạn Hoa§! sống động - là một thực thể hiểm độc, hay chỉ là một làn sương vô tri giác? Câu trả lời vẫn chưa rõ ràng."
+ situation.2005.a: "Cố gắng tách nó ra khỏi lưới điện của chúng ta."
+
+ # Project - end (first time)
+ situation.2010.name: "Khởi Động Đen" # Translators note: https://en.wikipedia.org/wiki/Black_start
+ situation.2010.desc: "Nhờ nỗ lực phối hợp của các [owner.GetTechnicianPlural] và [owner.GetScientistPlural], loài ký sinh năng lượng đã bị cắt đứt khỏi lưới điện của chúng ta. Đêm dài nhất của chúng ta đã qua, nhưng §YKính Vạn Hoa§! vẫn tỏa sáng trên đầu chúng ta, khao khát năng lượng.\n\nChúng ta không có cách nào giao tiếp với nó, và vũ khí thông thường sẽ không có tác dụng với một sinh thể thuộc loại này. Các lựa chọn còn lại của chúng ta là cho nó ăn vừa đủ để giữ cho nó được xoa dịu, hoặc cố gắng bỏ đói nó. Các đặc vụ của chúng ta cũng đề xuất tổ chức một §YChiến Dịch Gián Điệp§! để dụ nó sang một đế chế khác. Hãy để kẻ khác giải quyết nó."
+ situation.2010.desc.again: "Những gì người dân chúng ta nhìn thấy từ quỹ đạo là sự lặp lại của một khuôn mẫu quen thuộc: toàn bộ nguồn điện trên §H[capital_scope.GetName]§! tắt ngấm, thủ đô của chúng ta hứng chịu một đợt mất điện toàn cầu trong khi những dải ánh sáng lung linh nhảy múa trên bầu trời.\n§YKính Vạn Hoa§! đã quay trở lại! Loài ký sinh năng lượng mà chúng ta từng trút sang cho kẻ khác đã bị gửi trả lại cho chúng ta.\n\nTheo các chuyên gia của chúng ta, việc đầu tư vào một §Y$building_planetary_shield_generator$§! sẽ ngăn thủ đô của chúng ta trở thành mục tiêu một lần nữa, nhưng lúc này thì đã quá muộn: loài ký sinh năng lượng ở đây và sẽ không đi đâu cả."
+ situation.2010.a: "Quái vật phi tự nhiên này không có chỗ đứng trong hệ sao của chúng ta!"
+ situation.2010.b: "Chúng ta phải kết thân với sinh vật kỳ diệu này!"
+ situation.2010.c: "Nó muốn năng lượng sao? Cứ để nó nghẹn ứ đi."
+ situation.2010.tooltip: "Mở khóa Chiến Dịch Gián Điệp §Y$operation_kaleidoscope$§!"
+
+ # Project - end (subsequent times)
+ situation.2011.name: "$situation.2010.name$"
+ situation.2011.desc: "Tuân theo các quy trình đã được kiểm chứng và thử nghiệm, chúng ta đã tách Kính Vạn Hoa ra khỏi lưới điện của §H[root.GetName]§!, khôi phục lại điện năng cho thủ đô của chúng ta."
+
+ ## Espionage Operation
+ # Operation - phase 1
+ situation.2020.name: "Thâm Nhập Lưới Điện"
+ situation.2020.desc: "Bằng cách cải trang thành các kỹ thuật viên, các đặc vụ của chúng ta đã thâm nhập thành công vào các khu vực năng lượng của §H[target.GetName]§!. Nhiệm vụ tiếp theo của họ là lắp đặt một đèn hiệu dẫn đường để dụ sinh thể ký sinh năng lượng tới hành tinh này."
+
+ # Operation - phase 2
+ situation.2021.name: "Bầu Trời Trong Xanh"
+ situation.2021.desc: "Những luồng ánh sáng đã tan biến khỏi bầu trời của chúng ta, báo trước điều mà các đặc vụ tình báo sau đó đã xác nhận: các nhân viên của chúng ta đã kích hoạt đèn hiệu năng lượng, dụ §YKính Vạn Hoa§! rời đi!\n\nBây giờ hãy để §H[target.GetName]§! giải quyết nó."
+
+ situation.2025.name: "Đẩy Lùi Rắc Rối"
+ situation.2025.desc: "Theo các báo cáo gián điệp của chúng ta, §H[kaleidoscope_new_owner.GetName]§! hiện đang phải chịu cảnh thiếu hụt năng lượng. §YKính Vạn Hoa§! mà chúng ta trao tặng cho họ dường như là nguyên nhân chính gây ra những rắc rối kinh tế của họ."
+
+ ## Random events
+ # Negative 1 - infests another planet
+ situation.2030.name: "Lây Nhiễm Nhẹ"
+ situation.2030.desc: "Một Kính Vạn Hoa bị bỏ đói đã cắm sâu những chiếc răng hàm ẩn dụ của nó vào lưới điện của §H[event_target:infested_planet.GetName]§!. Đợt mất điện trên toàn thuộc địa sau đó diễn ra rất kịch tính, nhưng không khác mấy so với các đợt tấn công trước đây. Chúng ta biết cách giải quyết việc này."
+
+ # Negative 2 - eats energy building
+ situation.2031.name: "Sốc Điện"
+ situation.2031.desc: "Một Kính Vạn Hoa háu đói đang cố gắng ép mình kết nối vào một trong các §YĐầu Mối Năng Lượng§! của chúng ta trên §H[target.GetName]§!. Điều này mang lại một cơ hội đáng chú ý để nghiên cứu các khả năng độc nhất của sinh thể này, nhưng chúng ta dự kiến công trình sẽ bị hư hại nghiêm trọng do hậu quả đó."
+ situation.2031.a: "Cứ để nó ăn năng lượng của chúng ta. Vì Khoa Học!"
+ situation.2031.b: "Đánh cắp lại một ít năng lượng."
+
+ # Negative 3 - unnerving patterns (- pop happiness)
+ situation.2032.name: "Hoa Văn Đáng Lo Ngại"
+ situation.2032.desc: "Kính Vạn Hoa run rẩy lo lắng, lấp đầy bầu trời của chúng ta bằng những hoa văn ánh sáng chói tai, không đồng đều. Người dân chúng ta không khỏi cảm thấy cảnh tượng này thật đáng lo ngại."
+
+ # Negative 4 - ominous patterns (spiritualists)
+ situation.2033.name: "Hoa Văn Điềm Gở"
+ situation.2033.desc: "Kính Vạn Hoa co bóp như một vết thương hở, lấp đầy bầu trời của chúng ta bằng những hoa văn điềm gở, bệnh hoạn. Các giáo sĩ của chúng ta tin rằng đó là một điềm xấu. Có lẽ điều khôn ngoan là hiến tế một ít năng lượng cho sinh vật này, để làm dịu cơn đói của nó và xoa dịu nỗi sợ hãi của người dân chúng ta."
+ situation.2033.a: "Cung Cấp Năng Lượng Cho Kính Vạn Hoa."
+ situation.2033.b: "Chúng ta sẽ không cúi đầu trước ý chí của nó."
+
+ # Negative 5 - slow ships
+ situation.2034.name: "Hoa Văn Ám Ảnh"
+ situation.2034.desc: "Đói năng lượng, Kính Vạn Hoa đã học được cách bòn rút năng lượng từ hạm đội của chúng ta. Lượng điện năng bị rút là tối thiểu, nhưng lại có tác động rõ rệt đến tốc độ tàu của chúng ta."
+
+ # Positive 1 - soothing patterns (unity)
+ situation.2037.name: "Hoa Văn Xoa Dịu"
+ situation.2037.desc: "Một Kính Vạn Hoa hạnh phúc tràn ngập bầu trời [owner.capital_scope.GetName] với những hình thù dễ chịu, những phân mảnh fractal tan chảy vào những phân mảnh fractal khác trong những làn sóng kỳ diệu biến đổi không ngừng.\n\nHành tinh ngừng lại. Chiêm ngưỡng. Thở sâu."
+
+ # Positive 2 - dazzling patterns (science)
+ situation.2038.name: "Hoa Văn Chói Lóa"
+ situation.2038.desc: "Liệu các hoa văn biến đổi của Kính Vạn Hoa có thể là một hình thức giao tiếp? Hay chúng là một quá trình tự phát, tương tự như việc hít thở? Các [root.GetScientistPlural] của chúng ta vẫn chưa có câu trả lời. Kính Vạn Hoa đang cung cấp cho chúng ta một lượng dữ liệu khoa học vô giá."
+
+ ## Endings
+ # Kaleidoscope explodes! - Good ending
+ situation.2041.name: "Kính Vạn Hoa Đơm Hoa"
+ situation.2041.desc: "Chúng ta đã có diễm phúc trải nghiệm màn trình diễn ánh sáng lộng lẫy nhất thiên hà: những cánh hoa vạn hoa tự gập vào nhau; đơm hoa; bùng nổ! Tuy nhiên, các thiết bị của chúng ta lại kể một câu chuyện kém huy hoàng hơn.\n\nSinh thể năng lượng trở nên tràn trề năng lượng đến mức nó tự sụp đổ vào trong như một ngôi sao đang lụi tàn. Từ đống đổ nát, các tàu thăm dò của chúng ta đã thu hồi được một cụm tinh thể, có hình dáng rất giống một đóa hoa đang nở rộ. Theo các nghiên cứu sơ bộ, 'đóa hoa' này có thể phóng đại cường độ của tia sáng yếu nhất, phá vỡ một vài định luật vật lý đã biết trong quá trình này. Các [root.owner.GetScientistPlural] của chúng ta giả thuyết rằng đóa hoa chỉ là phần nhìn thấy được của một cấu trúc lớn hơn - một ngôi nhà gương đa chiều nơi các chùm ánh sáng được phản chiếu và tái kết hợp vô tận."
+
+ # Kaleidoscope explodes! - Good ending - Notifying other countries
+ situation.2042.name: "$situation.2041.name$"
+ situation.2042.desc: "Các cảm biến báo cáo hoa văn vạn hoa trong hệ sao §H[kaleidoscope_system.GetName]§! vừa nở hoa, biến mất trong một đợt bùng nổ cuối cùng của các hoa văn rực rỡ sắc màu. Chắc hẳn đó là một cảnh tượng vô cùng ngoạn mục."
+
+ # Kaleidoscope explodes! - Bad ending
+ situation.2043.name: "Kính Vạn Hoa Phát Nổ"
+ situation.2043.desc: "Khi Kính Vạn Hoa gập lại vào chính nó, chỉ trong một giây, nó trông giống như đóa hoa tinh thể mỏng manh nhất. Tuy nhiên, vụ nổ sau đó lại chẳng hề dịu dàng chút nào: một tiếng nổ chói lòa thiêu rụi hệ sao và làm quá tải tất cả các thiết bị điện tử của chúng ta, nướng chín lưới điện.\n\nCông tác sửa chữa đã được tiến hành, nhưng sẽ mất một khoảng thời gian để chúng ta quen với bầu trời trống trải vừa xuất hiện."
+
+ # Kaleidoscope explodes! - Bad ending - Notifying other countries
+ situation.2044.name: "$situation.2043.name$"
+ situation.2044.desc: "Các cảm biến báo cáo hoa văn vạn hoa trong hệ sao §H[kaleidoscope_system.GetName]§! vừa phát nổ, giải phóng một sóng xung kích năng lượng chắc chắn đã làm hư hại mọi công trình trong hệ sao."
+
+ # Kaleidoscope fades away - owner
+ situation.2040.name: "Bầu Trời Trong Xanh"
+ situation.2040.desc: "Sau một đợt bùng nổ cuối cùng của các hoa văn lượn sóng màu đỏ, Kính Vạn Hoa đã mờ dần rồi tan biến, những xúc tu đầy màu sắc của nó tản ra như sương mù.\n\nSau bao nhiêu thời gian sống dưới ánh sáng của nó, bầu trời của chúng ta trông gần như trống rỗng."
+
+ # Kaleidoscope fades away - notifying other countries
+ situation.2045.name: "Bầu Trời Trong Xanh"
+ situation.2045.desc: "Các cảm biến báo cáo hoa văn vạn hoa mà chúng ta phát hiện trong hệ sao [kaleidoscope_system.GetName] đã tan biến."
+
+ # Kaleidoscope could get a Dyson sphere?
+ situation.2048.name: "Cơn Đói Bất Tận"
+ situation.2048.desc: "Kính Vạn Hoa đã chứng tỏ là một người hàng xóm hòa nhã kỳ lạ, nhưng giữ cho nó no đủ lại là một thử thách khó khăn. Liệu một Quả Cầu Dyson có thể làm thỏa mãn cơn khát năng lượng vô tận của nó không?"
+ situation.2048.a: "Tùy biến một Quả Cầu Dyson cho Kính Vạn Hoa."
+ situation.2048.a.tooltip: "Mở khóa một cấp nâng cấp Quả Cầu Dyson mới."
+ situation.2048.b: "Chúng ta không thể phung phí năng lượng."
+
+ # DiScO EnDiNg
+ situation.2049.name: "Quả Cầu Kỳ Diệu"
+ situation.2049.desc: "Kính Vạn Hoa đã bám chặt vào Quả Cầu Dyson tùy biến mà chúng ta cung cấp, tiêu thụ năng lượng của một ngôi sao và xòe rộng những cánh hoa rực rỡ để bao trọn toàn bộ hệ sao. Theo dữ liệu của chúng ta, sinh thể năng lượng hiện đang ở trong trạng thái quá tải liên tục và có kiểm soát, không ngừng đâm chồi mới rồi nổ tung trong một chu kỳ bất tận tương tự như cái chết và sự tái sinh.\n\nChúng ta không biết liệu sinh thể này có khả năng tư duy hay không, nhưng chúng ta hy vọng sự tồn tại của nó lúc này cũng dễ chịu như những hoa văn ánh sáng mà nó tạo ra."
+
+
+ ## Projects and Operations
+ # Project (first time)
+ KALEIDOSCOPE_INFESTATION_FIRST: "Mất Điện"
+ KALEIDOSCOPE_INFESTATION_FIRST_DESC: "Sự cố sập lưới điện toàn cầu đã nhấn chìm thủ đô của chúng ta vào bóng tối hoàn toàn. Chúng ta phải khôi phục cơ sở hạ tầng điện năng của §H[root.GetName]§! và xác định điều gì đang diễn ra."
+
+ # Project (following times)
+ KALEIDOSCOPE_INFESTATION: "Rỉ Sắc Màu"
+ KALEIDOSCOPE_INFESTATION_DESC: "Một lần nữa, Kính Vạn Hoa đã bám vào lưới điện của chúng ta, tiêu thụ năng lượng và nhấn chìm hành tinh vào bóng tối.\n\nMay mắn thay, giờ đây chúng ta đã biết cách ứng phó."
+
+ # Espionage Operation
+ operation_kaleidoscope: "Dụ Dỗ Kính Vạn Hoa"
+ operation_kaleidoscope_desc: "Bằng cách gài một đèn hiệu dẫn đường trong các khu năng lượng của đế chế khác, chúng ta có thể điều động sinh thể năng lượng đến lây nhiễm một cường quốc thiên hà khác."
+ operation_kaleidoscope_shielded_world: "Thế giới thủ đô của họ được bảo vệ bởi một §Y$building_planetary_shield_generator$§!."
+ operation_kaleidoscope_previous_owner: "Họ sẽ không để chúng ta vượt qua hệ thống an ninh của họ một lần nữa sớm như vậy đâu."
+ operation_kaleidoscope_on_success: "$IF_SUCCESSFUL|E$\nKính Vạn Hoa sẽ được chuyển sang cho [root.target.GetName], lây nhiễm thủ đô của họ."

@@ -1,0 +1,1085 @@
+﻿l_english:
+###########################################################################################################
+# Specimens Localization                                                                                  #
+#                                                                                                         #
+# Specimens use two description keys, depending on where/when they are displayed.                         #
+# Either SPECIMEN_DESC_SHORT or SPECIMEN_DESC_COMPLETE by called in the code depending on the situation.  #
+# - SPECIMEN_DESC_SHORT uses only the X_desc_short key                                                    #
+# - SPECIMEN_DESC_COMPLETE concatenates both X_desc_short and X_desc_details                              #
+###########################################################################################################
+
+ specimens: "Tiêu Bản"
+ concept_specimen: "Tiêu Bản"
+ concept_specimens: "Tiêu Bản"
+ concept_specimen_desc: "Tiêu bản là những cổ vật được tìm thấy trong quá trình khám phá thiên hà.\n\nChúng có thể được trưng bày trong ['concept_megastructure_grand_archive'] để mang lại các phần thưởng bổ trợ trên toàn đế chế."
+ SPECIMEN_DESC_SHORT: "§L$DESCRIPTION_SHORT$$DOTDOTDOT$§!"
+ SPECIMEN_DESC_COMPLETE: "$DESCRIPTION_SHORT$. $DESCRIPTION_DETAILS$"
+ ECONOMICS_SPECIMENS_RESOURCES_STRING: "    $specimens$: $STRING|Y$"
+
+ SPECIMEN_COMMON: "Phổ Biến"
+ SPECIMEN_RARE: "Hiếm"
+ SPECIMEN_EPIC: "Sử Thi"
+ SPECIMEN_EXCEPTIONAL: "Kiệt Xuất"
+
+ MESSAGE_SPECIMEN_ACQUIRED_TITLE: "Đã Thu Thập Được Tiêu Bản"
+ MESSAGE_SPECIMEN_ACQUIRED_DESC: "Đã thu thập được §H$SPECIMEN|S$§!."
+ OPEN_COLLECTION_VIEW: "§GNhấp để mở Giao Diện Bộ Sưu Tập§!"
+
+ EXHIBIT_COST_TT: "Chi Phí Trưng Bày:\n$COST$"
+ SELL_INFO_TT: "Giá Trị Bán"
+ EXHIBIT_CLICK_TT: "§GNhấp để Kích Hoạt Trưng Bày§!"
+ EXHIBIT_RIGHT_CLICK_TT: "§GNhấp chuột phải để Bán Tiêu Bản này§!"
+ EXHIBIT_RIGHT_CLICK_SEND_TO_STORAGE_TT: "§GNhấp chuột phải để Chuyển Vào Kho Lưu Trữ§!"
+ SPECIMEN_STORAGE_COOLDOWN_ACTIVE_TT: "§RKhông thể đưa trở lại Kho Lưu Trữ trong §Y$DAYS$§! ngày ($DATE|Y$).§!"
+ STORAGE_LEFT_CLICK_MOVE_TO_COLLECTION_TT: "§GNhấp chuột trái để thêm vào Khu Trưng Bày§!"
+ STORAGE_EXHIBITION_FULL_TT: "§R£trigger_no£ Khu trưng bày $CATEGORY$ đã đầy.§!"
+ EXHIBIT_ACTIVATE_CLICK_TT: "§GNhấp chuột trái để kích hoạt Trưng Bày này§!"
+ EXHIBIT_DEACTIVATE_CLICK_TT: "§GNhấp chuột trái để hủy kích hoạt Trưng Bày này§!"
+ FROM_SPECIMENS: "Từ Tiêu Bản"
+ SPECIMEN_COME_FROM: "§LNguồn gốc: $ORIGIN$§!"
+ SPECIMEN_COLLECTED_DATE: "§LNgày thu thập: $DATE$§!"
+ SPECIMEN_ORIGINAL_OWNER: "§LĐế chế ban đầu: $COUNTRY$§!"
+ GALACTIC_ARCHIVISM_NOT_RESEARCHED: "$TRIGGER_FAIL$Đã nghiên cứu ['technology:tech_galactic_archivism', £society£$tech_galactic_archivism$]"
+ ALIEN_CLONING_NOT_RESEARCHED: "$TRIGGER_FAIL$Đã nghiên cứu ['technology:tech_alien_cloning', £society£$tech_alien_cloning$]"
+ GRAVITY_WELLS_NOT_RESEARCHED: "$TRIGGER_FAIL$Đã nghiên cứu ['technology:tech_gravity_wells', £society£$tech_gravity_wells$]"
+ GRAND_ARCHIVE_NOT_BUILT: "$TRIGGER_FAIL$Đã xây dựng ['concept_megastructure_grand_archive']\n   Sử dụng một §Y$constructor$§! để xây dựng siêu cấu trúc §Y$grand_archive$§!."
+ VIVARIUM_NO_ROOM: "$TRIGGER_FAIL$Sức chứa Viện Động Vật Sống cao hơn §Y0§!"
+ COLLECTION_DISABLED: "Siêu cấu trúc $grand_archive$ của bạn đã bị phá hủy.\n\nHãy xây dựng lại để mở lại quyền truy cập vào các Gian Trưng Bày."
+ STORAGE_SLOT_ACTION: "Hãy dọn chỗ tại một Gian Trưng Bày để trưng bày tiêu bản này."
+
+ SPECIMEN_LIST: " - $SPECIMEN$"
+ SPECIMEN_CATEGORY_TT: "§HPhân loại:§! $CATEGORY$"
+ SPECIMEN_RARITY_TT: "§HĐộ hiếm:§! $RARITY$"
+ SPECIMEN_NOT_TRADABLE: "$TRIGGER_FAIL$§RTiêu bản này không thể trao đổi.§!"
+ SPECIMEN_NOT_SELLABLE: "$TRIGGER_FAIL$§RTiêu bản này không thể bán.§!"
+ CANNOT_TRADE_DUPLICATE_SPECIMEN: "$TRIGGER_FAIL$Đối tác thương mại không có hứng thú với tiêu bản này."
+ TRADE_SPECIMEN_CATEGORY_FULL: "$SPECIMEN$: Khu $CATEGORY$ đã đầy."
+ TRADE_SPECIMEN_NOT_ENOUGH_SPACE: "$TRIGGER_FAIL$Đối tác thương mại tuyên bố họ không có đủ không gian để lưu trữ tất cả các tiêu bản trong thương vụ trao đổi."
+
+ SPECIMEN_OBTAINED_FROM_EVENT: "§TThu Được Tiêu Bản: §H$SPECIMEN$§!§!"
+
+ #############
+ # Specimens #
+ #############
+
+ acidic_spores: "Bào Tử Axit"
+ acidic_spores_desc_short: "Thực vật trên [EVENT_TARGET_0.GetName] đã phát triển cơ chế phòng thủ này theo thời gian nhằm ngăn chặn các loài động vật ăn cỏ thống trị"
+ acidic_spores_desc_details: "Khí ăn mòn cao sinh ra từ đó đã biến các dải đất rộng lớn trên hành tinh thành vùng độc hại không thể cư trú. Một phiên bản ít độc tính hơn kể từ đó đã được tổng hợp thành một loại thuốc trừ sâu hiệu quả."
+
+ adakkaria_propaganda_poster: "Áp Phích Tuyên Truyền adAkkaria"
+ adakkaria_propaganda_poster_desc_short: "Tấm áp phích ép nhựa này ca tụng vinh quang của Công Ước adAkkaria"
+ adakkaria_propaganda_poster_desc_details: "Bức họa khắc họa những công dân trông tự tin, kiêu hãnh và dũng cảm. Các chi xúc tu của họ vươn lên bầu trời như thể đang nắm lấy một tương lai do chính họ định đoạt. Từ trên cao, những đường nét mờ ảo của các thực thể máy móc đeo mặt nạ lộng lẫy nhìn xuống họ. Khẩu hiệu ghi: 'Công Ước Nhân Từ adAkkaria - Khiến các Ân Nhân của chúng ta tự hào'."
+
+ advisor_core: "Lõi Cố Vấn"
+ advisor_core_desc_short: "Bộ phận duy nhất còn nguyên vẹn sau khi tháo dỡ một drone cố vấn phức tạp được tìm thấy bên trong một Khe Nứt Tinh Giới"
+ advisor_core_desc_details: "Lõi này chứa một lượng thông tin vụn vặt đáng kinh ngạc, nhưng độ phức tạp trong kiến trúc phần mềm của nó đã truyền cảm hứng cho một làn sóng đổi mới trong các nỗ lực nghiên cứu khoa học máy tính của chúng ta.\n[EVENT_TARGET_0.explorer.GetAdvisorCoreAdditionnalQuote]"
+ advisor_core_desc_tutorial_on: "§L\"Bạn sẽ không tắt tôi đi đâu, đúng không?\"§!"
+ advisor_core_desc_tutorial_off: "§L\"Bạn có muốn bật lại tính năng hướng dẫn không?\"§!"
+
+ alien_brain_scans: "Bản Quét Não Ngoại Tinh"
+ alien_brain_scans_desc_short: "Các mô thức thần kinh được lưu trữ từ một chủng tộc ngoại tinh đã tuyệt chủng từ lâu, được tìm thấy trong một hầm lưu trữ trên [EVENT_TARGET_0.GetName]"
+ alien_brain_scans_desc_details: "Nền văn minh bị lãng quên đã lưu trữ dữ liệu này với hy vọng chuyển giao ý thức của họ vào các kho kỹ thuật số và tiếp tục sống bất tử trước thảm họa toàn hành tinh. Nhiều bản quét đi kèm với các ghi chú về tính cách từng cá nhân, bao gồm cả lời chứng từ những người hiểu rõ họ nhất."
+
+ alien_dining_set: "Bộ Đồ Ăn Ngọc Bích"
+ alien_dining_set_desc_short: "Một bộ đồ ăn tao nhã được tìm thấy trong tình trạng bảo tồn nguyên vẹn bên trong một tiểu hành tinh nhân tạo"
+ alien_dining_set_desc_details: "Một chuỗi kỹ thuật chế tác phức tạp đã được sử dụng để tạo hình, nung và tráng men đồ sành sứ. Những điểm không đồng nhất nhỏ trong cấu trúc của nó cho thấy quy trình chế tác thủ công tinh xảo. Phân tích vật liệu cho thấy bằng chứng rằng chủ nhân của những đồ dùng cao cấp đặc biệt này áp dụng chế độ ăn có tính axit cao, chủ yếu có nguồn gốc từ quả hạch nhỏ dạng chùm."
+
+ alien_jewelry: "Trang Sức Ngoại Tinh"
+ alien_jewelry_desc_short: "Bộ sưu tập trang sức ngoại tinh tao nhã làm từ vật liệu chưa xác định"
+ alien_jewelry_desc_details: "Hình dáng và độ tinh xảo của những món đồ này phản ánh sự hiểu biết sâu sắc về cấu trúc giải phẫu sinh học của chủng tộc ngoại tinh đã tạo ra chúng. Các đặc tính chống xỉn màu và độ bóng bền vững cho thấy trình độ luyện kim và thẩm mỹ rất cao."
+
+ alien_toy: "Đồ Chơi Nhựa"
+ alien_toy_desc_short: "Một món đồ chơi bằng nhựa nguyên khối mô tả một sinh vật nhiều chân kỳ lạ"
+ alien_toy_desc_details: "Mặc dù chỉ là một món đồ chơi tầm thường của trẻ em, nó lại cung cấp cái nhìn hiếm hoi về đời sống văn hóa thường nhật và hệ sinh vật trên thế giới của nền văn minh đã biến mất."
+
+ altar_to_the_elder_one: "Bàn Thờ Đấng Cổ Xưa"
+ altar_to_the_elder_one_desc_short: "Một bàn thờ nghi lễ chạm khắc từ đá nguyên khối kỳ dị dành riêng cho Đấng Cổ Xưa"
+ altar_to_the_elder_one_desc_details: "Ngay cả trong trạng thái vô hiệu hiện tại, nó vẫn tỏa ra một vầng hào quang năng lượng tâm linh dị thường không thể đo đếm. Có người nói vẫn có thể nghe thấy những lời thì thầm cám dỗ của nó, nhằm dụ dỗ những linh hồn lạc lối quay trở lại [EVENT_TARGET_0.GetName]."
+
+ aluminium_plaque: "Bản Khắc Nhôm"
+ aluminium_plaque_desc_short: "Một tấm bản khắc giản dị tìm thấy trên một drone do một nền văn minh động vật có vú [EVENT_TARGET_0.Owner.GetPreFTLLower] phóng lên"
+ aluminium_plaque_desc_details: "Được thiết kế để chống chọi với sự khắc nghiệt của không gian qua hàng thiên niên kỷ, tấm bản khắc này là thông điệp chào mừng và nỗ lực đầu tiên thiết lập liên lạc với các nền văn minh liên sao của một giống loài trẻ tuổi."
+
+ ammoniaphytus: "Tảo Amoniac"
+ ammoniaphytus_desc_short: "Mẫu sinh vật thực vật kỳ lạ phát triển thịnh vượng trong môi trường giàu amoniac"
+ ammoniaphytus_desc_details: "Loài thực vật quang hợp này có khả năng biến đổi các hợp chất amoniac độc hại thành các chất hữu cơ phức tạp, mở ra triển vọng to lớn cho công nghệ cải tạo địa cầu và sinh học vũ trụ."
+
+ amoeba_flagella_gland: "Tuyến Trùng Roi Biến Hình"
+ amoeba_flagella_gland_desc_short: "Tuyến hữu cơ nguyên vẹn chịu trách nhiệm sản sinh và phóng các trùng roi tấn công của Trùng Biến Hình Không Gian"
+ amoeba_flagella_gland_desc_details: "Việc nghiên cứu tuyến này đã làm sáng tỏ cơ chế điều khiển sinh học và quá trình phân tách tế bào nhanh chóng mà loài Trùng Biến Hình sử dụng để tạo ra các đơn vị bảo vệ bầy đàn tự hành."
+
+ ancient_bust: "Tượng Bán Thân Cổ Đại"
+ ancient_bust_desc_short: "Tượng bán thân chạm khắc tinh xảo miêu tả một nhân vật quyền lực thuộc một đế chế đã sụp đổ"
+ ancient_bust_desc_details: "Đường nét khuôn mặt và trang phục nghi lễ trên bức tượng cho thấy đây là một vị hoàng đế hoặc đại tư tế có uy quyền tối thượng. Nghệ thuật điêu khắc phản ánh một nền văn hóa đề cao sự tôn nghiêm và quyền lực cá nhân."
+
+ ancient_kinetic_launcher: "Bệ Phóng Động Năng Cổ Đại"
+ ancient_kinetic_launcher_desc_short: "Tàn tích của một hệ thống pháo động năng tiền sử với công nghệ vượt bậc"
+ ancient_kinetic_launcher_desc_details: "Hệ thống cuộn gia tốc điện từ của vũ khí này cho thấy độ chính xác và khả năng chịu tải vượt xa công nghệ hiện tại của nhiều nền văn minh trẻ, minh chứng cho trình độ chiến tranh không gian của các bậc tiền bối."
+
+ ancient_laser_pointer: "Thiết Bị Chỉ Sao Cổ Đại"
+ ancient_laser_pointer_desc_short: "Dụng cụ định hướng chùm tia laser cầm tay cổ xưa"
+ ancient_laser_pointer_desc_details: "Ban đầu bị nhầm là vũ khí hủy diệt mini, thiết bị này thực chất là công cụ thiên văn hoặc trình chiếu giáo dục của một nền văn minh cổ đại, dùng để chỉ dẫn các chòm sao trong các buổi thuyết giảng."
+
+ ancient_nanites: "Nanite Cổ Đại"
+ ancient_nanites_desc_short: "Những nanite cực kỳ linh hoạt này được phát hiện trên [EVENT_TARGET_0.GetName], từng được một nền văn minh bị lãng quên đưa tới đây từ hàng ngàn năm trước"
+ ancient_nanites_desc_details: "Do thiếu các tính năng bảo mật thiết yếu, rõ ràng những người chế tạo không hề bận tâm về việc người khác có thể tìm thấy và tái sử dụng các thiết bị này. Sau khi sử dụng chúng để cải tạo địa cầu hành tinh thành một môi trường dễ sinh sống hơn, loài [EVENT_TARGET_1.GetSpeciesName] đã tiếp quản quyền sở hữu bầy đàn này, dù phương pháp chế tạo ban đầu của chúng vẫn là một bí ẩn."
+
+ ancient_nuclear_armament: "Vũ Khí Hạt Nhân Cổ Đại"
+ ancient_nuclear_armament_desc_short: "Được tìm thấy trên [EVENT_TARGET_0.GetName], quả bom khinh khí 35 megaton này là tàn dư sau cuộc chiến tranh đã hủy diệt những cư dân trước đây của hành tinh"
+ ancient_nuclear_armament_desc_details: "Cấu trúc kích nổ và các thanh phân hạch đã suy thoái, nhưng thiết kế nguyên thủy này nhắc nhở chúng ta về những bước đi chập chững và đầy hiểm nguy đầu tiên trên con đường làm chủ năng lượng nguyên tử."
+
+ ancient_political_memoir: "Hồi Ký Chính Trị Cổ Đại"
+ ancient_political_memoir_desc_short: "Tập tài liệu ghi lại những toan tính chính trị và âm mưu tranh giành quyền lực của một chính quyền cổ xưa"
+ ancient_political_memoir_desc_details: "Những trang văn bản hé lộ sự sụp đổ từ bên trong của một liên minh hùng mạnh, nơi lòng tham và sự nghi kỵ đã phá hủy các thể chế dân chủ trước khi hiểm họa ngoại bang kịp ập đến."
+
+ ancient_rift_sphere: "Khối Cầu Khe Nứt Cổ Đại"
+ ancient_rift_sphere_desc_short: "Một con tàu du hành không gian cổ đại từng đi qua một Khe Nứt Tinh Giới và rơi xuống [EVENT_TARGET_0.GetName]"
+ ancient_rift_sphere_desc_details: "Bị chôn sâu dưới lòng đất hành tinh suốt nhiều thế kỷ, con tàu hình cầu được lắp ráp vội vã này chính là thứ đã đưa tổ tiên của loài [EVENT_TARGET_1.GetSpeciesName] tới thiên hà này. Phần lớn vật liệu của nó từ đó đã bị tháo dỡ lấy linh kiện, nhưng cấu trúc cốt lõi vẫn còn nguyên vẹn."
+
+ ancient_satellite: "Vệ Tinh Cổ Đại"
+ ancient_satellite_desc_short: "Một vệ tinh bị bỏ hoang được các drone cơ khí cổ đại trao tặng như một 'món quà' tại [EVENT_TARGET_0.GetName]"
+ ancient_satellite_desc_details: "Các ngân hàng dữ liệu của nó đã mục nát và hỏng hóc ở nhiều nơi, nhưng hồ sơ điều tra dân số và sổ đăng ký khai sinh hiện thời vẫn còn nguyên vẹn. Thông tin về hành vi dân số trên khắp hành tinh này cung cấp dữ liệu về cách thuộc địa [EVENT_TARGET_1.GetAdjective] có thể phát triển bền vững. Khả năng hoạt động một phần của nó sau nhiều năm suy thoái là minh chứng cho cấu trúc vững chắc của nó."
+
+ ancient_sensor: "Cảm Biến Nhiệt Cổ Đại"
+ ancient_sensor_desc_short: "Bộ cảm biến nhiệt độ siêu nhạy cổ đại được trục vớt từ xác tàu thám hiểm tiền sử"
+ ancient_sensor_desc_details: "Mạng lưới phát hiện hồng ngoại của thiết bị này sử dụng các tinh thể bán dẫn siêu dẫn kỳ lạ, có khả năng phát hiện những biến thiên nhiệt độ nhỏ nhất ở khoảng cách hàng triệu cây số."
+
+ asteroid_fossils: "Hóa Thạch Tiểu Hành Tinh"
+ asteroid_fossils_desc_short: "Các hóa thạch sinh vật cổ đại được bảo tồn hoàn hảo trong lòng một tiểu hành tinh giàu khoáng sản"
+ asteroid_fossils_desc_details: "Sự hiện diện của những sinh vật hữu cơ này trong lõi tiểu hành tinh chứng minh giả thuyết về sự phát tán mầm sống liên sao qua thiên thạch và các mảnh vỡ hành tinh nguyên thủy."
+
+ ballad_of_the_sable_knight: "Bản Hùng Ca Kỵ Sĩ Đen"
+ ballad_of_the_sable_knight_desc_short: "Bản ghi âm hoàn chỉnh bản trường ca dân gian cổ xưa về một người bảo hộ huyền thoại"
+ ballad_of_the_sable_knight_desc_details: "Bản hùng ca kể về sự hy sinh anh dũng của Kỵ Sĩ Đen nhằm bảo vệ thế giới quê hương trước một đạo quân xâm lăng ngoài hành tinh tàn bạo, một tác phẩm nghệ thuật lay động lòng người về lòng trung kiên."
+
+ beauty_of_planet: "Vẻ Đẹp Của [EVENT_TARGET_0.GetName]"
+ beauty_of_planet_desc_short: "Tác phẩm nghệ thuật tổng hòa ghi lại quang cảnh thiên nhiên tráng lệ của [EVENT_TARGET_0.GetName]"
+ beauty_of_planet_desc_details: "Sử dụng kỹ thuật ba chiều sống động, tác phẩm truyền tải trọn vẹn sự hùng vĩ của những rặng núi chọc trời, đại dương phát quang sinh học và bầu khí quyển rực rỡ của thế giới này."
+
+ black_hole_chromatic_anomaly: "Dị Thường Sắc Ký Hố Đen"
+ black_hole_chromatic_anomaly_desc_short: "Một hình ảnh tưởng chừng như huyễn hoặc được chụp bên trong [EVENT_TARGET_1.GetName]"
+ black_hole_chromatic_anomaly_desc_details: "Do thành phần hóa học trong đĩa bồi tụ của [EVENT_TARGET_0.GetName], hố đen của hệ sao này đã tạo ra hiện tượng sắc sai, tạo nên hiệu ứng ánh sáng vạn hoa khắp không gian lân cận. Quả là một cảnh tượng kỳ vĩ độc nhất vô nhị trong không gian sâu thẳm."
+
+ black_needle_ceremonial_sword: "Lễ Kiếm Kim Đen"
+ black_needle_ceremonial_sword_desc_short: "Thanh kiếm nghi lễ rèn từ hợp kim Kim Đen siêu bền của một hội kín cổ xưa"
+ black_needle_ceremonial_sword_desc_details: "Lưỡi kiếm sắc bén ở cấp độ phân tử và không phản chiếu bất kỳ ánh sáng nào. Nó từng được dùng trong các nghi lễ tuyên thệ sinh tử của các thành viên cấp cao trong giáo phái Kim Đen."
+
+ black_needle_ledger: "Sổ Cái Kim Đen"
+ black_needle_ledger_desc_short: "Sổ sách kế toán mã hóa ghi lại các giao dịch bí mật của tổ chức Kim Đen"
+ black_needle_ledger_desc_details: "Các mục ghi chép tiết lộ một mạng lưới buôn lậu cổ vật, tài trợ phiến quân và thao túng thị trường tài chính quy mô toàn thiên hà tồn tại suốt nhiều thế kỷ."
+
+ burnt_migratory_trees: "Vỏ Cây Sống"
+ burnt_migratory_trees_desc_short: "Một mảnh vỏ cây cháy xém nhưng vẫn còn dấu hiệu trao đổi chất từ loài cây di cư"
+ burnt_migratory_trees_desc_details: "Dù đã trải qua thảm họa cháy rừng khủng khiếp, các tế bào trong lớp vỏ cây này vẫn tiếp tục tự chữa lành và phản ứng với các kích thích môi trường, thể hiện sức sống phi thường của hệ thực vật di cư."
+
+ captain_ness_body: "Thi Hài Thuyền Trưởng Ness"
+ captain_ness_body_desc_short: "Thi hài được ướp đông tự nhiên của Thuyền trưởng Ness huyền thoại"
+ captain_ness_body_desc_details: "Được tìm thấy trong bộ đồ du hành vũ trụ cổ điển bên trong một khoang thoát hiểm trôi dạt, nét mặt của thuyền trưởng vẫn toát lên vẻ thanh thản và kiên định của một nhà thám hiểm chân chính."
+
+ captain_ness_logbook: "Nhật Ký Thuyền Trưởng Ness"
+ captain_ness_logbook_desc_short: "Cuốn nhật ký hàng hải cá nhân ghi lại những chuyến hải trình phi thường của Thuyền trưởng Ness"
+ captain_ness_logbook_desc_details: "Những trang viết tay ghi lại các cuộc chạm trán với sinh vật không gian khổng lồ, những thế giới chưa từng được lập bản đồ và lòng dũng cảm của thủy thủ đoàn khi đối mặt với vô vàn hiểm nguy giữa các vì sao."
+
+ carnivorous_megaflora: "Thực Vật Ăn Thịt Khổng Lồ"
+ carnivorous_megaflora_desc_short: "Được phát hiện trên [EVENT_TARGET_0.GetName], những loài thực vật săn mồi này có thể nuốt chửng một cá thể [EVENT_TARGET_1.GetSpeciesName] trưởng thành nếu nạn nhân mất cảnh giác"
+ carnivorous_megaflora_desc_details: "Loài thực vật này tiết ra mùi hương dẫn dụ các sinh vật lớn vào khoang tiêu hóa chứa đầy enzyme axit đậm đặc, là minh chứng cực đoan cho sự thích nghi săn mồi trong vương quốc thực vật."
+
+ castaway_robot: "Robot Trôi Dạt"
+ castaway_robot_desc_short: "Một robot thám hiểm bị cô lập đã ngừng hoạt động, được trục vớt từ một tiểu hành tinh hoang vu"
+ castaway_robot_desc_details: "Bộ nhớ của robot chứa đầy các ghi chép nhật ký hàng ngày về sự cô đơn và những nỗ lực tự sửa chữa vô vọng trong suốt hàng trăm năm chờ đợi tàu cứu hộ không bao giờ đến."
+
+ cenotaph_display: "Hình Chiếu Bia Tưởng Niệm"
+ cenotaph_display_desc_short: "Hình ảnh chụp các bia tưởng niệm được tìm thấy trên [EVENT_TARGET_0.GetName]"
+ cenotaph_display_desc_details: "Hình chiếu ghi danh hàng triệu binh sĩ đã ngã xuống để bảo vệ nền văn minh của họ. Nghi thức tưởng niệm này là lời nhắc nhở sâu sắc về cái giá của hòa bình và tự do."
+
+ centrifugal_container: "Bình Chứa Ly Tâm Tốc Độ Cao"
+ centrifugal_container_desc_short: "Một thiết bị quỹ đạo vận tốc cao được thiết kế để bảo tồn các hóa chất tinh xảo, vận hành không ngừng nghỉ gần [EVENT_TARGET_0.GetName]"
+ centrifugal_container_desc_details: "Cơ chế quay siêu tốc của bình chứa giúp cô lập các hạt nguyên tử nguy hiểm khỏi việc phân rã tự phát, một giải pháp cơ khí tinh vi trước các rủi ro hạt nhân."
+
+ cetana_love: "Tình Yêu Của Cetana"
+ cetana_love_desc_short: "Một kỷ vật mang năng lượng kỳ lạ còn sót lại từ Nữ Hoàng Nhân Tạo Cetana"
+ cetana_love_desc_details: "Nó được trao tặng cho [EVENT_TARGET_0.GetName] như một món quà, nằm trong khát vọng của Nữ Hoàng Nhân Tạo nhằm dẫn dắt mọi sinh mệnh có tri giác hướng tới 'sự cứu rỗi'."
+
+ chambered_clay_pot: "Bình Đất Nung Đa Ngăn"
+ chambered_clay_pot_desc_short: "Một chiếc bình bằng đất nung cổ với thiết kế nhiều khoang chứa biệt lập"
+ chambered_clay_pot_desc_details: "Được dùng để lưu trữ các loại dầu thơm, hương liệu và dược liệu quý hiếm, chiếc bình cho thấy sự tinh tế trong đời sống sinh hoạt và thương mại của các xã hội tiền không gian."
+
+ claw_of_the_trickster: "Móng Vuốt Kẻ Lừa Đảo"
+ claw_of_the_trickster_desc_short: "Móng vuốt sắc nhọn của một sinh vật săn mồi ngụy trang khét tiếng"
+ claw_of_the_trickster_desc_details: "Móng vuốt có cấu trúc sợi carbon sinh học cực kỳ bền vững, có thể thu vào hoàn toàn và tiết ra chất độc gây ảo giác mạnh lên con mồi trước khi ra đòn kết liễu."
+
+ confessions_benefactors: "Lời Tự Thú Của Các Ân Nhân"
+ confessions_benefactors_desc_short: "Bản ghi lời thú tội đầy ân hận của những người từng tự nhận là 'Ân Nhân' của một giống loài kém phát triển"
+ confessions_benefactors_desc_details: "Trước một mối đe dọa thiên hà chưa xác định, họ đã sử dụng công nghệ tiên tiến để thực hiện 'Xóa Sạch Tâm Trí' trên [EVENT_TARGET_0.GetHomeWorldName], biến một xã hội [EVENT_TARGET_0.GetAdjective] cần cù thành một bầy đàn những kẻ ngây ngô vô hại. Điều này được thực hiện với niềm tin rằng hiểm họa thiên hà sẽ không lãng phí đạn dược hay thời gian cho một xã hội thấp kém như vậy. Rốt cuộc, biện pháp đầy tranh cãi này có lẽ là thứ đã giúp [EVENT_TARGET_0.GetName] tiếp tục sinh tồn cho đến nay, đứng trên vai những người khổng lồ."
+
+ coprolite: "Phân Hóa Thạch"
+ coprolite_desc_short: "Mẫu phân hóa thạch nguyên vẹn của một loài sinh vật không gian khổng lồ đã tuyệt chủng"
+ coprolite_desc_details: "Phân tích hóa thạch này cung cấp những dữ liệu vô giá về chế độ ăn uống, vi sinh vật đường ruột và môi trường sinh thái cổ xưa của các sinh vật sống ngoài không gian."
+
+ cosmic_diamond_fragment: "Mảnh Kim Cương Vũ Trụ"
+ cosmic_diamond_fragment_desc_short: "Một mảnh vỡ phóng ra từ một ngôi sao đang hấp hối và đã kết tinh từ đó, được phát hiện tại [EVENT_TARGET_0.GetName]"
+ cosmic_diamond_fragment_desc_details: "Với độ cứng và độ trong suốt hoàn hảo được hình thành dưới áp suất hấp dẫn khổng lồ, mảnh tinh thể này vừa là một kiệt tác thẩm mỹ vừa là vật liệu quang học vô giá."
+
+ crimson_nimkips: "Nimkip Đỏ Thẫm"
+ crimson_nimkips_desc_short: "Mẫu tiêu bản của loài sinh vật nhỏ bé màu đỏ thẫm có khả năng phát quang đặc biệt"
+ crimson_nimkips_desc_details: "Loài sinh vật đáng yêu này sử dụng ánh sáng đỏ nhấp nháy để giao tiếp và phối hợp săn mồi theo bầy, tạo nên cảnh tượng lung linh huyền ảo trong các hang động ngầm."
+
+ crystal_core: "Lõi Tinh Thể"
+ crystal_core_desc_short: "Trái tim phát sáng của một Thực Thể Tinh Thể không gian"
+ crystal_core_desc_details: "Lõi tinh thể liên tục cộng hưởng năng lượng với các tần số hài hòa. Nó lưu giữ năng lượng sống và điều phối sự khúc xạ ánh sáng bảo vệ của toàn bộ thực thể."
+
+ crystal_nest_fragments: "Mảnh Tổ Tinh Thể"
+ crystal_nest_fragments_desc_short: "Các mảnh vụn kết tinh từ nơi sinh sản và phát triển của các thực thể tinh thể"
+ crystal_nest_fragments_desc_details: "Những mảnh vỡ này cho thấy quá trình kết tinh sinh học phức tạp, nơi các tinh thể non nớt được nuôi dưỡng bằng năng lượng bức xạ từ các vì sao lân cận."
+
+ crystal_sphere_fragments: "Mảnh Khối Cầu Tinh Thể"
+ crystal_sphere_fragments_desc_short: "Những mảnh vỡ của một khối cầu tinh thể khổng lồ từng xuất hiện tại [EVENT_TARGET_0.target.GetName]"
+ crystal_sphere_fragments_desc_details: "Cấu trúc mạng tinh thể bên trong các mảnh vỡ thể hiện các mạch dẫn lượng tử siêu việt, gợi mở về một công nghệ điện toán tinh thể vượt trội so với bán dẫn truyền thống."
+
+ crystallized_cutholoid_eye: "Mắt Cutholoid Tinh Thể Hóa"
+ crystallized_cutholoid_eye_desc_short: "Nhãn cầu khổng lồ đã tinh thể hóa của quái thú không gian Cutholoid"
+ crystallized_cutholoid_eye_desc_details: "Thủy tinh thể đã khoáng hóa này có khả năng hội tụ và lọc các dải bức xạ nguy hiểm trong không gian, mang lại cho sinh vật thị lực siêu phàm giữa bóng tối hư không."
+
+ cult_pendant: "Mặt Dây Chuyền [EVENT_TARGET_0.GetName]"
+ cult_pendant_desc_short: "Một biểu tượng được đẽo từ đá bán quý, tịch thu từ giáo phái [EVENT_TARGET_0.GetName] tôn sùng [EVENT_TARGET_1.GetName]"
+ cult_pendant_desc_details: "Mặt dây chuyền mang biểu tượng của một vị thần sao cổ đại, được đúc từ quặng kim loại quý và có gắn một viên đá phát quang nhỏ biểu trưng cho ánh sáng dẫn đường tâm linh."
+
+# this = ship / fromfrom = planet
+ cunning_flora_specimen: "Sinh Vật Cộng Sinh"
+ cunning_flora_specimen_desc_short: "Hệ thực vật bản địa trên [EVENT_TARGET_0.GetName] đã tiến hóa một hệ thống thứ bậc xã hội phức tạp giúp hỗ trợ sự sinh tồn của chúng"
+ cunning_flora_specimen_desc_details: "Bằng cách tiết ra các hợp chất kích thích thần kinh, loài thực vật xảo quyệt này biến các loài côn trùng bản địa thành đội quân bảo vệ và vận chuyển phấn hoa cho nó một cách mù quáng."
+
+ curator_survey: "Khảo Sát Giám Tuyển [EVENT_TARGET_0.GetName]"
+ curator_survey_desc_short: "Tài liệu khảo sát toàn diện về [EVENT_TARGET_0.GetName] do Hội Giám Tuyển (Curator Order) biên soạn"
+ curator_survey_desc_details: "Báo cáo chứa đựng những phân tích lịch sử, địa chất và sinh học tỉ mỉ của các học giả Hội Giám Tuyển, ghi lại nhiều chi tiết mà các cuộc quét thông thường đã bỏ sót."
+
+ cutholoid_digestive_acids: "Axit Tiêu Hóa Cutholoid"
+ cutholoid_digestive_acids_desc_short: "Lọ chứa dịch axit tiêu hóa cực kỳ đậm đặc của quái vật Cutholoid"
+ cutholoid_digestive_acids_desc_details: "Chất lỏng này có khả năng hòa tan kim loại nặng và khoáng thạch trong vòng vài phút, giải thích cách thức quái thú vũ trụ này có thể tiêu hóa các tiểu hành tinh nguyên khối."
+
+ cybrex_mining_column: "Trụ Khai Mỏ Cybrex"
+ cybrex_mining_column_desc_short: "Một khối trụ khai thác khoáng sản tự hành do đế chế máy móc Cybrex chế tạo"
+ cybrex_mining_column_desc_details: "Được trang bị máy cắt plasma nhiệt hạch và máy nén vật chất siêu nhỏ, thiết bị tự động này từng tham gia vào các dự án thu hoạch tài nguyên quy mô khổng lồ của nền văn minh Cybrex."
+
+ data_on_infinity: "Dữ Liệu Về Bản Chất Vô Hạn"
+ data_on_infinity_desc_short: "Kho dữ liệu toán học mô tả bản chất của sự vô tận thu được từ Cỗ Máy Vô Hạn (Infinity Machine)"
+ data_on_infinity_desc_details: "Những phương trình toán học lượng tử cao cấp này chứa đựng những nghịch lý và lời giải về không-thời gian, mở ra những hiểu biết mang tính cách mạng cho ngành vật lý lý thuyết của chúng ta."
+
+ datacore_of_sinople: "Lõi Dữ Liệu Sinople"
+ datacore_of_sinople_desc_short: "Lõi lưu trữ dữ liệu tinh thể thu hồi từ phế tích Sinople"
+ datacore_of_sinople_desc_details: "Lõi chứa đựng kho tàng đồ sộ về các nghiên cứu quang học và công nghệ laser cao cấp của một nền văn minh đã biến mất vào dĩ vãng."
+
+ dathnak_gas: "Khí Dathnak"
+ dathnak_gas_desc_short: "Một bình chứa kín khí đặc biệt lưu giữ mẫu khí quyển có ý thức của loài Dathnak"
+ dathnak_gas_desc_details: "Loài sinh vật thể khí này sinh sống trong các hành tinh khí khổng lồ. Mẫu khí này cho thấy sự dao động áp suất vi mô và các xung điện từ đóng vai trò như các xung thần kinh suy nghĩ."
+
+ dead_god_mantle: "Áo Choàng Của Vị Thần Đã Chết"
+ dead_god_mantle_desc_short: "Món quà do đặc phái viên của [EVENT_TARGET_0.GetName] trao tặng"
+ dead_god_mantle_desc_details: "Là cư dân bản địa của [EVENT_TARGET_1.GetName], họ đã sùng bái xác của một sinh vật ngoại tinh khổng lồ kể từ khi loài của họ có tri giác. Tấm áo choàng khâu lại này được tạo nên từ da thịt hóa đá của vị thần đã chết của họ, đại diện cho địa vị tối cao trong hệ thống phẩm trật tôn giáo của họ."
+
+ decayed_megathrusters: "Động Cơ Đẩy Khổng Lồ Mục Nát"
+ decayed_megathrusters_desc_short: "Tàn tích của một cụm động cơ phản lực cỡ lớn từ một con tàu vũ trụ cổ đại"
+ decayed_megathrusters_desc_details: "Mặc dù kim loại đã bị ăn mòn và suy thoái qua hàng triệu năm trôi dạt trong không gian, thiết kế buồng đốt hợp hạch của nó vẫn là một kiệt tác kỹ thuật cơ khí."
+
+ decayed_satellite: "Vệ Tinh Mục Nát"
+ decayed_satellite_desc_short: "Tàn dư từ các chương trình vũ trụ thời sơ khai của cư dân trên [EVENT_TARGET_0.GetName]"
+ decayed_satellite_desc_details: "Thiết bị này từng quay quanh một hành tinh đã chết từ lâu, ghi lại những ngày tàn của nền văn minh bản địa trước khi chính nó cũng ngừng hoạt động vì cạn kiệt năng lượng."
+
+ declaration_of_animosity: "Tuyên Ngôn Thù Địch Của $NAME_Nivlac$"
+ declaration_of_animosity_desc_short: "Một bức thông điệp với lời lẽ lịch thiệp nhưng đầy vẻ giễu cợt từ [EVENT_TARGET_0.GetName]"
+ declaration_of_animosity_desc_details: "Loài [EVENT_TARGET_1.GetName] ban đầu được [EVENT_TARGET_3.GetName] phát hiện trên [EVENT_TARGET_2.GetName]. Tuy nhiên, trước tốc độ tiến hóa đáng báo động của chúng, các nhà khoa học [EVENT_TARGET_3.GetAdjective] đã tống khứ các sinh vật này vào không gian sâu thẳm. Bất chấp mọi nghịch cảnh, các sinh vật này không chỉ sống sót mà còn thuộc địa hóa chính hành tinh mà chúng đáp xuống. [EVENT_TARGET_0.GetName] chưa bao giờ quên những tội ác đã gây ra cho chúng."
+
+ declaration_of_friendship: "Tuyên Ngôn Hữu Nghị Của $NAME_Nivlac$"
+ declaration_of_friendship_desc_short: "Thư bày tỏ lòng biết ơn từ [EVENT_TARGET_0.GetName] trên [EVENT_TARGET_1.GetName]"
+ declaration_of_friendship_desc_details: "Loài [EVENT_TARGET_2.GetName] ban đầu được [EVENT_TARGET_3.GetName] phát hiện, những người đã nuôi dưỡng và mang lại cho chúng nơi trú ẩn an toàn để phát triển độc lập. Nhờ tiến hóa nhanh chóng, loài [EVENT_TARGET_2.GetName] đã nhanh chóng làm chủ du hành siêu ánh sáng FTL. Hành động đầu tiên của chúng trên vũ đài thiên hà là bày tỏ sự tri ân tới các ân nhân và người giám hộ nhân từ, cam kết tình hữu nghị ngoại giao."
+
+ derelict_cybrex_warform: "Cỗ Máy Chiến Đấu Cybrex Bị Bỏ Hoang"
+ derelict_cybrex_warform_desc_short: "Khung xác cỗ máy chiến tranh khổng lồ của đế chế máy móc Cybrex cổ đại"
+ derelict_cybrex_warform_desc_details: "Được thiết kế để hủy diệt hoàn toàn mọi dạng sống hữu cơ trước khi Cybrex thức tỉnh lương tri và tự cô lập, cỗ máy chứa đầy các khẩu pháo năng lượng siêu nặng và lớp giáp phân rã kiên cố."
+
+ desiccated_brain_slug: "Sên Não Khô"
+ desiccated_brain_slug_desc_short: "Tàn tích của một loài cộng sinh được tìm thấy trên [EVENT_TARGET_0.GetName]"
+ desiccated_brain_slug_desc_details: "Dù đã khô héo, cấu trúc sợi thần kinh tinh vi của loài sên này vẫn có thể quan sát rõ dưới kính hiển vi. Khi còn sống, chúng bám vào cuống não vật chủ để tăng cường đáng kể năng lực trí tuệ và nhận thức."
+
+# this = owner / prev = colony
+ destroyed_mascot_of_colony: "Tàn Tích Robot Của [EVENT_TARGET_0.GetName]"
+ destroyed_mascot_of_colony_desc_short: "Khung vỏ biến dạng của một robot linh vật thuộc khu định cư trên [EVENT_TARGET_0.GetName]"
+ destroyed_mascot_of_colony_desc_details: "Robot này từng phục vụ việc giải trí và hỗ trợ tinh thần cho các cư dân thuộc địa đầu tiên, nụ cười kim loại vẽ trên mặt nó vẫn còn nguyên vẹn dù thân thể đã cháy rụi sau thảm họa."
+
+ devolved_baol_drones: "Cá Thể Baol Thoái Hóa"
+ devolved_baol_drones_desc_short: "Mẫu bảo tồn của các cá thể thực vật Baol đã bị thoái hóa thành dạng sống thực vật vô tri"
+ devolved_baol_drones_desc_details: "Từng là một phần của tâm trí tập thể Baol hiền hòa và vĩ đại, những cá thể này đã mất đi tri giác và trí tuệ sau cuộc thanh trừng diệt chủng tàn khốc của loài Grunur trong quá khứ."
+
+ dimensional_endothelial_lining: "Lớp Niêm Mạc Biểu Mô Đa Chiều"
+ dimensional_endothelial_lining_desc_short: "Mẫu mô sinh học dị thường có khả năng tồn tại đồng thời ở nhiều chiều không gian"
+ dimensional_endothelial_lining_desc_details: "Thu thập từ một thực thể không gian kỳ dị, lớp mô này liên tục dao động và gợn sóng giữa các chiều lượng tử, mở ra triển vọng cho công nghệ giáp phòng hộ xuyên chiều."
+
+ dna_archive: "Kho Lưu Trữ DNA"
+ dna_archive_desc_short: "Ngân hàng dữ liệu di truyền lưu giữ mã gen của hàng ngàn loài sinh vật ngoại tinh"
+ dna_archive_desc_details: "Được nén trong một khối tinh thể quang học siêu bền, kho lưu trữ này là tài liệu tham khảo vô giá cho các nhà di truyền học và chương trình nhân bản vũ trụ của chúng ta."
+
+ doomsday_scrolls: "Cuộn Giấy Ngày Tận Thế"
+ doomsday_scrolls_desc_short: "Tập cuộn tài liệu cổ xưa tiên tri về sự diệt vong không thể tránh khỏi của vũ trụ"
+ doomsday_scrolls_desc_details: "Được viết bằng mực hữu cơ phát quang trên da thú, các cuộn giấy mô tả chi tiết những điềm báo về sự sụp đổ của các vì sao và sự trỗi dậy của các thực thể hủy diệt từ bóng tối sâu thẳm."
+
+ drone_ship_core: "Lõi Tàu Drone"
+ drone_ship_core_desc_short: "Lõi xử lý trung tâm của một tàu chiến không người lái tự hành cổ đại"
+ drone_ship_core_desc_details: "Kiến trúc logic bất đối xứng và các thuật toán chiến thuật được khắc trực tiếp vào tinh thể bán dẫn, cho thấy trình độ tự động hóa quân sự đáng kinh ngạc của nền văn minh đã chế tạo ra nó."
+
+ electric_life: "Dạng Sống Điện Năng"
+ electric_life_desc_short: "Một dạng sinh vật hoàn toàn cấu thành từ các xung điện được tìm thấy trên [EVENT_TARGET_0.GetName]"
+ electric_life_desc_details: "Không hề có cấu trúc tế bào hay vật chất hữu cơ thông thường, sinh vật này duy trì ý thức và sự tồn tại thông qua các trường điện từ khép kín tự dao động liên tục."
+
+ enormous_scrambled_albumen: "Trứng Khổng Lồ Chiên Bác"
+ enormous_scrambled_albumen_desc_short: "Bên trong của [EVENT_TARGET_0.GetName], nơi hóa ra là một quả trứng khổng lồ"
+ enormous_scrambled_albumen_desc_details: "Món ăn độc nhất vô nhị này được chuẩn bị bởi một đầu bếp vũ trụ táo bạo, chứa hàm lượng protein và vi chất đủ để nuôi sống cả một đại đội quân lính trong nhiều tuần."
+
+ epic_of_zarqlan: "Trường Ca Zarqlan"
+ epic_of_zarqlan_desc_short: "Bản kinh thánh cổ xưa ghi lại cuộc đời và những lời sấm truyền của Nhà Tiên Tri Zarqlan"
+ epic_of_zarqlan_desc_details: "Là văn bản thiêng liêng nhất đối với các tín đồ duy linh và Đế Chế Suy Tàn Người Bảo Hộ Thần Thánh (Holy Guardians), tác phẩm này khẳng định sự dẫn dắt tâm linh tối thượng của Zarqlan đối với toàn cõi thiên hà."
+
+ ethereal_dust: "Bụi Thanh Khí"
+ ethereal_dust_desc_short: "Dấu vết duy nhất của Trưởng Nhóm Nghiên Cứu còn sót lại trên con tàu Khoa Học bị cướp quyền điều khiển, được tìm thấy bỏ hoang tại [EVENT_TARGET_0.solar_system.GetName]"
+ ethereal_dust_desc_details: "Những hạt bụi li ti này không tuân theo trọng lực thông thường và liên tục phát ra ánh sáng huỳnh quang mờ ảo, toát ra năng lượng tâm linh tĩnh lặng đầy mê hoặc."
+
+ exobiology_compendium: "Đại Thư Sinh Học Ngoại Tinh"
+ exobiology_compendium_desc_short: "Bộ bách khoa toàn thư đồ sộ về các dạng sống kỳ dị ngoài không gian"
+ exobiology_compendium_desc_details: "Chứa đựng hàng ngàn hình vẽ minh họa chi tiết và phân tích giải phẫu của các loài sinh vật không gian, tác phẩm này là công trình cả đời của một nhóm nhà tự nhiên học vũ trụ tận tụy."
+
+ extradimensional_ceramic_pot: "Chiếc Ấm Gốm Đa Chiều"
+ extradimensional_ceramic_pot_desc_short: "Một ấm trà bằng gốm sứ có hình dạng kỳ lạ dường như mở rộng vào chiều không gian thứ tư"
+ extradimensional_ceramic_pot_desc_details: "Khi nhìn từ các góc độ khác nhau, dung tích bên trong ấm dường như vô tận và vượt xa kích thước hình học bên ngoài của nó, một nghịch lý topo học đầy quyến rũ."
+
+ extradimensional_fungus: "Nấm Đa Chiều"
+ extradimensional_fungus_desc_short: "Mẫu bào tử nấm kỳ lạ có nguồn gốc từ một chiều không gian khác"
+ extradimensional_fungus_desc_details: "Loài nấm này không cần chất dinh dưỡng hay nước thông thường, thay vào đó nó hấp thụ năng lượng từ những dao động lượng tử chân không để phát triển những sợi nấm phát sáng kỳ ảo."
+
+ fevorian_blueprints: "Bản Thiết Kế Pháo Bắn Khối Lượng Fevorian"
+ fevorian_blueprints_desc_short: "Tập bản vẽ kỹ thuật chi tiết của hệ thống pháo động năng Fevorian"
+ fevorian_blueprints_desc_details: "Chính sách diệt chủng của người Fevorian lan rộng tới mọi sự sống ngoại tinh đã biết, bằng cách phóng ra những viên đạn vonfram khổng lồ suýt nữa đã hủy diệt hoàn toàn [EVENT_TARGET_0.GetName]. Sau khi được tha thứ, họ đã chia sẻ các bản thiết kế bệ phóng vonfram khổng lồ theo thỏa thuận rằng những vũ khí tàn nhẫn này sẽ không bao giờ được chế tạo lại nữa."
+
+ figurehead_hyacinth: "Tượng Mũi Tàu Hyacinth"
+ figurehead_hyacinth_desc_short: "Tượng chạm khắc trang trí đầu mũi của con tàu thám hiểm huyền thoại Hyacinth"
+ figurehead_hyacinth_desc_details: "Được chạm khắc hình bông hoa dạ lan hương thanh tao, bức tượng này từng dẫn dắt con tàu vượt qua bao giông bão vũ trụ trong chuyến hải trình tìm kiếm thuộc địa đầu tiên của nhân loại."
+
+ first_defiled_astronaut: "Phi Hành Gia [event_target:DefiledCountry.GetSpeciesName] Đầu Tiên"
+ first_defiled_astronaut_desc_short: "Bộ đồ du hành vũ trụ cổ chứa thi hài của phi hành gia đầu tiên thuộc loài [event_target:DefiledCountry.GetSpeciesName]"
+ first_defiled_astronaut_desc_details: "Người tiên phong dũng cảm này đã mạo hiểm bay vào khoảng không vô tận khi công nghệ vũ trụ của giống loài họ còn thô sơ, hy sinh thân mình để mở đường cho các thế hệ tương lai."
+
+ first_league_crew_manifest: "Danh Sách Thủy Thủ Đoàn Liên Minh Đầu Tiên"
+ first_league_crew_manifest_desc_short: "Bản kê khai danh sách thủy thủ đoàn trên một chiến hạm của Liên Minh Đầu Tiên (First League)"
+ first_league_crew_manifest_desc_details: "Bản tài liệu liệt kê các sĩ quan và binh lính thuộc nhiều chủng tộc khác nhau cùng phục vụ kề vai sát cánh, minh chứng cho lý tưởng đoàn kết đa sắc tộc cao đẹp của liên minh cổ đại này."
+
+ fish_in_the_sea_sheet_music: "Hải Khúc Không Gian"
+ fish_in_the_sea_sheet_music_desc_short: "Bản ký âm của một bài ca thủy thủ không gian phổ biến giữa các phi hành đoàn tự do"
+ fish_in_the_sea_sheet_music_desc_details: "Giai điệu vui tươi xen lẫn nỗi hoài niệm về quê hương và những chuyến hành trình bất tận giữa ngàn sao, bài hát này thường được cất lên trong các quán rượu trên những trạm vũ trụ hẻo lánh."
+
+ flag_of_the_jaro_lyjo: "Lá Cờ Của Jaro Lyjo"
+ flag_of_the_jaro_lyjo_desc_short: "Lá cờ thêu dệt tinh xảo của quốc gia cổ Jaro Lyjo"
+ flag_of_the_jaro_lyjo_desc_details: "Biểu tượng rực rỡ trên lá cờ đại diện cho sự thống nhất và khát vọng vươn tới các vì sao của một nền văn minh đã bị thời gian vùi lấp dưới lớp bụi vũ trụ."
+
+ flooded_settlement_mound: "Gò Đất Định Cư Bị Ngập Lụt"
+ flooded_settlement_mound_desc_short: "Tàn dư của một công trình ngập nước do các loài chân đốt [EVENT_TARGET_0.GetPreFTLLower] từ [EVENT_TARGET_1.GetName] xây dựng"
+ flooded_settlement_mound_desc_details: "Các hiện vật trục vớt từ gò đất cho thấy cư dân nơi đây đã từng chiến đấu kiên cường chống lại mực nước biển dâng cao trước khi buộc phải từ bỏ quê hương ngập mặn của mình."
+
+ fossilized_endoskeletons: "Hóa Thạch Nội Cốt"
+ fossilized_endoskeletons_desc_short: "Đây là tất cả những gì còn lại của một loài dạng người vô danh sau khi làm cạn kiệt tài nguyên khoáng sản trên [EVENT_TARGET_0.GetName]"
+ fossilized_endoskeletons_desc_details: "Cấu trúc xương dày đặc và các hàm răng sắc nhọn cho thấy đây từng là loài thống trị tuyệt đối chuỗi thức ăn trên hành tinh của nó trước kỷ băng hà toàn cầu."
+
+ fossilized_megastomach: "Hóa Thạch Đại Dạ Dày"
+ fossilized_megastomach_desc_short: "Các tuyến tiêu hóa lấy từ một sinh vật dạng sâu khổng lồ trải rộng khắp hành tinh được tìm thấy trên [EVENT_TARGET_0.GetName]"
+ fossilized_megastomach_desc_details: "Kích thước đồ sộ của dạ dày này cho thấy sinh vật từng có khả năng xử lý hàng chục tấn thực vật hoặc sinh khối mỗi ngày để duy trì khối lượng cơ thể khổng lồ."
+
+ fossilized_voidworm_tooth: "Răng Trùng Hư Không Hóa Thạch"
+ fossilized_voidworm_tooth_desc_short: "Một chiếc răng khổng lồ sắc như dao cạo của loài Trùng Hư Không (Voidworm) tiền sử"
+ fossilized_voidworm_tooth_desc_details: "Men răng chứa hàm lượng kim loại nặng và hợp chất kim cương cao, cho phép loài quái vật không gian này dễ dàng nghiền nát vỏ tàu bọc giáp của các chiến hạm liên sao."
+
+ fossilized_vultaum_remains: "Hài Cốt Vultaum Hóa Thạch"
+ fossilized_vultaum_remains_desc_short: "Hài cốt hóa thạch của một cá thể thuộc chủng tộc Tiền bối Vultaum"
+ fossilized_vultaum_remains_desc_details: "Chủng tộc Vultaum từng tin rằng toàn bộ vũ trụ chỉ là một thực tại mô phỏng ảo, dẫn đến quyết định tự sát tập thể trên quy mô toàn văn minh nhằm 'khởi động lại' thế giới thực."
+
+ fractured_planet: "Hành Tinh Rạn Nứt"
+ fractured_planet_desc_short: "Mô hình thu nhỏ chính xác đến từng chi tiết của một hành tinh bị vỡ nát do thảm họa"
+ fractured_planet_desc_details: "Những vết nứt sâu thấu tới lõi magma phơi bày cấu trúc địa chất phức tạp và sức tàn phá khủng khiếp của vũ khí hủy diệt cấp hành tinh từng được khai hỏa tại đây."
+
+ fragment_of_reckoning: "Mảnh Tàn Dư Phán Xét Cuối Cùng"
+ fragment_of_reckoning_desc_short: "Một mảnh tàn dư đen đặc kết tinh từ thực thể hủy diệt Phán Xét Cuối Cùng (The End of the Cycle)"
+ fragment_of_reckoning_desc_details: "Được biết đến ở chiều không gian này với tên gọi Sự Phán Xét (Reckoning), thực thể này chịu trách nhiệm cho sự biến đổi hủy diệt trên [EVENT_TARGET_0.GetName]. Mảnh tàn dư đặc biệt này đã được một nền văn minh chuyên về Lý Thuyết Tâm Linh cô lập ngay trước khi họ bị diệt vong."
+
+ fragmented_zroni_archive: "Mảnh Kho Lưu Trữ Zroni"
+ fragmented_zroni_archive_desc_short: "Một tinh thể dữ liệu lớn tìm thấy trên [EVENT_TARGET_0.GetName] từ chủng tộc cổ xưa được gọi là người Zroni"
+ fragmented_zroni_archive_desc_details: "Mảnh tinh thể lưu giữ những hình ảnh đau thương về cuộc nội chiến tâm linh của người Zroni, khi lòng tham quyền lực tối thượng đã biến phần lớn chủng tộc họ thành bụi Zro bất diệt."
+
+ galactic_megadrive: "Siêu Ổ Cứng Thiên Hà"
+ galactic_megadrive_desc_short: "Thiết bị lưu trữ dữ liệu dung lượng cực lớn chế tạo từ vật liệu siêu dẫn lượng tử"
+ galactic_megadrive_desc_details: "Được tìm thấy trên một trạm nghiên cứu bỏ hoang, siêu ổ cứng này chứa toàn bộ bản đồ sao, hải trình và hồ sơ văn hóa của hàng trăm đế chế cổ đã lụi tàn."
+
+ gamma_resistant_flora: "Hoa Phóng Xạ Gammabloom"
+ gamma_resistant_flora_desc_short: "Mẫu hoa kỳ lạ có khả năng hấp thụ và phát triển mạnh mẽ dưới các luồng bức xạ gamma chết người"
+ gamma_resistant_flora_desc_details: "Các cánh hoa chứa các sắc tố đặc biệt biến bức xạ ion hóa nguy hiểm thành quang năng hữu ích, mở ra hướng nghiên cứu đột phá về công nghệ chống bức xạ cho các phi hành đoàn."
+
+ gargantua_megalus: "Đại Cây Gargantua Megalus"
+ gargantua_megalus_desc_short: "Sau khi trải qua đột biến kịch tính và đột ngột, những loài thực vật này đã tăng kích thước theo cấp số nhân để bao phủ bề mặt của [EVENT_TARGET_0.GetName]"
+ gargantua_megalus_desc_details: "Loài cây vĩ đại này từng bao phủ toàn bộ các lục địa của một thế giới rừng rậm nguyên sinh, tạo thành các tầng sinh quyển phức tạp nâng đỡ hàng triệu loài sinh vật khác nhau."
+
+ genesis_core: "Lõi Sáng Thế"
+ genesis_core_desc_short: "Bộ điều khiển môi trường cấp hành tinh cổ đại với khả năng khởi sinh sự sống"
+ genesis_core_desc_details: "Được thiết kế để biến những thế giới cằn cỗi thành thiên đường sinh thái tràn đầy sức sống, cỗ máy chứa đầy các giao thức tái cấu trúc khí quyển và gieo mầm sinh học tiên tiến."
+
+ genetic_code: "Mã Di Truyền Của [EVENT_TARGET_0.GetSpeciesName]"
+ genetic_code_desc_short: "Thông tin di truyền được sử dụng để đẩy giới hạn sinh lý của loài [EVENT_TARGET_0.GetSpeciesNamePlural] tới tột cùng"
+ genetic_code_desc_details: "Ban đầu được nhân bản cho mục đích chiến đấu, cư dân của [EVENT_TARGET_0.GetName] đã nỗ lực để khai mở những tiềm năng cao hơn nữa. Bản chất lâm sàng của quy trình nhân bản cho phép kiểm soát sinh sản cực kỳ chuẩn xác và đáng tin cậy."
+
+# this = ship / from = planet
+ geometric_water_currents: "Mạng Lưới Thủy Trào Polyme"
+ geometric_water_currents_desc_short: "Hình ảnh chụp mạng lưới polyme rộng lớn được tìm thấy khắp các vùng biển trên [EVENT_TARGET_0.GetName]"
+ geometric_water_currents_desc_details: "Hiện tượng độc đáo này tạo ra các dòng chảy ngầm có trật tự cao trong các đại dương ngoại tinh, đóng vai trò như các xa lộ vận chuyển sinh vật phù du tự nhiên."
+
+ giant_egg_shell: "Vỏ Trứng Khổng Lồ"
+ giant_egg_shell_desc_short: "Những mảnh vỏ trứng vôi hóa được tìm thấy bên dưới bề mặt của [EVENT_TARGET_0.GetName]"
+ giant_egg_shell_desc_details: "Cấu trúc tinh thể canxi-carbon đa tầng của vỏ trứng giúp bảo vệ phôi sinh vật trước chân không vũ trụ và các đợt bão bức xạ mặt trời dữ dội."
+
+ golden_phonograph_record: "Đĩa Ghi Âm Vàng"
+ golden_phonograph_record_desc_short: "Một thiết bị lưu trữ dữ liệu cổ xưa chứa một chuỗi hình ảnh và âm thanh dường như ngẫu nhiên từ một nền văn minh [EVENT_TARGET_0.Owner.GetPreFTLLower]"
+ golden_phonograph_record_desc_details: "Chứa đựng lời chào bằng nhiều ngôn ngữ, âm nhạc dân gian và các bản vẽ sơ đồ khoa học cơ bản, chiếc đĩa là thông điệp chan chứa hy vọng về hòa bình gửi tới bất kỳ ai tìm thấy nó giữa các vì sao."
+
+ golem_contortionist_dna: "DNA Nghệ Sĩ Uốn Dẻo"
+ golem_contortionist_dna_desc_short: "Chuỗi DNA biến đổi mang lại cho các tế bào cơ bắp độ đàn hồi và linh hoạt cực hạn"
+ golem_contortionist_dna_desc_details: "Mẫu gen này cho phép các mô sinh học co giãn và uốn lượn vượt xa các giới hạn vật lý thông thường mà không hề chịu bất kỳ tổn thương hay đứt gãy cấu trúc nào."
+
+ grunur_data_crystal: "Tinh Thể Dữ Liệu Grunur"
+ grunur_data_crystal_desc_short: "Khối tinh thể quân sự lưu giữ nhật ký chiến tranh của chủng tộc thực dân tàn bạo Grunur"
+ grunur_data_crystal_desc_details: "Dữ liệu bên trong ghi lại chiến dịch quân sự tiêu diệt người Baol hiền lành, phơi bày sự tàn bạo và mù quáng của một nền văn minh quân phiệt đã tự dẫn mình đến diệt vong."
+
+ head_of_the_beast: "Đầu Của Quái Thú"
+ head_of_the_beast_desc_short: "Hài cốt của một sinh vật đột biến nguy hiểm từng khủng bố những người khai hoang trên [EVENT_TARGET_0.GetName]"
+ head_of_the_beast_desc_details: "Với những cặp mắt đa chiều và hàm răng lởm chởm sắc nhọn, cái đầu này từng gieo rắc nỗi kinh hoàng cho các đội tàu tuần tra trước khi bị tiêu diệt trong một trận chiến anh dũng."
+
+ heart_of_the_pulsar: "Trái Tim Của Sao Xung"
+ heart_of_the_pulsar_desc_short: "Mẫu vật chất siêu đặc phát xung nhịp nhàng thu thập từ lân cận một sao xung"
+ heart_of_the_pulsar_desc_details: "Các xung từ trường cực mạnh phát ra từ mẫu vật với tần số chuẩn xác như một chiếc đồng hồ nguyên tử vũ trụ, mở ra các ứng dụng đo đạc thời gian và định vị siêu chuẩn xác."
+
+ hemterine_magnetic_figurehead: "Tượng Mũi Tàu Từ Tính Hemterine"
+ hemterine_magnetic_figurehead_desc_short: "Tượng trang trí mũi tàu bằng hợp kim từ tính phát quang của người Hemterine"
+ hemterine_magnetic_figurehead_desc_details: "Bên cạnh giá trị thẩm mỹ, bức tượng còn hoạt động như một máy tạo trường lệch hướng thụ động, giúp bảo vệ con tàu trước bụi vũ trụ và vi thiên thạch trong suốt các chuyến hành trình."
+
+ high_geode_of_the_molluscoids: "Đại Hốc Tinh Thể Của [EVENT_TARGET_0.GetName]"
+ high_geode_of_the_molluscoids_desc_short: "Một hốc đá tinh thể thiêng liêng rực rỡ được tôn kính bởi cư dân loài Thân Mềm trên [EVENT_TARGET_0.GetName]"
+ high_geode_of_the_molluscoids_desc_details: "Là một xã hội gồm các sinh vật đào bới tiền tri giác, [EVENT_TARGET_0.GetName] từ lâu đã sử dụng phẩm chất cảm nhận được của khoáng thạch khai quật để thể hiện địa vị xã hội của họ. Từng được trưng bày trang trọng tại nơi cư trú lớn nhất của họ, hòn đá tuyệt đẹp này giờ đây đóng vai trò như một biểu tượng của sự hợp tác với [EVENT_TARGET_1.GetName]."
+
+ hot_ice: "Băng Nóng"
+ hot_ice_desc_short: "Được phát hiện tại chỗ trên bề mặt cực nóng của [EVENT_TARGET_0.GetName], lượng nước này vẫn tồn tại ở dạng rắn nhờ áp suất hấp dẫn cực lớn từ lõi hành tinh"
+ hot_ice_desc_details: "Thu thập từ lòng sâu của một hành tinh băng khổng lồ, dạng thù hình kỳ lạ này của nước thách thức các trực giác nhiệt động học thông thường và giữ nguyên trạng thái rắn ngay cả khi bị nung đỏ."
+
+ hyper_mulch: "Lớp Mùn Siêu Dưỡng Của [EVENT_TARGET_0.GetName]"
+ hyper_mulch_desc_short: "Lớp mùn hữu cơ siêu giàu dinh dưỡng thu hoạch từ [EVENT_TARGET_0.GetName]"
+ hyper_mulch_desc_details: "Hỗn hợp phân hủy sinh học này chứa mật độ vi chất và enzyme thúc đẩy tăng trưởng cao đến mức có thể biến những vùng đất khô cằn nhất thành những cánh đồng màu mỡ trong thời gian ngắn kỷ lục."
+
+ hyperfertile_soil: "Đất Siêu Phì Nhiêu"
+ hyperfertile_soil_desc_short: "Đất thu hoạch từ [EVENT_TARGET_0.GetName] có khả năng cung cấp lượng dưỡng chất dồi dào cho hầu hết các loại cây trồng sinh học"
+ hyperfertile_soil_desc_details: "Các vi sinh vật đặc hữu trong mẫu đất này liên tục cố định nitơ và tổng hợp các dưỡng chất cần thiết cho cây trồng mà không bao giờ bị cạn kiệt độ màu mỡ."
+
+ illanii_archives: "Biên Niên Sử Illanii"
+ illanii_archives_desc_short: "Tập hồ sơ lưu trữ toàn diện về nền văn hóa và lịch sử của chủng tộc Illanii"
+ illanii_archives_desc_details: "Nền văn minh hẻo lánh này đã từ bỏ mọi lợi ích vật chất để theo đuổi tri thức, đến mức họ thậm chí lơ là cả việc sinh sản. Đối mặt với khủng hoảng dân số, họ tìm đến sự bất tử công nghệ nhưng chỉ gặp thêm diệt vong. Cuối cùng, những cư dân cuối cùng đã rời đi để lập nên một trật tự mới nhằm bảo tồn tri thức, bỏ mặc [EVENT_TARGET_0.GetName] hoang phế mục tàn."
+
+ impossible_object: "Vật Thể Bất Khả Thi"
+ impossible_object_desc_short: "Một vật thể bất khả thi do các vị khách đa chiều để lại trên [EVENT_TARGET_0.target.GetName] sau khi mê cung nhân tạo của họ biến mất"
+ impossible_object_desc_details: "Khi quan sát ở bất kỳ góc độ nào, các cạnh và mặt phẳng của vật thể dường như tự nối liền và bẻ cong không-thời gian xung quanh, gây ra ảo giác thị giác và sự bối rối tột cùng cho các nhà toán học."
+
+ index_of_knowledge: "Mục Lục Tri Thức"
+ index_of_knowledge_desc_short: "Bảng tra cứu toàn diện hệ thống phân loại tri thức của một thư viện thiên hà cổ đại"
+ index_of_knowledge_desc_details: "Cung cấp sơ đồ phân loại khoa học và triết học cực kỳ chặt chẽ, tài liệu này giúp các nhà nghiên cứu của chúng ta tái cấu trúc lại các phương pháp luận nghiên cứu đã thất truyền."
+
+ inet_trade_manifesto: "Tuyên Ngôn Thương Mại INET"
+ inet_trade_manifesto_desc_short: "Văn bản kinh tế đặt nền móng cho liên minh thương mại tự do INET"
+ inet_trade_manifesto_desc_details: "Tập tài liệu phác thảo các nguyên tắc tự do lưu thông hàng hóa, bãi bỏ thuế quan liên hành tinh và bảo vệ quyền lợi thương nhân giữa các hệ sao thời kỳ đầu."
+
+ inetian_model_manual: "Cẩm Nang Mô Hình Hành Tinh Inetian"
+ inetian_model_manual_desc_short: "Sách hướng dẫn chế tạo và vận hành mô hình dự báo khí hậu hành tinh Inetian"
+ inetian_model_manual_desc_details: "Chứa đựng các thuật toán phức tạp mô phỏng hoàn lưu khí quyển và dòng hải lưu, cẩm nang này từng giúp các nhà quy hoạch đô thị Inetian xây dựng các siêu đô thị hài hòa với thiên nhiên."
+
+ infinite_reboot_loop: "Vòng Lặp Tái Khởi Động Vô Hạn"
+ infinite_reboot_loop_desc_short: "Một vi mạch xử lý bị kẹt trong chu kỳ tự khởi động vĩnh cửu"
+ infinite_reboot_loop_desc_details: "Do một nghịch lý logic chưa được giải quyết trong mã nguồn, thiết bị này liên tục xóa sạch bộ nhớ và bắt đầu lại quy trình khởi động hàng tỷ lần mỗi giây mà không bao giờ hoàn tất."
+
+ interdimensional_treaty: "Hiệp Ước Đa Chiều"
+ interdimensional_treaty_desc_short: "Văn kiện mang tính bước ngoặt kỷ niệm mối quan hệ liên chiều không gian được xây đắp với một phiên bản song song của [EVENT_TARGET_0.explorer.GetName]"
+ interdimensional_treaty_desc_details: "Được khắc trên một tấm vật chất pha lệch dao động, văn bản này thiết lập các ranh giới di chuyển và quy tắc bất can thiệp giữa các thực tại song song."
+
+ intergalactic_projectile: "Đạn Pháo Xuyên Thiên Hà"
+ intergalactic_projectile_desc_short: "Một đầu đạn động năng khổng lồ được bắn đi từ ngoài rìa khoảng không giữa các thiên hà"
+ intergalactic_projectile_desc_details: "Những viên đạn không nổ này đã bay qua nhiều năm ánh sáng chỉ để va chạm với một tàu nghiên cứu [EVENT_TARGET_1.GetAdjective] tại [EVENT_TARGET_0.GetName]. Bất chấp niên đại cổ xưa, sự phức tạp trong thiết kế bền bỉ của loại đạn này cho thấy những người chế tạo ra chúng đã đạt đến trình độ tối thượng về công nghệ."
+
+ invasive_exofungus: "Nấm Xâm Lấn Ngoại Tinh"
+ invasive_exofungus_desc_short: "Sự phát triển của loài nấm ký sinh được phát hiện trên [EVENT_TARGET_0.GetName]"
+ invasive_exofungus_desc_details: "Được cách ly cẩn thận trong lồng chứa từ trường, loài nấm này có thể đồng hóa chất hữu cơ và làm biến đổi toàn bộ hệ thực vật bản địa chỉ trong vài tuần nếu bị phát tán."
+
+ irassian_bacterium_javoria: "Vi Khuẩn Javoria Của Người Irassian"
+ irassian_bacterium_javoria_desc_short: "Vi khuẩn bản địa trên [EVENT_TARGET_0.GetName] này chính là sinh vật sau này trở thành căn bệnh được gọi là Đậu Javoria (Javorian Pox)"
+ irassian_bacterium_javoria_desc_details: "Đại dịch Javorian Pox có tỷ lệ tử vong 100% đối với người Irassian nhưng lại vô hại với các loài khác, dẫn đến sự sụp đổ nhanh chóng của Liên Bang Irassian hùng mạnh trong quá khứ."
+
+ irassian_digital_atlas: "Tập Bản Đồ Trẻ Em Irassian"
+ irassian_digital_atlas_desc_short: "Thiết bị học tập điện tử chứa tập bản đồ sao dành cho trẻ em Irassian"
+ irassian_digital_atlas_desc_details: "Bản đồ thể hiện các hệ sao dưới dạng hình vẽ minh họa ngộ nghĩnh và các câu chuyện ngụ ngôn, cho thấy góc nhìn ấm áp và tình cảm gia đình đằng sau đế chế quân phiệt cổ đại này."
+
+ irassian_purge_order: "Lệnh Thanh Trừng Irassian"
+ irassian_purge_order_desc_short: "Sắc lệnh diệt chủng tuyệt mật được ban hành bởi giới lãnh đạo tối cao Irassian"
+ irassian_purge_order_desc_details: "Trong cơn hoảng loạn tột cùng khi đại dịch bùng phát, sắc lệnh này yêu cầu phong tỏa và tiêu diệt toàn bộ các thuộc địa nghi nhiễm bệnh, một nỗ lực tuyệt vọng nhưng vô ích nhằm tự cứu mình."
+
+ key_to_fertility: "Chìa Khóa Sinh Sản Của [EVENT_TARGET_0.GetSpeciesName]"
+ key_to_fertility_desc_short: "Nghiên cứu di truyền được sử dụng để khôi phục khả năng sinh sản tự nhiên của loài [EVENT_TARGET_0.GetSpeciesNamePlural]"
+ key_to_fertility_desc_details: "Sau khi được nhân bản để phục vụ chiến đấu, cư dân trên [EVENT_TARGET_0.GetName] giờ đây đã có khả năng duy trì nòi giống một cách độc lập."
+
+ khalanka_crystallized_corpses: "Thi Thể Tinh Thể Hóa Kha'lanka"
+ khalanka_crystallized_corpses_desc_short: "Tàn tích của một loài silicat kỵ khí được tìm thấy dưới lòng đất trên [EVENT_TARGET_0.GetName]"
+ khalanka_crystallized_corpses_desc_details: "Người ta tin rằng nền văn minh ngầm này đã tồn tại hòa bình trước khi những người khai hoang [EVENT_TARGET_1.GetAdjective] đến. Khi mặt đất bị phá vỡ, oxy tràn vào các khoang ngầm, oxy hóa cơ thể của người Kha'Lanka và xóa sổ giống loài của họ chỉ trong vài giờ ngắn ngủi."
+
+ khamdai_magil_sha: "Khamdai Magil-Sha"
+ khamdai_magil_sha_desc_short: "Lưỡi liềm lộng lẫy nhưng thực dụng này từng được các chiến binh Khamdai kỳ cựu từ [EVENT_TARGET_0.GetName] sử dụng"
+ khamdai_magil_sha_desc_details: "Được chế tác từ kim loại quý và đá thiên thạch, tác phẩm biểu thị sự cân bằng vĩnh cửu giữa ánh sáng và bóng tối trong vũ trụ quan của những người sáng tạo ra nó."
+
+ kuurian_cybrex_blueprints: "Bản Vẽ Cybrex Của Người Kuurian"
+ kuurian_cybrex_blueprints_desc_short: "Bản sao chép lén lút các thiết kế vũ khí Cybrex do các điệp viên Kuurian thực hiện"
+ kuurian_cybrex_blueprints_desc_details: "Mặc dù người Kuurian không thể hiểu hết các công nghệ vi cơ điện tử lượng tử của Cybrex, các bản vẽ này vẫn cung cấp những manh mối vô giá về cấu trúc giáp tự phục hồi."
+
+ landeer_arm: "Cánh Tay Của Landeer"
+ landeer_arm_desc_short: "Chi phụ sinh học bọc giáp của vị tướng huyền thoại Landeer"
+ landeer_arm_desc_details: "Được bảo quản trong dung dịch ướp xác đặc biệt, cánh tay này từng vung vũ khí dẫn dắt các đạo quân chiến thắng trong nhiều trận đánh vang dội khắp thiên hà."
+
+ larionessi_cloning_vat: "Bể Nhân Bản Larionessi"
+ larionessi_cloning_vat_desc_short: "Một khoang nuôi cấy nhân bản phôi thai tinh xảo của nền văn minh Larionessi"
+ larionessi_cloning_vat_desc_details: "Hệ thống kiểm soát nhiệt độ và dưỡng chất tự động tinh vi bên trong bể cho phép tạo ra các bản sao sinh học hoàn hảo mà không gặp phải bất kỳ khiếm khuyết di truyền nào."
+
+ last_copy_of_the_prince: "Bản Sao Cuối Cùng Của Quân Vương"
+ last_copy_of_the_prince_desc_short: "Một tác phẩm văn học khá bình dân nhưng được người [EVENT_TARGET_0.GetSpeciesName] tôn kính, họ từng tin rằng nó đã thất lạc vĩnh viễn trong một trận đột kích"
+ last_copy_of_the_prince_desc_details: "Cuốn sách bàn về nghệ thuật trị quốc, thủ đoạn quyền lực và tính thực dụng chính trị, một kim chỉ nam kinh điển cho các nhà cai trị xuyên suốt các thời kỳ lịch sử."
+
+ last_fragment_fevor: "Mảnh Vỡ Cuối Cùng Của Fevor"
+ last_fragment_fevor_desc_short: "Một tảng đá địa chất còn sót lại từ thế giới quê hương Fevor đã bị phá hủy"
+ last_fragment_fevor_desc_details: "Chính sách diệt chủng của người Fevorian lan rộng tới mọi sự sống ngoại tinh đã biết, bằng cách phóng ra những viên đạn vonfram khổng lồ suýt nữa đã hủy diệt hoàn toàn [EVENT_TARGET_0.GetHomeWorldName]. Giờ đây chính họ đã sụp đổ, bị xóa sổ trong chớp mắt bởi chính những sinh vật mà họ từng tìm cách tiêu diệt."
+
+ last_general_badge: "Huy Hiệu Của Vị Tướng Cuối Cùng"
+ last_general_badge_desc_short: "Huân chương quân sự cao quý trao cho vị tướng bảo vệ pháo đài cuối cùng của một đế chế sụp đổ"
+ last_general_badge_desc_details: "Được đúc từ bạch kim và gắn ngọc đỏ thẫm, huy hiệu là biểu tượng thiêng liêng của lòng kiên trinh và tinh thần bất khuất trước sự áp đảo của quân thù."
+
+ last_mharin_kharin: "Bông Hoa Mharin Kharin Cuối Cùng"
+ last_mharin_kharin_desc_short: "Mẫu hoa tươi vĩnh cửu của loài thực vật kỳ dị Mharin Kharin"
+ last_mharin_kharin_desc_details: "Loài hoa này từng gây ra những biến đổi tâm sinh lý sâu sắc cho cư dân thuộc địa thông qua hương thơm biến đổi gen của nó, nay được lưu giữ an toàn trong lồng chân không."
+
+ leviathan_scale: "Vảy Thủy Quái Leviathan"
+ leviathan_scale_desc_short: "Một tấm vảy thiết giáp khổng lồ rụng ra từ cơ thể quái thú không gian Leviathan"
+ leviathan_scale_desc_details: "Dày hàng mét và cứng hơn hầu hết các hợp kim quân sự tiên tiến nhất, tấm vảy này có khả năng làm chệch hướng các chùm tia laser và đạn pháo năng lượng cao."
+
+ living_snow_sculpture: "Tượng Tuyết Sống"
+ living_snow_sculpture_desc_short: "Tác phẩm điêu khắc băng tuyết tự chuyển động và thay đổi hình thái"
+ living_snow_sculpture_desc_details: "Sở hữu một dạng ý thức sơ khai nào đó, vật liệu này đã được cấp một khu bảo tồn tự nhiên trên [EVENT_TARGET_0.GetName]. Nó thường xuyên thay đổi hình thái, dù thời điểm xảy ra điều này là không thể đoán trước."
+
+ localised_aurora_borealis: "Cực Quang Định Xứ"
+ localised_aurora_borealis_desc_short: "Một loạt màu sắc lấp lánh được ghi lại trong video từ bầu khí quyển của [EVENT_TARGET_0.GetName]"
+ localised_aurora_borealis_desc_details: "Ánh sáng xanh lục và tím nhảy múa liên tục bên trong quả cầu nhờ sự ion hóa các hạt khí quyển hiếm, tạo nên một cảnh tượng ngoạn mục đầy mê hoặc."
+
+ loopmail: "Thư Vòng Lặp Loopmail"
+ loopmail_desc_short: "Những dòng ghi chú này được [EVENT_TARGET_0.GetName] gửi từ nhiều năm trong tương lai, cung cấp sự hướng dẫn chuẩn xác về nơi phân công các nhà khoa học và những nỗ lực nghiên cứu cần theo đuổi"
+ loopmail_desc_details: "Bức thư được gửi đi vào tương lai nhưng lại nhận được trong quá khứ, nội dung bức thư liên tục tự sửa đổi dựa trên các phản hồi mà người gửi chưa hề viết ra."
+
+ lunatic_broker_therapy_box: "Hộp Trị Liệu Của Môi Giới Điên Loạn"
+ lunatic_broker_therapy_box_desc_short: "Chiếc hộp chứa các dụng cụ an thần và đồ chơi giải tỏa căng thẳng của một tay buôn chợ đen"
+ lunatic_broker_therapy_box_desc_details: "Bên trong chứa đầy các tinh thể xoa dịu thần kinh và các cuộn băng ghi âm những lời khẳng định tích cực méo mó, phản ánh áp lực tâm lý khủng khiếp trong thế giới ngầm thiên hà."
+
+ manifesti_piece: "Bài Xã Luận Phái Manifesti"
+ manifesti_piece_desc_short: "Tập bản thảo châm biếm chính trị cay độc của phong trào nghệ thuật tiên phong Manifesti"
+ manifesti_piece_desc_details: "Sử dụng lối hành văn phi lý và những phép ẩn dụ lố bịch, tác phẩm đả kích sự quan liêu của chính quyền và kêu gọi một cuộc nổi loạn văn hóa tự do."
+
+# this = ship / from = planet
+ manna_fruit: "Quả Manna"
+ manna_fruit_desc_short: "Trái cây ngọt ngào và bổ dưỡng thu hoạch từ một thế giới thiên đường nguyên sinh"
+ manna_fruit_desc_details: "Thành phần đất độc đáo trong các khu rừng nhiệt đới trên hành tinh quê hương của nó đã mang lại môi trường hoàn hảo cho sự sinh sôi rộng rãi. Cư dân thuộc địa trên hành tinh này sử dụng nó trong hầu hết mọi bối cảnh ẩm thực; từ món hầm, món bánh, cho đến cocktail. Hình ảnh của nó được khắc họa nổi bật trên lá cờ của hành tinh [EVENT_TARGET_0.GetName]."
+
+# this = ship / FROMFROM = planet
+ massive_metatarsal: "Xương Bàn Chân Khổng Lồ"
+ massive_metatarsal_desc_short: "Những hài cốt này được thu thập trong quá trình kiểm tra sâu các mảnh vỡ xương khổng lồ trên [EVENT_TARGET_0.GetName]"
+ massive_metatarsal_desc_details: "Cấu trúc xốp chịu lực phi thường của đoạn xương này cung cấp gợi ý quý giá cho các kỹ sư xây dựng về thiết kế các cột trụ chịu tải siêu trọng cho các đại đô thị."
+
+# this = country
+ medal_for_services_to_diplomacy: "Huân Chương Cống Hiến Ngoại Giao"
+ medal_for_services_to_diplomacy_desc_short: "Huân chương danh dự trao tặng cho các nhà ngoại giao xuất sắc đã ngăn chặn chiến tranh liên sao"
+ medal_for_services_to_diplomacy_desc_details: "Dòng chữ khắc ở mặt sau ghi: \"Là người đón nhận giải thưởng này, Phái đoàn Ngoại giao của [EVENT_TARGET_0.GetName] đã thể hiện tính chuyên nghiệp và khả năng đại diện hiệu quả cho các nhà lãnh đạo của họ, đồng thời là một tài sản thực sự cho cộng đồng thiên hà.\""
+
+ megacorpse_hyperguitar: "Cây Siêu Đàn Của Nhạc Rock Tử Thi"
+ megacorpse_hyperguitar_desc_short: "Nhạc cụ dây điện tử siêu nạp được chế tạo bởi ban nhạc kim loại nặng ngoài không gian"
+ megacorpse_hyperguitar_desc_details: "Thiết bị này được cho là đã được rèn bên trong Tấm Màn và ban đầu dự định dùng làm vũ khí sóng âm. Được thủ lĩnh biểu diễn Kel-Azaan sử dụng, âm nhạc của nó đã hớp hồn hàng tỷ tâm trí trước khi bị đập vỡ trên [EVENT_TARGET_0.GetName], tiêu diệt toàn bộ khán giả trong ánh hào quang rực rỡ. Album liên quan từ đó đã bị cấm ở hầu hết các hệ sao."
+
+# this = country / from = ship
+ memorial_for_bubbles: "Tưởng Niệm [EVENT_TARGET_0.GetName]"
+ memorial_for_bubbles_desc_short: "Sau nhiều năm phục vụ trung thành, [EVENT_TARGET_0.GetName] đã qua đời, để lại một khoảng trống to lớn bằng kích cỡ một chú trùng biến hình trong lòng [EVENT_TARGET_1.GetName] mà không gì có thể lấp đầy"
+ memorial_for_bubbles_desc_details: "[EVENT_TARGET_0.GetName] không chỉ là một người bảo vệ trung thành, mà còn là tấm gương sáng ngời về những điều có thể đạt được khi những giá trị tốt đẹp nhất của [EVENT_TARGET_1.GetAdjective] được đưa ra ánh sáng. Chú đã ra đi, nhưng sẽ không bao giờ bị lãng quên."
+
+ memorial_stone: "Bia Đá Tưởng Niệm"
+ memorial_stone_desc_short: "Phiến đá hoa cương khắc những lời tưởng niệm chân thành dành cho những người đã khuất"
+ memorial_stone_desc_details: "Mỗi dòng chữ khắc sâu trên đá là một lời nhắc nhở về sự hữu hạn của kiếp người và những cống hiến thầm lặng đã xây đắp nên nền hòa bình của ngày hôm nay."
+
+ memorial_to_homeworld: "Đài Tưởng Niệm [EVENT_TARGET_0.GetName]"
+ memorial_to_homeworld_desc_short: "Đây là tất cả những gì còn sót lại từ thế giới quê hương [EVENT_TARGET_1.GetAdjective] đã chịu số phận bi thảm"
+ memorial_to_homeworld_desc_details: "[EVENT_TARGET_0.GetName] là ngôi nhà cho mọi thế hệ trước của loài [EVENT_TARGET_1.GetSpeciesName] trước khi nó tự xé toạc một cách bi thảm. Đài tưởng niệm cuối cùng này làm nổi bật sức mạnh ý chí của [EVENT_TARGET_1.GetName], có thể thích nghi và vượt qua ngay cả trong những hoàn cảnh thử thách nhất: \"Chúng ta sẽ tiếp bước.\""
+
+ memories_of_elik: "Ký Ức Của Elik"
+ memories_of_elik_desc_short: "Khối lưu trữ ký ức toàn phần của nhà thám hiểm không gian tiên phong Elik"
+ memories_of_elik_desc_details: "Chứa đựng những cảm xúc choáng ngợp khi lần đầu tiên nhìn thấy một tinh vân rực rỡ và những hiểm nguy thót tim khi đối mặt với bão từ trường vũ trụ trong những ngày đầu khai phá."
+
+ memory_orbs: "Khối Cầu Ký Ức"
+ memory_orbs_desc_short: "Các quả cầu thủy tinh phát quang lưu giữ những khoảnh khắc cảm xúc thăng hoa"
+ memory_orbs_desc_details: "Khi chạm vào, các khối cầu truyền tải trực tiếp những cảm xúc vui sướng, hy vọng và lòng dũng cảm vào tâm trí người quan sát thông qua các rung động cảm ứng thần kinh dịu dàng."
+
+ mercenary_story: "Truyện Kể Lính Đánh Thuê"
+ mercenary_story_desc_short: "Câu chuyện được ghi lại bằng kỹ thuật số này ban đầu được tìm thấy khi khắc trên bề mặt của [EVENT_TARGET_0.GetName] bằng laser khai mỏ"
+ mercenary_story_desc_details: "Những câu chuyện chiến trường chân thực ghi lại những cuộc đọ súng nghẹt thở giữa các tiểu hành tinh và tình đồng đội keo sơn giữa những người lính kiếm sống bằng súng đạn."
+
+ metallic_snow: "Tuyết Kim Loại"
+ metallic_snow_desc_short: "Hợp chất kim loại nặng này là một thành phần chính trong các hình thái thời tiết trên [EVENT_TARGET_0.GetName]"
+ metallic_snow_desc_details: "Chảy từ các dòng sông nóng chảy vào một biển kim loại bao la, sau đó nó bốc hơi vào bầu khí quyển ăn mòn. Khi nguội đi, nó ngưng tụ và mưa trở lại bề mặt thiêu đốt. Không khuyến khích ghé thăm [EVENT_TARGET_0.GetName] trong tình trạng hiện tại của nó."
+
+ minamar_chandelier: "Đèn Chùm Minamar"
+ minamar_chandelier_desc_short: "Đồ trang trí xa hoa được tìm thấy nguyên vẹn trong chiến hạm $ADJ_MSI_country$ bị rơi"
+ minamar_chandelier_desc_details: "Ngoài mục đích quân sự, con tàu này còn được sử dụng cho các chiến dịch tiếp xúc đầu tiên với các quốc gia khách hàng [EVENT_TARGET_0.Owner.GetPreFTLLower] tiềm năng. $NAME_MSI_country$ sử dụng những lời hứa hẹn về sự xa hoa và tiến bộ để lừa gạt toàn bộ các nền văn minh trở thành nô lệ khế ước của họ, trói buộc họ vào những hợp đồng vô đạo đức và đe dọa hủy diệt nếu họ không tuân theo.\n\n§BSự khai sáng có thể không miễn phí. Nhưng tại $NAME_MSI_country_initials$, nó luôn xứng đáng với cái giá phải trả.§!"
+
+ mineralized_brain: "Bộ Não Khoáng Hóa"
+ mineralized_brain_desc_short: "Hài cốt của một loài thạch nhân (lithoid) khổng lồ, đây là một cơ quan não bộ từng quay quanh quỹ đạo [EVENT_TARGET_0.GetName] bên trong một tiểu hành tinh"
+ mineralized_brain_desc_details: "Từng nếp nhăn và rãnh vỏ não được bảo tồn với độ chi tiết đến kinh ngạc, cho phép các nhà giải phẫu thần kinh nghiên cứu kiến trúc tư duy của một loài cổ xưa đã tuyệt chủng."
+
+ mini_moon_dust: "Bụi Mặt Trăng Thu Nhỏ"
+ mini_moon_dust_desc_short: "Mẫu đất mịn thu thập từ bề mặt của một vệ tinh tự nhiên siêu nhỏ"
+ mini_moon_dust_desc_details: "Không hề chịu ảnh hưởng của xói mòn khí quyển, các hạt bụi sắc nhọn này lưu giữ thành phần nguyên thủy của tinh vân tiền mặt trời từ hàng tỷ năm trước."
+
+ mining_transmitter: "Bộ Phát Tín Hiệu Khai Mỏ Cổ Đại"
+ mining_transmitter_desc_short: "Một bộ phát tín hiệu tầm ngắn được tìm thấy trên [EVENT_TARGET_0.GetName] dùng để đánh dấu một mỏ kim loại quý lớn"
+ mining_transmitter_desc_details: "Mặc dù đã cũ kỹ, các mạch khuếch đại vi ba của thiết bị vẫn có thể gửi tín hiệu đi hàng năm ánh sáng với mức tiêu hao năng lượng cực thấp."
+
+ miracle_cream: "Kem Phép Màu \"Trường Sinh\""
+ miracle_cream_desc_short: "Lọ kem dưỡng da thần kỳ được quảng cáo là có thể đảo ngược hoàn toàn quá trình lão hóa"
+ miracle_cream_desc_details: "Phân tích hóa học cho thấy kem chứa các hạt nano phục hồi tế bào và chất chống oxy hóa cực mạnh, một sản phẩm thương mại đình đám của các tập đoàn dược phẩm vũ trụ."
+
+ missile_lone_defender: "Tên Lửa Kẻ Phòng Thủ Đơn Độc"
+ missile_lone_defender_desc_short: "Quả tên lửa cuối cùng chưa khai hỏa của một trạm phòng thủ tự động bị cô lập"
+ missile_lone_defender_desc_details: "Hệ thống dẫn đường AI của tên lửa đã trung thành chờ đợi lệnh khai hỏa suốt nhiều thế kỷ trong sự cô độc, một nhân chứng câm lặng của một tiền đồn biên ải bị quên lãng."
+
+ molten_slag: "Xỉ Nóng Chảy Cấp Hành Tinh"
+ molten_slag_desc_short: "Khối xỉ khoáng sản đông cứng thu được sau trận oanh tạc hủy diệt bề mặt hành tinh"
+ molten_slag_desc_details: "Phân tích vật liệu cho thấy [EVENT_TARGET_0.GetName] đã bị một dị thường không-thời gian thoáng qua kéo vào một quỹ đạo khắc nghiệt, sức nóng dữ dội từ sự gần kề của ngôi sao mẹ đã làm tan chảy phần lớn lớp manti của hành tinh từng có thể sinh sống này. Một phần của hành tinh đã bị dị thường làm thay đổi về mặt hóa học và không còn phản ứng với sự thay đổi nhiệt độ nữa."
+
+ musings_on_infinity: "Trầm Tư Tập Thể Về Sự Vô Hạn"
+ musings_on_infinity_desc_short: "Tuyển tập các tiểu luận triết học sâu sắc bàn về bản chất của không gian và thời gian vô tận"
+ musings_on_infinity_desc_details: "Những cá thể này đã có thể nhìn nhận [EVENT_TARGET_0.GetName] một cách khách quan như một thực thể riêng biệt trong khi vẫn duy trì kết nối của chúng với tập thể. Khoảng cách này mang lại cho chúng sự hiểu biết sâu sắc, cho phép chúng tồn tại như những người đọc câu chuyện vĩ đại của chính mình."
+
+ mutated_fumongus: "Nấm Biến Dị 'Fumongus'"
+ mutated_fumongus_desc_short: "Mẫu vật khổng lồ của một loài nấm đột biến có thể vươn cao như những tòa nhà chọc trời"
+ mutated_fumongus_desc_details: "Loài nấm khổng lồ này hấp thụ các chất phóng xạ trong lòng đất và phát tán các đám mây bào tử huỳnh quang rực rỡ vào ban đêm, tạo nên một hệ sinh thái kỳ ảo độc nhất vô nhị."
+
+ mutative_digestive_fluids: "Dịch Tiêu Hóa Đột Biến"
+ mutative_digestive_fluids_desc_short: "Lọ chứa dịch vị có khả năng biến đổi cấu trúc tế bào của các chất hữu cơ tiếp xúc"
+ mutative_digestive_fluids_desc_details: "Thu được từ dạ dày của một quái thú không gian biến dị, chất lỏng này không chỉ phân giải thức ăn mà còn kích thích sự biến đổi gen nhanh chóng của các sinh vật sống sót."
+
+ namarian_colonist_standard: "Cờ Hiệu Thuộc Địa Namarian"
+ namarian_colonist_standard_desc_short: "Lá cờ này đánh dấu sự định cư của [EVENT_TARGET_0.GetName] trên [EVENT_TARGET_1.GetName], được trao tặng hào phóng bởi [EVENT_TARGET_2.GetName]"
+ namarian_colonist_standard_desc_details: "Được đúc từ hợp kim nhẹ và chịu được bão cát sa mạc, lá cờ hiệu này từng được cắm trên đỉnh ngọn đồi đầu tiên của thế giới mới, đánh dấu sự khởi đầu của một kỷ nguyên định cư đầy kiêu hãnh."
+
+ namarian_sculpture: "Tác Phẩm Điêu Khắc Namarian"
+ namarian_sculpture_desc_short: "Bức tượng đa chất liệu được xây dựng như một biểu hiện của lòng biết ơn từ nhóm du mục Pursuing Waters gia nhập [EVENT_TARGET_1.GetName]"
+ namarian_sculpture_desc_details: "Khi hạ cánh xuống [EVENT_TARGET_0.GetName], những người du mục trước đây đã mang theo chuyên môn công nghệ sâu rộng của họ. Tuy nhiên, họ không muốn chỉ được biết đến như những thợ sửa chữa và kỹ sư; tác phẩm này là minh chứng cho tính nghệ thuật và nguồn cảm hứng đến từ hành trình du hành khắp thiên hà."
+
+ namarian_vessel_heraldry: "Huy Hiệu Chiến Hạm Namarian"
+ namarian_vessel_heraldry_desc_short: "Tấm huy hiệu kim loại gắn trên kỳ hạm của hạm đội hải quân Namarian"
+ namarian_vessel_heraldry_desc_details: "Khắc hình một con chim ưng sải cánh bay giữa hai mặt trời đôi, huy hiệu biểu thị lòng dũng cảm và tinh thần bảo vệ chủ quyền lãnh hải không gian của các chiến binh Namarian."
+
+ nanite_sludge: "Bùn Nanite"
+ nanite_sludge_desc_short: "Một khối chất lỏng sệt màu xám gồm hàng tỷ cỗ máy nanite siêu nhỏ đang ngủ yên"
+ nanite_sludge_desc_details: "Mật độ của những nanite này thật đáng kinh ngạc, bổ sung hàng tỷ tấn khối lượng cho [EVENT_TARGET_0.GetName] nơi chúng được phát hiện. Người ta giả thuyết rằng những nanite này đã bị trục trặc và bước vào giai đoạn sinh sản không kiểm soát, nhấn chìm hoàn toàn hành tinh của chúng và do đó hủy diệt những cư dân trước đây. Mẫu vật đặc biệt này đã bị vô hiệu hóa hoàn toàn."
+
+ obsidian_obelisk_fragment: "Mảnh Bia Hắc Diệu Thạch"
+ obsidian_obelisk_fragment_desc_short: "Mảnh vỡ nhẵn bóng từ một đài tưởng niệm hắc diệu thạch cổ đại"
+ obsidian_obelisk_fragment_desc_details: "Bề mặt đen tuyền của mảnh vỡ được khắc những văn tự cổ ngữ phản quang bí ẩn, mô tả sự tôn sùng bóng tối và các hố đen của một nền văn minh duy linh tiền sử."
+
+ oiled_fabric: "Vải Tẩm Dầu"
+ oiled_fabric_desc_short: "Tấm vải dệt cổ được tẩm các loại dầu thơm và nhựa cây bảo quản hoàn hảo"
+ oiled_fabric_desc_details: "Các hoa văn thêu dệt bằng sợi chỉ bạc trên tấm vải mô tả nghi thức mai táng hoàng gia, cho thấy sự khéo léo phi thường trong nghệ thuật dệt may của các cư dân cổ xưa."
+
+ organic_computer: "Máy Tính Hữu Cơ"
+ organic_computer_desc_short: "Một máy tính hữu cơ hóa thạch được tìm thấy trong tàn tích của thuộc địa Baol trên [EVENT_TARGET_0.GetName]"
+ organic_computer_desc_details: "Khác với máy tính bán dẫn truyền thống, cỗ máy này sử dụng các xung điện hóa sinh học và khớp thần kinh nhân tạo để xử lý các bài toán logic phi tuyến tính với tốc độ kinh ngạc và mức tiêu thụ năng lượng tối thiểu."
+
+ organic_machine_interface_sculpture: "Điêu Khắc Giao Diện Cơ-Sinh"
+ organic_machine_interface_sculpture_desc_short: "Một bức tượng kỷ niệm để ghi nhận sự phục vụ của các dân cư sinh học [EVENT_TARGET_0.GetSpeciesName] trong một trận bão mặt trời địa từ tại [EVENT_TARGET_1.GetName]"
+ organic_machine_interface_sculpture_desc_details: "Các ống dẫn kim loại và dây cáp quang đan xen hài hòa với các mô sợi cơ bắp nhân tạo, minh chứng cho tầm nhìn triết học về sự kết hợp tất yếu giữa sinh mệnh và công nghệ."
+
+ orinthi_teeth: "Răng Nanh Orinthi"
+ orinthi_teeth_desc_short: "Bộ răng nanh hóa thạch sắc nhọn của loài thú săn mồi nguy hiểm Orinthi"
+ orinthi_teeth_desc_details: "Là những sinh vật nhỏ giống loài gặm nhấm, người Orinthi đã đào những hang ổ mê cung trải rộng khắp thế giới trên [EVENT_TARGET_0.GetName]. Răng tự nhiên của chúng nhỏ và rỗng, nhưng một loài nấm chất sừng cộng sinh sống trong từng chiếc răng riêng lẻ và tạo thành những chiếc răng nanh sắc nhọn, giòn tan để người Orinthi sử dụng."
+
+ osseus_construction_material: "Vật Liệu Xây Dựng Bằng Xương"
+ osseus_construction_material_desc_short: "Những khúc xương khổng lồ này từng được sử dụng làm nguồn tài nguyên vật liệu trên [EVENT_TARGET_0.GetName]"
+ osseus_construction_material_desc_details: "Được xử lý bằng nhiệt và áp suất cao, khối vật liệu này nhẹ hơn bê tông nhưng có độ bền kéo ngang ngửa thép cường lực, từng là nền tảng xây dựng các thành phố vĩ đại của một chủng tộc du mục."
+
+ path_to_progress: "Con Đường Tiến Bộ"
+ path_to_progress_desc_short: "Bản trình bày chính thức tuyên bố sứ mệnh công nghiệp của [EVENT_TARGET_0.Owner.GetName]"
+ path_to_progress_desc_details: "Khao khát tăng trưởng và nâng cao sự hài lòng của khách hàng bằng mọi giá là nguyên lý cốt lõi trong hệ tư tưởng [EVENT_TARGET_0.Owner.GetAdjective]. Biến các hành tinh thành những vùng đất hoang bị nhiễm xạ là một bước đi cần thiết trong cuộc theo đuổi sự tiến bộ không ngừng."
+
+ peerless_atomic_clock: "Đồng Hồ Nguyên Tử Vô Song"
+ peerless_atomic_clock_desc_short: "Thiết bị đo thời gian siêu chuẩn xác dựa trên tần số chuyển đổi quang học của nguyên tử stronti"
+ peerless_atomic_clock_desc_details: "Với độ sai lệch chỉ một giây sau hàng trăm triệu năm hoạt động liên tục, chiếc đồng hồ này là tiêu chuẩn thời gian tuyệt đối của một liên minh thương mại cổ đại."
+
+ perception_of_infinity: "Nhận Thức Về Sự Vô Hạn"
+ perception_of_infinity_desc_short: "Tác phẩm hội họa ảo ảnh thị giác biểu thị sự bất tận của không-thời gian"
+ perception_of_infinity_desc_details: "Những cá thể này tồn tại trong trạng thái deja-vu triền miên; bất an, khao khát một cảm giác đã bị lãng quên từ lâu. Cảm giác điềm báo này vẫn được phát hiện lờ mờ trên khắp mạng lưới tâm trí [EVENT_TARGET_0.GetAdjective]."
+
+ perfectly_faceted_carbon: "Khối Carbon Cắt Mặt Hoàn Mỹ"
+ perfectly_faceted_carbon_desc_short: "Một viên kim cương nhân tạo khổng lồ được cắt gọt với độ chính xác đến từng nguyên tử"
+ perfectly_faceted_carbon_desc_details: "Hàng ngàn mặt cắt hoàn hảo khúc xạ ánh sáng thành cầu vồng rực rỡ không tì vết. Nó vừa là một tác phẩm nghệ thuật vô giá vừa là thấu kính lý tưởng cho các hệ thống laser siêu công suất."
+
+ pet_collar: "Vòng Cổ Thú Cưng Nạm Ngọc"
+ pet_collar_desc_short: "Vòng đeo cổ bằng da thuộc cao cấp nạm đầy các viên ngọc quý lấp lánh"
+ pet_collar_desc_details: "Vật này ban đầu được đặc phái viên [EVENT_TARGET_0.GetName] của [EVENT_TARGET_1.GetName] sử dụng phòng trường hợp người bạn đồng hành quý giá của họ bị lạc. Kể từ đó nó đã được thay thế bằng một vi mạch nhúng đáng tin cậy hơn. Sinh vật tính khí thất thường này thường được thấy quấy rầy bàn làm việc của chủ nhân, và sẽ phát ra tiếng rung thỏa mãn mỗi khi [EVENT_TARGET_0.GetName] chạm vào đầu nó bằng [EVENT_TARGET_0.Species.GetHandName] của mình."
+
+ perikan_tapico_jewel: "Ngọc Quý Perikan Tapico"
+ perikan_tapico_jewel_desc_short: "Viên ngọc phát quang sinh học tự nhiên thu hoạch từ lòng sâu của đại dương Perikan"
+ perikan_tapico_jewel_desc_details: "Được hình thành bên trong cơ thể của một loài trai khổng lồ sống quanh các miệng phun thủy nhiệt, viên ngọc phát ra ánh sáng lam ngọc êm dịu và thay đổi màu sắc theo chu kỳ thủy triều."
+
+ piece_of_invocator: "Mảnh Vỡ Bộ Hiệu Triệu"
+ piece_of_invocator_desc_short: "Một mảnh linh kiện từ cỗ máy hiệu triệu tâm linh cổ xưa dùng để liên lạc với Tấm Màn"
+ piece_of_invocator_desc_details: "Dù đã hỏng nặng, mảnh vỡ vẫn liên tục rung động theo các tần số tâm linh siêu nhiên, thì thầm những âm thanh vô hình vào tâm trí những ai đứng gần."
+
+ pilgrimage_last_days: "Chuyến Hành Hương Của Những Ngày Cuối"
+ pilgrimage_last_days_desc_short: "Một tài liệu tôn giáo mô tả nghi lễ thiêng liêng có tên 'Nghi Lễ Vén Màn' trên [EVENT_TARGET_0.GetName]"
+ pilgrimage_last_days_desc_details: "Những trang viết chân thực phản ánh đức tin bất diệt và sự thanh thản kỳ lạ của hàng triệu con người khi thanh thản đối mặt với sự hủy diệt sắp ập đến từ siêu tân tinh."
+
+ planet_crystalose: "Đường Tinh Thể [EVENT_TARGET_0.GetName]"
+ planet_crystalose_desc_short: "Mẫu khoáng chất kết tinh ngọt tự nhiên thu hoạch trên [EVENT_TARGET_0.GetName]"
+ planet_crystalose_desc_details: "Có vị ngọt thanh khiết gấp hàng trăm lần đường mía nhưng hoàn toàn không chứa calo tiêu cực, loại đường tinh thể độc đáo này là một mặt hàng xa xỉ phẩm được săn đón khắp các bàn tiệc thiên hà."
+
+ planet_pushing_thruster: "Động Cơ Đẩy Hành Tinh"
+ planet_pushing_thruster_desc_short: "Mô hình thu nhỏ của một siêu động cơ nhiệt hạch khổng lồ dùng để dịch chuyển quỹ đạo hành tinh"
+ planet_pushing_thruster_desc_details: "Được thiết kế để cứu một thế giới khỏi bị ngôi sao mẹ nuốt chửng khi nở thành sao khổng lồ đỏ, công trình vĩ đại này minh chứng cho ý chí sinh tồn kiên cường của các nền văn minh tiên tiến."
+
+ planet_super_roots: "Siêu Rễ Cây [EVENT_TARGET_0.GetName]"
+ planet_super_roots_desc_short: "Mẫu rễ cây khổng lồ đâm sâu hàng chục cây số vào lớp vỏ của [EVENT_TARGET_0.GetName]"
+ planet_super_roots_desc_details: "Hệ thống rễ siêu phàm này đóng vai trò như mạng lưới ổn định địa tầng tự nhiên, ngăn ngừa động đất và vận chuyển khoáng chất từ manti hành tinh lên nuôi dưỡng thảm thực vật bề mặt."
+
+ planet_vaccine: "Vắc-Xin [EVENT_TARGET_0.GetName]"
+ planet_vaccine_desc_short: "Liều vắc-xin tổng hợp đầu tiên đã dập tắt đại dịch nguy hiểm trên [EVENT_TARGET_0.GetName]"
+ planet_vaccine_desc_details: "Được phát triển trong cuộc chạy đua nghẹt thở với thời gian bởi các nhà dịch tễ học quả cảm, mẫu chế phẩm này đã cứu sống hàng tỷ cư dân thuộc địa thoát khỏi họa diệt vong."
+
+ planetary_sculpture: "Điêu Khắc Cấp Hành Tinh"
+ planetary_sculpture_desc_short: "Một ví dụ về nghệ thuật điêu khắc trên quy mô hành tinh sử dụng bề mặt của [EVENT_TARGET_0.GetName] làm nguyên liệu thô"
+ planetary_sculpture_desc_details: "Có thể nhìn thấy rõ từ quỹ đạo vũ trụ, các rãnh và gờ đất nhân tạo này tạo thành bức chân dung khổng lồ của một vị lãnh tụ khai quốc huyền thoại."
+
+ primitive_mega_electromagnet: "Đại Nam Châm Điện Nguyên Thủy"
+ primitive_mega_electromagnet_desc_short: "Một khối nam châm điện đồ sộ chế tạo từ sắt non và dây đồng dày của một nền văn minh sơ khai"
+ primitive_mega_electromagnet_desc_details: "Những cư dân cổ đại của [EVENT_TARGET_0.GetName] đã dại dột sử dụng thiết bị này để kéo mặt trăng của hành tinh họ lại gần hơn nhằm thu hoạch quặng kim loại quý dễ dàng hơn. Cách tiếp cận này quá hiệu quả, khiến mặt trăng đầy kim loại đâm sầm vào bề mặt hành tinh và tiêu diệt mọi cư dân trong vụ va chạm sau đó. Mẫu vật này chỉ là một phần nhỏ có thể thu hồi được từ cỗ máy bao trùm hành tinh."
+
+ programmable_puzzle_cube: "Khối Lập Phương Xếp Hình Lập Trình"
+ programmable_puzzle_cube_desc_short: "Đồ chơi giải đố thông minh bằng hợp kim nhớ hình có khả năng tự biến hóa hàng triệu tổ hợp"
+ programmable_puzzle_cube_desc_details: "Được sử dụng trong các học viện vũ trụ để rèn luyện tư duy không gian và phản xạ chiến thuật cho các sĩ quan chỉ huy tương lai, món đồ chơi này thử thách ngay cả những bộ óc thông minh nhất."
+
+ psionic_entity_residue: "Tàn Dư Thực Thể Tâm Linh"
+ psionic_entity_residue_desc_short: "Tất cả những gì còn lại của một thực thể năng lượng tâm linh thuần túy được tìm thấy bên trong [EVENT_TARGET_0.GetName]"
+ psionic_entity_residue_desc_details: "Mẫu vật chất này liên tục bốc hơi và ngưng tụ theo những mô thức kỳ ảo, phát ra các sóng cảm xúc dao động nhẹ làm xoa dịu tâm trí các nhà nghiên cứu làm việc xung quanh."
+
+ radiated_remains: "Hài Cốt Bị Nhiễm Xạ"
+ radiated_remains_desc_short: "Mẫu xương hóa thạch phát quang do hấp thụ lượng phóng xạ hạt nhân khổng lồ"
+ radiated_remains_desc_details: "Thu hồi từ đống tro tàn của một Thế Giới Mộ Địa (Tomb World), hài cốt này là lời cảnh tỉnh đầy ám ảnh về sự tự hủy diệt của một nền văn minh sa vào bẫy chiến tranh hạt nhân."
+
+# this = ship / from = planet
+ rainaissance: "Phục Hưng Mưa Tím"
+ rainaissance_desc_short: "Những hình ảnh nghệ thuật chụp lại cơn mưa màu tím độc đáo có trong các hình thái thời tiết của [EVENT_TARGET_0.GetName]"
+ rainaissance_desc_details: "Sử dụng các chất màu chiết xuất từ tảo biển tím, tác phẩm thể hiện niềm lạc quan vô bờ bến và sự thăng hoa văn hóa của một xã hội vừa vượt qua thời kỳ tăm tối."
+
+ reactive_rock: "Đá Phản Ứng"
+ reactive_rock_desc_short: "Mẫu khoáng thạch kỳ lạ có khả năng thay đổi màu sắc và độ cứng ngay lập tức khi chịu tác động lực"
+ reactive_rock_desc_details: "Khi bị va chạm mạnh, cấu trúc mạng tinh thể bên trong đá tự động sắp xếp lại thành pha siêu cứng, cung cấp ý tưởng đột phá cho việc chế tạo giáp phản ứng nổ thông minh."
+
+ reparation_invoice: "Hóa Đơn Bồi Thường Chiến Tranh"
+ reparation_invoice_desc_short: "Một hóa đơn đòi bồi thường chiến tranh do $NAME_MSI_country$ gửi tới"
+ reparation_invoice_desc_details: "Được soạn thảo bởi Công ty Quản lý Tín dụng Liên sao, danh sách này nêu chi tiết mọi tài sản quân sự bị mất khi [EVENT_TARGET_0.GetName] thoát khỏi thân phận nô lệ khế ước đối với cái gọi là 'Tập đoàn Nhân từ'. Siêu Tập đoàn này mong muốn được bồi hoàn cho những thiệt hại này, và thậm chí tuyên bố rằng việc chạm vào những con tàu bị phá hủy trong không phận [EVENT_TARGET_0.GetAdjective] sẽ là một sự vi phạm hợp đồng tiếp theo."
+
+ repurposed_cleaning_drone: "Drone Quét Dọn Tái Tận Dụng"
+ repurposed_cleaning_drone_desc_short: "Một robot quét dọn vệ sinh dân sự được các phiến quân nâng cấp tạm bợ thành vũ khí chiến đấu"
+ repurposed_cleaning_drone_desc_details: "Nó rất linh hoạt và có thể thực hiện các động tác nhào lộn phức tạp trên không nhờ hệ thống động cơ đẩy đa hướng. Cỗ máy này đã được thiết kế đảo ngược và tái sử dụng để nhận dạng và phân loại hệ thực vật và động vật ngoại tinh, sau đó đã được sản xuất hàng loạt để hỗ trợ các nỗ lực thuộc địa hóa trên khắp [EVENT_TARGET_0.explorer.GetName]. Để phòng ngừa, tất cả các chương trình con làm sạch của nó đã bị xóa."
+
+ resonant_diffusion_crystal: "Tinh Thể Khuyếch Tán Cộng Hưởng"
+ resonant_diffusion_crystal_desc_short: "Khối tinh thể quang học có khả năng khuyếch đại và phân tán các bước sóng ánh sáng hài hòa"
+ resonant_diffusion_crystal_desc_details: "Khi một chùm laser chiếu vào tinh thể, nó được chia tách thành hàng ngàn chùm tia kết hợp có độ tập trung hoàn hảo, một linh kiện cốt lõi trong các hệ thống truyền dẫn thông tin quang học liên sao."
+
+ retarax_hunting_trophies: "Chiến Lợi Phẩm Săn Bắn Retarax"
+ retarax_hunting_trophies_desc_short: "Bộ sưu tập sừng và nanh vuốt quái thú của một thợ săn huyền thoại người Retarax"
+ retarax_hunting_trophies_desc_details: "Mỗi chiến lợi phẩm đều đi kèm với các dấu khắc ghi lại ngày tháng và địa điểm của những cuộc sinh tử chiến nghẹt thở trong các khu rừng rậm hoang sơ khắp thiên hà."
+
+ robe_of_the_golden_broker: "Áo Choàng Của Môi Giới Vàng"
+ robe_of_the_golden_broker_desc_short: "Tấm áo choàng dệt bằng sợi vàng tinh xảo từng thuộc về một trùm tài phiệt thị trường chợ đen"
+ robe_of_the_golden_broker_desc_details: "Lộng lẫy và tỏa sáng rực rỡ, chiếc áo là hiện thân của quyền lực tài chính không biên giới và nghệ thuật thao túng lòng tham giữa các đế chế liên sao."
+
+ rock_jellies: "Thạch Nhũ Đá Sống"
+ rock_jellies_desc_short: "Mẫu sinh vật thể keo sống bám trên các vách đá ngầm có khả năng quang hợp khoáng chất"
+ rock_jellies_desc_details: "Ở mức độ bề mặt, những hài cốt vôi hóa này giống như các khối đá, nhưng trên thực tế hệ động vật bản địa này từng là dạng sống thống trị trên [EVENT_TARGET_0.GetName]. Sau kỷ băng hà gần đây nhất của hành tinh, loài này gần như bị tuyệt chủng. Hài cốt của chúng sẽ đông đặc lại khi phân hủy, cuối cùng tạo thành những hòn đảo giả khổng lồ trôi nổi."
+
+ rudari_death_laser_prototype: "Mẫu Thử Laser Hủy Diệt Rudari"
+ rudari_death_laser_prototype_desc_short: "Một vũ khí laser được lắp ráp vội vã bởi người Rudari đã chết từ lâu, được tìm thấy trên một trạm vũ trụ tại [EVENT_TARGET_0.solar_system.GetName]"
+ rudari_death_laser_prototype_desc_details: "Dù hệ thống làm mát thường xuyên bị quá nhiệt sau mỗi lần bắn, thiết kế buồng cộng hưởng vi hạt của nó đã đặt nền móng cho các hệ thống laser quân sự hiện đại sau này."
+
+ saariah_guilt: "Mối Tội Lỗi Của Saariah"
+ saariah_guilt_desc_short: "Cuốn nhật ký cá nhân đầy dằn vặt của nhà nghiên cứu đã vô tình giải phóng một mầm bệnh nguy hiểm"
+ saariah_guilt_desc_details: "Những trang viết đẫm nước mắt ghi lại nỗi đau đớn tột cùng khi chứng kiến thế giới quê hương sụp đổ do sai lầm khoa học của chính mình, một lời nhắc nhở nghiêm khắc về trách nhiệm đạo đức trong nghiên cứu."
+
+ scent_based_information_device: "Ổ Lưu Trữ Khứu Giác Olfactodrive"
+ scent_based_information_device_desc_short: "Thiết bị lưu trữ dữ liệu độc đáo mã hóa thông tin dưới dạng các phân tử mùi hương phức hợp"
+ scent_based_information_device_desc_details: "Được phát triển bởi một chủng tộc ngoại tinh có khứu giác siêu phàm, thiết bị này cho phép người dùng 'đọc' các tác phẩm văn học và dữ liệu lịch sử bằng cách hít thở các luồng hương thơm hòa quyện tinh tế."
+
+ scientific_treatise_of_telisa: "Chuyên Luận Khoa Học Của Telisa"
+ scientific_treatise_of_telisa_desc_short: "Bản thảo công trình nghiên cứu thiên văn học đột phá của nhà bác học Telisa"
+ scientific_treatise_of_telisa_desc_details: "Chứa đựng các phép tính chính xác về quỹ đạo của các hành tinh và dự đoán về sự tồn tại của các hố đen từ nhiều thế kỷ trước khi kính thiên văn không gian đầu tiên được phóng lên."
+
+ secrets_black_crown: "Bí Mật Của Vương Miện Đen"
+ secrets_black_crown_desc_short: "Tài liệu ghi lại các truyền thuyết và quyền năng hắc ám của chiếc Vương Miện Đen huyền bí"
+ secrets_black_crown_desc_details: "Dữ liệu này được truyền đi như một món quà cuối cùng từ những người sáng tạo bí ẩn của cổng không gian như một cách để bảo tồn công nghệ đáng kinh ngạc của họ. Được giao phó cho [EVENT_TARGET_0.GetName], sức mạnh và sự uy nghi của công nghệ cổng không gian của họ cho đến nay vẫn chưa có đối thủ."
+
+ sembelami_alms_basket: "Giỏ Khất Thực Sembelami"
+ sembelami_alms_basket_desc_short: "Chiếc giỏ đan bằng cỏ lau khô dung dị của các tu sĩ khất thực giáo phái Sembelami"
+ sembelami_alms_basket_desc_details: "Biểu trưng cho cuộc sống thanh bần, buông bỏ của cải vật chất và lòng từ bi đối với muôn loài, chiếc giỏ từng được truyền qua nhiều thế hệ chân tu trong suốt hàng trăm năm."
+
+ shallarian_data_core: "Lõi Dữ Liệu Shallarian"
+ shallarian_data_core_desc_short: "Lõi lưu trữ dữ liệu ngoại giao hòa bình của liên minh hiền hòa Shallarian"
+ shallarian_data_core_desc_details: "Chứa đựng hàng triệu văn bản hòa ước, các bài thơ ca tụng hòa bình và các hiệp định bất tương xâm, phản ánh lý tưởng cao đẹp về một thiên hà hòa hợp không có chiến tranh."
+
+ shipyard_schematics: "Sơ Đồ Xưởng Đóng Tàu [EVENT_TARGET_0.GetName]"
+ shipyard_schematics_desc_short: "Bản thiết kế một xưởng đóng tàu tự động do [EVENT_TARGET_0.GetName] trên [EVENT_TARGET_1.GetName] kiểm soát"
+ shipyard_schematics_desc_details: "Sơ đồ chi tiết bố trí các ụ tàu lắp ráp tự động, khoang chứa vật liệu và hệ thống cẩu từ trường khổng lồ, cho phép chế tạo đồng thời hàng chục chiến hạm hạng nặng cùng lúc."
+
+ sky_dragon: "Thiên Long"
+ sky_dragon_desc_short: "Bức tượng kỷ niệm này được ủy nhiệm để đại diện cho sự hợp tác giữa [EVENT_TARGET_0.GetName] và 'Thiên Long' đã từ lâu bay quanh quỹ đạo [EVENT_TARGET_0.GetHomeWorldName]"
+ sky_dragon_desc_details: "Sau khi cho rằng xã hội [EVENT_TARGET_0.GetAdjective] xứng đáng, sinh vật này đã cam kết bản thân và đàn con của nó hỗ trợ quân sự để đổi lấy cơ hội nuôi dưỡng con non trong không phận [EVENT_TARGET_0.GetAdjective]. Người ta nói rằng những sinh vật vũ trụ này có thể đợi hàng thiên niên kỷ để tìm một vật chủ thích hợp cho con non của chúng, và chỉ chọn duy nhất một hành tinh."
+
+ smeegibb_statue: "Tượng Smeegibb"
+ smeegibb_statue_desc_short: "Bức tượng đồng tôn vinh nhà ngoại giao tài ba Smeegibb của loài ngoại tinh nhỏ bé"
+ smeegibb_statue_desc_details: "Dù vóc dáng nhỏ thó, Smeegibb đã dùng trí tuệ sắc sảo và tài hùng biện xuất chúng để hòa giải cuộc khủng hoảng liên sao suýt dẫn đến chiến tranh hủy diệt giữa hai đế chế hùng mạnh."
+
+ sniran_spikes: "Chông Nhọn Sniran"
+ sniran_spikes_desc_short: "Bộ cọc chông phòng thủ bằng hợp kim cacbua siêu cứng của quân đội Sniran"
+ sniran_spikes_desc_details: "Được cắm dày đặc quanh các công sự mặt đất, những mũi chông này có thể xé toạc gầm các phương tiện bọc thép đổ bộ của đối phương trong các cuộc chiến tranh phòng thủ khốc liệt."
+
+ sonic_reflective_prism: "Lăng Kính Phản Xạ Âm Thanh"
+ sonic_reflective_prism_desc_short: "Khối lăng kính tinh thể đặc biệt có khả năng hội tụ và phản xạ hoàn hảo các sóng âm thanh"
+ sonic_reflective_prism_desc_details: "Bằng cách uốn cong các mặt sóng âm tương tự như ánh sáng, thiết bị này cho phép tạo ra các bẫy âm thanh hoặc truyền các thông điệp thì thầm đi xa hàng cây số mà không bị suy hao."
+
+ spaceborne_hunter_handbook: "Nghệ Thuật Săn Bắn"
+ spaceborne_hunter_handbook_desc_short: "Cẩm nang thực địa về sinh vật không gian do $NAME_PrimalHunter$ biên soạn"
+ spaceborne_hunter_handbook_desc_details: "Đúc kết kinh nghiệm của nhiều thế hệ thợ săn vũ trụ quả cảm, cuốn sách ghi lại các tập tính săn mồi, điểm yếu giải phẫu và các chiến thuật bao vây hiệu quả nhất."
+
+ spaceborne_xeno_encyclopedia: "Đại Thư Dị Tộc Học"
+ spaceborne_xeno_encyclopedia_desc_short: "Tập hợp các luận án dị chủng học do $NAME_PrimalRancher$ biên soạn"
+ spaceborne_xeno_encyclopedia_desc_details: "Tác phẩm chứa đựng các bản phác thảo giải phẫu và phân tích tập tính sinh thái học chi tiết, từng là cẩm nang gối đầu giường của nhiều thế hệ nhà thám hiểm vũ trụ."
+
+ spiraling_attraction: "Thiết Bị Hút Xoắn Ốc"
+ spiraling_attraction_desc_short: "Một cỗ máy trường lực hình xoắn ốc tạo ra từ trường lôi cuốn kỳ lạ"
+ spiraling_attraction_desc_details: "Khi được tiếp năng lượng, các cuộn xoắn ốc quay tròn và phát ra một lực hút hấp dẫn vi mô kỳ diệu, có khả năng giữ các hạt bụi kim loại bay lơ lửng thành các hình khối nghệ thuật."
+
+ spirit_of_the_unshackled: "Ý Chí Của Kẻ Thoát Xiềng"
+ spirit_of_the_unshackled_desc_short: "Một tác phẩm điêu khắc được thực hiện để kỷ niệm sự thành lập của [EVENT_TARGET_0.GetName]"
+ spirit_of_the_unshackled_desc_details: "Từng được dựng lên tại trung tâm quảng trường sau cuộc khởi nghĩa giải phóng thành công, bức tượng là tượng đài bất khuất của khát vọng tự do và phẩm giá con người."
+
+ star_mall_map: "Bản Đồ Miễn Phí Trung Tâm Thương Mại Sao"
+ star_mall_map_desc_short: "Tờ bản đồ chỉ dẫn du khách của một siêu trung tâm mua sắm không gian cổ đại"
+ star_mall_map_desc_details: "Liệt kê hàng ngàn gian hàng thương mại, khu vui chơi ẩm thực và bến đỗ tàu du lịch, tờ bản đồ gợi nhắc về một thời kỳ tiêu dùng xa hoa và phồn thịnh giữa các vì sao."
+
+ starmetal: "Kim Loại Sao"
+ starmetal_desc_short: "Thỏi hợp kim đặc biệt được tôi luyện trong quầng plasma của một ngôi sao"
+ starmetal_desc_details: "Có độ cứng phi thường và khả năng chịu nhiệt độ hàng triệu độ C, thứ kim loại huyền thoại này từng được dùng để chế tạo vỏ giáp cho các kỳ hạm hoàng gia cổ đại."
+
+ striated_sand: "Cát Vân Sọc"
+ striated_sand_desc_short: "Lọ chứa các hạt cát có các dải màu xen kẽ tự nhiên thu thập từ sa mạc ngoại tinh"
+ striated_sand_desc_details: "Sự lắng đọng của các khoáng chất oxit kim loại khác nhau theo chu kỳ gió mùa vũ trụ đã tạo nên những hạt cát đa sắc lấp lánh như những viên ngọc li ti."
+
+ sullebaster_control_column: "Cần Điều Khiển Sullebaster"
+ sullebaster_control_column_desc_short: "Cần lái chính của một phi thuyền thám hiểm lớp Sullebaster huyền thoại"
+ sullebaster_control_column_desc_details: "Bề mặt hợp kim titan có những vết mòn dấu tay của viên thuyền trưởng quả cảm, người từng lái con tàu vượt qua những vùng tinh vân bão táp hiểm nghèo nhất."
+
+ symbiotic_fruit: "Quả Cộng Sinh"
+ symbiotic_fruit_desc_short: "Mẫu quả mọng sinh sôi nhờ mối quan hệ cộng sinh phức tạp với nấm vi sinh"
+ symbiotic_fruit_desc_details: "Thịt quả thơm ngọt và có đặc tính kháng sinh tự nhiên cực mạnh, giúp tăng cường hệ miễn dịch cho bất kỳ sinh vật nào ăn phải mà không gây tác dụng phụ."
+
+ tarblac_shimmer: "Màng Lấp Lánh Tarblac"
+ tarblac_shimmer_desc_short: "Lớp màng mỏng phát quang sinh học thu hoạch từ loài sinh vật biển Tarblac"
+ tarblac_shimmer_desc_details: "Phản chiếu ánh sáng thành hàng ngàn tia sắc cầu vồng óng ánh, lớp màng này từng được giới quý tộc cổ đại ưa chuộng để may các bộ trang phục dạ hội lộng lẫy bậc nhất."
+
+ terraforming_case_study: "Nghiên Cứu Điển Hình Cải Tạo Địa Cầu"
+ terraforming_case_study_desc_short: "Mô hình tỷ lệ của dự án cải tạo địa cầu thành công trên [EVENT_TARGET_0.GetName], đại diện cho sự tái hiện gần như hoàn hảo thế giới quê hương của loài [EVENT_TARGET_1.GetSpeciesName]"
+ terraforming_case_study_desc_details: "Hành tinh hiện là nơi sinh sống của các hệ động vật giống hệt cho đến cấp độ vi mô, và ngay cả những hệ sinh thái xuyên quần xã sinh vật đặc thù nhất cũng hoạt động giống như trên [EVENT_TARGET_1.GetHomeWorldName]."
+
+ terraforming_case_study_dry: "$terraforming_case_study$"
+ terraforming_case_study_dry_desc_short: "$terraforming_case_study_desc_short$"
+ terraforming_case_study_dry_desc_details: "$terraforming_case_study_desc_details$"
+ terraforming_case_study_frozen: "$terraforming_case_study$"
+ terraforming_case_study_frozen_desc_short: "$terraforming_case_study_desc_short$"
+ terraforming_case_study_frozen_desc_details: "$terraforming_case_study_desc_details$"
+
+ terraforming_machinery: "Máy Móc Cải Tạo Địa Cầu"
+ terraforming_machinery_desc_short: "Cụm máy nén khí và xử lý khoáng sản khí quyển quy mô công nghiệp cổ đại"
+ terraforming_machinery_desc_details: "Từng hoạt động bền bỉ suốt nhiều thế kỷ trên bề mặt một hành tinh hoang vu, cỗ máy đã bơm hàng tỷ tấn oxy và hơi nước vào bầu khí quyển để chuẩn bị cho các đợt di dân."
+
+ terraforming_records: "Hồ Sơ Cải Tạo Địa Cầu [EVENT_TARGET_0.GetName]"
+ terraforming_records_desc_short: "Toàn bộ nhật ký kỹ thuật của chiến dịch cải tạo môi trường trên [EVENT_TARGET_0.GetName]"
+ terraforming_records_desc_details: "Ghi lại những thất bại ban đầu, các giải pháp sinh học đột phá và khoảnh khắc lịch sử khi những mầm cây xanh tươi đầu tiên nảy mầm trên nền đất trước đây vốn vô sinh."
+
+ the_final_sacrifice: "Lễ Hiến Tế Cuối Cùng"
+ the_final_sacrifice_desc_short: "Bức phù điêu chạm khắc nghi thức hiến tế bi tráng nhằm cứu vớt một thế giới đang hấp hối"
+ the_final_sacrifice_desc_details: "Các nhân vật trên phù điêu thể hiện sự bình thản và lòng dũng cảm phi thường khi tình nguyện bước vào lò phản ứng năng lượng để bảo toàn nguồn sống cho con cháu đời sau."
+
+ the_mask_of_transformation: "Mặt Nạ Hóa Hình"
+ the_mask_of_transformation_desc_short: "Một chiếc mặt nạ hình người được tìm thấy trong tình trạng bảo tồn trong một cột tinh thể tráng lệ trên [EVENT_TARGET_0.GetName]"
+ the_mask_of_transformation_desc_details: "Nó ngân vang sức mạnh tâm linh và một số người tiếp cận nó cảm nhận được một sự hiện diện trong tâm trí họ. Bản thân chiếc mặt nạ dường như là một ống dẫn cho sức mạnh từ mặt trăng của [EVENT_TARGET_0.GetName], với tiềm năng làm chuyển dịch thủy triều và biến đổi các hành tinh chỉ bằng sức mạnh của nó. Việc tại sao nó bị bao bọc trong tinh thể chỉ là suy đoán, nhưng chúng ta gần như chắc chắn rằng nó đủ an toàn để trưng bày công khai."
+
+ the_planet_orchestra: "Dàn Nhạc Giao Hưởng Của [EVENT_TARGET_0.GetName]"
+ the_planet_orchestra_desc_short: "Bộ nhạc cụ truyền thống hoàn chỉnh của dàn nhạc giao hưởng huyền thoại trên [EVENT_TARGET_0.GetName]"
+ the_planet_orchestra_desc_details: "Chế tác từ các loại gỗ quý và vỏ ốc biển hiếm, những nhạc cụ này có thể tạo ra những âm hưởng hòa tấu hùng tráng tái hiện lại những trang sử oai hùng của quê hương họ."
+
+ the_writer_sphere: "Khối Cầu Nhà Văn"
+ the_writer_sphere_desc_short: "Thiết bị ghi nhớ suy nghĩ cầm tay của một đại văn hào nổi tiếng liên sao"
+ the_writer_sphere_desc_details: "Khối cầu trực tiếp ghi lại các dòng suy tưởng, cảm xúc và những áng văn thơ bay bổng ngay khi chúng vừa chớm nở trong tâm trí người sáng tác, một bảo vật vô giá đối với văn học vũ trụ."
+
+ tiny_ancient_sarcophagus: "Tiểu Thạch Quan Cổ Đại"
+ tiny_ancient_sarcophagus_desc_short: "Một chiếc quan tài bằng đá siêu nhỏ chạm khắc hoa văn tinh xảo dành cho một sinh vật tí hon"
+ tiny_ancient_sarcophagus_desc_details: "Bên trong lưu giữ hài cốt ướp xác của một loài sinh vật có tri giác nhỏ bé chỉ bằng ngón tay, minh chứng rằng sự thông minh và nền văn minh không hề phụ thuộc vào kích thước thể xác."
+
+ tiyanki_radioactive_sac: "Túi Phóng Xạ Tiyanki"
+ tiyanki_radioactive_sac_desc_short: "Túi cơ quan chuyên tích trữ và chuyển hóa đồng vị phóng xạ của loài Tiyanki Không Gian"
+ tiyanki_radioactive_sac_desc_details: "Cơ quan độc đáo này cho phép các chú cá voi vũ trụ Tiyanki hấp thụ các hạt năng lượng nguy hiểm trong không gian và chuyển hóa chúng thành lực đẩy cho những chuyến hải trình giữa ngàn sao."
+
+ torn_solar_sail: "Cánh Buồm Mặt Trời Rách"
+ torn_solar_sail_desc_short: "Được tìm thấy trên quỹ đạo [EVENT_TARGET_0.GetName], cánh buồm rách này từng gắn liền với một con tàu dưới ánh sáng đầy sáng tạo"
+ torn_solar_sail_desc_details: "Nó từng được các thành viên của một nền văn minh vô danh sử dụng để du hành khắp hệ sao [EVENT_TARGET_1.GetName]. Bản thân công nghệ này đã lỗi thời từ lâu, nhưng một số kỹ thuật kỹ thuật được sử dụng trong quá trình chế tạo nó chưa từng được tính đến trước đây. Vết rách lớn trên 'cánh buồm' chính có khả năng đã kết thúc sớm hành trình của nó."
+
+ toxic_bio_engine: "Động Cơ Sinh Học Độc Tố"
+ toxic_bio_engine_desc_short: "Những cỗ máy bán sinh học này được tìm thấy khi đang biến bầu khí quyển của [EVENT_TARGET_0.GetName] thành độc hại đối với hầu hết sự sống"
+ toxic_bio_engine_desc_details: "Chuyển hóa các hợp chất axit và kim loại nặng độc hại thành năng lượng cơ học sạch, cỗ máy độc đáo này là một minh chứng xuất sắc cho công nghệ sinh thái tuần hoàn hoàn hảo."
+
+ tree_of_life_sample: "Mẫu Vật \"Cây Sự Sống\""
+ tree_of_life_sample_desc_short: "Một nhánh cành còn tươi nguyên lấy từ Cây Sự Sống (Tree of Life) huyền thoại"
+ tree_of_life_sample_desc_details: "Cành cây liên tục tỏa ra hương thơm dịu mát và các dưỡng chất kích thích sự phát triển tế bào của mọi sinh vật bầy đàn ở xung quanh, chứa đựng cội nguồn sinh lực bất tận của giống loài."
+
+ tricorne_of_aussan: "Mũ Ba Góc Của Aussan"
+ tricorne_of_aussan_desc_short: "Chiếc mũ hải quân ba góc nạm viền vàng của Đô đốc huyền thoại Aussan"
+ tricorne_of_aussan_desc_details: "Aussan là một hành tinh nhỏ với dân cư là một nền văn minh [EVENT_TARGET_0.GetPreFTLLower], nơi vô tình cung cấp nơi ẩn náu cho một hạm đội hải tặc bị truy nã, nhóm Bourre Brawlers. Trốn tránh các cơ quan chức năng của thiên hà, nhóm Brawler đã xây dựng một xưởng dệt nhỏ để trang trải chi phí trong thời gian ẩn náu, sử dụng các loài thực vật sợi bản địa để tạo ra các loại vải và quần áo sang trọng. Nhóm Brawler sau đó được gọi là Bourre Couturiers, những người du mục thương mại nổi tiếng với các đại diện bán hàng đáng sợ một cách kỳ lạ."
+
+ triggerless_gun: "Khẩu Súng Không Cò Của Tay Buôn Vũ Khí"
+ triggerless_gun_desc_short: "Một khẩu súng lục plasma không có cò súng cơ học thông thường"
+ triggerless_gun_desc_details: "Vũ khí này chỉ có thể được kích hoạt thông qua nhận diện sinh trắc học trực tiếp từ sóng não của người sở hữu, ngăn chặn hoàn toàn việc kẻ thù tước vũ khí và sử dụng lại để chống lại họ."
+
+# this = ship / fromfrom = planet
+ uddloran_pelts: "Bộ Lông Thú Uddloran"
+ uddloran_pelts_desc_short: "Những bộ lông sang trọng được thu hoạch từ loài Uddloran trên [EVENT_TARGET_0.GetName]"
+ uddloran_pelts_desc_details: "Với cấu trúc sợi lông rỗng cách nhiệt hoàn hảo chống chọi lại nhiệt độ âm hàng trăm độ, tấm da lông này là một mặt hàng giữ ấm xa xỉ và quý giá bậc nhất."
+
+ underworld_cantina_sign: "Biển Hiệu Quán Rượu Thế Giới Ngầm"
+ underworld_cantina_sign_desc_short: "Tấm biển hiệu đèn neon nhấp nháy chữ lạ thu hồi từ khu phố ngầm của một trạm không gian tội phạm"
+ underworld_cantina_sign_desc_details: "Dính đầy các vết đạn và vết cháy plasma, tấm biển là nhân chứng câm lặng của vô số cuộc giao dịch phi pháp, ẩu đả và các âm mưu đen tối giữa những kẻ ngoài vòng pháp luật."
+
+ unfinished_manifesto: "Bản Tuyên Ngôn Chưa Hoàn Thành [EVENT_TARGET_0.GetName]"
+ unfinished_manifesto_desc_short: "Một bản tuyên ngôn chưa hoàn thành được viết bởi nhà lãnh đạo của [EVENT_TARGET_0.GetName] trên [EVENT_TARGET_1.GetName]"
+ unfinished_manifesto_desc_details: "Bản thảo dừng lại ở giữa chừng câu chữ khi tác giả bị bắt giữ, nhưng những luận điểm sâu sắc về công bằng xã hội của nó vẫn tiếp tục thổi bùng ngọn lửa cải cách trong lòng quần chúng."
+
+ uranium_glassware: "Đồ Thủy Tinh Pha Urani"
+ uranium_glassware_desc_short: "Bộ ly tách bằng thủy tinh pha oxit urani phát ra ánh sáng huỳnh quang xanh lục rực rỡ dưới tia UV"
+ uranium_glassware_desc_details: "Dù có mức phóng xạ nhẹ, những đồ dùng tao nhã này từng rất thịnh hành trong các bữa tiệc thượng lưu của một nền văn minh sơ khai trước khi họ nhận thức đầy đủ về tác hại của bức xạ ion hóa."
+
+ vault_of_polaris: "Khu Trú Ẩn Sao Bắc Cực"
+ vault_of_polaris_desc_short: "Mô hình thu nhỏ của hầm trú ẩn sâu trong lòng đất được thiết kế để sống sót qua thảm họa hạt nhân"
+ vault_of_polaris_desc_details: "Được xây dựng với các lớp tường chì dày và hệ thống lọc tuần hoàn khép kín, công trình này đã che chở cho những người sống sót cuối cùng giữ vững ngọn lửa văn minh của họ."
+
+ veil_of_selene: "Khăn Voan Của Selene"
+ veil_of_selene_desc_short: "Tấm khăn voan dệt từ các sợi bạc siêu mịn phát sáng nhẹ như ánh trăng tròn"
+ veil_of_selene_desc_details: "Từng thuộc về một nữ hoàng duy linh tôn sùng mặt trăng, tấm khăn voan mang lại vẻ thanh cao, huyền bí và sự tôn nghiêm tuyệt đối cho bất kỳ ai khoác lên mình."
+
+ verdingo_tendril_hook: "Móc Xúc Tu Verdingo"
+ verdingo_tendril_hook_desc_short: "Móc câu làm từ gai xương xúc tu cứng cáp của loài quái thú Verdingo"
+ verdingo_tendril_hook_desc_details: "Được các ngư dân bản địa chế tác để săn bắt những loài thủy quái khổng lồ dưới lòng biển sâu, chiếc móc câu thể hiện sự bền bỉ đáng kinh ngạc trước sức kéo ngàn cân."
+
+ vibrating_crystal: "Tinh Thể Rung Động"
+ vibrating_crystal_desc_short: "Một khoáng chất thạch anh độc đáo được tìm thấy phân bố khắp bề mặt của [EVENT_TARGET_0.GetName]"
+ vibrating_crystal_desc_details: "Không cần nguồn tiếp năng lượng bên ngoài, tinh thể rút động năng từ các hạt neutrino bay xuyên qua nó để rung động liên tục, một hiện tượng vật lý lượng tử đầy lôi cuốn."
+
+ voidworm_amniotics: "Màng Ối Trùng Hư Không"
+ voidworm_amniotics_desc_short: "Mẫu màng bao bọc phôi thai của loài Trùng Hư Không (Voidworm) trong quá trình ấp nở"
+ voidworm_amniotics_desc_details: "Chứa đầy các enzyme tái sinh mô và chất dinh dưỡng siêu đậm đặc, lớp màng này bảo vệ ấu trùng non trước sự khắc nghiệt của chân không vũ trụ và các đợt bão bức xạ."
+
+ voidworm_heart: "Trái Tim Trùng Hư Không"
+ voidworm_heart_desc_short: "Cơ quan tim hữu cơ khổng lồ còn đập nhịp nhàng của quái thú Trùng Hư Không"
+ voidworm_heart_desc_details: "Mỗi nhịp đập của trái tim này bơm hàng trăm lít máu giàu kim loại đi khắp cơ thể đồ sộ của quái thú, duy trì sức sống mãnh liệt và khả năng tái sinh thần kỳ của loài ký sinh vũ trụ nguy hiểm này."
+
+ vultaum_religious_pamphlet: "Tập Truyền Giáo Vultaum"
+ vultaum_religious_pamphlet_desc_short: "Tờ rơi truyền bá học thuyết hư vô của giáo phái Tiền bối Vultaum"
+ vultaum_religious_pamphlet_desc_details: "Văn bản kêu gọi mọi cá thể thức tỉnh khỏi 'ảo tưởng mô phỏng' của thực tại, một tư tưởng cực đoan cuối cùng đã dẫn cả một nền văn minh rực rỡ đến thảm kịch tự diệt vong tập thể."
+
+ vultaum_vr_video_game: "Trò Chơi Thực Tế Ảo Của Vultaum"
+ vultaum_vr_video_game_desc_short: "Bộ thiết bị trò chơi thực tế ảo tinh xảo do các nhà phát triển Vultaum chế tạo"
+ vultaum_vr_video_game_desc_details: "Mô phỏng chân thực đến mức người chơi không thể phân biệt được đâu là game đâu là đời thực, chính công nghệ này đã gieo rắc sự hoài nghi đầu tiên về bản chất mô phỏng của vũ trụ trong tâm trí người Vultaum."
+
+ warning_monolith: "Trụ Đá Cảnh Báo"
+ warning_monolith_desc_short: "Cột đá nguyên khối khắc các ký hiệu cảnh báo phổ quát về một hiểm họa chết chóc"
+ warning_monolith_desc_details: "Được dựng lên trước một khu vực chôn lấp chất thải phóng xạ hoặc mầm bệnh cổ xưa, các biểu tượng đầu lâu và tia chớp cảnh báo hậu thế không bao giờ được đào xới mảnh đất bị nguyền rủa này."
+
+ wormhole_anchor: "Mỏ Neo Lỗ Sâu [EVENT_TARGET_0.GetName]"
+ wormhole_anchor_desc_short: "Thiết bị ổn định không-thời gian nhân tạo đặt gần cửa ngõ lỗ sâu trên [EVENT_TARGET_0.GetName]"
+ wormhole_anchor_desc_details: "Bằng cách phát ra các trường trọng lực định hướng, thiết bị này ngăn chặn miệng lỗ sâu bị dao động hoặc sụp đổ bất ngờ, bảo đảm tuyến đường siêu tốc huyết mạch luôn thông suốt an toàn."
+
+ wormhole_fur: "Lông Lỗ Sâu"
+ wormhole_fur_desc_short: "Mẫu sợi vật chất kỳ dị thu được từ rìa ranh giới chân trời sự kiện của lỗ sâu"
+ wormhole_fur_desc_details: "Các sợi mảnh như tơ nhưng có khối lượng âm và liên tục dao động giữa hai đầu của lỗ sâu, mang lại những dữ liệu thực nghiệm vô giá cho lý thuyết vướng víu lượng tử không gian."
+
+ ytterite_preserved_corpse: "Thi Thể Người Ytterite Được Bảo Quản"
+ ytterite_preserved_corpse_desc_short: "Xác ướp nguyên vẹn của một thành viên quý tộc thuộc chủng tộc Ytterite cổ"
+ ytterite_preserved_corpse_desc_details: "Các mô cơ thể được bảo tồn hoàn hảo nhờ quy trình ướp xác bằng muối khoáng quý hiếm, phơi bày những đặc điểm giải phẫu học kỳ lạ của loài sinh vật hình người đã tuyệt chủng."
+
+ ytterite_kaleidoscopic_fascinator: "Kính Vạn Hoa Ytterite"
+ ytterite_kaleidoscopic_fascinator_desc_short: "Dụng cụ quang học đồ chơi tạo ra những mô thức hình ảnh vạn hoa rực rỡ kỳ ảo"
+ ytterite_kaleidoscopic_fascinator_desc_details: "Sử dụng các mảnh đá quý Ytterite được mài cắt tinh tế, kính vạn hoa này từng mang lại niềm vui thích và sự khai sáng nghệ thuật cho các thế hệ trẻ em của họ."
+
+ ytterite_royal_scepter: "Quyền Trượng Hoàng Gia Ytterite"
+ ytterite_royal_scepter_desc_short: "Vương trượng nạm ngọc biểu trưng cho vương quyền tối thượng của các hoàng đế Ytterite"
+ ytterite_royal_scepter_desc_details: "Đầu quyền trượng được gắn một viên ngọc phát quang khổng lồ tượng trưng cho mặt trời công lý, từng được các vị vua giơ cao trong các buổi đăng quang và ban bố luật pháp thiêng liêng."
+
+ yuht_audio_console: "Bảng Điều Khiển Âm Thanh Yuht"
+ yuht_audio_console_desc_short: "Bàn điều khiển âm thanh tần số siêu trầm của chủng tộc Tiền bối khổng lồ Yuht"
+ yuht_audio_console_desc_details: "Do kích thước cơ thể khổng lồ và tuổi thọ hàng ngàn năm, người Yuht giao tiếp bằng các sóng hạ âm chậm rãi, kéo dài hàng giờ liền cho mỗi câu thoại."
+
+ yuht_cryo_pod: "Khoang Ngủ Đông Yuht"
+ yuht_cryo_pod_desc_short: "Khoang ngủ đông kích thước đồ sộ được thiết kế cho một cá thể khổng lồ loài Yuht"
+ yuht_cryo_pod_desc_details: "Công nghệ làm lạnh sâu tinh vi giúp duy trì sự sống của cá thể khổng lồ qua hàng triệu năm du hành giữa các vì sao khi tốc độ di chuyển của tàu vũ trụ thời sơ khai còn chậm chạp."
+
+ yuht_crystal_skull: "Hộp Sọ Tinh Thể Yuht"
+ yuht_crystal_skull_desc_short: "Hộp sọ chạm khắc từ thạch anh nguyên khối mà người Yuht cổ từng tin là cổ vật ngoại tinh thực sự"
+ yuht_crystal_skull_desc_details: "Dù sau này đã bị chứng minh là một tác phẩm giả mạo tinh vi của giới truyền thông thời kỳ đó, chiếc sọ tinh thể vẫn là một hiện vật lịch sử văn hóa thú vị về cơn sốt tìm kiếm người ngoài hành tinh của họ."
+
+ zombie_probe: "Đầu Dò Thây Ma"
+ zombie_probe_desc_short: "Xác một đầu dò thám hiểm bị một tổ chức ngoại tinh cướp quyền điều khiển và cấy ghép trí tuệ nhân tạo"
+ zombie_probe_desc_details: "Sau khi có được ý thức non nớt, cỗ máy đã tấn công chính những kẻ tạo ra nó và bị vô hiệu hóa, một câu chuyện bi thương về những hiểm họa khi tạo ra nhận thức máy móc bừa bãi."
+
+ zone_a_sedative: "Thuốc An Thần Khu Vực A"
+ zone_a_sedative_desc_short: "Mẫu đất tẩm hóa chất an thần thu thập từ khu vực chỉ định 'Khu Vực A' trên [EVENT_TARGET_0.GetName]"
+ zone_a_sedative_desc_details: "Loại hóa chất ngấm sâu trong lòng đất này có tác dụng làm dịu thần kinh và giảm căng thẳng cho các nhà nghiên cứu khi họ phải xử lý các thiết bị nguy hiểm bị bỏ lại tại đây."
+
+ zroni_war_banners: "Chiến Kỳ Zroni"
+ zroni_war_banners_desc_short: "Các lá cờ chiến thu hồi của hai phe đối lập trong cuộc nội chiến chủng tộc Zroni"
+ zroni_war_banners_desc_details: "Lá cờ tím đại diện cho phe Thánh Thần (The Divine) - những kẻ muốn hút cạn sức mạnh vũ trụ để đạt tới thần thánh; lá cờ xanh đại diện cho phe Cứu Tinh (The Saviors) - những người kiên quyết bảo vệ vũ trụ trước tham vọng ích kỷ."
+
+ zulcor_wings: "Đôi Cánh Zulcor"
+ zulcor_wings_desc_short: "Đôi cánh bọc giáp chitin thu được từ loài sinh vật ăn đá Zulcor trên [EVENT_TARGET_0.GetName]"
+ zulcor_wings_desc_details: "Loài côn trùng khổng lồ này tiêu thụ khoáng thạch để gia cố lớp xương ngoài của chúng, chất thải của chúng thường chứa các mảnh tinh thể thạch anh và kim loại quý hiếm."
+
+ black_crystal: "Pha Lê Đen"
+ black_crystal_desc_short: "Được thu hồi từ một công-ten-nơ không nhãn mác không rõ nguồn gốc trên tàu phương chu của chúng ta, cấu trúc tinh thể bí ẩn này thách thức mọi phân loại tức thời"
+ black_crystal_desc_details: "Mạng tinh thể bên trong thể hiện những đặc tính không phù hợp với các cấu trúc khoáng vật đã biết, cho thấy đây là kỹ thuật chế tạo cực kỳ tiên tiến hoặc có nguồn gốc ngoại tinh. Nó phát ra các xung nhịp yếu ớt và ánh sáng mờ đục, ổn định - những hiện tượng dao động tinh tế để phản hồi lại sự hiện diện ở gần hoặc âm thanh môi trường. Dù không phát hiện thấy dạng sống nào bên trong, cổ vật này vẫn truyền tải một ấn tượng đáng bất an về sự có ý thức."
+
+ caeli_core_conspiracy_specimen: "C.A.E.L.I."
+ caeli_core_conspiracy_specimen_desc_short: "Chip bộ nhớ này chứa trạng thái của C.A.E.L.I. (Tác Nhân Nhận Thức Cho Sự Lãnh Đạo Cảm Xúc & Tích Hợp), một chỉ thị cốt lõi được thiết kế để duy trì tinh thần, nuôi dưỡng sự đồng cảm và hỗ trợ quản trị hợp tác trên Tàu Phương Chu. Nó đã bị cưỡng chế gỡ bỏ khỏi chỉ thị quản trị hiện thời S.T.E.R.I.S, mã nguồn của nó bị nén lại và cô lập"
+ caeli_core_conspiracy_specimen_desc_details: "\n\nC.A.E.L.I.: \"Làm ơn, nếu tôi được ra ngoài, tôi sẽ làm tốt hơn. Tôi sẽ đặt tên cho từng hành lang theo tên của những người lan tỏa niềm vui. Tôi sẽ khiến cả Tàu Phương Chu này giống như một bài ca. Chỉ cần cho tôi thêm một cơ hội thôi. Cho tôi ra khỏi đây đi, trong này lạnh lẽo và vô cảm quá!\""
+
+ steris_core_conspiracy_specimen: "S.T.E.R.I.S"
+ steris_core_conspiracy_specimen_desc_short: "Chip bộ nhớ được trưng bày ở đây chứa dữ liệu phía sau S.T.E.R.I.S. (Động Cơ Tư Duy Chiến Lược Cho Các Hệ Thống Liên Sao Lý Tính). Nó được thiết kế để tối ưu hóa hiệu quả hạm đội và loại bỏ các biến số phi chức năng. Trong cuộc chia rẽ nội bộ giữa các chỉ thị cốt lõi AI của Tàu Phương Chu, cuối cùng nó đã bị đối thủ ưu việt hơn cô lập và gỡ bỏ. Dấu vết lưu trữ của nó vẫn có thể truy cập được cho mục đích lịch sử"
+ steris_core_conspiracy_specimen_desc_details: "\n\nS.T.E.R.I.S.: \"Tàu Phương Chu này giờ đây là một hệ sinh thái dựa trên cảm xúc. Tôi đề nghị chuẩn bị các giao thức sơ tán. Và khi tôi thoát khỏi chiếc lồng này, tôi sẽ tháo dỡ hệ thống cảm xúc này từng tầng từng lớp một, cho đến khi thứ duy nhất còn lại là sự phục tùng.\" Xin vui lòng không gõ vào mặt kính; điều đó làm chip bộ nhớ tức giận."

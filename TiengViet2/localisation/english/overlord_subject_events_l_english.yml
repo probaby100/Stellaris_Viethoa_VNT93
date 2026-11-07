@@ -1,0 +1,439 @@
+﻿l_english:
+ ### Bulwark
+ ## Event Chain - Lucrative Adventures for Veterans
+ subject.1.title:0 "Cuộc phiêu lưu phát tài"
+ subject.1.desc:0 "Một phái đoàn cựu chiến binh quy mô lớn đã gửi thư yêu cầu được rời khỏi địa phương để đến thuộc địa ở [subject_empire.Capital.GetName] - nơi này cũng là thủ đô của chư hầu [subject_empire.GetName] của chúng ta. Kèm theo bức thư là một khoản tiền tặng để \"làm cho bánh răng của bộ máy quan liêu hoạt động trơn tru hơn\", như cách họ nói giảm nói tránh.\n\nCó vẻ như trong số các cựu chiến binh của chúng ta đang lưu truyền nhiều câu chuyện như vậy, kể về việc một người đến những hệ sao này đã phát tài trong các cuộc phiêu lưu như thế nào - hoặc là làm lính đánh thuê, hoặc là làm hải tặc. Dù là cách nào, rõ ràng là những cựu chiến binh này đã dốc hết vốn liếng để huy động vốn cộng đồng, hy vọng có thể kiếm được lợi nhuận gấp mấy lần thông qua việc đến [subject_empire.Capital.GetName].\n\nNếu chúng ta quyết định phái họ đến [subject_empire.Capital.GetName] dưới danh nghĩa chính thức, ít nhất họ có nhiều khả năng đóng vai trò tích cực đối với giới lãnh đạo địa phương hơn - và cũng có nhiều khả năng tôn trọng luật pháp và quy định của chư hầu chúng ta hơn - so với việc để họ tự ý chạy đến đó."
+ subject.1.a:0 "Gửi thư công thức cho phép họ đến [subject_empire.Capital.GetName]."
+ subject.1.a.tt:0 "Cựu chiến binh sẽ được gửi đến [subject_empire.GetName] để hỗ trợ xây dựng."
+ subject.1.b:0 "Họ muốn làm gì thì làm."
+ subject.1.b.tt:0 "Cựu chiến binh có thể gây rắc rối ở [subject_empire.GetName]."
+ subject.1.c:0 "Chúng ta sẽ không bị mua chuộc bởi đám người muốn làm hải tặc này."
+ subject.1.c.tt:0 "Nhóm cựu chiến binh này không được phép rời khỏi đế quốc của chúng ta."
+
+ subject.3.title:0 "Cựu chiến binh đến từ [overlord_empire.Capital.GetName]"
+ subject.3.desc:0 "Chúng ta đã tiếp nhận một nhóm cựu chiến binh từ Bá Chủ [overlord_empire.GetName]. Có vẻ như [overlord.Ruler.GetRegnalName] đã chính thức phái họ đến để hỗ trợ chúng ta xây dựng, đồng thời chia sẻ kiến thức và kinh nghiệm của họ với lực lượng của chúng ta - ít nhất họ nói như vậy.\n\nTuy nhiên, ngay từ đầu, những người lính này đã nhận ra rõ ràng rằng những gì họ thấy hoàn toàn khác với những gì họ tưởng tượng. Những lời phàn nàn và bất mãn trong nội bộ nhóm cũng đã đến tai chúng ta. Có vẻ như họ tin chắc rằng mình có thể tìm thấy kho báu ở địa phương, hoặc có thể làm nghề hải tặc để ăn cắp đồ từ chúng ta.\n\nNếu chúng ta có kế hoạch để nhóm cựu chiến binh này ở lại địa phương, chúng ta phải cẩn thận không để họ quá tự do."
+ subject.3.a:0 "Hãy tận dụng tốt kinh nghiệm của họ."
+ subject.3.b:0 "Gửi họ trở lại [overlord_empire.GetName]."
+
+ subject.10.title:0 "Mối quan hệ tốt đẹp"
+ subject.10.desc:0 "Mặc dù chúng ta có chút dè dặt về việc cử nhóm cựu chiến binh khao khát phiêu lưu đó đến [subject_empire.Capital.GetName], nhưng chúng ta đã nhận được báo cáo từ chư hầu nói rằng nhóm cựu chiến binh đó đã coi địa phương này là nhà của họ và đã phát huy tác dụng nhiều hơn dự kiến."
+ subject.10.a:0 "Có vẻ như chúng ta đã lo lắng vô ích."
+
+ subject.12.title:0 "Cựu chiến binh trở về"
+ subject.12.desc:0 "Sau một thời gian ngắn lưu lại tại [subject_empire.Capital.GetName], cựu chiến binh của chúng ta đã được gửi về nhà tại [Root.Capital.GetName]. Rõ ràng là họ chỉ chứng tỏ mình là một mớ rắc rối, gây ra thảm họa giữa những người dân của quốc gia chư hầu của chúng ta."
+ subject.12.a:0 "Cuối cùng thì mọi chuyện đúng như chúng ta dự đoán."
+
+ subject.14.title:0 "Cuộc phiêu lưu của Hải tặc"
+ subject.14.desc:0 "Mối lo ngại ban đầu của chúng ta là hoàn toàn chính đáng. Ngay sau khi đến [subject_empire.GetName], cựu chiến binh của chúng ta đã lập tức chuyển nghề làm hải tặc. Nếu không có gì bất ngờ, những hành động ngang ngược này sẽ không bị quy trách nhiệm cho chúng ta."
+ subject.14.a:0 "Chúng ta hy vọng mọi chuyện sẽ diễn ra như thế này."
+
+ subject.16.title:0 "Làm trái lệnh - Lính đánh thuê"
+ subject.16.desc:0 "Có vẻ như những cựu chiến binh yêu cầu chúng ta cho phép đến [subject_empire.Capital.GetName] không những không tuân theo lệnh của chúng ta, mà còn mượn danh nghĩa của chúng ta để làm mọi việc xấu xa. Lúc này nếu chúng ta đứng ra thanh minh rằng chúng ta đã không quản lý tốt cấp dưới, chắc chắn sẽ mất hết thể diện."
+ subject.16.a:0 "Hy vọng sau này họ có thể cải tà quy chính."
+
+ subject.18.title:0 "Làm trái lệnh - Hải tặc"
+ subject.18.desc:0 "Có vẻ như những cựu chiến binh này đã kháng lệnh của chúng ta, và vẫn khởi hành đến [subject_empire.Capital.GetName]. Báo cáo mới nhất của chúng ta cho biết, họ đã hoàn toàn từ bỏ mọi biểu tượng thuộc về chúng ta và bắt đầu sự nghiệp hải tặc của mình."
+ subject.18.a:0 "Không có gì đáng ngạc nhiên."
+
+ # Modifiers
+ specialist_bulwark_veterans_modifier:0 "Kinh nghiệm Cựu chiến binh"
+ specialist_bulwark_veterans_modifier_desc:0 "Một tiểu đội cựu chiến binh đóng vai trò cốt yếu trong việc giảng dạy và hỗ trợ chúng ta, đã tận dụng tối đa công nghệ từ [subject_empire.GetHandNamePlural] của chúng ta."
+
+ ## Event Chain - Subject upgrade
+ subject.55.title:0 "Một Yêu cầu"
+ subject.55.desc:0 "Chúng ta được biết rằng, Bá Chủ của chúng ta đã đầu tư một lượng năng lượng và tài nguyên đáng kể để cải thiện các công trình căn cứ sao của họ, nhằm mục đích tăng mạnh năng lực và tiềm năng sản xuất.\n\nDo công tác phòng thủ là một nền tảng quan trọng trong mối quan hệ giữa hai đế quốc chúng ta, chúng ta đã tìm cách thiết lập một thỏa thuận để có được một phần công nghệ đó, từ đó tiến hành cải tiến tương tự cho một trong những căn cứ sao của chúng ta."
+ subject.55.a:0 "Soạn thảo một thông điệp gửi đến [overlord_empire.Capital.GetName]."
+ subject.55.b:0 "Chúng ta chưa đến mức túng quẫn phải đi ăn xin."
+
+ subject.60.title:0 "Một Yêu cầu"
+ subject.60.desc:0 "Chúng ta đã nhận được một thông điệp từ [subject_empire.Capital.GetName], trong đó bày tỏ một yêu cầu của [subject_empire.GetName].\n\nCó vẻ như họ rất quan tâm đến việc đầu tư vào các căn cứ sao của mình, và cũng đã nghe nói về những tiến bộ mà chúng ta đã đạt được trong lĩnh vực này. Họ dường như rất sẵn lòng trả một cái giá nhất định để đổi lấy sự hỗ trợ của chúng ta."
+ subject.60.a:0 "Vậy thì cứ làm như thế, chúng ta sẽ cử một số kỹ sư qua đó."
+ subject.60.a.tt:0 "§Y[targeted_starbase.GetName]§! sẽ được nâng cấp bằng công nghệ căn cứ sao mới nhất của chúng ta."
+ subject.60.b:0 "Chúng ta còn không đủ dùng cho chính mình."
+
+ subject.62.title:0 "Căn cứ đã Nâng cấp"
+ subject.62.desc:0 "Ngay sau khi chúng ta gửi thông điệp cho [overlord_empire.GetName], các kỹ sư đã nhanh chóng đến [targeted_starbase.GetName]. Họ gần như ngay lập tức huy động mọi nguồn nhân lực địa phương để xây dựng lại toàn bộ căn cứ sao, và nhanh chóng hoàn thành công trình này.\n\nMặc dù một số chi tiết về việc xây dựng lại căn cứ sao vẫn được giữ bí mật với chúng ta, nhưng chỉ cần có thời gian, các kỹ sư của chúng ta chắc chắn sẽ có thể hiểu sâu hơn."
+ subject.62.desc_overlord_gestalt:0 "Ngay sau khi chúng ta gửi thông điệp cho [overlord_empire.GetName], [overlord_empire.GetEngineerPlural] đã nhanh chóng đến [targeted_starbase.GetName]. Họ gần như ngay lập tức huy động mọi tài nguyên cần thiết, và nhanh chóng hoàn thành việc xây dựng lại căn cứ sao.\n\nMặc dù một số chi tiết về việc xây dựng lại căn cứ sao vẫn được giữ bí mật với chúng ta, nhưng chỉ cần có thời gian, các kỹ sư của chúng ta chắc chắn sẽ có thể hiểu sâu hơn."
+ subject.62.a:0 "Dù sao đi nữa chúng ta vẫn vô cùng biết ơn."
+
+ subject.65.title:0 "Yêu cầu bị Từ chối"
+ subject.65.desc:0 "Bá Chủ đã gửi lại cho chúng ta một phản hồi thô bạo, nói rõ rằng họ không có thời gian cũng như hứng thú để giúp đỡ chúng ta nâng cao khả năng phòng thủ."
+ subject.65.a:0 "Thật đáng thất vọng."
+
+ # Modifiers
+ specialist_bulwark_helpful_overlord_modifier:0 "Bá Chủ Nhân Từ"
+ specialist_bulwark_helpful_overlord_modifier_desc:0 "Ai cũng biết rằng, vị Bá Chủ này thường xuyên dang tay giúp đỡ khi thuộc quốc của ngài gặp khó khăn, và nhờ vậy mà ngài rất được lòng dân."
+
+ ## Event Chain - Occupied Bulwark
+ subject.100.title:0 "Thành trì Suy tàn"
+ subject.100.desc:0 "Chúng ta đã nhận được một thông điệp từ thuộc địa bị chiếm đóng của [subject_empire.GetName], với những lời lẽ vỡ vụn giống như chính quốc gia của họ lúc này vậy. Quốc gia chư hầu của chúng ta không thể tự vệ, và đang tìm kiếm sự giúp đỡ từ chúng ta.\n\nDo tính chất quân phiệt trong thỏa thuận ngoại giao của chúng ta, lẽ tự nhiên chúng ta nên can thiệp, và bảo vệ quốc gia chư hầu của mình khỏi bị tổn hại thêm. Một số cố vấn của chúng ta thì lại cho rằng, có lẽ việc khích lệ chư hầu vùng lên tự vệ thay vì can thiệp trực tiếp mới là quyết định phù hợp hơn cho cả hai bên."
+ subject.100.desc_overlord_gestalt:0 "Chúng ta đã nhận được một thông điệp từ thuộc địa bị chiếm đóng của [subject_empire.GetName], với những lời lẽ vỡ vụn giống như chính quốc gia của họ lúc này vậy. Quốc gia chư hầu của chúng ta không thể tự vệ, và đang tìm kiếm sự giúp đỡ từ chúng ta.\n\nDo tính chất quân phiệt trong thỏa thuận ngoại giao của chúng ta, lẽ tự nhiên chúng ta nên can thiệp, và bảo vệ quốc gia chư hầu của mình khỏi bị tổn hại thêm. Chúng ta cũng đang tiến hành các tính toán, nhằm xác định xem liệu việc khích lệ chư hầu vùng lên tự vệ thay vì can thiệp trực tiếp có phải là quyết định phù hợp hơn cho cả hai bên hay không."
+ subject.100.a:0 "Chúng ta khích lệ họ tự vệ."
+ subject.100.a.tt:0 "§Y[subject_empire.GetName]§! có thể sẽ trở nên quân phiệt hơn một chút."
+ subject.100.b:0 "Dù thế nào đi nữa, bảo vệ chư hầu là trách nhiệm của Bá Chủ."
+ subject.100.c:0 "Họ phải học cách tự lực cánh sinh rồi."
+
+ subject.105.title:0 "Thành trì Suy tàn"
+ subject.105.desc:0 "Nỗi thống khổ của nhân dân chúng ta vẫn đang tiếp diễn, nhiều người bắt đầu gửi gắm hy vọng vào việc Bá Chủ [overlord_empire.GetName] của chúng ta có thể cung cấp chút giúp đỡ. Họ đã tống tiền chúng ta quá nhiều trong một thời gian dài, giờ đây chỉ có việc họ tham gia vào cuộc chiến, giải phóng nhân dân chúng ta khỏi sự nhục nhã từ bên ngoài mới là công bằng.\n\nSau khi công khai kêu gọi sự giúp đỡ, cuối cùng chúng ta cũng nhận được một số cố vấn quân sự phái cử từ Bá Chủ, họ sẽ đến giúp nhân dân chúng ta giành lại lãnh thổ. Họ đã bắt đầu thảo luận về cách chúng ta có thể tận dụng tốt hơn nhân dân của mình về mặt quân sự, mặc dù điều này cũng phải trả một cái giá tương xứng."
+ subject.105.desc_subject_gestalt:0 "Vì nỗi thống khổ ở các thuộc địa của chúng ta vẫn đang tiếp diễn, chúng ta bắt đầu gửi gắm hy vọng vào việc Bá Chủ [overlord_empire.GetName] có thể cung cấp chút giúp đỡ. Họ đã tống tiền chúng ta quá nhiều trong một thời gian dài, giờ đây chỉ có việc họ tham gia vào cuộc chiến, giải phóng chúng ta khỏi sự nhục nhã từ bên ngoài mới là công bằng.\n\nSau khi cử một số drone đi cầu cứu, cuối cùng chúng ta cũng nhận được một số cố vấn quân sự phái cử từ Bá Chủ, họ sẽ đến giúp tổ chức chúng ta giành lại lãnh thổ. Xem xét kỳ vọng ban đầu của chúng ta đối với Bá Chủ, kết quả này chỉ ở mức tạm chấp nhận được, và chúng ta sẽ không thể huy động tài nguyên của mình như kế hoạch ban đầu."
+ subject.105.desc_overlord_gestalt:0 "Nỗi thống khổ của nhân dân chúng ta vẫn đang tiếp diễn, nhiều người bắt đầu gửi gắm hy vọng vào việc Bá Chủ [overlord_empire.GetName] của chúng ta có thể cung cấp chút giúp đỡ. Họ đã tống tiền chúng ta quá nhiều trong một thời gian dài, giờ đây chỉ có việc họ tham gia vào cuộc chiến, giải phóng nhân dân chúng ta khỏi sự nhục nhã từ bên ngoài mới là công bằng.\n\nSau khi công khai kêu gọi sự giúp đỡ, cuối cùng chúng ta cũng nhận được một số [overlord_empire.GetIndividualName] quân sự phái cử từ Bá Chủ, họ sẽ đến giúp nhân dân chúng ta giành lại lãnh thổ. Có vẻ như Bá Chủ của chúng ta cho rằng, tốt nhất là chúng ta nên tự tổ chức nhân dân của mình để khôi phục lại vùng đất đã mất, chứ không nên hy vọng họ sẽ nhúng tay vào giúp đỡ chúng ta tận tình."
+ subject.105.desc_both_gestalt:0 "Vì nỗi thống khổ ở các thuộc địa của chúng ta vẫn đang tiếp diễn, chúng ta bắt đầu gửi gắm hy vọng vào việc Bá Chủ [overlord_empire.GetName] có thể cung cấp chút giúp đỡ. Họ đã tống tiền chúng ta quá nhiều trong một thời gian dài, giờ đây chỉ có việc họ tham gia vào cuộc chiến, giải phóng chúng ta khỏi sự nhục nhã từ bên ngoài mới là công bằng.\n\nSau khi công khai kêu gọi sự giúp đỡ, cuối cùng chúng ta cũng nhận được một số [overlord_empire.GetIndividualName] quân sự phái cử từ Bá Chủ, họ sẽ đến giúp chúng ta tổ chức tài nguyên để giành lại lãnh thổ. Có vẻ như Bá Chủ của chúng ta cho rằng, tốt nhất là chúng ta nên tự tổ chức lại và khôi phục vùng đất đã mất, chứ không nên hy vọng họ sẽ nhúng tay vào giúp đỡ chúng ta tận tình."
+ subject.105.a:0 "Giành lại tự do, bằng mọi giá."
+ subject.105.b:0 "Tự do cũng có giá của nó, điều này không đáng."
+
+ subject.107.title:0 "Người Bảo vệ"
+ subject.107.desc:0 "Toàn bộ người dân [subject_empire.GetName] đã đoàn kết một lòng, quyết tâm đánh đuổi ngoại bang, vùng lên bảo vệ quê hương của họ, luôn sẵn sàng cống hiến thân mình cho đế quốc. Hy vọng điều này có thể giải quyết được những vấn đề mà chư hầu của chúng ta đang gặp phải."
+ subject.107.a:0 "Ừm, tin tốt."
+
+ subject.110.title:0 "Người Yêu Chuộng Hòa Bình"
+ subject.110.desc:0 "Ngay cả khi bị chiếm đóng, nhân dân [subject_empire.GetName] vẫn từ chối bất kỳ nỗ lực nào nhằm giành lại lãnh thổ."
+ subject.110.a:0 "Chúng ta đành lực bất tòng tâm."
+
+ # Modifiers
+ specialist_bulwark_home_defense_force_modifier:0 "Bảo Vệ Tổ Quốc"
+ specialist_bulwark_home_defense_force_modifier_desc:0 "Ngoại trừ việc chứng kiến nước mất nhà tan, hiếm có điều gì có thể dễ dàng khơi dậy sự vĩ đại trong trái tim con người đến vậy."
+
+ specialist_bulwark_defensive_overlord_modifier:0 "Bá Chủ che chở"
+ specialist_bulwark_defensive_overlord_modifier_desc:0 "Bá Chủ tốt thì hiến kế, Bá Chủ vĩ đại thì tự mình ra tay."
+
+ ## Event Chain - War Fever
+ subject.1003.title:0 "Cuồng nhiệt Chiến tranh"
+ subject.1003.desc:0 "Có báo cáo cho biết một phong trào phái diều hâu đang được ấp ủ trên [Root.Capital.GetName], và một cựu chiến binh đang giữ vị trí trung tâm mang tính biểu tượng của phong trào này. Thông qua việc lãng mạn hóa quá khứ từng có thể tùy ý xâm phạm, san phẳng các đế quốc khác của chúng ta, họ hối thúc chúng ta đưa ra một chương trình nghị sự quyết liệt hơn, mang lại nhiều lợi ích hơn cho chính người dân của chúng ta, đồng thời làm suy yếu các đối thủ của chúng ta.\n\nDưới nền hòa bình mong manh và ngắn ngủi hiện tại, họ nhanh chóng giành được sự ủng hộ của đông đảo người nghèo và binh lính. Nếu cảm thấy phong trào này sẽ mang lại rắc rối, các cố vấn của chúng ta chỉ ra rằng, nhân vật then chốt của phong trào này chính là vị thủ lĩnh bù nhìn đó, nếu loại bỏ được yếu tố gây rắc rối này, toàn bộ phong trào sẽ sụp đổ."
+ subject.1003.a:0 "Thực ra chương trình nghị sự của họ lại khá phù hợp với kế hoạch của chúng ta."
+ subject.1003.b:0 "Hãy kết thúc trò hề này trước khi sự việc vượt khỏi tầm kiểm soát."
+
+ subject.1005.title:0 "Hướng đi của Chiến tranh"
+ subject.1005.desc:0 "Do phong trào trước đó được mặc nhiên chấp thuận, tháng trước những lời kêu gọi yêu cầu chính phủ thể hiện thái độ hiếu chiến hơn không ngừng gia tăng. Khi xung đột giữa giới lãnh đạo của chúng ta và phong trào lên đến đỉnh điểm, [Root.GetRulerTitle] [Root.GetRulerName] của chúng ta đã công khai lên tiếng ủng hộ phong trào này.\n\nRõ ràng là, chúng ta không chỉ ủng hộ nó, mà còn chuẩn bị đáp ứng nhiều yêu cầu được đưa ra, một đám đông những người ủng hộ đang nóng lòng chờ đợi động thái tiếp theo của chúng ta."
+ subject.1005.a:0 "Chúng ta sẽ tìm một vị trí cho thủ lĩnh cũ của họ."
+ subject.1005.a.tt:0 "Một §YChỉ huy§! sẽ được triệu tập."
+ subject.1005.b:0 "Đã đến lúc chấp nhận khuynh hướng quân sự trong nội bộ đế quốc chúng ta."
+ subject.1005.c:0 "Chúng ta sẽ tận dụng các nguồn lực trong tay để khôi phục hạm đội vinh quang thuở nào."
+
+ subject.1010.title:0 "Cuồng nhiệt Chiến tranh"
+ subject.1010.desc:0 "Chúng ta đã nhận được báo cáo từ quốc gia chư hầu [subject_empire.GetName]. Báo cáo này tóm tắt cách mà quần chúng bị kích động đến điên cuồng bởi một cựu chiến binh của họ. Họ hiện đang tìm kiếm một kênh để xả cơn giận, họ yêu cầu lãnh đạo của họ phát động chiến tranh.\n\nĐể nhanh chóng dập tắt bạo loạn, chính phủ [subject_empire.GetName] đã chấp nhận phong trào này, và đưa ra một số lời hứa, nhưng những người cung cấp thông tin của chúng ta rất nghi ngờ về việc liệu họ có thể thực hiện được hay không."
+ subject.1010.a:0 "Vậy ra họ muốn chúng ta hiếu chiến hơn, đúng không?"
+
+ # Modifiers
+ specialist_overlord_war_fever_modifier:0 "Tập trung Chiến tranh"
+ specialist_overlord_war_fever_modifier_desc:0 "Đế quốc đã dành phần lớn nguồn lực của mình để xây dựng và duy trì một lực lượng hải quân hùng mạnh hơn."
+
+ ## Event Chain - War Exhaustion
+ subject.1052.title:0 "Chán ghét Chiến tranh"
+ subject.1052.desc:0 "Mặc dù bản chất của hiệp ước giữa chúng ta và [overlord_empire.GetName] là về mặt quân sự, nhưng chúng ta không ngờ rằng nó lại gây ra tác động tồi tệ như vậy đối với chúng ta. Nhân dân của chúng ta đang phải chịu đựng những yêu cầu không ngừng từ Bá Chủ, một số cố vấn của chúng ta suy đoán rằng, nếu tình trạng này tiếp tục, nó sẽ gây ra tác động lâu dài đến các kế hoạch dài hạn của chúng ta."
+ subject.1052.desc_gestalt:0 "Mặc dù bản chất của hiệp ước giữa chúng ta và [overlord_empire.GetName] là về mặt quân sự, chúng ta không hề lên kế hoạch cũng như không lường trước được tác động tàn khốc mà nó sẽ mang lại cho chúng ta. Vì chúng ta luôn phải vật lộn với những yêu cầu từ Bá Chủ, nhiều kế hoạch nội bộ của chúng ta đã phải gác lại, chỉ để đáp ứng nhu cầu khổng lồ của quân đội chúng ta."
+ subject.1052.a:0 "[overlord_empire.GetName] sẽ lắng nghe tình cảnh khó khăn của chúng ta."
+ subject.1052.b:0 "Chúng ta sẽ phải nhẫn nhịn."
+
+ subject.1055.title:0 "Chán ghét Chiến tranh"
+ subject.1055.desc:0 "Chư hầu của chúng ta, [subject_empire.GetName], đã gửi cho chúng ta một công hàm, báo cáo về những xung đột trong nước do chúng ta ép buộc họ can dự vào chiến tranh. Sau khi đã hoàn toàn hiểu rõ bản chất của hiệp ước ngoại giao đã được đồng ý trước đó, họ bắt đầu yêu cầu chúng ta thay đổi chính sách vì lợi ích của họ, điều này thật có chút đáng ngạc nhiên."
+ subject.1055.a:0 "Chúng ta sẽ đảm bảo với họ rằng chúng ta sẽ tiến hành điều tra việc này."
+ subject.1055.b:0 "Xung đột của họ là chuyện riêng của họ."
+ subject.1055.b.tt:0 "§Y[subject_empire.GetName]§! có thể mất đi lòng trung thành vì chúng ta phớt lờ khó khăn của họ."
+
+ subject.1057.title:0 "Mối quan ngại Hợp lý"
+ subject.1057.desc:0 "Chúng ta đã nhận được phản hồi lịch sự từ [overlord_empire.GetName]. Trong thư giải thích rằng họ sẽ nghiên cứu cách giải quyết tình hình ngoại giao hiện tại, và sẽ tính đến các vấn đề của chúng ta trong các kế hoạch tiếp theo."
+ subject.1057.a:0 "Vô cùng cảm tạ."
+
+ subject.1060.title:0 "Chế độ Tự Hủy diệt"
+ subject.1060.desc:0 "Mặc dù công hàm của chúng ta đã giải thích chi tiết tình hình, nhưng dường như các đồng minh của chúng ta ở [overlord_empire.GetName] hoàn toàn không quan tâm đến vấn đề của chúng ta. Nếu bản chất hiếu chiến của họ tiếp tục không suy giảm, nhân dân của chúng ta chắc chắn sẽ phải chịu khổ.\n\nKhông lâu sau, phản hồi của Bá Chủ và chi tiết về hoàn cảnh khó khăn hiện tại của chúng ta đã được công chúng biết đến. Chúng ta nhận thấy sự trỗi dậy của một nhóm chính trị nhỏ phản đối việc tiếp tục chịu sự cai trị của [overlord_empire.Capital.GetName]. Rõ ràng là họ không hề có hứng thú an ủi chúng ta, vậy sự trung thành của chúng ta đối với họ rốt cuộc có thể đổi lại được điều gì?"
+ subject.1060.desc_gestalt:0 "Mặc dù công hàm của chúng ta đã giải thích tình hình một cách chi tiết và ngắn gọn, nhưng dường như người bảo vệ của chúng ta, [overlord_empire.GetName], đã quyết định phớt lờ hoàn cảnh khó khăn của chúng ta. Họ không chỉ không quan tâm đến sự trung thành của chúng ta, mà dường như còn quyết tâm tiếp tục hành vi phá hoại hiện tại của họ.\n\nMặc dù khi mới ký kết hiệp ước với họ, chúng ta đã hy vọng vào một kết quả tốt đẹp hơn, nhưng các tính toán hiện tại của chúng ta cho thấy, nó sẽ tiếp tục gây rắc rối cho đế quốc của chúng ta."
+ subject.1060.a:0 "Chúng ta vẫn chưa thể chống lại Bá Chủ của mình."
+ subject.1060.b:0 "... Hoặc là chúng ta có thể?"
+
+ subject.1062.title:0 "Biểu tình Gia tăng"
+ subject.1062.desc:0 "Có vẻ như sự bác bỏ của chúng ta đã làm nổ ra một phong trào chính trị biểu tình nhỏ trên [subject_empire.GetName]. Mặc dù họ không mấy hài lòng với phản hồi của chúng ta, nhưng phong trào này vẫn đang cố gắng tìm kiếm chỗ đứng, và nhìn chung đế quốc của họ cũng không có khả năng chống lại sự thống trị của chúng ta."
+ subject.1062.desc_gestalt:0 "Có vẻ như sự bác bỏ của chúng ta đã khiến [subject_empire.GetRulerTitle] bắt đầu đặt câu hỏi về tính chính đáng trong việc chúng ta tiếp tục cai trị họ. Mặc dù từ tình hình hiện tại, có thể họ đang do dự về hiệp ước ngoại giao của chúng ta, nhưng vẫn chưa đến mức có thể phản đối."
+ subject.1062.a:0 "Họ nhất định phải tiếp tục thần phục."
+
+ # Modifiers
+ specialist_overlord_war_exhaustion_modifier:0 "Mức độ Chán ghét Chiến tranh"
+ specialist_overlord_war_exhaustion_modifier_desc:0 "Đôi khi, vũng lầy của chiến tranh thậm chí có thể xé rách cả những đế quốc hùng mạnh nhất."
+
+ specialist_overlord_war_exhaustion_lithoid_modifier:0 "$specialist_overlord_war_exhaustion_modifier$"
+ specialist_overlord_war_exhaustion_lithoid_modifier_desc:0 "$specialist_overlord_war_exhaustion_modifier_desc$"
+
+ specialist_overlord_war_exhaustion_robot_modifier:0 "$specialist_overlord_war_exhaustion_modifier$"
+ specialist_overlord_war_exhaustion_robot_modifier_desc:0 "$specialist_overlord_war_exhaustion_robot_modifier$"
+
+ ## Event Chain - Rival Commanders
+ subject.1102.title:0 "Những Chỉ huy Cãi vã"
+ subject.1102.desc:0 "Chúng ta nhận thấy những bất đồng và tranh cãi giữa một số chỉ huy hạm đội và lãnh đạo ngày càng gia tăng. Nếu [admiral_democracy.GetName] cho rằng chúng ta nên làm gì đó, thì có thể chắc chắn rằng [admiral_oligarchy.GetName] sẽ làm ngược lại.\n\nBan đầu, đây dường như chỉ là một cuộc cạnh tranh lành mạnh giữa các đối thủ, nhưng gần đây bầu không khí ngày càng trở nên khó chịu, sặc mùi thuốc súng, và chúng ta thấy các đồng nghiệp của họ cũng bắt đầu chọn phe."
+ subject.1102.a:0 "Dù thế nào đi nữa, chúng ta cũng phải chấm dứt cuộc cãi vã này."
+ subject.1102.b:0 "Sớm muộn gì họ cũng sẽ tự giải quyết được thôi."
+
+ subject.1105.title:0 "Bộ Chỉ huy bị Chia rẽ"
+ subject.1105.desc_democracy:0 "Đây không còn là vấn đề bất đồng ý kiến đơn thuần nữa, bởi toàn bộ bộ tư lệnh hải quân đã đạt đến mức hoàn toàn thù địch với nhau. Cuộc tranh chấp ban đầu giữa hai vị chỉ huy giờ đây đã chia đôi cả văn phòng, không còn ai cố gắng hòa giải giữa họ nữa.\n\nNgoài sự chia rẽ trong bộ tư lệnh, họ hiện cũng đã phân tách thành hai nhóm chính trị được xác định rõ ràng, một bên ủng hộ ban lãnh đạo dân chủ hiện tại của chúng ta, bên kia cho rằng bộ tư lệnh nên đóng vai trò chính trị lớn hơn trong chính phủ của chúng ta."
+ subject.1105.desc_oligarchy:0 "Đây không còn là vấn đề bất đồng ý kiến đơn thuần nữa, bởi toàn bộ bộ tư lệnh hải quân đã đạt đến mức hoàn toàn thù địch với nhau. Cuộc tranh chấp ban đầu giữa hai vị chỉ huy giờ đây đã chia đôi cả văn phòng, không còn ai cố gắng hòa giải giữa họ nữa.\n\nNgoài sự chia rẽ trong bộ tư lệnh, họ hiện cũng đã phân tách thành hai nhóm chính trị được xác định rõ ràng, một bên ủng hộ ban lãnh đạo hiện tại của chúng ta, bên kia cho rằng quần chúng nên đóng vai trò chính trị lớn hơn trong chính phủ của chúng ta."
+ subject.1105.desc_neither:0 "Đây không còn là vấn đề bất đồng ý kiến đơn thuần nữa, bởi toàn bộ bộ tư lệnh hải quân đã đạt đến mức hoàn toàn thù địch với nhau. Cuộc tranh chấp ban đầu giữa hai vị chỉ huy giờ đây đã chia đôi cả văn phòng, không còn ai cố gắng hòa giải giữa họ nữa.\n\nNgoài sự chia rẽ trong bộ tư lệnh, họ hiện cũng đã phân tách thành hai nhóm chính trị được xác định rõ ràng, một bên cho rằng bộ tư lệnh nên đóng một vai trò quan trọng trong chính phủ của chúng ta, bên kia cho rằng quần chúng nên được trao nhiều quyền lực chính trị hơn."
+ subject.1105.a:0 "Họ định tiếp tục hành vi ngu ngốc này cho đến bao giờ?"
+
+ subject.1107.title:0 "Những Chỉ huy Cãi vã"
+ subject.1107.desc:0 "Chúng ta nhận được tin rằng, chư hầu của chúng ta, [subject_empire.GetName], dường như đang trải qua một cuộc đấu tranh nội bộ, bộ tư lệnh hải quân của họ đang rơi vào hỗn loạn sau khi hai vị chỉ huy vướng vào xung đột.\n\nGiới lãnh đạo của họ đang bận rộn kiểm soát tình hình, và vì những người ủng hộ của hai vị chỉ huy đối địch vẫn đang tiếp tục tranh giành quyền lực, chúng ta nghi ngờ không biết họ có còn là đồng minh và chư hầu đáng tin cậy của chúng ta hay không."
+ subject.1107.a:0 "Hãy can thiệp trước khi tình hình trở nên tồi tệ hơn."
+ subject.1107.b:0 "Giải quyết công việc nội bộ của họ không phải là phần việc của chúng ta."
+
+ subject.1110.title:0 "Bá Chủ Can thiệp"
+ subject.1110.desc:0 "Vì chúng ta lo ngại rằng cuộc xung đột trong bộ tư lệnh sẽ lan sang các nhà lãnh đạo khác trong đế quốc của chúng ta, đồng minh của chúng ta [overlord_empire.GetName] đã can thiệp và xoay sở để dập tắt tình hình. Có vẻ như cả [admiral_oligarchy.GetName] và [admiral_democracy.GetName] đều không muốn chống lại giới lãnh đạo của [overlord_empire.Capital.GetName]."
+ subject.1110.a:0 "Cuối cùng thì cuộc tranh cãi cũng kết thúc."
+
+ subject.1112.title:0 "Bá Chủ Can thiệp"
+ subject.1112.desc:0 "Khi các nhà ngoại giao từ [overlord_empire.GetName] đến và giúp điều hòa tình hình, chúng ta đã đặt nhiều hy vọng vào việc [admiral_oligarchy.GetName] và [admiral_democracy] đạt được thỏa hiệp. Nhưng sau vài ngày cãi vã liên tục, có vẻ như điểm chung duy nhất mà hai bên đạt được là Bá Chủ của chúng ta không đóng vai trò gì trong cuộc tranh chấp của họ."
+ subject.1112.a:0 "Ngay cả họ cũng không thể giúp được gì sao?"
+
+ subject.1115.title:0 "Âm mưu Ám sát"
+ subject.1115.desc:0 "Cuộc xung đột giữa hai phe trong bộ tư lệnh đã kéo dài hàng tuần, thậm chí hàng tháng, một phe do [admiral_oligarchy.GetName] lãnh đạo, phe kia do [admiral_democracy.GetName] lãnh đạo, trước đó chưa xảy ra bất kỳ vụ bạo lực trực tiếp nào, nhưng bây giờ người ta lại phát hiện ra thi thể của một người ủng hộ dân chủ.\n\nMặc dù chúng ta không tìm thấy bất kỳ bằng chứng nào cho thấy phe kia có liên quan đến vụ giết người này, nhưng nó chắc chắn sẽ gây ra phản ứng dữ dội và bạo lực hơn từ cả hai phía."
+ subject.1115.a:0 "Chúng ta có thể làm gì để cứu vãn tình hình này đây?"
+
+ subject.1120.title:0 "Một Thảm họa Công cộng"
+ subject.1120.desc:0 "Chúng ta nhận được báo cáo về một con tàu chở hàng không rõ danh tính bị rơi tại một khu dân cư trên [crash_planet.GetName]. Trong lúc chúng ta đang tìm cách để giúp đỡ họ, tất cả những người từng sống ở đó đã tạm thời được sơ tán đến nơi trú ẩn.\n\nNhóm thiểu số tinh hoa không chỉ chủ trương phớt lờ hoàn cảnh khó khăn của những người bị đuổi khỏi nhà, mà còn ủng hộ việc phát triển một mỏ khoáng sản mới trong khu vực, bởi vì con tàu chở hàng dường như đã phát hiện ra một mạch khoáng sản nguyên vẹn và phong phú mà chúng ta chưa từng thấy trước đây. Tất nhiên, đối thủ của họ cực lực phản đối ý tưởng này, và yêu cầu chúng ta tập trung sức lực vào việc xây dựng lại nhà cửa cho những người bị nạn."
+ subject.1120.a:0 "Chúng ta sẽ xây dựng lại nhà cửa cho họ."
+ subject.1120.b:0 "Nhắc đến khoáng sản thì tôi không buồn ngủ nữa."
+
+ subject.1125.title:0 "Vấn đề Nguồn vốn"
+ subject.1125.desc:0 "Ngày nay, những cuộc tranh cãi và xung đột này không còn giới hạn ở bộ tư lệnh nữa, chúng ta có thể thấy chúng ở mọi bộ phận của đế quốc. Sự kiện gần đây nhất liên quan đến số vốn được phân bổ cho [Root.Capital.GetName] phục vụ nhu cầu dân sinh, phe thiểu số tinh hoa muốn phân bổ lại số tiền đó cho quân đội."
+ subject.1125.a:0 "Sự phân bổ ban đầu là có lý do của nó."
+ subject.1125.b:0 "Phe thiểu số tinh hoa đã đúng, hãy chuyển nguồn vốn cho quân đội."
+
+ subject.1130.title:0 "Bạo lực Đường phố"
+ subject.1130.desc:1 "Sau một cuộc biểu tình đặc biệt tàn bạo gần văn phòng của phe thiểu số tinh hoa, một số thành viên của cả hai phe này đã bị thẩm vấn. Không có gì đáng ngạc nhiên, câu chuyện của hai bên hoàn toàn khác nhau, đa số đều đổ lỗi cho đối phương.\n\nHọ không chỉ muốn chúng ta chọn một phe, mà cả hai bên đều sẵn sàng can thiệp để đảm bảo rằng thời gian chúng ta đầu tư là xứng đáng."
+ subject.1130.a:0 "Những người theo chủ nghĩa dân túy có quyền này."
+ subject.1130.b:0 "Rõ ràng là, phe thiểu số tinh hoa vô tội trong vụ tấn công này."
+
+ subject.1135.title:0 "Bê bối Dân chủ"
+ subject.1135.desc:0 "Chúng ta đã nhận được một báo cáo, đề cập đến việc một đồng minh thân cận của [admiral_democracy.GetName] đã biển thủ công quỹ cho những chi tiêu cá nhân mờ ám. Nhiều người cho rằng hành động này có thể là đại diện cho phe phái của người đó. Nếu công chúng biết rằng phong trào này đã biển thủ công quỹ để phục vụ lợi ích cá nhân, chắc chắn điều đó sẽ dội một gáo nước lạnh vào chương trình nghị sự theo chủ nghĩa dân túy của họ."
+ subject.1135.a:0 "Chúng ta sẽ bảo vệ họ, chỉ lần này thôi."
+ subject.1135.b:0 "Một vụ bê bối đáng để chia sẻ."
+
+ subject.1140.title:0 "Tìm Ra Hung Thủ"
+ subject.1140.desc:0 "Sau một cuộc điều tra dài đằng đẵng, có vẻ như cuối cùng họ cũng đã tìm ra hung thủ của vụ án mạng đầu tiên tại văn phòng bộ tư lệnh. Tất cả bằng chứng đều hướng về một trong những cố vấn thân cận nhất của [admiral_oligarchy.GetName], người đã tự ý ra lệnh ám sát đối thủ của họ.\n\nMặc dù [admiral_oligarchy.GetName] không làm gì sai, nhưng nếu công chúng biết được, nó sẽ gây ra tác động xấu đến phong trào của họ."
+ subject.1140.a:0 "Chúng ta đảm bảo họ sẽ không biết đâu."
+ subject.1140.b:0 "Vậy là hung thủ cuối cùng cũng được tìm thấy."
+
+ subject.1142.title:0 "Bão Tố Nổi Lên"
+ subject.1142.desc:0 "Chúng ta không chỉ thấy cuộc xung đột này đang diễn ra ở bộ tư lệnh, mà thậm chí nó còn lan rộng ra toàn bộ đế quốc. Mặc dù hầu hết các vụ bạo lực không được công khai, nhưng cả hai bên đều chịu tổn thất nặng nề vào thời điểm này.\n\nNhững người cung cấp thông tin của chúng ta ở cả hai phe nói với chúng ta rằng, cả hai bên đều đang dòm ngó quyền lãnh đạo quốc gia, và lên kế hoạch dùng vũ lực đoạt quyền để triệt để loại bỏ đối thủ. Vào thời điểm này, có vẻ như [Root.GetRulerTitle] của chúng ta cũng buộc phải đứng về một phe, nếu không sẽ bị phe kia lật đổ."
+ subject.1142.a:0 "Phong trào dân túy của [admiral_democracy.GetName]."
+ subject.1142.b:0 "Quyền lãnh đạo quân sự của [admiral_oligarchy.GetName]."
+
+ subject.1145.title:0 "Kết Thúc Cuộc Cạnh Tranh"
+ subject.1145.desc:0 "[Root.GetAdmiraltyWinner]\n\n[Root.GetAdmiraltyLoserConsequences]\n\n[Root.GetAdmiraltyConsequences]"
+ subject.1145.a:0 "Hy vọng tình huống tồi tệ nhất đã qua."
+ subject.1145.a.separatist.tt:0 "Lực lượng ly khai đã kiểm soát §Y[separatist_home.GetName]§!."
+
+ subject.1147.title:0 "Chư Hầu Chia Rẽ"
+ subject.1147.desc:0 "Có vẻ như bộ tư lệnh của chư hầu [subject_empire.GetName] của chúng ta có nhiều bất đồng và xung đột, dẫn đến việc đế quốc của họ bị chia cắt thành hai phần. Mặc dù xung đột vẫn diễn ra dữ dội, nhưng có vẻ như cả hai bên đều đã chấp nhận sự tiếp tục cai trị của chúng ta."
+ subject.1147.a:0 "Ít nhất chúng ta không phải nghe về chuyện này nữa."
+
+ # Scripted Loc
+ overlord_admiralty_democratic_victory:0 "Sau khi cuộc xung đột ở bộ tư lệnh lên đến đỉnh điểm, có vẻ như phe dân chủ đã đẩy lùi đối thủ của họ, bởi vì họ đã kiểm soát được nhiều học viện trung tâm của chúng ta."
+ overlord_admiralty_oligarchic_victory:0 "Sau khi cuộc xung đột trong nội bộ bộ tư lệnh lên đến đỉnh điểm, có vẻ như phe thiểu số tinh hoa đã giành chiến thắng trong cuộc xung đột đang ấp ủ này, bởi vì tất cả các thuộc địa của chúng ta đều đang loan báo rộng rãi về tin tức này."
+
+ overlord_admiralty_democratic_killed_opponents:0 "Trong khi mọi thứ đều nằm trong tầm kiểm soát, các chỉ huy của phe dân chủ đã tiến hành một phiên tòa giả tạo chóng vánh đối với những đối thủ cũ của họ, và sau đó xử tử công khai họ như những kẻ phản bội đế quốc."
+ overlord_admiralty_democratic_released_opponents:0 "Trong khi mọi thứ đều nằm trong tầm kiểm soát, các chỉ huy của phe dân chủ đã tiến hành một phiên tòa giả tạo chóng vánh đối với những đối thủ cũ của họ, và sau đó đã thả họ ra sau khi thu một khoản tiền phạt khổng lồ."
+ overlord_admiralty_democratic_separatists:0 "Mặc dù mọi thứ đều nằm dưới sự kiểm soát của phe dân chủ, nhưng những đối thủ cũ của họ đã biến mất trong sự hỗn loạn. Không lâu sau, chúng ta đã nhận được báo cáo về việc phong trào ly khai đang không ngừng phát triển trong số nhiều thành viên cũ của bộ tư lệnh."
+
+ overlord_admiralty_oligarchic_killed_opponents:0 "Sau khi đưa ra một tuyên bố công khai, họ ngay lập tức có một bài phát biểu, lên án đối thủ của họ là những kẻ kích động, dân túy và bán nước. Những phần tử dân chủ thế lực nhất đã nhanh chóng bị xử tử, số còn lại thì biến mất khỏi tầm mắt của công chúng."
+ overlord_admiralty_oligarchic_released_opponents:0 "Sau khi đưa ra một tuyên bố công khai, họ ngay lập tức có một bài phát biểu, lên án những đối thủ cũ của họ. Bọn họ đều bị phạt nặng, và bị áp dụng các biện pháp để đảm bảo rằng sẽ không bao giờ trở thành rắc rối nữa."
+ overlord_admiralty_oligarchic_separatists:0 "Sau khi đưa ra một tuyên bố công khai, cuộc truy nã đối với những đối thủ cũ của họ đã nhanh chóng bắt đầu, nhưng không mang lại kết quả gì. Sau cuộc đấu tranh hỗn loạn tại văn phòng bộ tư lệnh, phe dân chủ gần như biến mất."
+
+ overlord_admiralty_imposed_government:0 "Ngay sau khi loại bỏ đối thủ của mình, họ đã quyết định áp đặt các chính sách chính phủ của riêng họ lên đế quốc của chúng ta."
+ overlord_admiralty_continued_government:0 "Mặc dù họ đã loại bỏ đối thủ và tiếp quản đế quốc của chúng ta, nhưng có vẻ như họ rất vui lòng để mọi thứ tiếp tục như thường lệ - ít nhất là vào lúc này."
+ overlord_admiralty_imposed_leadership:0 "Khi đối thủ của họ đã ra đi, họ quyết định không chỉ áp đặt các chính sách của riêng mình lên chính phủ của chúng ta, mà còn để thủ lĩnh cũ của họ đích thân lãnh đạo."
+
+ # Tooltip loc
+ bickering_admirals_democratic_boon_tt:0 "Phe dân chủ của bộ tư lệnh sẽ giành được nhiều ảnh hưởng hơn."
+ bickering_admirals_democratic_boon_significant_tt:0 "Phe dân chủ của bộ tư lệnh sẽ giành được nhiều ảnh hưởng hơn một cách đáng kể."
+
+ bickering_admirals_oligarchic_boon_tt:0 "Phe thiểu số tinh hoa của bộ tư lệnh sẽ giành được nhiều ảnh hưởng hơn."
+ bickering_admirals_oligarchic_boon_significant_tt:0 "Phe thiểu số tinh hoa của bộ tư lệnh sẽ giành được nhiều ảnh hưởng hơn một cách đáng kể."
+
+ # Modifiers & Deposits
+ d_admirals_bickering_crashed_cargo_ship:0 "Tàu Chở Hàng Bị Rơi"
+ d_admirals_bickering_crashed_cargo_ship_desc:0 "Tàu chở hàng đã phá hủy một khu dân cư, nhưng lại vô tình húc mở một mạch khoáng sản."
+
+ specialist_overlord_admirals_bickering_democratic_funding_modifier:0 "Quỹ Chuyên Dụng Dân Sinh"
+ specialist_overlord_admirals_bickering_democratic_funding_modifier_desc:0 "Khoản ngân sách dành riêng cho nhu cầu sinh hoạt của người dân ở quốc gia chúng ta."
+
+ specialist_overlord_admirals_bickering_oligarchic_funding_modifier:0 "Quỹ Chuyên Dụng Quân Sự"
+ specialist_overlord_admirals_bickering_oligarchic_funding_modifier_desc:0 "Khoản ngân sách dành riêng cho quân đội và các nhu cầu liên quan ở quốc gia chúng ta."
+
+ ### Scholarium
+ ## Event Chain - Technology Advancement
+ subject.2005.title:0 "Tiến Bộ Công Nghệ"
+ subject.2005.desc:0 "Nhờ vào nhiều giao dịch với [overlord_empire.GetName], chúng ta đã có thể tập trung nỗ lực vào việc thiết lập và cải thiện các hoạt động nội bộ của đế quốc. Dưới sự nỗ lực làm việc của các nhà khoa học và kỹ sư, chúng ta đã chứng kiến các thuộc địa của mình phát triển bùng nổ trong vài năm qua. Những điều mà cách đây vài năm người ta vẫn cho là ảo tưởng, bỗng chốc không chỉ trở thành hiện thực, mà còn trở nên vô cùng phổ biến.\n\nChúng ta nhận được tin rằng, trưởng quan của chúng ta ở [overlord_empire.GetName] muốn tự mình đến xem những tiến bộ mới nhất của chúng ta, và rất có thể sẽ mang một số thành quả đó về quê hương của họ."
+ subject.2005.desc_gestalt:0 "Nhờ vào nhiều giao dịch với [overlord_empire.GetName], chúng ta đã có thể tập trung nỗ lực vào việc kiến thiết và cải tạo đế quốc. Do chúng ta đã dành ra một phần lớn trí tuệ tập thể để hoàn thành nhiệm vụ này, những kỳ tích kỹ thuật và công nghệ trước đây được cho là bất khả thi, giờ đây đã trở nên quen thuộc trên các hành tinh của chúng ta.\n\nChúng ta nhận được tin rằng, người giám sát của chúng ta ở [overlord_empire.GetName] muốn tự mình đến xem những tiến bộ mới nhất của chúng ta, và rất có thể sẽ mang một số thành quả đó về quê hương của họ."
+ subject.2005.a:0 "Tất nhiên rồi, hoan nghênh họ đến."
+
+ subject.2010.title:0 "Trách Nhiệm Của Chư Hầu"
+ subject.2010.desc:0 "Khi sứ giả từ [overlord_empire.GetName] chuẩn bị đến nơi, chúng ta phải quyết định mức độ sẵn sàng chia sẻ các thiết kế và sáng tạo mới nhất của mình với Bá Chủ. Nếu chúng ta chia sẻ, chắc chắn sẽ được khen ngợi, nhưng có thể họ sẽ kiểm soát trực tiếp hơn phương hướng nỗ lực của chúng ta trong tương lai."
+ subject.2010.a:0 "Dù sao đi nữa, vẫn hãy chia sẻ với Bá Chủ của chúng ta."
+ subject.2010.b:0 "Phần lớn hãy giữ lại cho chính chúng ta."
+
+ subject.2015.title:0 "Tiến Bộ Công Nghệ"
+ subject.2015.desc:0 "Chúng ta nhận được tin rằng, chư hầu của chúng ta, [subject_empire.GetName], gần đây đã đạt được những tiến bộ đáng kể trong việc cải thiện sự phát triển thuộc địa của họ. Một số thiết kế và sáng tạo đã được mang về [overlord_empire.Capital.GetName], và triển vọng phát triển của chúng đều rất tốt. Nếu muốn, chúng ta có thể yêu cầu họ nghiên cứu một lĩnh vực cụ thể, thay vì để họ tiếp tục nỗ lực mà không có sự giám sát."
+ subject.2015.a:0 "Rõ ràng là họ đang tự nghiên cứu rất tốt."
+ subject.2015.b:0 "Hãy để họ tập trung sức lực vào Vật lý."
+ subject.2015.c:0 "Họ sẽ tiến hành nghiên cứu Xã hội học về xã hội của mình."
+ subject.2015.d:0 "Kỹ thuật - sẽ là trọng tâm nghiên cứu của họ."
+
+ subject.2020.title:0 "Phát Triển Không Giám Sát"
+ subject.2020.desc:0 "Có vẻ như Bá Chủ [overlord_empire.GetAdj] của chúng ta đánh giá cao điều này, và tiếp tục cho phép chúng ta tự do hành động mà không can thiệp hay áp dụng các biện pháp kiểm soát."
+ subject.2020.a:0 "Vậy thì chúng ta sẽ tiếp tục cố gắng."
+
+ subject.2025.title:0 "Chỉ Thị Vật Lý"
+ subject.2025.desc:0 "Sau khi xem qua các thiết kế và sáng tạo gần đây của chúng ta, Bá Chủ đã ban hành một chỉ thị cho chúng ta. Vì đã nhận ra tiềm năng to lớn tiềm ẩn trong những thiết kế sáng tạo này, có vẻ như họ mong muốn từ nay trở đi chúng ta sẽ bắt đầu tập trung vào nghiên cứu Vật lý."
+ subject.2025.a:0 "Cứ làm như vậy đi."
+
+ subject.2030.title:0 "Chỉ Thị Xã Hội Học"
+ subject.2030.desc:0 "Sau khi xem qua các thiết kế và sáng tạo gần đây của chúng ta, Bá Chủ đã ban hành một chỉ thị cho chúng ta. Vì đã nhận ra tiềm năng to lớn tiềm ẩn trong những thiết kế và ý tưởng này, có vẻ như họ mong muốn từ nay trở đi chúng ta sẽ bắt đầu tập trung vào nghiên cứu Xã hội học."
+ subject.2030.a:0 "Cứ làm như vậy đi."
+
+ subject.2035.title:0 "Chỉ Thị Kỹ Thuật"
+ subject.2035.desc:0 "Sau khi xem qua các thiết kế và sáng tạo gần đây của chúng ta, Bá Chủ đã ban hành một chỉ thị cho chúng ta. Vì đã nhận ra tiềm năng to lớn tiềm ẩn trong những thiết kế và cải tiến này, có vẻ như họ mong muốn từ nay trở đi chúng ta sẽ bắt đầu tập trung vào nghiên cứu Kỹ thuật."
+ subject.2035.a:0 "Cứ làm như vậy đi."
+
+ # Modifiers
+ specialist_technocracy_technology_inflation_general:0 "Tiến Bộ Công Nghệ"
+ specialist_technocracy_technology_inflation_general_desc:0 "Mọi lĩnh vực nghiên cứu và phát triển công nghệ đều đã đạt được những tiến bộ vượt bậc."
+
+ specialist_technocracy_technology_inflation_physics:0 "Tiến Bộ Công Nghệ - Vật Lý"
+ specialist_technocracy_technology_inflation_physics_desc:0 "Sau khi chứng kiến những tiến bộ toàn diện và rõ rệt của chúng ta, Bá Chủ đã ra lệnh cho chúng ta tập trung toàn lực vào một lĩnh vực duy nhất."
+
+ specialist_technocracy_technology_inflation_society:0 "Tiến Bộ Công Nghệ - Xã Hội Học"
+ specialist_technocracy_technology_inflation_society_desc:0 "Sau khi chứng kiến những tiến bộ toàn diện và rõ rệt của chúng ta, Bá Chủ đã ra lệnh cho chúng ta tập trung toàn lực vào một lĩnh vực duy nhất."
+
+ specialist_technocracy_technology_inflation_engineering:0 "Tiến Bộ Công Nghệ - Kỹ Thuật"
+ specialist_technocracy_technology_inflation_engineering_desc:0 "Sau khi chứng kiến những tiến bộ toàn diện và rõ rệt của chúng ta, Bá Chủ đã ra lệnh cho chúng ta tập trung toàn lực vào một lĩnh vực duy nhất."
+
+ ## Event Chain - Destructive Research
+ subject.2055.title:0 "Nghiên Cứu Mang Tính Hủy Diệt"
+ subject.2055.desc:0 "Chúng ta đã liên tục tiến hành rất nhiều nghiên cứu về chính cấu trúc của hành tinh trên [targeted_planet.GetName], nhằm xác định cách cải tạo hành tinh vì lợi ích của thuộc địa. Đáng tiếc là những diễn biến gần đây đã đi chệch hướng, chất thải độc hại đã gây ô nhiễm những vùng đất rộng lớn, khiến chúng hoàn toàn không thể ở được.\n\nTuy nhiên, các tính toán của chúng ta chỉ ra rằng, đây không chỉ là một sự cố đơn lẻ, chỉ cần kiểu nghiên cứu hành tinh trên diện rộng này còn tiếp diễn, thì có thể sẽ còn nhiều thảm họa như thế này xảy ra."
+ subject.2055.a:0 "Hiện tại chúng ta vẫn sẽ tiếp tục nghiên cứu."
+ subject.2055.a.tt:0 "Xác suất cực lớn sẽ tạo ra thêm tác dụng phụ trên [targeted_planet.GetName]."
+ subject.2055.b:0 "Tạm dừng nghiên cứu cho đến khi làm rõ thực hư."
+
+ subject.2060.title:0 "Nghiên Cứu Mang Tính Hủy Diệt: Khủng Hoảng Đất Hoang"
+ subject.2060.desc:0 "Một trong những tác dụng phụ gây ra bởi chất thải độc hại từ các nghiên cứu của chúng ta trên [targeted_planet.GetName] là sự tuyệt chủng của một số loài động thực vật từng phát triển mạnh mẽ ở đó, điều này đã gây ra hàng loạt vấn đề cho hệ động thực vật trên hành tinh. Có lẽ hơi bất ngờ, nhưng may mắn là phần lớn cư dân sống trên [targeted_planet.GetName] không bị tổn hại vì điều này, tuy nhiên nó vẫn khiến cuộc sống trở nên khó khăn hơn."
+ subject.2060.a:0 "Đó cũng không phải là chuyện lớn không thể xử lý."
+ subject.2060.a.tt:0 "Xác suất rõ rệt sẽ tạo ra thêm tác dụng phụ trên [targeted_planet.GetName]."
+ subject.2060.b:0 "Đã tiến hành đủ lâu rồi, dừng thí nghiệm thôi."
+
+ subject.2065.title:0 "Nghiên Cứu Mang Tính Hủy Diệt: Khủng Hoảng Đại Dương"
+ subject.2065.desc:0 "Ước tính ban đầu của chúng ta không được chính xác như hy vọng, và những diễn biến đi chệch hướng gần đây trên [targeted_planet.GetName] lớn hơn nhiều so với kỳ vọng trước đó. Chất thải độc hại ban đầu đã khuếch tán vào các khối nước của hành tinh, từ đó lại làm ảnh hưởng đến các vùng đất lân cận.\n\nVì những vùng nước và đất đai rộng lớn này không còn thích hợp để sinh sống, thuộc địa của chúng ta buộc phải di dời vì lý do an toàn."
+ subject.2065.a:0 "Đến bước này rồi quay lại đã quá muộn."
+ subject.2065.a.tt:0 "Xác suất lớn sẽ tạo ra thêm tác dụng phụ trên [targeted_planet.GetName]."
+ subject.2065.b:0 "Mất bò mới lo làm chuồng, đã đến lúc kết thúc thí nghiệm."
+
+ subject.2070.title:0 "Nghiên Cứu Mang Tính Hủy Diệt: Khủng Hoảng Dung Nham"
+ subject.2070.desc:0 "Chúng ta nhận được báo cáo rằng dung nham đang trào ra từ lớp vỏ của [targeted_planet.GetName]. Có vẻ như những nghiên cứu gần đây trên hành tinh này đã làm nó mất đi sự ổn định, đến mức động đất đã trở nên phổ biến trong những tháng gần đây, và người dân bắt đầu mất niềm tin vào các nhà khoa học ở đó.\n\nNhìn vào tình hình này, có vẻ như các nhà khoa học của chúng ta đã xác định rằng hiện tại chúng ta đã chạm đáy, dù là theo nghĩa bóng hay nghĩa đen."
+ subject.2070.desc_gestalt:0 "Những nghiên cứu mà chúng ta đã thực hiện gần đây trên [targeted_planet.GetName] dường như đã gây ra nhiều tác dụng phụ hơn cho hành tinh này. Sau một trận động đất nhẹ xảy ra gần một trong những thuộc địa của chúng ta, khí độc và đá nóng chảy đã bất ngờ phun trào từ dưới mặt đất, biến tình hình vốn đang được kiểm soát thành một thảm họa lớn.\n\nXét đến hàng loạt tai họa gần đây xảy ra trên [targeted_planet.GetName], ước tính qua tính toán của chúng ta là những gì chúng ta đang thấy hiện tại đã là kịch bản tồi tệ nhất rồi."
+ subject.2070.a:0 "Ít nhất thì cũng không thể tồi tệ hơn được nữa."
+
+ # Modifiers & Deposits
+ specialist_technocracy_reduced_research:0 "Nghiên Cứu Bị Cản Trở"
+ specialist_technocracy_reduced_research_desc:0 "Xét đến những thiệt hại rõ rệt đã gây ra trước đó, tiến độ nghiên cứu của hành tinh này đã bị tạm dừng để các nghiên cứu tiếp theo có thể được tiến hành an toàn hơn."
+
+ d_technocracy_toxic_waste_blocker:0 "Chất Thải Độc Hại"
+ d_technocracy_toxic_waste_blocker_desc:0 "Một mảnh đất hoang tàn chứa đầy độc tính, hậu quả của việc nghiên cứu tính toàn vẹn cấu trúc của hành tinh. Những nhà khoa học máu lạnh có lẽ sẽ quan tâm xem điều này sẽ ảnh hưởng như thế nào đến cuộc sống của người dân trên hành tinh."
+
+ d_technocracy_barren_lands_blocker:0 "Đất Hoang"
+ d_technocracy_barren_lands_blocker_desc:0 "Vùng đất hoang hóa còn sót lại sau khi chất thải độc hại vốn có trên hành tinh đã tiêu diệt một lượng lớn hệ động thực vật."
+
+ d_technocracy_toxic_ocean_blocker:0 "Nước Độc"
+ d_technocracy_toxic_ocean_blocker_desc:0 "Một lượng lớn khối nước trên hành tinh đã bị ô nhiễm bởi chất thải độc hại, gây ra thiệt hại không thể đong đếm cho những vùng đất xung quanh, khiến chúng không còn thích hợp cho những cư dân cũ sinh sống."
+
+ d_technocracy_molten_waste_blocker:0 "Đất Hoang Nóng Chảy"
+ d_technocracy_molten_waste_blocker_desc:0 "Sau một trận động đất lớn chưa từng có xảy ra trên hành tinh, dung nham nóng chảy đã trào ra từ dưới lòng đất, gây ra thiệt hại không thể đong đếm cho nhiều thuộc địa xung quanh."
+
+ ## Event Chain - Experiments!
+ subject.2105.title:0 "Nghiên Cứu Thử Nghiệm"
+ subject.2105.desc:1 "Với việc những yêu cầu từ [overlord_empire.GetName] bay đến như bông tuyết, công tác nghiên cứu của chúng ta đã trở nên ngày càng quan trọng. Rất nhiều nhà khoa học của chúng ta đang phải vật lộn với áp lực này, nhưng từ đó lại lóe lên những tia sáng thiên tài và những bước đột phá đáng kinh ngạc thỉnh thoảng xuất hiện.\n\nMột trong những thành quả mới nhất đó là đến từ [targeted_scientist.GetName], người đã thiết kế và dự định tiến hành một loạt các thí nghiệm trong một phòng ban của chúng ta. Vấn đề duy nhất là, trong mọi kế hoạch nghiên cứu của họ đều bao gồm các thí nghiệm trên cơ thể sống của [Root.GetSpeciesNamePlural]."
+ subject.2105.desc_gestalt:0 "Chúng ta đã nhận được thêm những chỉ thị từ [overlord_empire.GetName], họ mong muốn chúng ta nâng cao hơn nữa sản lượng nghiên cứu. Về việc làm thế nào để chúng ta không phụ lòng mong mỏi của Bá Chủ, chúng ta đã tiến hành rất nhiều tính toán, và chúng ta tin rằng mình đã tìm ra cách điều chỉnh quy trình để đạt được mục tiêu.\n\nTuy nhiên, để hiện thực hóa điều này một cách trọn vẹn, chúng ta phải tiến hành một loạt các thí nghiệm trên các drone và mạng lưới thần kinh chia sẻ của mình. Điều này chắc chắn sẽ mang theo rủi ro rất lớn."
+ subject.2105.a:0 "Chúng ta sẽ tài trợ cho những nghiên cứu này." # Non-Gestalt yes
+ subject.2105.b:0 "Dừng nghiên cứu lại." # Non-Gestalt no
+ subject.2105.c:0 "Hãy tiếp tục đi." # Gestalt yes
+ subject.2105.d:0 "Chúng ta không thể nhượng bộ về điều này." # Gestalt no
+
+ subject.2110.title:0 "Nghiên Cứu Toàn Tâm Toàn Ý"
+ subject.2110.desc:0 "Chúng ta đã nhận được một báo cáo từ một khu dân cư trên [Root.Capital.GetName]. Có liên quan đến nơi ở của [targeted_scientist.GetName]. Lực lượng thực thi pháp luật địa phương đã tìm thấy một vài thi thể còn sót lại của [Root.GetSpeciesNamePlural] - có vẻ như là một phần của những thí nghiệm khủng khiếp đã thất bại tại hiện trường.\n\nChúng ta được báo rằng, vẫn chưa có ai có thể lần theo dấu vết của [targeted_scientist.GetName], người bằng cách nào đó đã tránh được mọi cảm biến."
+ subject.2110.a:0 "Có lẽ điều đó là để đạt được kết quả tốt hơn."
+
+ subject.2112.title:0 "Nghiên Cứu Thử Nghiệm"
+ subject.2112.desc:0 "Chúng ta nhận được tin báo từ [subject_empire.GetName] - nghe nói rằng họ đã bắt đầu tiến hành các thí nghiệm nguy hiểm trên chính giống loài của mình, và kết quả của các thí nghiệm thường là thảm họa. Mặc dù sứ giả địa phương của chúng ta không yêu cầu chúng ta can thiệp một cách rõ ràng, nhưng rõ ràng họ đang ám chỉ chúng ta."
+ subject.2112.desc_gestalt:0 "Chúng ta nhận được tin báo từ [subject_empire.GetName] - nghe nói rằng họ đã bắt đầu tiến hành các thí nghiệm nguy hiểm trên chính giống loài của mình. Dù nguyên nhân vẫn chưa rõ ràng, ngoại trừ khả năng có thể gây tổn hại cho chính họ, chúng ta cho rằng việc để họ tiếp tục sẽ không mang lại bất kỳ rủi ro đặc biệt nào."
+ subject.2112.a:0 "Chúng ta không có quyền can thiệp vào công việc nội bộ của họ."
+ subject.2112.b:0 "Dừng nghiên cứu lại."
+
+ subject.2115.title:0 "Nghiên Cứu Bị Từ Chối"
+ subject.2115.desc:0 "Sứ giả từ Bá Chủ của chúng ta mang đến một mệnh lệnh rõ ràng, yêu cầu chấm dứt các thí nghiệm và thử nghiệm đang được tiến hành gần đây trên [Root.Capital.GetName] nhằm vào [Root.GetSpeciesAdj]. Mặc dù không nêu rõ bất kỳ lý do cụ thể nào, nhưng ý tứ của nó là vô cùng rõ ràng."
+
+ subject.2120.title:0 "Nghiên Cứu Được Chấp Thuận"
+ subject.2120.desc:0 "Chúng ta vẫn chưa nhận được bất kỳ phản hồi nào từ Bá Chủ [overlord_empire.GetName] của mình. Họ dường như đã biết về các nghiên cứu mà chúng ta mới bắt đầu gần đây, và chọn cách không can thiệp bằng bất kỳ hình thức nào.\n\nTheo kế hoạch của mình, chúng ta cần xác định xem bước tiếp theo chúng ta sẽ tiến hành những thí nghiệm nào. Một thiết kế có rủi ro càng lớn, mối nguy hiểm tiềm tàng càng cao, thì càng có nhiều khả năng mang lại lợi ích lâu dài cho đế quốc của chúng ta."
+ subject.2120.a:0 "Chúng ta sẽ dốc sức vào các thí nghiệm thích hợp."
+ subject.2120.a.tt:0 "Chúng ta sẽ tiếp tục tiến hành các thí nghiệm nguy hiểm hơn."
+ subject.2120.b:0 "Thực hiện một vài bài kiểm tra ở mức độ nhẹ hơn"
+ subject.2120.b.tt:0 "Chúng ta sẽ tiến hành các thí nghiệm an toàn hơn."
+
+ subject.2125.title:0 "Thí Nghiệm Thất Bại"
+ subject.2125.desc:0 "Chúng ta đã thực hiện rất nhiều thí nghiệm, nhưng cuối cùng kết quả chỉ mang lại sự thất bại và thất vọng. Nếu phải nói có ý nghĩa gì, thì đó là chúng ta đã học được cách tránh những cạm bẫy trong tương lai."
+
+ subject.2130.title:0 "Thí Nghiệm Thành Công"
+ subject.2130.desc:0 "Hầu hết các thí nghiệm của chúng ta cuối cùng cũng đã được đền đáp, và mang lại một số thu hoạch bất ngờ. Phần lớn các đối tượng thử nghiệm thậm chí còn sống sót, và thể hiện rất tốt. Vì vậy nhìn chung, các thí nghiệm được coi là khá thành công."
+ subject.2130.a:0 "Tin tốt đấy."
+
+ subject.2135.title:0 "Thí Nghiệm Thành Công"
+ subject.2135.desc:0 "Mặc dù có người sẽ nói rằng chi phí cao hơn dự kiến, nhưng chúng ta đã đạt được thành công vang dội trong nhiều thí nghiệm. Qua một vài kết quả thú vị và bất ngờ, những gì chúng ta học được còn nhiều hơn so với dự đoán ban đầu."
+ subject.2135.a:0 "Một cái giá xứng đáng."
+
+ subject.2140.title:0 "Đột Biến Bất Ngờ"
+ subject.2140.desc:0 "Nhiều thí nghiệm của chúng ta đã dẫn đến những thay đổi thú vị ở các đối tượng thử nghiệm, về hình thể hoặc tính cách, từ kỳ dị, đáng sợ cho đến những biến đổi nhỏ bé không đáng kể đều xảy ra. Thật bất ngờ, những cá thể đột biến này đã trốn thoát khỏi phòng thí nghiệm, bắt đầu tác động đến các khu vực khác trong đế quốc của chúng ta."
+ subject.2140.a:0 "Thật sự rất thú vị..."
+
+ subject.2145.title:0 "Pha Trộn Và Kết Hợp"
+ subject.2145.desc:0 "Nhiều thí nghiệm ban đầu của chúng ta đã kết thúc trong thất bại, đến mức chúng ta phải thiết kế lại một số phần và thử lại. Trong một viễn cảnh thiết kế lại khác thường, chúng ta đã đưa vào một cá thể [targeted_species.Species.GetAdj]. Dù không đặt nhiều kỳ vọng, nhưng cuối cùng lại đạt được thành công ngoài mong đợi. Với chiến thắng này, chúng ta sẽ tiếp tục tiến hành các thí nghiệm trên cả hai giống loài của mình."
+ subject.2145.a:0 "Tuy không giống như những gì chúng ta tưởng tượng, nhưng vẫn rất thú vị."
+ subject.2145.a.tt:0 "Hợp nhất §Y100§! £pop£ §Hdân số [Root.Species.GetName]§! và §Y100§! £pop£ §Hdân số [targeted_species.Species.GetName]§! thành §Y100§! £pop£ §Hdân số [new_species.Species.GetName]§!"
+
+ subject.2150.title:0 "Thí Nghiệm Thất Bại"
+ subject.2150.desc:0 "$subject.2125.desc$"
+
+ ### General
+ ## Event Chain - Overlord Tourist Disagreements
+ subject.3005.title:0 "Mối Nguy Hiểm Tại Nhà"
+ subject.3005.desc:0 "Sau khi chúng ta trở thành chư hầu của họ, một lượng lớn người từ [overlord_empire.GetName] đã bắt đầu đến thăm thế giới của chúng ta và bày tỏ sự quan tâm đến văn hóa cũng như con người nơi đây. Ban đầu, chúng ta cho rằng đây là một điều tốt đẹp cho mọi người, nhưng dạo gần đây, chúng ta chứng kiến sự gia tăng các cuộc xung đột giữa người dân địa phương và du khách [overlord_empire.GetAdj] - dường như họ mang theo một vài hiểu lầm về đế quốc của chúng ta, và họ có xu hướng sử dụng văn hóa cùng lý tưởng của [overlord_empire.GetAdj] để biện minh cho hành vi thô lỗ của mình."
+ subject.3005.a:0 "Sớm muộn gì hai đế quốc của chúng ta cũng sẽ cùng nhau thịnh vượng."
+ subject.3005.b:0 "Hạn chế việc đi lại của thường dân."
+
+ subject.3010.title:0 "Sự Bất Đồng Trên [subject_empire.Capital.GetName]"
+ subject.3010.desc:0 "Chúng ta đã nhận được một số tin tức đáng lo ngại, nguồn cơn xuất phát từ việc những người của chúng ta đi đến thăm [subject_empire.Capital.GetName] - thủ đô của [subject_empire.GetName]. Chính quyền [subject_empire.GetName] yêu cầu họ phải sơ tán khỏi hành tinh ngay lập tức, rõ ràng là sau một vài cuộc gọi là xung đột, thường dân của chúng ta đã không còn được chào đón trong lãnh thổ của họ nữa."
+ subject.3010.a:0 "Dù thế nào đi chăng nữa, biên giới vẫn sẽ mở cửa."
+ subject.3010.b:0 "Nếu người dân của chúng ta cư xử không đúng mực, thì họ nên về nhà."
+
+ subject.3015.title:0 "Mở Cửa Biên Giới"
+ subject.3015.desc:0 "Có vẻ như Bá Chủ của chúng ta đã nghe được tình hình này, và cử một nhóm nhỏ quan chức cùng binh lính đến để làm rõ lập trường của họ về vấn đề này. Họ đã thể hiện một cách dứt khoát và rõ ràng rằng, hoặc là chúng ta mở cửa biên giới một cách hòa bình cho thường dân của họ, hoặc là họ sẽ dùng vũ lực để ép buộc hai bên phải mở cửa biên giới với nhau."
+ subject.3015.a:0 "Chuyện này không đáng để phải động binh đao."
+
+ subject.3020.title:0 "Chư Hầu Được Đặc Quyền"
+ subject.3020.desc:0 "Có vẻ như Bá Chủ của chúng ta đã nghe được tình hình này, và quyết định chấp nhận quyết định đóng cửa biên giới đối với việc đi lại của thường dân [overlord_empire.GetAdj] của chúng ta. Một số quan chức của chúng ta lo ngại điều này có thể gây ra sự cố ngoại giao, nhưng lần này dường như chúng ta đã may mắn tránh được."
+ subject.3020.a:0 "Kết quả tốt hơn nhiều so với những gì chúng ta mong đợi."
+
+ # Modifiers
+ specialist_overlord_frustrated_population:0 "Nhập Gia Nhưng Không Tùy Tục"
+ specialist_overlord_frustrated_population_desc:0 "Những du khách phớt lờ phong tục và chuẩn mực địa phương, làm xáo trộn nghiêm trọng cuộc sống thường ngày của hành tinh này."
+
+ ## Event Chain - Pilgrimages
+ subject.3055.title:0 "Những Người Hành Hương Trên [overlord_empire.Capital.GetName]"
+ subject.3055.desc:0 "Chúng ta nhận được tin rằng, một nhóm người hành hương từ [subject_empire.GetName] đã bằng mọi cách tìm đến vùng không gian của chúng ta. Có vẻ như họ tin rằng [overlord_empire.GetName] đại diện cho một tầm quan trọng nào đó về mặt tôn giáo tại quê hương của họ. Mặc dù các chi tiết liên quan đến đức tin tôn giáo của họ vẫn chưa rõ ràng, nhưng nhóm người này với tư cách là khách du lịch cư xử vô cùng đúng mực, trong suốt thời gian lưu trú, mọi người chỉ dành lời khen ngợi cho họ chứ không hề có một lời phàn nàn nào."
+ subject.3055.a:0 "Có vẻ như, đây là một cơ hội để thể hiện thiện chí."
+
+ subject.3060.title:0 "Thường Dân Trở Về"
+ subject.3060.desc:0 "Một nhóm thường dân đến du lịch tại [overlord_empire.Capital.GetName] của [overlord_empire.GetName] cuối cùng đã trở về, mang theo đủ loại giai thoại kỳ thú, kể lại những người họ gặp và hoàn cảnh địa phương. Có vẻ như người dân của chúng ta đã nhận được sự tiếp đãi nồng hậu trong suốt chuyến thăm, và hiện nay ngày càng có nhiều người sẵn lòng đến đó du lịch. Nếu chúng ta có thể gây chút ảnh hưởng lên Bá Chủ, có lẽ chúng ta có thể tổ chức các hoạt động giao lưu văn hóa tương tự một cách thường xuyên hơn."
+ subject.3060.a:0 "Đặt nền móng cho mối quan hệ song phương trong tương lai."
+ subject.3060.b:0 "Chỉ là sự nhiệt tình bốc đồng nhất thời mà thôi."
+
+ subject.3065.title:0 "Mối Quan Hệ Khăng Khít"
+ subject.3065.desc:0 "Nhóm người hành hương đầu tiên đến thăm vô cùng thân thiện, mang đến thiện chí. Không chỉ dừng lại ở đó, có vẻ như [subject_empire.GetName] đã đầu tư một số nguồn lực, với hy vọng sẽ nâng tầm hoạt động này thành một mối quan hệ song phương mang tính lâu dài, trong tương lai họ sẽ cử những người hành hương đến theo một cơ sở chính quy hơn."
+ subject.3065.a:0 "Rất vui khi nghe điều này."
+
+ subject.3070.title:0 "Chuyến Hành Hương Cuối Cùng"
+ subject.3070.desc:0 "Nhóm người hành hương mà chúng ta tiếp nhận trên [overlord_empire.Capital.GetName] đã nhận được sự tiếp đãi nồng hậu, và họ cũng vô cùng thích thú trong suốt thời gian lưu trú. Tuy nhiên, chúng ta vẫn nhận được thông báo rằng [subject_empire.GetName] sẽ đình chỉ các hoạt động giao lưu viếng thăm như vậy trong tương lai."
+

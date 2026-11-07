@@ -1,0 +1,580 @@
+﻿l_english:
+ ####################################
+ # Constructions
+ ####################################
+ MESSAGE_CONSTRUCTION_MESSAGE_TYPE_TITLE:1 "Hoàn tất xây dựng"
+ MESSAGE_BUILDING_CONSTRUCTION:1 "$PLANET|Y$ đã hoàn tất danh sách chờ xây dựng bề mặt."
+ MESSAGE_BUILDING_CONSTRUCTION_MESSAGE_TYPE_TITLE:2 "Hoàn tất xây dựng"
+ MESSAGE_CONSTRUCTION_FINISH:0 "Hành tinh $PLANET|Y$ đã hoàn tất danh sách chờ xây dựng."
+ MESSAGE_CONSTRUCTION_FINISH_SPACEPORT:0 "Cảng vũ trụ của $PLANET|Y$ đã hoàn tất danh sách chờ xây dựng."
+ MESSAGE_CONSTRUCTION_FINISH_STARBASE:0 "Căn cứ sao $SYSTEM|Y$ đã hoàn tất danh sách chờ xây dựng."
+ MESSAGE_CONSTRUCTION_FINISH_ARKSHIP: "Tàu Hòm Cứu Thế tại $SYSTEM|Y$ đã hoàn tất danh sách chờ xây dựng."
+ MESSAGE_ORDER_FINISH_COLONIZE_PLANET:0 "Chúng ta đã thiết lập thuộc địa $COLONY|Y$ tại hệ sao $SYSTEM|Y$."
+ MESSAGE_SPACEPORT_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "Hoàn tất xây dựng"
+ MESSAGE_STARBASE_CONSTRUCTION_MESSAGE_TYPE_TITLE:1 "Hoàn tất xây dựng Căn cứ sao"
+ MESSAGE_ARKSHIP_CONSTRUCTION_MESSAGE_TYPE_TITLE: "Hoàn tất xây dựng Tàu Hòm Cứu Thế"
+ MESSAGE_ARMY_RECRUITMENT_TITLE:0 "Tuyển mộ quân đội hoàn tất"
+ MESSAGE_ARMY_RECRUITMENT:0 "Quá trình tuyển mộ các đạo quân trên $PLANET|Y$ đã hoàn tất."
+ MESSAGE_POP_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "$MESSAGE_CONSTRUCTION_MESSAGE_TYPE_TITLE$"
+ MESSAGE_POP_CONSTRUCTION_FINISH:0 "Quá trình phát triển dân số trên $PLANET|Y$ đã hoàn tất."
+
+ ####################################
+ # Fleet Orders
+ ####################################
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_ORBITAL_STATION:1 "§Y$FLEET$§! đã hoàn tất việc xây dựng một $SHIPCLASS|H$ trên quỹ đạo $PLANET|Y$."
+ MESSAGE_FLEET_ORDER_ANOMALY:1 "§Y$FLEET$§! đã phát hiện một §HHiện tượng dị thường§! trên $PLANET|Y$."
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_SPACE_STATION:1 "§Y$FLEET$§! đã hoàn tất việc xây dựng một $SHIPCLASS|Y$ tại $STAR|Y$."
+ MESSAGE_FLEET_ORDER_ANALYZE_FAIL:1 "§Y$FLEET$§! đã thất bại trong việc phân tích vệt FTL."
+ MESSAGE_FLEET_ORDER_ANALYZE_FINISH:1 "§Y$FLEET$§! đã phân tích xong vệt FTL."
+ MESSAGE_FLEET_SYSTEM_FULLY_SURVEYED:0 "Hệ sao $SYSTEM|Y$ đã được khảo sát toàn diện."
+ MESSAGE_FLEET_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "Mệnh lệnh Hạm đội đã hoàn tất"
+ MESSAGE_SYSTEM_SURVEYED_TITLE:1 "Hệ sao đã khảo sát xong"
+ AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE:0 "Mệnh lệnh Hạm đội đã bị hủy"
+ AUTO_EXPLORE_FALLBACK_MESSAGE_TYPE_TITLE: "Hạm đội Tự động hóa Chờ nhiệm vụ"
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_FALLBACK: "§Y$FLEET$§! không có nhiệm vụ khả dụng nào để thực hiện. Hạm đội sẽ duy trì trạng thái tự động hóa và tiếp tục khi có nhiệm vụ mới."
+ FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE:0 "$AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE$"
+ FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_KEY: "$FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE$ (Xây dựng)"
+ MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE:1 "$FLEET|Y$ không thể xây dựng một $STATION|H$ tại $SYSTEM|Y$. Tài nguyên đã được hoàn trả."
+ MESSAGE_BYPASS_EXPLORED:0 "Đã thám hiểm Lỗ sâu"
+ BYPASS_EXPLORED_MESSAGE:0 "Lỗ sâu tại $SYSTEM1|Y$ đã được thám hiểm. Nó kết nối tới hệ sao $SYSTEM2|Y$."
+ MESSAGE_ESN_ARRIVED_TITLE:0 "Điều hướng Không gian phụ Thử nghiệm"
+ MESSAGE_ESN_ARRIVED:0 "$FLEET_NAME|Y$ đã tới hệ sao $SYSTEM|Y$"
+ MESSAGE_ESN_ABORTED_TITLE:0 "Điều hướng Không gian phụ Thử nghiệm bị hủy"
+ MESSAGE_ESN_ABORTED:0 "Mệnh lệnh của $FLEET_NAME|Y$ đã bị hủy bỏ. Hệ sao $SYSTEM|Y$ không còn khả dụng."
+
+ ####################################
+ # Misc Fleet
+ ####################################
+ MESSAGE_FLEET_REPARATIONS_DONE_MESSAGE_TYPE_TITLE:0 "Hoàn tất sửa chữa"
+ MESSAGE_REPARATIONS_DONE:0 "Hạm đội $FLEET|Y$ đã được sửa chữa toàn diện."
+ MESSAGE_FLEET_UPGRADE_DONE_MESSAGE_TYPE_TITLE:0 "Hạm đội đã nâng cấp xong"
+ MESSAGE_UPGRADE_DONE:0 "Hạm đội $FLEET|Y$ đã được nâng cấp toàn diện."
+ MESSAGE_EMERGENCY_FTL_CASUALTIES_TITLE:0 "Tổn thất Nhảy FTL Khẩn cấp"
+ EMERGENCY_FTL_CASUALTIES_DESC:1 "Hạm đội chịu tổn thất.\n\nTàu bị mất: $LOST$\nTàu bị hư hại: $NEAR_LOST$"
+
+ ####################################
+ # Diplomacy
+ ####################################
+ RIVALRY_INVALID_TITLE:0 "Kình địch không còn hiệu lực"
+ RIVALRY_INVALID_DESC:0 "$COUNTRY|Y$ không còn là đối thủ kình địch hợp lệ đối với đế chế của chúng ta"
+ MESSAGE_MADE_FIRST_CONTACT_WE:0 "Chúng ta đã chạm trán §H$WHO$§! tại hệ sao §H$STAR$§!!"
+ MESSAGE_MADE_FIRST_CONTACT_THEM:0 "Liên lạc đã được thiết lập với §H$WHO$§! tại hệ sao §H$STAR$§!!"
+ ACTION_DECLARE_WAR_VOTE_PASSED:0 "Cuộc biểu quyết tuyên chiến của §H[Actor.GetAllianceName]§! đã được thông qua, và hiện chúng ta đang §Ycó chiến tranh§! với §H[Recipient.GetName]§!!"
+ ACTION_DECLARE_WAR_VOTE_FAILED:0 "Cuộc biểu quyết tuyên chiến chống lại §H[Recipient.GetName]§! đã thất bại."
+ ACTION_OFFER_TRADE_DEAL_VOTE_PASSED: "§H[Actor.GetAllianceName]§! đã bỏ phiếu ủng hộ thỏa thuận thương mại được đề xuất với §H[Recipient.GetName]§!."
+ ACTION_OFFER_TRADE_DEAL_VOTE_FAILED: "§H[Actor.GetAllianceName]§! đã bỏ phiếu bác bỏ thỏa thuận thương mại được đề xuất với §H[Recipient.GetName]§!."
+ ACTION_INVITE_TO_ALLIANCE_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§! đã biểu quyết mời §H[Recipient.GetName]§! gia nhập Liên minh."
+ ACTION_INVITE_TO_ALLIANCE_VOTE_FAILED:0 "Cuộc biểu quyết mời §H[Recipient.GetName]§! gia nhập §H[Actor.GetAllianceName]§! đã thất bại."
+ ACTION_KICK_FROM_ALLIANCE_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§! đã biểu quyết khai trừ §H[Recipient.GetName]§! khỏi Liên minh."
+ ACTION_KICK_FROM_ALLIANCE_VOTE_FAILED:0 "Cuộc biểu quyết khai trừ §H[Recipient.GetName]§! khỏi §H[Actor.GetAllianceName]§! đã thất bại."
+ ACTION_KICK_FROM_FEDERATION_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§! đã biểu quyết khai trừ §H[Recipient.GetName]§! khỏi Liên bang."
+ ACTION_KICK_FROM_FEDERATION_VOTE_FAILED:0 "Cuộc biểu quyết khai trừ §H[Recipient.GetName]§! khỏi §H[Actor.GetAllianceName]§! đã thất bại."
+ ACTION_INVITE_TO_FEDERATION_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§! đã biểu quyết mời §H[Recipient.GetName]§! gia nhập Liên bang."
+ ACTION_INVITE_TO_FEDERATION_VOTE_FAILED:0 "Cuộc biểu quyết mời §H[Recipient.GetName]§! gia nhập §H[Actor.GetAllianceName]§! đã thất bại."
+ ACTION_ASK_TO_JOIN_ALLIANCE_VOTE_PASSED:0 "§H[Recipient.GetAllianceName]§! đã biểu quyết mời §H[Actor.GetName]§! gia nhập Liên minh."
+ ACTION_ASK_TO_JOIN_ALLIANCE_VOTE_FAILED:0 "Cuộc biểu quyết mời §H[Actor.GetName]§! gia nhập §H[Recipient.GetAllianceName]§! đã thất bại."
+ ACTION_FORM_FEDERATION_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§! đã biểu quyết thành lập một Liên bang."
+ ACTION_FORM_FEDERATION_VOTE_FAILED:0 "Cuộc biểu quyết thành lập liên bang đã thất bại."
+ ACTION_RELEASE_SUBJECT_PASSED:0 "§H[Actor.GetName]§! đã giải phóng chúng ta khỏi thân phận Thần dân."
+ ACTION_OFFER_PEACE_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§! đã biểu quyết chấp thuận ký kết đề xuất hòa bình với §H[Recipient.GetName]§!."
+ ACTION_OFFER_PEACE_VOTE_FAILED:0 "§H[Actor.GetAllianceName]§! đã biểu quyết từ chối ký kết đề xuất hòa bình với §H[Recipient.GetName]§!."
+
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_TITLE:0 "Thỏa thuận Thương mại Chấm dứt, Chúng ta Thiếu Tài nguyên"
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM_TITLE:0 "Thỏa thuận Thương mại Chấm dứt, Đối phương Thiếu Tài nguyên"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_TITLE:0 "Thỏa thuận Thương mại Chấm dứt, Hành động Thương mại Không hợp lệ"
+ TRADE_DEAL_END_CANCELLED_ACTION_KEY: "Thỏa thuận Thương mại Chấm dứt, Không hợp lệ đối với Đế chế Chúng ta"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_THEM_TITLE:0 "Thỏa thuận Thương mại Chấm dứt, Hành động Thương mại Không hợp lệ"
+ TRADE_DEAL_END_CANCELLED_ACTION_THEM_KEY: "Thỏa thuận Thương mại Chấm dứt, Không hợp lệ đối với Đế chế Đối phương"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_SPECIMEN_TITLE: "Thỏa thuận Thương mại Chấm dứt, Mẫu vật Thất lạc"
+ TRADE_DEAL_END_CANCELLED_SPECIMEN_KEY: "Thỏa thuận Thương mại Chấm dứt, Mẫu vật của Đế chế Chúng ta Bị mất"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_SPECIMEN_THEM_TITLE: "$TRADE_DEAL_END_CANCELLED_SPECIMEN_TITLE$"
+ TRADE_DEAL_END_CANCELLED_SPECIMEN_THEM_KEY: "Thỏa thuận Thương mại Chấm dứt, Mẫu vật của Đế chế Đối phương Bị mất"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_TITLE:0 "Thỏa thuận Thương mại Chấm dứt, Chúng ta Đã đóng Cửa Biên giới"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM_TITLE:0 "Thỏa thuận Thương mại Chấm dứt, Đối phương Đã đóng Cửa Biên giới"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_TITLE:0 "Thỏa thuận Thương mại Chấm dứt, Chúng ta Đã gia nhập Liên minh"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_THEM_TITLE:0 "Thỏa thuận Thương mại Chấm dứt, Đối phương Đã gia nhập Liên minh"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_TITLE:0 "Chúng ta Đã dừng Ủng hộ Nền độc lập của Họ"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_THEM_TITLE:0 "Họ Đã dừng Ủng hộ Nền độc lập của Chúng ta"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_TITLE:0 "Thỏa thuận Thương mại Chấm dứt, Chúng ta Đã trở thành Thần dân"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_THEM_TITLE:0 "Thỏa thuận Thương mại Chấm dứt, Họ Đã trở thành Thần dân"
+ MESSAGE_TRADE_DEAL_END_CANCELED_TITLE:0 "Thỏa thuận Thương mại Đã bị Hủy"
+ MESSAGE_TRADE_DEAL_END_TIMEOUT_TITLE:1 "Thời hạn Thỏa thuận Thương mại Đã hết"
+ MESSAGE_CANCEL_SUBJECT_INTEGRATION_TITLE:0 "Quá trình Sáp nhập Đã bị Hủy"
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_ACTOR:0 "Đề xuất chiến tranh của chúng ta nhắm vào §H[Third_party.GetName]§! đã bị từ chối."
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_ALLIANCE:0 "Đề xuất chiến tranh từ §H[Actor.GetName]§! liên quan tới §H[Third_party.GetName]§! đã bị từ chối."
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất chiến tranh từ §H[Actor.GetName]§! liên quan tới §H[Third_party.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ACTOR:0 "Đề xuất mời §H[Third_party.GetName]§! của chúng ta đã bị từ chối."
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ALLIANCE:0 "Đề xuất mời §H[Third_party.GetName]§! từ §H[Actor.GetName]§! đã bị từ chối."
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất mời §H[Third_party.GetName]§! từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_OFFER_PEACE_PROPOSAL_FAILED_ACTOR:1 "Đề xuất hòa bình của chúng ta gửi tới §H[Recipient.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_OFFER_PEACE_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất hòa bình từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_OFFER_PEACE_DIPLOMACY_VIEW_PROPOSAL_FAILED_ACTOR:0 "$ACTION_OFFER_PEACE_PROPOSAL_FAILED_ACTOR$" # Should never be shown in-game
+ ACTION_OFFER_PEACE_DIPLOMACY_VIEW_PROPOSAL_FAILED_RECIPIENT:0 "$ACTION_OFFER_PEACE_PROPOSAL_FAILED_RECIPIENT$" # Should never be shown in-game
+ ACTION_MAKE_CLAIMS_DIPLOMACY_VIEW_PROPOSAL_FAILED_ACTOR:0 "Nỗ lực tạo yêu sách nhắm vào §H[Recipient.GetName]§! của chúng ta đã quá hạn và tự động bị hủy." # Should never be shown in-game
+ ACTION_MAKE_CLAIMS_DIPLOMACY_VIEW_PROPOSAL_FAILED_RECIPIENT:0 "Nỗ lực tạo yêu sách của §H[Actor.GetName]§! đã quá hạn và tự động bị hủy." # Should never be shown in-game
+ ACTION_FORM_DEFENSIVE_PACT_PROPOSAL_FAILED_ACTOR:1 "Đề xuất ký Hiệp ước Phòng thủ của chúng ta với §H[Recipient.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_FORM_DEFENSIVE_PACT_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất ký Hiệp ước Phòng thủ từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_FORM_NON_AGGRESSION_PACT_PROPOSAL_FAILED_ACTOR:1 "Đề xuất ký Hiệp ước Bất tương xâm của chúng ta với §H[Recipient.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_FORM_NON_AGGRESSION_PACT_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất ký Hiệp ước Bất tương xâm từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_FORM_COMMERCIAL_PACT_PROPOSAL_FAILED_ACTOR:0 "Đề xuất ký Hiệp ước Thương mại của chúng ta với §H[Recipient.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_FORM_COMMERCIAL_PACT_PROPOSAL_FAILED_RECIPIENT:0 "Đề xuất ký Hiệp ước Thương mại từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_ACTOR:0 "Đề xuất ký Thỏa thuận Nghiên cứu của chúng ta với §H[Recipient.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_RECIPIENT:0 "Đề xuất ký Thỏa thuận Nghiên cứu từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_GUARANTEE_INDEPENDENCE_PROPOSAL_FAILED_ACTOR:0 "Đề xuất bảo đảm nền độc lập cho §H[Recipient.GetName]§! của chúng ta đã bị từ chối."
+ ACTION_GUARANTEE_INDEPENDENCE_PROPOSAL_FAILED_RECIPIENT:0 "Đề xuất bảo đảm nền độc lập của chúng ta từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_FORM_MIGRATION_PACT_PROPOSAL_FAILED_ACTOR:1 "Đề xuất ký Hiệp ước Di dân của chúng ta với §H[Recipient.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_FORM_MIGRATION_PACT_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất ký Hiệp ước Di dân từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 "Lời mời gia nhập liên minh của chúng ta gửi tới §H[Recipient.GetName]§! đã bị từ chối."
+ ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:1 "Lời mời gia nhập liên minh từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_KICK_FROM_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 "Đề xuất khai trừ §H[Recipient.GetName]§! khỏi Liên minh của chúng ta đã bị từ chối."
+ ACTION_KICK_FROM_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất khai trừ chúng ta khỏi Liên minh từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_KICK_FROM_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "Đề xuất khai trừ §H[Recipient.GetName]§! khỏi Liên bang của chúng ta đã bị từ chối."
+ ACTION_KICK_FROM_FEDERATION_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất khai trừ chúng ta khỏi Liên bang từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_INVITE_TO_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "Lời mời gia nhập Liên minh của chúng ta gửi tới §H[Recipient.GetName]§! đã bị từ chối."
+ ACTION_INVITE_TO_FEDERATION_PROPOSAL_FAILED_RECIPIENT:1 "Lời mời gia nhập Liên minh từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_ASK_FOR_FEDERATION_ASSOCIATION_PROPOSAL_FAILED_ACTOR:0 "Yêu cầu trao tư cách cộng tác viên tại §H[Recipient.GetAllianceName]§! của chúng ta đã bị từ chối."
+ ACTION_ASK_FOR_FEDERATION_ASSOCIATION_PROPOSAL_FAILED_RECIPIENT:1 "Yêu cầu trao tư cách cộng tác viên tại §H[Recipient.GetAllianceName]§! từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_DEMAND_SUBJUGATION_PROPOSAL_FAILED_ACTOR:0 "Yêu cầu buộc §H[Recipient.GetName]§! thần phục của chúng ta đã bị từ chối."
+ ACTION_DEMAND_SUBJUGATION_PROPOSAL_FAILED_RECIPIENT:0 "Yêu cầu thần phục từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_DEMAND_SUBSIDIARY_PROPOSAL_FAILED_ACTOR:0 "Yêu cầu tiếp quản để biến §H[Recipient.GetName]§! thành công ty con của chúng ta đã bị từ chối."
+ ACTION_DEMAND_SUBSIDIARY_PROPOSAL_FAILED_RECIPIENT:0 "Yêu cầu tiếp quản từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_DEMAND_PROTECTORATE_PROPOSAL_FAILED_ACTOR:0 "Đề xuất trao quy chế Bảo hộ quốc cho §H[Recipient.GetName]§! của chúng ta đã bị từ chối."
+ ACTION_DEMAND_PROTECTORATE_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất trao quy chế Bảo hộ quốc từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_DEMAND_TRIBUTARY_PROPOSAL_FAILED_ACTOR:0 "Đề xuất trao quy chế Triều cống quốc cho §H[Recipient.GetName]§! của chúng ta đã bị từ chối."
+ ACTION_DEMAND_TRIBUTARY_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất trao quy chế Triều cống quốc từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_DEMAND_THRALL_PROPOSAL_FAILED_ACTOR:0 "Đề xuất trao quy chế Nô bộc quốc cho §H[Recipient.GetName]§! của chúng ta đã bị từ chối."
+ ACTION_DEMAND_THRALL_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất trao quy chế Nô bộc quốc từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_DEMAND_DOMINION_PROPOSAL_FAILED_ACTOR:0 "Đề xuất trao quy chế Thống trị quốc cho §H[Recipient.GetName]§! của chúng ta đã bị từ chối."
+ ACTION_DEMAND_DOMINION_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất trao quy chế Thống trị quốc từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_DEMAND_SIGNATORY_PROPOSAL_FAILED_ACTOR:0 "Đề xuất trao quy chế Ký kết quốc cho §H[Recipient.GetName]§! của chúng ta đã bị từ chối."
+ ACTION_DEMAND_SIGNATORY_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất trao quy chế Ký kết quốc từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_DEMAND_SATELLITE_PROPOSAL_FAILED_ACTOR:0 "Đề xuất trao quy chế Vệ tinh quốc cho §H[Recipient.GetName]§! của chúng ta đã bị từ chối."
+ ACTION_DEMAND_SATELLITE_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất trao quy chế Vệ tinh quốc từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_ASK_TO_BECOME_SUBJUGATED_PROPOSAL_FAILED_ACTOR:0 "Yêu cầu trở thành Thần dân của §H[Recipient.GetName]§! của chúng ta đã bị từ chối."
+ ACTION_ASK_TO_BECOME_SUBJUGATED_PROPOSAL_FAILED_RECIPIENT:0 "Yêu cầu xin quy thuận từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_PROPOSAL_FAILED_ACTOR:1 "Yêu cầu được giải phóng khỏi hiệp ước hòa bình thiên hà của §H[Recipient.GetName]§! của chúng ta đã bị từ chối."
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_PROPOSAL_FAILED_RECIPIENT:1 "Yêu cầu giải phóng khỏi sự thần phục từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "Yêu cầu gia nhập §H[Recipient.GetAllianceName]§! của chúng ta đã bị từ chối."
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_ALLIANCE:0 "Yêu cầu gia nhập §H[Recipient.GetAllianceName]§! của §H[Actor.GetName]§! đã bị từ chối."
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "Yêu cầu gia nhập §H[Recipient.GetAllianceName]§! từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_ASK_TO_JOIN_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 "Yêu cầu gia nhập §H[Recipient.GetAllianceName]§! của chúng ta đã bị từ chối."
+ ACTION_ASK_TO_JOIN_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:0 "Yêu cầu gia nhập §H[Recipient.GetAllianceName]§! từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_ASK_TO_BECOME_RELEASED_VASSAL_PROPOSAL_FAILED_ACTOR:0 "Yêu cầu được giải phóng khỏi §H[Recipient.GetName]§! của chúng ta đã bị từ chối."
+ ACTION_ASK_TO_BECOME_RELEASED_VASSAL_PROPOSAL_FAILED_RECIPIENT:1 "Yêu cầu được giải phóng từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+ ACTION_OFFER_TRADE_DEAL_PROPOSAL_FAILED_ACTOR:0 "Đề xuất thỏa thuận thương mại của chúng ta gửi tới §H[Recipient.GetName]§! đã bị từ chối."
+ ACTION_OFFER_TRADE_DEAL_PROPOSAL_FAILED_RECIPIENT:1 "Đề xuất thỏa thuận thương mại từ §H[Actor.GetName]§! đã quá hạn và tự động bị từ chối."
+
+ MESSAGE_MAKE_RIVAL_TITLE:0 "$RIVALRY$"
+ MESSAGE_RECALL_EMBASSY_TITLE:0 "Đại sứ quán đã triệu hồi"
+ MESSAGE_END_RIVALRY_TITLE:0 "Chấm dứt $RIVALRY$"
+ MESSAGE_EMBASSY_TITLE:1 "Thiết lập Đại sứ quán"
+ MESSAGE_DECLARE_WAR_TITLE:0 "Tuyên chiến"
+ MESSAGE_OFFER_PEACE_TITLE:0 "Đề xuất hòa bình"
+ MESSAGE_INVITE_TO_ALLIANCE_TITLE:0 "Liên minh"
+ MESSAGE_KICK_FROM_ALLIANCE_TITLE:0 "Đã khai trừ Thành viên Liên minh"
+ MESSAGE_KICK_FROM_FEDERATION_TITLE:0 "Khai trừ Thành viên Liên bang"
+ MESSAGE_ASK_TO_JOIN_ALLIANCE_TITLE:0 "Yêu cầu gia nhập Liên minh"
+ MESSAGE_LEAVE_ALLIANCE_TITLE:0 "Thành viên rời Liên minh"
+ DIPLO_ACTION_LEAVE_ALLIANCE_DESC:0 "$COUNTRY|Y$ đã rời khỏi $ALLIANCE|Y$"
+ DIPLO_ACTION_LEAVE_FEDERATION_DESC:0 "$COUNTRY|Y$ đã rời khỏi $ALLIANCE|Y$"
+ MESSAGE_DEMAND_SUBJUGATION_TITLE:1 "Yêu cầu thần phục"
+ MESSAGE_ASK_TO_BECOME_SUBJUGATED_TITLE:1 "Yêu cầu xin thần phục"
+ MESSAGE_ASK_TO_BE_RELEASED_SUBJECT_TITLE:0 "Yêu cầu giải phóng Thần dân"
+ MESSAGE_FORM_FEDERATION_TITLE:0 "Thành lập Liên bang"
+ MESSAGE_INVITE_TO_FEDERATION_TITLE:0 "Liên bang"
+ MESSAGE_ASK_TO_JOIN_FEDERATION_TITLE:0 "Yêu cầu gia nhập Liên bang"
+ MESSAGE_LEAVE_FEDERATION_TITLE:0 "Rời Liên bang"
+ MESSAGE_OFFER_TRADE_DEAL_TITLE:0 "Đề xuất Thỏa thuận Thương mại"
+ MESSAGE_DEMAND_TRADE_DEAL_TITLE:0 "Đòi hỏi Thỏa thuận Thương mại"
+ MESSAGE_REQUEST_WAR_TITLE:0 "Yêu cầu Tham chiến"
+ MESSAGE_PROPOSE_INVITE_TITLE:0 "Đề xuất Lời mời"
+ MESSAGE_ASK_TO_BECOME_RELEASED_SUBJECT_TITLE:0 "Yêu cầu giải phóng Thần dân"
+ MESSAGE_RELEASE_SUBJECT_TITLE:0 "Giải phóng Thần dân"
+ MESSAGE_WARNING_NOT_ACTIVE_IN_WAR_TITLE:0 "Cảnh báo Không tích cực Tham chiến!"
+ MESSAGE_NOT_ACTIVE_IN_WAR_TITLE:0 "Không tích cực Tham chiến"
+ MESSAGE_DIPLOMATIC_INSULT_TITLE:0 "Sỉ nhục Ngoại giao"
+ MESSAGE_INTEGRATE_SUBJECT_TITLE:0 "Quá trình Sáp nhập Thần dân Đã bắt đầu"
+ MESSAGE_CANCEL_SUBJECT_INTEGRATION_NOTIFICATION:0 "Quá trình Sáp nhập Thần dân Đã bắt đầu"
+ MESSAGE_FORM_DEFENSIVE_PACT_TITLE:0 "Hiệp ước Phòng thủ"
+ MESSAGE_BREAK_DEFENSIVE_PACT_TITLE:0 "Hiệp ước Phòng thủ Đã chấm dứt"
+ MESSAGE_FORM_NON_AGGRESSION_PACT_TITLE:0 "Hiệp ước Bất tương xâm"
+ MESSAGE_BREAK_NON_AGGRESSION_PACT_TITLE:0 "Xé bỏ Hiệp ước Bất tương xâm"
+ MESSAGE_FORM_COMMERCIAL_PACT_TITLE:0 "Hiệp ước Thương mại"
+ MESSAGE_BREAK_COMMERCIAL_PACT_TITLE:0 "Xé bỏ Hiệp ước Thương mại"
+ MESSAGE_FORM_RESEARCH_AGREEMENT_TITLE:0 "Thỏa thuận Nghiên cứu"
+ MESSAGE_BREAK_RESEARCH_AGREEMENT_TITLE:0 "Xé bỏ Thỏa thuận Nghiên cứu"
+ MESSAGE_FORM_MIGRATION_PACT_TITLE:0 "Hiệp ước Di dân"
+ MESSAGE_BREAK_MIGRATION_PACT_TITLE:0 "Xé bỏ Hiệp ước Di dân"
+ MESSAGE_GUARANTEE_INDEPENDENCE_TITLE:0 "Bảo đảm Độc lập"
+ MESSAGE_BREAK_GUARANTEE_TITLE:0 "Thu hồi Bảo đảm Độc lập"
+ MESSAGE_SUPPORT_INDEPENDENCE_TITLE:0 "Ủng hộ Độc lập"
+ MESSAGE_BREAK_SUPPORT_TITLE:0 "Thu hồi Sự ủng hộ"
+ MESSAGE_OPEN_BORDERS_TITLE:0 "Biên giới Đã mở"
+ MESSAGE_CLOSE_BORDERS_TITLE:0 "Biên giới Đã đóng"
+ MESSAGE_FORM_SOCIETAL_ENLIGHTENMENT_PACT_TITLE:0 "Lời mời Khai sáng Xã hội"
+ MESSAGE_BREAK_SOCIETAL_ENLIGHTENMENT_PACT_TITLE:0 "Khai sáng Xã hội Đã kết thúc"
+ MESSAGE_FORM_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE:0 "Lời mời Khai sáng Công nghệ"
+ MESSAGE_BREAK_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE:0 "Khai sáng Công nghệ Đã kết thúc"
+ MESSAGE_FORM_PRE_FTL_TRADE_PACT_TITLE:0 "Thỏa thuận Thương mại"
+ MESSAGE_BREAK_PRE_FTL_TRADE_PACT_TITLE:0 "Thỏa thuận Thương mại Đã kết thúc"
+
+ ACTION_MAKE_RIVAL_NOTIFICATION:1 "§H[From.GetName]§! đã tuyên bố §H[Root.GetName]§! là §H$RIVAL$§! của họ.\n\nĐiều này sẽ làm xấu đi đáng kể mối quan hệ ngoại giao giữa đôi bên."
+ ACTION_END_RIVALRY_NOTIFICATION:2 "§H[From.GetName]§! đã chấm dứt tình trạng $RIVALRY$ với §H[Root.GetName]§!.\n\nHọ có thể đang trên con đường hướng tới việc hòa giải."
+ ACTION_EMBASSY_NOTIFICATION:1 "§H[From.GetName]§! đã cử một phái đoàn đại sứ tới §H[Root.GetName]§!.\n\nĐiều này sẽ cải thiện mối quan hệ giữa đôi bên theo thời gian."
+ ACTION_RECALL_EMBASSY_NOTIFICATION:2 "§H[From.GetName]§! đã triệu hồi đại sứ quán của họ khỏi §H[Root.GetName]§!.\n\nLiệu đây có phải là dấu hiệu của sự thù địch sắp tới?"
+ ACTION_DECLARE_WAR_NOTIFICATION:3 "§H[From.GetName]§! đã tuyên chiến với §H[Root.GetName]§!!\n\nGiờ đây chúng ta sẽ chứng kiến xem Đế chế nào mạnh hơn."
+ ACTION_OFFER_PEACE_NOTIFICATION:1 "§H[From.GetName]§! đã ký kết hòa bình với §H[Root.GetName]§!."
+ ACTION_INVITE_TO_ALLIANCE_NOTIFICATION:2 "§H[Root.GetName]§! đã gia nhập §H[From.GetAllianceName]§!.\n\nGiờ đây họ sẽ kề vai sát cánh chống lại kẻ thù chung."
+ ACTION_LEAVE_ALLIANCE_NOTIFICATION:2 "§H[From.GetName]§! đã rời khỏi §H[From.GetAllianceName]§!.\n\nĐiều này có thể mang lại cơ hội cho chúng ta..."
+ ACTION_DEMAND_SUBJUGATION_NOTIFICATION:3 "§H[From.GetName]§! đã bắt §H[Root.GetName]§! phải thần phục.\n\nHọ đã đánh đổi tự do của mình để nhận lấy sự bình yên."
+ ACTION_ASK_TO_BECOME_SUBJUGATED_NOTIFICATION:3 "§H[Root.GetName]§! đã bắt §H[From.GetName]§! phải thần phục.\n\nHọ đã đánh đổi tự do của mình để nhận lấy sự bình yên."
+ ACTION_FORM_FEDERATION_NOTIFICATION:2 "§H[From.GetAllianceName]§! đã bỏ phiếu thành lập một $FEDERATION$.\n\nHọ đã chọn cùng nhau bước vào thiên hà như một thể thống nhất."
+ ACTION_INVITE_TO_FEDERATION_NOTIFICATION:2 "§H[Root.GetName]§! đã gia nhập §H[From.GetAllianceName]§!.\n\nGiờ đây họ sẽ kề vai sát cánh chống lại kẻ thù chung."
+ ACTION_ASK_TO_JOIN_FEDERATION_NOTIFICATION:2 "§H[From.GetName]§! đã gia nhập §H[Root.GetAllianceName]§!.\n\nGiờ đây họ sẽ kề vai sát cánh chống lại kẻ thù chung."
+ ACTION_ASK_TO_LEAVE_FEDERATION_NOTIFICATION:0 "$ACTION_LEAVE_FEDERATION_NOTIFICATION$"
+ ACTION_LEAVE_FEDERATION_NOTIFICATION:2 "§H[From.GetName]§! đã rời khỏi §H[Root.GetAllianceName]§!.\n\nĐiều này có thể mang lại cơ hội cho chúng ta..."
+ ACTION_KICK_FROM_FEDERATION_NOTIFICATION:1 "§H[From.GetAllianceName]§! đã bỏ phiếu khai trừ §H[Root.GetName]§! khỏi Liên bang."
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_NOTIFICATION:2 "§H[Root.GetName]§! đã trao trả độc lập cho §H[From.GetName]§!.\n\nCó vẻ như họ đã quá suy yếu để có thể duy trì quyền kiểm soát đối với thần dân của mình."
+ ACTION_RELEASE_SUBJECT_NOTIFICATION:2 "§H[From.GetName]§! đã trao trả độc lập cho §H[Root.GetName]§!.\n\nCó vẻ như họ đã quá suy yếu để có thể duy trì quyền kiểm soát đối với thần dân của mình."
+ ACTION_INSULT_NOTIFICATION:2 "§H[From.GetName]§! đã lăng mạ §H[Root.GetName]§!.\n\nCó vẻ như mầm mống xung đột đang bùng phát..."
+ ACTION_INTEGRATE_SUBJECT_NOTIFICATION:2 "§H[From.GetName]§! đã bắt đầu sáp nhập §H[Root.GetName]§!.\n\nChẳng bao lâu nữa, tàn dư độc lập cuối cùng của [Root.GetAdj] sẽ bị tước bỏ."
+ ACTION_CANCEL_SUBJECT_INTEGRATION_NOTIFICATION:2 "§H[From.GetName]§! đã dừng việc sáp nhập §H[Root.GetName]§!.\n\nCó vẻ như việc sáp nhập [Root.GetSpeciesNamePlural] mang lại nhiều rắc rối hơn là giá trị thực tế."
+ MESSAGE_TYPE_RELICS_GAINED_INTEGRATION_TITLE:0 "Thu được Di tích từ quá trình Sáp nhập"
+ MESSAGE_RELICS_GAINED_INTEGRATION:0 "Chúng ta đã thu được toàn bộ di tích mà §H[From.GetName]§! sở hữu sau khi sáp nhập họ."
+ ACTION_FORM_DEFENSIVE_PACT_NOTIFICATION:1 "§H[From.GetName]§! đã ký kết Hiệp ước Phòng thủ với §H[Root.GetName]§!.\n\nGiờ đây đôi bên sẽ bảo vệ lẫn nhau trước mọi thế lực thù địch."
+ ACTION_BREAK_DEFENSIVE_PACT_NOTIFICATION:1 "§H[From.GetName]§! đã đơn phương chấm dứt Hiệp ước Phòng thủ với §H[Root.GetName]§!.\n\nCó vẻ như họ tin rằng tự mình đứng độc lập sẽ tốt hơn."
+ ACTION_FORM_NON_AGGRESSION_PACT_NOTIFICATION:1 "§H[From.GetName]§! đã ký kết Hiệp ước Bất tương xâm với §H[Root.GetName]§!.\n\nChúng ta hãy cùng chờ xem nền hòa bình này sẽ kéo dài bao lâu."
+ ACTION_BREAK_NON_AGGRESSION_PACT_NOTIFICATION:1 "§H[From.GetName]§! đã xé bỏ Hiệp ước Bất tương xâm với §H[Root.GetName]§!.\n\nCó vẻ như họ đã chán ngấy nền hòa bình..."
+ ACTION_FORM_COMMERCIAL_PACT_NOTIFICATION:0 "§H[From.GetName]§! đã ký kết Hiệp ước Thương mại với §H[Root.GetName]§!.\n\nGiờ đây đôi bên cùng mưu cầu sự thịnh vượng chung."
+ ACTION_BREAK_COMMERCIAL_PACT_NOTIFICATION:0 "§H[From.GetName]§! đã xé bỏ Hiệp ước Thương mại với §H[Root.GetName]§!.\n\nCó vẻ như lợi ích kinh tế của đôi bên đã không còn chung hướng..."
+ ACTION_FORM_RESEARCH_AGREEMENT_NOTIFICATION:0 "§H[From.GetName]§! đã ký kết Thỏa thuận Nghiên cứu với §H[Root.GetName]§!.\n\nGiờ đây đôi bên có thể học hỏi được nhiều điều từ nhau."
+ ACTION_BREAK_RESEARCH_AGREEMENT_NOTIFICATION:0 "§H[From.GetName]§! đã hủy bỏ Thỏa thuận Nghiên cứu với §H[Root.GetName]§!.\n\nCó vẻ như họ không còn muốn chia sẻ bí mật của mình nữa..."
+ ACTION_FORM_MIGRATION_PACT_NOTIFICATION:1 "§H[From.GetName]§! đã ký kết Hiệp ước Di dân với §H[Root.GetName]§!.\n\nNgười dân của hai đế chế giờ đây có thể tự do qua lại sinh sống."
+ ACTION_BREAK_MIGRATION_PACT_NOTIFICATION:1 "§H[From.GetName]§! đã xé bỏ Hiệp ước Di dân với §H[Root.GetName]§!.\n\nCó vẻ như họ đã cảm thấy hối hận vì mở cửa biên giới."
+ ACTION_GUARANTEE_INDEPENDENCE_NOTIFICATION:1 "§H[From.GetName]§! giờ đây sẽ bảo đảm nền độc lập cho §H[Root.GetName]§!.\n\nGiờ đây họ sẽ bảo vệ đối phương trước mọi cuộc tấn công."
+ ACTION_BREAK_GUARANTEE_NOTIFICATION:1 "§H[From.GetName]§! đã dừng việc bảo đảm nền độc lập cho §H[Root.GetName]§!.\n\nĐiều này có thể mở ra cơ hội cho chúng ta..."
+ ACTION_SUPPORT_INDEPENDENCE_NOTIFICATION:1 "§H[From.GetName]§! giờ đây sẽ ủng hộ nền độc lập của §H[Root.GetName]§!.\n\nQuan thầy của họ chắc chắn sẽ không hề hài lòng..."
+ ACTION_BREAK_SUPPORT_NOTIFICATION:1 "§H[From.GetName]§! đã dừng việc ủng hộ nền độc lập của §H[Root.GetName]§!.\n\nCó vẻ như [Root.GetName] mang số phận tiếp tục làm một chư hầu."
+ ACTION_OPEN_BORDERS_NOTIFICATION:1 "§H[From.GetName]§! đã mở cửa biên giới cho các hạm đội của §H[Root.GetName]§!.\n\nĐiều này sẽ cải thiện quan hệ ngoại giao giữa đôi bên."
+ ACTION_CLOSE_BORDERS_NOTIFICATION:1 "§H[From.GetName]§! đã đóng cửa biên giới đối với các hạm đội của §H[Root.GetName]§!.\n\nĐiều này sẽ làm xấu đi quan hệ ngoại giao giữa đôi bên."
+
+ MESSAGE_OFFER_FEDERATION_ASSOCIATION_TITLE:0 "Đề xuất Tư cách Cộng tác viên Liên bang"
+ ACTION_OFFER_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[Root.GetName]§! đã được trao Tư cách Cộng tác viên bởi §H[From.GetAllianceName]§!.\n\nCó vẻ như họ mong muốn có mối quan hệ gắn bó hơn."
+ MESSAGE_ASK_FOR_FEDERATION_ASSOCIATION_TITLE:0 "Yêu cầu Tư cách Cộng tác viên Liên bang"
+ ACTION_ASK_FOR_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[Root.GetName]§! đã được trao Tư cách Cộng tác viên bởi §H[From.GetAllianceName]§!.\n\nCó vẻ như họ mong muốn có mối quan hệ gắn bó hơn."
+ MESSAGE_REVOKE_FEDERATION_ASSOCIATION_TITLE:0 "Thu hồi Tư cách Cộng tác viên Liên bang"
+ ACTION_REVOKE_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[Root.GetName]§! đã bị thu hồi Tư cách Cộng tác viên bởi §H[From.GetAllianceName]§!.\n\nLiệu đây có phải là dấu hiệu của sự thù địch sắp tới?"
+ MESSAGE_END_FEDERATION_ASSOCIATION_TITLE:0 "Tư cách Cộng tác viên Liên bang Đã chấm dứt"
+ ACTION_END_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[From.GetName]§! đã quyết định từ bỏ Tư cách Cộng tác viên với §H[Root.GetAllianceName]§!.\n\nLiệu đây có phải là dấu hiệu của sự thù địch sắp tới?"
+ DIPLO_ACTION_END_FEDERATION_ASSOCIATION_DESC:0 "§H$COUNTRY$§! đã quyết định từ bỏ Tư cách Cộng tác viên với §H$ALLIANCE$§!.\n\nLiệu đây có phải là dấu hiệu của sự thù địch sắp tới?"
+
+
+ MESSAGE_DIPLOMACY_TITLE:0 "Ngoại giao"
+
+ ACTION_FORM_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "$ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_RECIPIENT$"
+ ACTION_FORM_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "$ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_ACTOR$"
+
+ ####################################
+ # War
+ ####################################
+ SURRENDER_OUR_SIDE:0 "Lãnh đạo chiến tranh của chúng ta đã đầu hàng vô điều kiện, lệnh ngừng bắn đã được thiết lập. Kẻ thù có tối đa sáu tháng để đưa ra các yêu sách của mình."
+ SURRENDER_THEIR_SIDE:0 "Lãnh đạo chiến tranh của kẻ thù đã đầu hàng vô điều kiện, lệnh ngừng bắn đã được thiết lập. Hiện chúng ta có sáu tháng để quyết định các yêu sách của mình."
+ WAR_END_VICTORY:0 "Chúng ta đã giành chiến thắng trong cuộc chiến này."
+ WAR_END_DEFEAT:0 "Chúng ta đã thất bại trong cuộc chiến này."
+ WAR_END_STATUS_QUO:0 "Chiến tranh đã kết thúc với việc Giữ nguyên Hiện trạng."
+ WAR_END_TRADE_DEAL: "Chiến tranh đã kết thúc thông qua đàm phán."
+ MESSAGE_OUR_SURRENDER_TITLE:0 "Chúng ta đầu hàng."
+ MESSAGE_THEIR_SURRENDER_TITLE:0 "Kẻ thù đầu hàng."
+ MESSAGE_VICTORY_TITLE:1 "§GChiến thắng§!"
+ VICTORY_KEY: "Chiến thắng"
+ MESSAGE_DEFEAT_TITLE:1 "§RThất bại§!"
+ DEFEAT_KEY: "Thất bại"
+ MESSAGE_ALLIED_ENTERED_WAR:1 "$ATTACKER|Y$ đã tuyên chiến với đồng minh của chúng ta, $CALLER|Y$.\n\nDo đó, hiện chúng ta đang §Ycó chiến tranh§! với $ATTACKER|Y$!"
+ MESSAGE_GUARANTEED_ENTERED_WAR:0 "Đối tượng được bảo hộ đang bị tấn công"
+ MESSAGE_GUARANTEER_ENTERED_WAR_DESC:1 "$ATTACKER|Y$ đã tuyên chiến với $CALLER|Y$, bên mà chúng ta đang bảo đảm nền độc lập.\n\nDo đó, hiện chúng ta đang §Ycó chiến tranh§! với $ATTACKER|Y$!"
+ MESSAGE_GUARANTEER_ENTERED_WAR_TITLE:0 "Bên bảo đảm độc lập Đã tham chiến"
+ MESSAGE_ALLIED_ENTERED_WAR_TITLE:0 "Đồng minh Đã tham chiến"
+ MESSAGE_OVERLORD_ENTERED_WAR_TITLE:0 "Quan thầy Đã tham chiến"
+ MESSAGE_OVERLORD_ENTERED_WAR_DESC:1 "$ATTACKER|Y$ đã tuyên chiến với Quan thầy của chúng ta, $CALLER|Y$.\n\nDo đó, hiện chúng ta đang §Ycó chiến tranh§! với $ATTACKER|Y$!"
+ MESSAGE_SUBJECT_ENTERED_WAR_TITLE:0 "Thần dân Đã tham chiến"
+ MESSAGE_SUBJECT_ENTERED_WAR_DESC:1 "$ATTACKER|Y$ đã tuyên chiến với $SUBJECT_TYPE$ của chúng ta, $CALLER|Y$.\n\nDo đó, hiện chúng ta đang §Ycó chiến tranh§! với $ATTACKER|Y$!"
+ MESSAGE_OVERLORD_DECLARED_WAR:0 "Quan thầy Tuyên chiến"
+ MESSAGE_OVERLORD_DECLARED_WAR_DESC:1 "Quan thầy của chúng ta, $CALLER|Y$, đã tuyên chiến với $DEFENDER|Y$.\n\nDo đó, hiện chúng ta đang §Ycó chiến tranh§! với $DEFENDER|Y$!"
+ MESSAGE_FEDERATION_DECLARED_WAR:0 "Chủ tịch Liên bang Tuyên chiến"
+ MESSAGE_FEDERATION_DECLARED_WAR_DESC:1 "Chủ tịch Liên bang của chúng ta, $CALLER|Y$, đã tuyên chiến với $DEFENDER|Y$.\n\nDo đó, hiện chúng ta đang §Ycó chiến tranh§! với $DEFENDER|Y$!"
+ MESSAGE_SUPPORTED_DECLARED_WAR:1 "Thần dân Tuyên chiến"
+ MESSAGE_SUPPORTED_DECLARED_WAR_DESC:1 "$CALLER|Y$, bên mà chúng ta ủng hộ độc lập, đã tuyên chiến với $DEFENDER|Y$!"
+ MESSAGE_OFFENSIVE_PACT_DECLARED_WAR:0 "Đã gia nhập Cuộc chiến Tấn công"
+ MESSAGE_OFFENSIVE_PACT_DECLARED_WAR_DESC:1 "$CALLER|Y$, bên mà chúng ta đã đồng ý hỗ trợ trong cuộc chiến tấn công của họ, đã tuyên chiến với $DEFENDER|Y$!"
+ MESSAGE_WAR_ENDED:0 "Chiến tranh Kết thúc"
+ MESSAGE_WAR_ENDED_DESC_1:2 "Cuộc chiến giữa $ATTACKER|Y$ và $DEFENDER|Y$ đã kết thúc do $DEFENDER|Y$ bị một bên thứ ba bắt thần phục hoặc thôn tính."
+ MESSAGE_WAR_ENDED_DESC_2:3 "Cuộc chiến của chúng ta với $ENEMY|Y$ đã kết thúc do họ bị $OVERLORD|Y$ bắt thần phục hoặc thôn tính. Chúng ta chưa ký kết hiệp định đình chiến."
+ MESSAGE_WAR_ENDED_DESC_3:2 "Chúng ta đã rời khỏi cuộc chiến chống lại $ENEMY|Y$ do phải thần phục $OVERLORD|Y$."
+ MESSAGE_ENEMY_LEAVES_WAR:0 "Kẻ thù Rời khỏi Cuộc chiến"
+ MESSAGE_ENEMY_LEAVES_WAR_DESC:3 "$ENEMY|Y$ đã rời khỏi cuộc chiến do bị $OVERLORD|Y$ bắt thần phục hoặc thôn tính."
+ TOAST_TRUCE_IS_OVER_TITLE: "Hiệp định Đình chiến Hết hạn"
+ TOAST_TRUCE_IS_OVER_DESC: "Hiệp định đình chiến của chúng ta với §Y$ENEMY$§! đã hết hạn."
+ MESSAGE_TRADE_DEAL_JOIN_WAR_TITLE:1 "Đề xuất tham chiến đã được chấp thuận"
+ MESSAGE_TRADE_DEAL_JOIN_WAR_DEFENSE_DESC: "Sau các cuộc đàm phán thành công với $CALLER|Y$, chúng ta đang sát cánh cùng họ phòng thủ trước $ATTACKER|Y$"
+ MESSAGE_TRADE_DEAL_JOIN_WAR_OFFENSE_DESC: "Sau các cuộc đàm phán thành công với $CALLER|Y$, chúng ta đang tham gia cuộc chiến của họ chống lại $DEFENDER|Y$"
+ MESSAGE_ALLY_JOINED_WAR_TITLE: "Đồng minh Gia nhập Cuộc chiến"
+ MESSAGE_ALLY_JOINED_WAR_DESC: "$JOINER|G$ đã gia nhập $WAR|Y$ theo phe của $SIDE_LEADER|Y$."
+ MESSAGE_ALLY_JOINED_WAR_WITH_ALLIES_DESC: "$JOINER|G$ và $COUNT|G$ đồng minh của họ đã gia nhập $WAR|Y$ theo phe của $SIDE_LEADER|Y$."
+ MESSAGE_ENEMY_JOINED_WAR_TITLE: "Kẻ thù Gia nhập Cuộc chiến"
+ MESSAGE_ENEMY_JOINED_WAR_DESC: "$JOINER|R$ đã gia nhập $WAR|Y$ theo phe của $SIDE_LEADER|Y$."
+ MESSAGE_ENEMY_JOINED_WAR_WITH_ALLIES_DESC: "$JOINER|R$ và $COUNT|R$ đồng minh của họ đã gia nhập $WAR|Y$ theo phe của $SIDE_LEADER|Y$."
+ MESSAGE_ALLY_LEFT_WAR_TITLE: "Đồng minh Rời khỏi Cuộc chiến"
+ MESSAGE_ALLY_LEFT_WAR_DESC: "$LEAVER|R$ đã rời khỏi $WAR|Y$, nơi mà trước đó họ chiến đấu theo phe của $SIDE_LEADER|Y$."
+ MESSAGE_ALLY_LEFT_WAR_WITH_ALLIES_DESC: "$LEAVER|R$ và $COUNT|R$ đồng minh của họ đã rời khỏi $WAR|Y$, nơi mà trước đó họ chiến đấu theo phe của $SIDE_LEADER|Y$."
+ MESSAGE_ALLY_LEFT_WAR_LEADER_DESC: "$LEAVER|R$ đã rời khỏi $WAR|Y$."
+ MESSAGE_ALLY_LEFT_WAR_LEADER_WITH_ALLIES_DESC: "$LEAVER|R$ và $COUNT|R$ đồng minh của họ đã rời khỏi $WAR|Y$."
+ MESSAGE_ENEMY_LEFT_WAR_TITLE: "Kẻ thù Rời khỏi Cuộc chiến"
+ MESSAGE_ENEMY_LEFT_WAR_DESC: "$LEAVER|G$ đã rời khỏi $WAR|Y$, nơi mà trước đó họ chiến đấu theo phe của $SIDE_LEADER|Y$."
+ MESSAGE_ENEMY_LEFT_WAR_WITH_ALLIES_DESC: "$LEAVER|G$ và $COUNT|G$ đồng minh của họ đã rời khỏi $WAR|Y$, nơi mà trước đó họ chiến đấu theo phe của $SIDE_LEADER|Y$."
+ MESSAGE_ENEMY_LEFT_WAR_LEADER_DESC: "$LEAVER|G$ đã rời khỏi $WAR|Y$."
+ MESSAGE_ENEMY_LEFT_WAR_LEADER_WITH_ALLIES_DESC: "$LEAVER|G$ và $COUNT|G$ đồng minh của họ đã rời khỏi $WAR|Y$."
+ ####################################
+ # Fleet Detected
+ ####################################
+ MESSAGE_FLEET_DETECTED_WE:0 "§H$FLEET$§! từ $WHO|Y$ đã bị phát hiện đang di chuyển theo lộ trình hướng thẳng tới §Yhệ sao $TARGET$§!!"
+ MESSAGE_FLEET_DETECTED_MESSAGE_TYPE_TITLE:0 "Đã phát hiện Hạm đội"
+ MESSAGE_OBJECT_DETECTED_WE:0 "Một vật thể chưa xác định đã bị phát hiện đang di chuyển theo lộ trình hướng thẳng tới §Yhệ sao $TARGET$§!!"
+ MESSAGE_OBJECT_DETECTED_MESSAGE_TYPE_TITLE:0 "Đã phát hiện Vật thể Chưa xác định"
+
+ ####################################
+ # Fleet Evade
+ ####################################
+ MESSAGE_FLEET_EVADE_HOSTILE:0 "$FLEET$ đã chạm trán một hạm đội thù địch $HOSTILE|R$ tại $SYSTEM|H$ và hiện đang nỗ lực lẩn tránh!"
+ MESSAGE_FLEET_EVADE_HOSTILE_FLEET_TYPE:0 "$TYPE$ $NAME|H$"
+ MESSAGE_FLEET_EVADE_HOSTILE_MESSAGE_TYPE_TITLE:0 "Đang lẩn tránh Hạm đội Thù địch"
+
+ ####################################
+ # Leaders
+ ####################################
+ FLEET_LEADER_DEATH:1 "$CLASS|H$ $LEADER|Y$ đã hy sinh khi tàu $SHIP|Y$ bị phá hủy."
+ ALIVE_FLEET_LEADER_DEATH: "$CLASS|H$ $LEADER|Y$ đã qua đời khi đang vận hành tàu $SHIP|Y$."
+ ARMY_LEADER_DEATH:1 "$CLASS|H$ của chúng ta, $LEADER|Y$ đã hy sinh khi đang chỉ huy $ARMY|Y$."
+ PLANET_LEADER_DEATH:1 "$CLASS|H$ của chúng ta, $LEADER|Y$ đã qua đời trên $PLANET|Y$."
+ COUNTRY_LEADER_DEATH:1 "$CLASS|H$ của chúng ta, $LEADER|Y$ đã qua đời!"
+ SYSTEM_LEADER_DEATH: "$CLASS|H$ của chúng ta, $LEADER|Y$ đã hy sinh tại hệ sao $SYSTEM|Y$"
+ SPY_LEADER_DEATH: "$CLASS|H$ của chúng ta, $LEADER|Y$ đã hy sinh khi đang hoạt động tại $TARGET|Y$."
+ HEIR_DEATH:1 "§H$HEIR$§! của chúng ta, $HEIRNAME|Y$ đã qua đời!"
+ RULER_ELECTED:0 "Một Nhà thống trị mới đã được bầu! $TITLE$ $LEADER|Y$ sẽ cầm quyền cho đến cuộc bầu cử tiếp theo, diễn ra vào ngày $TIME|Y$."
+ RULER_ELECTED_UNTIL_DEATH:1 "$TITLE$ $LEADER|Y$ đã được chọn làm Nhà thống trị mới, và sẽ trị vì cho đến khi qua đời."
+ RULER_ELECTED_HEIR:1 "Theo luật kế vị, $TITLE$ $LEADER|Y$ là Nhà thống trị mới."
+ MESSAGE_LEADER_DEATH_TITLE:0 "Lãnh đạo Qua đời"
+ MESSAGE_LEADER_RETIRED_TITLE:0 "Lãnh đạo Nghỉ hưu"
+ MESSAGE_RULER_ELECTED_TITLE:0 "Nhà thống trị Được bầu"
+ MESSAGE_RULER_ELECTED_UNTIL_DEATH_TITLE:1 "Nhà thống trị Trọn đời Được chọn"
+ MESSAGE_RULER_ELECTED_HEIR_TITLE:0 "Kế vị Ngai vàng"
+ MESSAGE_ELECTION_MESSAGE_TYPE_TITLE:0 "Bầu cử"
+ MESSAGE_DEMOCRATIC_ELECTION_DESC:0 "Chiến dịch tranh cử để bầu $TITLE$ mới đang được tiến hành.\nKết quả sẽ được công bố vào ngày $DATE|Y$."
+ MESSAGE_OLIGARCHIC_ELECTION_DESC:0 "Các cuộc đàm phán để bổ nhiệm $TITLE$ mới đang diễn ra.\nQuyết định sẽ được công bố vào ngày $DATE|Y$."
+ ELECTION_CLICK_FOR_MORE_INFO:0 "Bấm để xem thêm chi tiết"
+ LEADER_DEATH_AGE:0 "$CLASS|Y$ $LEADER|Y$ đã qua đời ở tuổi $AGE|Y$."
+ LEADER_RETIRED_DESC:0 "$CLASS|Y$ $LEADER|Y$ đã nghỉ hưu ở tuổi $AGE|Y$."
+ TOOLTIP_KILL_LEADER:0 "$CLASS|Y$ $LEADER|Y$ §Rqua đời§!"
+ TOOLTIP_FIRE_LEADER: "$CLASS|Y$ $LEADER|Y$ §Rbị bãi nhiệm§!"
+ MESSAGE_LEADER_EXPERIENCE_TITLE:0 "Một Lãnh đạo Đã nhận được Kinh nghiệm"
+ LEADER_EXPERIENCE_NOTIFICATION_DESC:0 "§T$CLASS|Y$ $LEADER|Y$ đã nhận được kinh nghiệm từ chiến đấu\n\n$STATS$§!"
+ MESSAGE_LEADER_LEVEL_UP_TITLE:1 "Lãnh đạo Tăng cấp"
+ LEADER_LEVEL_UP_DESC:0 "$CLASS|Y$ $LEADER|Y$ đã thăng cấp\n\nKỹ năng: $LEVEL|Y$\n"
+ LEADER_LEVEL_UP_NEXT_LEVEL_DESC:0 "$CLASS|Y$ $LEADER|Y$ đã thăng cấp\n\nKỹ năng: $LEVEL|Y$\nKinh nghiệm cần để lên cấp tiếp theo: $EXP|Y0$"
+
+ LEADER_ADMIRAL_BASE_EXPERIENCE:0 "§TGiao tranh Hạm đội: $VAL|0H$ kinh nghiệm§!"
+ LEADER_ADMIRAL_HOSTILE_KILLED_EXPERIENCE:0 "§TTiêu diệt Lực lượng Thù địch: $VAL|0H$ kinh nghiệm§!"
+ LEADER_ADMIRAL_FRIENDLY_LOST_EXPERIENCE:0 "§TTổn thất Lực lượng Đồng minh: $VAL|0H$ kinh nghiệm§!"
+
+ LEADER_GENERAL_BASE_EXPERIENCE:0 "§TGiao tranh Mặt đất: $VAL|0H$ kinh nghiệm§!"
+ LEADER_GENERAL_HOSTILE_KILLED_EXPERIENCE:0 "§TTiêu diệt Lực lượng Thù địch: $VAL|0H$ kinh nghiệm§!"
+ LEADER_GENERAL_FRIENDLY_LOST_EXPERIENCE:0 "§TTổn thất Lực lượng Đồng minh: $VAL|0H$ kinh nghiệm§!"
+
+ LEADER_COMMANDER_BASE_EXPERIENCE:0 "§TGiao tranh: $VAL|0H$ kinh nghiệm§!"
+ LEADER_COMMANDER_HOSTILE_KILLED_EXPERIENCE:0 "§TTiêu diệt Lực lượng Thù địch: $VAL|0H$ kinh nghiệm§!"
+ LEADER_COMMANDER_FRIENDLY_LOST_EXPERIENCE:0 "§TTổn thất Lực lượng Đồng minh: $VAL|0H$ kinh nghiệm§!"
+
+ MESSAGE_NEW_HEIR_TITLE:0 "§HNgười thừa kế Mới§!"
+ NEW_HEIR_KEY: "Người thừa kế Mới"
+ NEW_HEIR_TEXT:0 "§Y$HEIR$§! là người thừa kế mới của Đế chế chúng ta và sẽ kế vị ngai vàng khi nhà thống trị hiện tại qua đời."
+ MESSAGE_LEADER_POOL_REFRESHED_MESSAGE_TYPE_TITLE:0 "Đã làm mới $RECRUITABLE_LEADERS$"
+ LEADER_POOL_REFRESHED_TITLE:0 "$RECRUITABLE_LEADERS$ đã được làm mới. Giờ đây có các Lãnh đạo mới sẵn sàng để chiêu mộ."
+ LEADER_POOL_REFRESHED_INSTRUCTION:0 "Bấm để mở Giao diện Lãnh đạo"
+
+ ####################################
+ # Technology
+ ####################################
+ MESSAGE_TECHNOLOGY_RESEARCH_FINISH:0 "Chúng ta đã hoàn thành việc nghiên cứu $TECHNOLOGY|H$."
+ MESSAGE_TECHNOLOGY_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "Công nghệ đã nghiên cứu xong"
+
+ ####################################
+ # Debris
+ ####################################
+ MESSAGE_DEBRIS_ANALYZED_FINISH:0 "Chúng ta đã phân tích xong các mảnh vỡ tại $SYSTEM|Y$."
+ MESSAGE_DEBRIS_ANALYZED_FINISH_BONUS:1 "£$AREA_KEY$£ §YNghiên cứu $AREA$§!: §G+$VAL|0$§! điểm"
+ MESSAGE_DEBRIS_ANALYZED_FINISH_TECH_PROGRESS:1 "$TECH|Y$: §G+$VAL|%0$§! tiến độ"
+ MESSAGE_DEBRIS_ANALYZED_FINISH_MESSAGE_TYPE_TITLE:0 "Đã phân tích Mảnh vỡ"
+
+ MESSAGE_DEBRIS_SCAVENGED_FINISH:0 "Chúng ta đã hoàn thành việc thu gom mảnh vỡ tại $SYSTEM|Y$."
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_RESOURCE:0 "£$RESOURCE_KEY$£ §Y$NAME$§!: §G+$VAL$§!"
+ MESSAGE_HARVEST_RESOURCES_FINISH_RESOURCE: "$MESSAGE_DEBRIS_SCAVENGED_FINISH_RESOURCE$"
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_MESSAGE_TYPE_TITLE:0 "Đã thu gom Mảnh vỡ"
+
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH:0 "Chúng ta đã hoàn thành việc thu gom và phân tích các mảnh vỡ tại $SYSTEM|Y$."
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH_MESSAGE_TYPE_TITLE:0 "Đã thu gom và Phân tích Mảnh vỡ"
+
+ ####################################
+ # Anomaly
+ ####################################
+ MESSAGE_ANOMALY_DETECTED_TYPE_TITLE:0 "Hiện tượng dị thường"
+
+ ####################################
+ # No Access
+ ####################################
+ MESSAGE_WORMHOLE_CLOSED_NO_ACCESS:0 "Lỗ sâu tại $FROM|Y$ đã bị đóng khi đang mở về phía $TARGET|Y$, bởi vì nó nằm trong biên giới của $WHO|Y$."
+ MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS:0 "$FLEET|Y$ buộc phải quay trở về $RETURN|Y$ từ $FROM|Y$, bởi vì nó nằm trong biên giới của $WHO|Y$."
+ MESSAGE_WORMHOLE_CLOSED_NO_ACCESS_TITLE:0 "Lỗ sâu Đã đóng"
+ MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS_TITLE:0 "Không có Quyền Tiếp cận"
+
+ ####################################
+ # Revolt
+ ####################################
+ MESSAGE_REVOLT:1 "Cư dân trên hành tinh $PLANET|Y$ đang nổi dậy!"
+ MESSAGE_PLANET_REVOLT_TITLE:0 "Khởi nghĩa!"
+
+ ####################################
+ # Planet Destruction
+ ####################################
+ MESSAGE_PLANET_DESTROYED:0 "Hành tinh Bị hủy diệt"
+ MESSAGE_PLANET_DESTROYED_DESC:0 "$PLANET|Y$ $WEAPON_DESC$ khẩu $WEAPON_NAME|R$ trên Cự thể $ADJ$."
+
+ ####################################
+ # Terraforming
+ ####################################
+ MESSAGE_TERRAFORMATION_FINISH:1 "$PLANET|Y$ đã được địa khai hóa thành một $PLANET_CLASS|Y$."
+ MESSAGE_TERRAFORMATION_CANCELED:0 "Quá trình địa khai hóa trên $PLANET|Y$ đã bị gián đoạn!"
+ MESSAGE_TERRAFORM_MESSAGE_TYPE_TITLE:0 "Địa khai hóa"
+
+ ####################################
+ # Trade
+ ####################################
+ MESSAGE_TRADE_DEAL_END_NO_ENERGY:0 "Hiệp ước thương mại của chúng ta với $WITH|Y$ đã chấm dứt vì chúng ta thiếu Năng lượng để duy trì."
+ MESSAGE_TRADE_DEAL_END_NO_ENERGY_THEM:0 "$WITH|Y$ đã chấm dứt hiệp ước thương mại của chúng ta vì họ thiếu Năng lượng để duy trì."
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE:0 "Hiệp ước thương mại của chúng ta với $WITH|Y$ đã chấm dứt vì chúng ta thiếu $RESOURCE|Y$ để duy trì."
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM:0 "$WITH|Y$ đã chấm dứt hiệp ước thương mại của chúng ta vì họ thiếu $RESOURCE|Y$ để duy trì."
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION:0 "Hiệp ước thương mại của chúng ta với $WITH|Y$ đã chấm dứt vì Hành động Thương mại $ACTION|Y$ của chúng ta không còn hiệu lực."
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_THEM:0 "$WITH|Y$ đã chấm dứt hiệp ước thương mại của chúng ta vì Hành động Thương mại $ACTION|Y$ của họ không còn hiệu lực."
+ MESSAGE_TRADE_DEAL_END_CANCELLED_SPECIMEN: "Hiệp ước thương mại của chúng ta với $WITH|Y$ đã chấm dứt vì một trong những Mẫu vật trao đổi của chúng ta đã bị thất lạc."
+ MESSAGE_TRADE_DEAL_END_CANCELLED_SPECIMEN_THEM: "$WITH|Y$ đã chấm dứt hiệp ước thương mại của chúng ta vì một trong những Mẫu vật trao đổi của họ đã bị thất lạc."
+ MESSAGE_TRADE_DEAL_TITLE:0 "Thỏa thuận Thương mại"
+ MESSAGE_TRADE_DEAL_END_TIMEOUT:2 "Hiệp ước thương mại của chúng ta với $WITH|Y$ đã hết hạn.\n\nChúng ta đã trao đổi:\n$OUR_OFFER$\n\nHọ đã trao đổi:\n$THEIR_OFFER$"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS:0 "Hiệp ước thương mại của chúng ta với $WITH|Y$ đã chấm dứt do chúng ta đã đóng cửa biên giới với họ."
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM:0 "Hiệp ước thương mại của chúng ta với $WITH|Y$ đã chấm dứt do họ đã đóng cửa biên giới với chúng ta."
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS:0 "Hiệp ước thương mại của chúng ta với $WITH|Y$ đã chấm dứt do chúng ta đã trở thành thần dân và không còn kiểm soát quyền tiếp cận của mình."
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_THEM:0 "Hiệp ước thương mại của chúng ta với $WITH|Y$ đã chấm dứt do họ đã trở thành thần dân và không còn kiểm soát quyền tiếp cận của họ."
+ MESSAGE_TRADE_DEAL_END_CANCELED_FLEET:0 "Thỏa thuận thương mại của chúng ta với $WITH|Y$ đã chấm dứt vì thỏa thuận thần phục đã bị hủy bỏ.\n\nChúng ta đã trao đổi:\n$OUR_OFFER$\n\nHọ đã trao đổi:\n$THEIR_OFFER$"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE:0 "Hiệp ước thương mại bảo đảm của chúng ta với $WITH|Y$ đã chấm dứt vì chúng ta đã gia nhập một liên minh."
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_THEM:0 "$WITH|Y$ đã chấm dứt hiệp ước thương mại bảo đảm với chúng ta vì họ đã gia nhập một liên minh."
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_VASSALAGE:1 "Hiệp ước thương mại của chúng ta với $WITH|Y$ đã chấm dứt vì chúng ta đã trở thành thần dân và không thể tiếp tục ủng hộ nền độc lập của họ."
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_VASSALAGE_THEM:1 "$WITH|Y$ đã chấm dứt hiệp ước thương mại với chúng ta vì họ đã trở thành thần dân và không thể tiếp tục ủng hộ nền độc lập của chúng ta."
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_ALLIANCE:0 "Hiệp ước thương mại của chúng ta với $WITH|Y$ đã chấm dứt vì chúng ta đã gia nhập một liên minh và không còn có thể bảo đảm nền độc lập cho họ."
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_ALLIANCE_THEM:0 "$WITH|Y$ đã chấm dứt hiệp ước thương mại với chúng ta vì họ đã gia nhập một liên minh và không còn có thể bảo đảm nền độc lập cho chúng ta."
+
+ ####################################
+ # Special Project
+ ####################################
+ MESSAGE_UPLIFTING_FAILED_TITLE:0 "Dự án Đặc biệt Khai hóa Thất bại"
+ MESSAGE_UPLIFTING_FAILED:1 "Dự án Khai hóa loài $SPECIES|Y$ trên $PLANET|Y$ của chúng ta đã thất bại."
+ MESSAGE_SPECIES_MODIFICATION_FAILED_TITLE:0 "Dự án Đặc biệt Biến đổi Loài Thất bại"
+ MESSAGE_SPECIES_MODIFICATION_FAILED:3 "Dự án Biến đổi $POPS|Y$ Dân số trên $PLANETS|Y$ hành tinh cho khớp với bản mẫu $TEMPLATE|Y$ của chúng ta đã thất bại."
+ MESSAGE_SPECIAL_PROJECT_AVAILABLE_TITLE:0 "Dự án Đặc biệt Khả dụng"
+ SPECIAL_PROJECT_AVAILABLE:0 "Có Dự án Đặc biệt sẵn sàng để nghiên cứu."
+
+
+ ####################################
+ # Event
+ ####################################
+ MESSAGE_EVENT_MESSAGE_TYPE_TITLE:0 "Sự kiện"
+
+ ####################################
+ # Invasion
+ ####################################
+ MESSAGE_INVASION_TITLE:0 "Cuộc xâm lược Kết thúc"
+ INVASION_ATTACKER_WIN_KEY: "$MESSAGE_INVASION_TITLE$ (Xâm lược Thành công)"
+ INVASION_ATTACKER_LOSE_KEY: "$MESSAGE_INVASION_TITLE$ (Xâm lược Thất bại)"
+ INVASION_DEFENDER_WIN_KEY: "$MESSAGE_INVASION_TITLE$ (Phòng thủ Thành công)"
+ INVASION_DEFENDER_LOSE_KEY: "$MESSAGE_INVASION_TITLE$ (Phòng thủ Thất bại)"
+ MESSAGE_INVASION_ATTACKER_WIN:1 "Chúng ta đã xâm lược thành công $PLANET|Y$!"
+ MESSAGE_INVASION_ATTACKER_LOSE:0 "Cuộc xâm lược của chúng ta nhắm vào $PLANET|H$ đã thất bại."
+ MESSAGE_INVASION_DEFENDER_WIN:1 "Chúng ta đã đẩy lùi thành công những kẻ xâm lược trên $PLANET|Y$!"
+ MESSAGE_INVASION_DEFENDER_LOSE:1 "Chúng ta đã thất bại trong việc đẩy lùi những kẻ xâm lược trên $PLANET|Y$."
+ MESSAGE_RETREAT_CASUALTIES_TITLE:0 "Tổn thất Quân đội Rút lui"
+ RETREAT_CASUALTIES_DESC:1 "Chúng ta đã mất $NUM|Y$ trong tổng số $TOTAL|Y$ đạo quân khi đang cố gắng rút lui khỏi $PLANET|Y$\n$LOST$"
+ MESSAGE_LOST_ARMY:0 "$NUMBER$. $NAME|R$"
+
+
+ ####################################
+ # Subject changes
+ ####################################
+ MESSAGE_SUBJECT_TYPE_CHANGED_TITLE:0 "Địa vị Thần dân Đã thay đổi"
+ MESSAGE_SUBJECT_CHANGED_DESC:0 "$REASON$$SUBJECT|Y$ hiện là một $NEW_TYPE|Y$ dưới quyền $OVERLORD|Y$"
+ MESSAGE_SUBJECT_CHANGE_REASON_preset_protectorate_me:0 "Nhờ những tiến bộ trong công nghệ của chúng ta, "
+ MESSAGE_SUBJECT_CHANGE_REASON_preset_protectorate:0 "Nhờ những tiến bộ trong công nghệ của họ, "
+
+ ####################################
+ # Triggered Modifiers
+ ####################################
+ MESSAGE_TRIGG_MOD_LOST_TITLE:0 "Mất Hiệu ứng Có điều kiện"
+ TRIGG_MOD_LOST:1 "Hiệu ứng Có điều kiện '$NAME|H$' không còn hiệu lực."
+ MESSAGE_TRIGG_MOD_GAINED_TITLE:0 "Nhận Hiệu ứng Có điều kiện"
+ TRIGG_MOD_GAINED:1 "$NAME|H$\n\n$DESC$"
+
+ ####################################
+ # Combat Stats
+ ####################################
+ MESSAGE_COMBAT_STATS_TITLE:0 "Thống kê Chiến đấu Hạm đội"
+
+ ####################################
+ # Edicts
+ ####################################
+ MESSAGE_INVALIDATED_EDICT_TITLE:0 "Sắc lệnh Đã bị Hủy"
+ COUNTRY_EDICT_BECAME_INVALID:1 "Sắc lệnh $EDICT|Y$ đã mất hiệu lực do không còn thỏa mãn các điều kiện bắt buộc."
+ MESSAGE_EXPIRED_EDICT_TITLE:0 "Sắc lệnh Hết hạn"
+ COUNTRY_EDICT_EXPIRED:0 "Sắc lệnh $EDICT|Y$ tác động lên đế chế của chúng ta đã hết hạn."
+ PLANET_EDICT_EXPIRED:0 "Sắc lệnh $EDICT|Y$ tác động lên $PLANET$ đã hết hạn."
+
+#####################################
+# Megastructures
+#####################################
+
+ MESSAGE_MEGASTRUCTURE_BUILT_TITLE:0 "Đã hoàn thành Đại công trình"
+ MESSAGE_MEGASTRUCTURE_BUILT:4 "Đã hoàn thành việc xây dựng $MEGASTRUCTURE|H$ tại hệ sao $SYSTEM|Y$."
+ MESSAGE_MEGASTRUCTURE_UPGRADED_TITLE:0 "Đã nâng cấp Đại công trình"
+ MESSAGE_MEGASTRUCTURE_UPGRADED:3 "Đã hoàn thành việc nâng cấp $MEGASTRUCTURE|H$ tại hệ sao $SYSTEM|Y$."
+ MESSAGE_ALIEN_MEGASTRUCTURE_BUILT_TITLE:0 "Người ngoài hành tinh Đã xây xong Đại công trình"
+ MESSAGE_ALIEN_MEGASTRUCTURE_BUILT:1 "$COUNTRY|Y$ đã hoàn thành việc xây dựng $MEGASTRUCTURE|H$ của họ tại hệ sao $SYSTEM|Y$."
+
+ #####################################
+# Casus Belli
+#####################################
+ MESSAGE_NEW_CASUS_BELLI_HOLDER_TITLE:1 "Lý do Chiến tranh Mới"
+ MESSAGE_NEW_CASUS_BELLI_HOLDER:1 "Chúng ta hiện có thể sử dụng Lý do Chiến tranh $CASUS_BELLI|H$ để chống lại $COUNTRY|H$"
+
+ MESSAGE_NEW_CASUS_BELLI_TARGET_TITLE:1 "Mục tiêu của Lý do Chiến tranh"
+ MESSAGE_NEW_CASUS_BELLI_TARGET:1 "$COUNTRY|H$ hiện có thể sử dụng Lý do Chiến tranh $CASUS_BELLI|H$ để chống lại chúng ta!"
+ MESSAGE_NEW_CASUS_BELLI_TRIAL_OF_ADVANCEMENT_TARGET:0 "Toàn bộ các thành viên §Hngoài hội đồng§! của §HĐế chế§! hiện có thể sử dụng Lý do Chiến tranh $CASUS_BELLI|H$ để chống lại chúng ta!"
+
+ MESSAGE_LOST_CASUS_BELLI_TITLE:0 "Mất Lý do Chiến tranh"
+ MESSAGE_LOST_CASUS_BELLI:1 "Chúng ta không còn có thể sử dụng Lý do Chiến tranh $CASUS_BELLI|H$ đối với $COUNTRY|H$"
+
+ #####################################
+# Claims
+#####################################
+ MESSAGE_NEW_CLAIM_ON_SYSTEM_TITLE:1 "Đế chế Ngoại bang Đòi chủ quyền Hệ sao của Chúng ta"
+ MESSAGE_NEW_CLAIM_ON_SYSTEM:2 "Dù nó thuộc về chúng ta một cách chính đáng, $COUNTRY|Y$ đã trơ trẽn đòi chủ quyền đối với hệ sao $SYSTEM|Y$!"
+
+#####################################
+# Star Destroyed
+#####################################
+ MESSAGE_STAR_DESTROYED:0 "Hệ sao Bị hủy diệt"
+ MESSAGE_STAR_DESTROYED_DESC:1 "Một vụ nổ siêu tân tinh khổng lồ do §RKẻ Thôn Sao§! $ADJ$ kích hoạt đã hủy diệt hệ sao $PLANET|Y$."
+

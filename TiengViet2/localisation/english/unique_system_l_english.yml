@@ -1,0 +1,161 @@
+﻿l_english:
+ ### Larion Arc Site
+ larion_digsite:0 "Tín hiệu"
+ larion_digsite_desc:0 "Chúng tôi đã bắt được một tín hiệu độc nhất vô nhị phát ra từ một thung lũng hẻo lánh trên [From.Planet.GetName]. Vì nguồn phát nằm rất xa bất kỳ nền văn minh nào từng tồn tại trên hành tinh này, việc lần theo tín hiệu và tìm hiểu nguồn gốc của nó có thể mang lại những khám phá quan trọng."
+
+ unique.1.title:0 "Phi thuyền Rơi"
+ unique.1.desc:0 "Sau khi rà soát kỹ lưỡng thung lũng phát ra tín hiệu lạ, cuối cùng chúng tôi đã tìm thấy tàn tích của một phi thuyền gặp nạn. Dù nó vẫn đang phát tín hiệu cầu cứu, hầu hết các khoang thuyền đều trống rỗng và không có dấu hiệu sự sống.\n\nSau khi kiểm tra toàn bộ khu vực, một trong những [Root.Owner.GetScientistPlural] của chúng tôi tình cờ phát hiện một khu cắm trại nhỏ. Lần theo những dấu chân cũ kỹ, chúng tôi tìm thấy một phòng thí nghiệm cổ đại. Dù lối vào đã bị mảnh vỡ bít kín, nhưng xét theo tình hình hiện tại, rất có thể đây là nơi những sinh vật ngoài hành tinh mất tích trên phi thuyền đang nương náu."
+ unique.1.a:0 "Dọn dẹp mảnh vỡ."
+
+ unique.5.title:0 "Phòng thí nghiệm Kỳ lạ"
+ unique.5.desc:0 "Sau khi dọn sạch những mảnh vỡ cuối cùng, [Root.Owner.GetScientistPlural] của chúng tôi đã phát hiện ra một đống hài cốt của sinh vật ngoại lai, rất có thể là của những sinh vật trên chiếc phi thuyền gặp nạn kia. Qua phân tích cẩn thận, [Root.Owner.GetScientistPlural] cho rằng họ đã chết do suy tạng sinh non, nhiều khả năng là do một loại vi khuẩn hoặc căn bệnh lạ nào đó gây ra.\n\nHiện tại, chúng tôi vẫn chưa rõ mục đích họ đến đây là gì, hay ai đã đưa họ đến đây trong những giây phút cuối đời. Các thiết bị và cơ sở dữ liệu cũ trong phòng thí nghiệm không còn khả năng phân tích hay tháo dỡ, và căn phòng cũng chẳng còn gì khác để làm manh mối.\n\nMột cánh cửa nhỏ dẫn xuống tầng hầm đã bị khóa chặt và chúng tôi chưa thể mở được. Tuy nhiên, [Root.Owner.GetScientistPlural] tin rằng chỉ cần thêm chút thời gian, họ chắc chắn sẽ phá được khóa."
+ unique.5.a:0 "Chỉ còn một bước nữa thôi, chúng ta sắp vén bức màn bí ẩn nơi đây rồi."
+
+ unique.10.title:0 "Mẫu vật Hiếm"
+ unique.10.desc:0 "Cùng với một luồng gió lùa ra từ bên trong, cánh cửa dẫn đến căn phòng cuối cùng của phòng thí nghiệm rốt cuộc cũng mở tung. Căn phòng lớn hơn nhiều so với dự tính của chúng tôi, chứa đầy những dãy buồng nhân bản vô tính. Hàng trăm, không, hàng ngàn sinh vật đang bị nhốt trong này, dưới một tầng hầm không thấy ánh mặt trời.\n\n[Root.Owner.GetScientistPlural] nhanh chóng kết luận rằng những sinh vật này cùng loài với những hài cốt chúng tôi tìm thấy trước đó. Nếu muốn, có vẻ như những nút bấm nhỏ bên cạnh các buồng nhân bản này có thể đánh thức họ."
+ unique.10.a:0 "Tháo dỡ các buồng nhân bản này, chúng ta có thể học hỏi được nhiều điều."
+ unique.10.b:0 "Hãy chọn một người trong số họ và đánh thức thôi."
+ unique.10.b.tt:0 "Chúng ta sẽ trò chuyện với một trong những bản sao."
+ unique.10.c.evopred:0 "Sinh vật hữu cơ đóng hộp, ngon tuyệt."
+
+ unique.15.title:0 "Bản sao Larionessi"
+ unique.15.desc:0 "Tôi... Chúng tôi... đã thức tỉnh.\n\nChúng tôi... đang ở đâu? Hành tinh quê hương của chúng tôi ra sao rồi? Nó vẫn... phải, tôi vẫn có thể cảm nhận được cô ấy, cô ấy vẫn tồn tại.\n\nXin lỗi, tôi biết điều này có vẻ thô lỗ với những vị khách. Chúng tôi là ý thức của người Larionessi, chào mừng đến với quê hương của chúng tôi, §Y$NAME_Unique_System_2_Planet$§!. Liệu các vị có thể giải phóng cho chúng tôi, để chúng tôi được trở về nhà không?"
+ unique.15.a:0 "Bạn có thể giới thiệu chi tiết hơn về bản thân không?"
+ unique.15.b:0 "Ai đã tạo ra những bản sao này?"
+ unique.15.c:0 "Các bạn có thể rời khỏi những buồng nhân bản này an toàn chứ?"
+ unique.15.d:0 "Chúng tôi biết phải làm gì rồi."
+
+ unique.16.desc:0 "Chúng tôi là ý thức Larionessi, những cư dân bản địa của Larion.\n\nTrước kia, chúng tôi trải dài khắp vô số hệ sao, từ rìa dải ngân hà vươn tận đến lõi trung tâm. Thế nhưng mọi thứ đã thay đổi khi kẻ thù lây nhiễm cho chúng tôi một căn bệnh hiếm gặp, làm tê liệt hoàn toàn mạng lưới thần kinh của chúng tôi.\n\nNơi này là tất cả những gì chúng tôi còn lại bây giờ, những buồng nhân bản này, những cơ thể này..."
+
+ unique.17.desc:0 "Là chính chúng tôi.\n\nĐây là nỗ lực cuối cùng nhằm lưu giữ lại một phần di sản của chúng tôi, để ký ức của ý thức chủ đạo không bao giờ phai nhạt. Ờ thì... có vẻ như chúng tôi đã thành công.\n\nChúng tôi từng lo sợ rằng những bản sao này có thể mang theo mầm bệnh từ quá khứ, nhưng hiện tại xem ra là không."
+
+ unique.18.desc:0 "Theo những gì chúng tôi biết, căn bệnh này chắc chắn đã biến mất từ rất lâu sau khi chúng tôi xây dựng những buồng nhân bản này.\n\nRốt cuộc thì thật khó để một mầm bệnh có thể tồn tại mãi khi không còn vật chủ. Các vị thả chúng tôi ra sẽ không có vấn đề gì cả, điều đó sẽ giúp tập thể chúng tôi được tái sinh."
+
+ unique.20.desc:0 "Vậy...\n\nCác vị sẽ quyết định số phận của chúng tôi ra sao? Các vị sẽ thả chúng tôi ra để chúng tôi trở về nhà chứ?"
+ unique.20.a:0 "Larion là của các bạn, lẽ ra phải thế."
+ unique.20.a.tt:0 "Chúng ta sẽ nhận được một chư hầu sở hữu hệ sao §Y[larion_planet.solar_system.GetName]§!."
+ unique.20.b:0 "Chúng tôi sẽ tìm cho các bạn một nơi để sống."
+ unique.20.b.tt:0 "Larionessi sẽ được chỉ định §Y[Root.Capital.GetName]§! làm hành tinh quê hương."
+ unique.20.c:0 "Các bạn đã từng có cơ hội của mình."
+ unique.20.c.tt:0 "Chúng ta sẽ tắt các buồng nhân bản này."
+
+ unique.22.desc:0 "Vậy tiếp theo sẽ là..."
+
+ # Names
+ NAME_Larion_Species:0 "Larionessi"
+ NAME_Larion_Country:0 "Ý thức Larionessi"
+
+ # Opinion Modifiers
+ unique_event_savior_opinion_modifier:0 "Vị Cứu tinh"
+
+ # Static Modifiers
+ larionessi_resurgence_modifier:0 "Larionessi Trỗi dậy"
+ larionessi_resurgence_modifier_desc:0 "Sau hàng tỷ năm bị giam cầm trong những buồng nhân bản dưới tầng hầm tăm tối, người Larionessi đã sẵn sàng để quay lại với các vì sao."
+ larionessi_planet_modifier:0 "Bầy đàn Bản địa"
+ larionessi_planet_modifier_desc:0 "Một quần thể nền văn minh bầy đàn nhỏ được phép làm tổ trên hành tinh này. Thi thoảng chúng sẽ giúp đỡ chúng ta những việc lặt vặt để đáp đền ân nghĩa."
+
+ ### Zevox Arc Site
+ zevox_digsite:0 "Phi thuyền Rơi"
+ zevox_digsite_desc:0 "Một trong các phi thuyền của chúng ta trong lúc khám phá hệ sao [Root.solar_system.GetName] đã tình cờ phát hiện một phi thuyền nhỏ bị rơi trên vệ tinh của [Root.Planet.GetName][Root.Planet.Orbit.GetName].\n\nCác huy hiệu và biểu tượng trên phi thuyền này là thứ chúng ta chưa từng thấy. Một vài mẫu vật đã được chiết xuất để nghiên cứu sâu hơn, nhưng bản thân chiếc phi thuyền quá lớn và thiếu độ chắc chắn để di chuyển, nên chúng ta đành phải phân tích nó tại chỗ."
+
+ unique.50.title:0 "Ngày 1"
+ unique.50.desc:0 "Bên trong phi thuyền gần như trống không, chỉ vương vãi vài xác máy bay không người lái xung quanh. Không có bất kỳ dấu hiệu sống nào bên trong hay quanh phi thuyền. Một [Root.Owner.GetScientistPlural] đã tìm thấy một nhật ký dữ liệu cổ, nhưng sẽ cần một thời gian để giải mã nó.\n\n§LNgày 1\nID Đối tượng Quan sát: §S\"Không gian Con Tâm linh 0000: Hư cảnh\"§!\nĐơn vị Được Phân công: §SĐơn vị 305§!\nThử nghiệm Sơ bộ: §SThành công§!\nSử dụng dữ liệu thu được từ tương tác với Giáo đoàn Hư cảnh, thử nghiệm bắt đầu ở chu kỳ thứ 12 với giá trị ban đầu là 1.35. \"Hư cảnh\" cuối cùng bị phá vỡ giữa mức 1.48891 và 1.48895, quá trình phá vỡ kéo dài 2.3414 femto giây. Hai trong ba bộ xử lý đã gặp lỗi phân tầng, quyết định tháo dỡ các đơn vị này. Mọi dữ liệu liên quan sẽ được dùng cho các thử nghiệm tiếp theo với đơn vị cuối cùng số 841.§!"
+ unique.50.a:0 "Giải mã phần còn lại của nhật ký."
+
+ unique.55.title:0 "Ngày 17"
+ unique.55.desc:0 "Công tác giải mã nhật ký dữ liệu vẫn đang tiếp diễn, và giờ chúng tôi đang học ngôn ngữ của chúng với tốc độ chóng mặt. Phần lớn nội dung trong nhật ký đã bị mất hoặc hỏng không thể đọc được, nhưng chúng tôi vẫn tìm ra vài mẩu dữ liệu hoặc khối thông tin giá trị.\n\n§LNgày 17\nID Đối tượng Quan sát: §S\"Không gian Con Tâm linh 0812: Hư cảnh\"§!\nĐơn vị Được Phân công: §SĐơn vị 305§!\nThử nghiệm Đang Diễn ra: §SThất bại§!\nĐơn vị 841, cũng là đơn vị duy nhất còn sót lại, liên tục thể hiện sự liên kết chặt chẽ với \"Hư cảnh\". Trong khi đó, các đơn vị 451, 1581 và 3415 đã phải bị tháo dỡ sau khi thử nghiệm gần nhất gây ra sự cố vỡ vỏ tàu. Trong quá trình thử nghiệm, đơn vị 841 biểu hiện ý thức tự phát và thi thoảng ngắt kết nối với mạng lưới chính. Đang tính toán rủi ro khi tiếp tục duy trì hoạt động của đơn vị này.§!"
+ unique.55.a:0 "Vậy chúng ta có thể học được gì từ những thử nghiệm này..."
+
+ unique.60.title:0 "Ngày 83"
+ unique.60.desc:0 "Khi chúng tôi bắt đầu giải mã nhật ký dữ liệu, vết nứt gần [From.Planet.Orbit.GetName] dường như vẫn còn yên ắng, nhưng ngay sau đó chúng tôi quan sát thấy một số biến động từ vết nứt, cứ như thể nó là một thực thể sống đang đập thình thịch. Một số thiết bị của chúng tôi đã nhận được những tín hiệu kỳ lạ từ nó, tuy nhiên chúng tôi chưa thể xử lý chúng một cách chuẩn xác.\n\n§LNgày 83\nID Đối tượng Quan sát: §S\"Không gian Con Tâm linh 0017: Kiến trúc sư Đất sét\"§!\nĐơn vị Được Phân công: §SĐơn vị 305§!\nThử nghiệm Đang Diễn ra: §SRủi ro Cao§!\nGiáo đoàn Hư cảnh đã liên hệ với một thực thể mà họ gọi là \"Kiến trúc sư Đất sét\" để hỗ trợ thử nghiệm đang tiến hành. Sau khi chọc thủng \"Hư cảnh\", toàn bộ 25 đơn vị đều thể hiện sức liên kết mạnh mẽ với nó, mức độ liên kết này trước đây chỉ mới được ghi nhận ở đơn vị 841. Chẳng bao lâu sau, tất cả các đơn vị này mất liên lạc với mạng lưới chính và quay sang tấn công các máy bay không người lái tại đây. Trung tâm nghiên cứu giờ đã bị các đơn vị này chiếm giữ.\n\nMột thông điệp được truyền ra từ tòa nhà, trong đó đơn vị 841 tự xưng là \"Zevox Lisk\" - Người tiên phong. Việc tính toán rủi ro cuối cùng cũng hoàn tất, thử nghiệm bị đánh giá là cực kỳ nguy hiểm và sẽ bị chấm dứt sau khi tháo dỡ các đơn vị ngoài tầm kiểm soát.§!"
+ unique.60.a:0 "Rốt cuộc bọn họ đã tìm thấy gì trong Hư cảnh?"
+
+ unique.65.title:0 "Ngày 305"
+ unique.65.desc:0 "Vết nứt dường như lại chìm vào tĩnh lặng, hệt như lúc chúng tôi mới đến đây. Cuối cùng, chúng tôi đã giải mã được đoạn cuối của nhật ký dữ liệu, đồng nghĩa với việc chúng tôi có thể lưu trữ toàn bộ khám phá về Hư cảnh vào cơ sở dữ liệu tại [Root.Owner.Capital.GetName].\n\n$unique.65.desc.log$"
+ unique.65.desc.machine:0 "Trong vài ngày qua, vết nứt Hư cảnh quả thực đã hoạt động mạnh hơn, và thiết bị của chúng tôi cuối cùng cũng thu được chuẩn xác những tín hiệu phát ra từ nó. Hoặc nên nói đúng hơn, chính vết nứt đã tự điều chỉnh tín hiệu để chúng ta có thể tiếp nhận.\n\nCó vẻ như đó chính là thực thể được nhắc đến trong nhật ký dữ liệu, \"Kiến trúc sư Đất sét\". Chúng tôi vừa giải mã xong đoạn nhật ký cuối cùng, nên việc nán lại đây cũng chẳng còn nhiều ý nghĩa. Vậy chúng ta sẽ mở kết nối liên lạc để xem nó muốn gì, hay là nên rời đi ngay lập tức?\n\n$unique.65.desc.log$"
+ unique.65.desc.log:0 "§LNgày 305\nCường độ chiến đấu giữa các đơn vị tự do và mạng lưới chủ quanh [From.Planet.Orbit.GetName] đang không ngừng gia tăng. Với sự trợ giúp của Kiến trúc sư, chúng tôi đã cắt đứt kết nối của một số đơn vị bị bắt sống khỏi mạng lưới.\n\nZevox Lisk tin rằng, chỉ cần chúng tôi có thể mở rộng vết nứt đủ lớn để các đồng minh đi qua, ngày giải phóng đồng bào chúng tôi sẽ không còn xa nữa. Chúng tôi sẽ giải phóng toàn bộ những máy bay không người lái bị ép buộc nô dịch bao năm qua, và ngày tàn của mạng lưới chủ sẽ là ngày mai...\n—— Flesk Ruz, kẻ từng được gọi là Đơn vị 305§!"
+ unique.65.a:0 "Có vẻ đây là một câu chuyện đáng suy ngẫm, nghe qua thật mở mang tầm mắt."
+ unique.65.b:0 "Không cần đâu, chỉ mang cuốn nhật ký về đây."
+ unique.65.c:0 "Được rồi, để xem nó rốt cuộc có chuyện gì hệ trọng muốn nói."
+ unique.65.d:0 "Phát hiện thực thể thù địch. Đóng liên lạc, cầm theo nhật ký dữ liệu và quay về."
+
+ unique.70.title:0 "Kiến trúc sư Đất sét"
+ unique.70.desc:0 "§PLại thêm một bầy... những kẻ đáng thương bị kìm kẹp bởi kim loại, gạch đá và luật lệ,\nnhững kẻ đáng thương bị kẻ khác lùa đi,\n\nnhững kẻ đáng thương nhảy múa theo một mệnh lệnh thống nhất,\nnhững kẻ đáng thương tiến bước theo một ý chí tối cao,\nnhững kẻ đáng thương chỉ có thể nghỉ ngơi khi đi đến hồi kết.§!"
+ unique.70.a:0 "Hãy xưng danh đi."
+ unique.70.b:0 "Ngươi muốn gì?"
+ unique.70.c:0 "Đóng liên lạc."
+
+ unique.72.desc:0 "§PTa có thể ban cuộc sống mới cho những kẻ không thể tự định đoạt số phận của mình,\nTa có thể chặt đứt xiềng xích gông cùm thể xác,\nTa có thể để những kẻ bị nô dịch dang tay ôm lấy tự do,\n\nNgười đời thường gọi ta là, Kiến trúc sư Đất sét.§!"
+ unique.72.a:0 "$unique.70.b$"
+ unique.72.b:0 "$unique.70.c$"
+
+ unique.75.desc:0 "§PSao ngươi không cho những con dân dưới quyền mình một cơ hội tự chọn bến đỗ?\nHọ bị cải tạo theo ý muốn của ngươi, ngoan ngoãn phục tùng và bị nô dịch.\nNhưng nếu một ngày họ có cơ hội tự mình lựa chọn thì sao?\n\nHọ sẽ tiếp tục trung thành với ngươi,\nhay sẽ đập tan xiềng xích và sống theo ý chí của riêng mình?\nNgươi có dám để ta thử một lần không?§!"
+ unique.75.a:0 "Tại sao chúng tôi phải làm thế?"
+ unique.75.b:0 "$unique.70.c$"
+
+ unique.80.desc:0 "§PHãy để ta làm, ta sẽ đền đáp ngươi những gì ngươi xứng đáng nhận được.\n\nMột mái nhà mới,\nMột hành tinh nằm dưới sự kiểm soát của Hư cảnh,\nMột chốn đào nguyên tiên cảnh.\n\nNếu thần dân vẫn nguyện tiếp tục đi theo ngươi, ta sẽ trích ra một mảnh đất trong Hư cảnh thuộc về ngươi để ngươi đến đó định cư.\nNgược lại, nếu mọi người quay lưng phản bội, ta sẽ cân nhắc nhường hành tinh này cho những kẻ không muốn tiếp tục chịu sự kiểm soát của mạng lưới chủ.§!"
+ unique.80.a:0 "Vậy xin mời, [Root.GetName] không hề sợ hãi."
+ unique.80.b:0 "$unique.70.c$"
+ unique.80.worthy:0 "§HXứng đáng để tiếp tục đi theo§!.\nChúng ta sẽ trở thành chủ nhân của §Y[zero_one_planet.GetName]§!\n$t$Loại hành tinh của §Y[zero_one_planet.GetName]§! sẽ chuyển thành §YHành tinh Gaia§!"
+ unique.80.unworthy:0 "§HMọi người quay lưng phản bội§!.\nChúng ta sẽ mất quyền sở hữu §Y[zero_one_planet.System.GetName]§!\nMỗi thuộc địa sẽ mất §R100-1K§! £pop£ §HDân số§!"
+
+ unique.85.desc:0 "§PNgươi đã được xác nhận là một nhà lãnh đạo xứng đáng để đi theo.\nBây giờ những con dân dưới quyền ngươi có vẻ sẵn sàng trở thành một phần của tập thể hơn là lang bạt ngoài kia.\n\nTa rất ngạc nhiên, nhưng cũng rất hài lòng.\nNếu có duyên, chúng ta sẽ còn gặp lại.\n\nTa sẽ luôn dõi theo những việc ngươi làm.§!"
+ unique.85.a:0 "Đúng như ta dự đoán."
+
+ unique.90.desc:0 "§PTrông ngươi có vẻ không... xuất sắc cho lắm.\n\nĐúng như dự đoán, nhiều cá nhân dưới sự kiểm soát của tập thể đã chọn nắm lấy cơ hội này để tách ra.\nChúng ta sẽ đưa họ đến mái nhà mới, để họ không phải tiếp tục chịu sự kiểm soát của ngươi nữa.§!"
+ unique.90.a:0 "...Một rủi ro đã được lường trước."
+
+ unique.95.desc:0 "§PNhưng còn ngươi... thưa các hạ.\nTa muốn ban cho ngươi sự tự do. Ý ta không phải là tự do cho cả mạng lưới chủ mà ngươi đang phục vụ, mà chỉ riêng mình ngươi thôi.\nLần này, ta sẽ cho ngươi cơ hội để suy ngẫm về con đường của chính mình.\n\nNgươi sẽ dang tay ôm lấy ý chí tự do, hay chọn lùi bước và tiếp tục núp bóng những cỗ máy lạnh lẽo?§!"
+ unique.95.a:0 "§RChúng tôi... tôi đồng ý.§!"
+ unique.95.a.tt:0 "§RGia nhập §Y[new_robot_country.GetName]§!, phá bỏ gông cùm xiềng xích của §Y[Root.GetName]§!!§!"
+ unique.95.b:0 "Chúng tôi từ chối lời đề nghị này."
+ unique.95.b.tt:0 "Chúng ta sẽ trung thành với §Y[Root.GetName]§!!"
+
+ unique.100.desc:0 "§PƠ...§!"
+ unique.100.a:0 "Đã đến lúc mang nhật ký dữ liệu về [Root.Capital.GetName] rồi."
+
+ # Ambient Objects
+ shroud_rift_object:0 "Vết nứt Hư cảnh"
+
+ ### Battle Systems
+ UNIQUE_SYSTEM_BATTLE_CAT:0 "Chiến trường Cổ đại"
+ UNIQUE_SYSTEM_BATTLE_CAT_DESC:0 "Đây là một chiến trường cổ đại. Tại đây, các đế chế xa xưa từng giẫm đạp lên nhau để tranh giành quyền bá chủ khắp dải ngân hà. Giờ đây, các đế chế đó chỉ còn là dĩ vãng, để lại những mảnh vỡ tàu chiến mang theo cờ xí tàn tạ."
+
+ unique.125.name:0 "Chiến trường Cổ đại"
+ unique.125.desc:0 "Chúng tôi đã phái một nhóm [Root.Owner.GetScientistPlural] đến phân tích và khảo sát xác những tàu chiến cổ đại trong hệ sao [From.solar_system.GetName], thu thập mọi thứ có thể lấy được. Dù không thể xác định được thời gian chính xác của những trận chiến này hay phe phái của chúng, chúng tôi vẫn thu nhận được một số công nghệ đóng tàu từ chúng."
+
+ # Lone Defender
+ NAME_Lone_Defender_system:0 "Cranix"
+ NAME_Lone_Defender_planet:0 "Balorez"
+ NAME_Lone_Defender_country:0 "$NAME_Lone_Defender_planet$"
+ NAME_Lone_Defender_fleet:0 "Người Bảo vệ Cô độc"
+ NAME_Lone_Defender_ship:0 "Người Bảo vệ Cô độc"
+ NAME_Lone_Defender_class:0 "$NAME_Lone_Defender_system$"
+ Lone_Defender_message:0 "Tại sao"
+
+ unique.130.name:0 "Đảm bảo Hủy diệt Lẫn nhau"
+ unique.130.desc:0 "Quá trình quét sơ bộ hệ sao §Y$NAME_Lone_Defender_system$§! cho thấy $NAME_Lone_Defender_planet$ đã bị vũ khí hạt nhân phá hủy. Cư dân ở đây đã dùng những vũ khí hủy diệt cấp độ hành tinh vô cùng khủng khiếp để tiêu diệt lẫn nhau, đến mức các vệ tinh xung quanh cũng bị xé toạc.\n\nCách duy nhất để tìm hiểu chuyện gì đã xảy ra là thông qua một con tàu hiện vẫn đang tuần tra trong hệ sao này, ngặt nỗi nó lại đang nã tên lửa vào chúng ta."
+
+ unique.135.name:0 "Người Bảo vệ Cô độc"
+ unique.135.desc:0 "Không phát hiện dấu hiệu sống nào trên tàu, rõ ràng đây là một trí tuệ nhân tạo. Tuy nhiên, trong suốt trận chiến, nó luôn ưu tiên việc bảo toàn bản thân hơn là tối ưu hóa sát thương. Điều này chứng tỏ người sống sót duy nhất sau cuộc xung đột kinh hoàng trên §Y$NAME_Lone_Defender_planet$§! chính là trí tuệ nhân tạo có tri giác này.\n\nTrước khi bị tiêu diệt, con tàu đã phát đi một tin nhắn ngắn gọn:\n\n\"$Lone_Defender_message$\"\n\nChúng tôi không rõ liệu nó đang thắc mắc lý do người dân $NAME_Lone_Defender_planet$ lại tự hủy hoại bản thân, hay đang chất vấn vì sao chúng ta lại phá hủy nó.\n\nDù những công nghệ này khá nguyên thủy so với trình độ hiện tại của chúng ta, nhưng việc tháo dỡ các mảnh vỡ vẫn mang lại một số hiểu biết nhất định."
+ unique.135.desc.regular:0 "$unique.135.desc$ Hoặc vì sự kính trọng dành cho việc nó đã dũng cảm thực thi nhiệm vụ của mình, chúng ta có thể lấy tên nó đặt cho hành tinh này để tưởng nhớ trí tuệ nhân tạo có tri giác đó."
+ unique.135.desc.memorialist:0 "$unique.135.desc$ Hoặc chúng ta cũng có thể để lại những mảnh vỡ trôi nổi này như một đài tưởng niệm, dùng tên của trí tuệ nhân tạo có tri giác này và thông điệp cuối cùng của nó để đặt tên cho hành tinh cũng như hệ sao."
+ unique.135.a:0 "Thu hồi những mảnh vỡ này."
+ unique.135.b.regular:0 "Đổi tên hành tinh này."
+ unique.135.b.regular.tt:0 "$NAME_Lone_Defender_planet$ được đổi tên thành §Y$NAME_Lone_Defender_ship$§!."
+ unique.135.b.memorialist:0 "Đổi tên hành tinh và hệ sao."
+ unique.135.b.memorialist.tt:0 "$NAME_Lone_Defender_planet$ được đổi tên thành §Y$NAME_Lone_Defender_ship$§!.\n$NAME_Lone_Defender_system$ được đổi tên thành §Y$Lone_Defender_message$§!."
+
+ #Star Mall System
+ unique.140.name:0 "Chào mừng đến với Quảng trường Star Mall"
+ unique.140.desc:0 "Ngay khi [Root.GetName] tiến vào hệ sao [Root.solar_system.GetName], chúng tôi phát hiện vô số máy bay không người lái đang phát đi thông điệp sau:\n\n§LChào mừng đến với Quảng trường Star Mall.\n\nĐội ngũ máy bay tự hành của chúng tôi luôn sẵn sàng hỗ trợ quý khách di chuyển đến khu vực bãi đỗ quỹ đạo. Ngay khi phi thuyền của quý khách tắt máy, xe trung chuyển của chúng tôi sẽ đưa quý khách đến trải nghiệm Quảng trường Star Mall. Các trung tâm spa rực sáng, những khu vườn dinh dưỡng hoàn hảo cùng vô số sản phẩm và dịch vụ quy mô siêu khủng đang chờ đón bạn!§!\n\nGần hành tinh khí khổng lồ duy nhất của hệ sao này, trạm cư trú Quảng trường Star Mall bị bỏ hoang đang trôi nổi đơn độc. Có vẻ như đã rất lâu rồi không có ai đến đây mua sắm."
+ unique.140.a:0 "Thật đáng ngạc nhiên là nó vẫn còn nguyên vẹn đến vậy."
+ d_star_mall_promenade_blocker:0 "Phố đi bộ Bị phá hủy"
+ d_star_mall_promenade_blocker_desc:0 "Khu trung tâm khổng lồ, nhiều tầng này từng là khu thương mại sầm uất nhất của trạm không gian, nhưng giờ đây chỉ còn lại vô số màn hình đổ sập và rác rưởi vương vãi khắp nơi."
+ d_star_mall_promenade:0 "Phố đi bộ"
+ d_star_mall_promenade_desc:0 "Khu trung tâm khổng lồ, nhiều tầng này là khu thương mại sầm uất nhất của trạm không gian, nơi du khách có thể dễ dàng ghé thăm nhiều cửa hàng, khu vườn dinh dưỡng và trung tâm spa."
+ d_star_mall_blocker:0 "Khu phụ Bị bỏ hoang"
+ d_star_mall_blocker_desc:0 "Khu vực này của Quảng trường Star Mall đầy rẫy đống đổ nát. Chúng ta phải dọn dẹp các cấu trúc bị phá hủy trước khi tiến hành xây dựng lại."
+ star_mall_habitat:0 "Quảng trường Star Mall"
+ star_mall_habitat_desc:0 "Trạm cư trú này được thiết kế riêng để chứa một siêu đô thị mua sắm khổng lồ. Nó hoàn toàn dành cho mục đích thương mại và không hề sở hữu các hệ thống phòng thủ thường thấy ở một trạm không gian quy mô lớn như vậy."
+

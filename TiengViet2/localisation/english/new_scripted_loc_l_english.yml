@@ -1,0 +1,22 @@
+﻿l_english:
+
+ #No need to translate any of these. Made to handle neutral personal pronoun being plural in English.
+
+ ENGLOC_is:0 "là"
+ ENGLOC_are:0 "là"
+ ENGLOC_Is:0 "Là"
+ ENGLOC_Are:0 "Là"
+ ENGLOC_has:0 "đã"
+ ENGLOC_have:0 "đã"
+ ENGLOC_does:0 ""
+ ENGLOC_do:0 ""
+ ENGLOC_was:0 "đã"
+ ENGLOC_were:0 "đã"
+ ENGLOC_f:0 ""
+ ENGLOC_ves:0 ""
+ ENGLOC_es:0 ""
+ ENGLOC_s:0 ""
+ ENGLOC_ve:0 ""
+ ENGLOC_re:0 ""
+ ENGLOC_xx:0 ""
+

@@ -1,0 +1,30 @@
+﻿l_english:
+# Defense Platform Protocols policy
+ policy_defense_platform_protocols: "Giao thức Nền tảng Phòng thủ"
+ policy_defense_platform_protocols_desc: "Mệnh lệnh thường trực chi phối cách thức các nền tảng phòng thủ của chúng ta được bọc giáp, cấp năng lượng và phục hồi."
+
+ defense_platform_standard: "Học thuyết Tiêu chuẩn"
+ defense_platform_standard_name: "$defense_platform_standard$"
+ defense_platform_standard_desc: "Các nền tảng phòng thủ vận hành theo các thông số kỹ thuật cơ bản.\n\n§EKhông có hiệu ứng hay chi phí duy trì bổ sung.§!"
+
+ defense_platform_synchronized_shielding: "Lá chắn Đồng bộ"
+ defense_platform_synchronized_shielding_name: "$defense_platform_synchronized_shielding$"
+ defense_platform_synchronized_shielding_desc: "Dao động hài hòa phân tán của lá chắn bảo vệ các nền tảng phòng thủ của chúng ta trước hỏa lực dữ dội nhất.\n\n§ENền tảng phòng thủ chịu giảm sát thương từ Pháo Tinh Tú.§!"
+ defense_platform_synchronized_shielding_effect: "Giảm sát thương từ Pháo Tinh Tú: §G+60%§!"
+
+ defense_platform_reinforced_plating: "Giáp Tấm Gia cường"
+ defense_platform_reinforced_plating_name: "$defense_platform_reinforced_plating$"
+ defense_platform_reinforced_plating_desc: "Các lớp giáp tiêu tán nhiều tầng tăng cường khả năng chống đỡ hỏa lực của các trạm không gian cùng các nền tảng phòng thủ đi kèm.\n\n§ETrạm không gian và các nền tảng phòng thủ chịu giảm sát thương từ mọi loại vũ khí.§!"
+ defense_platform_reinforced_plating_effect: "Giảm sát thương Trạm Không gian và Nền tảng Phòng thủ: §G+15%§!"
+
+ defense_platform_resilient_frames: "Khung Vỏ Kiên cố"
+ defense_platform_resilient_frames_name: "$defense_platform_resilient_frames$"
+ defense_platform_resilient_frames_desc: "Các lõi năng lượng dự phòng và kết cấu khung mô-đun cho phép các nền tảng bị hư hại nặng tự ngắt nguồn và tái khởi động thay vì bị vỡ vụn.\n\n§ECác nền tảng phòng thủ chỉ bị vô hiệu hóa thay vì bị phá hủy, và sẽ tái kích hoạt sau khi trận chiến kết thúc.§!"
+
+ defense_platform_provocation_arrays: "Mảng Cảm biến Khiêu khích"
+ defense_platform_provocation_arrays_name: "$defense_platform_provocation_arrays$"
+ defense_platform_provocation_arrays_desc: "Khóa cảm biến chủ động và tư thế sẵn sàng khai hỏa sẽ nhử hỏa lực đối phương nhắm vào các nền tảng của chúng ta, chuyển hướng khỏi hạm đội.\n\n§ETàu địch có nhiều khả năng nhắm mục tiêu vào các nền tảng phòng thủ của chúng ta trong giao tranh.§!"
+
+# Fleet modifier from the Reinforced Plating doctrine
+ defense_platform_reinforced_field: "Giáp Tấm Gia cường"
+

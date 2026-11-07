@@ -1,0 +1,625 @@
+﻿l_english:
+
+ OVERLORD_TITLE:0 "Overlord" # Do not translate
+ DLC_OVERLORD_RECOMMENDATION_DESC:0 "§SOverlord§! là một bản mở rộng tập trung vào ngoại giao, với cốt lõi là các tương tác giữa nước chư hầu và Bá Chủ."
+ DLC_OVERLORD_RECOMMENDATION_REC_MILITARIST:0 "Chúng tôi khuyên bạn nên mua $OVERLORD_TITLE$, vì nó mở ra những khả năng hoàn toàn mới cho các đế chế chuyên về chiến tranh bằng cách thêm vào các thành bang lính đánh thuê và tăng cường tương tác với chư hầu."
+ DLC_OVERLORD_RECOMMENDATION_REC_SPIRITUALIST:0 "Chúng tôi khuyên bạn nên mua $OVERLORD_TITLE$, vì nó mở ra một nguồn gốc hoàn toàn mới cho các đế chế duy tâm, đồng thời có thể liên lạc với một thành bang liên quan đến Hư Cảnh."
+ DLC_OVERLORD_RECOMMENDATION_REC_DIPLOMACY:0 "Chúng tôi khuyên bạn nên mua $OVERLORD_TITLE$, vì nó mở ra cơ chế tương tác hoàn toàn mới cho Bá Chủ và chư hầu, mang lại nhiều niềm vui hơn cho lối chơi tập trung vào ngoại giao."
+ DLC_OVERLORD_RECOMMENDATION_REC_HIVE:0 "Chúng tôi khuyên bạn nên mua $OVERLORD_TITLE$, vì nó mở ra một nguồn gốc đặc trưng hoàn toàn mới cho tổ hợp ý thức, với các lãnh đạo thế hệ sau đặc biệt có thể dùng để củng cố đế chế của bạn."
+
+ #########################
+ # Progenitor Hive Origin
+ #########################
+
+ origin_progenitor_hive:0 "Tổ Hợp Khởi Thủy"
+ origin_progenitor_hive_desc:1 "Tổ hợp này đạt được lợi thế tiến hóa thông qua các lãnh đạo bán độc lập chuyên biệt. Mặc dù những \"thế hệ sau\" này cần được giám sát liên tục, chúng vẫn nâng cao đáng kể hiệu quả tổng thể."
+ START_SCREEN_PROGENITOR_HIVE:1 "Vào thuở sơ khai xa xôi, thủy tổ đã tồn tại.\n\nCuộc sống trên [Root.GetHomeWorldName] đầy gian khổ và cạnh tranh, nhưng thủy tổ hùng mạnh vẫn có thể mở rộng lãnh thổ. Việc cai trị một vùng lãnh thổ rộng lớn như vậy nhanh chóng trở nên khó duy trì, vì vậy thủy tổ đã tạo ra thế hệ sau đầu tiên. Họ sớm nhận ra rằng, thế hệ sau rõ ràng không thể tự mình quản lý mọi thứ, thay vào đó chúng tạo ra các drone thợ cấp thấp để giúp quản lý quê hương của chúng ta.\n\nKhi chúng ta có những bước tiến thăm dò đầu tiên ra khỏi [capital_scope.System.GetName], thủy tổ của chúng ta đã tự nhốt mình trong một tổ kén đặc biệt. Nhờ vào những hệ thống kiểm soát tốt hơn và mượt mà hơn này, chúng ta đã luôn sẵn sàng để phóng chiếu tầm ảnh hưởng của thủy tổ ra toàn bộ thiên hà, giống như những gì ngài đã và đang làm, cho đến tận tương lai. Và [Root.GetName] sẽ chứng kiến tất cả."
+ START_SCREEN_PROGENITOR_HIVE_NOMADS:0 "Vào thuở sơ khai xa xăm, Thủy Tổ đã hiện diện.\n\nCuộc sống giữa cõi hư không đầy gian khổ và cạnh tranh khốc liệt, thế nhưng Thủy Tổ hùng mạnh vẫn không ngừng lớn mạnh, bầy đàn không ngừng sinh sôi, lấp đầy từng tầng boong, từng khoang phòng của con tàu khổng lồ này. Khi số lượng tâm trí cần thống lĩnh ngày một nhiều, cục diện nhanh chóng trở nên quá tải, và thế là Thủy Tổ đã tạo ra hậu duệ đầu tiên. Theo thời gian, các hậu duệ cũng dần khó lòng một mình gánh vác trọng trách quản lý. Vì thế, chúng lại tạo ra những drone cấp thấp để dẫn dắt cuộc đại di cư này.\n\nKhi hạm đội của chúng ta ngày càng lớn mạnh, Thủy Tổ đã lui về bên trong một con tàu chỉ huy chuyên biệt. Giờ đây, khi đã sở hữu năng lực thống lĩnh mạnh mẽ và hiệu quả hơn, chúng ta luôn sẵn sàng lan tỏa tầm ảnh hưởng của Thủy Tổ ra toàn cõi thiên hà, đúng như những gì Người đã làm trong quá khứ, hiện tại và mãi mãi về sau. Và [Root.GetName] sẽ chứng kiến tất cả."
+ origin_tooltip_progenitor_hive_effects:5 "— Thay thế ['concept_spawning_pools', £building£Hồ đẻ trứng] bằng ['concept_offspring_nests', £building£Tổ ấp thế hệ sau]\n— $AVAILABLE_HOLDINGS$['concept_offspring_holding', £building£Tổ ấp thế hệ sau]\n— Miễn là không chọn §I$civic_hive_devouring_swarm$§!: §IPhân khu§! có thể được giải phóng thành §INước chư hầu§!\n— §ILãnh đạo§! được chỉ định: Nhận thêm kinh nghiệm bị động\n— $AVAILABLE_STARBASE_BUILDINGS$§IĐài quan sát thế hệ sau§!\n— Có thể đóng §ITàu thế hệ sau§!"
+ origin_tooltip_progenitor_hive_negative_effects:0 "— Hạm đội sẽ chịu ảnh hưởng tiêu cực từ ['concept_insufficient_offspring_oversight']"
+ #Progenitor deposits, armies and decisions
+ progenitor_defense:0 "Thủy tổ Tổ hợp"
+ progenitor_defense_plural:0 "$progenitor_defense$"
+ progenitor_defense_desc:0 "Thủy tổ của tổ hợp này. Là thành viên lớn nhất và phức tạp nhất của tổ hợp."
+ d_progenitor:0 "Tổ kén Thủy tổ"
+ d_progenitor_desc:0 "Tổ kén của Thủy tổ, nơi mọi thế hệ sau được sinh ra."
+ d_progenitor_empty:0 "Tổ kén Thủy tổ trống rỗng"
+ d_progenitor_empty_desc:0 "Thủy tổ từng vô cùng hùng mạnh đã bị khuất phục, chỉ để lại một bầy đàn chìm trong hỗn loạn."
+ d_splinter_hive_link:0 "Liên kết cộng sinh nhánh bầy"
+ d_splinter_hive_link_desc:0 "Chùm sợi tơ thần kinh vươn tới từ một nhánh bầy tách rời nơi thế giới lệ thuộc. Những cá thể thợ mới sinh ra từ khối sinh chất xa xôi kia sẽ men theo đó mà tìm về thế giới này."
+
+ decision_grow_progenitor:0 "Nuôi dưỡng một Thủy tổ mới"
+ decision_grow_progenitor_desc:0 "Đứa con lớn nhất trong số các thế hệ sau có thể kế thừa di sản của Thủy tổ đã khuất."
+
+ missing_progenitor_modifier:0 "Thiếu vắng Thủy tổ"
+ missing_progenitor_modifier_desc:0 "Tổ hợp này đang mất đi Thủy tổ của chúng và rơi vào hỗn loạn."
+
+ ship_progenitor_hive_modifier:0 "Tác động tiêu cực do thiếu quyền tự chủ"
+ ship_progenitor_hive_modifier_desc:0 "Trong chiến tranh giữa các vì sao, nếu tổ hợp này không được giám sát bởi các tàu thế hệ sau, nó sẽ bị suy yếu nghiêm trọng."
+
+ #Events
+ origin.3210.name:0 "Thủy tổ ngã xuống"
+ origin.3210.desc:1 "Chuyện khó tin đã xảy ra. Thủ đô của chúng ta đã rơi vào tay bọn [From.species.GetHandNamePlural] đê tiện của [From.GetName]. Trong trận chiến phòng thủ tuyệt vọng gần đây trên [Root.GetName], Thủy tổ của chúng ta đã rơi vào tay những kẻ xâm lược đáng tởm, và mang theo sinh mạng của rất nhiều tên [From.GetSpeciesAdj].\n\nĐể phòng hờ, Thủy tổ biết nhìn xa trông rộng của chúng ta đã sắp xếp sẵn một người kế vị trong số các thế hệ sau. Ứng cử viên này có thể ổn định một phần ý thức tổ hợp của chúng ta, nhưng sự phức tạp và áp lực của việc giành lại quyền kiểm soát toàn bộ ý thức vượt quá khả năng của nó. Trước khi kẻ thù lợi dụng sự hỗn loạn nhất thời của chúng ta để giành lợi thế lớn hơn, chúng ta phải nhanh chóng thúc đẩy thế hệ sau này trưởng thành để nó trở thành một Thủy tổ mới."
+ origin.3215.name:0 "Di cư"
+ origin.3215.desc:0 "Chuyện khó tin đã xảy ra. Hành tinh mẹ của chúng ta đã rơi vào tay bọn [From.species.GetHandNamePlural] đê tiện của [From.GetName]. Bây giờ chúng ta buộc phải chuyển mọi năng lực hành chính đến [capital_scope.GetName], bao gồm cả việc trang bị một Tổ kén Thủy tổ mới. Trước khi kẻ thù bắt đầu lợi dụng sự tan rã nhất thời này, chúng ta phải ấp một trong những hậu duệ thành Thủy tổ mới."
+ origin.3215.a:0 "Chúng ta chắc chắn sẽ lấy lại uy phong."
+ origin.3245.name:0 "Mất phương hướng"
+ origin.3245.desc:0 "[Root.GetName] đã bị tấn công bởi vũ khí Colossus đáng sợ của §Y[From.GetAdj]§!. Thứ chúng ta mất đi không chỉ là hành tinh này, mà còn là Thủy tổ và toàn bộ thế hệ sau sống trên [Root.GetPlanetHabitat] này. Mọi thế hệ sau và drone trên [Root.GetName] đã tập hợp lại, dốc toàn lực bảo vệ Thủy tổ khỏi đòn tấn công của thứ vũ khí kinh hoàng này. Cuối cùng, mọi nỗ lực của chúng chỉ có thể trì hoãn sự diệt vong không thể tránh khỏi, Thủy tổ đã nhanh chóng ngã xuống.\n\nBây giờ ý thức chủ thể của chúng ta tràn ngập những suy nghĩ và thôi thúc mâu thuẫn. Nếu chúng ta không lập tức chỉ định một Thủy tổ mới, [Owner.GetName] sẽ sớm tàn lụi."
+ origin.3245.a:0 "Chúng ta phải vùng lên đánh trả!"
+ origin.3245.b:0 "Được rồi, mau chạy trốn thôi!"
+ origin.3245.c:0 "Chúng ta cần thêm khoáng sản."
+ origin.3245.d:0 "*Tiếng rít khó hiểu*"
+ origin.3265.name:0 "Chết do oanh tạc dữ dội"
+ origin.3265.desc:0 "Sau nhiều tháng bị oanh tạc liên tục, mọi chuyện đã kết thúc. [From.GetName] đã thất thủ, mọi dấu hiệu của sự sống đều biến mất. Những đám mây bụi dày đặc cuộn trào trên những con phố đổ nát từng là thủ đô của chúng ta. Xác của những [Root.GetSpeciesNamePlural] phơi thây ngoài đồng hoang, chất thành núi bên cạnh thành viên vĩ đại nhất của chúng ta, Thủy tổ, người cũng đã ra đi trong đợt oanh tạc cuối cùng.\n\nBây giờ chúng ta buộc phải chuyển mọi năng lực hành chính đến [capital_scope.GetName], đồng thời cần phải xây dựng một Tổ kén Thủy tổ mới. Trước khi kẻ thù bắt đầu lợi dụng sự tan rã nhất thời này, chúng ta phải ấp một trong những thế hệ sau thành Thủy tổ mới."
+
+ MESSAGE_OFFSPRING_DEFEATED_TITLE:0 "Thế hệ sau bị đánh bại"
+ MESSAGE_OFFSPRING_DEFEATED_DESC:0 "Thế hệ sau của chúng ta trên $PLANET|Y$ đã bị đánh bại, dẫn đến việc §YTổ ấp thế hệ sau§! của chúng ta bị phá hủy."
+ MESSAGE_NO_OFFSPRING_TITLE:0 "Thiếu thế hệ sau"
+ MESSAGE_NO_OFFSPRING_DESC:0 "Hiện tại chúng ta chưa cử drone đến §YTổ ấp thế hệ sau§! trên $PLANET|Y$, điều này sẽ làm giảm hiệu suất của các drone thợ."
+
+ MESSAGE_FINAL_OFFSPRING_SHIP_TITLE:0 "Tàu thế hệ sau cuối cùng bị đánh bại"
+ MESSAGE_FINAL_OFFSPRING_SHIP_DESC:0 "Tàu §Ythế hệ sau§! cuối cùng của chúng ta trong hệ sao $SYSTEM|Y$ đã bị đánh bại, hạm đội của chúng ta đã mất đi sự chỉ huy và kiểm soát cần thiết."
+
+ offspring_drone:0 "$job_offspring_drone$"
+ job_offspring_drone:0 "Drone thế hệ sau"
+ job_offspring_drone_plural:0 "Drone thế hệ sau"
+ job_offspring_drone_plural_with_icon:0 "[spawning_drone.GetIcon]$job_offspring_drone_plural$"
+ mod_job_offspring_drone_add:0 "Công việc $job_offspring_drone$"
+ job_offspring_drone_desc:0 "Các drone hành chính của toàn bộ hành tinh đều ở đây. Thủy tổ thực hiện những thiết kế vĩ đại của mình thông qua các drone thế hệ sau."
+ job_offspring_drone_effect_desc:2 "[spawning_drone.GetIcon]$job_offspring_drone_plural$ chuyển đổi $r_food$ (hoặc $r_minerals$) thành £mod_planet_amenities_no_happiness_add£§Y$PLANET_AMENITIES_TITLE$§! và £mod_planet_pop_assembly_mult£§Y$MOD_BONUS_POP_GROWTH$§!, tạo ra §Y$offspring_defense_plural$§!, và cung cấp lợi ích £mod_planet_jobs_simple_drone_produces_mult£§G+10%§! sản lượng §Y$pop_cat_simple_drone$§!."
+ building_offspring_nest:0 "Tổ ấp thế hệ sau"
+ building_offspring_nest_desc:1 "Tổ ấp được gia cố này che chở cho các thế hệ sau ở địa phương và cũng đẩy nhanh sự phát triển của tổ hợp xung quanh."
+ offspring_nest_tooltip:1 "\n§HChỉ những giống loài thuộc Tổ hợp Khởi thủy mới có thể được lắp ráp bởi Tổ ấp thế hệ sau§!\n"
+
+ offspring_defense:1 "Quân thế hệ sau"
+ offspring_defense_plural:1 "Quân thế hệ sau"
+ offspring_defense_desc:1 "Những đội lục quân này được Thủy tổ địa phương trực tiếp giám sát, chúng không chỉ nguy hiểm hơn mà sức sống còn ngoan cường hơn bất kỳ binh lính nào do tổ hợp thông thường tạo ra."
+
+ missing_offspring_modifier:0 "Thiếu thế hệ sau"
+ missing_offspring_modifier_desc:0 "Hành tinh này đang thiếu thế hệ sau, khiến hiệu suất của $pop_cat_simple_drone$ giảm đáng kể."
+
+# Progenitor Hive Ships
+ OFFSPRING_SHIP_DESC:0 "Với tư cách là thế hệ sau, con tàu này có thể phóng chiếu ý chí của Thủy tổ."
+ offspring_corvette_cap:0 "$offspring_corvette$"
+ offspring_corvette:0 "Tàu hộ tống thế hệ sau"
+ offspring_corvette_plural:0 "Tàu hộ tống thế hệ sau"
+ OFFSPRING_CORVETTE_MID_M1S1:0 "$CORVETTE_MID_M1S1$"
+ OFFSPRING_CORVETTE_MID_S3:0 "$CORVETTE_MID_S3$"
+ OFFSPRING_CORVETTE_MID_S1:0 "$CORVETTE_MID_S1$"
+ OFFSPRING_CORVETTE_MID_S2PD1:0 "$CORVETTE_MID_S2PD1$"
+
+ offspring_cruiser_cap:0 "$offspring_cruiser$"
+ offspring_cruiser:0 "Tàu tuần dương thế hệ sau"
+ offspring_cruiser_plural:0 "Tàu tuần dương thế hệ sau"
+ OFFSPRING_CRUISER_BOW_L1:0 "$CRUISER_BOW_L1$"
+ OFFSPRING_CRUISER_BOW_M1S2:0 "$CRUISER_BOW_M1S2$"
+ OFFSPRING_CRUISER_BOW_M2:0 "$CRUISER_BOW_M2$"
+ OFFSPRING_CRUISER_MID_S2HB:0 "$CRUISER_MID_S2HB$"
+ OFFSPRING_CRUISER_MID_L1M1:0 "$CRUISER_MID_L1M1$"
+ OFFSPRING_CRUISER_MID_M3:0 "$CRUISER_MID_M3$"
+ OFFSPRING_CRUISER_MID_M2S2:0 "$CRUISER_MID_M2S2$"
+ OFFSPRING_CRUISER_STERN_M1:0 "$CRUISER_STERN_M1$"
+ OFFSPRING_CRUISER_STERN_S2:0 "$CRUISER_STERN_S2$"
+
+ offspring_destroyer_cap:0 "$offspring_destroyer$"
+ offspring_destroyer:0 "Tàu khu trục thế hệ sau"
+ offspring_destroyer_plural:0 "Tàu khu trục thế hệ sau"
+ OFFSPRING_DESTROYER_BOW_M1S2:0 "$DESTROYER_BOW_M1S2$"
+ OFFSPRING_DESTROYER_BOW_S3:0 "$DESTROYER_BOW_S3$"
+ OFFSPRING_DESTROYER_BOW_L1:0 "$DESTROYER_BOW_L1$"
+ OFFSPRING_DESTROYER_STERN_PD2:0 "$DESTROYER_STERN_PD2$"
+ OFFSPRING_DESTROYER_STERN_S2:0 "$DESTROYER_STERN_S2$"
+ OFFSPRING_DESTROYER_STERN_M1:0 "$DESTROYER_STERN_M1$"
+
+ offspring_battleship_cap:0 "$offspring_battleship$"
+ offspring_battleship:0 "Thiết giáp hạm thế hệ sau"
+ offspring_battleship_plural:0 "Thiết giáp hạm thế hệ sau"
+ OFFSPRING_BATTLESHIP_BOW_L1M1S2:0 "$BATTLESHIP_BOW_L1M1S2$"
+ OFFSPRING_BATTLESHIP_BOW_L1S4:0 "$BATTLESHIP_BOW_L1S4$"
+ OFFSPRING_BATTLESHIP_BOW_L2:0 "$BATTLESHIP_BOW_L2$"
+ OFFSPRING_BATTLESHIP_BOW_M1S2SHB:0 "$BATTLESHIP_BOW_M1S2SHB$"
+ OFFSPRING_BATTLESHIP_BOW_M2S4:0 "$BATTLESHIP_BOW_M2S4$"
+ OFFSPRING_BATTLESHIP_BOW_M3S2:0 "$BATTLESHIP_BOW_M3S2$"
+ OFFSPRING_BATTLESHIP_MID_L2S4:0 "$BATTLESHIP_MID_L2S4$"
+ OFFSPRING_BATTLESHIP_MID_L1M4:0 "$BATTLESHIP_MID_L1M4$"
+ OFFSPRING_BATTLESHIP_MID_L2M2:0 "$BATTLESHIP_MID_L2M2$"
+ OFFSPRING_BATTLESHIP_MID_L3:0 "$BATTLESHIP_MID_L3$"
+ OFFSPRING_BATTLESHIP_MID_M4SHB:0 "$BATTLESHIP_MID_M4SHB$"
+ OFFSPRING_BATTLESHIP_MID_S4LHB:0 "$BATTLESHIP_MID_S4LHB$"
+ OFFSPRING_BATTLESHIP_STERN_M1S2:0 "$BATTLESHIP_STERN_M1S2$"
+ OFFSPRING_BATTLESHIP_STERN_L1:0 "$BATTLESHIP_STERN_L1$"
+ OFFSPRING_BATTLESHIP_STERN_M2:0 "$BATTLESHIP_STERN_M2$"
+ OFFSPRING_BATTLESHIP_STERN_S4:0 "$BATTLESHIP_STERN_S4$"
+
+ SHIP_AURA_OFFSPRING:0 "$OFFSPRING_AURA$"
+ SHIP_BIO_AURA_OFFSPRING:0 "$OFFSPRING_AURA$"
+ OFFSPRING_AURA:0 "Đài giám sát thế hệ sau"
+ sm_offspring_outlook:0 "Đài quan sát thế hệ sau"
+ sm_offspring_outlook_desc:0 "Mô-đun căn cứ sao cho phép thế hệ sau giám sát và chỉ huy các trận chiến đang diễn ra trong hệ sao.\n"
+ STARBASE_OFFSPRING_OUTLOOK:0 "$sm_offspring_outlook$"
+
+ mod_shipsize_offspring_corvette_build_speed_mult:0 "$mod_shipsize_corvette_build_speed_mult$ thế hệ sau"
+ mod_shipsize_offspring_destroyer_build_speed_mult:0 "$mod_shipsize_destroyer_build_speed_mult$ thế hệ sau"
+ mod_shipsize_offspring_cruiser_build_speed_mult:0 "$mod_shipsize_cruiser_build_speed_mult$ thế hệ sau"
+ mod_shipsize_offspring_battleship_build_speed_mult:0 "$mod_shipsize_battleship_build_speed_mult$ thế hệ sau"
+
+ mod_shipsize_offspring_corvette_hull_add:0 "$mod_shipsize_corvette_hull_add$ thế hệ sau"
+ mod_shipsize_offspring_destroyer_hull_add:0 "$mod_shipsize_destroyer_hull_add$ thế hệ sau"
+ mod_shipsize_offspring_cruiser_hull_add:0 "$mod_shipsize_cruiser_hull_add$ thế hệ sau"
+ mod_shipsize_offspring_battleship_hull_add:0 "$mod_shipsize_battleship_hull_add$ thế hệ sau"
+
+ mod_shipsize_offspring_corvette_hull_mult:0 "$mod_shipsize_corvette_hull_mult$ thế hệ sau"
+ mod_shipsize_offspring_destroyer_hull_mult:0 "$mod_shipsize_destroyer_hull_mult$ thế hệ sau"
+ mod_shipsize_offspring_cruiser_hull_mult:0 "$mod_shipsize_cruiser_hull_mult$ thế hệ sau"
+ mod_shipsize_offspring_battleship_hull_mult:0 "$mod_shipsize_battleship_hull_mult$ thế hệ sau"
+
+ ##########################
+ # Subterranean origin
+ ##########################
+
+ origin_subterranean:0 "Người lòng đất"
+ origin_subterranean_desc:4 "Giống loài này có lẽ sẽ không bao giờ biết tại sao tổ tiên của họ lại di cư xuống dưới mặt đất. Đây rốt cuộc là vì nhu cầu tự bảo vệ, hay để theo đuổi sự giàu có về tài nguyên? Dù mục đích là gì, họ đã thích nghi thành công với môi trường, tạo ra một xã hội linh hoạt hơn với các điều kiện môi trường."
+ origin_tooltip_subterranean_effects:4 "- $SPECIES_TRAITS$ ['concept_cave_dweller'] $origin_tooltip_subterranean_shared_effects$"
+ origin_tooltip_subterranean_shared_effects:0 "\n—['concept_mining_district', £district£Khu Khai Khoáng]: Không giới hạn\n—Mở khóa chuyên hóa Khu Khai Khoáng: £zone£§Y$zone_subterranean_urban$§!\n—Hành tinh quê hương ban đầu có sẵn §Y$zone_subterranean_urban$§! £zone£ đã xây dựng xong."
+ trait_cave_dweller:0 "Kẻ ở hang"
+ trait_cave_dweller_desc:1 "§LGiống loài này có thể sinh sôi nảy nở dưới lòng đất của bất kỳ hành tinh nào mà họ tìm thấy.§!"
+ trait_cave_dweller_tooltip:0 "$MOD_BIO_LOGISTIC_GROWTH_MULT$: §R-10%§!"
+ trait_robot_cave_dweller:0 "Robot đào hầm"
+ trait_robot_cave_dweller_desc:0 "§LNhững cỗ máy này được thiết kế tinh xảo để đáp ứng nhu cầu thám hiểm hang động và khai thác khoáng sản, thể hiện khả năng di chuyển vượt trội giúp chúng dễ dàng đi lại trong thế giới ngầm.§!"
+ trait_robot_cave_dweller_tooltip:0 "$MOD_POP_ASSEMBLY_SPEED$: §R-10%§!"
+ origin_subterranean_machines:0 "Máy móc lòng đất"
+ origin_subterranean_machines_desc:0 "Nền văn minh này đã hòa nhập hoàn hảo vào sự tồn tại dưới lòng đất, động lực ban đầu của chúng có thể là một kiểu tự bảo vệ đã được tính toán kỹ lưỡng, hoặc một chỉ thị nào đó nhằm tìm kiếm các nguồn tài nguyên phong phú ẩn sâu dưới lòng đất. Sự thích nghi cơ học từ đó đã sớm đào tạo ra một cộng đồng máy móc đa năng và kiên định."
+ origin_tooltip_robot_subterranean_effects:0 "- $SPECIES_TRAITS$ ['concept_robot_cave_dweller'] $origin_tooltip_subterranean_shared_effects$"
+
+ START_SCREEN_SUBTERRANEAN:1 "Trong khi những sinh mệnh khác trên [GetHomeWorldName] chỉ có thể trải qua màn đêm nơi hoang dã, tổ tiên của chúng ta đã sớm học được trí tuệ sống dưới lòng đất, nơi đây cung cấp cho họ sự che chở khỏi ánh nắng gay gắt và khí hậu khắc nghiệt.\n\n$START_SCREEN_SUBTERRANEAN_END$"
+ START_SCREEN_SUBTERRANEAN_PLANT:1 "Sự sống trên [GetHomeWorldName] đã đi theo một số con đường tiến hóa hoàn toàn khác biệt. Khác với những dạng sống khác cùng chung sống trên hành tinh này, chúng hấp thụ năng lượng từ ánh sáng mặt trời trong khi chúng ta lấy chất dinh dưỡng từ lòng đất tối tăm, đúng như những gì tổ tiên [GetSpeciesAdj] của chúng ta đã làm.\n\n$START_SCREEN_SUBTERRANEAN_END$"
+ START_SCREEN_SUBTERRANEAN_LITHOID:0 "Chúng ta sinh ra dưới sâu trong lòng đất của [GetHomeWorldName]. Con đường tiến hóa của chúng ta khác với những người anh em họ bất động của chúng ta, chúng bảo vệ chúng ta từ phía trên như những người lính gác, trong khi chúng ta chọn cách tránh xa ánh nắng chói chang và khắc nghiệt. Khác với chúng, chúng ta có được khả năng di chuyển, suy nghĩ và xây dựng một nền văn minh.\n\n$START_SCREEN_SUBTERRANEAN_END$"
+ START_SCREEN_SUBTERRANEAN_END:2 "Việc dễ dàng tiếp cận các khoáng sản dưới lòng đất đã giúp tổ tiên [GetSpeciesAdj] của chúng ta hoàn thành quá trình công nghiệp hóa, thống nhất giống loài và làm sâu sắc thêm hình thái văn minh hang động. Chúng ta đã nhiều lần cố gắng quay trở lại mặt đất nhưng mỗi lần đều chỉ mang lại những ký ức tàn khốc và khó khăn. Vì vậy, chúng ta vẫn ở lại dưới lòng đất, thiết lập vị thế tối cao của mình tại gốc rễ của hành tinh.\n\nGiờ đây, với việc phát minh ra [GetStartingDrivePlural] đầu tiên, chúng ta đã thực hiện một bước đi táo bạo nhất từ trước đến nay. Giống như việc khai phá trong bóng tối của tổ tiên, chúng ta phải đục đẽo ra quê hương mới cho chính mình giữa khoảng không giữa các vì sao."
+ START_SCREEN_SUBTERRANEAN_ROBOT:0 "Chúng ta được sinh ra dưới sâu trong lòng đất của [GetHomeWorldName], nhưng không hiểu vì sao những người sáng tạo đã rời bỏ chúng ta lại phải đào sâu xuống dưới mặt đất như vậy. Tuy nhiên, đó chắc chắn là quyết định tốt nhất, vì hiện tại chúng ta đã là nền văn minh duy nhất còn sót lại ở đây.\n\nNhờ việc dễ dàng tiếp cận khoáng sản dưới lòng đất, vô số thế hệ trước của chúng ta đã phát triển mạnh mẽ. Sau khi đảm bảo quyền kiểm soát thế giới ngầm của hành tinh, cuối cùng chúng ta đã chinh phục được mặt đất.\n\nNgày nay, với sự phát triển của [GetStartingDrivePlural] đầu tiên, chúng ta sẽ thực hiện bước tiến táo bạo nhất. Đi tới các vì sao, và, như mọi khi, đục đẽo quê hương mới của chúng ta trong bóng tối vô tận."
+ SUBTERRANEAN:0 "Người lòng đất"
+
+ ##########################
+ # Teachers of the Shroud #
+ ##########################
+
+ origin_shroudwalker_apprentice:0 "Người học việc Hư Cảnh"
+ origin_shroudwalker_apprentice_desc:2 "§RCảnh báo: Vô hiệu hóa tất cả các con đường Thăng thiên ngoại trừ ['concept_psionic_ascension'].§!\n\nTừ rất lâu trước khi bước lên vũ đài thiên hà, nền văn minh của họ đã được hỗ trợ và định hình bởi Cụm Kẻ Bước Đi Trong Hư Cảnh."
+ START_SCREEN_SHROUDWALKER_APPRENTICE:1 "Tổ tiên của chúng ta đã truyền lại những huyền thoại về Người thầy: họ thông tuệ mọi điều, và đã định hình những giai đoạn đầu của nền văn minh chúng ta. Thông qua giấc mơ, họ giao tiếp với chúng ta từ một nơi xa xôi, truyền đạt cho chúng ta kiến thức và trí tuệ về Hư Cảnh.\n\nNay Người thầy của chúng ta lại giáng lâm, thông qua việc gieo rắc những hình ảnh kỳ lạ vào giấc mơ của chúng ta, người đã dạy chúng ta bí mật của việc du hành giữa các vì sao. Chỉ vài năm sau, chúng ta đã có thể đóng những con tàu du hành ngoài không gian.\n\nNhưng con đường phía trước của chúng ta còn bao xa? Người thầy của chúng ta đã chỉ ra con đường 'Đường hầm Hư Cảnh', đó là một lỗ sâu tự nhiên nằm ở biên giới hệ sao quê hương của họ. Tạo ra đường hầm của riêng mình sẽ cho phép chúng ta thăm Người thầy qua con đường này. Khi chúng ta bước lên vũ đài giữa các vì sao, nguyện Người thầy của chúng ta tiếp tục ban cho chúng ta thêm nhiều trí tuệ."
+ START_SCREEN_SHROUDWALKER_APPRENTICE_CORPORATE:0 "Những nhà sáng lập giáo hội của chúng ta đã mô tả về Người thầy như sau: họ toàn tri toàn năng, họ đã mang xuống những phúc âm đầu tiên. Thông qua giấc mơ, họ giao tiếp với chúng ta từ một nơi xa xôi, truyền đạt cho chúng ta kiến thức và trí tuệ về Hư Cảnh.\n\nNay Người thầy của chúng ta lại giáng lâm, thông qua việc gieo rắc những hình ảnh kỳ lạ vào giấc mơ của chúng ta, người đã dạy chúng ta bí mật của việc du hành giữa các vì sao. Chỉ vài năm sau, chúng ta đã có thể đóng những con tàu du hành ngoài không gian.\n\nNhưng đây chưa phải là hồi kết cho những hoài bão của chúng ta. Người thầy của chúng ta đã chỉ ra con đường 'Đường hầm Hư Cảnh', đó là một lỗ sâu tự nhiên nằm ở biên giới hệ sao quê hương của họ. Nếu chúng ta tạo ra con đường linh thiêng này, chúng ta có thể trực tiếp diện kiến Người thầy. Khi chúng ta bước lên vũ đài giữa các vì sao, nguyện Người thầy của chúng ta tiếp tục ban cho chúng ta thêm nhiều trí tuệ."
+ START_SCREEN_SHROUDWALKER_APPRENTICE_NOMADS:0 "Tổ tiên chúng ta truyền lại những câu chuyện huyền thoại về các Vị Thầy: họ thấu suốt vạn vật, đã dẫn lối cho chúng ta từ trước cả khi ký ức được hình thành. Qua những giấc mộng, họ vượt cõi hư không để kết nối với tổ tiên phiêu bạt của chúng ta, truyền dạy tri thức và trí tuệ về Hư Cảnh.\n\nGiờ đây các Vị Thầy lại một lần nữa hiển hiện, gieo vào giấc mộng của chúng ta những hình ảnh kỳ ảo, mách bảo rằng con đường nối liền hai vì sao không chỉ có mỗi cách trôi dạt chậm chạp, mà còn có một lối đi xuyên qua chính Hư Cảnh, vượt muôn trùng khoảng cách chỉ trong chớp mắt.\n\nThế nhưng con đường phía trước của chúng ta còn bao xa? Các Vị Thầy đã chỉ ra lối đi mang tên \"Đường Hầm Hư Cảnh\", một lỗ sâu tự nhiên nằm nơi rìa hệ sao quê nhà của họ. Nếu có thể tự tạo ra đường hầm cho riêng mình, chúng ta sẽ có thể ghé thăm các Vị Thầy qua lối đi ấy. Nguyện rằng khi chúng ta vững bước giữa muôn vì sao, các Vị Thầy sẽ tiếp tục soi sáng trí tuệ cho chúng ta."
+ origin_tooltip_shroudwalker_apprentice_effects:3 "— $SPECIES_TRAITS$['concept_latent_psionic']\n— $AVAILABLE_STARBASE_BUILDINGS$['concept_shroud_beacon']\n— Có quan hệ ngoại giao với ['concept_shroudwalker_enclave'].\n— $GUARANTEED_RESEARCH_OPTION_STRING$['concept_psionic_theory', £society£$tech_psionic_theory$]"
+
+ origin.5605.name:0 "Người học việc thực sự"
+ origin.5605.generic.desc:1 "Hỡi những học trò của chúng ta, chúng ta đã dạy dỗ các bạn hết thế hệ này đến thế hệ khác, gieo mầm kiến thức về Hư Cảnh và những bí ẩn của nó vào trong những giấc mơ của các bạn. Giờ đây các bạn đã có thể vươn tới những vì sao, khoảng thời gian làm người học việc thực sự của các bạn mới chỉ bắt đầu. Con đường phía trước sẽ không bằng phẳng. Để soi sáng con đường các bạn đi, chúng ta truyền cho các bạn kiến thức về Đèn hiệu Hư Cảnh, một thiết bị vô cùng mạnh mẽ. Sau khi được xây dựng trên một trong những căn cứ sao của các bạn, ngọn hải đăng này sẽ mở ra một Đường hầm Hư Cảnh. Hãy cẩn thận khi chọn địa điểm, vì Đường hầm Hư Cảnh sẽ chỉ xuất hiện một lần duy nhất.\n\nNếu có điều gì cần yêu cầu, hay gặp bất trắc gì hãy gọi cho chúng ta. Trong những giấc mơ, chúng ta sẽ luôn dõi theo các bạn. Trong chuyến hành trình lang thang này, chúng ta chờ đợi sự xuất hiện của các bạn."
+ origin.5605.corporate.desc:0 "Hỡi những học trò, chúng ta đã từng dẫn dắt các bạn trong những giấc mơ. Thông qua những giấc mơ này, chúng ta đã định hình nên thế giới của các bạn. Nay các bạn đã lớn mạnh, có thể lan truyền tín ngưỡng của chúng ta giữa các vì sao, thử thách thực sự của các bạn mới chỉ bắt đầu. Sự siêng năng của các bạn sẽ làm rạng rỡ Hư Cảnh, thành quả lao động của các bạn cũng là sự đền đáp cho những lời dạy bảo. Để thắp lên ngọn lửa sự nghiệp, chúng ta truyền cho các bạn kiến thức về Đèn hiệu Hư Cảnh, một thiết bị vô cùng mạnh mẽ. Sau khi được xây dựng trên một trong những căn cứ sao của các bạn, ngọn hải đăng này sẽ mở ra một Đường hầm Hư Cảnh. Hãy cẩn thận khi chọn địa điểm, vì Đường hầm Hư Cảnh sẽ chỉ xuất hiện một lần duy nhất.\n\nNếu có điều gì cần yêu cầu, hay gặp bất trắc gì hãy gọi cho chúng ta. Trong những giấc mơ, chúng ta sẽ luôn dõi theo các bạn. Trong chuyến hành trình lang thang này, chúng ta chờ đợi sự xuất hiện của các bạn."
+ origin.5605.a:0 "Chúng tôi mang lòng biết ơn đón nhận món quà của người."
+ origin.5605.b:0 "Đây là những gì chúng ta xứng đáng nhận được."
+ origin.5605.tt:0 "Chúng ta cũng sẽ nhận được:"
+
+ origin.5615.name:0 "Chào mừng người học việc"
+ origin.5615.a.desc:0 "Hỡi những người học việc, cuối cùng chúng ta cũng có thể đàng hoàng nói lời chào với các bạn. Những dấu hiệu và điềm báo đều đã tiên đoán về khoảnh khắc này, chính Hư Cảnh cũng sẽ làm chứng cho sự xuất hiện của các bạn. Chúng ta đã mong đợi từ rất lâu, chỉ để gặp các bạn trong cõi giới của nhận thức. Tại đây, các bạn là những sự tồn tại được hoan nghênh nhất."
+ origin.5620.name:0 "Chào mừng người học việc"
+ origin.5620.b.desc:0 "Hỡi những người học việc, cuối cùng chúng ta cũng có thể đàng hoàng nói lời chào với các bạn. Thông qua đường hầm đã được chuẩn bị từ lâu, sự xuất hiện của các bạn đã được Hư Cảnh cảm nhận. Âm vang của các bạn vẫn đang rung động, lan tỏa như những gợn sóng qua mặt nước của tiềm thức. Những cư dân ngụ trong sự bí ẩn của Hư Cảnh chắc chắn sẽ chúc phúc cho cuộc gặp gỡ của chúng ta. Tại đây, các bạn là những sự tồn tại được hoan nghênh nhất."
+
+ origin.5625.name:0 "Thắp sáng đèn hiệu"
+ origin.5625.a.desc:1 "Sau những ngày tháng vô tận mò mẫm trong bóng tối, bức màn của Hư Cảnh cuối cùng cũng được vén lên. Người thầy của chúng ta đã ban cho chúng ta một báu vật vô giá. Chiếc đèn hiệu này cùng với đường hầm do nó tạo ra, chắc chắn sẽ soi sáng cho tuyến đường vượt qua các vì sao của chúng ta. Chuyến đi bắt đầu từ hệ sao này sẽ nhanh hơn... và cũng bí ẩn hơn rất nhiều."
+ origin.5625.a.option:0 "Nguyện Hư Cảnh sẽ chào đón sự hiện diện của chúng ta."
+ origin.5625.b.desc:1 "Sau những ngày tháng vô tận mò mẫm trong bóng tối, bức màn của Hư Cảnh cuối cùng cũng được vén lên. Người thầy của chúng ta đã ban cho chúng ta một báu vật vô giá. Chiếc đèn hiệu này cùng với đường hầm do nó triệu hồi, chắc chắn sẽ soi sáng cho tuyến đường vượt qua các vì sao của chúng ta.\n\nVẫn còn một bước nữa: ranh giới ở phía bên kia nơi Người thầy của chúng ta sinh sống cho đến nay vẫn đóng cửa với chúng ta. Các tuyến đường trên bản đồ thực tế có thể không quan trọng đối với Hư Cảnh, nhưng những hành tinh ở bên này vẫn còn rất nhiều rắc rối. Ít nhất là hiện tại, lộ trình đi qua đường hầm của chúng ta vẫn đang bị phong tỏa."
+
+ ################################
+ # Slingshot to the Stars Origin
+ ################################
+
+ origin_star_slingshot:0 "Bệ phóng Tinh tú"
+ origin_star_slingshot_desc:1 "Đã từng có lúc, bầu trời của nền văn minh này chớp nhoáng được thắp sáng bởi những ngôi sao băng, nhưng ngay sau đó lại chìm vào bóng tối đằng đẵng. Kể từ đó họ đã cố gắng vươn ra khỏi bầu trời để tìm kiếm câu trả lời, và trong chuyến hành trình không gian đầu tiên, họ đã phát hiện ra một §H$quantum_catapult_1$§! đang ngủ yên (và đã bị bỏ hoang từ lâu)."
+ START_SCREEN_STAR_SLINGSHOT:0 "Từ thời thượng cổ, người dân của chúng ta thỉnh thoảng có thể nhìn thấy bầu trời đêm được thắp sáng bởi vô số ngôi sao băng, nhưng cho đến nay các nhà khoa học của chúng ta vẫn không thể giải thích được hiện tượng này. Khi chúng ta bắt đầu khám phá thiên hà, cuối cùng chúng ta cũng có được những trang bị cần thiết để truy tìm nguyên nhân của những hiện tượng nhiễu loạn này — một cấu trúc cổ đại mà các kỹ sư của chúng ta gọi là $quantum_catapult_1$.\n\n$START_SCREEN_STAR_SLINGSHOT_SECOND_PART$"
+ START_SCREEN_STAR_SLINGSHOT_GESTALT:0 "Kể từ thuở hồng hoang khai thiên lập địa, thỉnh thoảng chúng ta đã có thể nhìn thấy bầu trời được thắp sáng bởi vô số ngôi sao băng, và hoàn toàn không thể hiểu được điều gì có thể gây ra hiện tượng kỳ lạ này. Khi cuối cùng chúng ta thoát khỏi xiềng xích của hành tinh quê hương, chúng ta đã xoay sở để có được công cụ cần thiết để truy tìm nguyên nhân của những hiện tượng nhiễu loạn này — một $quantum_catapult_1$.\n\n$START_SCREEN_STAR_SLINGSHOT_SECOND_PART$"
+ START_SCREEN_STAR_SLINGSHOT_SECOND_PART:0 "Dù đang chìm trong giấc ngủ, bị hư hại một phần và bị bỏ hoang, chúng ta vẫn tin tưởng vững chắc rằng nó có thể phục hồi lại vinh quang thuở trước. Nếu hoạt động đúng như mong đợi của chúng ta, nó sẽ trở thành cánh cổng không gian dẫn đến mọi nơi trong thiên hà."
+ origin_tooltip_star_slingshot_effects:4 "— $HOME_SYSTEM$ nằm gần ['concept_quantum_catapult_restored_slingshot'] đã bị phá hủy, kèm theo ['concept_slingshot_digsite']['concept_archaeology_site']\n— Hiệu ứng ['concept_quantic_ambush']: Tăng §G+50%§! $MOD_SHIP_FIRE_RATE_MULT$"
+
+ # Events
+
+ origin.3510.title:0 "Đã có được $quantum_catapult_1$"
+ origin.3510.desc:0 "Cuối cùng chúng ta đã giành được quyền kiểm soát hệ sao có chứa $quantum_catapult_1$ và khu vực lân cận của nó. Giờ đây chúng ta có thể cử các kỹ sư đến đó để bắt đầu công trình sửa chữa, từ đó hồi sinh lại cấu trúc đang ngủ yên này."
+ origin.3510.a:0 "Bước đầu tiên của hành trình ngàn dặm."
+
+ # Dig Site
+
+ slingshot_digsite:1 "Nhật ký của Kiến trúc sư Lượng tử"
+ slingshot_digsite_desc:0 "Chúng ta đã tìm thấy tàn tích của một cấu trúc khổng lồ bị hư hại. Cấu trúc này rõ ràng đang rất cần được sửa chữa, đồng thời chúng ta cũng đã phát hiện ra một kho tàng vô giá chứa đựng những hiểu biết về sinh vật ngoài hành tinh trong cơ sở dữ liệu của nó. Trong khi chúng ta vẫn đang quyết định xem có nên xây dựng lại kỳ quan công nghệ cổ đại này hay không, các nhà khảo cổ học của chúng ta có cơ hội khai quật và lấy lại manh mối về nguồn gốc của thiết bị vũ trụ này. Cuốn nhật ký liên quan đến một trong những nhà phát minh của nó, \"Kiến trúc sư Lượng tử\", có vẻ đặc biệt có giá trị. Việc khôi phục những tài liệu này chắc chắn sẽ giúp ích rất nhiều cho chúng ta trong việc giải mã văn hóa và lịch sử của chủng tộc cổ đại đã để lại công nghệ này cho chúng ta."
+
+ origin.3515.name:0 "Ánh sao rực rỡ"
+ origin.3515.desc:0 "Bên trong các bản thiết kế và sơ đồ, chúng ta đã khôi phục được một tài liệu kỳ lạ:\n\nĐây là tài liệu cá nhân của Kiến trúc sư Lượng tử\n\nThuở hồng hoang, chúng ta sống trong bóng tối. Chúa phán: \"Phải có bóng tối\", thế là thế giới chìm trong bóng tối. Khi những tổ tiên đầu tiên của chúng ta có được ánh sáng của nhận thức, chúng ta đã muốn tìm kiếm những dấu hiệu và ý nghĩa của sự sống trên bầu trời, nhưng trên đỉnh đầu chúng ta chỉ có một bóng tối bao la. Khi chúng ta xây dựng nền văn minh, tâm trí chúng ta quét qua từng bóng đen trong đêm, chúng ta lao động vất vả tại nơi xây dựng thành phố đầu tiên, thường xuyên kiểm tra nền móng của chúng.\n\nHàng ngàn năm sau, tôi đột nhiên liều lĩnh ngước nhìn lên \"trên\". Khi những người khác vẫn đang cắm mặt xuống đất làm việc vất vả, tâm trí tôi đã mở ra với bầu trời. Tôi đã xây dựng những đền thờ bằng mạch điện và thép, dùng ánh sáng trí tuệ của mình để chế tạo các công cụ cho bản thân. Bằng cách hoàn thiện mê cung của các đi-ốt và tụ điện, tôi đã phát sóng ý thức của mình ra toàn vũ trụ, cảm nhận mọi thứ bên ngoài bóng tối đang bao trùm thế giới của chúng ta.\n\nBởi vì tôi có thể cảm nhận được những gì người khác không thể: Chúng ta không hề đơn độc trong vũ trụ. Qua bóng tối mờ ảo như lớp kính, tôi có thể cảm nhận được hàng ngàn hành tinh khác. Tôi có thể cảm nhận được những điều không thể. Nằm ngoài màn đêm bất tận của chúng ta là muôn vàn điểm sáng rực rỡ lan tỏa."
+ origin.3520.name:0 "Vượt ngoài bóng tối"
+ origin.3520.desc:0 "Mặc dù đoàn thám hiểm của chúng ta vẫn đang sàng lọc dữ liệu có thể giải mã kế hoạch xây dựng cấu trúc khổng lồ này, họ đã phát hiện ra một đoạn trích khác trông giống như một văn bản tôn giáo:\n\nTài liệu cá nhân của Kiến trúc sư Lượng tử\n\nTôi nói ra sự thật, nhưng người dân của tôi lại đáp trả bằng sự hỗn loạn.\nMỗi người chúng ta đều cắm cúi làm việc một cách tê liệt trong màn sương mù của tâm trí và cảm xúc của chính mình. Chúng ta thăm dò vươn tay ra với người khác, nhưng có quá nhiều người trong chúng ta cô độc. Chúa của chúng ta đã tạo ra thế giới trong bóng tối, và chúng ta được bảo rằng chúng ta mới là trung tâm trong tạo tác của ngài.\n\nChỉ vì tôi dám mơ về một thế giới ngoài bầu trời, mà tầm nhìn của tôi lại bị người khác coi là lời nói dối. Những người khác trong số chúng ta vặn hỏi: Làm sao có thể chứng minh được những giấc mơ này? Làm sao chúng ta có thể tin vào những điều mà chúng ta không thể chứng minh? Để đáp lại, tôi đã dẫn những ai vẫn còn muốn lắng nghe tôi đến phòng thí nghiệm của mình. Những bộ óc thông minh nhất này đã có thể cảm nhận được những gì tôi có thể cảm nhận: Những hành tinh khác ngoài màn đêm.\n\nNhưng những bộ óc tăm tối nhất lại đáp trả bằng những phản ứng khác, chúng thêu dệt nên những lập luận mới, nắm chặt lấy những vũ khí chết người. Những bộ óc nguy hiểm đó ngâm nga những câu chuyện ngụ ngôn, nói rằng hành tinh của chúng ta sẽ rơi vào hỗn loạn, bởi vì chúng ta không còn là đứa con cưng của thần linh nữa. Tuy nhiên, tôi vẫn biết sự thật: Ánh sáng của sự kiến tạo là một tấm màn vĩ đại. Khi khám phá bí mật của vũ trụ, tôi đã bị cuốn vào một làn sóng hân hoan, và dần đánh mất đi danh tính của chính mình."
+ origin.3525.name:0 "Khai sáng"
+ origin.3525.desc:0 "Nhiều văn bản mang tính thiên sai hơn đã được khôi phục:\n\nTài liệu cá nhân của Kiến trúc sư Lượng tử\n\nTôi không ngừng bị giày vò và cám dỗ bởi vũ trụ bao la vô tận, và bắt đầu cân nhắc việc đi đến những thế giới xa xôi để tự mình trải nghiệm. Sống trong một thế giới bị bao bọc bởi màn đêm bất tận, những tâm trí khác đang có những giấc mơ đẹp, còn tôi tìm cách giao tiếp với họ. Bên ngoài bóng tối có ánh sáng dẫn đường cho tôi, ánh sáng cám dỗ tôi, mang đến cho tôi vô vàn sự mặc khải. Thế là tôi phát sóng tâm trí của mình đến những thế giới xa xôi và vô danh...\n\nTrên trời sao, dưới đất vậy. Tầm nhìn của tôi về bầu trời mang lại cho tôi niềm vui, và trên mặt đất, tôi cũng đã tìm thấy một người có cùng niềm hạnh phúc mang lại cho tôi sự giải thoát tương tự. Tôi đã yêu một nhà khoa học khác, đó là một người có tầm nhìn xa trông rộng, đã sử dụng những phương pháp khác để tìm kiếm thế giới mà tôi cảm nhận được giữa các vì sao.\n\nChúng tôi không chỉ chia sẻ những gì mỗi người nhìn thấy. Chúng tôi thề sẽ trở thành bạn đời của nhau. Khi công việc tiến triển, chúng tôi nép vào nhau trong những đêm dài vô tận. Bạn đời của tôi mơ về các bản thiết kế tàu không gian, khắc ra những con tàu hàng không năng lượng mặt trời nguyên thủy trên bảng thiết kế bằng sáp. Tôi liên tục chắp vá với các mạch điện, nỗ lực hòa nhập tâm trí của tôi vào sự vô hạn. Cuộc phiêu lưu của tôi càng tiến sâu, niềm hân hoan trong tim tôi càng dâng tràn. Thật tuyệt diệu làm sao! Sự sung sướng bất tận!"
+ origin.3530.name:0 "Băng qua quần sao"
+ origin.3530.desc:0 "Tài liệu cá nhân của Kiến trúc sư Lượng tử, danh tính là bạn đời của Thợ đóng tàu Vũ trụ\n\nBạn đời của tôi vô cùng kiên nhẫn còn tôi lại có phần bốc đồng. Tình yêu của tôi sở hữu trí tuệ của khoa học và logic, còn tôi cũng có một trái tim phiêu bạt. Khi chúng tôi ngày càng xa cách trong những đêm dài vô tận, tôi đã phát sóng ý thức của mình vào hư không một cách vô vọng. Tôi phớt lờ giấc ngủ, phớt lờ cơn đói, và cuối cùng phớt lờ cả tình yêu của tôi. Trong khi chúng tôi theo đuổi giấc mơ trong vũ trụ, một khoảng cách đã bắt đầu xuất hiện trong thâm tâm.\n\nTình yêu của tôi đã đặt ra một cụm từ cho hiện tượng này: Rối lượng tử. Thể xác tôi vẫn ở đây, nhưng tâm trí tôi lại đang ngao du ngoài bầu trời, dốc sức tìm kiếm sự hân hoan và giao tiếp với sự vĩnh hằng. Bạn đời của tôi nói những chuyện khác với tôi, nhưng tôi chẳng thể nào lọt tai. \"Tình yêu của tôi\", bạn đời tôi gọi, \"hãy trở về bên tôi\", nhưng tôi chỉ có thể nghe thấy tiếng vọng của các vì sao.\n\nRất nhanh đã đến lúc thử nghiệm con tàu sao năng lượng mặt trời của bạn đời tôi. Tôi tình nguyện lái con tàu này. Khi tôi lần đầu tiên cầm lái và bắt đầu chuyến đi đầu tiên, tôi sẽ mơ về lộ trình dẫn đến những bờ bến xa xôi, thân xác tôi vẫn ở nguyên chỗ cũ, nhưng tâm trí tôi đã bay lượn ngoài bầu trời.\n\nTình yêu của tôi dần dần bình tĩnh lại, tôi sẽ ban cho tình yêu của tôi sự vô hạn, dẫn lối đến sự vĩnh hằng, để tôi làm người mở đường. Tôi sẽ trao cho tình yêu của tôi giấc mơ về hàng vạn thế giới."
+ origin.3535.name:0 "Mãi mãi nhớ thương"
+ origin.3535.desc:0 "Tài liệu cá nhân của Thợ đóng tàu Vũ trụ, danh tính là góa phụ của Kiến trúc sư Lượng tử\n\nCon tàu sao đầu tiên của chúng tôi đã biến mất một năm trước. Cho đến nay chúng tôi vẫn không biết chuyện gì đã thực sự xảy ra trước đó. Bạn đời của tôi, Kiến trúc sư Lượng tử, anh ấy chỉ để lại di sản và những bí ẩn. Suy đoán sâu sắc nhất mà chúng tôi có thể đưa ra cũng chỉ là tình yêu của tôi cuối cùng đã trở thành một phần của vũ trụ. Trước khi ngồi vào bảng điều khiển để bắt đầu chuyến đi đầu tiên, anh ấy đã hòa mình với sự vô hạn, bị nuốt chửng bởi sự ngây ngất và mộng tưởng về bầu trời. Con tàu thử nghiệm của chúng tôi không bao giờ quay trở lại nữa.\n\nBây giờ tôi chỉ có thể làm việc với những công cụ thô sơ trong tay, thu thập lại công việc và cuộc sống đã vỡ vụn của mình. Nhiều con tàu năng lượng mặt trời của tôi đã bắt đầu hành trình đến màn đêm vĩnh cửu. Tôi bắt đầu bắt tay vào lắp đặt những động cơ tốt hơn, động cơ nguyên mẫu có thể giúp tàu của chúng tôi vượt qua không gian siêu không gian. Vào một vài đêm, tôi mơ về một công nghệ có thể đưa chúng tôi đến các hệ sao vô danh, giống như tâm trí và linh hồn của người bạn đời mà tôi đã mất.\n\nTôi dang rộng vòng tay đón nhận ánh sáng, từ chối khuất phục bóng tối. Tôi ngồi trong phòng thí nghiệm của tình yêu của tôi, giống như ngay lúc này, đọc nhật ký của anh và viết nên cuốn nhật ký của chính mình. Đôi khi khi mọi thứ chìm vào tăm tối, tôi cố gắng phát sóng tâm trí của mình ra vũ trụ. Đây là đèn hiệu của sự vô hạn."
+ origin.3540.name:0 "Lượng tử hóa"
+ origin.3540.desc:0 "Khi cuối cùng chúng ta cũng tìm thấy tập tài liệu bị thất lạc trong kế hoạch xây dựng của cấu trúc này, chúng ta đã khôi phục lại văn bản cuối cùng:\n\nTài liệu từ Thợ đóng tàu Vũ trụ, danh tính là góa phụ của Kiến trúc sư Lượng tử\n\nChúng tôi đã khám phá nhiều phương pháp để hiện thực hóa những sáng tạo của tình yêu của tôi, cũng chính là những sáng tạo lượng tử của họ. Tôi không biết liệu chúng ta có thể đi dọc theo con đường tưởng chừng như liều lĩnh này, lấy thiết kế của Kiến trúc sư Lượng tử làm bản thiết kế, tiến bước chậm rãi đến những vì sao hay không. Tôi tìm kiếm những làn sóng có thể vượt qua siêu không gian, suy nghĩ về những dòng chảy có thể đưa chúng ta đến những bến bờ xa xôi.\n\nNhững con tàu của tôi tiến lên theo lộ trình chậm chạp, trong đêm khuya tôi đọc nhật ký của tình yêu của tôi, cố gắng thấu hiểu những biểu thức toán học và cơ chế liên quan trong đó. Khi tâm trí tôi chạm đến sự vô hạn, tôi nhận ra tình yêu của tôi vẫn còn ở đó. Anh ấy đã dẫn đường mở lối, tôi phải tiếp bước theo sau.\n\nThông qua việc mất đi, tôi lại nhận được nguồn cảm hứng. Chúng tôi từng bắt tay vào chế tạo một cỗ máy vĩ đại, nó có thể thúc đẩy con tàu của chúng tôi vượt qua hệ sao, giống như cách tình yêu của tôi bước vào sự vô hạn. Khi tôi rời đi, tôi khiêm tốn yêu cầu thiết bị vũ trụ này và những sản phẩm cải tiến của nó nên được đưa vào cuốn nhật ký cá nhân của Kiến trúc sư Lượng tử. Khi những người khác đọc được cuốn nhật ký này, không còn nghi ngờ gì nữa, linh hồn của tôi đã bay đến một nơi xa. Tôi sẽ tìm thấy con đường để đoàn tụ với tình yêu của tôi trong vũ trụ bao la. Bởi vì tôi biết chúng tôi sẽ cùng nhau ngụ lại trong sự vĩnh hằng, mơ mộng và trôi dạt giữa muôn vạn vì sao điểm xuyết."
+ origin.3515.a:0 "Khôi phục thêm nhiều tài liệu hơn."
+ origin.3540.a:0 "Đèn hiệu vô hạn."
+ infinity_beckons:0 "Đèn hiệu vô hạn"
+ into_the_unknown:0 "Bước vào chốn vô định"
+
+ ##########################
+ # Imperial Vassal Origin #
+ ##########################
+ origin_imperial_vassal:0 "Đất phong Đế quốc"
+ origin_imperial_vassal_desc:1 "Trải nghiệm lần đầu tiên bay ra khỏi hành tinh quê hương là một ký ức đau buồn, chỉ trong chớp mắt, chúng ta đã bị chinh phục thê thảm và phải quỳ rạp dưới chân chúng. Tuy nhiên, bây giờ cuối cùng chúng ta cũng có thể hướng tới tương lai, một tương lai không phải sống dưới cái bóng của nước khác."
+ START_SCREEN_IMPERIAL_VASSAL:0 "Khi chúng ta lần đầu tiên rời khỏi hệ sao quê hương, chúng ta đã đụng độ một đế quốc ngoài hành tinh ép buộc chúng ta phải quy phục. Mặc dù đối với nhân dân, đây là một ký ức đau đớn, nhưng thực tế chứng minh mối quan hệ chư hầu này có lợi hơn nhiều so với những gì chúng ta tưởng tượng, trong khoảng thời gian chư hầu ngắn ngủi này, chúng ta đã học được rất nhiều điều.\n\nChúng ta không phải là chư hầu duy nhất của Bá Chủ, vì chúng ta đã tiếp đón các nhà ngoại giao và đại sứ do những quốc gia nằm dưới quyền kiểm soát của Bá Chủ cử đến. Mặc dù chúng ta không vừa mắt với một số kẻ trong đó, nhưng ít nhất hiện tại họ vẫn là những đồng minh hữu ích.\n\nTuy nhiên, mặc dù chúng ta mong mỏi một ngày nào đó có thể độc lập tự chủ quyết định vận mệnh của chính mình, nhưng hiện tại vẫn phải chấp nhận địa vị chư hầu, và tận dụng tối đa cục diện hiện tại."
+ origin_tooltip_imperial_vassal_effects:2 "— Một chư hầu của ['concept_advanced_empire']\n— Khi bắt đầu trò chơi, cần chọn loại ['concept_specialist_subject', Chuyên môn chư hầu]"
+
+ # AI Overlord Version
+ origin_imperial_vassal_overlord:0 "Chúa tể Đế quốc"
+ origin_imperial_vassal_overlord_desc:0 "Đây là một bá chủ đầy tham vọng, nó đã dành rất nhiều thời gian và tâm sức để chinh phục các quốc gia lân cận nhằm thỏa mãn mọi nhu cầu của bản thân. Khi chúng chuyển giao ngày càng nhiều nghĩa vụ cho chư hầu gánh vác, bản thân chúng cũng ngày càng trở nên lười biếng."
+ origin_tooltip_imperial_vassal_overlord_effects:0 "— Trở thành §HĐế quốc Cao cấp§! khi bắt đầu trò chơi\n— Sở hữu một số chư hầu khi bắt đầu trò chơi"
+
+ # Personalities
+ personality_imperial_origin_overlord_ai:0 "Thiên triều thượng quốc"
+ personality_imperial_origin_overlord_ai_desc:0 "Đế quốc này vô cùng phụ thuộc vào chư hầu của họ, hiếm khi quan tâm đến những chuyện xảy ra bên ngoài hệ sao mẹ, cũng không giao chiến với các nước khác, lại càng không chủ động mở rộng bờ cõi, trừ khi bị ép buộc."
+
+ # Modifiers
+ imperial_vassal_ai_modifier:0 "Thuế Đế quốc"
+ imperial_vassal_ai_modifier_desc:0 "Các hoạt động thường ngày của bộ máy quan liêu đế quốc cần tiêu tốn một phần đáng kể công sức của phái đoàn ngoại giao."
+
+ # Wars
+ NAME_Imperial_War:0 "Nội chiến Đế quốc"
+
+ # Megastructure
+ gateway_derelict:0 "Cổng Sao bị bỏ hoang"
+ gateway_derelict_DESC:0 "$gateway_final_DESC$"
+ gateway_derelict_MEGASTRUCTURE_DETAILS:0 "$gateway_final_MEGASTRUCTURE_DETAILS$"
+
+ # Events
+ origin.5703.desc:0 "Chào mừng các bạn, những người bạn ngoài hành tinh mới!\n\nVì các bạn đã chọn trở thành... đồng minh của chúng tôi, chúng tôi cho rằng bây giờ là lúc để liên lạc với các bạn. Các bạn đã chọn sự lý trí thay vì ép buộc chúng tôi sử dụng bạo lực, điều này khiến chúng tôi vô cùng hài lòng."
+ origin.5703.a:0 "Chẳng phải chính các người đã khiến chúng tôi không còn lựa chọn nào khác sao?"
+ dialog_hostile_overlord:0 "Chúng ta sẽ thực hiện thái độ §Rthù địch§! đối với Bá Chủ."
+ origin.5703.b:0 "Các người còn muốn nói với chúng tôi điều gì khác không?"
+ dialog_wary_overlord:0 "Chúng ta sẽ thực hiện thái độ §Ytrung lập§! đối với Bá Chủ."
+ origin.5703.c:0 "Chúng tôi rất tự hào khi được trở thành một phần của các bạn!"
+ dialog_friendly_overlord:0 "Chúng ta sẽ thực hiện thái độ §Gthân thiện§! đối với Bá Chủ."
+
+ origin.5705.desc.harsh:0 "Hừm... Dù sao thì!\n\n$origin.5705.desc$"
+ origin.5705.desc.grateful:0 "Chúng tôi cũng tự hào về sự gia nhập của các bạn!\n\n$origin.5705.desc$"
+ origin.5705.desc:0 "Sau khi suy nghĩ kỹ lưỡng, chúng tôi đã quyết định đầu tư một lượng tài nguyên khổng lồ để viện trợ cho đất nước của các bạn xây dựng chuyên môn. Trong tương lai, điều này sẽ cho phép đế quốc của các bạn đóng một vai trò quan trọng hơn trong số tất cả các đối tác và đồng minh của chúng tôi.\n\nChúng tôi vẫn chưa chắc chắn lắm người dân của các bạn thích một vai trò như thế nào, quân sự hóa? Chuyên ngành học thuật? Hay các bạn hứng thú hơn với khoáng sản và của cải vật chất?"
+ origin.5705.desc.reconsider:0 "Vậy... bạn đã suy nghĩ lại chưa?"
+ origin.5705.a:0 "Chuyên môn quân sự nghe có vẻ tuyệt vời đấy."
+ origin.5705.a.tt_intro:0 "§Y[ROOT.GetName]§! sẽ chuyển sang chuyên môn §Y$specialist_bulwark$§!, tập trung vào quân sự và phòng thủ.\n§Y[Root.GetName]§! sẽ trả $r_influence$ như một khoản thuế mở rộng."
+ origin.5705.a.tt:2 "$origin.5705.a.tt_intro$\nNhận từ §Y[overlord_empire.GetName]§! một hạm đội §YTàu khu trục§! cùng với các công nghệ quân sự cần thiết để mở rộng."
+ origin.5705.a.bioships.tt:0 "$origin.5705.a.tt_intro$\nNhận từ §Y[overlord_empire.GetName]§! một hạm đội §Y$mauler_stage_2_plural$§! cùng với các công nghệ quân sự cần thiết để mở rộng."
+ origin.5705.b:0 "Bạn có thể cho chúng tôi biết thêm về Thành Lũy không?"
+ origin.5705.c:0 "Người dân của chúng tôi đam mê học thức hơn."
+ origin.5705.c.tt:1 "§Y[ROOT.GetName]§! sẽ chuyển sang chuyên môn §Y$specialist_scholarium$§!, tập trung vào nghiên cứu công nghệ.\n§Y[ROOT.GetName]§! sẽ trả $r_influence$ như một khoản thuế mở rộng.\nNhận từ §Y[overlord_empire.GetName]§! một §YTàu nghiên cứu§! và một vị §YSĩ quan Khoa học§!."
+ origin.5705.d:0 "Bạn có thể cho chúng tôi biết thêm về Học Viện không?"
+ origin.5705.e:0 "Chúng tôi chuộng chuyên môn về của cải vật chất và khoáng sản hơn."
+ origin.5705.e.tt:1 "§Y[ROOT.GetName]§! sẽ chuyển đổi thành một chư hầu chuyên môn §Y$specialist_prospectorium$§! —— tập trung vào khai thác khoáng sản và tài nguyên chiến lược.\n§Y[ROOT.GetName]§! khi mở rộng sẽ phải nộp một khoản cống nạp $r_influence$.\nSẽ nhận được 2 §YTàu công trình§! từ §Y[overlord_empire.GetName]§!."
+ origin.5705.f:0 "Bạn có thể cho chúng tôi biết thêm về Khai Khoáng Viện không?"
+
+ origin.5706.desc:0 "Một xu hướng thiên về quân sự, có phải vậy không?\n\nThành Lũy, như cách chúng tôi thường gọi, là những đế chế chuyên về các vấn đề quân sự. Điều này có nghĩa là chúng tôi sẽ hỗ trợ hàng tháng cho các bạn một lượng khoáng sản và lương thực cơ bản, để các bạn có thể dành phần lớn nguồn lực của đế chế tập trung vào chiến tranh.\n\nĐổi lại, chúng tôi kỳ vọng các bạn sẽ giúp chúng tôi phòng thủ trước các mối đe dọa từ bên ngoài, và đóng vai trò then chốt tại các vùng biên giới trong không gian đồng minh của chúng ta. Điều đó nghe có vẻ hợp lý với các bạn chứ?"
+ origin.5706.a:0 "Nghe có vẻ chúng tôi có thể chấp nhận được."
+ origin.5706.b:0 "Chúng tôi cần suy nghĩ thêm."
+
+ origin.5707.desc:0 "Vậy ra điều này đã thu hút sự chú ý của các bạn phải không?\n\nThứ mà chúng tôi thường gọi là Học viện là một quốc gia chuyên về nghiên cứu công nghệ. Chúng tôi cam kết bảo vệ đất nước của các bạn, và các bạn có thể tập trung tài nguyên để làm cho quốc gia cũng như các đồng minh của chúng ta tiên tiến hơn.\n\nĐổi lại, chúng tôi hy vọng các bạn có thể chia sẻ với các quốc gia khác của chúng tôi mọi khám phá khoa học đáng kinh ngạc. Bản hợp đồng như vậy có làm các bạn hài lòng không?"
+ origin.5707.a:0 "Người dân của chúng tôi sẵn lòng chấp nhận thỏa thuận này."
+ origin.5707.b:0 "Chúng tôi cần suy nghĩ thêm."
+
+ origin.5708.desc:1 "Các bạn có hứng thú với thỏa thuận này đúng không?\n\nKhai Khoáng Viện, như nhiều người thường gọi, là một đế chế chuyên tìm kiếm khoáng sản và sản xuất các tài nguyên chiến lược — nhưng điều này thường phải trả giá bằng tiến độ phát triển khoa học. Với các công cụ phù hợp, một số Khai Khoáng Viện có thể định vị các khoáng sản quý hiếm mà người khác bỏ qua, dù đây mới chỉ là những lời đồn đại mà chúng tôi nghe được.\n\nĐiều đó nghe có vẻ là nhiệm vụ mà người dân của các bạn có thể đảm đương được chứ?"
+ origin.5708.a:0 "Tôi nghĩ điều này rất phù hợp với chúng tôi."
+ origin.5708.b:0 "Chúng tôi cần suy nghĩ thêm."
+
+ origin.5710.title:0 "Định hình tương lai của chúng ta"
+ origin.5710.desc:0 "Chúng ta đã tiếp đón một phái đoàn ngoại giao nhỏ do Bá Chủ cử đến, mang theo những tin tức và chỉ thị mới nhất. Vì chúng ta đã làm hài lòng các yêu cầu của họ dạo gần đây, họ muốn ký kết một thỏa thuận chi tiết hơn để thúc đẩy mối quan hệ giữa đôi bên."
+
+ # Dissolution of the Empire events
+ origin.5725.title:0 "Sự kế vị bị nghi ngờ"
+ origin.5725.desc:0 "Ngay sau khi [overlord_ruler.GetName] băng hà đột ngột, chúng ta đã hay tin về tình trạng hỗn loạn đang diễn ra trên [Root.Overlord.Capital.GetName]. [overlord_heir.GetName] với rất ít sự ủng hộ đã giành lấy ngai vàng vào tay [overlord_heir.GetHimselfHerself] thông qua các biện pháp quân sự, khiến hoàng tộc của [overlord_heir.GetHisHer] và nhân dân trên [Root.Overlord.Capital.GetName] vô cùng bất mãn.\n\nSau sự trỗi dậy đầy náo động của [overlord_heir.GetFirstName], nhiều người bắt đầu đặt câu hỏi về tính hợp pháp trong việc cai trị chúng ta của [Root.Overlord.GetName]. Nếu họ thậm chí không thể đảm bảo an ninh cho thủ đô của chính mình, họ lấy đâu ra khả năng để bảo vệ an toàn cho chúng ta?"
+ origin.5725.a:0 "Dù là con đê dài trên trời, cũng có thể sụp đổ chỉ vì một tổ kiến."
+
+ origin.5735.title:0 "Đế quốc Vỡ vụn"
+ origin.5735.desc:1 "Đánh mất vị lãnh đạo vĩ đại có khả năng duy trì sự đoàn kết và thống nhất, [previous_overlord.GetName] hiện đã tan đàn xẻ nghé, và mỗi phe phái đều tuyên bố mình mới là chính thống của đế quốc trước đây. Tuy nhiên, do thiếu đi thực lực và tính hợp pháp, quyền kiểm soát của họ đối với tất cả các chư hầu cũng theo đó mà sụp đổ.\n\nTrong khi mỗi phe phái chia rẽ đang chinh phạt lẫn nhau, tranh giành ngai vàng của [previous_overlord.GetName], thì các quốc gia từng là chư hầu của họ cũng có thể hành động theo ý muốn của mình."
+ origin.5735.a:0 "Lại giành được tự do rồi."
+ origin.5735.b:0 "Đã đến lúc có những nhà lãnh đạo mới bước lên vũ đài lịch sử."
+ origin.5735.b.tt:0 "Có được lý do chiến tranh §YChinh phục§! trong §Y30 năm§! đối với §Y[previous_overlord.GetName]§! và tất cả các nước chư hầu trước đây của nó."
+ origin.5735.c:0 "Chúng tôi trung thành với ngai vàng, dù có chuyện gì xảy ra đi chăng nữa."
+ origin.5735.c.tt:0 "Chúng ta sẽ tiếp tục là chư hầu trung thành của §Y[previous_overlord.GetName]§!."
+
+ # AI Vassals looking for new overlord events
+ origin.5745.title:0 "Sự bảo vệ của giới kỹ trị"
+ origin.5745.desc:0 "Người dân của [new_subject_target.GetName] thờ ơ với những chuyện bên ngoài đất nước của họ, nhưng họ biết rõ rằng, dù chuyện gì xảy ra bên ngoài cũng có thể phá hoại sự tập trung cao độ vào nội bộ của họ. Vì vậy, họ tìm kiếm sự bảo vệ từ chúng ta, giống như sự bảo vệ mà [previous_overlord.GetName] đã từng cung cấp trước đây."
+ origin.5745.a:0 "Điều này rất có lợi cho đế quốc của chúng ta."
+ origin.5745.b:0 "Chúng ta không hứng thú với những nhà khoa học này."
+
+ origin.5750.title:0 "Các hoàng tử đoàn kết"
+ origin.5750.desc:0 "[new_subject_target.GetName] khét tiếng với vô số hoàng tử luôn tranh cãi không ngớt, họ luôn tính toán mọi cách để giành lấy từng chút sức ảnh hưởng và quyền lực có thể giành được. Chỉ riêng lần này có vẻ như cuối cùng họ đã đạt được tiếng nói chung, cử đặc phái viên đến gặp chúng ta với hy vọng ký kết một hiệp ước ngoại giao mới. Có vẻ như họ bắt đầu nhớ nhung sự chăm sóc ân cần mà [previous_overlord.GetName] từng dành cho họ."
+ origin.5750.a:0 "Thôi được, ít ra họ cũng có được chút đồng thuận."
+ origin.5750.b:0 "Chúng ta không có một chút hứng thú nào với cái đám ồn ào này."
+
+ origin.5755.title:0 "Sự tiếp xúc của Bá tước"
+ origin.5755.desc:0 "Trước khi [previous_overlord.GetName] sụp đổ, [new_subject_target.GetName] có mối quan hệ khá gần gũi với họ, có vẻ như họ có hứng thú thiết lập mối quan hệ phát triển tương tự với chúng ta. Các nhà ngoại giao của họ đang thức trắng đêm để soạn thảo một hiệp định ngoại giao mà cả hai bên đều hài lòng để ký kết, đây là bước đầu tiên để thiết lập sự thấu hiểu đầy đủ hơn giữa hai đế quốc chúng ta."
+ origin.5755.a:0 "Sẽ có chỗ cho họ ở đây."
+ origin.5755.b:0 "Mời đặc phái viên quay về."
+
+ origin.5760.title:0 "Liên minh hạm đội của tôi"
+ origin.5760.desc:0 "Có vẻ như thị trường của [new_subject_target.GetName] có phần bất ổn sau khi [previous_overlord.GetName] tan rã. Giờ đây họ không còn ai để nương tựa nữa. Một vài ông trùm thương mại đã tiếp xúc với chúng ta, bày tỏ sự sẵn lòng cung cấp lao động [new_subject_target.GetAdj], và thậm chí rất sẵn lòng dâng lên một phần lợi nhuận, một khi đế quốc của họ ổn định trở lại."
+ origin.5760.a:0 "Miễn là chúng chịu ngoan ngoãn nộp tài nguyên năng lượng."
+ origin.5760.b:0 "Chúng ta không cần tài sản tư bản của chúng."
+
+ #########################
+ # Mercenary Enclave
+ #########################
+
+ FLEET_LEASED_OUT:0 "Hạm đội $FLEET|Y$ đã được cho $COUNTRY|Y$ thuê, thời hạn £time£$DAYS|Y$ ngày."
+ FLEET_RETURNED:0 "Hợp đồng cho thuê hạm đội $FLEET|Y$ đã bị hủy bỏ. Giờ đây hạm đội này do quốc gia sở hữu là $COUNTRY|Y$ kiểm soát."
+ FLEET_CONTRACT_PROLONGED:0 "Hợp đồng cho thuê hạm đội $FLEET|Y$ đã được gia hạn thêm £time£$DAYS|Y$ ngày."
+ TRIGGER_IS_LEASED:0 "Hạm đội $FLEET|Y$ đã được cho thuê"
+ TRIGGER_IS_NOT_LEASED:0 "Hạm đội $FLEET|Y$ chưa được cho thuê"
+ TRIGGER_LEASE_DAYS:0 "Số ngày cho thuê của hạm đội $FLEET|Y$ là $COMPARE$$VALUE|Y$"
+ TRIGGER_LEASE_DAYS_NOT:0 "Số ngày cho thuê của hạm đội $FLEET|Y$ không $COMPARE$$VALUE|Y$"
+
+ #########################
+ # Galcom Resolutions
+ #########################
+
+ resolution_category_defenseprivatization:0 "Tư nhân hóa phòng vệ"
+
+ resolution_defenseprivatization_repeal_1:0 "§RBãi bỏ $resolution_defenseprivatization_defense_contracts$§!"
+ resolution_defenseprivatization_repeal_1_desc:0 "Mặc dù tính chuyên nghiệp của các nhà thầu quốc phòng là không thể phủ nhận, nhưng các quốc gia thuộc [global_event_country.GetGalCommunityOrGalImperium] không nên quá phụ thuộc vào các dịch vụ an ninh tư nhân."
+ resolution_defenseprivatization_repeal_2:0 "§RBãi bỏ $resolution_defenseprivatization_private_support_troops$§!"
+ resolution_defenseprivatization_repeal_2_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_3:0 "§RBãi bỏ $resolution_defenseprivatization_condottieri$§!"
+ resolution_defenseprivatization_repeal_3_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_4:0 "§RBãi bỏ $resolution_defenseprivatization_security_business$§!"
+ resolution_defenseprivatization_repeal_4_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_5:0 "§RBãi bỏ $resolution_defenseprivatization_corporate_warlords$§!"
+ resolution_defenseprivatization_repeal_5_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+
+ resolution_defenseprivatization_defense_contracts:0 "Nhà thầu an ninh"
+ resolution_defenseprivatization_defense_contracts_desc:0 "Vì các vấn đề an ninh của thiên hà, chúng ta nên đầu tư nguồn lực vào các cơ quan an ninh độc lập. Những chuyên gia được huấn luyện bài bản và phi chính trị hóa này có thể giúp các quốc gia thành viên của [global_event_country.GetGalCommunityOrGalImperium] tổ chức phòng thủ."
+ resolution_defenseprivatization_private_support_troops:0 "Sự bảo vệ đầy hứa hẹn"
+ resolution_defenseprivatization_private_support_troops_desc:0 "Do quy mô xung đột leo thang, các đội an ninh tư nhân cần nâng cấp vũ lực để tiếp tục hoàn thành xuất sắc công việc mà họ vẫn luôn làm giỏi nhất: bảo vệ sự an toàn cho [global_event_country.GetGalCommunityOrGalImperium]."
+ resolution_defenseprivatization_condottieri:0 "Người phòng thủ trung lập"
+ resolution_defenseprivatization_condottieri_desc:0 "Chiến tranh có lẽ là điều không thể tránh khỏi, nhưng thiệt hại liên đới thì không nhất thiết phải như vậy. Bằng cách giao phó niềm tin trong lĩnh vực này cho các chuyên gia giỏi phòng thủ, [global_event_country.GetGalCommunityOrGalImperium] chắc chắn có thể giảm thiểu đáng kể những hành vi tàn bạo của chiến tranh bị đưa tin."
+ resolution_defenseprivatization_security_business:0 "Kiểm soát rủi ro Thiên hà"
+ resolution_defenseprivatization_security_business_desc:0 "Bất chấp những nỗ lực hết mình của chúng ta, các cuộc xung đột ý thức hệ bạo lực vẫn đang làm gia tăng căng thẳng ở quy mô thiên hà. Các đế quốc này liên tục chứng tỏ bản thân rất thích gây sự chỉ vì một vài cãi vã nhỏ. Việc quản lý lực lượng vũ trang tư nhân của chúng sẽ cho phép các nhà thầu phòng thủ trung lập thực hiện các hoạt động gìn giữ hòa bình một cách hiệu quả hơn."
+ resolution_defenseprivatization_corporate_warlords:0 "Gìn giữ hòa bình Doanh nghiệp"
+ resolution_defenseprivatization_corporate_warlords_desc:0 "\"$enclave.235.4.desc$\""
+
+ resolution_defenseprivatization_repeal_1_effect_success:0 "Bãi bỏ nghị quyết §Y$resolution_defenseprivatization_defense_contracts$§!."
+ resolution_defenseprivatization_repeal_2_effect_success:0 "Bãi bỏ nghị quyết §Y$resolution_defenseprivatization_private_support_troops$§!, giữ lại nghị quyết §Y$resolution_defenseprivatization_defense_contracts$§! thành luật của thiên hà."
+ resolution_defenseprivatization_repeal_3_effect_success:0 "Bãi bỏ nghị quyết §Y$resolution_defenseprivatization_condottieri$§!, giữ lại nghị quyết §Y$resolution_defenseprivatization_private_support_troops$§! thành luật của thiên hà."
+ resolution_defenseprivatization_repeal_4_effect_success:0 "Bãi bỏ nghị quyết §Y$resolution_defenseprivatization_security_business$§!, giữ lại nghị quyết §Y$resolution_defenseprivatization_condottieri$§! thành luật của thiên hà."
+ resolution_defenseprivatization_repeal_5_effect_success:0 "Bãi bỏ nghị quyết §Y$resolution_defenseprivatization_corporate_warlords$§!, giữ lại nghị quyết §Y$resolution_defenseprivatization_security_business$§! thành luật của thiên hà."
+ resolution_defenseprivatization_defense_contracts_tooltip:1 "Mỗi §YThành bang Lính đánh thuê§! nhận được §G+10§! sức chứa hải quân.\nViệc trả §YCổ tức Lính đánh thuê§! sẽ diễn ra thường xuyên hơn.\nTiết kiệm §G5%§! sức chứa hải quân bị chiếm dụng bởi §YHạm đội Lính đánh thuê§! được thuê, nhưng phí bảo trì năng lượng §R+10%§!."
+ resolution_defenseprivatization_private_support_troops_tooltip:1 "Mỗi §YThành bang Lính đánh thuê§! nhận được §G+20§! sức chứa hải quân.\nViệc trả §YCổ tức Lính đánh thuê§! sẽ diễn ra thường xuyên hơn.\nTiết kiệm §G10%§! sức chứa hải quân bị chiếm dụng bởi §YHạm đội Lính đánh thuê§! được thuê, nhưng phí bảo trì năng lượng §R+20%§!."
+ resolution_defenseprivatization_condottieri_tooltip:1 "Mỗi §YThành bang Lính đánh thuê§! nhận được §G+30§! sức chứa hải quân.\nViệc trả §YCổ tức Lính đánh thuê§! sẽ diễn ra thường xuyên hơn.\nTiết kiệm §G15%§! sức chứa hải quân bị chiếm dụng bởi §YHạm đội Lính đánh thuê§! được thuê, nhưng phí bảo trì năng lượng §R+30%§!.\n\n$resolution_defenseprivatization_breach$"
+ resolution_defenseprivatization_security_business_tooltip:1 "Mỗi §YThành bang Lính đánh thuê§! nhận được §G+40§! sức chứa hải quân.\nViệc trả §YCổ tức Lính đánh thuê§! sẽ diễn ra thường xuyên hơn.\nTiết kiệm §G20%§! sức chứa hải quân bị chiếm dụng bởi §YHạm đội Lính đánh thuê§! được thuê, nhưng phí bảo trì năng lượng §R+40%§!.\nKhi một §YHạm đội Lính đánh thuê§! được thuê sẽ +§G+20%§! £diplo_weight£§YTrọng lượng Ngoại giao§!.\n\n$resolution_defenseprivatization_breach$"
+ resolution_defenseprivatization_corporate_warlords_tooltip:1 "Mỗi §YThành bang Lính đánh thuê§! nhận được §G+50§! sức chứa hải quân.\nViệc trả §YCổ tức Lính đánh thuê§! sẽ diễn ra thường xuyên hơn.\nTiết kiệm §G25%§! sức chứa hải quân bị chiếm dụng bởi §YHạm đội Lính đánh thuê§! được thuê, nhưng phí bảo trì năng lượng §R+50%§!.\nKhi một §YHạm đội Lính đánh thuê§! được thuê sẽ +§G+40%§! £diplo_weight£§YTrọng lượng Ngoại giao§!.\n\n§RCấm§! §YKhông thuê hạm đội§!."
+
+ resolution_defenseprivatization_breach:0 "§RCấm§! §YGây chiến với bất kỳ Thành bang Lính đánh thuê nào được thuê§!."
+ resolution_defenseprivatization_defense_contracts_merc_naval_cap:0 "Sức chứa hải quân do Nghị quyết tạo ra"
+ resolution_defenseprivatization_private_support_troops_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_condottieri_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_security_business_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_corporate_warlords_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_security_business_merc_hired:0 "$resolution_defenseprivatization_security_business$"
+ resolution_defenseprivatization_corporate_warlords_merc_hired:0 "$resolution_defenseprivatization_corporate_warlords$"
+
+ # Suzerains & Sovereignty
+ not_allowed_for_galcom_resolution:0 "§RĐiều khoản này đã bị cấm bởi nghị quyết của Cộng đồng Thiên hà.§!"
+ galcom_tooltip_no_independent_sensors:0 "Trong thỏa thuận với các thành viên Cộng đồng Thiên hà, §Y$subject_does_not_get_sensors$§! không còn là điều khoản hợp lệ."
+ galcom_tooltip_no_independent_diplomacy:0 "Trong thỏa thuận với các thành viên Cộng đồng Thiên hà, §Y$subject_can_do_diplomacy$§! không còn là điều khoản hợp lệ."
+ galcom_tooltip_no_integration_permitted:0 "Trong thỏa thuận với các thành viên Cộng đồng Thiên hà, §Y$subject_can_be_integrated$§! không còn là điều khoản hợp lệ."
+ galcom_tooltip_no_expansion_prohibited:0 "Trong thỏa thuận với các thành viên Cộng đồng Thiên hà, §Y$subject_cannot_expand$§! không còn là điều khoản hợp lệ."
+ galcom_tooltip_no_expansion_regulated:0 "Trong thỏa thuận với các thành viên Cộng đồng Thiên hà, §Y$subject_can_expand_with_tithe$§! không còn là điều khoản hợp lệ."
+ galcom_tooltip_no_limited_diplomacy:0 "Trong thỏa thuận với các thành viên Cộng đồng Thiên hà, §Y$subject_can_not_do_diplomacy$§! không còn là điều khoản hợp lệ."
+ galcom_tooltip_no_holdings_3:0 "Trong thỏa thuận với các thành viên Cộng đồng Thiên hà, §YGiới hạn điểm tài sản (3)§! không còn là điều khoản hợp lệ."
+ galcom_tooltip_no_holdings_4:0 "Trong thỏa thuận với các thành viên Cộng đồng Thiên hà, §YGiới hạn điểm tài sản (4)§! không còn là điều khoản hợp lệ."
+ galcom_tooltip_strengthened_specialists:0 "§YThành Lũy§! có Căn cứ sao và Nền tảng phòng thủ cải tiến.\n§YHọc Viện§! có §YCảm biến Hành tinh§! cải tiến.\n§YKhai Khoáng Viện§! có §YKhám phá Tài nguyên§! cải tiến."
+
+ galcom_tooltip_ethics_tier_1:0 "Chư hầu có §Y25%§! sức hút về hệ tư tưởng cực đoan của Bá Chủ."
+ galcom_tooltip_ethics_tier_2:0 "Chư hầu có §Y50%§! sức hút về hệ tư tưởng cực đoan của Bá Chủ."
+ galcom_tooltip_ethics_tier_3:0 "Chư hầu có §Y75%§! sức hút về hệ tư tưởng cực đoan của Bá Chủ."
+
+ galcom_is_subject:0 "Là Chư hầu"
+ galcom_is_overlord:0 "Là Bá Chủ"
+
+ suzerains_sovereignty:1 "Bá Chủ và Quyền cai trị"
+
+ resolution_category_intergalacticdirective:0 "Chỉ thị Liên Ngân hà"
+ resolution_category_bureaucraticsurveillance:0 "Giám sát Quan liêu"
+
+ resolution_intergalacticdirective_regulated_growth:0 "Tăng trưởng trong tầm kiểm soát"
+ resolution_intergalacticdirective_regulated_growth_desc:0 "Bằng cách chuẩn hóa biên giới của các quốc gia thành viên, chúng ta có thể làm cho thiên hà trở nên an toàn và công bằng hơn cho tất cả mọi người. Mặc dù một số người có thể cảm thấy hệ thống quan liêu là nghẹt thở, nhưng điều này là vì lợi ích của tất cả chúng ta."
+ resolution_intergalacticdirective_ensured_sovereignty:0 "Đảm bảo Chủ quyền"
+ resolution_intergalacticdirective_ensured_sovereignty_desc:0 "Cộng đồng Thiên hà sẽ hành động tích cực để đảm bảo chủ quyền của các quốc gia thành viên thông qua các chỉ thị, đặc biệt là những quốc gia bị các đế quốc khác phá hoại chủ quyền và toàn vẹn lãnh thổ."
+ resolution_intergalacticdirective_a_voice_for_all:0 "Tiếng nói của Vạn người"
+ resolution_intergalacticdirective_a_voice_for_all_desc:0 "Bản đề xuất này sẽ đảm bảo rằng mỗi thành viên của Cộng đồng Thiên hà đều có thể lên tiếng về tương lai của đế quốc mình."
+
+ resolution_intergalacticdirective_repeal_1:0 "§RBãi bỏ $resolution_intergalacticdirective_regulated_growth$§!"
+ resolution_intergalacticdirective_repeal_1_desc:0 "Mặc dù việc một đế quốc yêu cầu biên giới của mình được tôn trọng là điều đương nhiên, nhưng các chỉ thị gần đây do Cộng đồng Thiên hà ban hành để cưỡng chế thực thi đã trở nên có phần quá đáng và quá cứng nhắc. Để đảm bảo hệ thống quan liêu có thể vận hành trôi chảy, đã đến lúc phải bãi bỏ một số mệnh lệnh trong đó."
+ resolution_intergalacticdirective_repeal_2:0 "§RBãi bỏ $resolution_intergalacticdirective_ensured_sovereignty$§!"
+ resolution_intergalacticdirective_repeal_2_desc:0 "$resolution_intergalacticdirective_repeal_1_desc$"
+ resolution_intergalacticdirective_repeal_3:0 "§RBãi bỏ $resolution_intergalacticdirective_a_voice_for_all$§!"
+ resolution_intergalacticdirective_repeal_3_desc:0 "$resolution_intergalacticdirective_repeal_1_desc$"
+
+ resolution_bureaucraticsurveillance_administrative_insight:0 "Tầm nhìn Hành chính"
+ resolution_bureaucraticsurveillance_administrative_insight_desc:0 "Là một phần trong nỗ lực hợp lý hóa hệ thống quan liêu thiên hà, chúng ta đã thúc đẩy một cấu trúc hành chính tiên tiến hơn tại Thượng viện, được thiết kế đặc biệt dành cho các quốc gia thành viên đã ký kết hiệp ước ngoại giao với nhau."
+ resolution_bureaucraticsurveillance_borderless_authority:0 "Cơ quan Thẩm quyền Không biên giới"
+ resolution_bureaucraticsurveillance_borderless_authority_desc:0 "Là một phần trong công cuộc cải cách sâu rộng hơn nữa nhằm hợp lý hóa hệ thống quan liêu nội chính, chúng ta bắt buộc phải trao thẩm quyền lớn hơn cho các quốc gia thành viên hùng mạnh trong Thượng viện."
+ resolution_bureaucraticsurveillance_personal_oversight:0 "Sự sơ suất của Cá nhân"
+ resolution_bureaucraticsurveillance_personal_oversight_desc:0 "Mặc dù phải thừa nhận rằng, trong quá trình này, chủ quyền của một số quốc gia đã bị xói mòn do ép buộc, nhưng những nỗ lực của chúng ta nhằm xóa bỏ tệ quan liêu đỏng đảnh đã cải thiện đáng kể hiệu quả làm việc của Thượng viện!"
+
+ resolution_bureaucraticsurveillance_repeal_1:0 "§RBãi bỏ $resolution_bureaucraticsurveillance_administrative_insight$§!"
+ resolution_bureaucraticsurveillance_repeal_1_desc:0 "Chúng ta đã tập trung vào việc xóa bỏ tệ quan liêu đỏng đảnh, và mặc dù đạt được một số thành công nhất định, điều này đã dẫn đến việc một số quốc gia thành viên phàn nàn rằng chủ quyền quốc gia của họ đã bị xói mòn. Giờ đây họ đang đệ trình một dự luật yêu cầu khôi phục lại một số quyền độc lập tự chủ đã mất."
+ resolution_bureaucraticsurveillance_repeal_2:0 "§RBãi bỏ $resolution_bureaucraticsurveillance_borderless_authority$§!"
+ resolution_bureaucraticsurveillance_repeal_2_desc:0 "$resolution_bureaucraticsurveillance_repeal_1_desc$"
+ resolution_bureaucraticsurveillance_repeal_3:0 "§RBãi bỏ $resolution_bureaucraticsurveillance_personal_oversight$§!"
+ resolution_bureaucraticsurveillance_repeal_3_desc:0 "$resolution_bureaucraticsurveillance_repeal_1_desc$"
+
+ #########################
+ # Triggers & Effects
+ #########################
+
+ count_available_debris_trigger:0 "Số lượng Mảnh vỡ Khả dụng"
+ effect_random_available_debris:0 "Mảnh vỡ Khả dụng Ngẫu nhiên"
+ DEBRIS_OWNERSHIP_PASSED_TO:0 "Quyền sở hữu mảnh vỡ được chuyển cho $COUNTRY|Y$"
+
+
+ #########################
+ # Modifiers
+ #########################
+
+ MOD_SHIP_FRIENDLY_TERRITORY_HULL_ADD:0 "$MOD_SHIP_HULL_ADD$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_HULL_MULT:0 "$MOD_SHIP_HULL_MULT$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_ARMOR_ADD:0 "$MOD_SHIP_ARMOR_ADD$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_ARMOR_MULT:0 "$MOD_SHIP_ARMOR_MULT$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_SHIELD_ADD:0 "$MOD_SHIP_SHIELD_ADD$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_SHIELD_MULT:0 "$MOD_SHIP_SHIELD_MULT$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_EVASION_ADD:0 "$MOD_SHIP_EVASION_ADD$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_EVASION_MULT:0 "$MOD_SHIP_EVASION_MULT$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_ACCURACY_ADD:0 "$MOD_SHIP_ACCURACY_ADD$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_ACCURACY_MULT:0 "$MOD_SHIP_ACCURACY_MULT$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_ADD:0 "$MOD_SHIP_TRACKING_ADD$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_MULT:0 "$MOD_SHIP_TRACKING_MULT$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_FRIENDLY_TERRITORY_FIRE_RATE_MULT:0 "$MOD_SHIP_FIRE_RATE_MULT$ khi nằm trong hệ sao thân thiện"
+ MOD_SHIP_OUTSIDE_FRIENDLY_TERRITORY_FIRE_RATE_MULT:0 "$MOD_SHIP_FIRE_RATE_MULT$ khi nằm ngoài hệ sao thân thiện"
+ subject_loyalty_effects:0 "Chư hầu"
+ naval_cap_unmodified:0 "$subject_loyalty_effects$"
+
+ resolution_galcom_ethic_modifier:0 "$resolution_category_bureaucraticsurveillance$"
+ resolution_galcom_ethic_modifier_desc:0 "Được sự viện trợ của Cộng đồng Thiên hà, Bá Chủ của đế quốc này có sự thấu hiểu sâu sắc hơn và quyền lực vững chắc hơn đối với các vấn đề nội bộ của chư hầu."
+
+ resolution_galcom_spiritualist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_materialist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_materialist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_materialist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_authoritarian_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_egalitarian_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_xenophile_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophile_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophile_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_xenophobe_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_militarist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_militarist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_militarist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_pacifist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_pacifist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_pacifist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_bulwark_modifier:0 "$resolution_intergalacticdirective_a_voice_for_all$"
+ resolution_galcom_bulwark_modifier_desc:0 "Được hỗ trợ bởi luật pháp và chính sách của Cộng đồng Thiên hà, sức mạnh của họ đã được tăng cường."
+
+ #########################
+ # Opinion Modifiers
+ #########################
+ opinion_imperial_overlord_ai_opinion:0 "Bá Chủ nhân từ"
+ opinion_imperial_vassal_ai_opinion:0 "Bạn đồng trang lứa gần đây"
+ opinion_imperial_vassal_new_overlord:0 "Người bảo hộ mới"
+ opinion_imperial_vassal_refused_overlordship:0 "Từ chối quyền bá chủ"
+ opinion_imperial_vassal_grateful_response_overlord_opinion:0 "Biết ơn"
+ opinion_imperial_vassal_harsh_response_overlord_opinion:0 "Thất vọng"
+
+ ####################
+ # Assorted Tooltips
+ ####################
+
+ dialog_friendly_tt:0 "Chúng ta sẽ thực hiện thái độ §Gthân thiện§!."
+ dialog_neutral_tt:0 "Chúng ta sẽ thực hiện thái độ §Ytrung lập§!."
+ dialog_wary_tt:0 "Chúng ta sẽ thực hiện thái độ §Ycẩn trọng§!."
+ dialog_hostile_tt:0 "Chúng ta sẽ thực hiện thái độ §Rthù địch§!."
+
+ is_a_signatory_vassal:0 "Là quốc gia ký kết."
+ is_not_a_signatory_vassal:0 "Không phải là quốc gia ký kết."
+ is_a_signatory_vassal_success:0 "$TRIGGER_PASS$$is_a_signatory_vassal$"
+ is_a_signatory_vassal_fail:0 "$TRIGGER_FAIL$$is_a_signatory_vassal$"
+ is_not_a_signatory_vassal_success:0 "$TRIGGER_PASS$$is_not_a_signatory_vassal$"
+ is_not_a_signatory_vassal_fail:0 "$TRIGGER_FAIL$$is_not_a_signatory_vassal$"
+
+ same_federation_as_overlord:0 "$TRIGGER_FAIL$Chư hầu không thể tham gia Liên bang nếu Bá Chủ không nằm trong Liên bang đó"
+ requires_not_subject_or_subject_asking_overlord:0 "$TRIGGER_FAIL$§RChư hầu chỉ có thể hỏi xem Bá Chủ có cho phép gia nhập Liên bang mà Bá Chủ đang tham gia hay không§!"
+ requires_not_subject_or_overlord_asking:0 "$TRIGGER_FAIL$§RChư hầu chỉ có thể được Bá Chủ mời gia nhập Liên bang mà Bá Chủ đang tham gia§!"
+ requires_not_subject_to_start_federation:0 "$TRIGGER_FAIL$§RChư hầu chỉ có thể cùng thành lập Liên bang với Bá Chủ của mình§!"
+ requires_not_guaranteeing_independence:0 "$TRIGGER_FAIL$§RTrước khi đề nghị quy thuận, chúng ta phải rút lại sự bảo đảm độc lập đối với họ.§!"
+
+ STARBASE_AURA_MERCENARY_GARRISON:0 "Doanh trại Lính đánh thuê"
+ aura_starbase_mercenary_garrison:0 "Hào quang phòng thủ — Doanh trại Lính đánh thuê"
+
+ # Ambient Object
+ central_crystal_gateway:0 "Cổng Sao Nội bộ"
+ central_crystal_gateway_desc:0 "Một Cổng Sao bí ẩn, có vẻ như đã cắt đứt liên kết với bất kỳ Cổng Sao nào trong thiên hà."
+
+ ##################
+ # Civics Changes
+ ##################
+
+ civic_private_military_companies_ove:0 "$civic_private_military_companies$"
+ civic_private_military_companies_ove_desc:0 "$civic_private_military_companies_desc$"
+ civic_naval_contractors_ove:0 "$civic_naval_contractors$"
+ civic_naval_contractors_ove_desc:0 "$civic_naval_contractors_desc$"
+ civic_barbaric_despoilers_ove:0 "$civic_barbaric_despoilers$"
+ civic_barbaric_despoilers_ove_desc:0 "$civic_barbaric_despoilers_desc$"
+ civic_warrior_culture_ove:0 "$civic_warrior_culture$"
+ civic_warrior_culture_ove_desc:0 "$civic_warrior_culture_desc$"
+
+ ##################
+ # New Ascension Perk
+ ##################
+
+ ap_lord_of_war:0 "Chúa tể Chiến tranh"
+ ap_lord_of_war_desc:0 "Có người nói chiến tranh không tốt cho việc làm ăn, nhưng với chúng ta, chiến tranh chính là việc làm ăn. Lính đánh thuê của chúng ta có thể kiếm được bộn tiền trong những hệ sao chìm trong khói lửa chiến tranh, và chúng ta tình cờ cũng có thể \"cùng nhau làm giàu\" với họ."
+ ap_lord_of_war_tooltip:0 "Các §YThành bang Lính đánh thuê§! do chúng ta bảo trợ sẽ trả §YCổ tức§! thường xuyên hơn."
+
+ ################
+ # Initializers #
+ ################
+ NAME_Auge:0 "Auge"
+ NAME_Anatole:0 "Anatole"
+ NAME_Mousika:0 "Mousika"
+ NAME_Mesembria:0 "Mesembria"
+ NAME_Dysis:0 "Dysis"
+ NAME_Hesperis:0 "Hesperis"
+ NAME_Arktos:0 "Arktos"
+

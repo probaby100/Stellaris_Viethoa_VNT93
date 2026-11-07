@@ -1,0 +1,630 @@
+﻿l_english:
+
+ ##THE WORLD IS BLEEDING
+ strange_worlds.1.name: "Hành Tinh Rỉ Máu"
+ strange_worlds.1.desc: "Bề mặt của §Y[Root.GetName]§! đang biểu lộ một phản ứng chưa từng có tiền lệ đối với các nỗ lực xây dựng của chúng ta. Một chất lỏng nhớt không xác định đang bắt đầu rỉ ra từ móng của các công trình trọng yếu.\n\nChất rỉ ra này là một loại chất lỏng màu đỏ thẫm; bề ngoài sền sệt như thạch nhưng lại cực kỳ dính khi chạm vào.\n\nCác [Owner.GetScientistPlural] của chúng ta rất nóng lòng muốn nghiên cứu thêm về dịch tiết này. Hiện tại nó mới chỉ gây ra đôi chút phiền toái, nhưng cẩn trọng bảo đảm an toàn cho các [Owner.GetColonistPlural] vẫn là điều khôn ngoan."
+
+ strange_worlds.5.name: "Xuất Huyết Diện Rộng"
+ strange_worlds.5.desc: "§Y[Root.GetName]§! báo cáo về những diễn biến đáng lo ngại liên quan đến chất nhờn đỏ thẫm kỳ lạ.\n\nChất này đang dần trở nên mất kiểm soát, phun trào với tốc độ ngày càng lớn khắp các khu vực bị ảnh hưởng.\n\nTuy nhiên, chất nhờn không phải là hoàn toàn vô dụng. Khi đông tụ lại, đặc tính kết dính của nó càng trở nên rõ rệt hơn, tạo thành một lớp xi măng tự nhiên hữu hiệu có thể dùng để gia cố cho các công trình xây dựng của chúng ta.\n\nThế nhưng điều đáng quan ngại là chất này gần như không thể tẩy sạch khỏi cơ thể bất kỳ [Owner.GetColonistPlural] nào vô tình tiếp xúc với nó. Việc nỗ lực điều trị và nghiên cứu những người bị ảnh hưởng sẽ cho phép chúng ta thu thập thêm thông tin, nhưng sẽ làm chậm tiến độ xây dựng."
+
+ strange_worlds.5.a: "Điều trị và nghiên cứu những người bị phơi nhiễm."
+ strange_worlds.5.b: "Tiếp tục xây dựng."
+
+ strange_worlds.15.name: "Ngọn Núi Máu"
+ strange_worlds.15.desc: "Công cuộc xây dựng trên §Y[Root.GetName]§! vẫn tiếp tục với tốc độ phi thường, nhưng sự xuất hiện của chất nhờn nhớt quánh không còn giới hạn ở móng của các công trình nữa.\n\nNhững vết nứt xuất huyết đã được phát hiện tại nhiều địa điểm. Ban đầu chỉ có các vật thể phi bản địa trên [Root.GetName] bị ảnh hưởng, nhưng giờ đây nó đang lan rộng một cách bừa bãi không phân biệt.\n\nVật chất này hiện đã nuốt chửng một phần lớn bề mặt của [Root.GetName] và đang nhanh chóng đông kết thành một lớp khoáng chất đông tụ dày đặc bao bọc lấy [Root.GetName].\n\nThông qua các thử nghiệm tốn kém đầy gian nan, các kỹ sư của chúng ta đã tìm ra phương pháp giảm thiểu thiệt hại tiếp theo cũng như khai thác chất này một cách hiệu quả. Điều này chỉ có thể thực hiện được bằng cái giá phải nhượng lại một vùng đất đáng kể cho chất nhờn."
+ strange_worlds.15.a: "Một diễn biến thú vị."
+
+ strange_worlds.20.name: "Ký Sinh Trùng"
+ strange_worlds.20.desc: "Sau quá trình nghiên cứu kỹ lưỡng và điều trị cho các công nhân bị phơi nhiễm trên §Y[Root.GetName]§!, các nhà khoa học của chúng ta đã cô lập được căn nguyên của vấn đề.\n\nThứ ban đầu trông như một chất keo sền sệt thực chất là một tập hợp các vi sinh vật ký sinh tạo mối quan hệ cộng sinh với hành tinh. Những ký sinh trùng này phân hủy vật chất hữu cơ bên dưới lớp vỏ của [Root.GetName] và tái chế nó thành vật liệu mới.\n\nSự xáo trộn do quá trình phát triển [Root.GetName] gây ra đã làm gián đoạn vòng đời tự nhiên của chúng, khiến chúng phản ứng dữ dội với các dị chất mà chúng ta đưa vào hệ sinh thái.\n\nNếu có thêm thời gian, đội ngũ khoa học tự tin rằng chúng ta có thể tìm ra cách sống hòa hợp với các dạng sống này, tích hợp sinh học độc đáo của chúng vào dây chuyền sản xuất của [Root.GetName]."
+ strange_worlds.20.a: "Thật hấp dẫn, hãy tiếp tục."
+
+ strange_worlds.25.name: "Mối Quan Hệ Đôi Bên Cùng Có Lợi"
+ strange_worlds.25.desc: "Thông qua nghiên cứu sâu rộng, các nhà khoa học của chúng ta đã biến đổi gen thành công một biến thể của loài vi sinh vật ký sinh trên §Y[Root.GetName]§!. Đột biến này được thiết kế để nhận diện vật liệu của chúng ta là những thành phần vô hại đối với hệ sinh thái tự nhiên của chúng, cho phép chúng ta tiếp tục xây dựng mà không gặp thêm trở ngại nào.\n\nSau khi thả chúng vào sinh quyển của hành tinh, các ký sinh trùng được biến đổi gen đã hòa nhập thành công mỹ mãn.\n\nHơn nữa, bằng cách tái định hướng các hiệu ứng phân hủy ban đầu của vi sinh vật, chúng ta đã khai thác được đặc tính kết dính của chất này để thúc đẩy các quy trình sản xuất trên hành tinh."
+ strange_worlds.25.a.evopred: "Và chúng có thể dạy cho chúng ta điều gì?"
+
+ strange_worlds.30.name: "Từ Hư Không Xuất Hiện"
+ strange_worlds.30.desc: "Trong khi chúng ta đang chuẩn bị mặt bằng để mở rộng thuộc địa trong tương lai trên §Y[Root.GetName]§!, một công trình khổng lồ dường như vừa chớp mắt hiện ra giữa thinh không.\n\nCông trình này đang phát ra những làn sóng năng lượng cực kỳ bất ổn định, khiến nó lúc ẩn lúc hiện ngắt quãng trước mắt thường. Điều này giải thích tại sao nó không hề xuất hiện trong các lần quét ban đầu của khu vực này.\n\nKhi hiện hình, các biểu tượng khó hiểu được khắc kín bề mặt ngoài niêm phong của nó, nhưng không trùng khớp với bất kỳ ngôn ngữ nào trong cơ sở dữ liệu của chúng ta.\n\nChưa thể nhận biết được công năng cụ thể của nó. Cho đến nay kiến trúc này chưa gây ra tổn hại nào, nhưng nó đang cản trở các nỗ lực phát triển của chúng ta."
+ strange_worlds.30.a: "Điều tra."
+
+ strange_worlds.35.name: "Dị Thường Thị Giác"
+ strange_worlds.35.desc.no_cloak: "Phân tích về công trình lung linh mờ ảo trên §Y[Root.GetName]§! cho chúng ta phỏng đoán rằng vật thể này đang bẻ cong hoặc làm biến dạng ánh sáng bằng cách nào đó.$strange_worlds.35.desc.common_1$Mặc dù hiểu biết của chúng ta về đặc tính của công trình ngày càng tăng, nhưng đến nay chúng ta vẫn chưa thể xâm nhập vào bên trong — nếu quả thực có thể làm được điều đó.$strange_worlds.35.desc.common_2$"
+ strange_worlds.35.desc.cloak: "Phân tích về công trình lung linh mờ ảo trên §Y[Root.GetName]§! cho chúng ta phỏng đoán rằng vật thể này bằng cách nào đó đang tạo ra một hiệu ứng tàng hình ngắt quãng.$strange_worlds.35.desc.common_1$Mặc dù hiểu biết của chúng ta về hiệu ứng tàng hình của công trình ngày càng sâu sắc, nhưng đến nay chúng ta vẫn chưa thể xâm nhập vào bên trong — nếu quả thực có thể làm được điều đó.$strange_worlds.35.desc.common_2$"
+ strange_worlds.35.desc.common_1: "\n\nHoạt động địa nhiệt đặc biệt đã được phát hiện trong lớp manti silicat bên dưới. Nguồn năng lượng hùng hậu này cung cấp năng lượng cho công trình cô lập, nhưng mức năng lượng của nó đang dao động dữ dội.\n\n"
+ strange_worlds.35.desc.common_2: "\n\nBề mặt ngoài niêm phong của nó bao gồm các vật liệu lạ lẫm và có tính phản ứng cao. Những nỗ lực ban đầu nhằm phá cửa đột nhập chỉ càng làm cho trường điện từ của công trình thêm mất ổn định. Chúng ta có thể dùng máy cắt phá đường tiến vào để tìm hiểu thêm, nhưng nguy cơ mất ổn định khó lường là vô cùng lớn."
+ strange_worlds.35.a: "Sử dụng vũ lực thô bạo."
+ strange_worlds.35.b: "Tiếp tục nghiên cứu từ bên ngoài."
+
+ strange_worlds.40.name: "Phản Ứng Dây Chuyền Mất Kiểm Soát"
+ strange_worlds.40.desc: "Những nỗ lực phá cửa xông vào công trình trên §Y[Root.GetName]§! đã kết thúc trong thảm họa. Thiết bị của chúng ta đã làm mất ổn định thêm các mô thức năng lượng của công trình, châm ngòi cho một chuỗi các vụ nổ cực mạnh. Giờ đây nó chỉ còn là một đống xác tàn tro bụi.\n\nSự hủy diệt tình cờ của nó lại mang đến một kết quả không ngờ. Tàn tích đổ nát của một khu định cư ngoài hành tinh bị bỏ hoang từ lâu đã lộ diện ở thung lũng gần đó.\n\nDường như vật thể này bằng cách nào đó đã phóng ra một trường tàng hình mạnh mẽ bao trùm lên thuộc địa cũ; việc họ đang trốn tránh điều gì vẫn là một bí ẩn, nhưng điều chắc chắn là họ đã diệt vong bất kể mọi nỗ lực. Không có gì còn nguyên vẹn mang giá trị khảo cổ.\n\nCơ chế hoạt động chính xác của công nghệ dị thường này vẫn là điều bí ẩn đối với chúng ta, nhưng chúng ta đã lượm lặt được một số tri thức mới từ trải nghiệm này. Chúng ta sẽ tái định hướng nguồn địa nhiệt dồi dào này để phục vụ cho thuộc địa của chính mình."
+ strange_worlds.40.a: "Một khám phá quý giá."
+ strange_worlds.40.a_ct: "Đã dọn dẹp Chướng ngại §YCông Trình Lung Linh Mờ Ảo§!"
+
+ strange_worlds.45.name: "Khoang Chỉ Huy"
+ strange_worlds.45.desc.intro: "Nghiên cứu sâu hơn về các ký tự kỳ lạ trên bề mặt ngoài của công trình ngoài hành tinh trên §Y[Root.GetName]§! đã tiết lộ rằng chúng thực chất là một dạng giao diện điều khiển. Chúng ta đã có thể thao tác với chúng để mở ra cánh cửa bí mật dẫn vào không gian bên trong hoang vắng, để lộ ra một khoang điều khiển rộng lớn.\n\nDù chưa nắm rõ cơ chế vận hành sâu xa, nhưng chúng ta đã hiểu được các mệnh lệnh cơ bản thông qua phương pháp thử và sai. Việc can thiệp vào các chức năng của nó đã mang lại kết quả bất ngờ; tàn tích hoang tàn của một khu định cư người ngoài hành tinh bị bỏ hoang từ lâu đã xuất hiện tại thung lũng lân cận.\n\nCó vẻ như vật thể này đã phóng ra một trường tàng hình hùng mạnh lên thuộc địa trước đây; việc họ trốn tránh điều gì vẫn là một ẩn số, nhưng chắc chắn họ đã diệt vong bất chấp nỗ lực của mình. Dù không còn cổ vật nào nguyên vẹn, các nhà khoa học của chúng ta đã tận dụng khoang điều khiển này một cách tuyệt vời."
+ strange_worlds.45.desc.a: "$strange_worlds.45.desc.intro$\n\nGiờ đây chúng ta có thể ổn định hóa và mở rộng hiệu ứng tàng hình kỳ lạ của công trình để bao phủ toàn bộ thung lũng. Đây sẽ là sự nâng cấp vượt bậc cho sự an toàn của thuộc địa chúng ta."
+ strange_worlds.45.desc.b: "$strange_worlds.45.desc.intro$\n\nGiờ đây chúng ta có thể ổn định hóa và mở rộng trường tàng hình của công trình để bảo vệ toàn bộ thung lũng, đồng thời gia tăng đáng kể hiểu biết về các công nghệ tàng hình."
+ strange_worlds.45.a: "Một khám phá quý giá."
+
+ strange_worlds.55.name: "Cú Sốc Thiên Nhiên"
+ strange_worlds.55.desc.intro: "Một quần thể sinh vật khổng lồ ăn thực vật đông đúc đã bắt đầu làm gián đoạn quá trình sản xuất năng lượng trên §Y[Root.GetName]§!. Bằng những màn tự sát hàng loạt đầy kịch tính, chúng tự lao vào giật điện đến cháy khét trên các trạm phát điện của chúng ta.\n\nNhững con thú này thể hiện một ý chí cực kỳ mãnh liệt, xông thủng cả các hàng rào bao quanh lưới điện để đạt được mục đích. Hoạt động phát điện đang chịu tổn thất nặng nề do hành vi kỳ quặc này.\n\n"
+ strange_worlds.55.desc.outro: "Loài này đóng vai trò then chốt trong hệ sinh thái của hành tinh. Với tốc độ xảy ra các vụ việc như hiện nay, chúng sẽ sớm tự đẩy mình vào chỗ tuyệt chủng."
+ strange_worlds.55.desc.a: "$strange_worlds.55.desc.intro$Tuy nhiên, điều này lại mang đến một lợi ích bất ngờ là gia tăng sản lượng lương thực, khi các [Owner.GetColonistPlural] phát hiện ra rằng thịt của loài sinh vật này cực kỳ thơm ngon.\n\n$strange_worlds.55.desc.outro$"
+ strange_worlds.55.desc.b: "$strange_worlds.55.desc.intro$Mặc dù việc này làm tăng lượng sinh khối mà chúng ta có thể thu hoạch, nhưng nó lại gây ra khá nhiều phiền toái.\n\n$strange_worlds.55.desc.outro$"
+ strange_worlds.55.a: "Điều tra hành vi này."
+
+ strange_worlds.60.name: "Sinh Lý Học Xúc Tác"
+ strange_worlds.60.desc: "Chúng ta đã thu được những hiểu biết quý giá về loài cự thú có hành vi tự sát trên §Y[Root.GetName]§!. \n\nNhững cự thú này thực chất bị mù chức năng, chúng dùng cơ chế định vị bằng sóng âm để nhìn và nhận diện lẫn nhau. Chúng ta nghi ngờ rằng các lưới điện đang phát ra một tần số làm cho thính giác nhạy bén của chúng bị quá tải, kích hoạt hành vi hung hãn nhắm vào các trạm phát điện.\n\nThêm vào đó, chúng ta nhận thấy rằng các enzyme tiêu hóa độc đáo của chúng có thể hoạt động như một chất xúc tác trong quá trình tinh luyện luyện kim. Các thử nghiệm ban đầu cho thấy tiềm năng to lớn trong việc nâng cao sản lượng hợp kim.\n\nBất chấp những phát hiện này, chúng ta vẫn còn một chặng đường dài phía trước để có thể nối lại hoạt động sản xuất năng lượng bình thường. Các nhà khoa học của chúng ta vẫn đang tiếp tục điều tra vụ việc."
+ strange_worlds.60.a: "$FASCINATING$"
+
+ strange_worlds.65.name: "Lực Hút Động Vật"
+ strange_worlds.65.desc.intro: "Chúng ta đã xác định được nguyên nhân đằng sau xung động tự sát hung hãn của các sinh vật trên [Root.GetName].\n\nNghiên cứu quan sát sâu hơn về định vị sóng âm và tập tính xã hội của chúng đã tiết lộ một sự thật kinh ngạc: tiếng gọi bạn tình của chúng có tần số gần như trùng khớp hoàn hảo với âm thanh do các lưới điện phát ra.\n\n"
+ strange_worlds.65.desc.common: "Chúng ta có thể tái tạo tiếng kêu của những con thú này để chuyển hướng lộ trình di cư của chúng ra xa khỏi thuộc địa, qua đó ổn định lại số lượng quần thể. Điều này sẽ cho phép chúng ta thu hoạch các enzyme xúc tác từ chất thải của chúng để tăng cường sản lượng hợp kim, trong khi vẫn tiếp tục nghiên cứu sinh lý học độc đáo của chúng.\n\nMặt khác, về phía [Owner.GetSpeciesHandName],\n\n"
+ strange_worlds.65.desc.outro: "Chúng ta có thể dễ dàng tạo ra các máy thu hoạch tích điện chuyên dụng để xử lý hiệu quả những con vật này mà không làm gián đoạn sản xuất năng lượng."
+ strange_worlds.65.desc.devouring_swarm: "$strange_worlds.65.desc.intro$Thật tiện lợi, chúng ta có thể sử dụng kiến thức này để dẫn dụ lũ sinh vật vào các bẫy thu hoạch chuyên dụng. Hãy mở tiệc thôi."
+ strange_worlds.65.desc.food: "$strange_worlds.65.desc.intro$$strange_worlds.65.desc.common$Những sinh vật này đã trở thành món ăn chính yếu trong khẩu phần của §Y[Root.GetName]§!.\n\n$strange_worlds.65.desc.outro$"
+ strange_worlds.65.desc.no_food: "$strange_worlds.65.desc.intro$Những sinh vật này là một nguồn sinh khối dồi dào và bền vững trên §Y[Root.GetName]§!\n\n$strange_worlds.65.desc.outro$"
+ strange_worlds.65.a: "Thu hoạch phân và chất thải của chúng"
+ strange_worlds.65.b_devouring_swarm: "Đến giờ mở tiệc rồi!"
+ strange_worlds.65.b_default: "Thu hoạch thịt của chúng."
+
+ strange_worlds.75.name: "Những Hạt Cát Kỳ Lạ"
+ strange_worlds.75.desc: "Các [Owner.GetColonistPlural] báo cáo về hiện tượng kỳ lạ với những bãi cát trên §Y[Root.GetName]§!. \n\nNhững cơn bão cát dữ dội bất ngờ xuất hiện ngay sát khu thuộc địa trong những ngày thời tiết vốn dĩ rất êm đềm. Những dòng sông cát chảy xiết xuất hiện từ hư không rồi lại dừng lại đột ngột như lúc bắt đầu. Thậm chí còn có những báo cáo về các cồn cát di chuyển ngang vào một ngày hoàn toàn lặng gió.\n\nCho đến nay vẫn chưa tìm thấy bất kỳ lời giải thích khí quyển hay địa chất nào cho những sự kiện này.\n\nNhững hạt cát kỳ dị này không gây hại trực tiếp cho chúng ta, nhưng chúng đang cản trở các hoạt động của thuộc địa. Công tác nghiên cứu hiện tượng độc đáo này vẫn đang được tiến hành."
+ strange_worlds.75.a: "Thật kỳ lạ."
+
+ strange_worlds.80.name: "Cát Biết Hát"
+ strange_worlds.80.desc: "Những cơn bão cát trên §Y[Root.GetName]§! đã bắt đầu phát ra âm thanh vo ve trầm đục. Tần số của nó thường xuyên thay đổi cao độ và điều biến theo các mô thức lặp đi lặp lại.\n\nMặc dù hiện tượng \"cát biết hát\" này có thể quy cho các đặc tính đã biết của các hạt tự do, nhưng tính quy luật của những biến điệu này không thể chỉ giải thích bằng ma sát thuần túy.\n\nChúng ta cũng tìm thấy một thung lũng ngập tràn các cồn cát được khắc những biểu tượng kỳ lạ. Những cổ ngữ này xuất hiện thoáng qua dưới dạng các cấu trúc nhô lên trước khi tan biến gần như ngay lập tức.\n\nThứ gì đang làm cho cát chuyển động vẫn chưa rõ ràng, nhưng bản chất nhất quán của các mô thức cho thấy có một mục đích hoặc chủ ý đằng sau hành vi của nó."
+ strange_worlds.80.a: "Nghiên cứu các mô thức."
+
+ strange_worlds.85.name: "Cát Tâm Linh"
+ strange_worlds.85.desc_part1_no_zro: "Các [Owner.GetScientistPlural] nghiên cứu bão cát trên §Y[Root.GetName]§! đã phát hiện ra một dạng vật chất ngoại lai mới phân bố khắp vật liệu silicat."
+ strange_worlds.85.desc_part1_zro: "Các [Owner.GetScientistPlural] nghiên cứu bão cát trên §Y[Root.GetName]§! đã phát hiện ra rằng Zro phân bố rải rác khắp vật liệu silicat."
+ strange_worlds.85.desc_part2_non_machine_common_no_psionic_zroni: "\nTrong khi xử lý các mẫu vật, các [Owner.GetResearchers] đã trải qua những ảo ảnh ngắn ngủi nhưng cực kỳ mạnh mẽ. Họ nhìn thấy các bóng ma của những nhân hình Zroni lang thang trên các cồn cát khắc cổ ngữ của hành tinh."
+ strange_worlds.85.desc_part2_non_machine_common_no_psionic_no_zroni: "\nTrong khi xử lý các mẫu vật, các [Owner.GetResearchers] đã trải qua những ảo ảnh ngắn ngủi nhưng cực kỳ mạnh mẽ. Họ nhìn thấy các bóng ma của những nhân hình người ngoài hành tinh xa lạ lang thang trên các cồn cát khắc cổ ngữ của hành tinh."
+ strange_worlds.85.desc_part2_non_machine_common_psionic_zroni: "\nTrong khi xử lý các mẫu vật, các [Owner.GetResearchers] đã trải qua những linh cảm tâm linh ngắn ngủi nhưng đầy uy lực. Họ nhìn thấy các bóng ma của những nhân hình Zroni lang thang trên các cồn cát khắc cổ ngữ của hành tinh."
+ strange_worlds.85.desc_part2_non_machine_common_psionic_no_zroni: "\nTrong khi xử lý các mẫu vật, các [Owner.GetResearchers] đã trải qua những linh cảm tâm linh ngắn ngủi nhưng đầy uy lực. Họ nhìn thấy các bóng ma của những nhân hình người ngoài hành tinh xa lạ lang thang trên các cồn cát khắc cổ ngữ của hành tinh."
+ strange_worlds.85.desc_part2_machine_common: "\nTrong khi xử lý các mẫu vật, các [Owner.GetResearchers] đã gặp phải hiện tượng nhiễu loạn trong hệ thống mạch điện nội bộ.\n\n"
+ strange_worlds.85.desc_part2_machine_zroni: "$strange_worlds.85.desc_part2_machine_common$Những gián đoạn mạnh mẽ này gây ra sự cố trong quá trình xử lý thị giác, dẫn đến ảo giác về các nhân hình Zroni lang thang trên các cồn cát khắc cổ ngữ của hành tinh."
+ strange_worlds.85.desc_part2_machine_no_zroni: "$strange_worlds.85.desc_part2_machine_common$Những gián đoạn mạnh mẽ này gây ra sự cố trong quá trình xử lý thị giác, dẫn đến ảo giác về các nhân hình người ngoài hành tinh xa lạ lang thang trên các cồn cát khắc cổ ngữ của hành tinh."
+ strange_worlds.85.desc_part3_common: "\nNhững bóng ma này dường như chính là nguồn gốc của các cổ ngữ. Việc giải mã các biểu tượng rất tốn thời gian, nhưng chúng ta tin rằng đây rõ ràng là một dạng ngôn ngữ viết nào đó.\n\n"
+ strange_worlds.85.desc_part3_zro: "$strange_worlds.85.desc_part3_common$Chúng ta có thể chỉ đơn giản là chiết xuất Zro từ cát, nhưng làm vậy có khả năng sẽ khiến các bóng ma tan biến. Tuy nhiên, lượng vật chất quý giá này là vô cùng to lớn."
+ strange_worlds.85.desc_part3_no_zro: "$strange_worlds.85.desc_part3_common$Chúng ta có thể chỉ đơn giản là chiết xuất vật chất ngoại lai từ cát, nhưng làm vậy có thể khiến các bóng ma tan biến. Tuy nhiên, thứ vật chất độc đáo thách thức mọi định luật vật lý này có thể sẽ mang lại giá trị rất cao."
+ strange_worlds.85.a: "Tiếp tục nỗ lực dịch thuật."
+ strange_worlds.85.b_no_zro: "Chiết xuất vật chất ngoại lai ngay lập tức."
+ strange_worlds.85.b_zro: "Chiết xuất Zro ngay lập tức."
+
+ strange_worlds.90.name: "Cảnh Tượng Kỳ Thú Của Cát"
+ strange_worlds.90.desc_intro_zroni: "Chúng ta đã sử dụng kiến thức trước đây về văn hóa Zroni để khắc một cổ ngữ mới lên những bãi cát trên §Y[Root.GetName]§!; biểu tượng cho lời chào của người Zroni. Lời hồi đáp đã đến gần như ngay lập tức."
+ strange_worlds.90.desc_intro_no_zroni: "Sử dụng cơ sở dữ liệu ngôn ngữ, chúng ta đã khắc hàng trăm biểu tượng đại diện cho lời chào bằng mọi văn tự ngoài hành tinh đã biết lên cát trên §Y[Root.GetName]§!. Cuối cùng, một lời hồi đáp đã xuất hiện."
+ strange_worlds.90.desc_common: "\nBão cát tan dần, đáy thung lũng lắng xuống, và bài ca của cồn cát chìm vào thinh lặng. Toàn bộ các cồn cát sau đó nhấc bổng lên không trung, mang những hình dạng mới trong quá trình này. Những nhân hình tạo thành từ cát sống động cuộn xoáy trong một cảnh tượng ngoạn mục trên không trung.\n\n"
+ strange_worlds.90.desc_storyline_started: "$strange_worlds.90.desc_common$Chúng ta ngay lập tức nhận ra đây là một câu chuyện về loài Zroni; viễn cảnh về một nguồn sức mạnh mới khám phá và cuộc xung đột kinh hoàng. Được kích hoạt bởi Zro bên trong, những hạt cát này tạo nên tiếng vọng vũ trụ về chủng tộc Zroni cổ xưa.$strange_worlds.90.desc_outro$"
+ strange_worlds.90.desc_storyline_finished: "$strange_worlds.90.desc_common$Chúng ta ngay lập tức nhận ra đây chính là câu chuyện về người Zroni; sự thăng hoa của họ vào Màn Màn (Shroud) và sự hủy diệt sau đó. Được tiếp sức bởi Zro bên trong, những hạt cát này đã tạo nên một tiếng vọng vũ trụ về số phận bi thảm của Zroni.$strange_worlds.90.desc_outro$"
+ strange_worlds.90.desc_storyline_not_started: "$strange_worlds.90.desc_common$Chúng ta chỉ hiểu rằng đây là câu chuyện về một chủng tộc ngoài hành tinh đã khám phá ra một nguồn sức mạnh mới, thứ cuối cùng đã chia rẽ và hủy diệt chính họ.$strange_worlds.90.desc_outro$"
+ strange_worlds.90.desc_outro: "\n\nSau đó, cát tâm linh lại lắng xuống một lần nữa. Những cơn bão không còn quay trở lại; chúng ta chỉ có thể tin rằng những hạt cát này đã trở nên hòa nhã hơn với sự hiện diện của chúng ta trên §Y[Root.GetName]§!."
+ strange_worlds.90.a: "$FASCINATING$"
+
+ strange_worlds.95.name: "Chiến Dịch Thu Hoạch"
+ strange_worlds.95.desc_zroni_tech: "Nhờ chuyên môn vững vàng trong việc Chưng Cất Zro, chúng ta đã chiết xuất được một lượng đáng kể từ cát trên §Y[Root.GetName]§!, học hỏi được rất nhiều điều trong suốt quá trình.$strange_worlds.95.desc_outro$"
+ strange_worlds.95.desc_no_zroni_tech: "Các nỗ lực thu hoạch Zro trên §Y[Root.GetName]§! mang lại kết quả lẫn lộn. Chúng ta đã chiết xuất thành công một lượng nhỏ, nhưng phần lớn đã bị hao hụt trong quá trình thử nghiệm. Dù vậy, chúng ta vẫn học hỏi được rất nhiều điều qua quy trình này.$strange_worlds.95.desc_outro$"
+ strange_worlds.95.desc_outro: "\n\nKhi tạp chất Zro đã bị loại bỏ, cát ở đây dường như đã trở lại bình thường. Thuộc địa của chúng ta không còn gặp phải các hiện tượng bão cát khó lường nữa. Bất cứ thứ gì từng thao túng những bãi cát này giờ đây đã vĩnh viễn tan biến vào cõi thinh không."
+
+ strange_worlds.105.name: "Mất Tích Đột Ngột"
+ strange_worlds.105.desc_intro: "Mọi liên lạc đã bị cắt đứt với một trong những [Owner.GetExplorer] của chúng ta trên §Y[Root.GetName]§!, ngay sau khi họ báo cáo về một phát hiện tiềm năng về §YKhí Dị Thường§! trong một thung lũng chưa từng được vẽ bản đồ trước đây.\n\n"
+ strange_worlds.105.desc_gestalt_non_machine: "Chúng ta cảm nhận được một cơn đau nhói ngắn ngủi nhưng xé ruột trước khi các nút rơi vào im lặng hoàn toàn."
+ strange_worlds.105.desc_gestalt_machine: "Dữ liệu của các nút đã bị hỏng trước khi chuyển sang ngoại tuyến. Chúng không còn kết nối với mạng lưới của chúng ta nữa."
+ strange_worlds.105.desc_non_gestalt: "Đáng lo ngại là đường truyền cuối cùng của họ đã bị ngắt đột ngột bằng âm thanh nghe như tiếng gào thét đau đớn xé lòng. Chúng ta lo sợ điều tồi tệ nhất đã xảy ra."
+ strange_worlds.105.a: "Thật đáng lo ngại."
+
+ strange_worlds.110.name: "Những Hồ Nước Ăn Mòn"
+ strange_worlds.110.desc: "Trong khi điều tra vị trí cuối cùng được biết đến của [Owner.GetExplorer] mất tích trên §Y[Root.GetName]§!, chúng ta đã phát hiện ra một vùng đầm lầy có tính axit cực cao đang bốc lên một làn sương mù chứa đầy §YKhí Dị Thường§! tinh khiết. Những đầm lầy này là ngôi nhà của một loài thực vật bản địa kiên cường có khả năng sống sót trong môi trường axit cực đoan.\n\nMặc dù địa hình này rất nguy hiểm, việc tiến hành nghiên cứu sâu hơn về làn sương khí có thể mang lại nhiều lợi ích cho nguồn tài nguyên của thuộc địa."
+ strange_worlds.110.a: "Nghiên cứu những làn sương mù này."
+
+ strange_worlds.115.name: "Đầm Lầy Tiêu Hóa"
+ strange_worlds.115.desc: "Trong khi nghiên cứu các đầm lầy axit trên §Y[Root.GetName]§!, một trong các [Owner.GetScientistPlural] cùng thiết bị quan sát của họ đã bị cuốn chặt bởi những tua cuốn của loài thực vật bản địa trước khi bị kéo xuống một hồ nước có tính ăn mòn cực mạnh. Họ bị hòa tan gần như ngay tức khắc. Chúng ta tin rằng một số phận tương tự đã giáng xuống đầu [Owner.GetExplorer] mất tích.\n\nNgay sau đó, các tua của thực vật căng phồng lên rõ rệt và dấu vết của §YKhí Dị Thường§! tăng vọt. Có vẻ như loài thực vật săn mồi này sử dụng đầm lầy axit như một hệ thống tiêu hóa bên ngoài; kéo con mồi vào bằng các tua thợ săn để hòa tan rồi hấp thụ chất dinh dưỡng. Quá trình này giải phóng một lượng nhỏ Khí Dị Thường có thể thu hoạch được.\n\nChúng ta suy đoán rằng cơ chế sinh học của sinh vật này có thể được khai thác bằng cách cho nó ăn chất thải của thuộc địa để sản xuất thêm khí. Ngoài ra, chúng ta cũng có thể trung hòa các đầm lầy axit này để cải tạo vùng đất giàu dinh dưỡng cho nông nghiệp."
+ strange_worlds.115.a: "Nuôi cấy những sinh vật này."
+ strange_worlds.115.b: "Tái sử dụng vùng đất."
+
+ strange_worlds.120.name: "Thực Vật Đầm Lầy Đã Bị Vô Hiệu Hóa"
+ strange_worlds.120.desc: "Chúng ta đã thành công trong việc trung hòa các đầm lầy axit trên §Y[Root.GetName]§!, đồng thời tiêu diệt các loài thực vật từng sinh sống trong đó. Kết quả là làn sương mù §YKhí Dị Thường§! cũng đã biến mất hoàn toàn.\n\nNhững vùng đất được cải tạo này màu mỡ lạ thường, nhờ vào các chất dinh dưỡng còn sót lại từ quá trình kiếm ăn của hệ thực vật bản địa. Chúng ta đã tạo thêm không gian nông nghiệp quý giá."
+ strange_worlds.120.a_ct: "Thêm §G2§! §Y$district_farming_plural$§! cho [This.GetName]"
+ strange_worlds.120.b.evopred: "Tuyệt vời, hãy thu hoạch cả những thứ còn sót lại."
+
+ strange_worlds.130.name: "Vật Chất Tối Phun Trào"
+ strange_worlds.130.desc: "Thứ từng được cho là một mạch nước ngầm không hoạt động từ lâu trên §Y[Root.GetName]§! đã bất ngờ phun trào dữ dội, phun ra luồng khí chứa đầy §YVật Chất Tối§! vào bầu khí quyển.\n\nVụ phun trào đã làm bão hòa bầu trời, dẫn đến các dị thường hấp dẫn nghiêm trọng ngăn cản du hành vũ trụ và thông tin liên lạc ngoại vi.\n\nChúng ta tin rằng vật chất tối bằng cách nào đó bắt nguồn từ lõi độc nhất vô nhị của hành tinh. Các ống hút quỹ đạo đã được triển khai để hút sạch chướng khí khỏi tầng bình lưu, vì các điều kiện khắc nghiệt này gây nguy hiểm cho các [Owner.GetColonistPlural] của chúng ta."
+ strange_worlds.130.a: "Giám sát chặt chẽ hiện tượng này."
+
+ strange_worlds.135.name: "Bóng Đêm Lỏng"
+ strange_worlds.135.desc_common_1: "Chúng ta đã hút thành công chướng khí §YVật Chất Tối§! khỏi bầu khí quyển của §Y[Root.GetName]§!, và đang bắt đầu đánh giá thiệt hại."
+ strange_worlds.135.desc_common_2: "\nKhi tái thiết lập liên lạc với thuộc địa, chúng ta phát hiện các [Owner.GetColonistPlural] đã bị hóa đá bởi thứ dường như là vật chất tối thể rắn."
+ strange_worlds.135.desc_organic_non_gestalt: "$strange_worlds.135.desc_common_2$ Phát hiện các dấu hiệu sự sống bên trong những lớp vỏ bọc này, chúng ta đã cẩn thận giải thoát họ."
+ strange_worlds.135.desc_machine: "$strange_worlds.135.desc_common_2$ Phát hiện các tín hiệu điện tử còn hoạt động từ bên trong lớp vỏ bọc, chúng ta đã phá vỡ lớp bao bọc để giải thoát họ."
+ strange_worlds.135.desc_gestalt: "$strange_worlds.135.desc_common_2$ Cảm nhận được những nỗ lực tái hòa nhập vào tập thể của họ, chúng ta đã giải thoát họ khỏi nấm mồ vật lý này."
+ strange_worlds.135.desc_outro: "\nTrái ngược với mọi dự đoán, các [Owner.GetColonistPlural] dường như không bị hề hấn gì sau thời gian dài phơi nhiễm và ngưng đọng.\n\nMạch nước phun gây ra sự cố ban đầu kể từ đó đã sụp đổ thành một hồ vật chất tối dạng lỏng.\n\nĐây là một sự kiện chưa từng có tiền lệ đòi hỏi phải tập trung nghiên cứu sâu. Các [Owner.GetScientistPlural] của chúng ta đang phân vân không biết nên dồn các nguồn lực vốn đã eo hẹp vào đâu."
+ strange_worlds.135.a: "Cách ly và nghiên cứu dân số."
+ strange_worlds.135.b: "Ưu tiên nghiên cứu vật chất tối."
+
+ strange_worlds.140.name: "Nhiễm Độc Vật Chất Tối"
+ strange_worlds.140_intro: "Các [Owner.GetScientistPlural] của chúng ta tự tin rằng hồ §YVật Chất Tối§! trên §Y[Root.GetName]§! ít có nguy cơ gây thêm nguy hiểm cho hành tinh. Nhưng điều tương tự không thể áp dụng cho các triệu chứng đang bộc phát ảnh hưởng đến dân số.\n\nTrong khi nghiên cứu các [Owner.GetColonistPlural] đang bị cách ly, chúng ta đã xác định được những biến đổi thể chất liên tục bắt nguồn từ việc bị chôn vùi trong vật chất này."
+ strange_worlds.140_common: "\nViệc phơi nhiễm kéo dài đã làm bão hòa các phân tử trong cơ thể họ bằng vật chất tối, "
+ strange_worlds.140_machine_1: "$strange_worlds.140_common$làm tha hóa hoàn toàn hệ thống của họ."
+ strange_worlds.140_non_machine_1: "$strange_worlds.140_common$làm nhiễm độc hệ tuần hoàn của họ."
+ strange_worlds.140_machine_2: "\nMặc dù các chất độc này có nguy cơ kích hoạt sự cố hỏng hóc hệ thống sớm, nhưng chúng sẽ cho phép các đơn vị được chế tạo trên thế giới này xử lý và thu hoạch Vật Chất Tối một cách hiệu quả như một quy trình con nếu được tích hợp vào dây chuyền lắp ráp."
+ strange_worlds.140_non_machine_2: "\nChúng ta có thể nuôi cấy những dị thường này, cho phép cơ thể của các [Owner.GetColonistPlural] xử lý và tiết ra Vật Chất Tối có thể thu hoạch được, với cái giá phải trả là rút ngắn tuổi thọ của họ."
+ strange_worlds.140.a.dc_empire: "Đón nhận món quà này."
+ strange_worlds.140.a.machine_empire: "Nuôi cấy những dị thường."
+ strange_worlds.140.a.normal: "Xử lý các chất nhiễm bẩn."
+ strange_worlds.140.b: "Thanh trừng sự ô nhiễm."
+
+ strange_worlds.145.name: "Lỗ Đen Vi Mô"
+ strange_worlds.145.desc: "Nghiên cứu sâu hơn về hồ vật chất tối trên §Y[Root.GetName]§! đã tiết lộ thông tin địa chất quan trọng có thể giải thích nguyên nhân của sự cố ban đầu.\n\nLõi của hành tinh là nơi ngự trị của một lỗ đen vi mô, có kích thước chưa đầy một mét. Khối lượng lớn hơn của chính hành tinh đã triệt tiêu lực hấp dẫn dự kiến mà lẽ ra chúng ta phải phát hiện từ một dị thường như vậy. Có vẻ như mối quan hệ giữa các khối lượng đã đạt đến một điểm cân bằng mong manh có thể duy trì trong một thời gian khá dài.\n\nHoạt động địa chấn gần đây đã dẫn đến sự dịch chuyển ở lớp manti bên trong, gây ra đợt phun trào mạch nước ban đầu. Bản thân hồ vật chất tối đã hoạt động như một chiếc nút chặn để ổn định lõi hành tinh và ngăn chặn các đợt bùng phát tiếp theo.\n\nTuy nhiên, sự bão hòa lâu dài trong vật chất tối không hề vô hại như vẻ bề ngoài ban đầu.\n\nCác lỗ đen vi mô bất ổn định đã hình thành tại trọng tâm khối lượng của các [Owner.GetColonistPlural], khiến cơ thể họ bị nổ tung vào trong (nội bộc) dữ dội. Tất cả những gì còn lại là những lớp vỏ vô hồn bằng vật chất tối kết tinh. Các máy quét không phát hiện thấy dấu hiệu hoạt động nào bên trong.\n\nSố liệu kiểm đếm cuối cùng cho thấy chúng ta đã mất khoảng một phần tư dân số trên §Y[Root.GetName]§! chỉ trong tích tắc. Thay vào vị trí của họ, những bức tượng bằng vật chất tối thể rắn rải rác khắp hành tinh với nhiều tư thế khác nhau."
+ strange_worlds.145.a.no_gestalt: "Thật không may."
+ strange_worlds.145.a.gestalt: "Kinh hoàng."
+
+ strange_worlds.155.name: "Loài Gây Hại Kinh Tởm"
+ strange_worlds.155.desc_homicidal: "Chúng ta đã chạm trán một loài sinh vật đặc biệt ghê tởm bản địa trên §Y[Root.GetName]§!. \n\nChúng đã tiến hóa một cơ chế phòng thủ tình cờ cũng đóng vai trò là phương pháp kiếm ăn chính. Do thiếu các enzyme tiêu hóa cần thiết để tự phân hủy thức ăn đặc, chúng phát ra một loại khí cực mạnh và kinh tởm khiến bất kỳ sinh vật nào có ruột hít phải đều bị nôn mửa dữ dội. Những chất bị nôn ra này sau đó được chúng tiêu thụ như nguồn dinh dưỡng chính.\n\nViệc tiêu hủy những sinh vật hôi hám này sẽ mang lại một khoản thu hoạch giá trị gồm §YKhí Dị Thường§! và §YLương Thực§!."
+ strange_worlds.155.desc_normal: "Các [Owner.GetColonistPlural] của chúng ta trên §Y[Root.GetName]§! đã chạm trán với một loài động vật bản địa có phương pháp kiếm ăn khá... độc đáo.\n\nDù ban đầu còn nhút nhát, những sinh vật này kể từ đó đã quen với sự hiện diện của chúng ta, và với bản tính thân thiện, chúng thậm chí còn được các [Root.Owner.GetSpeciesNamePlural] nhỏ tuổi yêu thích.\n\nMặc dù không gây nguy hiểm trực tiếp, chúng đã tiến hóa một cơ chế phòng vệ tình cờ cũng là phương thức kiếm ăn chính. Do thiếu các enzyme tiêu hóa cần thiết để tự phân hủy thức ăn đặc, chúng tiết ra một loại khí cực mạnh và hôi thối khiến các sinh vật khác hít phải sẽ nôn mửa dữ dội. Chất nôn này sau đó được chúng tiêu thụ làm thức ăn chính.\n\nTình hình chung có nguy cơ lây lan các bệnh truyền nhiễm, và các nhà lãnh đạo địa phương đã kêu gọi [Owner.GetColonistPlural] tránh xa những sinh vật kỳ lạ này."
+ strange_worlds.155.a: "Thật là một ngành sinh học ngoại lai độc đáo."
+ strange_worlds.155.b_purifiers: "Những thứ kinh tởm."
+ strange_worlds.155.b_swarm: "Một món ăn cần thời gian để thưởng thức!"
+ strange_worlds.155.b_normal: "Bắn bỏ ngay khi nhìn thấy."
+
+ strange_worlds.160.name: "Diễn Biến Đáng Kinh Tởm"
+ strange_worlds.160.desc: "Việc loại bỏ những loài gây hại kinh tởm trên §Y[Root.GetName]§! đã chứng minh là rất khó khăn. Các thành viên nhỏ tuổi của thuộc địa vẫn tiếp tục chơi đùa với các con vật bất chấp các cảnh báo chính thức.\n\nDo đó, protein từ [Root.Owner.GetSpeciesOrganName] của chúng ta đã trở thành nguồn thức ăn ưa thích của chúng. Thuộc địa của chúng ta đã trở thành mục tiêu dễ dàng hơn nhiều so với phần còn lại của các động vật trên hành tinh vốn biết cách tránh xa thứ khí kinh tởm của chúng. Những sinh vật này đã thích nghi hơn nữa với sự hiện diện của chúng ta, và người ta đã chứng kiến chúng sử dụng chiến thuật phục kích đối với bất kỳ [Owner.GetColonist] đơn độc nào đi dạo sau bữa ăn.\n\nThật khó tin là tình huống này lại mang lại một số lợi ích. Các nhà khoa học của chúng ta phát hiện ra làn khói gây nôn do sinh vật này thải ra có chứa các hạt §YKhí Dị Thường§! quý giá có thể thu hoạch được bằng cách thuần hóa lũ thú và nuôi nhốt chúng trong các cơ sở cách ly.\n\nTuy nhiên, phần lớn cư dân thuộc địa đã đề xuất rằng chúng ta chỉ cần tiêu diệt tận gốc chúng."
+ strange_worlds.160.a: "Dồn bắt nhốt chúng lại."
+ strange_worlds.160.b: "Đủ rồi đấy. Bắn bỏ ngay khi nhìn thấy."
+
+ strange_worlds.165.name: "Một Luồng Khí Trong Lành"
+ strange_worlds.165.desc: "Những sinh vật trên §Y[Root.GetName]§! không còn gây ra những đợt nôn mửa hàng loạt nữa.\n\nVới sự phát triển của một loại hỗn hợp dinh dưỡng tổng hợp phù hợp với đặc tính sinh học ngoại lai của chúng, chúng ta đã điều hòa chu kỳ ăn uống của chúng và chấm dứt các vụ phục kích cơ hội nhắm vào các [Owner.GetColonistPlural] của chúng ta.\n\nChúng ta đã chuyển chúng đến một khu bảo tồn động vật hoang dã được thiết kế cẩn thận, nơi công chúng có thể ngắm nhìn các con vật trong một môi trường an toàn. Những người chăm sóc chuyên trách đã được đào tạo để chiết xuất §YKhí Dị Thường §!của chúng mà không gây thêm tổn hại."
+ strange_worlds.165.a: "Một sự nhẹ nhõm đáng mừng."
+ strange_worlds.165.a.evopred: "Hãy bảo đảm rằng chúng ta không tiến hóa ra cái mùi đó."
+
+ strange_worlds.170.name: "Bắn Hạ Để Tiêu Diệt"
+ strange_worlds.170.desc: "Kể từ khi áp dụng chính sách bắn bỏ ngay khi nhìn thấy, đã nhiều tháng trôi qua kể từ lần cuối cùng người ta nhìn thấy loài vật phiền toái trên §Y[Root.GetName]§! ở gần thuộc địa.\n\nMặc dù một số [Owner.GetColonistPlural] cảm thấy nhớ nhung sự hiện diện của những sinh vật có lông xù này, nhưng nhìn chung mọi người đều hạnh phúc hơn khi họ có thể tự do đi lại mà không sợ bị ép nôn mửa.\n\nCác nhà khoa học của chúng ta đã thu hoạch xác của các con vật, chiết xuất một lượng §YKhí Dị Thường§! trực tiếp từ nội tạng của chúng."
+ strange_worlds.170.a: "Chúng tự chuốc lấy đấy chứ."
+
+ strange_worlds.185.name: "Thù Địch Giữa Các Khu Vực"
+ strange_worlds.185.desc: "Các báo cáo từ §Y[Root.GetName]§! cho thấy sự xuất hiện đáng báo động của mối thù địch giữa các khu vực nông thôn và thành thị. Không có nguyên nhân rõ ràng nào kích hoạt sự thù hằn này ngoài vị trí địa lý tùy tiện của họ.\n\nNhững người nhập cư mới ban đầu bị đối xử với sự thù địch, nhưng chỉ vài tuần sau khi được phân bổ về khu vực tương ứng, họ sớm được chào đón vào hàng ngũ. Dựa trên điều này, các nhà khoa học của chúng ta tin chắc rằng hành vi kỳ lạ này đang được thúc đẩy bởi các yếu tố mang tính cục bộ tại các khu vực.\n\nTrong khi điều tra vấn đề này, chúng ta cần phải ổn định tình hình để ngăn chặn sự leo thang hơn nữa. Chúng ta có thể chọn chính thức hỗ trợ các khu vực thành thị hoặc nông thôn, hoặc triển khai thêm lực lượng thực thi pháp luật để giữ gìn hòa bình."
+ strange_worlds.185.a: "Hỗ trợ các khu vực thành thị."
+ strange_worlds.185.b: "Hỗ trợ các khu vực nông thôn."
+ strange_worlds.185.c: "Triển khai thêm lực lượng thực thi pháp luật."
+
+ strange_worlds.190.name: "Có Gì Đó Trong Nước"
+ strange_worlds.190.desc_intro: "Sau các cuộc khảo sát môi trường sâu rộng trên §Y[Root.GetName]§!, các nhà khoa học của chúng ta đã xác định được nguyên nhân của mối thù địch giữa các khu vực.\n\nSâu bên trong lớp manti của hành tinh là xác chết đang phân hủy của một sinh vật khổng lồ. Trải qua hàng thiên niên kỷ phân hủy, dịch tủy sống từ sinh vật đã chết từ lâu này đã thấm vào nguồn nước ngầm của hành tinh, làm nó nhiễm một loại vi khuẩn tâm linh. Loại vi sinh vật làm thay đổi tâm trí này sau đó đã xâm nhập vào hệ thần kinh của các [Owner.GetColonistPlural] của chúng ta và kích hoạt bản năng lãnh thổ mãnh liệt vốn có thể là đặc tính của loài động vật ban đầu.\n\n"
+ strange_worlds.190.desc_non_psionic: "Chúng ta có thể giải quyết vấn đề bằng cách dẫn nguồn cung cấp nước qua một chuỗi các bộ lọc cao cấp phức tạp được chế tạo với mục đích chuyên dụng.\n\n"
+ strange_worlds.190.desc_psionic: "Tạp chất ngoại lai này đang can thiệp vào khả năng tâm linh tự nhiên của chúng ta.$strange_worlds.190.desc_non_psionic$"
+ strange_worlds.190.desc_outro_non_psionic: "Ngoài ra, các nhà khoa học của chúng ta tự tin rằng vi khuẩn này có thể được biến đổi gen ở cấp độ tế bào, chuyển hướng các khuynh hướng lãnh thổ sang những mục đích hữu ích hơn."
+ strange_worlds.190.a: "Lọc nguồn nước ngầm."
+ strange_worlds.190.b: "Cố gắng biến đổi gen vi khuẩn."
+
+ strange_worlds.195.name: "Năng Lực Mới Phát Khởi"
+ strange_worlds.195.desc_intro: "Việc triển khai các trạm lọc nước trên §Y[Root.GetName]§! đã thành công vang dội.\n\n"
+ strange_worlds.195.desc_psionic: "Sự hung hăng cực đoan về lãnh thổ đã lắng xuống, và không những sự can thiệp vào năng lực tâm linh của chúng ta đã chấm dứt, mà chúng còn được tăng cường hơn nữa nhờ các lợi khuẩn tự nhiên giúp thúc đẩy §YKhớp Nối Tâm Linh (Psionic Ephapse)§! giữa các cá thể trên §Y[Root.GetName]§!. Điều này củng cố mối liên kết ngoại cảm chung của chúng ta và nuôi dưỡng tinh thần cộng đồng mạnh mẽ hơn nữa đồng thời nâng cao năng suất."
+ strange_worlds.195.desc_non_psionic: "Trong khi sự hung hăng cực đoan về lãnh thổ đã lắng xuống, người dân vẫn còn lại một số tác dụng phụ còn sót lại nhưng có tiềm năng hữu ích dưới dạng các lợi khuẩn tự nhiên thúc đẩy §YKhớp Nối Tâm Linh (Psionic Ephapse)§! giữa các cá thể trên §Y[Root.GetName]§!. Điều này cho phép các [Owner.GetColonistPlural] của chúng ta giao tiếp với nhau ở cấp độ thần giao cách cảm, nuôi dưỡng tinh thần cộng đồng cao hơn và cải thiện năng suất lao động."
+ strange_worlds.195.a: "Rất tốt."
+ strange_worlds.195.a_ct: "Tất cả Pop trên §Y[Root.GetName]§! nhận hiệu ứng §YKhớp Nối Tâm Linh§!"
+ strange_worlds.195.a.evopred: "Vị của nó... §MKỳ Lạ§!."
+ strange_worlds.195.a_ct.evopred: "Chủng tộc chính của chúng ta nhận hiệu ứng §YKhớp Nối Tâm Linh§!"
+
+ strange_worlds.200.name: "Tái Giải Trình Tự Vi Khuẩn"
+ strange_worlds.200.desc: "Chúng ta đã vô hiệu hóa thành công các tác động tiêu cực của sinh vật vi khuẩn trên §Y[Root.GetName]§!. Các cuộc xung đột nội bộ giữa các [Owner.GetColonistPlural] đã lắng xuống và họ đang biểu lộ những dấu hiệu nâng cao năng suất.\n\nCác nhà khoa học của chúng ta tự tin rằng họ có thể tiến xa hơn nữa trong việc chỉnh sửa mã di truyền của vi sinh vật. Với việc giải trình tự chính xác bộ gen của nó, chúng ta có thể tăng cường hơn nữa một khía cạnh hiệu suất của các [Owner.GetColonistPlural].\n\nTuy nhiên, vi sinh vật tạo thành sẽ không tồn tại được lâu khi vận chuyển ra khỏi hành tinh. Mối liên kết tâm linh giữa ti thể của nó và xác chết người ngoài hành tinh phải duy trì nguyên vẹn để vi khuẩn có thể sinh sản. Chúng ta hiện vẫn chưa hiểu đầy đủ lý do tại sao."
+ strange_worlds.200.a: "Nâng cao khả năng sinh sản."
+ strange_worlds.200.b: "Nâng cao thể lực sức mạnh."
+ strange_worlds.200.c: "Nâng cao năng lực nhận thức."
+
+ strange_worlds.1000.name: "Ống Nham Thạch Khoáng Hóa"
+ strange_worlds.1000.desc: "Việc làm khô khí hậu trên §Y[From.GetName]§! đã phát lộ một mạng lưới ống dung nham rộng lớn khắp đáy đại dương mới lộ diện của hành tinh.\n\nCác dòng magma tạo nên những đường hầm sâu thẳm này nay đã nguội lạnh, để lại một vỉa khoáng sản phong phú được tôi luyện từ lâu trong nhiệt độ và áp suất cực độ của lõi nóng chảy trên §Y[From.GetName]§!.\n\nNhững mỏ khoáng nhiệt nham này cực kỳ dày đặc; các hoạt động khai thác ở đây sẽ tốn kém nhưng đem lại lợi nhuận kếch xù."
+
+ strange_worlds.1005.name: "Trứng Hoạt Hóa Bởi Nước"
+ strange_worlds.1005.desc: "Quá trình địa cầu hóa trên §Y[From.GetName]§! đã gây ra sự gia tăng đột biến ngoài dự kiến của quần thể động vật bản địa.\n\nChúng ta phát hiện ra rằng chu kỳ sinh sản của nhiều loài địa phương gắn liền chặt chẽ với sự hiện diện của nước trong môi trường. Trứng của chúng, vốn trước đây phải vùi trong đất nhiều tháng trước khi hút đủ nước để nở, nay đang rải rác phong phú khắp cảnh quan. Số lượng động vật của hành tinh đang tăng vọt theo cấp số nhân.\n\nNhiều loài trong số này có giá trị dinh dưỡng cao; chúng sẽ cung cấp nguồn lương thực dồi dào cho §Y[From.GetName]§!, cũng như cơ hội để nghiên cứu một hệ sinh thái cực kỳ năng động. Du khách đến hành tinh này giờ đây sẽ phải trải qua quy trình kiểm tra gắt gao khi rời đi để ngăn ngừa ô nhiễm ra thế giới bên ngoài."
+ strange_worlds.1005.evopred: "Liệu tốc độ này có thể nhân rộng được không?"
+
+ strange_worlds.1010.name: "Đóng Băng Trong Băng Giá"
+ strange_worlds.1010.intro: "Các nỗ lực địa cầu hóa của chúng ta trên §Y[From.GetName]§! đã làm lộ ra một số lượng đáng kinh ngạc các loài động vật bản địa bị chôn vùi trong lớp băng bề mặt. Đáng kinh ngạc hơn nữa là những sinh vật này bằng cách nào đó vẫn còn sống sót.\n\nLoài này dường như đã trải qua một giấc ngủ đông đặc biệt sâu; một phương thức hữu hiệu để sống sót qua những kỷ băng hà kéo dài của §Y[From.GetName]§!. Sự tan băng do quá trình địa cầu hóa gây ra đã sớm chấm dứt trạng thái ngưng đọng của chúng.\n\nThức tỉnh khỏi giấc ngủ băng giá, các sinh vật đã bắt đầu thể hiện những tia sáng của trí thông minh sơ khai, biết sử dụng các công cụ đơn giản trong nỗ lực kiếm ăn.\n\n"
+ strange_worlds.1010.desc_exterminate: "$strange_worlds.1010.intro$Chúng sẽ bị tiêu diệt không chậm trễ. Chúng ta sẽ thu hoạch lượng sinh khối tạo thành cho mục đích của riêng mình."
+ strange_worlds.1010.desc_hunted: "$strange_worlds.1010.intro$Cơ chế sinh lý độc đáo của chúng sẽ cung cấp cho chúng ta một nguồn thức ăn dồi dào."
+ strange_worlds.1010.desc_tolerated: "$strange_worlds.1010.intro$Chúng ta có thể nghiên cứu khả năng ngủ đông đáng kinh ngạc của loài này hoặc thu hoạch các sinh vật để lấy sinh khối."
+ strange_worlds.1010.desc_protected: "$strange_worlds.1010.intro$Chúng ta nên bảo vệ những dạng sống này. Khả năng ngủ đông phi thường của chúng rất đáng để nghiên cứu thêm."
+ strange_worlds.1010.a.purge: "Thanh trừng chúng."
+ strange_worlds.1010.b.hunted: "Săn bắt chúng."
+ strange_worlds.1010.c.study: "Nghiên cứu chúng."
+ strange_worlds.1010.d.purge: "Thanh trừng chúng."
+ strange_worlds.1010.e.protect: "Bảo vệ chúng."
+
+ strange_worlds.1015.name: "Những Rặng Núi Thép"
+ strange_worlds.1015.desc: "Một vấn đề sắp xảy ra trên §Y[From.GetName]§! đã được các chuyên gia địa cầu hóa của chúng ta cảnh báo.\n\nBên dưới các dãy núi băng giá của hành tinh là những mỏ sắt và carbon khổng lồ có nồng độ cao, tất cả đều bị đốt nóng quá mức bởi quá trình địa cầu hóa.\n\nChúng ta có thể an toàn khai thác các tài nguyên gần như nóng chảy này ngay bây giờ. Ngoài ra, bằng cách cho phép quá trình nung nóng tiếp diễn, chúng ta sẽ nuôi dưỡng một nguồn hợp kim vĩnh cửu. Tất nhiên, điều này sẽ phải trả giá bằng không gian sinh sống có thể định cư."
+ strange_worlds.1015.a: "Ưu tiên khai thác tài nguyên."
+ strange_worlds.1015.b: "Không làm gì cả."
+
+ strange_worlds.1020.name: "Khí Quyển Dễ Cháy"
+ strange_worlds.1020.desc: "Quá trình địa cầu hóa trên §Y[From.GetName]§! đã mang lại những hậu quả khôn lường. Không ai hay biết, tầng đất mặt của hành tinh là một hỗn hợp hạt mịn chứa nồng độ cao của §YPhù Hạt Dễ Bay Hơi§! mà quá trình biến đổi địa hình của chúng ta đã khuấy động và gieo rắc khắp bầu khí quyển.\n\nThật không may, những hạt năng lượng cao trong không khí này làm tăng nguy cơ xảy ra các vụ cháy nổ ngoài ý muốn trên bề mặt. Mọi thuộc địa trong tương lai sẽ phải ưu tiên phòng chống tai nạn và xung đột để tránh những hậu quả tàn khốc.\n\nTuy nhiên, nếu chúng ta có thể kiểm soát các mối nguy hiểm một cách cẩn thận, bầu khí quyển của §Y[From.GetName]§! sẽ trở thành một nguồn tài nguyên quý giá dồi dào."
+
+ strange_worlds.1025.name: "Dung Nham Xanh Lam"
+ strange_worlds.1025.desc: "Lớp vỏ hành tinh của §Y[From.GetName]§! đã dịch chuyển do tác động của quá trình địa cầu hóa, dẫn đến một hiện tượng tự nhiên bất thường.\n\nCác mảng kiến tạo dịch chuyển đã làm xáo trộn nhiều túi §YKhí Dị Thường§! phản ứng với các mỏ khoáng giàu §YHợp Kim§! được tìm thấy trong các núi lửa của hành tinh, khiến các đợt phun trào mang một sắc xanh lam rực rỡ.\n\nBản chất dễ bay hơi của hiện tượng này đã làm cho hành tinh kém hiếu khách hơn đôi chút, và kết quả là ảnh hưởng đến kế hoạch tạo không gian sống cho các [Root.GetColonistPlural] của chúng ta.\n\nNhư một phần thưởng bù đắp, vùng đất xung quanh những ngọn núi lửa này hiện rất giàu tài nguyên để chúng ta khai thác tận dụng."
+
+ strange_worlds.1030.name: "Sấm Sét Vĩnh Cửu"
+ strange_worlds.1030.desc: "Chúng ta đã nhận được báo cáo về một hiện tượng thời tiết mới xuất hiện trên §Y[From.GetName]§!.\n\nCác mỏ tinh thể trong tầng đá gốc của hành tinh đã bị lộ ra trong quá trình địa cầu hóa, phản ứng với các hóa chất được sử dụng và trở nên nhiễm xạ. Sự dao động nhiệt độ không khí sau đó đã tạo ra một cơn bão sét vĩnh cửu trên quy mô toàn hành tinh.\n\nCác điều kiện thời tiết độc đáo này chắc chắn sẽ ảnh hưởng đến sự phát triển cơ sở hạ tầng, và các tinh thể nhiễm xạ chắc chắn sẽ để lại hậu quả cho khả năng sinh sống lâu dài. Tuy nhiên, các [Owner.GetScientistPlural] tự tin rằng họ có thể khai thác năng lượng của các cơn bão một khi quá trình địa cầu hóa hoàn tất.\n\nNgoài ra, các [Owner.GetEngineerPlural] cũng đã vạch ra các kế hoạch nhằm trung hòa điện tích trong các mỏ tinh thể một cách an toàn. Điều này sẽ làm tan biến các cơn bão và cho phép chúng ta thu hoạch chúng an toàn cho các mục đích sử dụng khác."
+ strange_worlds.1030.a: "Khai thác năng lượng trong các cơn bão này."
+ strange_worlds.1030.b: "Trung hòa các tinh thể."
+
+ strange_worlds.1035.name: "Những Kẻ Ngủ Đông"
+ strange_worlds.1035.desc: "Các nghiên cứu về quần thể tiền tri giác trên §Y[event_target:hibernator_planet.GetName]§! đã mang lại những hiểu biết sâu sắc về mô thức ngủ đông đáng kinh ngạc của chúng. Chúng được điều hòa bởi một loại enzyme đặc biệt kích hoạt cơ thể bước vào và thoát khỏi trạng thái ngủ ngưng đọng sâu. Ở trạng thái này, các phản ứng hóa học trong cơ thể chúng giảm xuống mức gần như không đáng kể.\n\nChúng ta đã chiết xuất loại enzyme này và sử dụng thành công — thông qua hợp chất an thần — cho nhiều sinh vật khác nhau. Trong mọi trường hợp, các loài trước đây không có khả năng ngủ đông đều có thể bước vào thời gian ngủ đông kéo dài giúp làm giảm đáng kể sự lão hóa tế bào trong suốt thời gian đó.\n\nBước đột phá phi thường này mở đường cho giấc ngủ đông lạnh nhân tạo tăng cường, giúp giảm đáng kể căng thẳng thể chất trong các chuyến du hành vũ trụ tầm xa cho các loài hữu cơ."
+
+ strange_worlds.1040.name: "Mai Táng Trên Bầu Trời"
+ strange_worlds.1040.desc: "Khi chúng ta vừa hoàn thành quá trình địa cầu hóa trên §Y[From.GetName]§!, những thi thể bắt đầu từ trên trời rơi xuống.\n\nTừ độ cao như vậy, những xác chết cổ xưa này bị nát bét khi va chạm. Giữa đám nội tạng rơi rụng, chúng ta đã phát hiện ra các cụm vật thể nhỏ — các nhạc cụ trang trí và những di vật kỳ lạ — tất cả đều rơi xuống từ cùng một đám mây dày đặc ở tầng trên của bầu khí quyển hành tinh.\n\nNhững đám mây dày này, mà chúng ta chỉ có thể phỏng đoán là đã được một chủng tộc ngoài hành tinh vô danh nào đó dùng làm nơi an nghỉ cuối cùng, nay đang mỏng dần do những thay đổi từ địa cầu hóa và giải phóng những thứ từng lơ lửng bên trong. Chúng ta có thể dự đoán những di hài này sẽ tiếp tục rơi xuống khi khí quyển lắng dịu, cho đến khi những ngôi mộ mây này hoàn toàn trống rỗng."
+ strange_worlds.1040.a: "Thật ghê rợn, nhưng có tiềm năng sinh lời."
+ strange_worlds.1040.b: "Mất vệ sinh. Hãy dọn sạch chúng ngay lập tức."
+
+ strange_worlds.1050.name: "Mảnh Vụn Quỹ Đạo"
+ strange_worlds.1050.desc: "Các kỹ sư địa cầu hóa của chúng ta trên §Y[event_target:junk_moon_planet.GetName]§! đang phải đối mặt với các điều kiện làm việc nguy hiểm do nhiều mảnh rác không gian và mảnh vụn nhỏ quay quanh hành tinh. Số lượng lớn các vật thể này gây nguy hiểm cho việc điều hướng của các tàu con thoi di chuyển đi và đến bề mặt.\n\nDo mật độ vật chất quá dày đặc, chúng ta đã đưa ra các đề xuất nhằm từ hóa những mảnh vỡ lớn nhất để chúng hút các mảnh khác khi quay quanh quỹ đạo, dần dần củng cố mọi thứ thành một thực thể duy nhất và dễ quản lý hơn. Chúng ta đưa ra giả thuyết rằng hoàn toàn có thể tạo ra một mặt trăng nhân tạo hiệu quả.\n\nPhương án này tuy làm tăng thời gian địa cầu hóa, nhưng sẽ giúp tàu con thoi tiếp cận bề mặt dễ dàng hơn nhiều và loại bỏ nguy cơ các mảnh vỡ quỹ đạo lớn định kỳ rơi vào bầu khí quyển của hành tinh."
+ strange_worlds.1050.a: "Hãy tạo cho chúng ta một mặt trăng."
+ strange_worlds.1050.b: "Chúng sẽ tự bốc cháy thôi."
+
+ strange_worlds.1060.name: "Mặt Trăng Phế Liệu"
+ strange_worlds.1060.desc: "Các nỗ lực hợp nhất rác không gian quay quanh §Y[event_target:junk_moon_planet.GetName]§! đã thành công tốt đẹp.\n\nBằng cách từ hóa nhiều mảnh vỡ lớn hơn, chúng ta đã dần gom mọi thứ lại thành một khối kim loại phế liệu khổng lồ duy nhất. Mật độ của nó đã tăng đến mức hiện tại nó có lực hút hấp dẫn đáng kể của riêng mình. Mặt trăng mới tạo này kể từ đó đã đi vào một quỹ đạo ổn định.\n\nViệc tiếp cận bề mặt §Y[event_target:junk_moon_planet.GetName]§! dễ dàng hơn nhiều khi không còn các mảnh vỡ quỹ đạo nguy hiểm, và chúng ta không còn phải lo lắng về nguy cơ chúng rơi vào khí quyển nữa. Hơn thế nữa, các kỹ sư của chúng ta tự tin rằng mặt trăng mới này có thể hỗ trợ trạm khai thác mỏ của riêng nó."
+ strange_worlds.1060.create_moon_ct: "[event_target:junk_moon_planet.GetName] có một mặt trăng mới: Mặt Trăng Phế Liệu"
+
+ site_abandoned_bio_lab: "Cơ Sở Cổ Xưa"
+ abandoned_bio_lab_desc: "Các lần quét trên §Y[fromfrom.planet.GetName]§! đã phát hiện một cơ sở biệt lập tại khu vực khó tiếp cận nhất của hành tinh. Công trình dường như đang ngủ yên hoặc bị bỏ hoang, không có tín hiệu năng lượng và mang dấu hiệu phong hóa kéo dài. Một chuyến thám hiểm khảo cổ có thể mang lại thêm hiểu biết sâu sắc."
+
+ strange_worlds.2000.name: "Phòng Thí Nghiệm Sinh Học Bị Bỏ Hoang"
+ strange_worlds.2000.desc: "Bên trong cơ sở chứa vô số máy móc y tế bị bỏ hoang, các khoang điều trị và một nhà xác. Trong các khoang chứa thi thể, chúng ta tìm thấy những tàn tích hữu cơ được bảo quản một phần mang dấu hiệu của bệnh tật và biến dạng. Sự hiện diện của các cánh cửa an ninh, giàn giám sát và phòng giam giữ đã khiến §H[universal_macrophage_scientist.GetName]§! kết luận rằng một số người đã bị giam giữ ở đây trái với ý muốn của họ.\n\nChúng ta đã thu hồi được một vài bộ phận thiết bị nhưng hầu hết mọi thứ đều đã hư hỏng rõ rệt. Dữ liệu còn lại trên hệ thống máy tính rất hạn chế; chúng ta đã khôi phục được một số tệp nhưng chúng cần được dịch thuật."
+
+ strange_worlds.2005.name: "Nghiên Cứu Miễn Dịch Cổ Đại"
+ strange_worlds.2005.desc: "§H[universal_macrophage_scientist.GetName]§! đã đưa ra bản dịch một phần cho một trong các tệp dữ liệu thu hồi được từ cơ sở trên §Y[fromfrom.planet.GetName]§!.\n\n§LPhòng thí nghiệm 17 - Cập nhật tiến độ - Trưởng nhóm Nghiên cứu Gelebor\n\nMẫu thử nghiệm mới ban đầu cho thấy nhiều triển vọng. Hệ thống miễn dịch của các đối tượng thí nghiệm được tăng cường gấp triệu lần và mọi mầm bệnh đều bị xóa sổ. Các tác dụng phụ vẫn dai dẳng: những đột biến chết người xảy ra sau đó, không ai sống sót. Sẽ thử lại. Đại Thực Bào Vạn Năng (Universal Macrophage) đang nằm trong tầm tay của chúng ta, tôi chắc chắn về điều đó.§!"
+
+ strange_worlds.2010.name: "Sự Lựa Chọn Của Gelebor"
+ strange_worlds.2010.desc: "§H[universal_macrophage_scientist.GetName]§! đã dịch một tệp khác từ phòng thí nghiệm bị bỏ hoang trên §Y[fromfrom.planet.GetName]§!.\n\n§LPhòng thí nghiệm 17 - Bản ghi nhớ nội bộ nhân viên - Trưởng nhóm Nghiên cứu Gelebor\n\nCác đồng nghiệp, lệnh chấm dứt dự án đã đến hôm nay; sự kiên nhẫn của lãnh chúa đã cạn kiệt. Nhưng chúng ta đang ở quá gần mục tiêu! Đại Thực Bào Vạn Năng quan trọng hơn ý thích nhất thời của bất kỳ cá nhân nào. Một tương lai không bệnh tật có thể là của chúng ta! Cái giá nhỏ bé của việc hy sinh thêm vài sinh mạng cho sự tiến bộ như vậy là gì chứ?\n\nNếu họ không gửi thêm đối tượng thử nghiệm — tôi sẽ tự mình thử nghiệm mẫu mới nhất trên chính bản thân mình. Các bạn có tham gia cùng tôi không?§!"
+ strange_worlds.2010.a: "Tiến hành một cách thận trọng."
+
+ strange_worlds.2015.name: "Đại Thực Bào Vạn Năng"
+ strange_worlds.2015.desc: "§H[universal_macrophage_scientist.GetName]§! đã dịch mục nhật ký cuối cùng từ máy tính của phòng thí nghiệm sinh học trên §Y[fromfrom.planet.GetName]§!.\n\n§LPhòng thí nghiệm 17 - Báo cáo Cuối cùng - Trợ lý Nghiên cứu Filidor\n\nSự tự tin của Gelebor lớn đến mức chúng tôi đã mù quáng đi theo ông ấy.\n\nThử nghiệm mẫu ban đầu trên chính cơ thể mình, hệ thống miễn dịch của chúng tôi ban đầu được củng cố; chúng tôi gần như bất khả xâm phạm trước mọi mầm bệnh bên ngoài. Sau đó các đột biến bắt đầu xảy ra.\n\nGelebor qua đời đầu tiên. Thật đau lòng khi chứng kiến cảnh tượng đó. Giờ đây toàn bộ đội ngũ đang nằm trong nhà xác và tôi sẽ sớm đoàn tụ với họ.\n\nChúng tôi đã thất bại. Chúng tôi đã tin tưởng giao phó mạng sống của mình cho công thức đầy khiếm khuyết của Gelebor. Đại Thực Bào Vạn Năng hoạt động quá hiệu quả — cuối cùng nó tấn công chính vật chủ. Mọi thứ ở đây phải bị tiêu hủy hoàn toàn.§!"
+ strange_worlds.2015.a: "Tiêu hủy mọi thứ."
+ strange_worlds.2015.b: "Hoàn thành công trình của Gelebor. Nó rất hứa hẹn."
+ strange_worlds.2015.b.mutation: "Chúng ta là bậc thầy về Đột Biến. Hãy để chúng ta hoàn tất công trình này."
+ has_tr_mutation_finish_tt: "Tùy chọn này khả dụng vì chúng ta đã hoàn thành Cây Truyền Thống §Y$Mutation$§!."
+ strange_worlds.2015.c: "Nghiên cứu có khiếm khuyết này vẫn có thể đưa vào sử dụng."
+
+ strange_worlds.2030.name: "Đột Biến Chết Người"
+ strange_worlds.2030.desc: "Các công dân trên §Y[Root.GetName]§! đang trải qua những đột biến thể chất nghiêm trọng làm gián đoạn chức năng của các tế bào và cơ quan quan trọng. Mặc dù trong một số trường hợp, những biến đổi này đã nâng cao hiệu quả trao đổi chất, nhưng phổ biến hơn là chúng gây ra tử vong.\n\nNhững tác dụng phụ này trùng khớp hoàn hảo với những gì được mô tả trong các ghi chép nghiên cứu ban đầu về §YĐại Thực Bào Vạn Năng§!. Bất chấp mọi nỗ lực của chúng ta, có vẻ như những đột biến chết người do công thức này gây ra là không thể tránh khỏi. Công nghệ này không còn có thể tin cậy được nữa. Chúng ta đang tiêu hủy tất cả các nguồn cung cấp công thức còn lại và sẽ ngừng sử dụng nó."
+ strange_worlds.2030.ct: "§Y[Root.GetName]§! mất 100 £pop£ Pop và thêm 100 £pop£ Pop cho mỗi $@macrophage_kill_pop_every_x$ £pop£ Pop hiện diện\nTất cả £pop£ Pop hữu cơ trên §Y[Root.GetName]§! nhận §YĐột Biến Geleboric§! và thay đổi mạnh mẽ về sinh lý học."
+
+ site_anomalous_cube: "Khối Lập Phương Dị Thường"
+ anomalous_cube_desc: "Một khối lập phương kim loại khổng lồ đã được tìm thấy trên §Y[Planet.GetName]§!. Hình dáng liền mạch không tì vết của nó gợi ý về những năng lực công nghệ tiên tiến, mặc dù chúng ta chưa thể suy đoán về nguồn gốc hoặc chức năng của nó. Một chuyến thám hiểm khảo cổ có thể mang lại câu trả lời."
+ anomalous_cube_enemy_known: "[event_target:anomalous_cube_fallen_empire.GetName]"
+ anomalous_cube_enemy_unknown: "đế chế này"
+
+ strange_worlds.2035.name: "Kim Loại Gợn Sóng"
+ strange_worlds.2035.desc_intro: "Việc kiểm tra kỹ lưỡng hơn khối lập phương bí ẩn khổng lồ trên [fromfrom.planet.GetName] đã đặt ra nhiều câu hỏi hơn là câu trả lời. Các bề mặt bên ngoài của nó hoàn toàn nhẵn bóng, không tì vết và các máy quét của chúng ta không thể xuyên qua. Khi chúng ta tiếp cận khối lập phương, mặt tiền uy nghiêm dường như gợn sóng nhẹ nhàng để phản ứng với sự hiện diện của chúng ta."
+ strange_worlds.2035.desc_lm: "$strange_worlds.2035.desc_intro$ §H[event_target:anomalous_cube_scientist.GetName]§! đã kết luận rằng nó được chế tạo từ một dạng §YKim Loại Sống§!."
+ strange_worlds.2035.desc_no_lm: "$strange_worlds.2035.desc_intro$ §H[event_target:anomalous_cube_scientist.GetName]§! đã kết luận rằng nó được chế tạo từ một dạng kim loại kỳ lạ không giống bất kỳ kim loại nào chúng ta từng thấy trước đây."
+ strange_worlds.2035.a: "Tiếp tục điều tra."
+
+ strange_worlds.2040.name: "Bước Vào Bên Trong Khối Lập Phương"
+ strange_worlds.2040.desc: "Trong khi §H[event_target:anomalous_cube_scientist.GetName]§! đang kiểm tra khối lập phương kim loại trên [fromfrom.planet.GetName], một trong các bề mặt của nó bất ngờ gợn sóng và tách ra để tạo thành một lối mở vào bên trong vật thể. Khi bước vào, chúng ta tìm thấy một bảng điều khiển vẫn còn xác của một sinh vật thân mềm đã phân hủy; bất kể phần thịt nào từng có nay đã tan thành lớp bụi nhợt nhạt.\n\nTrên bảng điều khiển, chúng ta tìm thấy một thùng chứa khác thường, từ đó thỉnh thoảng có thể nghe thấy những tiếng huỳnh huỵch và tiếng leng keng trầm đục như thể có thứ gì đó đang chuyển động bên trong. Tuy nhiên, niêm phong của thùng chứa rất phức tạp và §H[event_target:anomalous_cube_scientist.GetName]§! cho đến nay vẫn chưa thể mở được."
+ strange_worlds.2040.evopred: "Chắc chắn chúng ta vẫn có thể thu hồi lớp bụi này."
+
+ strange_worlds.2045.name: "Phát Hiện Nhật Ký Âm Thanh"
+ strange_worlds.2045.desc: "Trong khi khai thác dữ liệu từ bảng điều khiển trung tâm của khối lập phương, §H[event_target:anomalous_cube_scientist.GetName]§! đã có thể phục hồi và giải mã hai đoạn nhật ký âm thanh ngắn. Chúng chứa một loạt các tiếng lách cách trong cổ họng và tiếng tắc thanh môn gay gắt do một người nói duy nhất phát ra. Bằng cách đối chiếu chéo cơ sở dữ liệu ngôn ngữ, §H[event_target:anomalous_cube_scientist.GetName]§! đã tìm thấy một ngôn ngữ cổ tương đương và đưa ra bản dịch sơ bộ của đoạn nhật ký âm thanh đầu tiên:\n\n§L\"Hỡi đoàn chủ tịch, các người phải nghe tôi. Vẫn còn thời gian để tránh cuộc chiến tranh này. Sự tự tin của các triều thần là thiếu sáng suốt, chúng ta không thể đánh bại [Owner.GetAnomalousCubeEnemy]. Họ sẽ hủy diệt chúng ta!\"\n\n\"Xoa dịu là lựa chọn duy nhất của chúng ta. Chiếc thùng của tôi chứa một món quà, một minh chứng cho hòa bình: bí mật về sự làm chủ kim loại sống của chúng ta. Cách duy nhất để tránh bị diệt vong là giao nó cho họ.\"§!"
+ strange_worlds.2045.a: "Dịch đoạn nhật ký âm thanh thứ hai."
+
+ strange_worlds.2050.name: "Kỳ Quan Kim Loại Sống"
+ strange_worlds.2050.desc_intro: "Đoạn nhật ký âm thanh thứ hai từ bảng điều khiển của khối lập phương đã được dịch xong.\n\n§L\"Hỡi đoàn chủ tịch, tôi đã thất bại. Sự hủy diệt của chúng ta sắp xảy ra và không thể lay chuyển.\n\nTàu vũ trụ hình lục diện của tôi đã bị phá hoại. Tôi sẽ cố gắng hạ cánh khẩn cấp xuống [fromfrom.planet.GetName]. Ngay cả khi tôi sống sót, vật chứng hòa bình cũng sẽ không được chuyển giao, và [Owner.GetAnomalousCubeEnemy] sẽ tấn công như chúng ta từng lo sợ.\"§!\n\n§H[event_target:anomalous_cube_scientist.GetName]§! đã giải mã thành công cơ chế khóa trên chiếc thùng. Chứa bên trong là một thỏi kim loại kỳ dị. Nó đặc biệt dễ uốn nắn và siêu phản ứng, không ngừng tự định hình lại thành các hình thái phức tạp mới sau mỗi vài giây."
+ strange_worlds.2050.desc_no_war_lm: "\nChúng ta có thể giữ lại vật phẩm kỳ thú này để nâng cao hiểu biết về kim loại sống hoặc chúng ta có thể làm như những người chủ trước đó của nó đã định; dâng tặng nó như một món quà cho [Owner.GetAnomalousCubeEnemy] nhằm cải thiện vị thế của chúng ta với họ."
+ strange_worlds.2050.desc_no_war_no_lm: "\nChúng ta có thể giữ lại vật phẩm kỳ thú này để nâng cao hiểu biết về thứ kim loại đáng chú ý này hoặc chúng ta có thể làm như những người chủ trước đó của nó đã định; dâng tặng nó như một món quà cho [Owner.GetAnomalousCubeEnemy] nhằm cải thiện vị thế của chúng ta với họ."
+ strange_worlds.2050.desc_war_lm: "\nVật phẩm đáng chú ý này và con tàu hình khối chứa nó sẽ được sử dụng để nâng cao kiến thức của chúng ta về kim loại sống."
+ strange_worlds.2050.desc_war_no_lm: "\nVật phẩm đáng chú ý này và con tàu hình khối chứa nó sẽ được sử dụng để nâng cao kiến thức của chúng ta về các hợp chất và cấu trúc kim loại."
+ strange_worlds.2050.a_no_war: "Tặng nó cho [Owner.GetAnomalousCubeEnemy]."
+ strange_worlds.2050.b_fallen_not_defeated_no_war: "Giữ nó lại cho riêng mình."
+
+ strange_worlds.3005.name: "Nhà Tiên Tri Khả Nghi"
+ strange_worlds.3005.desc: "Trong khi quan sát dân số địa phương trên §Y[event_target:pre_ftl_planet.GetName]§!, đội tiền trạm của chúng ta đã tình cờ phát hiện một điều thú vị.\n\nThành phố thủ đô đang xôn xao bàn tán về một \"Đấng Được Chọn\", người được cho là đã từ các vì sao hạ phàm để hoàn thành một lời tiên tri cổ xưa và dẫn dắt loài [event_target:pre_ftl_planet.Owner.GetSpeciesName] bước vào một thời kỳ hoàng kim mới.\n\nTất cả nhân sự của chúng ta đều được kiểm điểm đầy đủ, vì vậy bất kể ai đang viếng thăm hành tinh này, họ đều rất đáng để điều tra thêm."
+ strange_worlds.3005.a: "Tìm hiểu thêm."
+
+ strange_worlds.3010.name: "Nhà Tiên Tri Giả Mạo"
+ strange_worlds.3010.desc_intro: "Cuộc điều tra của đội tiền trạm về \"Đấng Được Chọn\" trên §Y[event_target:pre_ftl_planet.GetName]§! đã hé lộ danh tính thực sự của kẻ này.\n\n"
+ strange_worlds.3010.desc_no_megacorp: "Một kẻ §YDu Mục Namaraian§! đang giả mạo làm nhân vật trung tâm trong thần thoại của [event_target:pre_ftl_planet.Owner.GetSpeciesName], tự xưng là \"từ các vì sao giáng trần\"."
+ strange_worlds.3010.desc_megacorp: "Một thương nhân đoàn buôn §Y[event_target:caravaneer_fleet3_country.GetSpeciesName]§! đang giả mạo làm nhân vật trung tâm trong thần thoại của [event_target:pre_ftl_planet.Owner.GetSpeciesName], tự xưng là \"từ các vì sao giáng trần\"."
+ strange_worlds.3010.desc_outro: "\nKhám phá sâu hơn về hành tinh này đã phát hiện ra con tàu bị rơi và không thể hoạt động của hắn được giấu trong một thung lũng khó tiếp cận cách thủ đô một khoảng cách nhất định. Dựa trên mẫu động cơ siêu không gian đã lỗi thời, kẻ này đã ở đây được một thời gian khá lâu.\n\nKể từ khi bị mắc kẹt, hắn dường như đã lợi dụng sự mê tín của người địa phương để mưu lợi cho bản thân. Hắn vui vẻ đón nhận sự tôn sùng và ca tụng từ người dân bản địa khi được tôn làm kẻ thống trị nắm giữ \"tri thức thiên giới\".\n\nNếu không được kiểm soát, sự hiện diện của kẻ bịp bợm này trên hành tinh có thể sẽ gây ra những hậu quả nặng nề cho xã hội đang phát triển. Tốt nhất là chúng ta nên can thiệp."
+ strange_worlds.3010.a: "Vạch trần bộ mặt lừa đảo của hắn."
+ strange_worlds.3010.b: "Đề nghị giải cứu hắn."
+
+ strange_worlds.3015.name: "Sự Thật Phơi Bày"
+ strange_worlds.3015.desc_no_megacorp: "Chúng ta đã phế truất thành công tên §YDu Mục Namaraian§! trên §Y[event_target:pre_ftl_planet.GetName]§! vốn giả mạo là \"Đấng Được Chọn\" trong thần thoại của [event_target:pre_ftl_planet.Owner.GetSpeciesName]."
+ strange_worlds.3015.desc_megacorp: "Chúng ta đã phế truất thành công tên §Y[event_target:caravaneer_fleet3_country.GetSpeciesName]§! trên §Y[event_target:pre_ftl_planet.GetName]§! vốn giả mạo là \"Đấng Được Chọn\" trong thần thoại của [event_target:pre_ftl_planet.Owner.GetSpeciesName]."
+ strange_worlds.3015.desc_outro: "\nSau khi nghiên cứu các truyền thuyết địa phương chi tiết hơn, chúng ta đã thuyết phục được giai cấp thống trị rằng cái gọi là đấng được chọn của họ thực chất là một con quỷ được cử đến để lừa gạt họ và đẩy hành tinh vào một ngàn năm tăm tối.\n\nChúng ta đã tháo dỡ thành công con tàu bị rơi để lấy phụ tùng, không để lại dấu vết nào cho người dân địa phương tìm thấy. Tuy nhiên, một số vật dụng cá nhân đã bị phát hiện và cho loài này một cái nhìn thoáng qua về công nghệ vượt xa tầm hiểu biết hiện tại của họ."
+ strange_worlds.3015.a: "Thật không may."
+
+ strange_worlds.3020.name: "Trở Về Nhà"
+ strange_worlds.3020.desc_intro: "Đội tiền trạm của chúng ta đã có được một buổi tiếp kiến riêng với \"Đấng Được Chọn\" của §Y[event_target:pre_ftl_planet.GetName]§! và đề nghị hỗ trợ sửa chữa tàu của hắn để đưa hắn trở lại vũ trụ.\n\n"
+ strange_worlds.3020.desc_no_megacorp: "Tên §YDu Mục Namaraian§! đã quá đỗi háo hức chấp nhận lời đề nghị, giải thích rằng hắn đã bị hiểu nhầm là một vị thần sau khi bị mắc kẹt trên §Y[event_target:pre_ftl_planet.GetName]§! và kể từ đó đã sống trong nỗi sợ hãi bị hãm hại nếu bị lột trần mặt nạ."
+ strange_worlds.3020.desc_megacorp: "Tên §Y[event_target:caravaneer_fleet3_country.GetSpeciesName]§! đã quá đỗi háo hức chấp nhận lời đề nghị, giải thích rằng hắn đã bị hiểu nhầm là một vị thần sau khi bị mắc kẹt trên §Y[event_target:pre_ftl_planet.GetName]§! và kể từ đó đã sống trong nỗi sợ hãi bị hãm hại nếu bị lột trần mặt nạ."
+ strange_worlds.3020.desc_outro: "\nSau khi đưa hắn đến trạm nghiên cứu và sửa chữa tàu, người lữ hành đầy lòng biết ơn đã tặng chúng ta một phần lớn kho hàng trên tàu của hắn trước khi chào tạm biệt.\n\nKhoảng trống quyền lực sau sự ra đi của hắn đã gây ra một cuộc đấu tranh ngắn ngủi nhưng tàn khốc giữa các giáo phái tôn giáo khác nhau trên §Y[event_target:pre_ftl_planet.GetName]§!, nay đã lắng dịu."
+ strange_worlds.3020.a: "Thật hấp dẫn."
+
+ strange_worlds.3025.name: "[event_target:nomad01_country.GetName]"
+ strange_worlds.3025.desc: "Kính chào [Owner.GetSpeciesName]. Chúng tôi hiểu rằng các bạn đã xử lý một tên Namaraian biến chất đã tách khỏi hạm đội của chúng tôi.\n\nCác bạn đã làm cho chúng tôi một việc tuyệt vời. Cá nhân lầm lạc này từng là nỗi phiền toái liên tục, tham vọng ngông cuồng của hắn từng gây nguy hiểm cho hành trình của chúng tôi.\n\nXin vui lòng nhận món quà này như lời cảm ơn chân thành."
+ strange_worlds.3025.a: "Cảm ơn các bạn rất nhiều."
+
+ strange_worlds.3030.name: "[event_target:caravaneer_home_country.GetName]"
+ strange_worlds.3030.desc: "[Owner.GetSpeciesNamePlural] đã xử lý tên §YRacket§! bị lạc sao? Các bạn thật tốt bụng! Tên ngốc đó chẳng mang lại điều gì ngoài sự đau đầu cho chúng tôi. Những lời lảm nhảm của hắn ư? Thật là một sự xấu hổ. Đây là lần thứ năm chuyện này xảy ra rồi đấy. Thành thật mà nói ư? Chúng tôi rất mừng vì hắn đã biến mất.\nĐây, các bạn hãy cầm lấy thứ này, một món quà vì đã giúp giải quyết rắc rối. Giao dịch một lần duy nhất, giá trị cực kỳ hời đấy nhé."
+ strange_worlds.3030.a: "Cảm ơn các bạn rất nhiều."
+
+ strange_worlds.3040.name: "Thứ Chúng Ta Bỏ Lại"
+ strange_worlds.3040.desc: "Trạm quan sát của chúng ta phía trên §Y[event_target:pre_ftl_planet.GetName]§! đã báo cáo về việc mất tích các thùng tiếp tế sau một cuộc khảo sát địa chất gần đây trên bề mặt.\n\nTrong khi lần theo máy định vị địa lý trên đồ tiếp tế, chúng ta phát hiện một ngôi làng địa phương đã tìm thấy và nhận những tài nguyên này về cho riêng họ.\n\nViệc những thùng chứa đồ của chúng ta xuất hiện có thể gây ra tác động tiêu cực đến sự phát triển của xã hội [event_target:pre_ftl_planet.Owner.GetSpeciesAdj]."
+ strange_worlds.3040.a: "Thật không may."
+
+ strange_worlds.3045.name: "Gửi Lại Cho Người Gửi"
+ strange_worlds.3045.desc_common: "Có vẻ như số hàng hóa bị thất lạc trên §Y[event_target:pre_ftl_planet.GetName]§! đã tạo ra một tác động kỳ lạ lên nền văn hóa bản địa.\n\nQuần thể [Root.GetPreFTLUpper] đã đóng những mô hình thô sơ bắt chước các tàu con thoi quan sát của chúng ta. Mặc dù những \"con tàu\" này rõ ràng không thể hoạt động, nhưng đây là bằng chứng cho thấy các nhà nghiên cứu của chúng ta đã bị người địa phương phát hiện trong quá trình khảo sát.\n\nDưới sự hướng dẫn của một trưởng lão địa phương, người ta thấy loài [event_target:pre_ftl_planet.Owner.GetSpeciesName] đang thực hiện nghi thức mô phỏng quy trình phân tích mẫu đất địa chất của chúng ta: lấp đầy các thùng hàng chúng ta bỏ lại bằng đất đá, chất chúng lên \"tàu\" của họ và kiên nhẫn chờ đợi."
+ strange_worlds.3045.desc_non_homicidal: "\nLoài [event_target:pre_ftl_planet.Owner.GetSpeciesName] mang ấn tượng rằng bằng cách bắt chước các quy trình của chúng ta, sẽ có thêm nhiều nhu yếu phẩm xuất hiện. Chúng ta nên can thiệp trước khi hành vi này ảnh hưởng đến toàn bộ xã hội rộng lớn của họ."
+ strange_worlds.3045.desc_homicidal: "\nHành động này hoàn toàn vô ích, chỉ có cái chết đang chờ đợi họ mà thôi."
+ strange_worlds.3045.a_normal: "Bí mật thu hồi các thùng hàng của chúng ta."
+ strange_worlds.3045.a_megacorp: "Kín đáo thu hồi tài sản của chúng ta."
+ strange_worlds.3045.b_normal: "Đổi nguồn lương thực lấy khoáng sản của họ."
+ strange_worlds.3045.b_megacorp: "Hãy cùng trao đổi buôn bán!"
+ strange_worlds.3045.c: "Tiêu diệt lũ sinh vật nguyên thủy này."
+ strange_worlds.3045.ct: "Trạm Quan sát hiện đang quan sát §Y[event_target:pre_ftl_planet.GetName]§! nay sản xuất $@observation_outpost_crate_minerals_production$ $i_minerals$ với chi phí duy trì là $@observation_outpost_crate_food_upkeep$ $i_food$"
+
+ strange_worlds.3050.name: "Sự Vắng Mặt Đầy Oán Giận"
+ strange_worlds.3050.desc: "Sau khi thu hồi các thùng hàng bị mất từ §Y[event_target:pre_ftl_planet.GetName]§!, các nghi lễ bốc hàng lên \"tàu\" vẫn tiếp tục diễn ra trong một thời gian ngắn, cho đến khi người dân địa phương [event_target:pre_ftl_planet.Owner.GetSpeciesName] nổi giận quay sang tấn công trưởng lão làng của họ, ném ông ta vào con tàu con thoi tạm bợ trước khi thiêu rụi nó thành tro.\n\nMặc dù người dân đã trở lại nhịp sống thường nhật, nhưng nền văn hóa của họ vẫn còn vương vấn sự oán giận đối với \"những người đến từ bầu trời\"."
+ strange_worlds.3050.a: "Đã ghi nhận."
+
+ strange_worlds.3060.name: "Hủy Bỏ Dịch Vụ"
+ strange_worlds.3060.desc: "Khi xã hội [event_target:pre_ftl_planet.Owner.GetSpeciesName] [Root.GetPreFTLLower] tiến bộ, chúng ta đã ngừng việc trao đổi khẩu phần lương thực lấy khoáng sản từ trạm quan sát.\n\nMặc dù đây là một thử nghiệm thú vị, nhưng việc tiếp tục can thiệp vào nền văn minh của họ chỉ làm tăng nguy cơ phơi bày sự hiện diện của chúng ta trước họ quá sớm."
+ strange_worlds.3060.a: "Một biện pháp hợp lý."
+ strange_worlds.3060.ct: "Trạm Quan sát không còn sản xuất Khoáng Sản và không còn yêu cầu mức duy trì Lương Thực nữa"
+
+ strange_worlds.3070.name: "Dị Thường Quỹ Đạo"
+ strange_worlds.3070.desc: "Một dị thường hấp dẫn đã hất trạm quan sát của chúng ta phía trên §Y[event_target:pre_ftl_planet.GetName]§! ra khỏi quỹ đạo, khiến nó rơi thoáng qua vào tầng dưới bầu khí quyển của hành tinh.\n\nMặc dù phi hành đoàn của chúng ta không bị tổn hại và quỹ đạo ban đầu đã được phục hồi, nhưng có những lo ngại rằng trạm có thể đã bị các [event_target:pre_ftl_planet.Owner.GetSpeciesNamePlural] phát hiện từ bề mặt.\n\nChỉ có thời gian mới trả lời được liệu chúng ta đã bị lộ diện trước người dân địa phương hay chưa, và điều đó sẽ tác động đến xã hội của họ ở mức độ nào."
+ strange_worlds.3070.a: "Tiếp tục quan sát."
+
+ strange_worlds.3075.name: "Những Nấc Thang Lên Trời"
+ strange_worlds.3075.desc_common: "Công nghệ chụp ảnh nguyên thủy đã ghi lại được hình ảnh trạm quan sát của chúng ta khi nó ở quỹ đạo thấp phía trên §Y[event_target:pre_ftl_planet.GetName]§!. Cùng với lời khai của các nhân chứng, những bức ảnh này đã truyền cảm hứng cho một số quốc gia xây dựng \"những nấc thang lên trời\" để điều tra thêm.\n\nMặc dù đây rõ ràng là một nỗ lực vô ích, sự cạnh tranh giữa các quốc gia đang gây ra hiệu ứng bất ổn. Những căng thẳng cũ đang bùng phát trở lại trong cuộc đua hoàn thành \"nấc thang\" đầu tiên, được thúc đẩy bởi niềm tự hào dân tộc và sự khan hiếm tài nguyên."
+ strange_worlds.3075.desc_non_homicidal: "\nNếu chúng ta có thể làm mất uy tín các bằng chứng về sự tồn tại của chính mình, chúng ta có thể xoa dịu căng thẳng trước khi tình hình vượt khỏi tầm kiểm soát của [Owner.GetSpeciesHandName].\n\nNgoài ra, thế cờ ngoại giao này giữa các cường quốc chính trị [Root.GetPreFTLUpper] có thể là một nghiên cứu tình huống xã hội học thú vị, mặc dù nó đi kèm với nguy cơ leo thang bạo lực."
+ strange_worlds.3075.desc_homicidal: "\nSự hỗn loạn sắp xảy ra sẽ là một cơ hội nghiên cứu tuyệt vời."
+ strange_worlds.3075.a: "Bác bỏ bằng chứng về sự tồn tại của chúng ta."
+ strange_worlds.3075.b: "Tiếp tục quan sát."
+ strange_worlds.3075.b_ct: "Sản lượng Nghiên Cứu £society£ §YXã Hội§! từ trạm quan sát được nhân đôi"
+
+ strange_worlds.3080.name: "Sự Thật Nằm Ở Ngoài Kia"
+ strange_worlds.3080.desc: "Các điệp viên của chúng ta đã làm mất uy tín thành công bằng chứng về sự tồn tại của chúng ta trên §Y[event_target:pre_ftl_planet.GetName]§!.\n\nVới việc các hình ảnh bị bóc trần và uy tín của các nhân chứng bị phá hủy, việc xây dựng \"những nấc thang lên trời\" đã dừng lại. Cảm thấy xấu hổ vì sự ngu ngốc của mình, các quốc gia từng bị chia rẽ đã cam kết theo đuổi con đường nghiên cứu duy lý và phương pháp khoa học.\n\nCác công trường xây dựng thang đã được tái sử dụng thành các trung tâm học thuật bậc cao, khi một làn sóng học giả mới cùng nhau vạch trần những huyền thoại về \"Thành Trì Trên Bầu Trời\"."
+ strange_worlds.3080.a: "$FASCINATING$"
+ strange_worlds.3080.a_ct: "[event_target:pre_ftl_country.GetName] đạt 50% tiến độ hướng tới thời đại tiếp theo\n[event_target:pre_ftl_country.GetName] trở thành Duy Vật."
+
+ strange_worlds.3085.name: "Đại Chiến Thang Trời"
+ strange_worlds.3085.desc: "Trong những nỗ lực xây dựng \"những nấc thang lên trời\", căng thẳng giữa các quốc gia [Root.GetPreFTLLower] trên §Y[event_target:pre_ftl_planet.GetName]§! đã dẫn đến một cuộc xung đột toàn cầu toàn diện. Tranh giành những nguồn tài nguyên ngày càng cạn kiệt, hai năm tàn sát đẫm máu vừa qua được gọi là \"Đại Chiến Thang Trời\" cuối cùng cũng đã kết thúc.\n\nĐiều khoản then chốt của hiệp ước hòa bình là thành lập một mặt trận thống nhất chống lại kẻ thù chung của họ, \"Thành Trì Trên Bầu Trời\". Khi các [event_target:pre_ftl_planet.Owner.GetSpeciesNamePlural] tái thiết thế giới bị chiến tranh tàn phá của mình, sự hoang tưởng và lòng thù hận gia tăng đối với những điều chưa biết sẽ khiến các tương tác trong tương lai với họ trở nên thách thức hơn."
+ strange_worlds.3085.a: "Chuyện đó để sau hãy tính."
+ strange_worlds.3085.a_ct: "Sản lượng Nghiên Cứu £society£ §YXã Hội§! từ trạm quan sát trở lại bình thường"
+
+ create_hibernators_pops_ct: "Tạo $@hibernators_pops_created|*0$ £job_pre_sapient£ Pop Tiền Tri Giác với đặc điểm §Y$trait_seasonal_dormancy$§!"
+
+ pm_bleeding_planet: "Hành Tinh Rỉ Máu"
+ pm_bleeding_planet_desc: "Chính mặt đất cũng đang rỉ máu. Khuyến cáo nên thận trọng khi đào xới mặt đất bên dưới chân các cư dân thuộc địa.\n"
+
+ pm_contruction_coagulate: "Vết Máu Đông Xây Dựng"
+ pm_contruction_coagulate_desc: "Mặt đất rỉ máu trước sự hiện diện của thuộc địa, chất nhờn nhớt quánh đóng vai trò như một chất kết dính tự nhiên, dù nguy hiểm.\n"
+
+ pm_hemosymbiosis: "Cộng Sinh Máu"
+ pm_hemosymbiosis_desc: "Chất nhờn kỳ lạ từ bên trong hành tinh này tác động đến sự phát triển tiếp theo. Thời gian xây dựng và nỗ lực khai thác mỏ được hưởng lợi từ chất này với cái giá phải trả là sự phát triển của thuộc địa.\n"
+
+ pm_parasitic_production: "Sản Xuất Ký Sinh"
+ pm_parasitic_production_desc: "Các dạng sống ký sinh trên hành tinh này đã được tái định hướng mục đích sử dụng, giúp tăng năng suất cho mọi công nhân.\n"
+
+ pm_frying_fauna: "Động Vật Bị Nướng Chín"
+ pm_frying_fauna_desc: "Những cự thú của thế giới này phát triển mạnh mẽ trong các điều kiện tối ưu. Các enzyme tiêu hóa độc đáo của chúng rất hữu ích trong việc tinh luyện hợp kim."
+
+ pm_frying_fauna_machine: "$pm_frying_fauna$"
+ pm_frying_fauna_machine_desc: "$pm_frying_fauna_desc$"
+
+ pm_frying_fauna_2: "$pm_frying_fauna$"
+ pm_frying_fauna_2_desc: "Các máy thu hoạch tích điện chuyển đổi các cự thú của thế giới này thành nguồn cung cấp chất dinh dưỡng ổn định."
+
+ pm_frying_fauna_2_machine: "$pm_frying_fauna$"
+ pm_frying_fauna_2_machine_desc: "$pm_frying_fauna_2_desc$"
+
+ pm_catalytic_excrement: "Chất Thải Xúc Tác"
+ pm_catalytic_excrement_ct: "Những cự thú của thế giới này phát triển mạnh mẽ trong các điều kiện tối ưu. Các enzyme tiêu hóa độc đáo của chúng rất hữu ích trong việc tinh luyện hợp kim."
+
+ pm_strange_sandstorm: "Bão Cát Kỳ Lạ"
+ pm_strange_sandstorm_ct: "Những hiện tượng độc đáo với những bãi cát của hành tinh đang ảnh hưởng đến hoạt động của thuộc địa này."
+
+ pm_perpetual_lightning: "Sấm Sét Vĩnh Cửu"
+ pm_perpetual_lightning_desc: "Các tinh thể nhiễm xạ lộ ra trong dị thường địa cầu hóa đã tạo nên môi trường thời tiết hoàn hảo cho một cơn bão sét vĩnh cửu trên khắp hành tinh."
+
+ pm_dark_matter_geyser: "Mạch Nước Phun Vật Chất Tối"
+ pm_dark_matter_geyser_desc: "Hành tinh đang chìm ngập trong làn chướng khí vật chất tối."
+
+ pm_population_quarantine: "Cách Ly Dân Số"
+ pm_population_quarantine_desc: "Dân số đang bị cách ly trong khi các tác động của việc hóa đá bằng vật chất tối đang được điều tra."
+
+ pm_dark_matter_statue: "Tượng Vật Chất Tối"
+ pm_dark_matter_statue_desc: "Những lớp vỏ hóa đá bằng Vật Chất Tối thể rắn có thể được tìm thấy rải rác khắp hành tinh. Những tàn tích ảm đạm này của cư dân trước đây cung cấp một số cơ hội nghiên cứu."
+
+ pm_raining_corpses: "Mưa Thi Thể"
+ pm_raining_corpses_desc: "Những đám mây dày đặc từng được một chủng tộc ngoài hành tinh sử dụng làm nơi chôn cất nay đang mỏng dần, khiến những thứ bên trong ngôi mộ mây rơi xuống bề mặt hành tinh."
+ pm_raining_corpses_tt: "£minor_artifacts£ $minor_artifacts$ từ Nghề £job£ $WORKERS$"
+ pm_raining_corpses_no_ancrel: "$pm_raining_corpses$"
+ pm_raining_corpses_no_ancrel_desc: "$pm_raining_corpses$"
+ pm_raining_corpses_no_ancrel_tt: "£consumer_goods£ $consumer_goods$ từ Nghề £job£ £pop_cat_worker£ $pop_cat_worker$"
+
+ pm_revolting_pests: "Loài Gây Hại Kinh Tởm"
+ pm_revolting_pests_desc: "Các loài động vật trên hành tinh này rất hấp dẫn nhưng lại vô cùng kinh tởm. Khuyến cáo không nên tiếp xúc gần với những sinh vật này."
+
+ pm_gaseous_fauna: "Động Vật Thải Khí"
+ pm_gaseous_fauna_desc: "Một loài động vật bản địa được thuần hóa vừa cung cấp giải trí vừa mang lại dịch tiết khí có thể thu hoạch cho dân cư hành tinh."
+ pm_gaseous_fauna_ct: "Tất cả Pop £pop£ sản xuất §G$@gaseous_fauna_exotic_gases_production$§! $i_exotic_gases$"
+
+ pm_urban_privilege_regular: "Đặc Quyền Đô Thị"
+ pm_urban_privilege_regular_desc: "Việc đứng về phía các khu đô thị trong một cuộc tranh chấp địa phương đã khiến các khu vực nông thôn bất an."
+ pm_urban_privilege_broken_shackles: "$pm_urban_privilege_regular$"
+ pm_urban_privilege_broken_shackles_desc: "$pm_urban_privilege_regular_desc$"
+
+ pm_rural_privilege_regular: "Đặc Quyền Nông Thôn"
+ pm_rural_privilege_regular_desc: "Việc đứng về phía các khu nông thôn trong một cuộc tranh chấp địa phương đã khiến các khu vực đô thị bất an."
+ pm_rural_privilege_broken_shackles: "$pm_rural_privilege_regular$"
+ pm_rural_privilege_broken_shackles_desc: "$pm_rural_privilege_regular_desc$"
+
+ pm_peacekeeper_deployment: "Triển Khai Lực Lượng Gìn Giữ Hòa Bình"
+ pm_peacekeeper_deployment_desc: "Các nỗ lực gìn giữ hòa bình bổ sung đang có hiệu lực trong khi chúng ta giải quyết các tranh chấp khu vực."
+
+ bacterial_drive_modifier_desc: "Nguồn nước được bổ sung vi khuẩn biến đổi gen đã khơi dậy sự tận tụy phi thường của người dân đối với một mục tiêu chung duy nhất"
+
+ pm_bd_reproduction: "Động Lực Vi Khuẩn: Sinh Sản"
+ pm_bd_reproduction_desc: "$bacterial_drive_modifier_desc$"
+
+ pm_bd_strength: "Động Lực Vi Khuẩn: Thể Lực"
+ pm_bd_strength_desc: "$bacterial_drive_modifier_desc$"
+
+ pm_bd_creativity: "Động Lực Vi Khuẩn: Sáng Tạo"
+ pm_bd_creativity_desc: "$bacterial_drive_modifier_desc$"
+
+ ladder_wars_pre_ftl: "Tàn Dư Của Đại Chiến Thang Trời"
+ ladder_wars_pre_ftl_desc: "Khi thế giới bị chiến tranh tàn phá này tái thiết, sự hoang tưởng ngày càng tăng của họ khiến cho các tương tác với những người khác trở thành một thách thức cho tất cả các bên liên quan."
+
+ living_metal_mega_construction_insight: "Hiểu Biết Sâu Sắc Về Đại Công Trình Kim Loại Sống"
+ living_metal_mega_construction_insight_desc: "Cổ vật Kim Loại Sống mà chúng ta thu hồi được đã mang lại cho chúng ta hiểu biết sâu sắc đáng kinh ngạc về việc phát triển các siêu công trình."
+ living_metal_mega_construction_insight_ct: "Chi phí cơ bản Sắc lệnh Đại Công Trình Kim Loại Sống: §G-50%§!"
+
+ d_coagulated_landscape: "Cảnh Quan Đông Kết"
+ d_coagulated_landscape_desc: "Một chất nhờn nhớt quánh trào ra từ bề mặt hành tinh, đông kết tạo thành một vật liệu nguy hiểm gần như không thể xuyên thủng. Điều này để lại rất ít không gian để xây dựng an toàn."
+
+ d_shimmering_structure: "Công Trình Lung Linh Mờ Ảo"
+ d_shimmering_structure_desc: "Một công trình lớn lung linh mờ ảo không rõ nguồn gốc."
+
+ d_geothermal_hotspot: "Điểm Nóng Địa Nhiệt"
+ d_geothermal_hotspot_desc: "Hành tinh này sở hữu một địa điểm địa nhiệt đặc biệt cung cấp cả năng lượng lẫn cơ hội nghiên cứu."
+
+ d_ancient_cloaking_array: "Dàn Tàng Hình Cổ Đại"
+ d_ancient_cloaking_array_desc: "Thuộc địa này được hưởng lợi từ sự hiện diện của một dàn tàng hình ngoài hành tinh cổ đại. Kẻ thù sẽ không dễ dàng tấn công. Cư dân thuộc địa có thể cảm thấy an toàn tại đây."
+
+ d_psionic_sands: "Cát Tâm Linh"
+ d_psionic_sands_desc: "Cát trên hành tinh này có nồng độ Zro cao hiện diện khắp nơi. Có thể giao tiếp với chúng."
+
+ d_mountains_of_steel: "Những Rặng Núi Thép"
+ d_mountains_of_steel_desc: "Được rèn đúc trong nhiệt độ khắc nghiệt của quá trình địa cầu hóa, những dãy núi kiên cố rộng lớn này đóng vai trò như những mỏ tài nguyên phong phú."
+
+ d_lava_tubes: "Ống Nham Thạch"
+ d_lava_tubes_desc: "Các dòng magma đã rèn đúc nên những đường hầm sâu thẳm, giàu khoáng sản tại đây. Các ống dẫn nhiệt nham này mang lại cơ hội khai thác mỏ béo bở."
+ d_lava_tubes_ct: "$t$Chi phí Duy trì £energy£ cho Nghề [miner.GetIcon] [miner.GetName]: §R+$@lava_tubes_mining_job_upkeep$§!"
+ d_lava_tubes_ct_short: "§R+$@lava_tubes_mining_job_upkeep$§! Chi phí Duy trì £energy£ cho Nghề [miner.GetIcon] [miner.GetName]"
+
+ d_hydroactive_eggs: "Trứng Hoạt Hóa Bởi Nước"
+ d_hydroactive_eggs_desc: "Nước sẵn có dồi dào trong môi trường tự nhiên ở đây, tạo điều kiện cho tỷ lệ sinh sản cao vượt trội của các loài động vật bản địa."
+
+ d_explosive_atmosphere: "Khí Quyển Dễ Cháy Nổ"
+ d_explosive_atmosphere_desc: "Nồng độ phù hạt dễ bay hơi trong không khí làm cho bầu khí quyển của hành tinh này rất dễ bốc cháy."
+ d_explosive_atmosphere_ct: "$t$£volatile_motes£ §Y$volatile_motes$§! từ Nghề [mote_harvester.GetIcon]$mote_harvester$: §G+50%§!"
+ d_explosive_atmosphere_ct_short: "§G+50%§! £volatile_motes£ §Y$volatile_motes$§! từ Nghề [mote_harvester.GetIcon]$mote_harvester$"
+
+ d_blue_lava: "Dung Nham Xanh Lam"
+ d_blue_lava_desc: "Quá trình địa cầu hóa đã gây ra phản ứng giữa các mỏ khí phong phú và hợp kim sâu bên trong hành tinh, để lại trên bề mặt thế giới dòng dung nham xanh lam mê hoặc."
+
+ d_crystaline_growths: "Tinh Thể Phát Triển"
+ d_crystaline_growths_desc: "Có rất nhiều tinh thể phát triển phong phú trên hành tinh này có thể thu hoạch để sử dụng."
+
+ d_bogplants: "Thực Vật Đầm Lầy"
+ d_bogplants_desc: "Các đầm lầy siêu axit là nơi cư ngụ của một loài thực vật độc đáo tiết ra khí dị thường khi kiếm ăn."
+
+ d_liquid_dark_matter: "Vật Chất Tối Dạng Lỏng"
+ d_liquid_dark_matter_desc: "Một mạch nước ngầm kỳ lạ đã sụp đổ thành một hồ vật chất tối dạng lỏng."
+
+ d_space_junk_hazards: "Hiểm Họa Rác Không Gian"
+ d_space_junk_hazards_desc: "Các mảnh vụn không gian quay quanh quỹ đạo gây nguy hiểm cho việc tiếp cận của tàu con thoi và các công trình bề mặt khi rơi vào bầu khí quyển của hành tinh."
+
+ trait_inner_darkness: "Bóng Tối Nội Tại"
+ trait_inner_darkness_desc: "Cơ thể của họ được tăng cường sau khi bão hòa trong Vật Chất Tối, giờ đây họ thải ra một lượng nhỏ các hạt phi baryon theo định kỳ nhưng sẽ đốt cháy tuổi thọ kỳ vọng nhanh hơn."
+ trait_inner_darkness_tt: "£sr_dark_matter£ $produced_per_pop_group_unit$ Pop £pop£: §G+$@inner_darkness_dark_matter_production$§!"
+
+ trait_geleboric_mutations: "Đột Biến Geleboric"
+ trait_geleboric_mutations_desc: "Những phản ứng không may đối với thử nghiệm đã làm thay đổi mạnh mẽ sinh lý học của loài này."
+
+ trait_psionic_ephapse: "Khớp Nối Tâm Linh"
+ trait_psionic_ephapse_desc: "Sau thời gian dài tiếp xúc với vi khuẩn thay đổi tâm trí, hệ thống tiêu hóa của loài này sản sinh ra các lợi khuẩn tâm linh thúc đẩy giao tiếp thần giao cách cảm giữa các cá thể bị ảnh hưởng."
+ trait_psionic_ephapse_modifier_tooltip: "Nếu Loài có đặc điểm §Y$trait_psionic$§! hoặc §Y$trait_latent_psionic$§!:\n$bureaucrat_jobs_bonus_workforce_mult$: §G+5%§!\n$researcher_jobs_bonus_workforce_mult$: §G+5%§!"
+
+ sand_caretaker_name: "Người Chăm Sóc Cát"
+ sand_caretaker_name_plural: "Những Người Chăm Sóc Cát"
+ sand_whisperer_name: "Người Thì Thầm Với Cát"
+ sand_whisperer_name_plural: "Những Người Thì Thầm Với Cát"
+
+ job_sand_whisperer: "Người Thì Thầm Với Cát"
+ job_sand_whisperer_plural: "Những Người Thì Thầm Với Cát"
+ job_sand_whisperer_desc: "Khi giao tiếp với cát tâm linh, $job_sand_whisperer_plural$ có thể thu thập một lượng nhỏ Zro từ chúng."
+
+ job_sand_caretaker: "Người Chăm Sóc Cát"
+ job_sand_caretaker_plural: "Những Người Chăm Sóc Cát"
+ job_sand_caretaker_desc: "Khi giao tiếp với cát tâm linh, $job_sand_caretaker_plural$ có thể thu thập một lượng nhỏ Zro từ chúng."
+
+ job_drone_sand_whisperer: "Drone $job_sand_whisperer$"
+ job_drone_sand_whisperer_plural: "Các drone $job_sand_whisperer_plural$"
+ job_drone_sand_whisperer_desc: "$job_sand_whisperer_desc$"
+
+ job_drone_sand_caretaker: "Drone $job_sand_caretaker$"
+ job_drone_sand_caretaker_plural: "Các drone $job_sand_caretaker_plural$"
+ job_drone_sand_caretaker_desc: "$job_sand_caretaker_desc$"
+
+ mod_job_sand_whisperer_add: "Nghề $job_sand_whisperer$"
+ mod_job_sand_whisperer_per_pop: "§G+1§! Nghề £job_sand_whisperer£ $job_sand_whisperer$ cho mỗi $VALUE$ Pop £pop£"
+ mod_job_sand_whisperer_per_pop_short: "\n§G+1§! Nghề £job_sand_whisperer£ $job_sand_whisperer$ cho mỗi $VALUE$ £pop£"
+
+ mod_job_drone_sand_whisperer_add: "Nghề $job_drone_sand_whisperer$"
+ mod_job_drone_sand_whisperer_per_pop: "§G+1§! Nghề £job_sand_whisperer£ $job_drone_sand_whisperer$ cho mỗi $VALUE$ Pop £pop£"
+ mod_job_drone_sand_whisperer_per_pop_short: "\n§G+1§! Nghề £job_sand_whisperer£$job_drone_sand_whisperer$ cho mỗi $VALUE$ £pop£"
+
+ mod_job_sand_caretaker_add: "Nghề $job_sand_caretaker$"
+ mod_job_sand_caretaker_per_pop: "§G+1§! Nghề £job_sand_whisperer£ $job_sand_caretaker$ cho mỗi $VALUE$ Pop £pop£"
+ mod_job_sand_caretaker_per_pop_short: "\n§G+1§! Nghề £job_sand_whisperer£ $job_sand_caretaker$ cho mỗi $VALUE$ £pop£"
+
+ mod_job_drone_sand_caretaker_add: "Nghề $job_drone_sand_caretaker$"
+ mod_job_drone_sand_caretaker_per_pop: "§G+1§! Nghề £job_sand_whisperer£ $job_drone_sand_caretaker$ cho mỗi $VALUE$ Pop £pop£"
+ mod_job_drone_sand_caretaker_per_pop_short: "\n§G+1§! Nghề £job_sand_whisperer£ $job_drone_sand_caretaker$ cho mỗi $VALUE$ £pop£"
+
+ job_space_junk_collector: "Công Nhân Thu Gom Rác Không Gian"
+ job_space_junk_collector_plural: "Các Công Nhân Thu Gom Rác Không Gian"
+ job_space_junk_collector_desc: "Rác không gian trên quỹ đạo định kỳ đi vào bầu khí quyển của hành tinh này. Bất cứ thứ gì không bị bốc cháy khi tiến vào khí quyển đều có thể được thu gom và tái chế."
+
+ job_drone_space_junk_collector: "Drone $job_space_junk_collector$"
+ job_drone_space_junk_collector_plural: "Các drone $job_space_junk_collector_plural$"
+ job_drone_space_junk_collector_desc: "$job_space_junk_collector_desc$"
+
+ mod_job_space_junk_collector_add: "Nghề $job_space_junk_collector$"
+ mod_job_space_junk_collector_per_pop: "§G+1§! Nghề £job_space_junk_collector£ $job_space_junk_collector$ cho mỗi $VALUE$ Pop £pop£"
+ mod_job_space_junk_collector_per_pop_short: "\n§G+1§! Nghề £job_space_junk_collector£ $job_space_junk_collector$ cho mỗi $VALUE$ £pop£"
+
+ mod_job_drone_space_junk_collector_add: "Nghề $job_drone_space_junk_collector$"
+ mod_job_drone_space_junk_collector_per_pop: "§G+1§! Nghề £drone_space_junk_collector£ $job_drone_space_junk_collector$ cho mỗi $VALUE$ Pop £pop£"
+ mod_job_drone_space_junk_collector_per_pop_short: "\n§G+1§! Nghề £drone_space_junk_collector£$ job_drone_space_junk_collector$ cho mỗi $VALUE$ £pop£"
+
+ mod_planet_deposits_produces_mult: "Tài nguyên sản sinh từ các mỏ khoáng"
+
+ mod_planet_jobs_complex_drone_society_research_produces_mult: "£society_research£ $society_research$ trên mỗi $pop_group_unit$ Nghề £job£ $pop_cat_complex_drone_plural$"
+
+ mod_planet_districts_hab_energy_upkeep_mult: "Chi Phí Duy Trì Khu Vực Năng Lượng"
+
+ mod_planet_broken_shackles_scavenger_produces_mult: "Sản lượng £job_broken_shackles_scavenger£ $job_broken_shackles_scavenger$"
+
+ tech_enhanced_cryosleep_sedatives: "Thuốc An Thần Ngủ Đông Tăng Cường"
+ tech_enhanced_cryosleep_sedatives_desc: "Thuốc an thần dựa trên một loại enzyme hiếm cho phép tăng cường giấc ngủ đông, cải thiện đáng kể khả năng chịu đựng của các loài hữu cơ trong những chuyến du hành vũ trụ đường dài."
+
+ tech_universal_marcophage: "Đại Thực Bào Vạn Năng"
+ tech_universal_marcophage_desc: "Những chất tăng cường miễn dịch mạnh mẽ này biến bệnh tật thành dĩ vãng, cho phép các quần thể hữu cơ sống lâu hơn, khỏe mạnh hơn. Có thể gây ra tác dụng phụ nghiêm trọng."
+
+ MOD_POP_ORGANIC_RESETTLEMENT_COST_MULT: "Chi Phí Tái Định Cư Pop Hữu Cơ"
+
+ MOD_LEADER_ORGANIC_LIFESPAN_MULT: "Tuổi Thọ Lãnh Đạo Hữu Cơ"
+
+ explorer_gestalt: "drone thám hiểm"
+ explorer_gestalt_plural: "các drone thám hiểm"
+ explorer_non_gestalt: "đội trinh sát"
+ explorer_non_gestalt_plural: "các đội trinh sát"
+
+ ADD_TERRAFORMING_TOTAL_DAYS_PERCENT: "Thời gian địa cầu hóa tăng thêm §G+$PERCENT|%0$§!"
+
+ pc_junk: "Mặt Trăng Phế Liệu"
+ pc_junk_desc: "Một khối rác không gian từ hóa lớn bao gồm phế liệu kim loại, mảnh vỡ vệ tinh và các bộ phận siêu cấu trúc thu hồi được."
+ NAME_JUNK_MOON: "$pc_junk$"
+
+ opinion_gift_given: "Đã Tặng Quà"
+
+ planet_broken_shackles_scavenger: "Nghề Nhặt Rác"
+
+ pre_ftl_regresses_one_age_effect: "[event_target:pre_ftl_country.GetName] thoái lùi về thời đại trước"
+ pre_ftl_progresses_one_age_effect: "[event_target:pre_ftl_country.GetName] tiến lên thời đại tiếp theo"

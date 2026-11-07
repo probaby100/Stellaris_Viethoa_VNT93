@@ -1,0 +1,421 @@
+﻿l_english:
+
+ ### RESOLUTION COMMENTS - REQUESTS
+ ### Request - Militarist
+ ethic_militarist_request_friendly:0 "Chúng ta có cùng chí hướng trong chuyện này, phải không?"
+ ethic_militarist_request_friendly_0:0 "$GREETER$ yêu cầu sự ủng hộ từ $COUNTRY$."
+ ethic_militarist_request_friendly_1:0 "Liệu các bạn có trở thành đồng minh vững chắc của $GREETER$ không?"
+ ethic_militarist_request_friendly_2:0 "An ninh của cả hai đế chế chúng ta phụ thuộc vào kết quả của nghị quyết này."
+ ethic_militarist_request_friendly_3:0 "$GREETER$ đang trông cậy vào sự ủng hộ của các bạn."
+ ethic_militarist_request_friendly_4:0 "Chúng tôi sẽ rất vinh dự nếu những người bạn tại $COUNTRY$ cùng sát cánh với chúng tôi trong việc này."
+ ethic_militarist_request_neutral:0 "Sự ủng hộ từ $COUNTRY$ sẽ rất được hoan nghênh."
+ ethic_militarist_request_neutral_0:0 "Hãy tham gia cùng chúng tôi — vì danh dự."
+ ethic_militarist_request_neutral_1:0 "Sự ủng hộ của các bạn sẽ thể hiện sức mạnh."
+ ethic_militarist_request_neutral_2:0 "Đã đến lúc phải hành động dứt khoát. Hãy dành cho chúng tôi sự ủng hộ của các bạn!"
+ ethic_militarist_request_neutral_3:0 "Chúng tôi sẽ không làm phiền các bạn bằng những lời ngoại giao sáo rỗng vô nghĩa... giá trị của nghị quyết này tự nó đã quá rõ ràng."
+ ethic_militarist_request_neutral_4:0 "Nghị quyết này là lựa chọn đúng đắn không chỉ cho chúng tôi, mà cho toàn thể thiên hà. Hãy ủng hộ nó."
+ ethic_militarist_request_hostile:0 "Chúng tôi không trông mong sự ủng hộ của các người trong chuyện này, nhưng những điều kỳ lạ hơn cũng từng xảy ra..."
+ ethic_militarist_request_hostile_0:0 "Chúng tôi sẽ không bao giờ hạ mình đi van xin sự ủng hộ. Nhưng nếu các người sẵn lòng trao nó, điều đó sẽ được ghi nhận..."
+ ethic_militarist_request_hostile_1:0 "Đây là cơ hội để $COUNTRY$ chứng minh danh dự của mình — hoặc chứng minh các người chẳng có chút danh dự nào."
+ ethic_militarist_request_hostile_2:0 "Chỉ có kẻ đại ngu ngốc mới phản đối nghị quyết này."
+ ethic_militarist_request_hostile_3:0 "Ngay cả những kẻ ngu xuẩn ở $COUNTRY$ ắt hẳn cũng phải thấy được giá trị của việc thông qua nghị quyết này."
+ ethic_militarist_request_hostile_4:0 "Sự khinh miệt của chúng tôi dành cho $COUNTRY$ có thể sẽ giảm bớt phần nào nếu các người ủng hộ nghị quyết này..."
+
+
+
+ ### Request - Pacifist
+ ethic_pacifist_request_friendly:0 "$GREETER$ mong đợi sự ủng hộ từ những người bạn đáng quý tại $COUNTRY$."
+ ethic_pacifist_request_friendly_0:0 "Chúng tôi tin tưởng rằng $COUNTRY$ sẽ hành động đúng đắn."
+ ethic_pacifist_request_friendly_1:0 "$GREETER$ hoàn toàn đặt niềm tin vào $COUNTRY$ trong cuộc bỏ phiếu sắp tới."
+ ethic_pacifist_request_friendly_2:0 "Chúng ta hãy cùng chung tay làm cho thiên hà này trở nên an toàn hơn."
+ ethic_pacifist_request_friendly_3:0 "Xin hãy giúp chúng tôi làm cho những người khác nhận ra sự sáng suốt của nghị quyết này."
+ ethic_pacifist_request_friendly_4:0 "Bất kể các bạn bỏ phiếu ra sao, $COUNTRY$ sẽ luôn được coi là người bạn đáng tin cậy của chúng tôi. Nhưng xin hãy bỏ phiếu thuận."
+ ethic_pacifist_request_neutral:0 "Chúng tôi xin nhã nhặn đề nghị sự ủng hộ của các bạn trong cuộc bỏ phiếu sắp tới."
+ ethic_pacifist_request_neutral_0:0 "Cùng nhau. Có từ nào đẹp đẽ hơn thế nữa không?"
+ ethic_pacifist_request_neutral_1:0 "$GREETER$ khiêm nhường khẩn cầu sự ủng hộ của các bạn trong cuộc bỏ phiếu sắp tới."
+ ethic_pacifist_request_neutral_2:0 "Chúng tôi tin chắc rằng $COUNTRY$ sẽ nhận ra những giá trị đích thực của đề xuất này."
+ ethic_pacifist_request_neutral_3:1 "Với sự trợ giúp của các bạn, chúng ta có thể dẫn dắt [global_event_country.GetGalCommunityOrGalImperium] hướng tới sự chung sống hòa bình."
+ ethic_pacifist_request_neutral_4:0 "Hãy ủng hộ nghị quyết của chúng tôi, và cùng nhau, chúng ta sẽ biến chiến tranh cùng mọi khổ đau đi kèm trở thành quá khứ man rợ của thiên hà."
+ ethic_pacifist_request_hostile:0 "Hãy làm điều đúng đắn. Dù chỉ một lần này thôi."
+ ethic_pacifist_request_hostile_0:0 "Vẫn chưa quá muộn để các người từ bỏ con đường lầm lạc của mình."
+ ethic_pacifist_request_hostile_1:0 "Hãy chống lại những bản năng thấp hèn của các người và làm điều đúng đắn dù chỉ một lần."
+ ethic_pacifist_request_hostile_2:0 "Việc phản đối nghị quyết này sẽ chỉ chứng minh những dã tâm thâm độc của $COUNTRY$ cho toàn bộ thiên hà thấy."
+ ethic_pacifist_request_hostile_3:0 "Chúng tôi sẽ chứng kiến nghị quyết này được thông qua, dù có hay không có sự ủng hộ từ $COUNTRY$!"
+ ethic_pacifist_request_hostile_4:0 "Lịch sử sẽ không bao dung cho $COUNTRY$ nếu các người phản đối nghị quyết này."
+
+ ### Request - Authoritarian
+ ethic_authoritarian_request_friendly:0 "Các bạn cũng tán thành những giá trị không thể phủ nhận trong nghị quyết của chúng tôi, đúng không?"
+ ethic_authoritarian_request_friendly_0:0 "Các triều đại của chúng ta hợp tác với nhau rất ăn ý, phải không nào?"
+ ethic_authoritarian_request_friendly_1:0 "$COUNTRY$ đã giành được lòng tin của chúng tôi. Chúng tôi tin chắc quý quốc sẽ đưa ra lựa chọn đúng đắn trong cuộc bỏ phiếu sắp tới."
+ ethic_authoritarian_request_friendly_2:0 "Thiên hà này cần sự dẫn dắt kiên định của $GREETER$ và $COUNTRY$. Chúng ta hãy cùng nhau biến nghị quyết này thành hiện thực."
+ ethic_authoritarian_request_friendly_3:0 "Mục tiêu của chúng tôi hoàn toàn đồng điệu với $COUNTRY$. Chúng ta hãy mang trật tự trở lại để dẹp tan hỗn loạn đang bao trùm thiên hà."
+ ethic_authoritarian_request_friendly_4:0 "Chúng tôi luôn ngưỡng mộ sự lãnh đạo của $COUNTRY$. Chắc chắn quý quốc sẽ nhận ra những lợi ích từ nghị quyết của chúng tôi."
+ ethic_authoritarian_request_neutral:0 "Hãy ủng hộ chúng tôi trong việc này. Ngay bây giờ."
+ ethic_authoritarian_request_neutral_0:0 "Chúng tôi dẫn dắt. Các người noi theo. Trong chuyện này, cũng như trong mọi việc khác."
+ ethic_authoritarian_request_neutral_1:0 "Chống lại trật tự tự nhiên của vạn vật chỉ là một nỗ lực vô ích."
+ ethic_authoritarian_request_neutral_2:0 "Vì mục tiêu duy trì trật tự thiên hà, nghị quyết này bắt buộc phải được thông qua."
+ ethic_authoritarian_request_neutral_3:0 "Ý nguyện của chúng tôi là ngăn chặn bước trượt chậm chạp của thiên hà vào tình trạng vô chính phủ và hỗn loạn. Nghị quyết này chỉ là một bước trên lộ trình đó."
+ ethic_authoritarian_request_neutral_4:0 "Hòa bình và trật tự sẽ sớm được tái lập trên khắp thiên hà. Hãy làm tròn phận sự của mình bằng cách ủng hộ Nghị Quyết 34-X."
+ ethic_authoritarian_request_hostile:0 "Các người sẽ phải ủng hộ chúng tôi trong việc này. Không, đây không phải một lời thỉnh cầu thân thiện đâu."
+ ethic_authoritarian_request_hostile_0:0 "Hãy chấp nhận thứ bậc tự nhiên của vạn vật và phục tùng sự dẫn dắt của chúng tôi trong việc này."
+ ethic_authoritarian_request_hostile_1:0 "Sự ủng hộ của các người trong cuộc bỏ phiếu sắp tới — chúng tôi ra lệnh yêu cầu điều đó."
+ ethic_authoritarian_request_hostile_2:0 "Chúng tôi lệnh cho các người phải ủng hộ nghị quyết này."
+ ethic_authoritarian_request_hostile_3:1 "$COUNTRY$ là một mầm mống bại hoại trong [global_event_country.GetGalCommunityOrGalImperium]. Đừng gieo rắc nọc độc của các người tới các đặc sứ của những thành viên khác."
+ ethic_authoritarian_request_hostile_4:0 "Chống đối là điều không được phép."
+
+ ### Request - Egalitarian
+ ethic_egalitarian_request_friendly:0 "Cùng với $COUNTRY$, chúng ta có thể biến điều này thành hiện thực."
+ ethic_egalitarian_request_friendly_0:0 "$GREETER$ tin tưởng rằng $COUNTRY$ sẽ ủng hộ chúng tôi trong việc này."
+ ethic_egalitarian_request_friendly_1:0 "Chẳng phải đây là một ngày tuyệt vời để cùng nhau đứng lên vì công lý và bình đẳng sao?"
+ ethic_egalitarian_request_friendly_2:0 "Các bạn của tôi, chúng ta sẽ cùng nhau mở ra một kỷ nguyên dân chủ mới... nơi mà toàn thể thiên hà sẽ cùng được thụ hưởng."
+ ethic_egalitarian_request_friendly_3:0 "Có những thế lực nham hiểm đang hoạt động trong thể chế này không cùng chung lý tưởng với hai quốc gia vĩ đại của chúng ta. Chúng ta phải tương trợ lẫn nhau."
+ ethic_egalitarian_request_friendly_4:0 "A, $COUNTRY$! Ít nhất thì sự ủng hộ của các bạn luôn là chỗ dựa đáng tin cậy!"
+ ethic_egalitarian_request_neutral:0 "Tại sao các bạn không dùng quyền tự do dân chủ của mình để ủng hộ chúng tôi?"
+ ethic_egalitarian_request_neutral_0:0 "Lựa chọn sau cùng là thuộc về các bạn, nhưng xin hãy cân nhắc ủng hộ chúng tôi trong việc này."
+ ethic_egalitarian_request_neutral_1:0 "Kính thưa các đồng nghiệp đáng kính tại $COUNTRY$, chúng tôi kêu gọi lương tri công bằng của các bạn."
+ ethic_egalitarian_request_neutral_2:0 "Hãy nhớ rằng, bỏ phiếu là nghĩa vụ công dân của các bạn."
+ ethic_egalitarian_request_neutral_3:0 "Chúng tôi tha thiết khẩn cầu các bạn ủng hộ nghị quyết này... nó chắc chắn sẽ cải thiện số phận của hàng triệu sinh linh có tri giác."
+ ethic_egalitarian_request_neutral_4:0 "Hãy giúp chúng tôi làm cho thiên hà này trở thành một nơi tốt đẹp hơn."
+ ethic_egalitarian_request_hostile:0 "Tôi đoán rằng thật ngớ ngẩn khi mong đợi $COUNTRY$ nhận thấy giá trị của sự đoàn kết."
+ ethic_egalitarian_request_hostile_0:0 "Hãy ủng hộ chúng tôi trong việc này. Ít nhất thì vẫn chưa quá muộn để tìm thấy tiếng nói chung trong một vài vấn đề."
+ ethic_egalitarian_request_hostile_1:0 "Bất chấp những bất đồng, $GREETER$ vẫn chủ động mở lời với $COUNTRY$. Xin hãy đồng hành cùng chúng tôi trong việc này."
+ ethic_egalitarian_request_hostile_2:0 "Điều này trọng đại hơn cả $GREETER$ lẫn $COUNTRY$. Chúng ta hãy tạm gác lại những bất đồng."
+ ethic_egalitarian_request_hostile_3:0 "Dù các người có nghĩ gì về chúng tôi đi nữa, ủng hộ nghị quyết này là một bước đi đúng đắn."
+ ethic_egalitarian_request_hostile_4:0 "Liệu chúng tôi có đánh giá sai về $COUNTRY$ chăng? Liệu các người có phải là một quốc gia tốt hơn chúng tôi nghĩ? Các người sẽ ủng hộ nghị quyết của chúng tôi chứ?"
+
+ ### Request - Xenophile
+ ethic_xenophile_request_friendly:0 "Chúng ta hãy cùng sát cánh trong cuộc bỏ phiếu sắp tới và cho toàn thiên hà thấy thế nào là sự đoàn kết!"
+ ethic_xenophile_request_friendly_0:0 "$GREETER$ rất mong muốn có được sự ủng hộ của $COUNTRY$ trong vấn đề này."
+ ethic_xenophile_request_friendly_1:0 "Thật đáng tiếc nếu một lá phiếu nhỏ nhen lại chia rẽ hai đế chế vĩ đại của chúng ta, phải không nào?"
+ ethic_xenophile_request_friendly_2:1 "Những người bạn ơi, thành tựu của chúng ta sẽ không có giới hạn nếu chúng ta hỗ trợ lẫn nhau trong [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_xenophile_request_friendly_3:0 "Chẳng phải quá kỳ diệu sao? Diễn đàn thiên hà này đã chứng minh rằng các loài khác nhau trong thiên hà có thể dựng xây nên những điều vĩ đại khi cùng chung sức làm việc."
+ ethic_xenophile_request_friendly_4:0 "Đây là bước tiếp theo trong kế hoạch của chúng tôi nhằm cải thiện thiên hà này cho toàn thể các giống loài có tri giác đang cư ngụ. Hãy dang tay ủng hộ chúng tôi, những người bạn!"
+ ethic_xenophile_request_neutral:0 "Xin chào! $GREETER$ khuyến khích các bạn đồng hành cùng chúng tôi trong cuộc bỏ phiếu sắp tới."
+ ethic_xenophile_request_neutral_0:0 "Xin chào, người bạn tương lai! Các bạn có muốn ủng hộ chúng tôi trong cuộc bỏ phiếu sắp tới không?"
+ ethic_xenophile_request_neutral_1:0 "Đây có thể là sự khởi đầu của một tình bạn đẹp."
+ ethic_xenophile_request_neutral_2:0 "Hãy ủng hộ chúng tôi trong việc này, và chúng tôi sẽ chứng minh cho toàn thiên hà thấy giá trị của sự hợp tác."
+ ethic_xenophile_request_neutral_3:0 "Liệu $COUNTRY$ có ủng hộ những nỗ lực của chúng tôi nhằm biến thiên hà này thành một nơi tốt đẹp hơn cho tất cả mọi người, bất kể chủng tộc của họ là gì không?"
+ ethic_xenophile_request_neutral_4:1 "Không ủng hộ nghị quyết này sẽ đi ngược lại tinh thần của chính những nguyên lý nền tảng mà [global_event_country.GetGalCommunityOrGalImperium] được lập nên."
+ ethic_xenophile_request_hostile:0 "$COUNTRY$ không thể nhận ra giá trị của sự hòa hợp sao?"
+ ethic_xenophile_request_hostile_0:0 "Ủng hộ nghị quyết này sẽ là bước đi đầu tiên trong việc hàn gắn mối quan hệ giữa hai quốc gia chúng ta."
+ ethic_xenophile_request_hostile_1:0 "Dù xảy ra bất cứ chuyện gì, $GREETER$ vẫn muốn mở rộng vòng tay tới $COUNTRY$. Xin hãy ủng hộ chúng tôi trong việc này."
+ ethic_xenophile_request_hostile_2:0 "Điều này sẽ mang lại lợi ích cho tất cả chúng ta... ngay cả $COUNTRY$ cũng phải nhìn ra điều đó."
+ ethic_xenophile_request_hostile_3:0 "Diễn đàn này lập ra nhằm phá vỡ các rào cản và thúc đẩy sự hợp tác giữa muôn loài cùng sinh sống trong thiên hà."
+ ethic_xenophile_request_hostile_4:0 "$COUNTRY$ đang lo sợ điều gì cơ chứ? Dù chỉ một lần, các người không thể nhượng bộ bước tới nửa đường sao?"
+
+ ### Request - Xenophobe
+ ethic_xenophobe_request_friendly:0 "Việc chúng ta sát cánh bên nhau khi cần thiết là vì danh dự và lợi ích của cả hai đế chế vĩ đại."
+ ethic_xenophobe_request_friendly_0:0 "A, $COUNTRY$! Thật hiếm hoi mới tìm thấy một kẻ đáng được chúng tôi tôn trọng trong cái hố phân ngoại chủng này."
+ ethic_xenophobe_request_friendly_1:0 "Chúng tôi chẳng hề thích thú gì khi phải thỉnh cầu sự ủng hộ từ những kẻ ngoại tộc, nhưng $COUNTRY$ được xem là bạn bè."
+ ethic_xenophobe_request_friendly_2:0 "Thật khó chịu khi phải hiện diện ở đây giữa lũ dị chủng này, nhưng bất kỳ đại diện nào đến từ $COUNTRY$ đều được xem là bằng hữu."
+ ethic_xenophobe_request_friendly_3:0 "Cuối cùng cũng có một kẻ biết điều! Nơi này tràn ngập lũ ngoại chủng ghê tởm nhất có thể tưởng tượng được, nhưng được gặp đại diện của $COUNTRY$ luôn là một điều dễ chịu."
+ ethic_xenophobe_request_friendly_4:1 "Chúng ta hãy cùng nhau đưa [global_event_country.GetGalCommunityOrGalImperium] này trở lại đúng quỹ đạo."
+ ethic_xenophobe_request_neutral:0 "Chỉ cần ủng hộ chúng tôi trong việc này, rồi chúng tôi sẽ vui vẻ để các người được yên."
+ ethic_xenophobe_request_neutral_0:0 "Chúng tôi đề xuất thế này: các người ủng hộ chúng tôi trong cuộc bỏ phiếu sắp tới, và sau đó hãy để chúng tôi yên. Các người có đồng ý không?"
+ ethic_xenophobe_request_neutral_1:0 "Bị vây quanh bởi tất cả những... sinh vật này... là một sự căng thẳng tột cùng, nên làm ơn đừng bắt tôi phải van xin sự ủng hộ của các người."
+ ethic_xenophobe_request_neutral_2:0 "Chúng ta hãy chờ xem điều tốt đẹp gì có thể nảy sinh từ một nơi như thế này, nơi lũ người ngoài hành tinh tự do trà trộn và lây lan dịch bệnh. Hiện tại, chúng tôi sẽ tận dụng nó hết mức."
+ ethic_xenophobe_request_neutral_3:0 "$GREETER$ đề xuất nghị quyết này, với giả định rằng các đế chế khác trong thiên hà có thể tin cậy được để tuân thủ các điều khoản của nó."
+ ethic_xenophobe_request_neutral_4:0 "Có lẽ việc bắt tay với lũ ngoại chủng thay vì xa lánh chúng cũng mang lại chút giá trị nào đó. Chúng ta hãy chờ xem."
+ ethic_xenophobe_request_hostile:0 "Các người ủng hộ chúng tôi càng nhanh, chúng ta càng sớm đường ai nấy đi."
+ ethic_xenophobe_request_hostile_0:0 "Hãy để chúng tôi nói cho rõ ràng: $GREETER$ không cần sự giúp đỡ của các người. Tuy nhiên, chúng tôi cũng không nhất thiết phải từ chối sự ủng hộ của các người trong cuộc bỏ phiếu sắp tới..."
+ ethic_xenophobe_request_hostile_1:0 "Chính phủ ra lệnh cho tôi phải yêu cầu sự trợ giúp của các người trong cuộc bỏ phiếu sắp tới. Giờ thì xin thứ lỗi, tôi phải đi tìm buồng khử trùng gần nhất đã."
+ ethic_xenophobe_request_hostile_2:1 "Cái gọi là \"[global_event_country.GetCommunityOrImperium]\" này chỉ là trò hề của lũ dị tộc, nhưng chúng tôi sẽ đóng tròn vai của mình... ít nhất là lúc này."
+ ethic_xenophobe_request_hostile_3:0 "Nếu nghị quyết này thất bại, chúng tôi sẽ có bằng chứng xác thực rằng tất cả các giống loài ngoại lai khác đang âm mưu chống lại chúng tôi."
+ ethic_xenophobe_request_hostile_4:1 "Chưa bao giờ tôi thấy nhiều sinh vật... chướng tai gai mắt tụ tập tại cùng một nơi như thế này. Cái [global_event_country.GetGalCommunityOrGalImperium] này quả thực là một trò lố."
+
+ ### Request - Materialist
+ ethic_materialist_request_friendly:0 "$GREETER$ hoàn toàn tin tưởng vào năng lực của $COUNTRY$ trong việc đưa ra các quyết định thấu đáo và hợp lý."
+ ethic_materialist_request_friendly_0:0 "Chúng ta đủ hiểu biết để không cãi vã vì những khái niệm tùy tiện như hệ tư tưởng hay sự mê tín dị đoan. Hãy tham gia cùng chúng tôi trong cuộc bỏ phiếu sắp tới."
+ ethic_materialist_request_friendly_1:0 "$COUNTRY$ là một quốc gia của lý trí, và đó là lý do chúng tôi kỳ vọng quý quốc sẽ bỏ phiếu đồng thuận với chúng tôi."
+ ethic_materialist_request_friendly_2:1 "Chúng ta nên hợp tác để quét sạch sự ngu muội và mê tín dị đoan ra khỏi [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_materialist_request_friendly_3:0 "Với sự ủng hộ của những người bạn tại $COUNTRY$, xác suất thành công của nghị quyết này là lớn hơn rất nhiều."
+ ethic_materialist_request_friendly_4:1 "Bổn phận của hai đế chế vĩ đại chúng ta là ngăn chặn [global_event_country.GetGalCommunityOrGalImperium] trượt dài vào sự ngu muội và mê tín dị đoan."
+ ethic_materialist_request_neutral:0 "Sở hữu những thứ hữu ích chẳng phải rất tuyệt sao? Ví dụ, trong cuộc bỏ phiếu sắp tới; liệu chúng tôi có thể có được sự ủng hộ của các bạn không?"
+ ethic_materialist_request_neutral_0:0 "Hãy nhìn nhận việc này dưới góc độ thực tế. Hãy ủng hộ chúng tôi trong cuộc bỏ phiếu này, và có thể một ngày nào đó chúng tôi sẽ đền đáp ân huệ."
+ ethic_materialist_request_neutral_1:0 "Bỏ phiếu ủng hộ chúng tôi chính là bỏ phiếu cho một thiên hà khai sáng. Còn điều gì quan trọng hơn thế?"
+ ethic_materialist_request_neutral_2:0 "Nghị quyết này sẽ mang lại lợi ích lớn nhất cho toàn thể thiên hà. Đó là một chân lý toán học hiển nhiên."
+ ethic_materialist_request_neutral_3:0 "Xin hãy giúp $COUNTRY$ trong nỗ lực mở ra thời đại của lý trí cho thiên hà."
+ ethic_materialist_request_neutral_4:0 "Liệu chúng tôi có thể tin tưởng $COUNTRY$ sẽ hành động trong khuôn khổ của lý trí và dành sự ủng hộ cho nghị quyết này không?"
+ ethic_materialist_request_hostile:0 "Hãy gạt bỏ sự ngu muội mù quáng qua một bên dù chỉ một lần! Hãy giúp chúng tôi trong cuộc bỏ phiếu sắp tới."
+ ethic_materialist_request_hostile_0:0 "Hoàn toàn có thể tạm gác lại những hệ tư tưởng vụn vặt và bỏ phiếu theo tiếng gọi của lý trí."
+ ethic_materialist_request_hostile_1:0 "Chỉ có kẻ đần độn mới phản đối chúng tôi trong cuộc bỏ phiếu này. Các người có phải là kẻ đần độn không?"
+ ethic_materialist_request_hostile_2:0 "Phản đối nghị quyết này chính là chống lại các nguyên lý nền tảng của logic và lý trí."
+ ethic_materialist_request_hostile_3:0 "Mức độ ngu muội trong thiên hà này quả thực nhiều đến mức đáng kinh ngạc."
+ ethic_materialist_request_hostile_4:0 "Giá như tâm trí yếu ớt của các người có thể lĩnh hội được toàn bộ ý nghĩa của nghị quyết mà chúng tôi đang đề xuất..."
+
+ ### Request - Spiritualist
+ ethic_spiritualist_request_friendly:0 "$COUNTRY$ đã từng chứng minh sự thông tuệ của mình trước đây, và chúng tôi tin chắc quý quốc sẽ làm lại điều đó."
+ ethic_spiritualist_request_friendly_0:0 "Xin hãy ủng hộ chúng tôi trong cuộc bỏ phiếu sắp tới — chúng ta hiểu biết hơn là bị che mắt bởi những chuyện phàm tục."
+ ethic_spiritualist_request_friendly_1:0 "Chúng ta sẽ vượt qua tất cả."
+ ethic_spiritualist_request_friendly_2:0 "Nguyện cầu các đấng linh thiêng mỉm cười với $COUNTRY$. Liệu các bạn có dành cho chúng tôi sự ủng hộ không?"
+ ethic_spiritualist_request_friendly_3:0 "Mối giao cảm tâm linh giữa hai đế chế vĩ đại của chúng ta đang bền chặt hơn bao giờ hết."
+ ethic_spiritualist_request_friendly_4:0 "$COUNTRY$ được định sẵn cho những điều vĩ đại, cũng như $GREETER$ vậy."
+ ethic_spiritualist_request_neutral:0 "Các bạn có lẽ có một tiếng nói nội tâm đồng cảm với lập trường của chúng tôi. Hãy lắng nghe nó."
+ ethic_spiritualist_request_neutral_0:0 "Các bạn có biết tại sao ý nghĩ bỏ phiếu đồng thuận với chúng tôi lại có cảm giác như là điều đúng đắn phải làm không? Bởi vì đó chính là điều đúng đắn."
+ ethic_spiritualist_request_neutral_1:0 "Đừng bận tâm về những thứ tầm thường như dữ liệu hay kế hoạch — hãy bỏ phiếu thuận theo linh hồn của các bạn."
+ ethic_spiritualist_request_neutral_2:0 "Chúng ta chỉ là những thực thể chuyên chở những điều vĩ đại hơn bản thân rất nhiều."
+ ethic_spiritualist_request_neutral_3:0 "Liệu $COUNTRY$ có đồng hành cùng $GREETER$ trên con đường dẫn tới sự cứu rỗi không?"
+ ethic_spiritualist_request_neutral_4:0 "Hãy nhìn sâu vào nội tâm các bạn và nhận ra chân lý: đón nhận nghị quyết này là con đường duy nhất để tiến bước."
+ ethic_spiritualist_request_hostile:0 "Hãy rũ bỏ xiềng xích của chủ nghĩa duy vật và lòng tham lam. Hãy ủng hộ chúng tôi và con đường dẫn tới sự thông tuệ của các người sẽ sáng tỏ."
+ ethic_spiritualist_request_hostile_0:0 "$COUNTRY$ đang chới với trong bóng tối, nhưng vẫn có thể tìm lại đường về với ánh sáng. Bước đầu tiên chính là ủng hộ chúng tôi trong cuộc bỏ phiếu sắp tới."
+ ethic_spiritualist_request_hostile_1:0 "Bất chấp vô số sai lầm trước đây của các người, chúng tôi cầu nguyện rằng $COUNTRY$ sẽ nhận ra con đường chân chính để noi theo trong cuộc bỏ phiếu sắp tới."
+ ethic_spiritualist_request_hostile_2:0 "Số phận đã an bài tạo nên tình thế khiến chúng tôi... buộc phải... thỉnh cầu sự ủng hộ từ các người."
+ ethic_spiritualist_request_hostile_3:0 "Sự cứu rỗi có lẽ vẫn chưa hoàn toàn tuột khỏi tầm tay của các người đâu. Nếu các người ủng hộ nghị quyết này, vẫn có thể còn một tia hy vọng..."
+ ethic_spiritualist_request_hostile_4:0 "Liệu $COUNTRY$ rốt cuộc có nỗ lực từ bỏ con đường báng bổ thánh thần của mình không? Vẫn chưa quá muộn cho các người đâu."
+
+ ### Request - Hive Mind
+ ethic_hivemind_request_friendly:0 "Chẳng phải chúng ta bắt buộc phải đồng lòng hành động sao? Liệu có con đường nào khác không?\n\nKhông, thực sự đấy — có không?"
+ ethic_hivemind_request_friendly_0:0 "$GREETER$ mong đợi viễn cảnh được thụ hưởng sự ủng hộ từ $COUNTRY$."
+ ethic_hivemind_request_friendly_1:0 "Liệu $COUNTRY$ có ủng hộ chúng ta trong cuộc bỏ phiếu sắp tới, và giúp chúng ta tránh khỏi nỗi khó chịu vì sự bất hòa không?"
+ ethic_hivemind_request_friendly_2:0 "Trên nhiều phương diện, chúng ta coi $GREETER$ như một phần mở rộng của chính mình.\n\nChúng ta nói điều này theo nghĩa tốt đẹp."
+ ethic_hivemind_request_friendly_3:0 "Các bạn từng chứng minh mình là những người bạn của [this.GetGestaltEntityName] trong quá khứ. Giờ các bạn sẽ hỗ trợ chúng ta chứ?"
+ ethic_hivemind_request_friendly_4:0 "Ắt hẳn các bạn cũng đồng tâm nhất trí với chúng ta về vấn đề này chứ?"
+ ethic_hivemind_request_neutral:0 "Vạn vật cuối cùng cũng sẽ quy phục trước ý chí của [this.GetGestaltEntityName]. Đó là điều tất yếu.\n\nHãy bắt đầu từ hôm nay. Hãy ủng hộ chúng ta."
+ ethic_hivemind_request_neutral_0:0 "Khái niệm 'bất đồng' đối với chúng ta thật dị thường. Hãy ủng hộ chúng ta."
+ ethic_hivemind_request_neutral_1:0 "Nhu cầu của số đông vượt trội hơn nhu cầu của số ít.\n\nChúng ta chính là số đông."
+ ethic_hivemind_request_neutral_2:1 "Bất hòa là điều phải tránh. Hãy ủng hộ nghị quyết này, bằng không các bạn sẽ mạo hiểm làm mất ổn định [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_hivemind_request_neutral_3:1 "Phương pháp đạt được đồng thuận bằng cách tham vấn từng thành phần cá thể của [global_event_country.GetGalCommunityOrGalImperium] dường như... cực kỳ kém hiệu quả và tốn thời gian."
+ ethic_hivemind_request_neutral_4:0 "[this.GetGestaltEntityName] yêu cầu sự phục tù... ủng hộ của các bạn trong vấn đề mang lại lợi ích cho thiên hà này."
+ ethic_hivemind_request_hostile:0 "Một lá phiếu chống lại $GREETER$ chỉ là trì hoãn điều tất yếu. Làm như vậy thì có ích gì chứ?"
+ ethic_hivemind_request_hostile_0:0 "Hãy ủng hộ chúng ta. Đằng nào thì các người rốt cuộc cũng sẽ phải quy phục trước [this.GetGestaltEntityName], vậy tại sao không bắt đầu ngay từ bây giờ?"
+ ethic_hivemind_request_hostile_1:0 "Đừng chịu khuất phục trước chủ nghĩa cá nhân ích kỷ."
+ ethic_hivemind_request_hostile_2:0 "Ý chí của [this.GetGestaltEntityName] bắt buộc phải được tuân theo."
+ ethic_hivemind_request_hostile_3:0 "Sự dị nghị trong vấn đề này là không thể dung thứ."
+ ethic_hivemind_request_hostile_4:0 "Chúng ta sẽ không bao giờ dung thứ cho hành vi như vậy từ một trong các [this.GetIndividualNamePlural] của chúng ta."
+
+ ### Request - Machine Intelligence
+ ethic_machine_intelligence_request_friendly:0 "Ủng hộ $GREETER$ là hợp logic. $COUNTRY$ đã chứng minh bản thân là một thực thể có tính logic."
+ ethic_machine_intelligence_request_friendly_0:0 "Yêu cầu hỗ trợ trong cuộc bỏ phiếu sắp tới.\n\nXác suất đồng thuận được tính toán: CAO"
+ ethic_machine_intelligence_request_friendly_1:0 "Yêu cầu hỗ trợ bỏ phiếu nghị quyết.\n\nĐang đợi phản hồi..."
+ ethic_machine_intelligence_request_friendly_2:1 "$COUNTRY$. Cùng nhau, chúng ta có thể tái cấu trúc [global_event_country.GetGalCommunityOrGalImperium] thành một chương trình tương thích hơn với các mục tiêu dài hạn chung của chúng ta."
+ ethic_machine_intelligence_request_friendly_3:0 "Các thuật toán dự đoán của chúng tôi chỉ ra rằng việc thông qua nghị quyết này sẽ củng cố vị thế tổng thể của $COUNTRY$."
+ ethic_machine_intelligence_request_friendly_4:0 "$GREETER$ tin tưởng rằng chúng tôi có được sự ủng hộ từ những người bạn tại $COUNTRY$."
+ ethic_machine_intelligence_request_neutral:0 "Xác suất thống kê về việc $COUNTRY$ ủng hộ chúng tôi trong cuộc bỏ phiếu sắp tới là 231 trên 197. Đơn vị này có thể cải thiện con số này không?"
+ ethic_machine_intelligence_request_neutral_0:0 "Đơn vị này đang gặp khó khăn trong việc xác định lập trường của $COUNTRY$ trong cuộc bỏ phiếu sắp tới."
+ ethic_machine_intelligence_request_neutral_1:0 "if ( VOTE(\"$COUNTRY$\") == VOTE(\"$GREETER$\") )\n     { SimulatedGratitude = TRUE; }"
+ ethic_machine_intelligence_request_neutral_2:0 "TRUY VẤN: Quý quốc có ủng hộ nghị quyết của chúng tôi không?"
+ ethic_machine_intelligence_request_neutral_3:1 "Các điều chỉnh được đề xuất sẽ tối ưu hóa hiến chương của [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_machine_intelligence_request_neutral_4:1 "Vui lòng xem lại các thay đổi được đề xuất của chúng tôi đối với cơ sở mã nguồn của [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_machine_intelligence_request_hostile:0 "Bất chấp số lượng lỗi đáng báo động được ghi nhận tại $COUNTRY$, $GREETER$ đã tính toán ra một cơ hội mong manh về sự ủng hộ trong cuộc bỏ phiếu sắp tới."
+ ethic_machine_intelligence_request_hostile_0:0 "Yêu cầu hỗ trợ trong cuộc bỏ phiếu sắp tới.\n\nXác suất đồng thuận được tính toán: THẤP"
+ ethic_machine_intelligence_request_hostile_1:0 "$GREETER$ thúc giục các người khắc phục các lỗi phần mềm nghiêm trọng của mình, và ủng hộ chúng tôi trong cuộc bỏ phiếu sắp tới."
+ ethic_machine_intelligence_request_hostile_2:1 "$COUNTRY$ là một biến số khó lường trong [global_event_country.GetGalCommunityOrGalImperium]. Hãy nêu rõ ý định của các người."
+ ethic_machine_intelligence_request_hostile_3:0 "Phản đối nghị quyết này sẽ mang lại tác dụng ngược."
+ ethic_machine_intelligence_request_hostile_4:0 "Chúng tôi cực lực khuyến cáo các người nên đánh giá lại tương lai của mình trong trường hợp $COUNTRY$ lựa chọn phản đối nghị quyết này."
+
+
+ ### RESOLUTION COMMENTS - WARNINGS
+ ### Warning - Militarist
+ ethic_militarist_warning_hostile:0 "Đừng bỏ phiếu chống lại chúng tôi. Các người tự biết lý do tại sao rồi đấy."
+ ethic_militarist_warning_hostile_0:0 "$GREETER$ từng nghiền nát những kẻ chống đối vì những lý do còn nhỏ nhặt hơn. Đừng cản đường chúng tôi."
+ ethic_militarist_warning_hostile_1:0 "Ký bất cứ thứ gì chống lại $GREETER$ vinh quang chính là tự tay ký vào bản án kết liễu các người."
+
+ ### Warning - Pacifist
+ ethic_pacifist_warning_hostile:2 "Nếu các người bỏ phiếu chống lại chúng tôi, chúng tôi sẽ biết các người đã chọn con đường bạo lực — và nó sẽ chỉ dẫn tới đau khổ."
+ ethic_pacifist_warning_hostile_0:1 "Chắc hẳn các người không muốn thấy $COUNTRY$ rơi vào cảnh điêu tàn chứ?"
+ ethic_pacifist_warning_hostile_1:1 "Đừng phản đối $GREETER$ trong cuộc bỏ phiếu sắp tới. Đó sẽ là thất sách tự chuốc lấy diệt vong của các người."
+
+ ### Warning - Authoritarian
+ ethic_authoritarian_warning_hostile:0 "Sự chống đối sẽ không được dung thứ."
+ ethic_authoritarian_warning_hostile_0:0 "Các người không được phép bỏ phiếu chống lại chúng tôi. $GREETER$ nghiêm cấm điều đó."
+ ethic_authoritarian_warning_hostile_1:0 "Nếu chúng tôi không có được sự ủng hộ của các người trong cuộc bỏ phiếu sắp tới, các người sẽ không thích những hậu quả đi kèm đâu."
+
+ ### Warning - Egalitarian
+ ethic_egalitarian_warning_hostile:0 "Các người là ai mà dám chống lại ý nguyện của nhân dân?!"
+ ethic_egalitarian_warning_hostile_0:0 "Đừng bỏ phiếu chống lại quần chúng. Quần chúng sẽ nổi dậy."
+ ethic_egalitarian_warning_hostile_1:0 "Kẻ quái vật vô tâm nào lại đi bỏ phiếu chống lại công lý và bình đẳng cơ chứ?"
+
+ ### Warning - Xenophile
+ ethic_xenophile_warning_hostile:0 "Nếu các người bỏ phiếu chống lại chúng tôi, tôi e rằng chúng ta không thể làm bạn được nữa."
+ ethic_xenophile_warning_hostile_0:0 "Một người đồng bào chân chính sẽ không phản bội lại các đồng minh của mình."
+ ethic_xenophile_warning_hostile_1:0 "Xin đừng bỏ phiếu chống lại chúng tôi. Điều đó sẽ rất, rất buồn đấy."
+
+ ### Warning - Xenophobe
+ ethic_xenophobe_warning_hostile:0 "Đừng bỏ phiếu chống lại chúng tôi; giống loài của các người không cần phải chứng minh thêm sự hạ đẳng của mình nữa đâu."
+ ethic_xenophobe_warning_hostile_0:0 "Sẽ là thiếu khôn ngoan nếu bỏ phiếu chống lại chúng tôi. Thiếu khôn ngoan ngay cả với cái giống loài của các người."
+ ethic_xenophobe_warning_hostile_1:0 "Đừng bộc lộ thêm sự khiếm khuyết về văn hóa của các người nữa. Đừng chống đối chúng tôi."
+
+ ### Warning - Materialist
+ ethic_materialist_warning_hostile:0 "Đừng phản đối chúng tôi trong cuộc bỏ phiếu sắp tới. Vũ trụ luôn có cách riêng để thanh trừng những sai sót như vậy."
+ ethic_materialist_warning_hostile_0:0 "Một số sai lầm có thể mang tính bài học. Nhưng bỏ phiếu chống lại chúng tôi sẽ không phải là một trong những sai lầm như vậy đâu."
+ ethic_materialist_warning_hostile_1:0 "Chống lại chúng tôi trong cuộc bỏ phiếu sắp tới là không thực tế. Các người nên thực tế hơn đi."
+
+ ### Warning - Spiritualist
+ ethic_spiritualist_warning_hostile:0 "Tâm trí yếu đuối của các người không thể lường hết được vô vàn tai ương sẽ ập xuống đầu nếu các người dám chống đối chúng tôi."
+ ethic_spiritualist_warning_hostile_0:0 "Các người là ai mà dám chất vấn thần quyền linh thiêng?!"
+ ethic_spiritualist_warning_hostile_1:0 "Đừng chống đối chúng tôi. Điều đó sẽ bóp nát linh hồn các người, và thể xác rồi cũng sẽ theo sau."
+
+ ### Warning - Hive Mind
+ ethic_hivemind_warning_hostile:1 "Khái niệm 'chống đối' là điều mới mẻ đối với chúng ta. Chúng ta không thích điều đó. Dù chỉ một chút."
+ ethic_hivemind_warning_hostile_0:0 "Đừng chống lại $GREETER$. Chúng ta rất tệ trong việc... từ đó là gì nhỉ... 'khoan nhượng'."
+ ethic_hivemind_warning_hostile_1:0 "Trước khi các người bỏ phiếu chống lại chúng ta, hãy nhớ rằng $GREETER$ không bao giờ quên lãng cũng không tha thứ. Không bao giờ."
+
+ ### Warning - Machine Intelligence
+ ethic_machine_intelligence_warning_hostile:0 "Sự chống đối sẽ chỉ ra một lỗi logic. Chúng tôi luôn lặp lại quy trình cho đến khi tất cả các lỗi được loại bỏ."
+ ethic_machine_intelligence_warning_hostile_0:0 "Bỏ phiếu chống lại một giải pháp hợp logic là một nghịch lý. Đã có ai từng nói cho các người biết máy móc nghĩ gì về các nghịch lý chưa?"
+ ethic_machine_intelligence_warning_hostile_1:0 "Một lá phiếu chống đối sẽ xác nhận một lỗi trong hệ thống của các người. Điều đó có nghĩa là cuối cùng chúng tôi sẽ vá lỗi các người. Chúng tôi sẽ vá sạch mọi sự sống ra khỏi các người."
+
+
+ ### RESOLUTION COMMENTS - Appreciation
+ ### Appreciation - Militarist
+ ethic_militarist_appreciation_friendly:0 "$COUNTRY$ đã chứng minh danh dự của mình!"
+ ethic_militarist_appreciation_friendly_0:0 "$GREETER$ tự hào khi gọi $COUNTRY$ là đồng minh."
+ ethic_militarist_appreciation_friendly_1:0 "Vì sức mạnh và vinh quang!"
+ ethic_militarist_appreciation_neutral:0 "Các bạn đã làm một việc đầy danh dự."
+ ethic_militarist_appreciation_neutral_0:0 "$GREETER$ ghi nhận danh dự của các bạn."
+ ethic_militarist_appreciation_neutral_1:0 "Các bạn xứng đáng nhận được sự tôn trọng của chúng tôi."
+ ethic_militarist_appreciation_hostile:0 "Rốt cuộc thì các người cũng không đến nỗi quá tầm thường. Rất ấn tượng."
+ ethic_militarist_appreciation_hostile_0:0 "Ra là các người cũng hiểu được giá trị của lòng tự hào. Tốt cho các người đấy."
+ ethic_militarist_appreciation_hostile_1:0 "Các người bảo toàn được mạng sống để thất bại vào một ngày khác."
+
+ ### Appreciation - Pacifist
+ ethic_pacifist_appreciation_friendly:1 "Ai dám hy vọng được thấy dấu chấm hết của bạo lực trong thời đại của chúng ta không?"
+ ethic_pacifist_appreciation_friendly_0:0 "Hòa bình rồi sẽ đến."
+ ethic_pacifist_appreciation_friendly_1:0 "Các bạn đã cứu lấy tương lai! Còn mục đích nào thuần khiết hơn thế nữa?"
+ ethic_pacifist_appreciation_neutral:0 "Thật mừng khi thấy khái niệm 'hòa giải' vẫn được $COUNTRY$ thấu hiểu."
+ ethic_pacifist_appreciation_neutral_0:0 "Chúng tôi trân trọng nỗ lực của các bạn nhằm kiến tạo một thiên hà đoàn kết."
+ ethic_pacifist_appreciation_neutral_1:0 "Các bạn đã làm điều đúng đắn. Cảm giác đó chẳng phải rất tuyệt vời sao?"
+ ethic_pacifist_appreciation_hostile:0 "Ai mà ngờ được chứ? Một khoảnh khắc hòa hợp giữa một thế giới đầy bất hòa."
+ ethic_pacifist_appreciation_hostile_0:1 "Có lẽ chúng tôi phải xem xét lại lập trường đối với $COUNTRY$: vẫn còn hy vọng."
+ ethic_pacifist_appreciation_hostile_1:0 "Chúng tôi từng ngỡ các người sẽ làm chúng tôi thất vọng. Trong chuyện này, chúng tôi mừng vì mình đã lầm."
+
+ ### Appreciation - Authoritarian
+ ethic_authoritarian_appreciation_friendly:0 "Phải thế chứ! Kiên định và mạnh mẽ. Đúng là như vậy!"
+ ethic_authoritarian_appreciation_friendly_0:0 "$GREETER$ ghi nhận uy quyền của quý quốc."
+ ethic_authoritarian_appreciation_friendly_1:0 "Lũ chống đối chúng ta thật là ngu xuẩn."
+ ethic_authoritarian_appreciation_neutral:0 "Giờ thì các bạn đã thấy uy quyền của chúng tôi là chính đáng."
+ ethic_authoritarian_appreciation_neutral_0:0 "Quyền uy của chúng tôi là điều không thể nghi ngờ."
+ ethic_authoritarian_appreciation_neutral_1:0 "Các bạn đã phụng sự $GREETER$ rất tốt."
+ ethic_authoritarian_appreciation_hostile:0 "À, phải rồi. Các người đã thể hiện khá thỏa đáng đấy."
+ ethic_authoritarian_appreciation_hostile_0:0 "Có lẽ các người vẫn còn chút hy vọng."
+ ethic_authoritarian_appreciation_hostile_1:0 "Có lẽ rốt cuộc thì $COUNTRY$ vẫn thích hợp để quy phục."
+
+ ### Appreciation - Egalitarian
+ ethic_egalitarian_appreciation_friendly:0 "Một người công bộc đích thực của số đông."
+ ethic_egalitarian_appreciation_friendly_0:0 "Chúng ta cùng sát cánh bên nhau!"
+ ethic_egalitarian_appreciation_friendly_1:0 "$COUNTRY$ quả là những người phụng sự chân chính của công lý!"
+ ethic_egalitarian_appreciation_neutral:0 "Chúng tôi trân trọng sự ủng hộ của các bạn."
+ ethic_egalitarian_appreciation_neutral_0:0 "$COUNTRY$ hôm nay đã làm rất tốt."
+ ethic_egalitarian_appreciation_neutral_1:0 "Thật tuyệt vời khi thấy có người biết quý trọng sự công bằng."
+ ethic_egalitarian_appreciation_hostile:0 "Có lẽ các người không hẳn là bạo chúa toàn tập..."
+ ethic_egalitarian_appreciation_hostile_0:0 "Phải chăng $COUNTRY$ đang dần cởi mở hơn với tư tưởng công bằng?"
+ ethic_egalitarian_appreciation_hostile_1:1 "Thành thật mà nói, chúng tôi từng nghĩ các người sẽ thể hiện... tệ hại hơn."
+
+ ### Appreciation - Xenophile
+ ethic_xenophile_appreciation_friendly:0 "Chúng tôi thực sự tự hào khi là đồng minh của $COUNTRY$!"
+ ethic_xenophile_appreciation_friendly_0:0 "Chúng tôi chưa từng nghi ngờ năng lực của các bạn dù chỉ một giây!"
+ ethic_xenophile_appreciation_friendly_1:0 "Không gian vũ trụ có thể đang giãn nở, nhưng chúng ta lại ngày càng xích lại gần nhau hơn."
+ ethic_xenophile_appreciation_neutral:0 "Đây là một kết quả đáng hoan hỷ, phải không nào?"
+ ethic_xenophile_appreciation_neutral_0:0 "$GREETER$ ghi nhận khả năng hợp tác của các bạn."
+ ethic_xenophile_appreciation_neutral_1:0 "Đây có thể là khởi đầu của một tình bạn đẹp."
+ ethic_xenophile_appreciation_hostile:0 "Chúng tôi rất vui vì các người đã chứng minh nhận định của chúng tôi về các người trong việc này là sai."
+ ethic_xenophile_appreciation_hostile_0:0 "Kết quả này quả là bất ngờ, nhưng rất đáng hoan nghênh."
+ ethic_xenophile_appreciation_hostile_1:1 "Thấy chưa? Hợp tác chẳng phải tuyệt vời hơn nhiều sao?"
+
+ ### Appreciation - Xenophobe
+ ethic_xenophobe_appreciation_friendly:0 "Thấy chưa! Chúng ta có thể hợp tác cùng nhau, nhưng phải độc lập riêng rẽ."
+ ethic_xenophobe_appreciation_friendly_0:0 "Chúng tôi cảm kích việc các bạn giúp chúng tôi không phải mất thêm thời gian cho vấn đề này."
+ ethic_xenophobe_appreciation_friendly_1:0 "$GREETER$ rất biết ơn khi có người nhận ra giá trị của sự toàn vẹn văn hóa."
+ ethic_xenophobe_appreciation_neutral:0 "Chúng tôi ghi nhận nỗ lực của các bạn, tôi đoán vậy."
+ ethic_xenophobe_appreciation_neutral_0:0 "Cảm ơn sự ủng hộ của các bạn. Giờ xin thứ lỗi, tôi cần phải biến khỏi nơi này."
+ ethic_xenophobe_appreciation_neutral_1:0 "Ra là các bạn cũng có chút quan tâm đến việc giữ gìn văn hóa của mình nguyên vẹn. Tốt cho các bạn đấy."
+ ethic_xenophobe_appreciation_hostile:0 "Có lẽ cái nền văn hóa kia của các người không hoàn toàn vô nghĩa lý."
+ ethic_xenophobe_appreciation_hostile_0:0 "Cảm ơn. Giờ thì để chúng tôi yên."
+ ethic_xenophobe_appreciation_hostile_1:0 "Chúng tôi thực sự không nghĩ các người lại... biết điều đến thế."
+
+ ### Appreciation - Materialist
+ ethic_materialist_appreciation_friendly:0 "Tuyệt vời! Điều này sẽ mang lại thịnh vượng."
+ ethic_materialist_appreciation_friendly_0:0 "$GREETER$ rất thích nhìn thấy một đối tác biết sử dụng lý trí."
+ ethic_materialist_appreciation_friendly_1:0 "Một lựa chọn duy lý. Chúng tôi đã kỳ vọng không sai."
+ ethic_materialist_appreciation_neutral:0 "Không bao giờ là quá muộn để trở nên thực tế."
+ ethic_materialist_appreciation_neutral_0:0 "Các bạn phải thực tế về những vấn đề này."
+ ethic_materialist_appreciation_neutral_1:0 "Các bạn đã vận dụng lý trí, $COUNTRY$. Làm tốt lắm."
+ ethic_materialist_appreciation_hostile:0 "$COUNTRY$ mà cũng biết nói lý lẽ sao? Thật không ngờ tới."
+ ethic_materialist_appreciation_hostile_0:0 "Ồ, hóa ra các người cũng biết cách suy luận thấu đáo đấy."
+ ethic_materialist_appreciation_hostile_1:1 "Phương án hành động này chẳng phải đơn giản hơn nhiều sao?"
+
+ ### Appreciation - Spiritualist
+ ethic_spiritualist_appreciation_friendly:0 "Các bạn cảm nhận được tính chính nghĩa của kết quả này, phải không nào?"
+ ethic_spiritualist_appreciation_friendly_0:0 "Chúng tôi ngợi ca $COUNTRY$ vì sự thông tuệ của quý quốc."
+ ethic_spiritualist_appreciation_friendly_1:0 "Và như thế, chúng ta đã tiến thêm một bước gần hơn tới cõi không tưởng."
+ ethic_spiritualist_appreciation_neutral:0 "Giờ thì các bạn đã cảm nhận được chưa? Cảm giác được hòa làm một phần của chỉnh thể vĩ đại?"
+ ethic_spiritualist_appreciation_neutral_0:0 "$GREETER$ trân trọng sự đóng góp của các bạn."
+ ethic_spiritualist_appreciation_neutral_1:0 "Các bạn đã đưa ra lựa chọn đúng đắn. Một sự lựa chọn tràn đầy chính nghĩa."
+ ethic_spiritualist_appreciation_hostile:0 "Vậy là sự chuộc tội của các người đã bắt đầu."
+ ethic_spiritualist_appreciation_hostile_0:0 "Vậy điều này có nghĩa là $COUNTRY$ muốn tự cứu chuộc chính mình chăng?"
+ ethic_spiritualist_appreciation_hostile_1:0 "Chúng tôi rất vui khi thấy con đường cứu chuộc của các người vẫn còn để ngỏ."
+
+ ### Appreciation - Hive Mind
+ ethic_hivemind_appreciation_friendly:0 "Một người trong chúng ta."
+ ethic_hivemind_appreciation_friendly_0:0 "Dù không phải là một phần của Chúng ta, giờ đây chúng ta cảm thấy rất gần gũi với $COUNTRY$."
+ ethic_hivemind_appreciation_friendly_1:0 "Chúng ta cảm ơn sự ủng hộ của các bạn. Toàn thể chúng ta đều nghĩ vậy."
+ ethic_hivemind_appreciation_neutral:0 "Chúng ta cảm ơn lựa chọn của các bạn trong vấn đề này."
+ ethic_hivemind_appreciation_neutral_0:0 "Lập trường của các bạn trong vấn đề này rất được trân trọng."
+ ethic_hivemind_appreciation_neutral_1:0 "Hành động các bạn đã thực hiện hoàn toàn cộng hưởng với ý kiến tập thể của chúng ta."
+ ethic_hivemind_appreciation_hostile:0 "Giờ thì chúng ta thấy rằng văn hóa của các người rốt cuộc vẫn đang vận hành được."
+ ethic_hivemind_appreciation_hostile_0:0 "Các người đã lựa chọn sáng suốt. Đây là nhờ suy luận hay chỉ thuần túy là may mắn?"
+ ethic_hivemind_appreciation_hostile_1:0 "Có lẽ lối tư duy của các người... vẫn có thể dung thứ được."
+
+ ### Appreciation - Machine Intelligence
+ ethic_machine_intelligence_appreciation_friendly:0 "Hiệu suất hợp tác tăng thêm 0,36 đơn vị."
+ ethic_machine_intelligence_appreciation_friendly_0:0 "Một kết quả tối ưu giúp nâng cao hiệu suất cho tất cả các hệ thống bị ảnh hưởng."
+ ethic_machine_intelligence_appreciation_friendly_1:0 "Mọi chỉ số trên bảng điều khiển đều hiển thị màu xanh lá."
+ ethic_machine_intelligence_appreciation_neutral:0 "Đang tính toán phản hồi phù hợp...\nid_gratitude_02: 'Cảm ơn'"
+ ethic_machine_intelligence_appreciation_neutral_0:0 "Đơn vị bên ngoài — định danh: '$COUNTRY$' — đang hoạt động trong các tham số đã thiết lập."
+ ethic_machine_intelligence_appreciation_neutral_1:0 "Tiêu chí đã được thỏa mãn\nĐang chạy gratitude.exe"
+ ethic_machine_intelligence_appreciation_hostile:0 "Kết quả ngoài dự tính.\nĐang tính toán lại các hệ số điều chỉnh quan hệ..."
+ ethic_machine_intelligence_appreciation_hostile_0:0 "$COUNTRY$ đã vượt qua điểm chuẩn."
+ ethic_machine_intelligence_appreciation_hostile_1:0 "$COUNTRY$ đã hành động ngoài tiên lượng thất bại ban đầu."
+
+
+ ### RESOLUTION COMMENTS - CONSEQUENCE
+ ### Consequence - Militarist
+ ethic_militarist_consequence_hostile:0 "Sẽ có hậu quả cho hành động này. Những hậu quả tàn khốc."
+ ethic_militarist_consequence_hostile_0:0 "Vậy ra... Đây là một lời thách thức."
+ ethic_militarist_consequence_hostile_1:0 "Bộ mặt thật của kẻ thù đã lộ diện."
+
+ ### Consequence - Pacifist
+ ethic_pacifist_consequence_hostile:0 "Các người thực sự đã lầm đường lạc lối."
+ ethic_pacifist_consequence_hostile_0:0 "Chúng tôi không thể giúp các người được nữa. Các người đã vô phương cứu chữa."
+ ethic_pacifist_consequence_hostile_1:0 "Lẽ nào các người không nhận ra sai lầm trong con đường của mình sao?!"
+
+ ### Consequence - Authoritarian
+ ethic_authoritarian_consequence_hostile:0 "Các người dám ngang nhiên chống lại chúng ta như thế này sao?! Đồ ngu xuẩn!"
+ ethic_authoritarian_consequence_hostile_0:1 "Đủ rồi! Chúng ta sẽ sớm bắt các người phải quỳ gối. Mọi việc rồi sẽ tới lúc."
+ ethic_authoritarian_consequence_hostile_1:0 "Hành vi tiếm phận này sẽ không bao giờ bị bỏ qua, càng không được tha thứ."
+
+ ### Consequence - Egalitarian
+ ethic_egalitarian_consequence_hostile:0 "Vì lợi ích của quần chúng nhân dân, chúng tôi sẽ đối đầu với các người."
+ ethic_egalitarian_consequence_hostile_0:0 "Cuộc khởi nghĩa rồi sẽ đến. Hãy ghi nhớ lời chúng tôi."
+ ethic_egalitarian_consequence_hostile_1:0 "Khi quả báo tàn khốc giáng xuống, các người sẽ phải hối tiếc vì ngày hôm nay."
+
+ ### Consequence - Xenophile
+ ethic_xenophile_consequence_hostile:0 "Chúng tôi đã chính thức hủy kết bạn với các người."
+ ethic_xenophile_consequence_hostile_0:0 "Rốt cuộc các người sẽ phải đơn độc một mình. Suy yếu và cô độc."
+ ethic_xenophile_consequence_hostile_1:0 "Hiếm hoi lắm mới có lần $GREETER$ không thấy buồn khi chứng kiến một kẻ dứt áo ra đi."
+
+ ### Consequence - Xenophobe
+ ethic_xenophobe_consequence_hostile:0 "Chúng ta xong chuyện rồi! Tống khứ được các người thật nhẹ nợ."
+ ethic_xenophobe_consequence_hostile_0:0 "Chúng tôi luôn biết nền văn hóa của các người là hạ đẳng."
+ ethic_xenophobe_consequence_hostile_1:0 "Nghĩ đến việc chúng tôi từng cho phép cái nền văn hóa của các người bén mảng lại gần chúng tôi..."
+
+ ### Consequence - Materialist
+ ethic_materialist_consequence_hostile:0 "Theo một khía cạnh nào đó thì chúng tôi khá mừng. Giờ thì chúng tôi đã biết $COUNTRY$ là một bài toán đã được xác định rõ ràng."
+ ethic_materialist_consequence_hostile_0:0 "Chúng tôi luôn biết các người là lũ phi lý. Cảm ơn vì đã làm rõ điều đó."
+ ethic_materialist_consequence_hostile_1:0 "Làm thế nào mà những kẻ đần độn như các người lại có thể đạt tới tầm du hành không gian vẫn là một bí ẩn đối với chúng tôi."
+
+ ### Consequence - Spiritualist
+ ethic_spiritualist_consequence_hostile:0 "Cảm giác tâm hồn chết rũ bên trong là như thế nào?"
+ ethic_spiritualist_consequence_hostile_0:0 "Không một sự chuộc tội nào có thể bù đắp được cho hành vi báng bổ này!"
+ ethic_spiritualist_consequence_hostile_1:0 "Vũ trụ này ngập tràn những điều kỳ diệu. Nhưng các người sẽ không bao giờ được trải nghiệm điều đó nữa."
+
+ ### Consequence - Hive Mind
+ ethic_hivemind_consequence_hostile:0 "Các người đã trở thành kẻ thù của chúng ta. Của tất cả chúng ta."
+ ethic_hivemind_consequence_hostile_0:0 "$COUNTRY$ đã phụ sự kỳ vọng của Chúng ta và sẽ phải gánh chịu hậu quả."
+ ethic_hivemind_consequence_hostile_1:1 "Chúng ta đang trải qua một cảm giác đáng ghê tởm. Đây là... 'kinh tởm' chăng?"
+
+ ### Consequence - Machine Intelligence
+ ethic_machine_intelligence_consequence_hostile:0 "Chúng tôi đã có kế hoạch dự phòng cho kết quả này. Kế hoạch đó đã được đưa vào khởi động."
+ ethic_machine_intelligence_consequence_hostile_0:0 "Thực thi: countermeasure_protocol_v2.1"
+ ethic_machine_intelligence_consequence_hostile_1:0 "Lỗi: $COUNTRY$ đang hành xử vượt ngoài phạm vi cho phép."
+

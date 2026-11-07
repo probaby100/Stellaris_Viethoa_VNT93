@@ -1,0 +1,207 @@
+﻿l_english:
+
+# Above each concept definition are instructions on usage, including an icon where one exists.
+#   Note that between the icon and the term there's a non-breaking space. When you copy the usage example, it will keep the non-breaking space.
+#   This is important to not get a line break between the icon and the concept.
+# Use a concept link with icon the first time a new concept is mentioned, then use §H without an icon for repeated uses.
+# Use §H with an icon the first time a concept is used withing its own description.
+# Use §H without an icon if the concept is used more than once.
+
+ # Singular: £mod_job_technician_add£ ['concept_technician'] or £mod_job_technician_add£ §H$concept_technician$§!
+ # Plural: £mod_job_technician_add£ ['concept_technicians'] or £mod_job_technician_add£ §H$concept_technicians$§!
+ concept_technician:0 "$job_technician$"
+ concept_technicians:0 "$job_technician_plural$"
+ concept_technician_desc:0 "$job_technician_plural$ sản xuất $i_energy$.\n\n§L$job_technician_desc$§!"
+
+ # Singular: £mod_job_farmer_add£ ['concept_farmer'] or £mod_job_farmer_add£ §H$concept_farmer$§!
+ # Plural: £mod_job_farmer_add£ ['concept_farmers'] or £mod_job_farmer_add£ §H$concept_farmers$§!
+ concept_farmer:0 "$job_farmer$"
+ concept_farmers:0 "$job_farmer_plural$"
+ concept_farmer_desc:0 "$job_farmer_plural$ sản xuất $i_food$.\n\n§L$job_farmer_desc$§!"
+
+ # Singular: £mod_job_miner_add£ ['concept_miner'] or £mod_job_miner_add£ §H$concept_miner$§!
+ # Plural: £mod_job_miner_add£ ['concept_miners'] or £mod_job_miner_add£ §H$concept_miners$§!
+ concept_miner:0 "$job_miner$"
+ concept_miners:0 "$job_miner_plural$"
+ concept_miner_desc:0 "$job_miner_plural$ sản xuất $i_minerals$.\n\n§L$job_miner_desc$§!"
+
+ # Singular: £job_researcher£ ['concept_researcher'] or £job_researcher£ §H$concept_researcher$§!
+ # Plural: £job_researcher£ ['concept_researchers'] or £job_researcher£ §H$concept_researchers$§!
+ concept_researcher:0 "$job_researcher$"
+ concept_researchers:0 "$job_researcher_plural$"
+ concept_researcher_desc:0 "$job_researcher_plural$ chuyển hóa $i_consumer_goods$ thành $i_research$\n\n§L$job_researcher_desc$§!"
+
+ concept_foundry:0 "$job_foundry_plural$"
+ concept_foundry_desc:0 "$job_foundry_plural$ chuyển hóa $i_minerals$ thành $i_alloys$.\n\n§L$job_foundry_desc$§!"
+
+ # Singular: £mod_job_artisan_add£ ['concept_artisan'] or £mod_job_artisan_add£ §H$concept_artisan$§!
+ # Plural: £mod_job_artisan_add£ ['concept_artisans'] or £mod_job_artisan_add£ §H$concept_artisans$§!
+ concept_artisan:0 "$job_artisan$"
+ concept_artisans:0 "$job_artisan_plural$"
+ concept_artisan_desc:0 "$job_artisan_plural$ chuyển hóa $i_minerals$ thành $i_consumer_goods$.\n\n§L$job_artisan_desc$§!"
+
+ # Singular: £pop£ ['concept_bio_trophy'] or £pop£ §H$concept_bio_trophy$§!
+ # Plural: £pop£ ['concept_bio_trophies'] or £pop£ §H$concept_bio_trophies$§!
+ concept_bio_trophy:0 "$job_bio_trophy$"
+ concept_bio_trophies:0 "$job_bio_trophy_plural$"
+ concept_bio_trophy_desc:0 "$job_bio_trophy_effect_desc$\n\n§L$job_artisan_desc$§!"
+
+ # Singular: £job_soldier£ ['concept_soldier'] or £job_soldier£ §H$concept_soldier$§!
+ # Plural: £job_soldier£ ['concept_soldiers'] or £job_soldier£ §H$concept_soldiers$§!
+ concept_soldier:0 "$job_soldier$"
+ concept_soldiers:0 "$job_soldier_plural$"
+ concept_soldier_desc:0 "$job_soldier_plural$ sản xuất $i_naval_capacity$ và $i_defense_armies$.\n\n§L$job_soldier_desc$§!"
+
+ # Singular: £job_priest£ ['concept_priest'] or £job_priest£ §H$concept_priest$§!
+ # Plural: £job_priest£ ['concept_priests'] or £job_priest£ §H$concept_priests$§!
+ concept_priest:0 "$job_priest$"
+ concept_priests:0 "$job_priest_plural$"
+ concept_priest_desc:0 "$job_priest_plural$ chuyển hóa $i_consumer_goods$ thành $i_unity$ và $i_amenities$.\n\n§L$job_priest_desc$§!"
+
+ concept_high_priest:0 "$job_high_priest_plural$"
+ concept_high_priest_desc:0 "$job_high_priest_plural$ chuyển hóa $i_consumer_goods$ thành $i_unity$ và $i_amenities$.\n\n§L$job_high_priest_desc$§!"
+
+ concept_haruspex:0 "$job_haruspex_plural$"
+ concept_haruspex_desc:0 "$job_haruspex_plural$ chuyển hóa $i_consumer_goods$ thành $i_engineering$ và $i_unity$.\n\n§LVừa là thợ máy truyền bá phúc âm, vừa là bác sĩ phẫu thuật thần thánh, dùng các bộ phận cấy ghép linh thiêng để thay thế lớp xác thịt đã bị ruồng bỏ.§!"
+
+ concept_technophant:0 "$job_technophant_plural$"
+ concept_technophant_desc:0 "$job_technophant_plural$ chuyển hóa $i_consumer_goods$ thành $i_engineering$ và $i_unity$.\n\n§LNhững người diễn giải tối cao của linh kiện ướt thần thánh. Họ sẽ dẫn dắt nhân loại hướng tới sự dung hợp hoàn hảo giữa xác thịt và máy móc.§!"
+
+ concept_roboticist:0 "$job_roboticist_plural$"
+ concept_roboticist_desc:0 "$job_roboticist_plural$ chuyển hóa $i_alloys$ thành £pop£ §Idân cư máy móc§! mới.\n\n§L$job_roboticist_desc$§!"
+
+ concept_archaeoengineers:0 "$job_archaeoengineers_plural$"
+ concept_archaeoengineers_desc:0 "$job_archaeoengineers_plural$ chuyển hóa $i_consumer_goods$ thành $i_research$.\n\n§L$job_archaeoengineers_desc$§!"
+
+ concept_politician:0 "$job_politician_plural$"
+ concept_politician_desc:0 "$job_politician_plural$ chuyển hóa $i_consumer_goods$ thành $i_unity$ và $i_amenities$.\n\n§L$job_politician_desc$§!"
+
+ concept_colonist:0 "$job_colonist_plural$"
+ concept_colonist_desc:0 "$job_colonist_plural$ sản xuất một lượng nhỏ $i_food$ (hoặc $i_minerals$) và $i_amenities$, đồng thời tạo ra £defense_army£§Ylực lượng phòng thủ§!.\n\n§L$job_colonist_desc$§!"
+
+ concept_overlord_arborist:0 "$job_overlord_arborist_plural$"
+ concept_overlord_arborist_desc:0 "$job_overlord_arborist_plural$ chuyển hóa $i_food$ của nước chư hầu thành $i_food$ của quốc gia bá chủ.\n\n§L$job_overlord_arborist_desc$§!"
+
+ concept_replicator:0 "$job_replicator_plural$"
+ concept_replicator_desc:0 "$job_replicator_plural$ chuyển hóa $i_alloys$ thành £pop£ §Idân cư máy móc§! mới.\n\n§L$job_replicator_desc$§!"
+
+ concept_spawning_drone:0 "$job_spawning_drone_plural$"
+ concept_spawning_drone_desc:0 "$job_spawning_drone_plural$ chuyển hóa $i_food$ (hoặc $i_minerals$) thành £mod_planet_amenities_no_happiness_add£§I$PLANET_AMENITIES_TITLE$§! và £mod_planet_pop_assembly_mult£§I$MOD_BONUS_POP_GROWTH$§!.\n\n§L$job_spawning_drone_desc$§!"
+
+ concept_offspring_drone:0 "$job_offspring_drone_plural$"
+ concept_offspring_drone_desc:0 "$job_offspring_drone_plural$ chuyển hóa $i_food$ (hoặc $i_minerals$) thành £mod_planet_amenities_no_happiness_add£§I$PLANET_AMENITIES_TITLE$§! và £mod_planet_pop_assembly_mult£§I$MOD_BONUS_POP_GROWTH$§!, tạo ra §I$offspring_defense_plural$§!, và cung cấp lợi ích £mod_planet_jobs_simple_drone_produces_mult£§G+10§! cho §Isản lượng của $pop_cat_simple_drone$§!.\n\n§L$job_offspring_drone_desc$§!"
+
+ concept_offspring_feeder:0 "$job_overlord_offspring_drone_feeder_plural$"
+ concept_offspring_feeder_desc:0 "$job_overlord_offspring_drone_feeder_plural$ tiêu thụ $i_food$ (hoặc $i_minerals$) để cung cấp §I$offspring_defense_plural$§! và tăng £mod_planet_jobs_worker_produces_mult£§Isản lượng tài nguyên của dân số lao động§!.\n\n§L$job_overlord_offspring_drone_feeder_desc$§!"
+
+ concept_squire:0 "$job_squire_plural$"
+ concept_squire_desc:0 "$job_squire_plural$ cung cấp $i_amenities$ và tăng cường §Isản lượng§! của các công việc £job_knight_commander£§I$job_knight_commander$§! và £job_knight£§I$job_knight$§!.\n\n§L$job_squire_desc$§!"
+
+ concept_knight:0 "$job_knight_plural$"
+ concept_knight_desc:0 "$job_knight_plural$ chuyển hóa $i_alloys$ thành $i_unity$ và $i_research$, tăng cường $i_naval_capacity$ và tạo ra $i_defense_armies$.\nHoàn thành §YThử thách Lời thề Hiệp sĩ§! sẽ giúp tăng thêm sản lượng của họ.\n\n§L$job_knight_desc$§!"
+
+ concept_knight_commander:0 "$job_knight_commander_plural$"
+ concept_knight_commander_desc:0 "$job_knight_commander_plural$ chuyển hóa $i_alloys$ thành $i_unity$ và $i_amenities$, và tăng cường $i_naval_capacity$.\nHoàn thành §YThử thách Lời thề Hiệp sĩ§! sẽ giúp tăng thêm sản lượng của họ.\n\n§L$job_knight_commander_desc$§!"
+
+ concept_overlord_knight:0 "$job_overlord_knight_plural$"
+ concept_overlord_knight_desc:0 "£job_knight£$job_overlord_knight_plural$ chuyển hóa $i_alloys$ thành $i_stability$ và tạo ra $i_defense_armies$ cho nước chư hầu, cũng như sản xuất $i_unity$ và $i_research$ cho quốc gia bá chủ.\nHoàn thành §YThử thách Lời thề Hiệp sĩ§! sẽ giúp tăng thêm sản lượng của họ.\n\n§L$job_overlord_knight_desc$§!"
+
+ concept_healthcare:0 "$job_healthcare_plural$"
+ concept_healthcare_desc:0 "$job_healthcare_plural$ chuyển hóa $i_consumer_goods$ thành $i_amenities$, £mod_logistic_growth_mult£§I$MOD_LOGISTIC_GROWTH_MULT$§!, £mod_planet_pop_assembly_organic_mult£§I$MOD_PLANET_POP_ASSEMBLY_ORGANIC_MULT$§!, và nâng cao £mod_pop_environment_tolerance£§Ikhả năng cư trú trên hành tinh§!.\n\n§L$job_healthcare_desc$§!"
+
+ concept_bureaucrat:0 "$job_bureaucrat_plural$"
+ concept_bureaucrat_desc:0 "$job_bureaucrat_plural$ chuyển hóa $i_consumer_goods$ thành $i_unity$.\n\n§L$job_bureaucrat_desc$§!"
+
+ # Singular: £mod_job_clerk_add£ ['concept_clerk'] or £mod_job_clerk_add£ §H$concept_clerk$§!
+ # Plural: £mod_job_clerk_add£ ['concept_clerks'] or £mod_job_clerk_add£ §H$concept_clerks$§!
+ concept_clerk:0 "$job_clerk$"
+ concept_clerks:0 "$job_clerk_plural$"
+ concept_clerk_desc:0 "$job_clerk_plural$ sản xuất $r_trade$ và $i_amenities$.\n\n§L$job_clerk_desc$§!"
+
+ concept_unifier:0 "$job_unifier_plural$"
+ concept_unifier_desc:0 "$job_unifier_plural$ chuyển hóa $i_consumer_goods$ và $i_food$ (hoặc $i_minerals$) thành $i_unity$ và $i_amenities$.\n\n§L$job_unifier_desc$§!"
+
+ concept_broken_shackles_scavenger:0 "$job_broken_shackles_scavenger_plural$"
+ concept_broken_shackles_scavenger_desc:0 "$job_broken_shackles_scavenger_plural$ sản xuất một lượng nhỏ $i_alloys$, $i_amenities$ và $i_research$.\n\n§L$job_broken_shackles_scavenger_desc$§!"
+
+ concept_low_tech_laborer:0 "$job_low_tech_laborer_plural$"
+ concept_low_tech_laborer_desc:0 "$job_low_tech_laborer_plural$ chuyển hóa $i_minerals$ thành $i_consumer_goods$ và $i_alloys$\n\n§L$job_low_tech_laborer_desc$§!"
+
+ concept_low_tech_miner:0 "$job_low_tech_miner_plural$"
+ concept_low_tech_miner_desc:0 "$job_low_tech_miner_plural$ sản xuất $i_minerals$\n\n§L$job_low_tech_miner_desc$§!"
+
+ concept_low_tech_technician:0 "$job_low_tech_technician_plural$"
+ concept_low_tech_technician_desc:0 "$job_low_tech_technician_plural$ sản xuất $i_energy$\n\n§L$job_low_tech_technician_desc$§!"
+
+ concept_low_tech_farmer:0 "$job_low_tech_farmer_plural$"
+ concept_low_tech_farmer_desc:0 "$job_low_tech_farmer_plural$ sản xuất $i_food$\n\n§L$job_low_tech_farmer_desc$§!"
+
+ concept_low_tech_researcher:0 "$job_low_tech_researcher_plural$"
+ concept_low_tech_researcher_desc:0 "$job_low_tech_researcher_plural$ chuyển hóa $i_consumer_goods$ thành $i_research$\n\n§L$job_low_tech_researcher_desc$§!"
+
+ concept_low_tech_bureaucrat:0 "$job_low_tech_bureaucrat_plural$"
+ concept_low_tech_bureaucrat_desc:0 "$job_low_tech_bureaucrat_plural$ chuyển hóa $i_consumer_goods$ thành $i_unity$\n\n§L$job_low_tech_bureaucrat_desc$§!"
+
+ concept_low_tech_warrior:0 "$job_low_tech_warrior_plural$"
+ concept_low_tech_warrior_desc:0 "$job_low_tech_warrior_plural$ giảm bớt £crime£§I$PLANET_CRIME_TITLE$§!, đồng thời tạo ra £defense_army£§Ilực lượng phòng thủ§!.\n\n§L$job_low_tech_warrior_desc$§!"
+
+ concept_entertainer:0 "$job_entertainer_plural$"
+ concept_entertainer_desc:0 "$job_entertainer_plural$ chuyển hóa $i_consumer_goods$ thành $i_unity$ và $i_amenities$.\n\n§L$job_entertainer_desc$§!"
+
+ concept_wrangler:0 "$job_wrangler_plural$"
+ concept_wrangler_desc:0 "$job_wrangler_plural$ chuyển hóa $i_consumer_goods$ thành $i_unity$, $i_amenities$ và $i_society$.\n\nHiệu ứng của $job_wrangler_plural$ sẽ thay đổi tùy theo hệ tư tưởng của đế chế.\n\n§L$job_wrangler_desc$§!"
+
+ concept_rancher:0 "$job_rancher_plural$"
+ concept_rancher_desc:0 "$job_rancher_plural$ chuyển hóa $i_consumer_goods$ thành $i_unity$, $i_amenities$ và $i_society$.\n\nHiệu ứng của $job_rancher_plural$ sẽ thay đổi tùy theo hệ tư tưởng của đế chế.\n\n§L$job_rancher_desc$§!"
+
+ concept_trophy_hunter:0 "$job_trophy_hunter_plural$"
+ concept_trophy_hunter_desc:0 "$job_trophy_hunter_plural$ chuyển hóa $i_consumer_goods$ thành $i_unity$, $i_food$, $i_amenities$ và $i_society$.\n\nHiệu ứng của $job_trophy_hunter_plural$ sẽ thay đổi tùy theo hệ tư tưởng của đế chế.\n\n§L$job_trophy_hunter_desc$§!"
+
+ concept_animal_handler:0 "$job_animal_handler_plural$"
+ concept_animal_handler_desc:0 "$job_animal_handler_plural$ chuyển hóa $i_consumer_goods$ thành $i_unity$, $i_amenities$ và $i_society$.\n\nHiệu ứng của $job_animal_handler_plural$ sẽ thay đổi tùy theo hệ tư tưởng của đế chế.\n\n§L$job_animal_handler_desc$§!"
+
+ concept_beastfighter:0 "$job_beastfighter_plural$"
+ concept_beastfighter_desc:0 "$job_beastfighter_plural$ chuyển hóa $i_alloys$ và $i_consumer_goods$ hoặc $i_minerals$ thành $i_unity$, $i_amenities$ và $i_society$.\n\nHiệu ứng của $job_beastfighter_plural$ sẽ thay đổi tùy theo hệ tư tưởng của đế chế.\n\n§L$job_beastfighter_desc$§!"
+
+ concept_drone_wrangler:0 "$job_drone_wrangler_plural$"
+ concept_drone_wrangler_desc:0 "$job_drone_wrangler_plural$ chuyển hóa $i_minerals$ thành $i_unity$, $i_amenities$ và $i_society$.\n\nHiệu ứng của $job_drone_wrangler_plural$ sẽ thay đổi tùy theo hệ tư tưởng của đế chế.\n\n§L$job_drone_wrangler_desc$§!"
+
+ concept_hunter_drone:0 "$job_hunter_drone_plural$"
+ concept_hunter_drone_desc:0 "$job_hunter_drone_plural$ chuyển hóa $i_minerals$ thành $i_unity$, $i_food$, $i_amenities$ và $i_society$.\n\nHiệu ứng của $job_hunter_drone_plural$ sẽ thay đổi tùy theo hệ tư tưởng của đế chế.\n\n§L$job_hunter_drone_desc$§!"
+
+ concept_symbiosis_integrator:0 "$job_symbiosis_integrator_plural$"
+ concept_symbiosis_integrator_desc:0 "$job_symbiosis_integrator_plural$ chuyển hóa $i_minerals$ thành $i_unity$, $i_amenities$ và $i_society$.\n\nHiệu ứng của $job_symbiosis_integrator_plural$ sẽ thay đổi tùy theo hệ tư tưởng của đế chế.\n\n§L$job_symbiosis_integrator_desc$§!"
+
+ # Singular: £mod_job_foundry_add£ ['concept_metallurgist'] or £mod_job_foundry_add£ §H$concept_metallurgist$§!
+ # Plural: £mod_job_foundry_add£ ['concept_metallurgists'] or £mod_job_foundry_add£ §H$concept_metallurgists$§!
+ concept_metallurgist:0 "$job_foundry$"
+ concept_metallurgists:0 "$job_foundry_plural$"
+ concept_metallurgist_desc:0 "$job_foundry_effect_desc$.\n\n§L$job_foundry_desc$§!"
+
+ concept_sand_whisperer:0 "$job_sand_whisperer_plural$"
+ concept_sand_whisperer_desc:0 "$job_sand_whisperer_plural$ sản xuất $i_zro$"
+
+ concept_sand_caretaker:0 "$job_sand_caretaker_plural$"
+ concept_sand_caretaker_desc:0 "$job_sand_caretaker_plural$ sản xuất $i_zro$"
+
+ concept_drone_sand_whisperer:0 "$job_drone_sand_whisperer_plural$"
+ concept_drone_sand_whisperer_desc:0 "$job_drone_sand_whisperer_plural$ sản xuất $i_zro$"
+
+ concept_drone_sand_caretaker:0 "$job_drone_sand_caretaker_plural$"
+ concept_drone_sand_caretaker_desc:0 "$job_drone_sand_caretaker_plural$ sản xuất $i_zro$"
+
+ concept_space_junk_collector:0 "$job_space_junk_collector_plural$"
+ concept_space_junk_collector_desc:0 "$job_space_junk_collector_plural$ sản xuất $i_alloys$"
+
+ concept_drone_space_junk_collector:0 "$job_drone_space_junk_collector_plural$"
+ concept_drone_space_junk_collector_desc:0 "$job_drone_space_junk_collector_plural$ sản xuất $i_alloys$"
+
+ concept_enforcer:0 "$job_enforcer_plural$"
+ concept_enforcer_desc:0 "$job_enforcer_plural$ giảm bớt $i_crime$ và tạo ra $i_defense_armies$.\n\n§L$job_enforcer_desc$§!"
+
+ concept_educator:0 "$job_educator_plural$"
+ concept_educator_desc:0 "$job_educator_plural$ sản xuất $i_unity$, giảm bớt $i_crime$, tăng cường §Isức hút của hệ tư tưởng chủ đạo§!, và tạo ra $i_defense_armies$.\n\n§L$job_educator_desc$§!"
+
+ concept_slave_orderly:0 "$job_slave_orderly_plural$"
+ concept_slave_orderly_desc:0 "$job_slave_orderly_effect_desc$\n\n§L$job_slave_orderly_desc$§!"
+

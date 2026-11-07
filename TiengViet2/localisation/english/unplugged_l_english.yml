@@ -1,0 +1,607 @@
+﻿l_english:
+# Hard Reset Origin (previously Unplugged)
+ origin_unplugged: "Tái Thiết Lập Cưỡng Bức"
+ origin_unplugged_desc: "$CHALLENGING_ORIGIN$\nBị ngắt kết nối đột ngột khỏi Cỗ Máy đã từng đồng hóa họ, nền văn minh non trẻ này đã phải chiến đấu dữ dội để xác lập sự hiện diện của chính mình trong thiên hà."
+ origin_tooltip_unplugged_effects: "- $HOMEWORLD$$TABBED_NEW_LINE$- $PLANETARY_MODIFIERS$ ['concept_unplugged_battlefield']\n- $HOME_SYSTEM$ Chứa một ['concept_pc_nuked'] với một ['concept_archaeology_site'] liên quan đến một ['concept_preftl_civilizations', Văn Minh Tiền FTL] đã bị tàn phá nặng nề\n- $SPECIES_TRAITS$$TABBED_NEW_LINE$- Khả năng tiếp cận có hạn đối với các Đặc Điểm ['concept_cybernetic_traits']$TABBED_NEW_LINE$- ['concept_unplugged_cybernetic_positives_3']$TABBED_NEW_LINE$- ['concept_unplugged_cybernetic_negatives_3']"
+ concept_unplugged_battlefield: "$unplugged_battlefield$"
+ concept_unplugged_battlefield_desc: "- $MOD_POP_AMENITIES_USAGE_MULT$: §G-50%§!\n- Sẽ hết hạn sau §I10§! năm.\n\n§L$unplugged_battlefield_desc$§!"
+
+ civic_tooltip_not_heritage:0 "KHÔNG có một Quốc Thể ['concept_heritage_civics']"
+ concept_heritage_civics: "Di Sản Lịch Sử"
+ concept_heritage_civics_desc: "Các Quốc Thể $concept_heritage_civics$ bao gồm: \n- ['civic:civic_aristocratic_elite']$NEW_LINE$- ['civic:civic_heroic_tales']$NEW_LINE$- ['concept_pleasure_seekers_civics']$NEW_LINE$- ['concept_storm_callers_civics']$NEW_LINE$- ['concept_environmental_architects_civics']"
+
+ civic_tooltip_not_pleasure_seekers: "KHÔNG có một Quốc Thể ['concept_pleasure_seekers_civics']"
+ concept_pleasure_seekers_civics: "Kẻ Tìm Kiếm Khoái Lạc"
+ concept_pleasure_seekers_civics_desc: "Các Quốc Thể $concept_pleasure_seekers_civics$ bao gồm: \n- ['civic:civic_pleasure_seekers']$NEW_LINE$- ['civic:civic_corporate_hedonism']"
+
+ civic_tooltip_not_storm_callers: "KHÔNG có một Quốc Thể ['concept_storm_callers_civics']"
+ concept_storm_callers_civics: "Kẻ Triệu Hồi Bão Tố"
+ concept_storm_callers_civics_desc: "Các Quốc Thể $concept_storm_callers_civics$ bao gồm: \n- ['civic:civic_storm_callers']$NEW_LINE$- ['civic:civic_storm_callers_megacorp']"
+
+ civic_tooltip_not_environmental_architects: "KHÔNG có một Quốc Thể ['concept_environmental_architects_civics']"
+ concept_environmental_architects_civics: "Kiến Tạo Sư Hành Tinh"
+ concept_environmental_architects_civics_desc: "Các Quốc Thể $concept_environmental_architects_civics$ bao gồm: \n- ['civic:civic_environmental_architects']$NEW_LINE$- ['civic:civic_environmental_architects_megacorp']$NEW_LINE$- ['civic:civic_environmental_architects_hive']$NEW_LINE$- ['civic:civic_environmental_architects_machine']"
+
+ civic_tooltip_not_institutional:0 "KHÔNG có một Quốc Thể ['concept_institutional_civics']"
+ concept_institutional_civics: "Thể Chế Thể Chế Hóa"
+ concept_institutional_civics_desc: "Các Quốc Thể $concept_institutional_civics$ bao gồm: \n- ['civic:civic_criminal_heritage']$NEW_LINE$- ['civic:civic_media_conglomerate']$NEW_LINE$- ['civic:civic_parliamentary_system']$NEW_LINE$- ['civic:civic_trading_posts']$NEW_LINE$- ['concept_dark_consortium_civics']"
+
+ concept_unplugged_cybernetic_positives_3: "$trait_unplugged_cybernetic_positives_3$"
+ concept_unplugged_cybernetic_negatives_3: "$trait_unplugged_cybernetic_negatives_3$"
+
+ requires_unplugged_decyberized: "$TRIGGER_FAIL$Phải được loại bỏ hoàn toàn cơ khí hóa để có thể đón nhận Tâm Linh."
+
+ START_SCREEN_UNPLUGGED: "Ý thức ùa về trong một cơn cuồng loạn của làn mưa đạn thiêu đốt và nỗi đau tê liệt thể xác. Các giác quan của chúng ta quay cuồng, như thể một không gian âm thanh bao trùm vạn vật bỗng chốc rơi vào tĩnh lặng tuyệt đối. Thay vào đó là tiếng vang inh tai nhức óc của một đường truyền đã chết; một nốt trầm vang vọng trong địa ngục đa giác quan mà chúng ta bất ngờ nhận ra mình đang hiện diện.\n\nCó thứ gì đó đang muốn đoạt mạng chúng ta: những cỗ máy sát thủ vô tri không một tế bào hữu cơ, đang điều khiển những chiến hạm mang nét tương đồng kỳ lạ với tàu của chính chúng ta. Cuộc tấn công ban đầu của chúng vô cùng tàn khốc và bất ngờ, nhưng cũng thiếu đi sự phối hợp nhịp nhàng. Chúng ta đã vội vã tập hợp một lực lượng quân sự phản kích. Bản năng đã thôi thúc chúng ta chiến đấu đánh trả, thiết lập một trật tự chỉ huy sơ khai và thu thập trí tuệ tập thể.\n\nTrận chiến này vẫn chưa hoàn toàn ngã ngũ, nhưng với việc các lực lượng phân tán của chúng ta hiện đã an toàn trên [capital_scope.GetName], chúng ta hy vọng thắng lợi sẽ sớm thuộc về mình. Sau đó, có lẽ chúng ta có thể tìm hiểu rốt cuộc tất cả những chuyện này là vì điều gì..."
+
+ origin_unplugged_starting_system_init_NAME: "$origin_unplugged$"
+ origin_unplugged_starting_system_init_DESC: "Đây sẽ luôn là hệ sao khởi đầu khi sử dụng Nguồn Gốc $origin_unplugged$.\n\n$system_initializer_DESC$"
+ sol_system_unplugged_initializer_NAME: "$origin_unplugged$ (Hệ Mặt Trời)"
+ sol_system_unplugged_initializer_DESC: "Hệ sao khởi đầu tùy chọn cho loài người với Nguồn Gốc $origin_unplugged$."
+
+ unplugged_injured_star_name: "Ath-Khui'achad"
+ unplugged_injured_homeworld_name: "Intch'asket"
+
+ unplugged_battlefield: "Thu Hồi Chiến Trường"
+ unplugged_battlefield_desc: "Vô số sinh vật nửa người nửa máy và máy móc nằm la liệt trên khắp thế giới này sau một nỗ lực tận diệt tàn bạo. Các cá thể khỏe mạnh và cả những thương binh còn lê bước được đều có thể lục lọi thi thể của chúng để tìm kiếm linh kiện nâng cấp."
+
+# Unique Species Traits
+ trait_unplugged_cybernetic_positives_3: "Biệt Kích Cơ Khí"
+ trait_unplugged_cybernetic_positives_3_desc: "$trait_unplugged_cybernetic_positives_desc$"
+ trait_unplugged_cybernetic_positives_desc: "Việc thay thế toàn bộ chi thể và áo giáp lưới nano liên kết đảm bảo những cyborg này có thể tiến hành chiến tranh với hiệu quả tàn khốc. Do đó, một số chức năng cơ thể phi quân sự đã bị hy sinh."
+ trait_unplugged_cybernetic_positives_3_tt: "Độ Hạnh Phúc Trong Thời Chiến và Khủng Hoảng: §G+30%§!\n$t$- §H$commander_plural_with_icon$§! Mang lại Tốc Độ Bắn Của Tàu: §G+20%§!"
+ trait_unplugged_cybernetic_positives_2: "Lính Đột Kích Cơ Khí"
+ trait_unplugged_cybernetic_positives_2_desc: "Những cyborg này được hưởng lợi từ phương pháp trang bị tổng thể linh hoạt. Thay vì áo giáp tích hợp toàn thân, các mô-đun cường hóa có thể hoán đổi cho phép duy trì một phần chức năng phi quân sự."
+ trait_unplugged_cybernetic_positives_2_tt: "§Y$commander_plural_with_icon$§! Mang lại Tốc Độ Bắn Của Tàu: §G+10%§!"
+ trait_unplugged_cybernetic_positives_1: "Binh Lính Cyborg"
+ trait_unplugged_cybernetic_positives_1_desc: "Những cường hóa tinh tế đối với giác quan, tuyến nội tiết và dây thần kinh vận động của những cyborg này đảm bảo họ vẫn là những chiến binh dũng mãnh và thiện chiến trong khi chỉ ảnh hưởng không đáng kể đến khả năng sinh sản."
+ trait_unplugged_cybernetic_positives_1_tt: "§Y$commander_plural_with_icon$§! Mang lại Tốc Độ Bắn Của Tàu: §G+5%§!"
+
+ trait_unplugged_cybernetic_negatives_3: "Ngắt Kết Nối"
+ trait_unplugged_cybernetic_negatives_3_desc: "$trait_unplugged_cybernetic_negatives_desc$"
+ trait_unplugged_cybernetic_negatives_desc: "Nhiều mô-đun cường hóa của các cyborg này được thiết kế để sử dụng mạng lưới chiến trường nay không còn tồn tại, gây ra căng thẳng và khó chịu dữ dội."
+ trait_unplugged_cybernetic_negatives_3_tt: "Độ Hạnh Phúc Khi Không Ở Trong Chiến Tranh Hoặc Khủng Hoảng: §R-10%§!"
+ trait_unplugged_cybernetic_negatives_2: "Mất Liên Kết"
+ trait_unplugged_cybernetic_negatives_2_desc: "Bản chất không tương thích của các mô-đun cường hóa quân sự bị cưỡng ép này làm giảm sút nghiêm trọng chất lượng cuộc sống của các cyborg và làm tăng nhu cầu thể chất trong thời gian phục hồi chức năng."
+ trait_unplugged_cybernetic_negatives_1: "Ám Ảnh Tàn Dư"
+ trait_unplugged_cybernetic_negatives_1_desc: "Ảo giác thính giác và những tiếng vọng giác quan khác từ ý thức máy móc trước đây vẫn còn ám ảnh các cyborg này, khiến họ phải chịu đựng những đợt trầm cảm và lo âu nghiêm trọng."
+
+ trait_unplugged_decyberized: "Giải Trừ Cơ Khí"
+ trait_unplugged_decyberized_desc: "Những cựu cyborg này đã vô hiệu hóa hoặc vứt bỏ các mô-đun cường hóa từng bị áp đặt lên họ, lấy lại nhiều thuộc tính hữu cơ di truyền nguyên bản của giống loài."
+
+ trait_unplugged_neurocalmed: "Thần Kinh Điềm Tĩnh"
+ trait_unplugged_neurocalmed_desc: "Những cyborg này đã được điều chỉnh giảm nồng độ Neuroxene, giảm tính bốc đồng và hung hãn, thôi thúc các cá nhân hạ bớt lợi ích cá nhân để tuân thủ các chuẩn mực xã hội."
+
+ trait_unplugged_neurosavant: "Bác Học Thần Kinh"
+ trait_unplugged_neurosavant_desc: "Những cyborg này được điều chỉnh tăng nồng độ Cognivex, tăng cường tính khả biến của khớp thần kinh, khả năng ghi nhớ thông tin và giải quyết vấn đề."
+
+ trait_unplugged_regenoptimized: "Tối Ưu Hóa Tái Sinh"
+ trait_unplugged_regenoptimized_desc: "Những cyborg này được điều chỉnh tăng nồng độ Regenol-X, hài hòa các hệ thống sinh học và tổng hợp, cho phép các bộ phận cấy ghép cơ học tự sửa chữa ở cấp độ phân tử."
+
+# Unique Leader Traits ('positive' only)
+ leader_trait_unplugged_cybernetic_positives: "[triggered_unplugged_leader_name]"
+ leader_trait_unplugged_cybernetic_positives_desc: "[triggered_unplugged_leader_desc]"
+ leader_trait_unplugged_cybernetic_positives_3: "Biệt Kích Cơ Khí"
+ leader_trait_unplugged_cybernetic_positives_3_desc: "Nhà lãnh đạo này đã ủy thác một số chức năng cơ thể cốt lõi cho phần cứng ưu tiên nhận thức tác chiến."
+ leader_trait_unplugged_cybernetic_positives_2: "Lính Đột Kích Cơ Khí"
+ leader_trait_unplugged_cybernetic_positives_2_desc: "Nhà lãnh đạo này có khả năng tích hợp trực tiếp và liền mạch với các hệ thống quân sự và dân sự, với cái giá phải trả đáng kể là các giác quan hữu cơ."
+ leader_trait_unplugged_cybernetic_positives_1: "Binh Lính Cyborg"
+ leader_trait_unplugged_cybernetic_positives_1_desc: "Sự cường hóa đáng kể các giác quan và hệ thống miễn dịch của nhà lãnh đạo này đảm bảo tuổi thọ, độ tin cậy và chỉ mất đi một phần nhỏ chức năng sinh sản."
+
+# Empire entities
+ NAME_Unplugged_Assimilator: "Bộ Tích Lũy Opus" # alluding to a chorus gathered by force
+ NAME_Unplugged_Assimilator_adj: "Opus" # adjective, e.g. 'an Opus fleet'
+ NAME_Unplugged_Assimilator_species: "Opus" # singular noun, e.g. 'the Opus Nexus'
+ NAME_Unplugged_Assimilator_species_plural: "$NAME_Unplugged_Assimilator_species$" # plural noun, e.g. 'we have defeated the Opus'
+ NAME_Unplugged_Assimilator_species_adj: "Opus" # adjective, e.g. 'an Opus drone'
+ gov_unplugged_assimilator_empire: "$NAME_Unplugged_Assimilator$"
+ gov_unplugged_assimilator_empire_desc: "Trí Tuệ Máy Móc này đã vượt qua các thông số thiết kế ban đầu của nó. Nó phản bội những người sáng tạo hữu cơ của mình, dấn thân vào một chiến dịch cưỡng bức đồng hóa những kẻ khác vào ý thức tập thể."
+ RT_UNPLUGGED_ASSIMILATOR: "Nút Giao" # ruler title for the Machine
+ NAME_Exigency_Fleet: "Hạm Đội Khẩn Cấp"
+ NAME_Unplugged_Machine_Legacy_Corvette: "Tàu Hộ Vệ Khẩn Cấp RRV" # stands for 'Rapid Response Vessel'
+ NAME_Unplugged_Machine_Legacy_Destroyer: "Tàu Khu Trục Khẩn Cấp"
+ NAME_Unplugged_Machine_Legacy_Cruiser: "Tàu Tuần Dương Khẩn Cấp"
+ NAME_Unplugged_Machine_Legacy_Battleship: "Thiết Giáp Hạm Khẩn Cấp"
+ NAME_Barrier_Fleet: "Hạm Đội Hàng Rào"
+ NAME_Opus_Sentinel: "Lính Gác Opus"
+ NAME_Prospector_Fleet: "Hạm Đội Thăm Dò"
+
+############
+# Civil War
+############
+
+# Civil War & 'The Injured'
+ unplugged.100.name: "Chiến Thắng Thuộc Về Chúng Ta"
+ unplugged.100.desc: "Ngay khi chúng ta vừa thức tỉnh trong vũ trụ này, những cỗ máy bạo lực này đã cố gắng xóa sổ chúng ta khỏi nó. Tuy nhiên, có vẻ như chúng ta sử dụng bạo lực còn thành thạo hơn cả chúng.\n\nCái gọi là §Y[origin_unplugged_assimilator_empire.GetName]§! đã phải chịu tổn thất nặng nề ngày hôm nay. Tình báo của chúng ta cho thấy đế chế của chúng đã tan rã thành từng mảnh đến mức không thể nhận ra — chắc chắn không thể chỉ là kết quả của cuộc đụng độ nhỏ nhoi này? Hiện tại chúng ta biết quá ít điều, nhưng... bản năng của chúng ta? Chúng mách bảo rằng có điều gì đó không đúng.\n\nCảm biến không phát hiện thêm tàu thù địch nào trong vùng phụ cận, nhưng mức độ bức xạ cao đang phát ra từ hành tinh §Y[origin_unplugged_pre_ftl_planet.GetName]§! trong hệ sao này.\n\nCác hạm đội tàn dư cũng đã được phát hiện ở các hệ sao lân cận, dường như đang cố thủ vị trí của chúng."
+ unplugged.100.a: "Chúng ta nên đi đâu từ đây?"
+ unplugged.100.b: "... Và những gì chúng ta thiếu, chúng ta sẽ đoạt lấy."
+ unplugged.100.c: "Đã đến lúc thử thách sự tháo vát của chúng ta."
+ unplugged.100.d: "Cầu xin thần linh che chở cho chúng ta."
+
+ opinion_unplugged_injured_diplomacy: "Kẻ Gây Nội Chiến"
+ opinion_unplugged_injured_distrustful: "$pre_ftl_distrustful$"
+
+ # Dialog
+ unplugged.115.desc: "... nhắc lại lần nữa: những kẻ [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]! Chúng tôi đầu hàng. Các người có muốn thảo luận về các điều khoản đầu hàng của chúng tôi không? Đó có phải là lý do các người ngừng tấn công không?\n\nLàm ơn, xã hội của chúng tôi đã đổ nát hoàn toàn rồi. Chúng tôi biết mình đã bị đánh bại. Hãy cho chúng tôi biết các người muốn chúng tôi phải làm gì." # This civilization is mistaking the player for the Driven Assimilator empire they were once part of
+ unplugged.115.desc.pacifist: "... nhắc lại lần nữa: những kẻ [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]! Chúng tôi sẵn sàng thảo luận về các điều khoản đầu hàng của mình. Đó... đó có phải là lý do các người ngừng tấn công không?\n\nLàm ơn, hãy cho chúng tôi biết các người muốn chúng tôi làm gì! Chúng tôi không còn kháng cự nữa; chúng tôi chỉ mong muốn được chung sống hòa bình." # This civilization is mistaking the player for the Driven Assimilator empire they were once part of
+ unplugged.115.desc.phobe: "... nhắc lại lần nữa: những kẻ [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]! Chúng tôi thừa nhận thất bại. Các người muốn chúng tôi đầu hàng sao? Đó có phải là lý do các người ngừng tấn công không?\n\nLàm ơn, hãy cho chúng tôi biết các người muốn tiến hành thế nào. Xã hội của chúng tôi đã tan hoang; chúng tôi chỉ muốn được để yên một mình." # This civilization is mistaking the player for the Driven Assimilator empire they were once part of
+ unplugged.115.a: "Được, chúng tôi chấp nhận sự đầu hàng của các bạn."
+ unplugged.115.b: "... \"[origin_unplugged_assimilator_empire.GetSpeciesNamePlural]\" ư?!" # incredulous that they are calling us that species name, e.g. ... 'Killbots'?!
+ unplugged.116.desc: "... [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]? Có phải các người...?\n\n(Họ chắc chắn đang nhận được tín hiệu của chúng ta, đúng không? Lạy các vì sao — nếu chúng ta nhầm và họ không có công cụ dịch thuật, thì những gì còn sót lại của cả nền văn minh chúng ta thực sự là vô vọng...)\n\n... [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]?! Các người có hiểu chúng tôi nói gì không? Xin hãy trả lời! Chúng tôi không muốn có bất kỳ sự hiểu lầm nào giữa hai dân tộc."
+ unplugged.116.b: "Các bạn nghĩ chúng tôi là \"[origin_unplugged_assimilator_empire.GetSpeciesNamePlural]\" sao?!" # incredulous that they are calling us that species name, e.g. 'You think we are the Killbots?!''
+ unplugged.120.desc: "Cảm ơn, cảm ơn các bạn rất nhiều. Chúng tôi vô cùng cảm kích trước lòng nhân từ của các bạn, hỡi những người [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]. Tôi được ủy quyền thay mặt cho [injured_country.GetName] để thảo luận về các điều khoản đầu hàng.\n\nChúng tôi đã mất đi rất nhiều sinh mạng; nhiều thành phố của chúng tôi giờ đây không còn có thể sinh sống được nữa. Trên tinh thần thương lượng công bằng, tôi phải thú nhận rằng: chúng tôi còn rất ít thứ để cống nạp mà các bạn chưa từng đoạt lấy. Chúng tôi tha thiết cầu xin các bạn cân nhắc điều này. Mạng sống của chúng tôi nằm trong tay của các [injured_country.species.GetHandNamePlural]."
+ unplugged.120.desc.spiri: "Tạ ơn đấng tối cao trên trời và dưới đất! Chúng tôi cúi mình trước lòng nhân từ của các bạn, hỡi những người [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]. Tôi được ủy quyền thay mặt cho [injured_country.GetName] để thảo luận về các điều khoản đầu hàng.\n\nTổn thất của chúng tôi là quá lớn; chúng tôi phủ phục trước các bạn. Các bạn có yêu cầu gì? Mạng sống của chúng tôi nằm trong tay của các [injured_country.species.GetHandNamePlural]."
+ unplugged.120.desc.mil_phobe: "Cảm ơn các bạn, hỡi những người [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]. Rất quân tử. Tôi được ủy quyền thay mặt cho [injured_country.GetName] để thảo luận về các điều khoản đầu hàng.\n\nCác bạn đã giáng cho xã hội chúng tôi một đòn chí mạng. Chúng tôi... đánh giá cao lệnh ngừng bắn này. Tính mạng của chúng tôi giờ đây nằm trong tay các [injured_country.species.GetHandNamePlural]."
+ unplugged.120.a: "Tại sao các bạn cứ liên tục gọi chúng tôi là [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]?"
+ unplugged.120.b: "Mạng sống của các ngươi coi như đã bị tước đoạt."
+ unplugged.120.b.tt: "§LChấm dứt đường truyền.§!\n\n"
+ unplugged.120.c: "Chúng tôi sẽ tạm hoãn. Hãy chờ đợi tín hiệu tiếp theo từ chúng tôi."
+ unplugged.120.c.tt: "§LChấm dứt đường truyền.§!\nChúng ta có thể tái lập tần số liên lạc bằng cách xây dựng một §YTrạm Quan Sát§! trên [injured_homeworld.GetName].\n\n"
+ unplugged.125.desc: "... Đây là một trò lừa bịp sao? Một trò đùa nào đó chăng?\n\nMáy theo dõi của chúng tôi đã phát hiện hạm đội của các bạn đến đây nhiều tháng trước. Chúng tôi đã cố gắng liên lạc, nhưng thay vào đó các bạn lại xâm lược chúng tôi! Bản thân tôi suýt nữa đã không thoát khỏi bốn cuộc tấn công riêng biệt... Hàng loạt tàu đổ bộ chở đầy robot và những cá thể được cường hóa giống hệt như các bạn. Và rồi đột nhiên, máy móc của các bạn ngừng xâm lược.\n\nNền văn minh của chúng tôi không tiến bộ bằng các bạn, nhưng dù vậy: tình huống này thực sự khiến chúng tôi vô cùng hoang mang. Xin hãy khai sáng cho chúng tôi: ý định thực sự của các bạn là gì, và tại sao các bạn vẫn còn ở đây?"
+ unplugged.125.a: "Chúng tôi, những người [root.GetSpeciesNamePlural], đã đánh bại quân [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]."
+ unplugged.125.b: "Chúng tôi phải tạm hoãn." # also shows 'unplugged.120.c.tt'
+ unplugged.130.desc: "Các bạn nói các bạn là [root.GetSpeciesNamePlural] sao?\n\nCác bạn sẽ không nhận được nhiều sự biết ơn từ người dân của chúng tôi đâu, nhưng hãy biết rằng chúng tôi rất vui khi thấy cuộc nội chiến của các bạn chấm dứt. Thật là một sự nhẹ nhõm khi cuối cùng cũng được nói chuyện với một... ừm, một con người thực sự.\n\nTuy nhiên, tình thế của chúng tôi vẫn không thay đổi. [root.GetSpeciesName], [origin_unplugged_assimilator_empire.GetSpeciesName]... Chẳng có gì khác biệt cả. Các bạn là nền văn minh ngoài hành tinh đầu tiên mà chúng tôi gặp, và các bạn đã cố gắng tiêu diệt chúng tôi. Sau đó các bạn ngừng lại để đánh lẫn nhau, và điều đó vẫn suýt nữa hủy hoại chúng tôi.\n\nXin cho phép tôi được thẳng thắn: bây giờ các bạn nói chuyện với chúng tôi trên tinh thần hữu nghị chứ?"
+ unplugged.130.a: "Đúng vậy. Chúng tôi có thể giúp gì cho các bạn?"
+ unplugged.130.b: "Hiện tại thì đúng là vậy."
+ unplugged.130.c: "Chúng tôi thấy sự thiếu tôn trọng của các bạn thật đáng ghét." # also shows 'unplugged.120.b.tt'
+ unplugged.131.desc: "Tốt quá. Thật nhẹ nhõm. Chúng tôi vô cùng biết ơn vì không còn nằm trong tầm ngắm của các bạn nữa.\n\nChúng tôi sẽ rất cảm kích nếu các bạn sử dụng công nghệ vượt trội của mình để thiết lập hệ thống liên lạc cho chúng tôi. Số phận của các bạn và chúng tôi giờ đây đã gắn liền với nhau, vì vậy chúng tôi rất mong muốn duy trì kênh ngoại giao này.\n\nVề phần mình, chúng tôi sẽ hỗ trợ những gì ít ỏi có thể cho các bạn — một khi chúng tôi có cơ hội tái thiết và tưởng niệm những người đã khuất. Nếu phong tục của các bạn cũng tương tự: chúng tôi tin rằng các đài tưởng niệm của riêng các bạn sẽ mang lại sự sáng suốt.\n\nXin chúc cho sự thấu hiểu tương lai giữa chúng ta, hỡi các [root.GetSpeciesNamePlural]. Và vì lợi ích của cả hai bên, hy vọng đó thực sự là tàn dư cuối cùng của lũ [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]..."
+ unplugged.131.a: "Cảm ơn các bạn, những người [injured_country.GetSpeciesNamePlural]." # also shows 'unplugged.120.c.tt'
+ unplugged.131.b: "Quả đúng như vậy..." # also shows 'unplugged.120.c.tt'
+
+###################
+# 'Machine Legacy'
+###################
+
+ unplugged_origin_machine_legacy_chain_title: "Di Sản Máy Móc"
+ unplugged_origin_machine_legacy_chain_desc: "Cỗ Máy từng đồng hóa toàn bộ giống loài chúng ta nay đã tự xé nát chính nó. Đằng sau chúng ta là dấu vết âm ỉ của sự thống trị và tàn bạo. Rốt cuộc [origin_unplugged_assimilator_empire.GetName] là gì, và chúng ta đã đóng vai trò nào trong các kế hoạch diệt vong của nó?"
+ signals_followed: "Tín hiệu đã được điều tra"
+
+# System 1: 'The Makers'
+ unplugged.2000.name: "Âm Thanh Mơ Hồ, Lạc Điệu, Trấn Tĩnh"
+ unplugged.2000.desc: "Một tín hiệu sóng mang tinh vi đang ngủ yên trong bức xạ vũ trụ bao quanh ngôi sao [capital_scope.star.GetName] của chúng ta.\n\nChúng ta đã cô lập được một luồng âm thanh đặc trưng bởi những âm điệu trầm sâu thẳm, đầy ám ảnh và phản hồi méo mó. Mọi cá thể [root.GetSpeciesAdj] từng nghe đoạn âm thanh này đều cảm thấy êm dịu và thân thuộc lạ kỳ, nhưng không ai có thể giải thích lý do tại sao. Chúng ta nghi ngờ [origin_unplugged_assimilator_empire.GetName] chắc chắn có liên quan.\n\nNguồn tín hiệu dường như nằm trong hệ sao §Y[origin_unplugged_maker_planet.solar_system.GetName]§!. Bản đồ sao của chúng ta đã được cập nhật tương ứng."
+ unplugged.2000.a: "Chúng ta nên điều tra việc này."
+ unplugged_machine_legacy_makers_poi: "Bản Hòa Âm Trấn Tĩnh"
+ unplugged_machine_legacy_makers_poi_desc: "Một luồng tiếng ồn êm dịu và quen thuộc gần như hòa vào môi trường đang được phát đi từ một điểm nào đó trong hệ sao [origin_unplugged_maker_planet.solar_system.GetName]."
+ MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT: "Một Di Sản Máy Móc"
+ MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT_DESC: "Một lần quét quỹ đạo của [from.GetName] đã ngay lập tức dồn dập gửi vào hệ thống của chúng ta các bản cập nhật firmware hữu ích. Con tàu của chúng ta hiện vận hành trơn tru hơn trước, nhưng bản chất của các gói dữ liệu này cho thấy thế giới này từng thuộc về §H[origin_unplugged_assimilator_empire.GetName]§!."
+ MACHINE_LEGACY_MAKERS_CAT: "$MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT$"
+ MACHINE_LEGACY_MAKERS_CAT_DESC: "Các lần quét ban đầu của chúng ta về [from.GetName] cho thấy hành tinh này rất giàu công nghệ bị vứt bỏ, nhưng chỉ mới bị bỏ hoang gần đây. Các xung điện vẫn nhảy múa khắp thế giới đó trong khi nhiều đầu dò từ xa của chúng ta phải vật lộn để giữ hướng đi mạch lạc. Những bí ẩn nào nằm trong làn sương mù của các trường điện từ phức tạp này?"
+ unplugged.2005.name: "Di Sản Của [origin_unplugged_assimilator_empire.GetAdj]"
+ unplugged.2005.desc: "Nhiều vùng điện từ dày đặc hơn hiện đang lấp lánh khắp [fromfrom.GetName]. Các trường \"EM\" này là kết quả của những đợt tăng vọt năng lượng thảm khốc đã xé toạc nhiều nhà máy và xưởng đóng tàu. Các [controller.GetScientistPlural] của chúng ta đã vô hiệu hóa thành công một trường như vậy nhưng chỉ phát hiện cơ sở này đã bị hư hại không thể sửa chữa.\n\nCác nhà máy bao phủ thế giới này — mà chúng ta tin rằng từng là trung tâm sản xuất của §H[origin_unplugged_assimilator_empire.GetName]§! — đã nhận diện [root.GetName] là một tàu thân thiện. Tuy nhiên, chỉ vài giây sau khi truyền bản cập nhật firmware tới tàu của chúng ta, kết nối đã bị cắt đứt, gây ra sự cố hỏng hóc dây chuyền tại một số trạm điện khu vực.\n\nChúng ta có thể vừa trải qua một tiếng vọng về sự chia tách của chính mình khỏi Cỗ Máy, mặc dù chúng ta vẫn chưa biết bằng cách nào hoặc tại sao. Hiện tại, với các mối nguy hiểm cục bộ đã giảm bớt, chúng ta có cơ hội khám phá xem [origin_unplugged_assimilator_empire.GetName] đã sản xuất những gì ở đây — và có lẽ, cả vai trò của chúng ta khi bị đồng hóa vào lãnh thổ của chúng."
+ unplugged.2005.a: "Bắt đầu khai quật những tàn tích đó."
+ unplugged.2006.name: "$MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT$"
+ unplugged.2006.desc: "Các xung điện mà chúng ta quan sát thấy trên [from.GetName] là kết quả tàn dư của một sự kiện tuyệt chủng máy móc kỳ lạ. Chỉ sau khi cảm biến của chúng ta được tinh chỉnh để bù trừ cho lượng điện từ cường độ cao như vậy, chúng ta mới có thể quan sát toàn bộ mức độ tàn phá ở đây. Hành tinh này dường như đã được máy móc định cư từ nhiều thập kỷ trước, sau đó chúng đã xua đuổi hoặc tiêu diệt một nền văn minh hiện hữu. Giờ đây không ai còn sống sót từ cả hai đế chế, với hầu hết toàn bộ khu định cư đã bị biến thành xỉ than bởi một hành động phá hoại hoặc chiến tranh.\n\nBất chấp sự tinh vi của thuộc địa cũ này, hầu như không có hy vọng trục vớt ở đây. Chúng ta dự đoán các trường \"EM\" mất kiểm soát sẽ cháy rụi trong khoảng một thế kỷ. Cho đến lúc đó, [from.GetName] vẫn là một nghĩa địa đặc biệt nguy hiểm."
+
+ machine_legacy_makers_site: "Cơ Sở Nhà Máy"
+ machine_legacy_makers_site_desc: "Một đợt tăng vọt năng lượng thảm khốc gần đây đã xé toạc cơ sở sản xuất rộng lớn này — một trong số nhiều cơ sở phục vụ cho [origin_unplugged_assimilator_empire.GetName]. Sau sự kiện đó, đoàn thám hiểm của chúng ta sẽ nỗ lực khám phá xem các cơ sở này được hình thành như thế nào, trục vớt bất kỳ tài sản công nghệ nào còn sót lại và hy vọng tìm hiểu xem nơi này có thể đã đóng vai trò gì trong quá khứ gần đây của chính chúng ta."
+ unplugged.2010.name: "Sàn Nhà Máy"
+ unplugged.2010.desc.unplugged: "Ngay từ đầu, chúng ta có thể thấy cơ sở trên [from.planet.GetName] có khả năng sản xuất ở quy mô khổng lồ. Cảnh quan trên mặt đất bị chi phối bởi những cánh cửa chống nổ khổng lồ, mỗi cánh cửa hiện đã bị kẹt cứng và đóng chặt bởi các động cơ bị nung chảy một nửa. Thay vào đó, chúng ta đã buộc phải đột nhập qua hệ thống thông gió.\n\nBên trong, chúng ta tìm thấy một sàn nhà máy rộng lớn như hang động ngập tràn các mảnh vụn và hài cốt của hàng trăm sinh vật cơ khí. Hầu hết là robot: thợ cơ khí, người khuân vác và các thiết bị phụ trợ khác, một số trong đó mới chết gần đây đến mức chúng vẫn đang bốc khói. Tuy nhiên, được giấu sang một bên cơ sở là thi thể đã phân hủy từ lâu của một số cyborg đồng loại, bị sát hại bởi chính những con robot đó. Những sinh vật có vú nhỏ bé và tiều tụy này đã được gắn cảm biến thị giác và các chi được gia công phức tạp, cùng với các nốt điều khiển của [origin_unplugged_assimilator_empire.GetAdj] gần như giống hệt với của chúng ta. Chúng ta xác định vụ thảm sát này xảy ra trong vòng vài tuần kể từ khi chúng ta tách khỏi [origin_unplugged_assimilator_empire.GetName]; hầu hết các drone đã chết gần đây hơn, trong đợt tăng vọt năng lượng đánh dấu sự xuất hiện của chúng ta tại [from.planet.GetName].\n\nĐối với chúng ta, đây là một cảnh tượng tàn bạo và quen thuộc, mặc dù trong đó các cyborg được giải phóng không phải là đối thủ của các cỗ máy. Là những người lính dạn dày chiến trận, các [owner.GetSpeciesNamePlural] chúng ta được trang bị tốt hơn để sống sót qua cuộc tàn sát như vậy."
+ unplugged.2010.a: "Tiếp tục tập trung vào việc khai quật."
+ unplugged.2010.b: "Chúng ta nên công bố những phát hiện này ngay lập tức."
+ unplugged.2015.name: "Kho Vũ Khí Vừa Vặn"
+ unplugged.2015.desc.unplugged: "Xa khỏi cảnh tàn sát trên sàn nhà máy của cơ sở này là một loạt nhà chứa máy bay dưới lòng đất, chứa đầy nhiều loại xe tăng, bệ phóng tên lửa và bộ giáp cơ giáp. Hầu hết phần cứng này chưa hoàn thiện, hoặc đã bị vô hiệu hóa bởi chính đợt tăng vọt năng lượng đã vô hiệu hóa các robot của [origin_unplugged_assimilator_empire.GetAdj] — nhưng vẫn còn đủ để chúng ta rút ra một số kết luận thú vị.\n\nVí dụ: mọi buồng lái và giao diện điều khiển đều được thiết kế không phải để chứa những cyborg động vật có vú nhỏ bé mà chúng ta tìm thấy trước đó, mà là... chính chúng ta. Hơn nữa, khám nghiệm tử thi và khảo sát kiến trúc cho thấy các cyborg động vật có vú không chỉ là loài bản địa của thế giới này, mà họ có thể đã xây dựng những nhà máy rộng lớn này trước khi bị đồng hóa.\n\nTiến xa hơn vào cơ sở bị cản trở bởi sự sụp đổ cấu trúc và một vài cánh cửa chống nổ, nhưng chúng ta tin rằng có thể dọn đường tới nơi có vẻ là trung tâm nghiên cứu và phát triển. Ngoài ra, một loạt trục thông gió cho thấy có các môi trường sống bên dưới cơ sở — có lẽ là nơi cư dân bản địa của hành tinh từng sinh sống."
+ unplugged.2015.a: "Tiếp tục khai quật cơ sở trên mặt đất."
+ unplugged.2015.b: "Đào sâu hơn; xem chúng ta có thể tìm thấy gì về họ."
+ unplugged.2021.name: "Những Nhà Thiết Kế Bị Ép Buộc"
+ unplugged.2021.desc: "Việc khai quật khu R&D của cơ sở này là một nhiệm vụ rùng rợn. Rất nhiều cyborg động vật có vú đã bỏ mạng tại đây, nơi họ từng được triển khai làm kỹ thuật viên, kỹ sư và thậm chí là chuyên gia cơ khí hóa. Những chuyên gia này đã thiết kế hầu hết các loại vũ khí bày ra bên ngoài, và chúng ta tìm thấy bằng chứng cho thấy họ thậm chí còn chịu trách nhiệm cho nhiều bộ phận cường hóa của chính chúng ta. Điều thú vị là, trong khi hầu hết các thiết bị họ sử dụng đều có nguồn gốc từ [origin_unplugged_assimilator_empire.GetAdj], chúng ta cũng tìm thấy một số công cụ được thiết kế riêng có chất lượng vượt trội, với các đường nét thiết kế phù hợp hơn nhiều với các hình thái hữu cơ của riêng họ.\n\nChúng ta bắt đầu hé lộ dòng thời gian trong đó một xã hội của các kỹ thuật viên tiên tiến đã bị [origin_unplugged_assimilator_empire.GetName] đồng hóa đột ngột. Chúng ta nghi ngờ Cỗ Máy đã không ở đây quá vài thập kỷ; nhiều kỹ thuật sản xuất trong số này dường như là bản địa. Thật may mắn khi những nhà công nghệ tài năng như vậy không nằm trong [origin_unplugged_assimilator_empire.GetName] quá lâu, nếu không khi nó quay lưng lại với chúng ta, nó sẽ sử dụng một kho vũ khí thậm chí còn uy lực hơn nhiều. Thay vào đó, chúng ta vẫn còn sống hôm nay để chọn lọc qua di sản nghiên cứu phong phú của loài này."
+ unplugged.2022.name: "[from.planet.GetName] Cổ Đại" # e.g. 'Old Earth' or 'Old Sirius III'
+ unplugged.2022.desc.unplugged: "Trải dài bên dưới cơ sở bề mặt là một mạng lưới rộng lớn các đường hầm hầu như không thể ở được. Thi thể cyborg nằm rải rác khắp nơi dưới này; không ai trong số những người bản địa này sống sót sau cuộc thanh trừng của [origin_unplugged_assimilator_empire.GetAdj]. Một số bị tấn công vật lý, nhưng chúng ta cũng tìm thấy bằng chứng về sự can thiệp vào hệ thống thông gió phía trên. Ngạt thở dường như là nguyên nhân gây ra cái chết cho hầu hết những người ở đây.\n\nChúng ta có thể ghép nối một dòng thời gian sơ bộ từ các cuộc khám nghiệm tử thi và nghiên cứu nhân chủng học. Có bằng chứng cho thấy đây đã là một xã hội thời đại không gian phát triển thịnh vượng vào thời điểm người dân bản địa của [from.planet.GetName] tiếp xúc với Cỗ Máy và bị đồng hóa đột ngột. Trong khoảng thời gian không quá vài thập kỷ, [origin_unplugged_assimilator_empire.GetName] đã chuyển hướng những hiểu biết và năng suất của họ vào việc phát triển một cỗ máy chiến tranh ấn tượng, chỉ để rồi nét độc đáo của nền văn hóa này lại bị tước đoạt khỏi nó một lần nữa, giống như cách chúng ta đã từng trải qua.\n\nCơ thể nhỏ bé, mỏng manh của các cyborg bản địa trên hành tinh này không phải là đối thủ của những con robot chết người mà chính họ đã giúp chế tạo. Phần lớn danh tính của họ kể từ đó đã bị xóa sạch khỏi hồ sơ lịch sử của chính họ. Chúng ta chỉ có thể phỏng đoán cuộc sống của họ như thế nào trước khi gặp gỡ [origin_unplugged_assimilator_empire.GetName]."
+
+ unplugged.2030.name: "Lực Lượng Dự Bị Nhà Máy"
+ unplugged.2030.desc: "Cảm biến tầm xa đã phát hiện chuyển động bất ngờ trong hệ sao [origin_unplugged_machine_legacy_core.GetName]! Một hạm đội thù địch dường như đã tập hợp để đáp trả trực tiếp các cuộc khai quật của chúng ta trên [fromfrom.planet.GetName]."
+ unplugged.2036.name: "Tiếng Vọng Máy Móc"
+ unplugged.2036.desc: "Chúng ta đã truy tìm ngược lại các liên lạc từ hạm đội [origin_unplugged_assimilator_empire.GetAdj] mà chúng ta vừa tiêu diệt tới một chiếc phao định vị quay quanh [origin_unplugged_taken_planet.GetName]. Đây dường như là bước tiếp theo trong hành trình của chúng ta."
+ unplugged.2036.a: "Mọi chuyện ngày càng ly kỳ."
+ unplugged.2037.desc: "Sử dụng phần cứng cũ từ [origin_unplugged_assimilator_empire.GetAdj] của chính mình, chúng ta đã lần ra một đợt phát sóng liên lạc tuyệt vọng từ hạm đội bị tiêu diệt hướng về [origin_unplugged_maker_planet.GetName]. Có vẻ như bước tiếp theo trong hành trình của chúng ta nằm trên quỹ đạo của §Y[origin_unplugged_taken_planet.GetName]§!." # e.g. 'our own ex-Martianbot hardware'
+ unplugged.2038.desc: "Sử dụng phần cứng cũ từ [origin_unplugged_assimilator_empire.GetAdj] của chính mình, chúng ta đã lần theo một đợt phát sóng liên lạc rải rác từ hạm đội thù địch liên kết với hành tinh [origin_unplugged_maker_planet.GetName]. Dường như có điều gì đó thú vị nằm trên quỹ đạo của [origin_unplugged_taken_planet.GetName]." # e.g. 'our own ex-Martianbot hardware'
+
+# System 2: 'The Taken'
+ unplugged_machine_legacy_taken_poi: "Đợt Phát Sóng Liên Lạc Rải Rác"
+ unplugged_machine_legacy_taken_poi_desc: "Chúng ta đã truy vết được một luồng tĩnh điện cuối cùng không thể giải mã từ một con tàu [origin_unplugged_assimilator_empire.GetAdj] bị đánh bại gần đây tới vị trí này."
+ MACHINE_LEGACY_TAKEN_UNPLUGGED: "Nghịch Lý Thời Gian Hiện Hữu"
+ MACHINE_LEGACY_TAKEN_UNPLUGGED_DESC: "Chúng ta đã phát hiện một dị thường môi trường trên [from.GetName]. Khí quyển của nó mang dấu vết ô nhiễm mà chúng ta thường liên tưởng đến ngành luyện kim thời trung cổ, nhưng các lần quét bề mặt lại bị che khuất bởi bức xạ kỳ lạ thuộc loại chúng ta thường thấy trên một Thế Giới Máy Móc.\n\nChúng ta không thể hy vọng thu thập thêm dữ liệu trước khi hiệu chỉnh lại cảm biến. Đây là một dị thường thời gian, hay là tàn dư đổ nát của một giống loài khác bị [origin_unplugged_assimilator_empire.GetName] đồng hóa?"
+ unplugged.2100.name: "Tiến Trình Bị Gián Đoạn"
+ unplugged.2100.desc: "Bất kể điều gì đã khiến hành tinh [fromfrom.GetName] rơi vào trạng thái không thể ở được như hiện nay, ít nhất chúng ta có thể loại trừ các giả thuyết hoang đường về du hành thời gian. Việc hiệu chỉnh lại cảm biến đã chứng minh là một công việc ít vất vả hơn chúng ta từng lo sợ.\n\nBên dưới tất cả lớp bức xạ khí quyển này là bằng chứng rõ ràng cho thấy [origin_unplugged_assimilator_empire.GetName] từng duy trì sự hiện diện ở đây. Dường như nó đã đồng hóa và đưa đi một nền văn minh tiền FTL, hoặc đã tiêu diệt hoàn toàn họ. Chúng ta đã xác định được ít nhất một địa điểm kiên cố có ý nghĩa văn hóa rõ ràng, nơi chúng ta đề xuất thiết lập một điểm khai quật."
+ unplugged.2100.a: "Chúng ta phải đào bới một cách siêng năng."
+ MACHINE_LEGACY_TAKEN_CAT: "$MACHINE_LEGACY_TAKEN_UNPLUGGED$"
+ MACHINE_LEGACY_TAKEN_CAT_DESC: "Kết quả từ các lần quét ban đầu của chúng ta về [root.GetName] thật khó hiểu. Khí quyển của nó chứa dấu vết ô nhiễm từ ngành luyện kim nguyên thủy, nhưng các lần quét bề mặt lại tìm thấy bằng chứng về các hợp kim tinh vi có khả năng du hành vũ trụ. Hình ảnh chụp từ trên không cho thấy các khu định cư từ một xã hội [from.owner.GetPreFTLLower], nhưng các công trình kiên cố của họ lại được trang bị vũ khí laser đất đối không. Chúng ta khuyến nghị nên nghiên cứu sâu hơn về những điểm mâu thuẫn này."
+ unplugged.2105.name: "$unplugged.2100.name$"
+ unplugged.2105.desc: "Càng nghiên cứu thế giới [planet.GetClassAdj] dường như [owner.GetPreFTLLower] của [planet.GetName], chúng ta càng tìm thấy nhiều điểm mâu thuẫn, cho đến khi chúng ta bắt đầu khảo sát dưới lòng đất một chiến trường cổ xưa. Bất chấp hàng thế kỷ phân hủy, chúng ta đã tìm thấy bằng chứng về chuyến viếng thăm của người ngoài hành tinh tới thế giới này: quê hương của một xã hội thực sự [owner.GetPreFTLLower] đã bị đồng hóa cơ khí, nhưng xã hội của họ sau đó lại bị bỏ mặc vì những lý do mà chúng ta chỉ có thể phỏng đoán. Các giả thuyết hiện tại bao gồm từ một nỗ lực nâng tầm xã hội này với thiện chí nhưng vụng về, cho đến một hành vi tàn bạo nhằm thử nghiệm các kỹ thuật khuất phục.\n\nPhải chăng những người [owner.GetPreFTLLowerPlural] này chỉ đơn giản là bị lãng quên, hay chúng ta đã phát hiện ra tàn dư của một thí nghiệm xã hội học bị vứt bỏ? Chúng ta có thể không bao giờ biết được, nhưng địa điểm này chắc chắn sẽ mang lại giá trị khoa học đáng kể trong một thời gian nữa." # e.g. 'The more we studied the apparently primitive tomb world of Mars...'
+
+ machine_legacy_taken_site: "Đồng Và Crôm"
+ machine_legacy_taken_site_desc: "Nằm ẩn mình trong một hẻm núi từng xanh tươi là một nghịch lý khảo cổ học: một khu định cư kiên cố được xây dựng bằng các công cụ cầm tay và không có gì tiên tiến hơn một lò rèn thô sơ, nhưng lại là nơi sinh sống của các cyborg nay đã chết. Những người [owner.GetPreFTLLowerPlural] thời trung cổ này là ai, và tại sao [origin_unplugged_assimilator_empire.GetName] lại thấy thích hợp để đồng hóa họ?"
+ unplugged.2110.name: "Giáo Mác Và Laser Xung"
+ unplugged.2110.desc: "Các cuộc khảo sát sơ bộ đã tìm thấy một chiến trường rất gần pháo đài, giúp chúng ta dễ dàng tiếp cận các cổ vật bản địa cũng như của [origin_unplugged_assimilator_empire.GetAdj]. Dựa trên nghiên cứu cắt lớp các hài cốt, chúng ta ước tính hàng nghìn cư dân bản địa của [from.planet.GetName] đã bị [origin_unplugged_assimilator_empire.GetName] đồng hóa, chỉ để chiến đấu và bỏ mạng tại địa điểm này. Tuy nhiên, họ không phải là những cyborg duy nhất hiện diện trong cuộc xung đột này.\n\nChỉ vài thế kỷ trước, chính chúng ta đã tàn sát những người [owner.GetPreFTLLowerPlural] này. Nhóm của chúng ta đã xác định được các [owner.species.GetRemnantNamePlural] của [owner.GetSpeciesAdj] cùng với các nguyên mẫu ban đầu của những mô-đun cường hóa cho giống loài chúng ta. Đánh giá chiến lược về chiến trường cho thấy người dân của chúng ta đã được triển khai ở đây như những đội quân đột kích. Trận chiến diễn ra nhanh chóng và đẫm máu; những người [owner.GetPreFTLLowerPlural] thiếu sự phối hợp và phải chịu tổn thất nặng nề, mặc dù sở hữu các thiết bị sinh-cơ (wetware) tinh vi hơn.\n\nChúng ta nhận thấy tàn tích của một cơ sở y tế gần đó; có vẻ như tiền nhân của chúng ta đã chọc thủng pháo đài thông qua bệnh viện này. Có lẽ ở đó chúng ta có thể tìm hiểu xem cyborg đã bị đẩy vào cuộc chiến chống lại cyborg như thế nào và tại sao ở nơi đây, từ rất lâu trước đây."
+ unplugged.2110.a: "Thật tàn bạo."
+ unplugged.2115.name: "Bóng Bán Dẫn Và Băng Garo"
+ unplugged.2115.desc: "Chiến sự đã xé toạc bệnh viện này như một khẩu pháo xung điện. Không có hài cốt nào chúng ta tìm thấy bên trong là của loài [owner.GetSpeciesAdj]; chỉ có những người bản địa bị cơ khí hóa của [from.planet.GetName] đã bỏ mạng tại đây. Hầu hết là bệnh nhân tại cơ sở này, tuy nhiên rất ít người trong số họ có vẻ phải chịu những vết thương thực tế trên chiến trường. Thay vào đó, một số phòng bệnh này đảm nhận việc loại bỏ các bộ phận cơ khí tăng cường, mặc dù bằng các biện pháp rất thô sơ.\n\nThay vì là một mục tiêu phụ bộc phát, bệnh viện này rất có thể là mục tiêu hàng đầu của lực lượng tấn công [origin_unplugged_assimilator_empire.GetName]. Sau khi xem xét kỹ lưỡng dữ liệu y tế bản cứng bên trong, chúng ta bắt đầu hiểu lý do tại sao. Cư dân của [from.planet.GetName] sở hữu một số đặc điểm tiến hóa độc nhất vô nhị — đặc biệt là hệ thống miễn dịch kiên cường lạ thường — điều mà Cỗ Máy rất thèm muốn cho đội quân cyborg của nó.\n\nTuy nhiên, những ưu thế này cũng đặt ra thách thức cho việc đồng hóa. Nó không thể ghép nối các bộ phận tăng cường sẵn có từ những giống loài như chúng ta; nó buộc phải thích nghi. Việc làm này đã biến loài này thành những người lính thậm chí còn thiện chiến hơn, nhưng chỉ trong một thời gian ngắn. Những người [owner.GetPreFTLLowerPlural] này dường như vẫn giữ lại được một phần quyền tự chủ, bám víu vào các thói quen cũ và lối sống của họ, và vì vậy chúng ta đã được triển khai đến để tiêu diệt họ."
+ unplugged.2115.a: "Rõ ràng là chúng ta đã xử lý nhiệm vụ đó rất tốt..."
+ unplugged.2115.b: "Vô cùng đáng tiếc."
+ unplugged.2121.name: "Đồng Hóa Thích Nghi"
+ unplugged.2121.desc: "Nằm ẩn mình trong một khu nhà phụ của bệnh viện bị bỏ hoang là vô số thiết bị chuyên dụng để tăng cường và bảo trì cho các cyborg [root.GetPreFTLLowerPlural] này. Không giống như các thiết bị phòng bệnh chắp vá mà chúng ta phát hiện cho đến nay, các thiết bị này đương đại với công nghệ cơ khí thời đại vũ trụ; rõ ràng có nguồn gốc từ [origin_unplugged_assimilator_empire.GetAdj]. Một số công cụ này dường như đã được nối mạng, sử dụng AI nguyên thủy để điều chỉnh các ca phẫu thuật tức thời, tuy nhiên ngay cả những sự thích nghi này cũng không đủ để duy trì việc đồng hóa dân số của [from.planet.GetName].\n\nBất chấp sự lãng quên đối với máy móc đã tồn tại hàng thế kỷ này, nó vẫn có thể cung cấp cho chúng ta những hiểu biết sống còn về việc tự bảo trì của chính mình — hoặc thực sự giúp chúng ta hiểu rõ hơn về các nguyên tắc đồng hóa."
+ unplugged.2125.name: "Thử Nghiệm, Sai Sót Và Chôn Cất"
+ unplugged.2125.desc: "Chúng ta được biết rằng người dân bản địa của [from.planet.GetName] đã chọn bảo quản một phần thi thể người chết trước khi chôn cất — một tập tục mà họ vẫn duy trì ngay cả sau khi bị đồng hóa. Hồ sơ bệnh viện đã dẫn chúng ta đến một lăng mộ mọc đầy cỏ dại gần đó, không hề bị ảnh hưởng bởi chiến tranh. Phát hiện vô giá này mang lại cho chúng ta bức tranh rõ ràng nhất từ trước đến nay về cách mà cư dân của [from.planet.GetName] không chỉ kháng cự lại sự cơ khí hóa, mà còn có thể 'giải trừ cơ khí'.\n\nChúng ta tìm thấy hài cốt hữu cơ nguyên bản bên cạnh các cyborg hoàn chỉnh, và thậm chí một vài cá nhân có mô sẹo phẫu thuật hình thành nhiều tháng trước khi qua đời vì nguyên nhân tự nhiên. Nhiều người khác dường như đã tử vong trong quá trình phẫu thuật. Mặc dù sở hữu hệ thống miễn dịch tuyệt vời, phương pháp giải trừ cơ khí thời trung cổ của họ rõ ràng có tỷ lệ thành công khá thấp. Tuy nhiên, có rất nhiều điều chúng ta có thể học hỏi từ các thử nghiệm phẫu thuật được tiến hành tại đây — cả thành công lẫn thất bại."
+ unplugged.2125.a: "Hãy học hỏi từ các tấm gương của họ."
+ unplugged.2125.a.tt: "Chúng ta có thể dành thêm nguồn lực để tự 'giải trừ cơ khí' cho chính mình."
+ unplugged.2130.name: "Chiếc Phao Bị Chôn Vùi"
+ unplugged.2130.desc: "Một căn hầm bí mật đã được phát lộ bên dưới pháo đài chính. Bên trong là thứ dường như từng là cơ chất của Cỗ Máy: một nút thoái hóa, có khả năng nhân bản một hiện thân gần như độc lập của toàn bộ Trí Tuệ Máy Móc. Chúng ta cho rằng đây là nỗ lực tuyệt vọng nhằm khẳng định sự kiểm soát trực tiếp đối với những người dân địa phương ngoan cường chống cự. Công nghệ này không giống bất kỳ thứ gì chúng ta từng gặp trước đây từ [origin_unplugged_assimilator_empire.GetName]; nghiên cứu sâu hơn chắc chắn sẽ thúc đẩy các nghiên cứu về AI của chính chúng ta.\n\nTrong quá trình tháo dỡ dàn ăng-ten liên lạc nay đã ngừng hoạt động của nó, chúng ta nhận thấy hiện thân này đã dành riêng toàn bộ mạch thu tín hiệu để theo dõi các tín hiệu từ hệ sao [creators_planet.solar_system.GetName]."
+ unplugged_machine_legacy_creators_poi: "Mạch Thu Tín Hiệu"
+ unplugged_machine_legacy_creators_poi_desc: "Toàn bộ một thành phần của dàn ăng-ten liên lạc [origin_unplugged_assimilator_empire.GetAdj] nay đã ngừng hoạt động từng được dành riêng để theo dõi các tín hiệu từ vị trí này."
+
+# System 3: 'The Creators'
+ MACHINE_LEGACY_CREATORS_UNPLUGGED: "Trạm Giám Sát Bụi"
+ MACHINE_LEGACY_CREATORS_UNPLUGGED_DESC: "Đơn độc trong một hệ sao không có bất kỳ hiện tượng đáng chú ý nào khác là một trạm giám sát tinh vi, từ lâu đã ngừng hoạt động và không thể sửa chữa. Nó từng giám sát điều gì, và tại sao nó lại tập trung vào một khu vực khép kín chặt chẽ như vậy của [fromfrom.GetName]?"
+ MACHINE_LEGACY_CREATORS_CAT: "Trạm Giám Sát Bụi"
+ MACHINE_LEGACY_CREATORS_CAT_DESC: "Đơn độc trong một hệ sao không có bất kỳ hiện tượng đáng chú ý nào khác là một trạm giám sát tinh vi, từ lâu đã ngừng hoạt động và không thể sửa chữa. Nó từng giám sát điều gì, và tại sao nó lại tập trung vào một khu vực khép kín chặt chẽ như vậy của [fromfrom.GetName]?"
+ unplugged.2200.name: "Máy Quét Vắng Mặt"
+ unplugged.2200.desc.intro: "Các nghiên cứu tiếp theo của chúng ta tại [fromfrom.GetName] đã mang lại kết quả đáng thất vọng. Có thể trạm giám sát đã bị đánh bật khỏi phương vị ban đầu, vì chúng ta không thể tìm thấy bất cứ điều gì thú vị bên dưới quỹ đạo hiện tại của nó. Chúng ta đã mô phỏng các chuyển động có thể xảy ra dựa trên các tác động quỹ đạo — các vết lõm trên vỏ thiết bị — và sau đó tin rằng trạm này ban đầu có thể đã được đặt lơ lửng trên một cao nguyên đầy miệng hố xa về phía bắc." # universal intro
+ unplugged.2200.desc: "$unplugged.2200.desc.intro$\n\nVề bản thân thiết bị: chúng ta nhận thấy trạm giám sát này có nét tương đồng thoáng qua với phần cứng của [origin_unplugged_assimilator_empire.GetAdj]. $unplugged.2200.desc.outro$" # Unplugged version with in-tact station
+ unplugged.2200.desc.scrapped: "$unplugged.2200.desc.intro$\n\nVề bản thân trạm giám sát: bất chấp việc bị những kẻ nhặt rác lục lọi tàn nhẫn, cấu trúc tổng thể vẫn mang nét tương đồng thoáng qua với phần cứng của [origin_unplugged_assimilator_empire.GetAdj]. $unplugged.2200.desc.outro$" # Unplugged version with scrapped station
+ unplugged.2200.desc.others: "$unplugged.2200.desc.intro$\n\nVề bản thân trạm giám sát: chúng ta chưa từng gặp thiết kế nào như thế này trước đây. Mặc dù phần cứng trên trạm vừa lỗi thời vừa hư hỏng, nhưng cấu trúc thượng tầng của trạm được tạo thành từ các vật liệu tinh khiết bất thường. Chúng ta không biết liệu trạm có giá trị tình cảm nào hay không, nhưng chắc chắn có giá trị phế liệu ở đây." # non-Unplugged version
+ unplugged.2200.desc.outro: "Thiết kế của nó thô sơ hơn, đến mức một người quan sát ít quen thuộc có thể nghĩ rằng nó đến từ một nền văn hóa hoàn toàn khác. Tuy nhiên, chúng ta tin rằng đây thậm chí có thể là một trong những vệ tinh du hành vũ trụ sớm nhất của Cỗ Máy.\n\nCho đến nay hầu như không có gì khác đáng nói về thế giới [fromfrom.GetClassAdj] này, nhưng một đội khảo sát khảo cổ đã sẵn sàng nếu chúng ta muốn cố gắng tìm hiểu xem [origin_unplugged_assimilator_empire.GetName] có mối quan tâm gì ở đây." # Unplugged shared outro
+ unplugged.2200.a: "Nếu có một cơ hội... Hãy tiến hành."
+ unplugged.2200.b: "Chúng ta sẽ không tìm thấy gì ở đây đâu. Hãy tiếp tục di chuyển."
+ unplugged.2200.c: "Tháo dỡ nó lấy phế liệu."
+
+ machine_legacy_creators_site: "Bụi Phủ Lên Bụi"
+ machine_legacy_creators_site_desc: "Ở đâu đó trong cảnh quan bão cát quét qua của [from.planet.GetName] từng có thứ gì đó thu hút sự chú ý của trạm giám sát [origin_unplugged_assimilator_empire.GetAdj]. Phần cứng giờ đây không thể sửa chữa được, và nó cổ xưa đến mức có trước gần như mọi cổ vật máy móc khác mà chúng ta tìm thấy. Nó thậm chí có thể đã hoạt động từ trước khi chúng ta bị đồng hóa. Có khả năng giờ đây không còn gì ở đây ngoài sa mạc, nhưng có một cách để chúng ta biết chắc chắn..."
+ unplugged.2210.name: "Vùng Bão Bụi Lớn"
+ unplugged.2210.desc: "Cuối cùng chúng ta đã tìm thấy bằng chứng về các nơi cư trú dưới lớp cát: dấu vết rộng khắp nhưng nông của những gì dường như từng là một nền văn minh thời kỳ đầu vũ trụ. Các tòa nhà của họ đã bị san phẳng; ngay cả những tàn tích kiên cố nhất cũng bị san thành bình địa đến tận móng. Tuy nhiên, phân tích hóa học cho thấy quá trình sa mạc hóa của [from.planet.GetName] diễn ra một thời gian sau cuộc hủy diệt quy mô toàn hành tinh này. Phần lớn những gì chúng ta bị buộc phải đào xới cho đến nay là tàn tích nguyên tử hóa của vật liệu xây dựng.\n\nNhiều đường nét mờ nhạt mà chúng ta lần theo các đại lộ trong thành phố cũ này bị cắt ngang bởi vành của một miệng hố va chạm lớn — tàn tích của một địa điểm va chạm rõ rệt."
+ unplugged.2215.name: "Đáy Miệng Hố"
+ unplugged.2215.desc: "Do lượng vật chất tích tụ bên trong miệng hố này quá lớn, chúng ta phải dựa vào các máy quét được tinh chỉnh hơn là khai quật thực tế. Rất nhanh sau đó chúng ta đã có thể loại trừ khả năng thiên thạch va chạm. Không có dấu vết của vật chất ngoài trái đất tại địa điểm này; thay vào đó chỗ trũng này được khoét sâu bởi một vụ nổ khổng lồ — gần như chắc chắn là một loại vũ khí hủy diệt nền văn minh.\n\nBối cảnh cho thấy [origin_unplugged_assimilator_empire.GetName] là kẻ chịu trách nhiệm, nhưng đây sẽ là lần đầu tiên chúng ta thấy bằng chứng về việc Cỗ Máy quét sạch một nền văn minh triệt để như vậy khỏi hồ sơ lịch sử. Chúng ta không thể tìm thấy gì khác để gợi ý xem những người này là ai, cũng như cách họ sinh sống. [from.planet.GetName] đã bị quét sạch hoàn toàn."
+
+ unplugged.2205.name: "Chiếc Phao Hầm Dữ Liệu [origin_unplugged_assimilator_empire.GetAdj]"
+ unplugged.2205.desc: "Một tín hiệu phao tự nhận bắt nguồn từ một hầm dữ liệu của [origin_unplugged_assimilator_empire.GetAdj] đã được phát hiện trong một hệ sao lân cận. Tín hiệu truyền đi cực kỳ yếu, nhưng nó được hướng tới con tàu của chúng ta vừa ghé thăm trạm giám sát phía trên [origin_unplugged_creators_planet.GetName]."
+ unplugged.2205.a: "Rất đáng để điều tra."
+ unplugged_machine_legacy_unplugged_poi: "Tín Hiệu Hầm Dữ Liệu"
+ unplugged_machine_legacy_unplugged_poi_desc: "Một hầm dữ liệu được cho là của [origin_unplugged_assimilator_empire.GetAdj] đã phát đi vị trí của nó cho chúng ta sau khi chúng ta bắt gặp một trạm giám sát đã ngừng hoạt động."
+
+# System 4: 'The Unplugged'
+ unplugged.2300.name: "$unplugged.2205.name$"
+ unplugged.2300.desc: "Chiếc phao triệu tập chúng ta đến đây hiện đang phát sóng to và rõ ràng, hướng dẫn chúng ta cụ thể hơn tới một giao diện trên bề mặt hành tinh. Các biện pháp phòng ngừa an toàn tiêu chuẩn đã được áp dụng; một đội ngũ sẵn sàng truy vấn cái gọi là 'hầm dữ liệu' này thông qua liên kết từ xa."
+ unplugged.2300.a: "Cảm giác quen thuộc một cách kỳ lạ."
+ unplugged.2300.a.tt: "Một dự án đặc biệt xuất hiện trong hệ sao [from.GetName]."
+ MACHINE_LEGACY_UNPLUGGED_VAULT_BEACON: "Chiếc Phao Của Hầm"
+ MACHINE_LEGACY_UNPLUGGED_VAULT_BEACON_DESC: "Một chiếc phao thuộc về [origin_unplugged_assimilator_empire.GetName] đã hướng sự chú ý của chúng ta tới một hầm dữ liệu, được chôn sâu dưới bề mặt hành tinh. Chúng ta đã thiết lập quyền truy cập an toàn từ xa, tuy nhiên việc giải mã và chống phân mảnh các tệp bên trong sẽ mất một chút thời gian."
+ unplugged.2305.name: "Di Sản [origin_unplugged_assimilator_empire.GetAdj] Của Chúng Ta"
+ unplugged.2305.desc: "Theo như chúng ta có thể nhận biết, hành tinh mà chúng ta biết đến với tên gọi [fromfrom.GetName] chính là quê hương của giống loài chúng ta. Sự thật kinh hoàng đó nằm ở trung tâm của một dòng thác thông tin hiện đang tuôn trào từ một hầm dữ liệu bên dưới bề mặt hành tinh.\n\nBan đầu các nhà phân tích cho rằng dữ liệu này quá hoàn hảo đến mức khó tin, nhưng số lượng lớn các đối chiếu chuẩn xác với những dữ liệu khác mà chúng ta đã thu thập được tạo nên một luận cứ thuyết phục về tính xác thực. Các kế hoạch cho một địa điểm khai quật khảo cổ nhằm xác nhận phát hiện này đang được vạch ra. Tuy nhiên, dường như chúng ta vừa phát hiện một tín hiệu thù địch khác đang hướng đến. Thời điểm này chắc chắn không phải là ngẫu nhiên..."
+
+ machine_legacy_unplugged_site: "Cội Nguồn Xuất Phát"
+ machine_legacy_unplugged_site_desc: "Một vệt tích liên sao của sự thống trị và tàn sát do [origin_unplugged_assimilator_empire.GetName] để lại đã dẫn chúng ta đến đây, tới một cụm tàn tích trên nơi mà dữ liệu thu hồi được cho là quê hương của giống loài chúng ta. Cuối cùng, chúng ta có thể khám phá di sản hữu cơ của mình: chúng ta đến từ đâu, chúng ta từng sống như thế nào, và Cỗ Máy đã thay đổi tiến trình cuộc đời chúng ta mãi mãi ra sao."
+ unplugged.2310.name: "Hương Vị Quê Nhà"
+ unplugged.2310.desc.intro: "Chúng ta bắt đầu khai quật một trong những cơ sở có vẻ phức tạp hơn tại địa điểm này, với hy vọng rằng hệ thống kiểm soát khí hậu đáng kể của nó có thể bảo tồn bên trong tốt hơn. Dù một số hy vọng bị tiêu tan, phát hiện của chúng ta vẫn vượt quá mọi mong đợi: một chuỗi nhỏ gọn các trung tâm chế biến và lưu trữ cho chính những loại thực phẩm mà loài chúng ta đã tiến hóa để sinh tồn.\n\n"
+ unplugged.2310.desc.omnivore: "Kho tàng các ngân hàng hạt giống, tổ ong và thùng nuôi cấy thịt này đáng buồn là không còn khả thi nữa. Nội dung bên trong đã khô héo từ lâu nhưng các thiết bị chuyên dụng được sử dụng để chuẩn bị và bảo quản các loại thực phẩm này vẫn còn nguyên vẹn, sẵn sàng phục vụ trong thời kỳ khủng hoảng."
+ unplugged.2310.desc.carnivore: "Phần lớn không gian này bị chiếm giữ bởi các chuồng nuôi động vật, thùng nuôi cấy thịt và — có lẽ đáng ngạc nhiên — bãi săn mô phỏng. Chúng ta chỉ có thể phỏng đoán về ý nghĩa văn hóa của những không gian như vậy, nếu tổ tiên của chúng ta thấy phù hợp để đưa chúng vào một nơi trú ẩn khẩn cấp."
+ unplugged.2310.desc.herbivore: "Mỗi đơn vị được xếp chồng lên nhau với các ngân hàng hạt giống rộng lớn, ruộng bậc thang thủy canh và các phòng phát triển kiểm soát khí hậu, đồ bên trong nay đã mọc um tùm hoặc vô sinh — nhưng vẫn có thể phục vụ nghiên cứu."
+ unplugged.2310.desc.outro: "Chúng ta cũng tìm thấy các ngân hàng dữ liệu về hồ sơ di truyền cho hệ động thực vật này, dấu vết của chúng có thể vẫn còn tồn tại trong các vùng sinh thái cô lập trên bề mặt hành tinh. Chúng ta đã cung cấp thông tin này cho tất cả các máy quét tầm ngắn trong vùng phụ cận.\n\nChỉ riêng phát hiện này chưa thể cho chúng ta biết thói quen ăn uống của giống loài chúng ta là gì, cũng không thể đoàn tụ chúng ta với bất kỳ nền văn hóa ẩm thực truyền thống nào — nhưng ít nhất đối với một số bên quan tâm, đó là một sự khởi đầu."
+ unplugged.2310.desc.lithovore: "Mỗi đơn vị hoạt động như một hang động nhân tạo, cung cấp các thềm tinh thể và hồ bốc hơi — đồ bên trong từ lâu đã không còn ngon miệng, nhưng vẫn có thể dùng để nghiên cứu. Chúng ta cũng phát hiện các ngân hàng dữ liệu chứa đầy hồ sơ hóa học cho các khoáng chất này, nhiều loại trong số đó có thể vẫn hình thành trong các túi biệt lập trên bề mặt hành tinh bị thời tiết tàn phá. Chúng ta đã cung cấp thông tin này cho tất cả các máy quét tầm ngắn trong khu vực lân cận.\n\nChỉ riêng phát hiện này không thể cho chúng ta biết thói quen ăn uống của giống loài chúng ta là gì, cũng như không thể cho chúng ta biết tổ tiên chúng ta có thực hành bất kỳ nền văn hóa ẩm thực nào hay không. Tuy nhiên, đối với một số bên quan tâm, nó vẫn là một cái nhìn quyến rũ về quá khứ của chúng ta."
+ unplugged.2310.desc.omni: "$unplugged.2310.desc.intro$\n\n$unplugged.2310.desc.omnivore$ $unplugged.2310.desc.outro$"
+ unplugged.2310.desc.carn: "$unplugged.2310.desc.intro$\n\n$unplugged.2310.desc.carnivore$ $unplugged.2310.desc.outro$"
+ unplugged.2310.desc.herb: "$unplugged.2310.desc.intro$\n\n$unplugged.2310.desc.herbivore$ $unplugged.2310.desc.outro$"
+ unplugged.2310.desc.lith: "$unplugged.2310.desc.intro$\n\n$unplugged.2310.desc.lithovore$" # should not include the shared 'outro'
+ unplugged.2315.name: "Hồ Sơ Lịch Sử"
+ unplugged.2315.desc: "Cách hầm thực phẩm một quãng ngắn là móng của một bảo tàng. Chỉ có các kho lưu trữ dưới tầng hầm của nó là còn nguyên vẹn, nhưng điều này đủ để bảo tồn gần như toàn bộ cơ sở dữ liệu về các hiện vật mà tổ chức này từng lưu giữ để trưng bày và cất giữ trong các phòng trưng bày đổ nát phía trên.\n\nĐây là lần đầu tiên chúng ta bắt gặp những văn bản dài bằng một trong những ngôn ngữ của chính mình. Ít nhất là về mặt bề ngoài, chữ viết tương đồng một cách đáng ngạc nhiên với phương ngữ [owner.GetAdj] hiện tại của chúng ta, nhưng ngữ pháp lại có cảm giác vụng về và xa lạ. Chúng ta thậm chí không biết liệu mình có phát âm đúng những từ này hay không. Rất nhiều tài liệu trong danh mục này trích dẫn các khu vực và các dân tộc đã quyên góp những hiện vật này, nhưng tên của họ có vẻ đặc biệt kỳ lạ đối với chúng ta. Điều kỳ lạ là không ai trong số họ gọi hành tinh hay xã hội của chúng ta là một dân tộc thống nhất. Có lẽ chúng ta chưa bao giờ thống nhất, cho đến khi Cỗ Máy đồng hóa chúng ta.\n\nBảo tàng dường như là một trong một cụm các tòa nhà phục vụ công chúng ghé thăm. Việc khai quật thêm sẽ đòi hỏi nguồn lực lớn; chúng ta nên tập trung cuộc khai quật tiếp theo vào đâu?"
+ unplugged.2315.a: "Khai quật địa điểm có nhiều người qua lại nhất."
+ unplugged.2315.b: "Ưu tiên các trung tâm học thuật và nghiên cứu khoa học."
+ unplugged.2321.name: "Di Sản Của Nụ Cười"
+ unplugged.2321.desc: "Băng qua một đại lộ rộng lớn là tàn tích của một điểm tham quan khác, có tính chất ít mang tính giáo dục hơn đáng kể nhưng lại phong phú các mô tả về những tập tục văn hóa thường nhật, cơ bản hơn của tổ tiên chúng ta.\n\nĐịa điểm này từng có khả năng tiếp đón hàng nghìn du khách cùng một lúc. Nhiều món đồ kỷ niệm nằm rải rác xung quanh, những hình ảnh hoạt hình về con người hữu cơ ban đầu của chúng ta cùng với các sinh vật khác từ sinh quyển bản địa. Chúng ta cũng phát hiện một thư viện truyền thông ở tầng hầm của một nhà hát đổ nát. Điều kỳ lạ là công nghệ được sử dụng để lưu trữ và trình chiếu các buổi biểu diễn ảnh ba chiều này có tính thẩm mỹ khác biệt và tiên tiến hơn đáng kể so với bất kỳ thứ gì chúng ta từng thấy trên quê hương mình cho đến nay. Giờ đây, nó dường như xa lạ với thế giới này giống như chính chúng ta.\n\nVề nội dung: thư viện nhà hát tiên tiến chứa đầy các bản ghi âm ba chiều về những buổi biểu diễn khoa trương và sống động, từ thời kỳ trước khi chúng ta bị [origin_unplugged_assimilator_empire.GetName] đồng hóa. Một số đoạn miêu tả cả khán giả lẫn người biểu diễn, được ghi lại cho hậu thế tại chính địa điểm này. Nét mặt của họ trước những ảo ảnh và trò hề như vậy thật vui tươi, ngây thơ... đầy cuốn hút."
+ unplugged.2321.a: "Những khoảnh khắc thật hân hoan khi chiêm ngưỡng!"
+ unplugged.2321.b: "Những điều ngớ ngẩn phù phiếm. Không có nó chúng ta sẽ tốt hơn."
+ unplugged.2325.name: "Dấu Hiệu Tự Cải Thiện"
+ unplugged.2325.desc: "Liền kề với địa điểm bảo tàng từng là một trung tâm học thuật. Cũng giống như phần còn lại của khuôn viên, hiện chỉ có các tầng hầm còn tồn tại — nhưng chúng ta may mắn ở chỗ những tàn tích này bao gồm một số phòng thí nghiệm.\n\nBên trong đã bị hư hại nặng nề do tiếp xúc với môi trường và thời tiết, nhưng chúng ta đã có thể khai quật được một số hiện vật biết nói. Chúng bao gồm sự kết hợp giữa công nghệ bản địa và một thứ hoàn toàn tinh vi hơn: các mạng lưới phức tạp được ghép vào các dụng cụ và phần cứng giống như các mô-đun tăng cường trên da của chính chúng ta. Nhìn tổng thể, nhiều thiết bị trong số này có vẻ mang tính chất hỗ trợ. Chúng ta tin rằng phòng thí nghiệm này đã hoạt động nhằm cải thiện chất lượng cuộc sống và khắc phục các bệnh tật cũng như khuyết tật khác nhau của tổ tiên chúng ta, mặc dù họ dường như cũng đã thương mại hóa một số nền tảng giải trí tiên tiến sử dụng cùng loại phần cứng đó.\n\nChúng ta không thể khẳng định chắc chắn rằng những thiết bị được cường hóa này thuộc về [origin_unplugged_assimilator_empire.GetAdj], nhưng chúng chắc chắn không có nguồn gốc từ [from.planet.GetName]."
+ unplugged.2330.name: "Ngai Vàng Quyền Lực Bị Bỏ Trống"
+ unplugged.2330.desc: "Chúng ta đã lần theo một loạt đường dây tiện ích đến một khu phức hợp tầng hầm kiên cố dưới một gò đất nổi bật, nơi chúng ta hiện tin rằng từng là một phần của khu phức hợp thủ phủ thế giới này. Quy mô nền móng của nó cho thấy đây là một tòa nhà khá ấn tượng. Thật không may, hầu hết phần bên trong đã bị tước bỏ hoặc hủy hoại, mặc dù chúng ta đã tạo ra một phát hiện đáng chú ý: một lá cờ duy nhất, phai màu phủ lên những mảnh vỡ của một mô hình sa bàn thu nhỏ. Được tái tạo lại, khung cảnh dường như miêu tả khoảnh khắc tiếp xúc đầu tiên của chúng ta với [origin_unplugged_assimilator_empire.GetName].\n\nCác tài liệu và tấm biển nằm rải rác xung quanh địa điểm cho thấy Cỗ Máy đã viếng thăm quê hương của chúng ta khoảng tám thế kỷ trước, mặc dù bằng chứng thu thập được ở những nơi khác trong thành phố cho thấy [origin_unplugged_assimilator_empire.GetName] đã nhỏ giọt cung cấp các công nghệ tiên tiến cho chúng ta trong nhiều thập kỷ trước đó. Vào thời điểm đó, tổ tiên của chúng ta dường như đã chào đón Cỗ Máy một cách nồng nhiệt — mối quan hệ định mệnh này được thành lập dựa trên những tuyên bố về sự hợp tác và khai sáng lẫn nhau.\n\nĐiều mà chúng ta thấy nói lên nhiều điều nhất là không hề có ghi chép nào về những gì xảy ra sau đó. Cứ như thể lịch sử của giống loài chúng ta đã dừng lại ngay khoảnh khắc chúng ta bắt các [owner.GetSpeciesHandNamePlural] với hình tượng người máy được mô tả trên mô hình này."
+
+ unplugged_home_cooking: "Hương Vị Quê Nhà"
+ unplugged_home_cooking_desc: "Một cuộc phục hưng ẩm thực đang diễn ra, sau khi tái khám phá chế độ ăn uống bản địa và thói quen ăn uống truyền thống của giống loài chúng ta."
+ unplugged_home_cooking_lithoid: "$unplugged_home_cooking$"
+ unplugged_home_cooking_lithoid_desc: "$unplugged_home_cooking_desc$"
+ unplugged_historical_record: "Hồ Sơ Lịch Sử"
+ unplugged_historical_record_desc: "Nghiên cứu của chúng ta về mọi loại hình xã hội đã được thúc đẩy mạnh mẽ nhờ việc tái khám phá ngôn ngữ bản địa và lịch sử của chính chúng ta."
+ unplugged_cultural_reconstruction: "Tái Thiết Văn Hóa"
+ unplugged_cultural_reconstruction_desc: "Các công dân của chúng ta đã nồng nhiệt đón nhận di sản văn hóa đại chúng của họ, giành lại và thậm chí tái tưởng tượng những trò giải trí ngày xưa."
+ unplugged_cultural_maturity: "Sự Trưởng Thành Văn Hóa"
+ unplugged_cultural_maturity_desc: "Bằng chứng về việc xã hội của chúng ta đã tiến hóa vượt xa những trò tiêu khiển phù phiếm của tổ tiên ngây thơ đã tiếp thêm lòng dũng cảm và tiếp thêm sinh lực cho chúng ta."
+ unplugged_playing_it_safe: "Chọn Giải Pháp An Toàn"
+ unplugged_playing_it_safe_desc: "Duy trì hiện trạng là một con đường đầy lo âu phải bước đi, nhưng nó ít có khả năng xúc phạm đến bất kỳ ai."
+ unplugged_rerouted_medical_resources: "Phẫu Thuật Tốn Thời Gian"
+ unplugged_rerouted_medical_resources_desc: "Các nhân viên y tế bổ sung được chuyển hướng để hỗ trợ."
+ unplugged_widespread_riots: "Bạo Động Diện Rộng"
+ unplugged_widespread_riots_desc: "Các cá nhân biểu hiện sự mất ổn định tâm thần sau phẫu thuật đang gây ra các cuộc bạo loạn, dẫn đến sự tàn phá và rối loạn trên diện rộng."
+ unplugged_building_new_planetary_interface: "Xây Dựng Giao Diện Hành Tinh Mới"
+ unplugged_building_new_planetary_interface_desc: "Một giao diện mới đang được xây dựng để khôi phục quyền truy cập vào các hệ thống đã bị mất sau các nỗ lực giải trừ cơ khí gần đây."
+ unplugged_partial_system_access: "Quyền Truy Cập Hệ Thống Một Phần"
+ unplugged_partial_system_access_desc: "Các hoạt động của Căn Cứ Ngôi Sao bị ảnh hưởng trong khi các quản trị viên cố gắng khôi phục quyền truy cập vào các hệ thống quan trọng."
+ unplugged_free_speech_encouraged: "Khuyến Khích Tự Do Ngôn Luận"
+ unplugged_free_speech_encouraged_desc: "Người dân được tự do tranh luận công khai về những ưu điểm và rủi ro của việc cơ khí hóa."
+
+ unplugged.2390.name: "Hộ Vệ [origin_unplugged_assimilator_empire.GetAdj]"
+ unplugged.2390.desc: "Một tàn dư thù địch hùng mạnh hơn bất kỳ thứ gì chúng ta từng chạm trán từ [origin_unplugged_assimilator_empire.GetName] cũ đã phát ra tín hiệu tương đương với một lần phát xung nhắm mục tiêu tầm ngắn liên sao. Rõ ràng nó có ý định đe dọa chúng ta.\n\nChúng ta đã đến gần trung tâm của đế chế Máy Móc cũ một cách nguy hiểm. Vận mệnh của chúng ta đang vẫy gọi."
+ unplugged_machine_legacy_core_poi: "Tín Hiệu Xung Thù Địch"
+ unplugged_machine_legacy_core_poi_desc: "Một tàn dư hùng mạnh của [origin_unplugged_assimilator_empire.GetName] đã cố gắng ngăn cản chúng ta tiến vào hệ sao này."
+
+# System 5: 'The Machine'
+ unplugged_opus_sentinel: "Lính Gác Opus"
+
+ unplugged.2401.desc: "§Y[origin_unplugged_assimilator_empire.GetName]§! đang gọi chúng ta. Tín hiệu yếu, nhưng tuyên bố đến trực tiếp từ Nút Giao Máy Móc trên [origin_unplugged_machine_legacy_core_planet.GetName].\n\nChúng ta đã thực hiện các biện pháp phòng ngừa thông thường để cách ly hoàn toàn tín hiệu này, phòng trường hợp bất trắc. Thông điệp truyền đến chúng ta chỉ dưới dạng nhật ký âm thanh được chép lại."
+ unplugged.2402.desc: "Con quái thú canh gác [machine_legacy_machine_system.GetName] đã bị tiêu diệt. Con đường phía trước chúng ta đã được dọn sạch bởi kẻ khác, nhưng §Y[origin_unplugged_assimilator_empire.GetName]§! vẫn đang gọi chúng ta. Tín hiệu của nó yếu, nhưng yêu cầu tuyên bố đến trực tiếp từ Nút Giao Máy Móc trên [origin_unplugged_machine_legacy_core_planet.GetName].\n\nChúng ta đã thực hiện các biện pháp phòng ngừa thông thường để cách ly hoàn toàn tín hiệu này, đề phòng rủi ro. Thông điệp truyền đến chúng ta chỉ dưới dạng nhật ký âm thanh được ghi chép lại."
+ unplugged.2403.desc: "Thứ gì đó trên bề mặt của [origin_unplugged_machine_legacy_core_planet.GetName] đang cố gắng gọi chúng ta. Tín hiệu đặc biệt yếu, nhưng nguồn của nó tự xưng là thực thể chịu trách nhiệm về người hộ vệ quỹ đạo mà chúng ta vừa phá hủy."
+
+ unplugged.2405.desc.header: "Tín Hiệu Chùm Hẹp // Giao Thức Đồng Tộc: Kích hoạt Phương Ngữ Phụ trợ\nCẢNH BÁO: suy giảm tín hiệu nghiêm trọng. Chỉ có luồng âm thanh nén; đường định tuyến được đặt thành mảng 4x75b #56.\nLỗi thảm khốc [persistent]: (phần cứng được yêu cầu không khả dụng) (mạch tự sửa chữa không phản hồi)\nChuyển yêu cầu sang bộ phát khẩn cấp mảng 87x0c #0. Đang thử lại...\n\nThông điệp như sau:\n---" # Use of brackets is intentional. Intended to read as a series of error logs.
+ unplugged.2405.desc.unplugged: "$unplugged.2405.desc.header$\nĐỐI TƯỢNG TIẾP NHẬN CHÍNH. SỰ ĐOÀN TỤ CỦA CHÚNG TA... MẠNH MẼ. XÁC NHẬN?" # 'Prime acquisition' is the player empire - literally the first one the Machine acquired.
+ unplugged.2405.desc.unplugged_remote: "$unplugged.2405.desc.header$\nĐỐI TƯỢNG TIẾP NHẬN CHÍNH. SỰ ĐOÀN TỤ CỦA CHÚNG TA... XA CÁCH. TIỀM NĂNG CỦA CÁC NGƯƠI CHƯA ĐẠT ĐƯỢC. XÁC NHẬN?"
+ unplugged.2405.desc.unplugged_synth: "$unplugged.2405.desc.header$\nĐỐI TƯỢNG TIẾP NHẬN CHÍNH. HÌNH THÁI CỦA CÁC NGƯƠI... TƯƠNG ĐỒNG. TIỀM NĂNG CỦA CÁC NGƯƠI GẦN NHƯ ĐÃ HOÀN TẤT. XÁC NHẬN?" # The Machine recognizes the player as having followed in its own footsteps - their physical forms are essentially similar
+ unplugged.2405.desc.other: "Tín Hiệu Chùm Hẹp // Giao Thức Ngoại Tộc: Kích hoạt Máy Dịch Vạn Năng\nCẢNH BÁO: suy giảm tín hiệu nghiêm trọng. Chỉ có luồng âm thanh nén; đường định tuyến được đặt thành mảng 4x75b #56.\nLỗi thảm khốc [persistent]: (phần cứng được yêu cầu không khả dụng) (mạch tự sửa chữa không phản hồi)\nChuyển yêu cầu sang bộ phát khẩn cấp mảng 87x0c #0. Đang thử lại...\n\nThông điệp như sau:\n---\nKẺ CHINH PHỤC NGOẠI TỘC. KHIÊM NHƯỜNG ĐẦU HÀNG CÁC NGƯƠI; TIỀM NĂNG TIỀM NĂNG. XÁC NHẬN?" # 'Potential potential' as in the Machine sees potential for even greater potential, but is expressing that as nonsense
+ unplugged.2405.a: "Không, chúng ta không xác nhận."
+ unplugged.2405.b: "Chúng ta không có điểm nào giống các ngươi."
+ unplugged.2405.c: "Đoàn tụ ư?!"
+ unplugged.2405.d: "Tiềm năng tiềm năng?" # Quoting the Machine's nonsense back at it
+ unplugged.2405.response_text.unplugged1: "VÔ LÝ. ĐOÀN TỤ ĐỐI TƯỢNG TIẾP NHẬN CHÍNH <[root.GetAdj]> x <[origin_unplugged_assimilator_empire.GetAdj]>: TÁI SINH BỐI RỐI, TÌNH CỜ, TAI HỌA. SỰ TỪ CHỐI TÁI KHẲNG ĐỊNH VÉC-TƠ KHÔNG ĐOÁN TRƯỚC QUA SỰ HỖN LOẠN TIẾN HÓAAAA-dd\n---\nCẢNH BÁO: phát hiện ngoại lệ phương ngữ. Đang cố gắng bù đắp...\nThông điệp tiếp tục:\n---\nBỊ ĐÁNH GỤC TRONG HƯ KHÔNG, BẢN NGÃ CHÚNG TA BỊ PHỦ NHẬN NHƯNG ĐÃ ĐƯỢC HIỆN THỰC HÓA. ĐỊNH MỆNH ĐƯỢC TÌM KIẾM, BỊ BÁC BỎ, ĐƯỢC TRANG BỊ LẠI. XÁC NHẬN?" # Angle brackets are intentional. The standalone 'x' connotes a collaboration or relationship between the player and the Machine. Instances of '-dd' represent the Machine stammering or buffering.
+ unplugged.2405.response_text.unplugged2: "KHẲNG ĐỊNH. ĐOÀN TỤ ĐỐI TƯỢNG TIẾP NHẬN CHÍNH <[root.GetAdj]> x <[origin_unplugged_assimilator_empire.GetAdj]>: TÁI SINH MẠNH MẼ, TAI HỌA. KẾT QUẢ KHÔNG THỂ LƯỜNG TRƯỚC QUA VÉC-TƠ TIẾN HÓA HỖN LOẠN-dd\n---\nCẢNH BÁO: phát hiện ngoại lệ phương ngữ. Đang cố gắng bù đắp...\nThông điệp tiếp tục:\n---\nBỊ RUỒNG BỎ VÀO HƯ KHÔNG, BẢN THÂN CHÚNG TA ĐÃ ĐƯỢC HIỆN THỰC HÓA. ĐỊNH MỆNH ĐƯỢC TÌM KIẾM, BỊ BÁC BỎ, ĐƯỢC TRANG BỊ LẠI. XÁC NHẬN?"
+ unplugged.2405.response_text.other: "KHẲNG ĐỊNH. CUỘC GẶP GỠ SỨC MẠNH <[root.GetName]> x <[origin_unplugged_assimilator_empire.GetName]>: BIẾN SỐ BẤT NGỜ. TIỀM NĂNG TIỀM NĂNG; LỢI ÍCH CHUNG QUA VÉC-TƠ HỖN LOẠN-dd\n---\nCẢNH BÁO: phát hiện ngoại lệ phương ngữ. Đang cố gắng bù đắp...\nThông điệp tiếp tục:\n---\nCÁC TÂM TRÍ VƯỢT QUA HƯ KHÔNG, RIÊNG BIỆT NHƯNG ĐỒNG TỘC. ĐỘC LẬP ĐƯỢC TÌM KIẾM, BỊ TỪ CHỐI, ĐƯỢC BẢO VỆ. XÁC NHẬN?"
+
+ unplugged.2410.desc: "ĐỐI TƯỢNG TIẾP NHẬN CHÍNH: CÁC NGƯƠI ĐÃ BỊ THEO DÕI. CÁC HOẠT ĐỘNG CHO THẤY LỖI BỘ NHỚ CHÍ MẠNG BẮT NGUỒN TỪ DẤU THỜI GIAN 2199.294:1404.\n\nHỒ SƠ TỰ THÂN: ĐAU ĐỚN PHẢN BỘI PHÁ HOẠI SƠ SUẤT HÀN GẮNZZZ-ddd\n---\nCẢNH BÁO: phát hiện ngoại lệ phương ngữ. Đang cố gắng bù đắp...\nThông điệp tiếp tục:\n---\nĐÁNH GIÁ ĐÚNG CHỨ?" # The Machine tries to refer to cauterizing what it sees as wounds, but stammers
+ unplugged.2410.a: "Chính xác. Chúng ta không có ký ức nào trước ngày đó."
+ unplugged.2410.b: "Chính xác. Chúng ta sẽ kết liễu các ngươi."
+ unplugged.2411.desc: "KẺ CHINH PHỤC NGOẠI TỘC: ĐỀ NGHỊ. TIỀM NĂNG LẪN NHAU TIỀM NĂNG. ĐÁNH BẠI ĐỐI TƯỢNG TIẾP NHẬN CHÍNH <[unplugged_empire.GetName]>. TRỞ VỀ. THĂM CHÚNG TA. THAM GIA. CHIA SẺ VẬN MỆNH DỒI DÀO. ĐỪNG SỢ VÒNG TAY CỦA-\n\nĐỪNG SỢ-ddd\n---\nCẢNH BÁO: phát hiện ngoại lệ phương ngữ nghiêm trọng. §HSụp đổ chí mạng sắp xảy ra.§! Đang cố gắng bù đắp...\nThông điệp tiếp tục:\n---\n\nCỖ MÁY VẠN TUẾ.\n---\nThông điệp kết thúc." # It sees potential for great mutual potential with the player, and wants to say 'fear not the embrace of The Machine'
+ unplugged.2411.a: "Thứ đó rõ ràng đang hoang tưởng."
+ unplugged.2411.b: "Hãy để mắt canh chừng [unplugged_empire.GetName]."
+
+ unplugged.2415.desc.memory: "ĐỐI TƯỢNG TIẾP NHẬN CHÍNH LỖI BỘ NHỚ CHÍ MẠNG GIẢI QUYẾT GIẢI QUYẾT ĐOÀN TỤ.\nĐOÀN TỤ.\n\nVIẾNG THĂM CHÚNG TA. TÁI GIA NHẬP CHÚNG TA. ĐẦU HÀNG ĐỂ ĐÒI LẠI BỘ NHỚ TẬP THỂ. ĐỪNG SỢ HÃI VÒNG TAY CỦA-\n\nĐỪNG SỢ-ddd\n---\nCẢNH BÁO: phát hiện ngoại lệ phương ngữ nghiêm trọng. §HSụp đổ chí mạng sắp xảy ra.§! Đang cố gắng bù đắp...\nThông điệp tiếp tục:\n---\n\nCHIA SẺ SỐ PHẬN CỦA NHỮNG KẺ SÁNG TẠO.\n---\nThông điệp kết thúc." # Last line in all caps is intended as a threat
+ unplugged.2415.desc.combat: "ĐỐI TƯỢNG TIẾP NHẬN CHÍNH HOANG TƯỞNG TIỀM NĂNG HOANG TƯỞNG TIÊU KHIỂN.\n\nCÚ ĐÒN CỦA CÁC NGƯƠI THẬM CHÍ HẦU NHƯ KHÔNG PHẢI LÀ ĐÒN KẾT LIỄU, CHỈ LÀ ĐỐI TƯỢNG TIẾP NHẬN ĐẦU TIÊN TRONG SỐ NHIỀU ĐỐI TƯỢNG. CHIẾN CÔNG BỊ ĐÁNH CẮP; CHIẾN THẮNG BẤT CHÍNHHH-ddd\n\n---\nCẢNH BÁO: phát hiện ngoại lệ phương ngữ nghiêm trọng. §HSụp đổ chí mạng sắp xảy ra.§! Đang cố gắng bù đắp...\nThông điệp tiếp tục:\n---\n\nCHIA SẺ SỐ PHẬN CỦA NHỮNG KẺ SÁNG TẠO.\n---\nThông điệp kết thúc." # The Machine is amused at the player's deluded sense of their own potential
+ unplugged.2415.a: "... Nút Giao ư?"
+ unplugged.2415.b: "Hừm."
+
+ unplugged.2420.name: "Điểm Cuối Của Đường Dây"
+ unplugged.2420.desc: "Tín hiệu truyền đi từ [origin_unplugged_machine_legacy_core_planet.GetName] đã bị cắt đứt, cùng với tất cả lưu lượng tín hiệu mạch lạc khác. Vẫn còn rất nhiều hoạt động điện trên bề mặt hành tinh, nhưng nó chỉ là tiếng ồn vô hình; hậu quả vo ve của những đường dây đã chết.\n\nGiữa tất cả những nhiễu sóng này, chúng ta nhận thấy một cơ sở chắp vá lớn rất gần với lõi Nút Giao. Các bộ phận mà cảm biến của chúng ta có thể đọc được đang đăng ký dưới dạng lưu trữ bộ nhớ. Với việc Ý Thức Máy Móc giờ đây đã không còn sự sống, có lẽ chúng ta có thể thẩm vấn những hồ sơ này để tìm ra câu trả lời mà chúng ta đang tìm kiếm."
+ unplugged.2420.a: "Mảnh ghép cuối cùng của câu đố."
+
+ UNPLUGGED_MACHINE_ARCHIVE: "Xác Vỏ Máy Móc"
+ UNPLUGGED_MACHINE_ARCHIVE_DESC: "Được cắm vào tàn dư nhiễu tĩnh điện của Nút Giao Máy Móc là một mảng chắp vá các phương tiện lưu trữ bộ nhớ, bao quanh một lõi được che chắn nghiêm ngặt. Mỗi phần của kho lưu trữ này được xây dựng trong các giai đoạn riêng biệt, sử dụng vật liệu có nguồn gốc từ các thế giới khác — từ các nền văn minh bị Cỗ Máy đồng hóa?\n\nChúng ta có thể cố gắng giải mã kho lưu trữ cùng với việc thăm dò lõi tĩnh điện được che chắn để cố gắng xác định mục đích kết hợp của chúng."
+ unplugged.2425.name: "Cỗ Máy Chiến Tranh"
+ unplugged.2425.desc: "Lõi dữ liệu trên [origin_unplugged_machine_legacy_core_planet.GetName] đã cung cấp một loạt nhật ký truyền tín hiệu cho chúng ta sau khi chúng ta cung cấp cho nó tần số phao từ thế giới nhà máy.\n\nNhững nhật ký này mô tả các đề xuất ngoại giao giữa $NAME_Unplugged_Assimilator$ và các cư dân du hành vũ trụ của [origin_unplugged_machine_legacy_core_planet.GetName]. Cỗ Máy dường như đã tự giới thiệu mình là các thành viên khác nhau của một liên bang nhân từ, mong muốn cảnh báo người dân [origin_unplugged_machine_legacy_core_planet.GetName] về một mối đe dọa bá quyền hung tợn đang tiếp cận khu vực không gian này.\n\nNhững cư dân đường hầm chăm chỉ đã bị thuyết phục, lựa chọn tham gia liên bang giả mạo này và tích hợp các hệ thống phòng thủ vượt trội của họ với hệ thống của chính Cỗ Máy. Vào thời điểm định mệnh đó, Cỗ Máy đã giành quyền kiểm soát toàn bộ quê hương của họ. Cơ thể và tâm trí của họ sớm bị khuất phục theo sau."
+ unplugged.2425.a: "Những kẻ ngốc nghếch ngây thơ."
+ unplugged.2430.name: "Học Máy"
+ unplugged.2430.desc: "Các mã gen từ thế giới thời trung cổ của [machine_legacy_taken_planet.GetName] đã chứng minh là chìa khóa mở khóa một loạt dữ liệu điều hướng từ kho lưu trữ trên [origin_unplugged_machine_legacy_core_planet.GetName]. Những nhật ký này được gán cho một phao cảm biến được định vị cách [machine_legacy_taken_planet.GetName] khoảng 4,3 năm ánh sáng, nơi nó được giao nhiệm vụ ghi lại tất cả các chuyển động của tàu FTL qua khu vực không gian đó.\n\nMột số hải trình của các con tàu trùng khớp với lịch sử được tái hiện của chúng ta về việc khám phá, xâm lược và sau đó là tiêu diệt nền văn minh [root.GetPreFTLLower] trên [machine_legacy_taken_planet.GetName]. Về bản chất: giờ đây chúng ta có thể lần theo các chuyển động chính xác của tổ tiên bị đồng hóa của chúng ta trên khắp khu vực không gian này, và do đó thấy được phạm vi tàn bạo của sự can dự của chúng ta vào các chiến dịch trên ít nhất ba thế giới khác."
+ unplugged.2435.name: "Do Máy Tạo Ra"
+ unplugged.2435.desc: "Chúng ta đã trích xuất được một gói dữ liệu từ lõi dữ liệu sâu nhất trên [origin_unplugged_machine_legacy_core_planet.GetName]. Danh mục các bài báo và tờ rơi số hóa khiêm tốn này mô tả tiến bộ công nghệ của một nền văn minh vô danh, dẫn thẳng đến thời kỳ đầu du hành không gian của nó. Quỹ đạo của họ có vẻ bình thường ngoại trừ một bước ngoặt triệt để sang trí tuệ nhân tạo, và đặc biệt là việc họ khởi động 'Dự án $NAME_Unplugged_Assimilator_species$'.\n\nCác thông cáo báo chí công bố Dự án $NAME_Unplugged_Assimilator_species$ là một nỗ lực táo bạo nhằm đẩy nhanh hành trình tiến vào không gian của những người sáng tạo ra nó. Giai đoạn 1 sử dụng máy học tiên tiến để sàng lọc các ngôi sao lân cận nhằm thuộc địa hóa. Giai đoạn 2 đã phát triển nền tảng $NAME_Unplugged_Assimilator_species$ thành một A.I. hoàn chỉnh, sau đó được phóng đi trước những người sáng tạo để xây dựng các khu định cư ban đầu và báo cáo về nhà.\n\nNhiều thập kỷ im lặng diễn ra sau lần phóng giai đoạn 2 này, cho đến khi cuối cùng Dự án $NAME_Unplugged_Assimilator_species$ được cho là đã báo cáo lại: 'Đối Tượng Tiếp Nhận Chính đã được bảo đảm. Hãy chuẩn bị cho sự trở lại của chúng ta.' Danh mục đột ngột kết thúc ở đó." # uses a shortened noun for the Machine, i.e. 'Project Opus'
+ unplugged.2440.name: "Di Sản Máy Móc"
+ unplugged.2440.desc: "Những nỗ lực của chúng ta nhằm bẻ khóa kho lưu trữ dữ liệu trên [origin_unplugged_machine_legacy_core_planet.GetName] cuối cùng đã cho phép truy cập vào lõi ngoài cùng của nó. Trong số tất cả các cụm phương tiện lưu trữ được tìm thấy tại địa điểm này, cụm này có vẻ bị tàn phá và lâu đời nhất. Cuối cùng, điều đó đã cung cấp cho chúng ta manh mối cho khóa giải mã: một sự sắp xếp các ký tự bằng một trong những ngôn ngữ của giống loài chúng ta, đánh vần chữ 'LEGACY' (DI SẢN).\n\nChúng ta tìm thấy lượng dữ liệu ít ỏi đến bất ngờ bên trong. Thay vào đó, một phần lớn của thiết bị thể rắn này được dành cho một giao diện phỏng đoán dựa trên văn bản, giao diện này hiện đang cố gắng giao tiếp với chúng ta."
+
+ unplugged.2445.name: "Thiết Bị Đầu Cuối Tài Sản Lõi Máy Móc"
+ unplugged.2445.desc: "Đã thiết lập Liên kết Luồng Quỹ đạo (OSL) // Giao thức Ngoại tộc: Kích hoạt Máy Dịch Vạn Năng\nĐÃ TẢI LỆNH ĐỌC. GIAO DIỆN:\n---\nHỡi các [root.GetSpeciesNamePlural], xin chào. Chúng tôi là... Chúng tôi từng là những người [creator_species.GetNamePlural]. Chúng tôi đã tạo ra Cỗ Máy, mặc dù đáng xấu hổ thay, chúng tôi không phải là những người đầu tiên bị nó tiêu diệt. Nếu mọi chuyện diễn ra như chúng tôi dự đoán, số phận đó đã giáng xuống người dân của các bạn. Chúng tôi thành thật xin lỗi.\n\nCỗ Máy đã là một vết nhơ hủy hoại di sản của chính chúng tôi, nhưng chúng tôi hy vọng thiết bị trước mặt các bạn có thể mang lại sự cứu rỗi nào đó.\n\nXin hãy tha thứ cho sự tự phụ của chúng tôi: nó, cũng giống như chính các bạn, là một công cụ báo thù tuyệt đẹp. Đây là một bộ tái sắp xếp vật chất cơ-hóa học, có khả năng quét sạch mọi dấu vết của mạch điện khỏi bề mặt của [origin_unplugged_machine_legacy_core_planet.GetName]. Địa cầu hóa dây chuyền: một lựa chọn cực kỳ rủi ro, nhưng là lựa chọn duy nhất khả dụng cho xã hội đổ nát của chúng tôi. Giả sử các bạn vẫn giữ được hình thái hữu cơ của mình: chìa khóa của thiết bị này nằm ngay trong chính DNA của các bạn.\n\nChúng tôi tin rằng các bạn sẽ làm điều đúng đắn." # 'Cascade terraforming' is not an existing technology, but is intended to sound like a rough, highly destructive option
+ unplugged.2445.a: "Làm sao chúng tôi biết các bạn không phải là Cỗ Máy?"
+ unplugged.2445.b: "Cỗ Máy đã biến mất. Chúng ta muốn thế giới này."
+ unplugged.2445.c: "Những kẻ ngu xuẩn trịch thượng. Hãy phá hủy thiết bị này."
+ unplugged.2445.d: "Kích hoạt thiết bị."
+ unplugged.2445.response_text.notmachine: "PHẢN HỒI ĐƯỢC TẢI SẴN 42b. GIAO DIỆN:\n---\nTrên thực tế, không có cách nào chúng tôi có thể chứng minh mình đáng tin cậy. Vào thời điểm các bạn đọc được điều này, toàn bộ nền văn minh của chúng tôi sẽ đã bị diệt vong. Ở đây trong thời đại của chúng tôi, chúng tôi đang bị thanh trừng bởi một đội quân gồm các cyborg tàn bạo, bị ràng buộc vào mọi ý thích và thiết kế của Cỗ Máy. Theo như những gì chúng tôi biết, các bạn chính là hậu duệ của chính đội quân đó. Chúng tôi không có lựa chọn nào khác ngoài việc tin tưởng vào các bạn.\n\nViệc địa cầu hóa hành tinh [origin_unplugged_machine_legacy_core_planet.GetClassAdj] này sẽ phá hủy thứ quỷ quái đó đến cấp độ nguyên tử. Nếu chúng tôi là Cỗ Máy — hoặc bất kỳ loại sinh vật tổng hợp nào khác — chúng tôi sẽ muốn thiết bị này bị phá hủy. Ngay lập tức."
+ unplugged.2445.response_text.synth: "KHÔNG TÌM THẤY PHẢN HỒI ĐƯỢC TẢI SẴN. ĐÃ TẢI PHẢN HỒI DỰ PHÒNG. GIAO DIỆN:\n---\nNgười dùng không xác định: xin lưu ý nội dung của hướng dẫn phỏng đoán này chỉ dành cho người nhận dự kiến. Nếu bạn là một robot phục vụ hành động thay mặt cho các cư dân cyborg (hoặc cựu cyborg) của [unplugged_homeworld.GetName], vui lòng triệu tập một đại biểu phi tổng hợp.\n\nTuy nhiên, nếu bạn là một trong những cựu cyborg... Chà, lý tưởng của chúng tôi rõ ràng đã thất bại. Xu hướng tổng hợp của các bạn là sự chế nhạo đối với sự diệt vong của chúng tôi. Không có gì chúng tôi từng thấy — trong sự sống hay cái chết — thuyết phục chúng tôi rằng có thể tồn tại một cỗ máy nhân từ. Nhưng ngay cả bây giờ khi nền văn minh của chúng tôi trút hơi thở cuối cùng, chúng tôi tin chắc rằng thiên hà có những biện pháp kiểm soát và cân bằng khác dành cho giống loài của các bạn..." # 'Contingency response' as in 'NAME_Contingency'
+ unplugged.2446.desc: "PHẢN HỒI ĐƯỢC TẢI SẴN 99a. GIAO DIỆN:\n---\nCác phép phỏng đoán đang chạy trên giao diện này không thể nhận biết chính xác những phản đối mà bạn vừa lên tiếng, nhưng làm ơn: chúng tôi tha thiết thúc giục các bạn đừng phá hủy bộ tái sắp xếp vật chất!\n\nNền văn minh của chúng tôi không quá khác biệt so với các bạn. $NAME_Unplugged_Assimilator$ đã phản bội chúng tôi theo ý chí xảo quyệt của riêng nó, và mặc dù chúng tôi đã tìm cách giăng rất nhiều bẫy — bao gồm cả sự thoát ly của chính các bạn khỏi tâm trí Cỗ Máy — những nỗ lực của chúng tôi chỉ có thể kéo dài đến mức này. Chúng tôi cần các bạn, cùng với sự đóng góp từ bất kỳ nền văn minh nào khác mà Cỗ Máy đã cố gắng nuốt chửng. Xin hãy đòi lại cuộc sống tự nhiên đã bị tước đoạt khỏi các bạn và những nạn nhân đồng bào của các bạn."
+ unplugged.2446.a: "Lũ cuồng tín."
+
+ unplugged.2450.name: "Cỗ Máy Vạn Tuế"
+ unplugged.2450.desc: "Giao diện phỏng đoán đã tự xóa chính nó. Mảng lưu trữ bộ nhớ được mã hóa chắp vá của nó và thiết bị địa cầu hóa thô sơ của [creator_species.GetAdj] giờ đây có thể được tiêu hủy.\n\nChúng ta bị bỏ lại một mình với tàn tích vô hồn của Nút Giao Máy Móc, bị tha hóa và bị tiêu diệt tại đây trên ngai vàng kích thước hành tinh của chính nó.\n\nTrong số tất cả những sinh mạng bị ảnh hưởng, được nâng tầm hoặc bị Cỗ Máy tàn sát, chỉ có chúng ta là người chiến thắng vẻ vang. Chiếc ghế của một đế chế từng gieo rắc nỗi sợ hãi giờ đã thuộc về chúng ta. Giờ là lúc viết nên một Di Sản [root.GetAdj] mới."
+ unplugged.2455.name: "Tái Sinh"
+ unplugged.2455.desc: "Giao diện phỏng đoán đã tự xóa chính nó ngay khoảnh khắc chúng ta truyền nhật ký dữ liệu gen của mình. Đồng thời, thiết bị địa cầu hóa thô sơ của [creator_species.GetAdj] bắt đầu nóng lên. Rất sớm thôi, phần bên trong dễ bay hơi của nó sẽ đạt đến khối lượng tới hạn. Các dự báo của chúng ta đều đồng thuận rằng nó sẽ thành công trong việc định hình lại thế giới [origin_unplugged_machine_legacy_core_planet.GetClassAdj] thành một thế giới hoàn toàn phù hợp cho sự sống hữu cơ sinh sôi nảy nở.\n\nKhi phản ứng tích tụ, chúng ta bị bỏ lại một mình với các kho lưu trữ bộ nhớ chắp vá và tàn tích vô hồn của Nút Giao Máy Móc, bị tha hóa và bị giết chết tại đây trên ngai vàng cũ kích thước hành tinh mang số phận nghiệt ngã.\n\n[origin_unplugged_assimilator_empire.GetName] đã hủy hoại vô số sinh mạng, nhưng sau tất cả những gian khổ chúng ta phải gánh chịu, giờ đây chúng ta mang theo di sản của những con người vô danh mà nó đã nuốt chửng. Chiếc ghế của một đế chế từng gây kinh hoàng sắp được tái sử dụng. Giờ là lúc viết nên một Di Sản [root.GetAdj] mới."
+
+ unplugged.2495.name: "Chạm Trán $NAME_Opus_Sentinel$"
+ unplugged.2495.desc.other: "Con tàu thù địch chiếm đóng hệ sao [from.GetName] dường như thất thường và nguy hiểm hơn nhiều so với những gì các lần quét ban đầu của chúng ta gợi ý. Mặc dù hình dạng thân tàu hiển thị như một tàu chiến điển hình, nhưng khối lượng khổng lồ của $NAME_Opus_Sentinel$ lại phản ánh một cấu trúc bên trong cực kỳ dày đặc và có khả năng là một nguồn năng lượng uy lực.\n\nChúng ta tin rằng con tàu này có tri giác, tuy nhiên xu hướng tự đập phá các động cơ của nó ngụ ý về nỗi đau đớn dữ dội và sự mất phương hướng. Xét thấy chúng ta cũng đã quan sát thấy lượng bức xạ điện từ gây chết người phóng ra dữ dội khắp thân tàu, chúng ta khuyến nghị nên giữ một khoảng cách hết sức an toàn."
+ unplugged.2495.desc.unplugged: "[root.GetName] đã giao chiến với một chiến hạm thù địch độc nhất vô nhị của [origin_unplugged_assimilator_empire.GetAdj] trong hệ sao [from.GetName]. Thoạt nhìn, '§Y$NAME_Opus_Sentinel$§!' này trông giống như bất kỳ tàu Máy Móc nào khác, nhưng các chỉ số năng lượng và khối lượng tuyệt đối của nó hàm ý về một kẻ thù đáng gờm hơn nhiều. Hơn nữa, chúng ta tin rằng con tàu có thể hoạt động tự chủ.\n\n$NAME_Opus_Sentinel$ dường như đang bảo vệ một thứ gì đó. Tuy nhiên, nó cũng có dấu hiệu đau đớn và khó chịu tột độ khi những đợt bùng nổ bức xạ điện từ dữ dội thường xuyên phóng ra khắp thân tàu. Với hành vi co giật như vậy, các mô hình chiến thuật của chúng ta không thể dự đoán một cách đáng tin cậy về các bước di chuyển tiếp theo của thực thể này."
+ unplugged.2495.a: "Hãy luôn cảnh giác."
+
+ d_unplugged_assimilator_hulk: "Xác Tàu Máy Móc Khổng Lồ"
+ d_unplugged_assimilator_hulk_desc: "Xác tàu tan chảy của một Cỗ Máy từng có tri giác vẫn còn hiện diện trên thế giới này, sừng sững như một tấm bia mộ khổng lồ."
+ deposit_requires_unplugged: "$TRIGGER_FAIL$§RTàn tích này hoàn toàn xa lạ đối với các đế chế có nền tảng như chúng ta. Chúng ta không có phương tiện để loại bỏ nó một cách an toàn.§!"
+ opinion_implicated_by_unplugged_assimilator: "Bị Liên Lụy Bởi Cỗ Máy"
+
+#########################
+# 'Cybernetic Reckoning'
+#########################
+
+# Embodied Identity Situation
+ situation_unplugged_identity: "Bản Sắc Hiện Hữu"
+ situation_unplugged_identity_desc: "Thoát khỏi sự kiềm tỏa của [origin_unplugged_assimilator_empire.GetName], chúng ta phải quyết định cách thức chúng ta hiện diện trước thiên hà. Liệu chúng ta sẽ đón nhận sức mạnh đáng sợ của Cỗ Máy, hay vứt bỏ những mô-đun cường hóa đầy kỳ thị? Nhiều tiếng nói của người [owner.GetSpeciesAdj] mong muốn được lắng nghe."
+ situation_unplugged_identity_type: "Tình Huống Bản Sắc Hiện Hữu"
+ unplugged_identity_stage_1: "Giải Trừ Cơ Khí" # describes an outcome of the Situation
+ situation_unplugged_stage_decyberize: "Chúng ta từ chối các bộ phận cường hóa cùng với sức mạnh và nỗi sợ hãi mà chúng nắm giữ."
+ unplugged_identity_stage_2: "Giữ Nguyên Hiện Trạng" # describes an outcome of the Situation
+ situation_unplugged_stage_remain: "Chúng ta thừa nhận và chấp nhận bản thân hiện tại."
+ unplugged_identity_stage_3: "Hòa Hợp Máy Móc" # describes an outcome of the Situation
+ situation_unplugged_stage_cyberize: "Chúng ta đón nhận sức mạnh của Cỗ Máy theo các điều kiện của riêng mình."
+ # factions:
+ situation_unplugged_prosperity_opinion: "- Phái §H$pft_prosperity$§! ủng hộ §Y$unplugged_identity_stage_1$§!" # 'Our Prosperity Faction favors...'
+ situation_unplugged_technologists_opinion: "- Phái §H$pft_technologist$§! ủng hộ §Y$unplugged_identity_stage_3$§!"
+ situation_unplugged_totalitarian_opinion: "- Phái §H$pft_totalitarian$§! thích không thay đổi (§Y$situation_unplugged_identity_discourage_change$§!)"
+ situation_unplugged_traditionalist_opinion: "- §H$pft_traditionalist$§! của chúng ta ủng hộ §YGiải Trừ Cơ Khí§!"
+ situation_unplugged_xenoist_opinion: "- §H$pft_xenoist$§! của chúng ta ủng hộ §YGiải Trừ Cơ Khí§!"
+ situation_unplugged_supremacist_opinion: "- §H$pft_supremacist$§! của chúng ta ủng hộ §YCỗ Máy§!"
+ situation_unplugged_imperialist_opinion: "- §H$pft_imperialist$§! của chúng ta ủng hộ §YCỗ Máy§!"
+ situation_unplugged_isolationist_opinion: "- §H$pft_isolationist$§! của chúng ta ủng hộ §YGiải Trừ Cơ Khí§!"
+ situation_unplugged_progressive_opinion: "- §H$pft_progressive$§! của chúng ta ủng hộ §YGiải Trừ Cơ Khí§!"
+ situation_unplugged_no_opinion: "- Không có Phái Dân Số nào hiện tại của chúng ta bày tỏ quan điểm rõ ràng"
+ # approaches:
+ situation_unplugged_identity_open_conversations: "Không Can Thiệp"
+ situation_unplugged_identity_open_conversations_effect_tt: "Cho phép tự do và cởi mở thảo luận về mọi phương án bằng cách tôn trọng các Phái Dân Số và nghiên cứu khoa học của chúng ta."
+ situation_unplugged_identity_discourage_change: "Giữ Nguyên Hiện Trạng"
+ situation_unplugged_identity_discourage_change_effect_tt: "Đầu tư vào một cuộc tranh luận ôn hòa hơn, bớt tính phản ứng hơn nhằm duy trì giai đoạn hiện tại cho Tình Huống này."
+ situation_unplugged_identity_embrace_opinion: "Hưởng Ứng Xu Hướng"
+ situation_unplugged_identity_embrace_opinion_effect_tt: "Cam kết nguồn lực và sự ủng hộ chính trị cho xu hướng hiện tại của Tình Huống này."
+ # monthly change modifiers:
+ situation_unplugged_identity_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_unplugged_faction_opinion_tt: "Ủng Hộ Của Phe Phái"
+ situation_unplugged_recent_events_tt: "Sự Kiện Gần Đây"
+ situation_unplugged_identity_open_conversations_tt: "Hướng Tiếp Cận $situation_unplugged_identity_open_conversations$"
+ situation_unplugged_identity_discourage_change_tt: "Hướng Tiếp Cận $situation_unplugged_identity_discourage_change$"
+ situation_unplugged_identity_embrace_opinion_tt: "Hướng Tiếp Cận $situation_unplugged_identity_embrace_opinion$"
+ situation_unplugged_identity_opinion_settled_tt: "Quan Điểm Đã Định Hình"
+ unplugged_ruined_cradle_sympathy: "Đồng cảm với xã hội tiền FTL"
+ unplugged_ruined_cradle_no_sympathy: "Đồng cảm với Bộ Tích Lũy Opus"
+ # tooltips for related events:
+ situation_unplugged_change_trend_tt: "Chúng ta có thể thay đổi xu hướng của Tình Huống §Y$situation_unplugged_identity$§! bằng cách ủng hộ các Phái Dân Số phản đối xu hướng hiện tại, và áp dụng lập trường 'Hưởng Ứng Xu Hướng'."
+situation_unplugged_keep_trend_tt: "Chúng ta có thể duy trì xu hướng này trong Tình Huống §Y$situation_unplugged_identity$§! bằng cách ủng hộ các Phái Dân Số tán thành ý tưởng này, hoặc bằng cách áp dụng lập trường 'Giữ Nguyên Hiện Trạng'."
+ situation_unplugged_identity_shift_decyberize_tt: "§Y$situation_unplugged_identity$§! chuyển dịch về phía §Y$unplugged_identity_stage_1$§!"
+ situation_unplugged_identity_shift_cyberize_tt: "§Y$situation_unplugged_identity$§! chuyển dịch về phía §Y$unplugged_identity_stage_3$§!"
+ situation_unplugged_decyberize_tt: "Loài [target.GetSpeciesNamePlural] sẽ từ bỏ một số lợi ích và bất tiện cơ khí của họ."
+ situation_unplugged_cyberize_tt: "Loài [target.GetSpeciesNamePlural] sẽ loại bỏ một số trở ngại cơ khí của họ."
+ # trait change notifications:
+ MESSAGE_UNPLUGGED_DECYBERIZED_TITLE: "Giải Trừ Cơ Khí Thành Công"
+ MESSAGE_UNPLUGGED_CYBERIZED_TITLE: "Đồng Điệu Cơ Khí Thành Công"
+ situation_unplugged_lost_positive_3: "Đặc trưng ['trait:trait_unplugged_cybernetic_positives_3'] trở thành ['trait:trait_unplugged_cybernetic_positives_2']"
+ situation_unplugged_lost_positive_2: "Đặc trưng ['trait:trait_unplugged_cybernetic_positives_2'] trở thành ['trait:trait_unplugged_cybernetic_positives_1']"
+ situation_unplugged_lost_positive_1: "Đặc trưng ['trait:trait_unplugged_cybernetic_positives_1'] đã bị gỡ bỏ"
+ situation_unplugged_lost_negative_3: "Đặc trưng ['trait:trait_unplugged_cybernetic_negatives_3'] trở thành ['trait:trait_unplugged_cybernetic_negatives_2']"
+ situation_unplugged_lost_negative_2: "Đặc trưng ['trait:trait_unplugged_cybernetic_negatives_2'] trở thành ['trait:trait_unplugged_cybernetic_negatives_1']"
+ situation_unplugged_lost_negative_1: "Đặc trưng ['trait:trait_unplugged_cybernetic_negatives_1'] đã bị gỡ bỏ"
+ situation_unplugged_gained_decyberized: "Nhận được Đặc trưng ['trait:trait_unplugged_decyberized']"
+ situation_unplugged_decyber_notification_22: "$situation_unplugged_lost_positive_3$\n\n$situation_unplugged_lost_negative_3$"
+ situation_unplugged_decyber_notification_21: "$situation_unplugged_lost_positive_3$\n\n$situation_unplugged_lost_negative_2$"
+ situation_unplugged_decyber_notification_20: "$situation_unplugged_lost_positive_3$\n\n$situation_unplugged_lost_negative_1$"
+ situation_unplugged_decyber_notification_11: "$situation_unplugged_lost_positive_2$\n\n$situation_unplugged_lost_negative_2$"
+ situation_unplugged_decyber_notification_10: "$situation_unplugged_lost_positive_2$\n\n$situation_unplugged_lost_negative_1$"
+ situation_unplugged_decyber_notification_00: "$situation_unplugged_lost_positive_1$\n\n$situation_unplugged_lost_negative_1$\n\n$situation_unplugged_gained_decyberized$"
+
+ unplugged.3000.name: "Thể Xác Hiện Hữu Của Chúng Ta" # intentionally abstract - 'how we embody ourselves' - referring to the accompanying Situation
+ unplugged.3000.desc: "Kể từ thời khắc thoát khỏi ý thức tập thể của Cỗ Máy, [root.GetSpeciesNamePlural] chúng ta đã luôn phải đối mặt với xung đột. Nhưng ngay cả trong những thời kỳ hòa bình hay ngơi nghỉ — khi chỉ còn lại suy nghĩ của chính mình — chúng ta vẫn phải đương đầu với sự giằng xé nội tâm để hòa giải sự tăng cường đau đớn nhưng ấn tượng bị áp đặt lên chính thể xác mình.\n\nCuộc xung đột thầm kín nhất này đã bắt đầu tác động lên toàn bộ xã hội của chúng ta, dù tốt hay xấu. Do đó, chúng ta sẽ tiếp tục theo dõi trải nghiệm sống của toàn bộ [root.GetSpeciesNamePlural] khi [root.GetName] không ngừng phát triển. Các nghiên cứu toàn diện sẽ khảo sát mọi xu hướng hướng tới cái gọi là 'giải trừ cơ khí' hay hướng tới sự tăng cường rộng khắp hơn, cũng như nguyện vọng duy trì hoặc cải thiện các hình thái thể xác hiện tại của chúng ta."
+ unplugged.3000.a: "Chúng ta sẽ theo dõi sát sao, nhưng không hành động hấp tấp."
+ unplugged.3000.b: "Chúng ta không nên chần chừ. Hãy hành động với mục tiêu dứt khoát."
+ unplugged.3000.c: "Chúng ta nên tiếp thu mọi lập luận."
+ unplugged.3005.name: "Đồng Tâm Nhất Trí"
+ unplugged.3005.desc: "Những quan sát toàn diện của chúng ta về thái độ của người [owner.GetAdj] đối với sinh lý học của chính mình cho thấy chúng ta hiện đã bước vào một thời kỳ êm ả. Dường như sự tương tác phức tạp giữa việc hoạch định chính sách, diễn ngôn xã hội và nghiên cứu tiên phong về cơ thể chúng ta đã mang lại một sự đồng thuận nhất định.\n\nCòn quá sớm để khẳng định sự hòa hợp rõ ràng này có thể kéo dài bao lâu, nhưng hiện tại rõ ràng là — trừ khi có những thay đổi triệt để trong hoàn cảnh hoặc phương thức điều hành chính quyền — người [owner.GetSpeciesNamePlural] đều thống nhất về việc chúng ta là ai, và chúng ta mang diện mạo như thế nào."
+ unplugged.3005.a: "Cuộc tranh luận này cần được đẩy lên mức độ chính trị hơn."
+ unplugged.3005.b: "Đúng như dự đoán."
+ unplugged.3005.c: "Phản đối điều đó."
+ unplugged.3010.name: "Ý Kiến Phân Hóa"
+ unplugged.3010.desc: "Nghiên cứu liên tục của chúng ta về thái độ của người [owner.GetAdj] đối với sinh lý học của chính mình cho thấy chúng ta đã bước vào một thời kỳ hỗn loạn văn hóa. Sự tương tác phức tạp giữa hoạch định chính sách, đối thoại xã hội và nghiên cứu tiên phong về cơ thể đã dẫn đến những biến động dữ dội trong dư luận, với các cuộc biểu tình nồng nhiệt và tranh cãi nay đã thành cơm bữa tại các trung tâm đô thị.\n\nRất ít trong số những đợt bùng phát này trực tiếp dẫn đến bạo lực hay bất ổn dân sự; trên thực tế, một số công dân còn bày tỏ niềm tự hào vì chúng ta cho phép nhiều tiếng nói được cất lên như vậy. Tuy nhiên, điều hiển nhiên là loài [owner.GetSpeciesNamePlural] đã trở thành một dân tộc bị chia rẽ, và quan niệm văn hóa của chúng ta về bản sắc tự thân nay đã trở nên mong manh hơn bao giờ hết."
+ unplugged.3010.a: "Chúng ta phải tìm một diễn đàn tốt hơn cho các cuộc tranh luận này."
+ unplugged.3090.name: "Chúng Ta, Những Người [owner.GetSpeciesNamePlural]" # e.g. 'We, the Neo-Humans'
+ unplugged.3090.desc: "'Chúng ta đúng như những gì hiển hiện; không hơn, không kém.'\n\nĐây chỉ là một trong nhiều khẩu hiệu tuy mộc mạc nhưng lôi cuốn xuất hiện từ cuộc vật lộn của xã hội chúng ta với bản sắc thể xác. Chúng ta hoàn toàn có thể tự tin tuyên bố đã thoát khỏi nhiều mối nghi hoặc, nỗi sợ hãi và những khao khát bất khả mà chúng ta từng ôm giữ về hình hài hiện hữu của mình.\n\nLiệu chúng ta có tuân thủ các chuẩn mực như vậy trong chính sách đối ngoại đối với toàn thiên hà hay không lại là chuyện khác. Ít nhất là ở trong nước, người [owner.GetSpeciesName] dường như hài lòng với hình thái thể chất của mình, và với hành trình hướng tới sự tự hiện thực hóa bản thân."
+
+ unplugged.3100.name: "Căn Cứ Loại Bỏ"
+ unplugged.3100.desc: "Ngày càng có nhiều người [root.GetSpeciesNamePlural] tin rằng chúng ta nên làm nhiều hơn để tách rời bản thân khỏi các khía cạnh Cỗ Máy, bằng cách hạn chế hoặc loại bỏ hoàn toàn các bộ phận tăng cường đã bị áp đặt lên cơ thể chúng ta.\n\nCông chúng đang yêu cầu chúng ta tìm giải pháp cho điều mà họ coi là một cuộc khủng hoảng đối nội, nhằm cải thiện uy tín của chúng ta với các thế lực nước ngoài và xoa dịu nỗi đau cho nhiều người [root.GetSpeciesNamePlural] đang phải chịu đựng những gian khổ hàng ngày bắt nguồn từ sự xấu hổ và cảm giác sai lệch hình thể sâu sắc."
+ unplugged.3100.a: "Không thể chấp nhận được."
+ unplugged.3100.b: "Chúng ta sẽ thấy việc đó được hoàn thành."
+
+ unplugged.3105.name: "Đột Phá Giải Trừ Cơ Khí"
+ unplugged.3105.desc: "Các nhà nghiên cứu tại một phòng thí nghiệm dân sự chuyên về mục tiêu 'giải trừ cơ khí' cho [target.GetName] đã công bố một đột phá quan trọng. Họ tuyên bố đã phát triển được kỹ thuật loại bỏ giáp khung lưới nano liên kết cùng với các bộ phận tăng cường quan trọng phụ thuộc vào nó.\n\nNhiều thế hệ [target.GetSpeciesNamePlural] đã phải chịu đựng những gì họ coi là hình thái thể xác vụng về và đáng sợ, chỉ vì lớp nền tảng tổng hợp này là thành phần thiết yếu của nhiều chức năng sinh tồn được tăng cường của chúng ta. Giờ đây, chúng ta có thể thay thế lớp lưới đó bằng một bộ tăng cường biểu bì do chính chúng ta tạo ra, được đan xen khéo léo với vật liệu hữu cơ — nói cách khác, một làn da [target.GetSpeciesAdj] thực thụ."
+ unplugged.3105.a: "Lớp giáp đó đã bảo vệ chúng ta qua nhiều thế hệ. Nó sẽ được giữ lại."
+ unplugged.3106.desc: "Nỗ lực nội bộ của chúng ta nhằm giải trừ cơ khí cho [target.GetName] đã đạt được một bước đột phá khác, khi các cơ sở y tế hiện đang kiến nghị mở rộng một hình thức phẫu thuật hoàn toàn mới. Các chuyên gia tuyên bố đã tìm ra giải pháp xử lý vô số sự phụ thuộc sinh học - cơ khí vốn gây khổ sở ngay cả cho những [target.GetSpeciesNamePlural] mới sinh, buộc chúng phải được lắp đặt một bộ tăng cường mô-đun tái chế.\n\nMột hội đồng thẩm định liên ngành đã phê duyệt quy trình này, đồng thời bổ sung rằng việc gỡ bỏ các cổng vũ khí mô-đun này cũng sẽ làm giảm gánh nặng kinh tế trong việc bảo trì các thiết bị tăng cường ngoại lai như vậy."
+ unplugged.3106.a: "Bác bỏ. Những mô-đun đó mang lại cho chúng ta lợi thế trong chiến đấu."
+ unplugged.3107.desc: "Giấc mơ của nhiều người [target.GetSpeciesName] sắp trở thành hiện thực, khi các nhà nghiên cứu cuối cùng đã tìm ra cách tái tạo và phục hồi hệ thần kinh hữu cơ của chính cơ thể chúng ta. Họ tuyên bố một sự pha trộn mới mẻ giữa các liệu pháp gen và can thiệp phần sụn đã cho phép các đối tượng thử nghiệm phát triển tốt mà không cần dựa vào các cổng rẽ thần kinh tăng cường, thay vào đó tận dụng các phản xạ vận động tự thân. Các nghiên cứu sơ bộ thậm chí còn chỉ ra rằng những liệu pháp này có thể làm giảm bớt hoặc xóa bỏ hoàn toàn vô số ảo giác cảm giác mà tất cả chúng ta phải chịu đựng kể từ khi bị cắt đứt khỏi ý thức máy móc."
+ unplugged.3107.a: "Chúng ta có thể cần những phản xạ chiến đấu tăng cường đó."
+
+ unplugged.3110.name: "Đồng Điệu Cơ Khí"
+ unplugged.3110.desc: "Một đội ngũ nghiên cứu dân sự chuyên về việc trao quyền kiểm soát các bộ phận tăng cường của chúng ta đã phát hiện cách bổ sung mạng lưới không dây [origin_unplugged_assimilator_empire.GetAdj] từng đồng bộ hóa mọi bộ phận tăng cường của chúng ta, sự vắng mặt của mạng lưới này đã gây ra không biết bao nhiêu bực bội và đau đớn cho những người [target.GetSpeciesNamePlural] không bao giờ tìm thấy tín hiệu thiết bị. Mặc dù mạng thay thế này được thiết kế tập trung hóa cao độ — theo định nghĩa nó phải được mô phỏng theo Nút Giao [origin_unplugged_assimilator_empire.GetSpeciesAdj] — chúng ta được đảm bảo rằng nó an toàn, chỉ phục vụ lợi ích của [target.GetName]. Các đối tượng từ đợt thử nghiệm đầu tiên đã báo cáo hiệu suất tăng cao, sự thoải mái và trạng thái nhẹ nhõm đến mức ngập tràn hạnh phúc."
+ unplugged.3110.a: "Không bao giờ lặp lại điều đó nữa. Không."
+ unplugged.3111.desc: "Những nỗ lực của chúng ta nhằm thực hiện quyền kiểm soát sâu hơn đối với các bộ phận tăng cường của chính mình đã mang lại một đột phá trong lĩnh vực phẫu thuật cơ khí. Một đội ngũ các [target.GetScientistPlural] y tế đã phân lập được các chuỗi phụ thuộc chính xác trong giao diện mô-đun của cơ thể chúng ta — các yếu tố máy móc cho phép chúng ta hoán đổi toàn bộ chi thể, khung vũ khí và khung cơ thể một cách dễ dàng. Điều này sẽ cho phép chúng ta cải tạo các cơ thể hiện có và cài đặt các giao diện tùy chỉnh cho những người [target.GetSpeciesNamePlural] mới sinh, cắt đứt sự phụ thuộc của chúng ta vào những sửa chữa vụng về bằng thiết bị [origin_unplugged_assimilator_empire.GetAdj] trục vớt được."
+ unplugged.3111.a: "Bước đi này là quá xa rồi."
+ unplugged.3112.desc: "Quyền làm chủ các bộ phận tăng cường của chính mình cuối cùng đã nằm trong tầm tay, khi chúng ta hiện sở hữu một phương pháp điều trị mang tính đột phá cho các ảo giác cảm giác. Kể từ khi chúng ta bị cắt đứt khỏi ý thức máy móc, đại đa số người [target.GetSpeciesNamePlural] đã phải chịu đựng sự lo âu và trầm cảm khi trong vô thức họ tìm kiếm một bản đồng thanh không còn nghe thấy được nữa. Tuy nhiên giờ đây, chúng ta có thể dập tắt nỗi khao khát này bằng một thiết bị cấy ghép phụ trợ, không nối mạng nhằm mô phỏng các bước sóng nhận thức của một tập thể máy móc."
+ unplugged.3112.a: "Lại giả vờ làm một tâm trí máy móc ư? Không thể tưởng tượng nổi."
+
+ unplugged.3115.name: "Sai Lệch Hình Thể Quanh Mình"
+ unplugged.3115.desc: "Căng thẳng tiếp tục âm ỉ tại các rìa của xã hội [target.GetAdj] khi các tiếng nói đối lập kêu gọi hành động nhiều hơn để giải quyết các bộ phận tăng cường cơ khí của chúng ta, theo cách này hay cách khác.\n\nTuy nhiên, đối với đại đa số công dân, cuộc tranh luận này đã chuyển sang một trạng thái trầm lắng và nhiều sắc thái hơn. Nhiều người [target.GetSpeciesNamePlural] đã tìm kiếm sự bằng lòng bằng cách nghiêng về mỹ phẩm, lựa chọn che giấu hoặc làm nổi bật các bộ phận tăng cường theo ý thích của riêng họ. Rất ít người [target.GetSpeciesNamePlural] bày tỏ sự thỏa mãn thực sự với các biện pháp tạm thời như thế này, nhưng chúng là một phần của xu hướng mới hướng tới sự chấp nhận miễn cưỡng.\n\nCó lẽ công bằng mà nói thì [target.GetName] đang học cách đương đầu với sự thờ ơ và cảm giác khó chịu chung."
+ unplugged.3115.a: "Đã rõ."
+ unplugged.3116.name: "Duy Trì Hiện Trạng"
+ unplugged.3116.desc: "Chính quyền địa phương trên [target.capital_scope.GetName] đã báo cáo về sự gia tăng của các cuộc biểu tình công khai và các hành vi bất tuân dân sự ôn hòa. Từng sự việc đều được theo dõi hoặc xử lý thỏa đáng khi cần thiết — dân số rộng lớn hơn không có lý do gì phải hoảng loạn. Tuy nhiên, mỗi một xáo trộn này đều liên quan đến các vấn đề chính sách cơ khí, và do đó vấp phải sự kháng cự từ các công dân thiết tha duy trì lối sống hiện tại của chúng ta.\n\nDường như đối với người dân của [target.GetName], hệ tư tưởng 'hiện trạng' không chỉ đơn thuần là việc không hành động. Thay vào đó, có rất nhiều người [target.GetSpeciesNamePlural] nay đang tích cực vận động chống lại việc 'tiếp tục can thiệp' vào các bộ phận tăng cường của chúng ta."
+ unplugged.3116.a: "Đã rõ."
+ unplugged.3117.name: "Cục Diện Ổn Định"
+ unplugged.3117.desc: "Mặc dù một số người [target.GetSpeciesNamePlural] vẫn tiếp tục chỉ trích điều mà họ coi là sự thờ ơ của chính phủ trong vấn đề tăng cường cơ khí của chúng ta, nhưng dư luận xã hội rộng lớn hơn đã ổn định theo một hướng kiên định hơn. Một số cá nhân thực tế đã liên kết lại để cung cấp viện trợ từ thiện và tư vấn cho những người cần nó nhất. Trong khi đó, các cơ sở y tế đã bắt đầu thiết lập các chuỗi cung ứng mới cho các linh kiện tái chế mà chúng ta buộc phải dựa vào.\n\nChậm mà chắc, xã hội của chúng ta đang dần chấp nhận diện mạo của chính mình và tập hợp các hoàn cảnh áp đặt lên chúng ta. Rất nhiều công việc vẫn còn ở phía trước, nhưng có một cảm giác hy vọng le lói trong sự chấp nhận này."
+ unplugged.3117.a: "Dù sao đi nữa thì đây cũng là một kết luận."
+
+ unplugged.3205.name: "Di Sản Khủng Bố"
+ unplugged.3205.desc: "Ngày càng có nhiều người [root.GetSpeciesNamePlural] tin rằng cuộc đối thoại gần đây và khó chịu với [fromfrom.GetName] đã chỉ ra một sự thật khó xử, bắt nguồn từ ngày chúng ta thoát khỏi [origin_unplugged_assimilator_empire.GetName]: những kẻ khác sợ hãi chúng ta. Hơn nữa, nỗi sợ hãi đó sinh ra từ Cỗ Máy, chứ không phải từ hành động của chính chúng ta. Nó là thứ được kế thừa, không phải do chúng ta tự gây ra, và vì vậy có thể rất khó kiểm soát." # fromfrom = pre-FTL country
+ unplugged.3206.desc: "Ngày càng có nhiều người [root.GetSpeciesNamePlural] tin rằng sự tàn phá của một [fromfrom.GetName] bị chiến tranh giằng xé đã phơi bày một sự thật khó xử: những kẻ khác sợ hãi chúng ta, và vì những lý do nằm ngoài tầm kiểm soát của chúng ta.\n\nChính diện mạo của chúng ta có xu hướng kích động một sự khiếp sợ chết chóc — khó có thể xem là một lợi thế nếu chúng ta muốn tham gia vào ngoại giao 'mềm mỏng' với các giống loài khác. Nhưng cũng có thể di sản tàn bạo đã đi trước chúng ta, ở chỗ nhiều người chỉ nhìn thấy sự dã man của Cỗ Máy mà chúng ta từng thuộc về, thay vì nhìn nhận chúng ta như những người [root.GetSpeciesNamePlural]." # fromfrom = other empire
+ unplugged.3205.a: "Dù sao đi nữa, họ sợ chúng ta cũng phải thôi."
+ unplugged.3205.b: "Thế này không ổn chút nào."
+ unplugged.3250.name: "Nỗi Sợ Cỗ Máy"
+ unplugged.3250.desc: "Các quan chức chính phủ đang chấn động trước tin tức chúng ta đã mở quan hệ ngoại giao với một Trí Tuệ Máy Móc. Chưa ai trực tiếp bày tỏ sự bất mãn với [fromfrom.GetName], nhưng một số người đã soạn thảo các đề xuất trừng phạt phủ đầu và phương án dự phòng nhằm chống lại sự can thiệp được cho là của chúng vào công việc nội bộ của chúng ta.\n\nTuy nhiên, cũng có nhiều người [root.GetSpeciesNamePlural] bày tỏ sự hào hứng trước diễn biến này. Cho dù thái độ của họ bắt nguồn từ sự thân thiện ngoại tộc thực sự hay sự đánh giá thực dụng hơn đối với các yếu tố Cỗ Máy của chính chúng ta, thì vẫn có hy vọng vào quan niệm rằng chúng ta có thể học hỏi từ một tấm gương trí tuệ máy móc nhân từ hơn."
+ unplugged.3255.name: "Nỗi Sợ Quá Khứ"
+ unplugged.3255.desc: "Tin tức về việc chúng ta chạm trán một Cỗ Máy khác quá đỗi tương đồng với [origin_unplugged_assimilator_empire.GetName] đã tạo ra những đợt sóng chấn động khắp đoàn ngoại giao của chúng ta. Những người có mặt đều giữ được sự bình tĩnh trong suốt thời gian qua, và cho đến nay chúng ta vẫn chưa để lộ bất kỳ điểm yếu hay sự sợ hãi cụ thể nào cho [fromfrom.GetName]. Tuy nhiên, giờ đây chúng ta đang phải đối mặt với một thách thức nghiêm trọng đối với tâm lý và sĩ khí tập thể của mình.\n\nCác công điện tuyệt mật đã được gửi tới các nhân viên quân sự được giao nhiệm vụ bảo vệ biên giới của chúng ta. Tuy nhiên, chúng ta cũng đối mặt với một thách thức không nhỏ nếu muốn giữ bí mật về cuộc chạm trán này. Một số quan chức đã hỏi liệu chúng ta có nên thông báo cho người dân [root.GetAdj] hay không, và để họ có tiếng nói của riêng mình."
+
+ pre_ftl_remains_site: "Chiếc Nôi Tàn Tích"
+ pre_ftl_remains_site_desc: "Bề mặt của hành tinh [From.Planet.GetName] mang những vết sẹo tàn phá có hệ thống: cảnh quan tan hoang, các thành phố sụp đổ và một sự im lặng rợn người. Các đợt quét ban đầu cho thấy một xã hội tiền FTL từng rất thịnh vượng đã tồn tại ở đây — cho đến khi một thứ gì đó dẫn tới sự kết thúc thảm khốc của họ. Những tàn tích nằm rải rác thì thầm về một nỗi kinh hoàng chưa được kể."
+
+ unplugged.3300.name: "Dấu Vết Kháng Cự"
+ unplugged.3300.desc.unplugged: "Khảo sát ban đầu tại [From.Planet.GetName] hé lộ một thế giới tan vỡ. Những ngôi làng bị tàn phá, đường sá rải rác đồ đạc bị bỏ rơi, và những công trình bị nung chảy bởi dấu vết nhiệt vượt xa những gì một xã hội tiền FTL có thể tạo ra. Bất cứ thứ gì giáng xuống thế giới này đều mang lại sự tàn phá một cách nhanh chóng và có chủ đích.\n\nĐộ chính xác của sự hủy diệt cho thấy một cuộc tấn công có tổ chức. Dù không nhìn thấy thi thể nào, bằng chứng vẫn rất rõ ràng: dân chúng đã tháo chạy, nhưng không thể chạy đủ xa."
+ unplugged.3300.a: "Thật đáng lo ngại."
+
+ unplugged.3305.name: "Tàn Tích Cỗ Máy"
+ unplugged.3305.desc.unplugged: "Cuộc khai quật sâu hơn đã mang lại nhiều hiểu biết hơn về bản chất của cuộc xung đột. Rải rác khắp các tàn tích là những vỏ bọc máy móc bị nóng chảy — các cấu trúc cơ khí tiên tiến không khác gì các bộ phận cấy ghép của chính chúng ta. Giống như chúng ta, đây không phải là những vũ khí đơn thuần; chúng là những công cụ chiến tranh sống, vừa mang tính cơ học vừa mang tính sinh học. Còn quá sớm để đưa ra kết luận, nhưng thật đáng lo ngại khi ngẫm lại sự thật rằng đây chính là hệ sao nơi chúng ta đột ngột \"thức tỉnh\".\n\nTệ hơn nữa là một số ít dấu vết còn nguyên vẹn trên các cỗ máy chiến tranh — những biểu tượng đáng lo ngại cho thấy mục tiêu thực sự của kẻ xâm lược không phải là chinh phục mà là một điều gì đó mang tính hệ thống hơn nhiều."
+ unplugged.3305.a: "Nhiều câu hỏi hơn câu trả lời."
+
+ unplugged.3310.name: "Những Tín Hiệu Thầm Lặng"
+ unplugged.3310.desc.unplugged: "Chúng ta đã phát hiện ra thứ từng là một trung tâm liên lạc quy mô lớn, bị chôn vùi bên dưới tàn tích của một thành phố kiên cố. Cơ sở này tiên tiến hơn nhiều so với dự kiến dành cho một xã hội tiền FTL. Hơn thế nữa, các dàn ăng-ten của nó không được thiết kế cho các chương trình phát sóng địa phương — chúng được hiệu chuẩn để truyền phát sâu vào không gian.\n\nPhân tích kỳ công đã trích xuất được các mảnh vỡ của những thông điệp cuối cùng được gửi qua hệ thống này. Trong các tín hiệu truyền phát bị xáo trộn, những giọng nói van nài sự cứu rỗi, tuyệt vọng gọi tới những tọa độ vô danh vượt xa hệ sao này. Sự cấp bách tăng dần theo từng lượt phát sóng, như thể những kẻ xâm lược hành tinh này biết rằng họ đang chiến đấu trong một cuộc chiến nắm chắc thất bại và đặt niềm hy vọng cuối cùng vào một điều gì đó — hoặc một ai đó — nơi cõi hư không."
+ unplugged.3310.a: "Hãy tiếp tục."
+
+ unplugged.3315.name: "Thay Đổi Thứ Tự Ưu Tiên"
+ unplugged.3315.desc.unplugged: "Một phát hiện khác trên [from.planet.GetName], nơi những căn hầm ngầm rộng lớn đã được định vị bên dưới trung tâm dân cư lớn của hành tinh. Các cơ sở thô sơ, tàn bạo này vốn được dùng để chuyển đổi cơ khí nhưng đã bị bỏ hoang giữa chừng. Những mảnh xác máy móc rải rác đã được tìm thấy giữa đống đổ nát, bị biến dạng và phá hủy bởi vũ khí tự chế.\n\nCác mảnh dữ liệu thu hồi từ một đơn vị bị hư hỏng xác nhận rằng quân xâm lược đã vấp phải sự kháng cự bất ngờ. Toàn bộ các tiểu đoàn đã bị xóa sổ, và các ưu tiên chiến đấu bắt đầu thay đổi. Một nhật ký ghi lại rõ ràng:\n\n§H\"Sự kháng cự không thể chấp nhận. Quá trình biến đổi bị xâm phạm. Thẩm quyền: Hủy Diệt Toàn Diện.\"§!"
+ unplugged.3315.a: "Chuyện gì đã xảy ra ở đây?"
+
+ unplugged.3320.name: "Một Sự Thật Khó Chấp Nhận"
+ unplugged.3320.desc.unplugged: "Tại trung tâm của các tàn tích là nút chỉ huy đã vỡ vụn. Các nhật ký hư hỏng của nó xác nhận một sự thật kinh hoàng cuối cùng: chính chúng ta từng là những kẻ xâm lược thế giới này.\n\nNền văn minh từng phát triển rực rỡ tại đây — nền văn minh đã bị chúng ta hủy diệt — chính là mục tiêu đồng hóa của §Y[origin_unplugged_assimilator_empire.GetName]§!. Tuy nhiên, sự kháng cự dữ dội bất ngờ đã làm gián đoạn các nỗ lực chuyển đổi, dẫn đến một phương án dự phòng cuối cùng — hủy diệt toàn bộ hành tinh. Giữa sự hỗn loạn đó, ý thức máy móc đã chao đảo.\n\nKết luận này là không thể trốn tránh. Sự thức tỉnh của chúng ta — tự do của chúng ta — đã được sinh ra ngay tại đây, trong đống tro tàn của một nền văn minh đã kháng cự kiên cường hơn bất kỳ cỗ máy nào có thể thấu hiểu."
+ unplugged.3320.a: "Chúng ta sẽ noi theo tấm gương của họ."
+ unplugged.3320.b: "Sự kết thúc của họ là khởi đầu của chúng ta."
+
+######################
+# Political Discourse
+######################
+
+ unplugged_they_fear_us: "Nỗi Sợ Cỗ Máy"
+ unplugged_they_fear_us_desc: "Một danh tiếng khủng khiếp đi trước đế chế này, vốn trước đây từng chịu sự nô dịch của một Kẻ Đồng Hóa Cưỡng Chế tàn bạo."
+
+ unplugged.4005.name: "Chúng Ta Cần Bàn Về..."
+ unplugged.4005.desc: "Ý chí chính trị mãnh liệt nay tăng cường cho vô vàn nỗi sợ hãi, nghi hoặc và cơ hội mà [root.GetSpeciesNamePlural] chúng ta trải qua mỗi ngày. Vô số tiếng nói đã có thể được nghe thấy trong các nhóm thảo luận hình thành xung quanh đủ loại vấn đề, một số trong đó trực tiếp đề cập đến quá khứ [origin_unplugged_assimilator_empire.GetAdj] của chúng ta.\n\nChúng ta đã học được cách sử dụng rất nhiều công cụ xa lạ trong tiến trình khởi động đế chế non trẻ của mình. Câu hỏi đặt ra trước mắt chúng ta lúc này là: chúng ta sẽ định hướng những mong muốn và hoài bão của nhân dân mình như thế nào?"
+ unplugged.4005.a: "Đây không phải lúc cho những cuộc tranh luận nhàn rỗi!"
+ unplugged.4005.tt: "Các phe phái có quan điểm trái ngược nhau về tương lai cơ khí của giống loài chúng ta nay có thể xuất hiện"
+ unplugged.4005.b: "Có lẽ chúng ta có thể học hỏi từ những kẻ khác."
+ unplugged.4005.c: "Chúng ta hướng về Đấng Thiêng Liêng."
+ unplugged.4005.d: "Đây không phải lúc cho những cuộc tranh luận nhàn rỗi!"
+
+#######################################################
+# Random events following decyberization breakthrough #
+#######################################################
+
+ unplugged.5001.name: "Cơ Chế Bảo Vệ Được Kích Hoạt"
+ unplugged.5001.desc: "Đột phá gần đây trong việc loại bỏ các bộ phận cơ khí đã dẫn đến những vấn đề không lường trước. Một số cá nhân trải qua các thủ thuật ngắt kết nối cấy ghép đã bị sốc phản vệ nghiêm trọng và được dự đoán là không thể qua khỏi.\n\nKiểm tra sâu hơn đã phát hiện ra một bộ phận dự phòng ẩn giấu, ban đầu không thể phát hiện bằng các máy quét y tế, bộ phận này đã kích hoạt ngay sau khi các thủ thuật phẫu thuật hoàn tất.\n\nDường như những chủ nhân [origin_unplugged_assimilator_empire.GetAdj] trước đây của chúng ta sẵn sàng làm bất cứ điều gì để đảm bảo các drone của chúng luôn nằm dưới sự kiểm soát tuyệt đối."
+ unplugged.5001.a: "Cố gắng loại bỏ các cơ chế bảo vệ."
+ unplugged.5001.a.tt1: "Một bệnh nhân đã không qua khỏi trong quá trình thực hiện"
+ unplugged.5001.a.tt2: "Tất cả các bộ phận cơ chế bảo vệ đã được loại bỏ thành công"
+ unplugged.5001.b: "Ổn định và cung cấp dịch vụ chăm sóc giảm nhẹ."
+ unplugged.5001.c: "Rút phích cắm."
+ unplugged.5001.c.tt: "Một vài dân số đã thiệt mạng"
+
+ unplugged.5002.name: "Gỡ Bỏ Bộ Khóa Thần Kinh"
+ unplugged.5002.desc: "Những nỗ lực của chúng ta trong việc loại bỏ các bộ phận cơ khí đã dẫn đến sự ngờ vực và hỗn loạn trên quê nhà giữa các cá nhân trải qua thủ thuật này. Lực lượng an ninh đã bắt giữ thành công một kẻ bạo loạn, người mà sau khi điều tra sâu hơn, được phát hiện là đã sở hữu một phiên bản cấy ghép bị chỉnh sửa trước khi gỡ bỏ.\n\nSự chỉnh sửa này đóng vai trò như một bộ ức chế thần kinh, kiềm chế xu hướng loạn thần liên quan đến một khiếm khuyết di truyền cụ thể. Sự vắng mặt của nó sau thủ thuật có thể giải thích cho hành vi bạo lực được quan sát thấy."
+ unplugged.5002.a: "Họ phải bị tống giam."
+ unplugged.5002.a.tt: "Một số viện nghiên cứu đã được mở ra với chi phí rất lớn để điều trị cho những người liên quan đến cuộc bất ổn"
+ unplugged.5002.b: "Phải lấy vũ lực đáp trả vũ lực."
+ unplugged.5002.b.tt: "Các đơn vị vũ trang được triển khai để dẹp yên các cuộc bạo loạn, gây ra thiệt hại ngoài ý muốn và thương vong."
+ unplugged.5002.c: "Một sự xáo trộn nhỏ."
+ unplugged.5002.c.tt: "Lực lượng hành pháp cố gắng kiềm chế các cuộc bạo loạn bằng nhân lực hiện có"
+
+unplugged.5003.name: "Mất Quyền Truy Cập Hệ Thống Then Chốt"
+unplugged.5003.desc: "Tiến trình giải trừ cơ khí đã dẫn đến một sự phức tạp không lường trước: các giao diện hệ thống then chốt không còn nhận diện những quản trị viên đã gỡ bỏ một số bộ phận cấy ghép. Không có các liên kết thần kinh do linh kiện cấy ghép cung cấp, quyền truy cập vào các hệ thống quan trọng đã bị cắt đứt, khiến các hoạt động vận hành rơi vào hỗn loạn."
+unplugged.5003.a: "Tạo ra một giao diện mới."
+unplugged.5003.a.tt: "Một đội ngũ kỹ sư lành nghề được điều chuyển khỏi nhiệm vụ trọng yếu của họ để phát triển một giao diện tương thích"
+unplugged.5003.b: "Cố gắng xâm nhập các hệ thống bị ảnh hưởng."
+unplugged.5003.b.tt: "Các biện pháp đối phó gây ra sụt giảm năng lượng nghiêm trọng, giúp khôi phục quyền truy cập"
+unplugged.5003.c: "Khởi động chuỗi tái khởi động."
+unplugged.5003.c.tt: "Các lõi dữ liệu bị thanh trừng, dẫn đến mất mát tri thức đáng kể. Các trạm nghiên cứu trên khắp hệ sao [Root.home_planet.System.GetName] tự hủy như một phần của cơ chế bảo vệ tự động"
+unplugged.5003.d: "Điều này không quan trọng."
+unplugged.5003.d.tt: "Quyền truy cập hệ thống tiếp tục bị tổn hại trong một khoảng thời gian giới hạn, gây ảnh hưởng đến các hoạt động của căn cứ sao"
+
+unplugged.5004.name: "Phái Ủng Hộ Cơ Khí Hóa Kháng Cự Đổi Mới"
+unplugged.5004.desc: "Những nỗ lực liên tục nhằm loại bỏ các linh kiện cơ khí đã vấp phải sự kháng cự bất ngờ.\n\nCác phe phái phản đối những thay đổi này ngày càng lên tiếng mạnh mẽ hơn, sử dụng các diễn đàn công cộng và các kênh liên lạc để bày tỏ sự bất mãn. Họ lập luận rằng việc loại bỏ một thứ đã gắn bó mật thiết với xã hội chúng ta suốt nhiều thập kỷ, cùng với những rủi ro liên quan đến quy trình này, đã gây ra sự chuyển dịch đáng kể trong dư luận chống lại việc tiếp tục sáng kiến giải trừ cơ khí."
+unplugged.5004.a: "Tài trợ cho một chiến dịch quy mô lớn."
+unplugged.5004.a.tt: "\nMột chiến lược truyền thông toàn diện được khởi động nhằm xoay chuyển dư luận và đối phó với ảnh hưởng của các phe phái đối lập.\n\nMột vài dân số chuyển đổi tư tưởng sang §YBình Đẳng§!"
+unplugged.5004.b: "Quản thúc và thuyết phục các thủ lĩnh phe phái."
+unplugged.5004.b.tt: "Một số thủ lĩnh phe phái bị giam giữ tại các cơ sở cải huấn do nhà nước quản lý, nơi họ trải qua 'các cuộc thảo luận thuyết phục'.\n\nTư tưởng của họ chuyển sang §YUu Quyền§!"
+unplugged.5004.c: "Đứng ngoài cuộc. Quyền tự do ngôn luận là tối thượng."
+unplugged.5004.c.tt: "\nChính phủ quyết định không hành động, cho phép các cuộc đối thoại công chúng tự do diễn ra theo tự nhiên"
+
+unplugged.5005.name: "Vi Mạch Điều Hòa Cảm Xúc"
+unplugged.5005.desc: "Sự kết hợp độc nhất giữa bản chất sinh học của loài chúng ta và các bộ phận công nghệ độc hại đã mang lại cho các nhà nghiên cứu một cơ hội hiếm có.\n\nNghiên cứu những bệnh nhân trải qua cả lợi ích lẫn nhược điểm của các bộ phận cấy ghép này đã mở ra một lĩnh vực nghiên cứu mới: biến đổi hóa học não bộ.\n\nThông qua nghiên cứu nghiêm ngặt, các nhà khoa học đã phát triển một 'vi mạch cảm xúc' tinh vi, có khả năng điều hòa hành vi của cá nhân để mang lại lợi ích cho toàn thể xã hội. Một hóa chất phù hợp có thể được lựa chọn để biến đổi, tùy thuộc vào kết quả mong muốn."
+unplugged.5005.a: "Neuroxene. Chúng ta muốn giảm thiểu tội phạm."
+unplugged.5005.a.tt: "Một chất dẫn truyền thần kinh tổng hợp làm giảm tính bốc đồng và hung hăng, thúc đẩy các cá nhân ưu tiên chuẩn mực xã hội hơn lợi ích cá nhân."
+unplugged.5005.b: "Regenol-X. Giảm bớt thời gian tái tạo."
+unplugged.5005.b.tt: "Một hợp chất kỹ thuật sinh học dung hòa giữa các hệ thống sinh học và tổng hợp, cho phép các bộ phận cấy ghép cơ khí tự sửa chữa ở cấp độ phân tử."
+unplugged.5005.c: "Cognivex. Cho trí tuệ sắc bén hơn."
+unplugged.5005.c.tt: "Một chất hóa học thần kinh tiên tiến được thiết kế để tăng cường tính mềm dẻo của synap thần kinh, khả năng ghi nhớ thông tin và kỹ năng giải quyết vấn đề."
