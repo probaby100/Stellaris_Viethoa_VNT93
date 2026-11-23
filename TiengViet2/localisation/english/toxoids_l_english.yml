@@ -613,7 +613,7 @@
  job_bath_attendant_hive:0 "Drone Phục Vụ Tái Cấu Trúc"
  mod_job_bath_attendant_hive_add:0 "Nghề $job_bath_attendant_hive$"
  job_bath_attendant_hive_plural:0 "Các Drone Phục Vụ Tái Cấu Trúc"
- job_bath_attendant_hive_desc:0 "Các Drone chuyên biệt, được nuôi cấy với mục đích duy nhất là giám sát Quá Trình Tái Cấu Trúc trong khi tạo ra các drone sinh học mới cho tổ ong."
+ job_bath_attendant_hive_desc:0 "Các Drone chuyên biệt, được nuôi cấy với mục đích duy nhất là giám sát Quá Trình Tái Cấu Trúc trong khi tạo ra các drone sinh học mới cho bầy đàn."
  spawning_drone_is_mutagenic_tt: "£job_spawning_drone£ Drone Sinh Sản được chuyển đổi thành £job_bath_attendant_hive£ $job_bath_attendant_hive_plural$"
 
  planet_bath_attendants_machine:0 "Thiết Bị Đầu Cuối Bôi Trơn"
@@ -635,7 +635,7 @@
  job_overlord_bath_attendant_hive:0 "Drone Phục Vụ Tái Cấu Trúc Tông Chủ"
  job_overlord_bath_attendant_machine:0 "Thiết Bị Đầu Cuối Bôi Trơn Tông Chủ"
  job_overlord_bath_attendant_desc:0 "Các nhân viên được đào tạo cho Bể Suối Biến Dị. Mục đích sống của họ là bảo đảm sức khỏe liên tục cho khách hàng thông qua nhiều dịch vụ đa dạng, bao gồm giải độc cực đoan và thoái hóa kiểu gen có kiểm soát."
- job_overlord_bath_attendant_hive_desc:0 "Các Drone chuyên biệt, được nuôi cấy với mục đích duy nhất là giám sát Quá Trình Tái Cấu Trúc trong khi tạo ra các drone sinh học mới cho tổ ong."
+ job_overlord_bath_attendant_hive_desc:0 "Các Drone chuyên biệt, được nuôi cấy với mục đích duy nhất là giám sát Quá Trình Tái Cấu Trúc trong khi tạo ra các drone sinh học mới cho bầy đàn."
  job_overlord_bath_attendant_machine_desc:0 "Thiết Bị Đầu Cuối Bôi Trơn là các drone được lập trình đặc biệt, giám sát quá trình sản xuất vỏ máy mới ngập trong chất bôi trơn, theo dõi sát sao điều kiện dầu bôi trơn trong suốt quy trình."
 
  job_overlord_toxic_baths_effect_desc:1 "£job_bath_attendant£ Nhân Viên Suối Biến Dị biến £consumer_goods£ §YHàng Tiêu Dùng§! thành £pop£ §YTăng Trưởng Dân Số§! nhưng làm giảm £happiness£ §RHạnh Phúc§! và £planet£ §RĐộ Thích Nghi§!."

@@ -49,8 +49,8 @@
 
 # Void Hive
 
- civic_void_hive: "Tổ Ong Hư Không"
- civic_void_hive_desc: "Ý thức bầy đàn này biến khoảng không vũ trụ thành một phần lãnh thổ của mình. Những con ong thợ tiến hóa đặc biệt có thể trải qua toàn bộ vòng đời mà không cần tiến vào bầu khí quyển của hành tinh."
+ civic_void_hive: "Bầy Đàn Hư Không"
+ civic_void_hive_desc: "Ý thức bầy đàn này biến khoảng không vũ trụ thành một phần lãnh thổ của mình. Những con cá thể thợ tiến hóa đặc biệt có thể trải qua toàn bộ vòng đời mà không cần tiến vào bầu khí quyển của hành tinh."
  civic_tooltip_void_hive_effects: "- Cứ mỗi bốn tháng, tự động xây dựng §YTrạm Khai Thác§! và §YTrạm Nghiên Cứu§! trên một mỏ tài nguyên ngẫu nhiên chưa khai thác trong hệ sao ta sở hữu.\n- Thiếu công nghệ khai thác tài nguyên tương ứng sẽ giảm §R-75%§! sản lượng.\n- Trực tiếp xây dựng §YTrạm Khai Thác§! và §YTrạm Nghiên Cứu§! sẽ tốn thêm chi phí xây dựng là §R10§! $r_unity$."
  reduce_gas_output: "Khai thác $exotic_gases$ kém hiệu quả"
  reduce_gas_output_desc: "Chúng ta đang khai thác $exotic_gases$ trong tình trạng thiếu công nghệ cần thiết."

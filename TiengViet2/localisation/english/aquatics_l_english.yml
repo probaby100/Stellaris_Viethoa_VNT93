@@ -178,7 +178,7 @@
 
  ap_hydrocentric:0 "Trọng Tâm Thủy Quyển"
  ap_hydrocentric_desc:0 "Chúng ta sẽ không còn bằng lòng với những nơi ở thay thế \"tạm bợ\" cho chốn đại dương của mình nữa: chúng ta sẽ định hình toàn bộ thế giới để biến chúng thành những thiên đường ngập nước hoàn mỹ."
- ap_hydrocentric_tooltip:3 "Mở khóa các Quyết định §Y$decision_expand_planetary_sea$§! và §Y$decision_flood_habitat$§!\n$t$- Yêu cầu một §Y$sm_ice_mining_station$§! được xây dựng trên một Căn Cứ Sao trong hệ sao\nKhuếch đại hiệu ứng của các đặc tính §Y$trait_aquatic$§! và §Y$trait_robot_aquatic$§!:\n    - $worker_and_simple_drone_cat_bonus_workforce_mult$ trên các thế giới §YĐại Dương§!: Thêm §G+10%§!\n    - Sử dụng Nhà ở trên các thế giới §YĐại Dương§!: Thêm §G-5%§!\n    - Khả năng sinh sống trên các thế giới không phải §YẨm Ướt§!: Thêm §R-10%§!\n    - Sử dụng Nhà ở trên các thế giới không phải §YẨm Ướt§!: Thêm §R+15%§!\n\nChi phí và thời gian cải tạo địa hình thành §YThế Giới Đại Dương§!: §G-25%§!"
+ ap_hydrocentric_tooltip:3 "Cho phép xây dựng §YTrạm Khai Thác Băng§! trên các căn cứ sao, giúp mở khóa quyết định §Y$decision_expand_planetary_sea$§! trên các thế giới §YĐại Dương§! và quyết định §Y$decision_flood_habitat$§! trên các §YTrạm Cư Trú§!.\nCác loài mang đặc tính §Y$trait_aquatic$§! hoặc §Y$trait_robot_aquatic$§! nhận thêm 50% lợi ích khi sinh sống trên các thế giới §YĐại Dương§!, nhưng các hình phạt khi sống trên những thế giới không thuộc nhóm §YẨm Ướt§! cũng bị khuếch đại tương ứng."
  ap_hydrocentric_deluge_tooltip:0 "Mở khóa Vũ Khí Pháo Đài Hủy Diệt Hành Tinh (Colossus) §YĐại Hồng Thủy§!."
  ap_hydrocentric_deluge_pre_unlock_tooltip:0 "Mở khóa Vũ Khí Pháo Đài Hủy Diệt Hành Tinh (Colossus) §YĐại Hồng Thủy§! §R(yêu cầu Đặc quyền Thăng hoa §Y$ap_colossus$§!)§!."
 
@@ -213,7 +213,7 @@
  decision_expand_planetary_sea:0 "Mở Rộng Biển Cả Hành Tinh"
  decision_expand_planetary_sea_desc:0 "Biển cả là nhà của chúng ta - và nhà thì không bao giờ là đủ rộng. Mạng lưới khai thác băng của chúng ta sẽ mang các khối băng khổng lồ đến [This.GetName], cho phép chúng ta mở rộng các đại dương và gia tăng kích thước hành tinh."
  decision_expand_planetary_sea_tooltip:0 "Băng sẽ được thu hoạch từ một hệ sao có §Y$sm_ice_mining_station$§! trên căn cứ sao và được chuyển tới hành tinh này.\nTăng kích thước hành tinh thêm §G+1§! và thêm §G+1§! ô Quận Nông nghiệp và Quận Năng lượng tối đa."
- requires_free_ice_mining_station:0 "$TRIGGER_FAIL$§RRequires an available §Y$sm_ice_mining_station$§!§!"
+ requires_free_ice_mining_station:0 "$TRIGGER_FAIL$§RYêu cầu có sẵn một §Y$sm_ice_mining_station$§! khả dụng§!"
  requires_max_3_times_pass_simple:0 "$TRIGGER_PASS$Có thể ban hành tối đa §Y3§! lần cho mỗi hành tinh"
  requires_max_3_times_fail_simple:0 "$TRIGGER_FAIL$Có thể ban hành tối đa §Y3§! lần cho mỗi hành tinh"
  requires_max_3_times_ice_dumping:0 "$TRIGGER_PASS$Có thể ban hành tối đa §Y3§! lần cho mỗi hành tinh (hiện tại: §Y[This.ice_dumping_happened]§!)"
@@ -231,7 +231,7 @@
 
  decision_flood_habitat:0 "Làm Ngập Môi Trường Sống"
  decision_flood_habitat_desc:0 "Các môi trường sống có thể là nơi lý tưởng cho chúng ta - giá như có đủ nước. Mạng lưới khai thác băng của chúng ta sẽ vận chuyển băng đến [This.GetName], cho phép chúng ta làm ngập môi trường sống."
- decision_flood_habitat_tooltip:0 "Băng sẽ được thu hoạch từ một hệ sao có một §Y$sm_ice_mining_station$§! trên căn cứ sao và được chuyển đến hành tinh này.\nÁp dụng bộ điều chỉnh hành tinh §Y$flooded_habitat$§!."
+ decision_flood_habitat_tooltip:0 "Độ Thích Nghi: §R-20%§!\nĐược tính là một thế giới §YĐại Dương§! đối với các loài §YThủy Tộc§!.\nBăng sẽ được thu hoạch từ một hệ sao có §Y$sm_ice_mining_station$§! trên căn cứ sao."
  flooded_habitat:0 "Môi Trường Sống Bị Làm Ngập"
  flooded_habitat_desc:0 "Môi trường sống này đã được bơm đầy nước, mô phỏng hoàn hảo môi trường tự nhiên của các loài Thủy Tộc."
  flooded_habitat_tooltip:0 "Khả năng sinh sống: §R-20%§!\nĐược coi là một thế giới §YĐại Dương§! đối với các loài §YThủy Tộc§!."

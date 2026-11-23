@@ -131,8 +131,8 @@
  consecrated_worlds_entry: "Hệ sao §Y[This.Solar_System.GetName]§!\n"
  allow_machine_worlds:3 "— §YMở khóa tùy chọn cải tạo môi trường:§! ['concept_pc_machine']\n— §YMở khóa chuyên môn hóa khu vực £zone£:§! $zone_machine_replication$"
  describe_machine_worlds:7 "— Thay thế §Ykhu vực nông thôn £district£§! bằng §Ykhu vực trung tâm £district£§!\n— Tăng lượng nhà ở và vị trí làm việc từ mọi §Ykhu vực £district£§!\n— §RPhần lớn giống loài hữu cơ không thể sinh sống§!"
- allow_hive_worlds:1 "§HMở khóa tùy chọn cải tạo môi trường:§! Thế giới tổ ong\n§HMở khóa đặc khu thế giới tổ ong:§! £zone£$zone_spawning$"
- describe_hive_worlds:1 "Không thể sinh sống đối với các loài không thuộc bầy đàn.\nKhông giới hạn số lượng khu vực §YTổ ong £district£§!\nNhân đôi số lượng nhà ở và vị trí làm việc từ mọi §Ykhu vực £district£§!\nSản lượng tài nguyên từ dân số £pop£: §G+10%§!\n§RSẽ phá hủy toàn bộ khu vực nông thôn§!"
+ allow_hive_worlds:1 "§HMở khóa tùy chọn cải tạo môi trường:§! Thế giới Bầy đàn\n§HMở khóa đặc khu thế giới bầy đàn:§! £zone£$zone_spawning$"
+ describe_hive_worlds:1 "Không thể sinh sống đối với các loài không thuộc bầy đàn.\nKhông giới hạn số lượng khu vực §YBầy đàn £district£§!\nNhân đôi số lượng nhà ở và vị trí làm việc từ mọi §Ykhu vực £district£§!\nSản lượng tài nguyên từ dân số £pop£: §G+10%§!\n§RSẽ phá hủy toàn bộ khu vực nông thôn§!"
 
  ALLOW_PSI_CORPS:1 "Mở khóa công trình: ['building:building_psi_corps']"
  ALLOW_PSI_ARMIES:0 "Hiện có thể chiêu mộ §H$psionic_army_plural$§!."
@@ -181,7 +181,7 @@
  action.1.ad:0 "§ESự tồn tại thấp kém của các người không đe dọa được [Root.GetRulerTitle] của chúng tôi đâu.§!"
  action.1.ar:1 "§E[Root.GetRulerName] đại diện cho nhân dân [Root.GetAdj] nói chuyện với các người.§!"
 
- anomaly.168.d.tooltip:2 "Bắt đầu một cuộc phục hưng tôn giáo, sẽ khiến đạo đức của đế chế chuyển sang §YDuy tâm§!."
+ anomaly.168.d.tooltip:2 "Bắt đầu một cuộc phục hưng tôn giáo, sẽ khiến đạo đức của đế chế chuyển sang §YDuy linh§!."
  precursor.2200.desc.b:0 "Sau khi khảo sát thế giới vành đai khổng lồ ở hệ sao §Y[From.GetStarName]§!, chuyên viên khoa học §Y[Root.GetLeaderName]§! báo cáo rằng ngoài việc rất cổ xưa, cấu trúc thiết kế của nó rất giống với thế giới vành đai của chúng ta.\n\nChỉ có một điểm khác biệt then chốt —— một số kiến trúc của phân khu thế giới vành đai này sử dụng một nguồn tài nguyên mới mà chúng ta chưa biết đến. Báo cáo sơ bộ mô tả thứ này giống như một loại \"kim loại sống\". Dù sao đi nữa, chuyện này cần được nghiên cứu kỹ lưỡng hơn."
 
  requires_planets_for_material:0 "$TRIGGER_FAIL$Không thể xây trong hệ sao thiếu thiên thể làm nguyên vật liệu."
@@ -248,8 +248,8 @@
  trait_cybernetic:0 "Cơ khí hóa"
  trait_cybernetic_desc:0 "§LChủng tộc này đã trải qua quá trình cơ khí hóa, với phần lớn thành viên đã trở thành người máy sinh học. Họ định kỳ thay thế các mô hữu cơ của mình bằng các phiên bản máy móc tiên tiến hơn.§!\n"
  TRAIT_CYBORG_EFFECT: "Thay thế §Y50%§! chi phí duy trì $food_with_icon$ (hoặc tương đương) bằng chi phí duy trì $energy_with_icon$\n$t$- $MOD_POP_BONUS_WORKFORCE_MULT$: §G+10%§!"
- trait_latent_psionic:0 "Tiềm năng Linh năng"
- trait_latent_psionic_desc:0 "§LChủng tộc này sở hữu thiên phú linh năng tiềm tàng, tuy nhiên năng lực này vẫn còn ẩn giấu trong cơ thể của phần lớn thành viên. Dù rất hiếm gặp, nhưng khả năng này sẽ thể hiện rõ ở một số nhà lãnh đạo.§!\n"
+ trait_latent_psionic:0 "Tiềm năng Tâm linh"
+ trait_latent_psionic_desc:0 "§LChủng tộc này sở hữu thiên phú tâm linh tiềm tàng, tuy nhiên năng lực này vẫn còn ẩn giấu trong cơ thể của phần lớn thành viên. Dù rất hiếm gặp, nhưng khả năng này sẽ thể hiện rõ ở một số nhà lãnh đạo.§!\n"
 
  trait_cyborg_power_drills:0 "Mũi khoan Động lực"
  trait_cyborg_power_drills_desc:0 "§LNếu gắn mũi khoan cho người máy sinh học, thì cái gì trông cũng giống như quặng mỏ vậy.§!"
@@ -292,13 +292,13 @@
  trait_cyborg_power_intensive_desc:0 "§LNhững bộ phận cơ khí này cần được sạc thường xuyên từ nguồn điện bên ngoài.§!"
  TRAIT_POWER_INTENSIVE_EFFECT:0 "Tăng chi phí duy trì $r_energy$ thêm §R+1§!"
 
- trait_psionic:0 "Linh năng"
+ trait_psionic:0 "Tâm linh"
  trait_psionic_desc: "[This.GetPsionicTraitDesc]"
  trait_self_modified:0 "Tự Biến đổi"
  trait_self_modified_desc:0 "§LCác cá thể của phân loài này đã tự ý sửa đổi trình tự gen của bản thân với hy vọng mang lại cho chính họ một lợi thế nhất định nào đó.§!"
 
  leader_trait_shroud_age:0 "Kéo dài Tuổi thọ"
- leader_trait_shroud_age_desc: "Nguồn sức mạnh linh năng mạnh mẽ từ Cõi Màn Sương đã làm chậm tiến trình [GetAgingLoc] tự nhiên của [GetLeaderLoc] này."
+ leader_trait_shroud_age_desc: "Nguồn sức mạnh tâm linh mạnh mẽ từ Cõi Màn Sương đã làm chậm tiến trình [GetAgingLoc] tự nhiên của [GetLeaderLoc] này."
 
  leader_trait_reformer:0 "Nhà Cải cách"
  leader_trait_reformer_desc:0 "Vị lãnh đạo này là một nhà cải cách, tận tâm xây dựng một xã hội tương lai tốt đẹp hơn."
@@ -367,7 +367,7 @@
  utopia.2017.name:0 "Phân khu Thế Giới Vành Đai được sửa chữa"
  utopia.2017.desc:0 "Dựa trên tàn tích của thế giới vành đai ở hệ sao [From.GetName], các kỹ sư của chúng ta đã khôi phục thành công hoạt động của một phân khu của nó. Cấu trúc sinh thái của thế giới vành đai hoàn toàn mới này gần như được các nhà hành tinh học của chúng ta lên kế hoạch lại từ đầu, nhưng giờ nó đã đủ ổn định để có thể cư trú."
  anomaly.2576.name:0 "Kim loại mới"
- anomaly.2576.desc:0 "Sau khi thăm dò kỹ lưỡng bề mặt [From.GetName], chúng ta đã phát hiện ra một hố va chạm khổng lồ, bên trong rải rác một số mảnh vỡ của những xác tàu sao cổ đại không rõ nguồn gốc. Những con tàu này dường như hoàn toàn không được trang bị hệ thống hỗ trợ sự sống, chúng ta suy đoán chúng có thể là một loại máy bay không người lái khổng lồ hoặc do một dạng trí tuệ nhân tạo nào đó điều khiển.\n\nVật liệu vỏ của những con tàu này khá thú vị, được cấu tạo từ một vật liệu vô cơ cực kỳ quý hiếm gọi là §HKim loại Sống§!. Thuộc tính của vật liệu này đa dạng và độc đáo, có thể được \"lập trình\" thành một hình dạng cụ thể, và khi bị hỏng, có thể từ từ tự phục hồi. Hàng ngàn năm trôi qua, kim loại sống trên các con tàu dần tan chảy, tạo thành một mạch khoáng dày đặc khổng lồ, đủ cho chúng ta khai thác trong nhiều thế kỷ."
+ anomaly.2576.desc:0 "Sau khi thăm dò kỹ lưỡng bề mặt [From.GetName], chúng ta đã phát hiện ra một hố va chạm khổng lồ, bên trong rải rác một số mảnh vỡ của những xác tàu sao cổ đại không rõ nguồn gốc. Những con tàu này dường như hoàn toàn không được trang bị hệ thống hỗ trợ sự sống, chúng ta suy đoán chúng có thể là một loại thiết bị tự hành khổng lồ hoặc do một dạng trí tuệ nhân tạo nào đó điều khiển.\n\nVật liệu vỏ của những con tàu này khá thú vị, được cấu tạo từ một vật liệu vô cơ cực kỳ quý hiếm gọi là §HKim loại Sống§!. Thuộc tính của vật liệu này đa dạng và độc đáo, có thể được \"lập trình\" thành một hình dạng cụ thể, và khi bị hỏng, có thể từ từ tự phục hồi. Hàng ngàn năm trôi qua, kim loại sống trên các con tàu dần tan chảy, tạo thành một mạch khoáng dày đặc khổng lồ, đủ cho chúng ta khai thác trong nhiều thế kỷ."
  living_metal_category:0 "Hố va chạm kỳ lạ"
  living_metal_category_desc:0 "Chúng ta đã phát hiện ra một hố va chạm khổng lồ, nó có vẻ không phải được hình thành trong tự nhiên."
 

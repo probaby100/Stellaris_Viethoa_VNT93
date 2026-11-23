@@ -1647,8 +1647,8 @@
  civic_tooltip_machine_upkeep_twister_effects:2 "Thay thế §Y1§! phí duy trì Lãnh đạo bằng $r_unity$ cơ bản thành §Y2§! $r_energy$"
 
 
- civic_hive_upkeep_twister:0 "Ong thợ Tự trị"
- civic_hive_upkeep_twister_desc:1 "Những ong thợ chuyển hóa cao tiến hóa trong Tổ Đàn này sở hữu nhiều quyền tự quyết hơn. Dù cực kỳ nhạy bén trong việc ra quyết định và đánh giá tình hình, chúng lại đòi hỏi được nạp nhiều dưỡng chất dễ tiêu hóa hơn."
+ civic_hive_upkeep_twister:0 "Cá thể Thợ Tự trị"
+ civic_hive_upkeep_twister_desc:1 "Những cá thể thợ chuyển hóa cao tiến hóa trong Tổ Đàn này sở hữu nhiều quyền tự quyết hơn. Dù cực kỳ nhạy bén trong việc ra quyết định và đánh giá tình hình, chúng lại đòi hỏi được nạp nhiều dưỡng chất dễ tiêu hóa hơn."
  civic_tooltip_hive_upkeep_twister_effects:2 "Thay thế §Y1§! phí duy trì Lãnh đạo bằng $r_unity$ cơ bản thành §Y2§! $r_food$, $r_minerals$ hoặc §Y1§! $r_alloys$"
  civic_wilderness_upkeep_twister: "Cộng sinh thể Tự trị"
  civic_wilderness_upkeep_twister_desc: "Nơi vùng hoang dã này, một nhánh tiến hóa cộng sinh độc đáo và siêu việt đã hình thành. Chúng thăng tiến thành các thủ lĩnh với tốc độ chóng mặt, nhưng đổi lại cũng ngốn mức chuyển hóa duy trì cao hơn."

@@ -451,15 +451,15 @@ astral_rift.140.desc: "[Root.GetLeaderName] đã bất ngờ trở về sau cu�
  astral_rift_whiteout: "Xóa Trắng"
 
  astral_rift.700.name: "Cõi Xóa Trắng"
- astral_rift.700.desc: "Bên ngoài Khối Cầu, không có gì ngoài một màu trắng xóa hoàn toàn.\n\nCác kết quả đo đạc ban đầu chỉ ra rằng mọi màu sắc trên quang phổ đều đang oanh tạc chúng ta với cường độ bằng nhau từ mọi hướng cùng một lúc. Chúng ta hoàn toàn không có cách nào xác định phương hướng.\n\nCao độ kế, thước đo độ sâu và la bàn của chúng ta hoàn toàn bất động hoặc sai số rõ rệt. Nhìn bằng mắt thường, tuyệt nhiên không có bất kỳ điểm khác biệt nào trong khoảng trắng trống rỗng bao quanh chúng ta.\n\nCó lẽ nếu di chuyển đủ xa, chúng ta có thể thoát khỏi những nhiễu loạn này. Hoặc chúng ta có thể khám phá khu vực này chi tiết hơn với sự trợ giúp của một máy bay không người lái."
+ astral_rift.700.desc: "Bên ngoài Khối Cầu, không có gì ngoài một màu trắng xóa hoàn toàn.\n\nCác kết quả đo đạc ban đầu chỉ ra rằng mọi màu sắc trên quang phổ đều đang oanh tạc chúng ta với cường độ bằng nhau từ mọi hướng cùng một lúc. Chúng ta hoàn toàn không có cách nào xác định phương hướng.\n\nCao độ kế, thước đo độ sâu và la bàn của chúng ta hoàn toàn bất động hoặc sai số rõ rệt. Nhìn bằng mắt thường, tuyệt nhiên không có bất kỳ điểm khác biệt nào trong khoảng trắng trống rỗng bao quanh chúng ta.\n\nCó lẽ nếu di chuyển đủ xa, chúng ta có thể thoát khỏi những nhiễu loạn này. Hoặc chúng ta có thể khám phá khu vực này chi tiết hơn với sự trợ giúp của một thiết bị tự hành."
  astral_rift.700.a: "Tối đa hóa lực đẩy."
- astral_rift.700.b: "Phóng một máy bay không người lái."
+ astral_rift.700.b: "Phóng một thiết bị tự hành."
 
  astral_rift.705.name: "Bức Tường"
  astral_rift.705.desc: "Chúng ta đã lao đi theo một hướng ngẫu nhiên và bắt gặp một bức tường đen tuyền.\n\nĐiều hướng xung quanh chu vi của nó, chúng ta phát hiện nó tạo thành một hình tròn gần như hoàn hảo. Không có lối vào nào nhìn thấy được, nhưng thỉnh thoảng bề mặt của nó lại rung rinh nhè nhẹ, như thể nó là một sinh vật sống.\n\nNghiên cứu sâu hơn chỉ ra rằng bức tường này đang tăng dần đường kính theo thời gian. Chúng ta đang thực hiện các biện pháp phòng ngừa để duy trì khoảng cách an toàn, và sẵn sàng thu hồi cáp neo bất cứ lúc nào.\n\nChúng ta đang thu thập được một lượng đáng kể Sợi Tinh Giới trong khi tiếp tục quan sát."
 
  astral_rift.710.name: "Góc Nhìn Từ Trên Cao"
- astral_rift.710.desc: "Để có được một góc nhìn khác về tình thế hiện tại, chúng ta đã chuẩn bị và phóng một máy bay không người lái để do thám khu vực xung quanh. Sau khi bay quanh con tàu theo các vòng tròn đồng tâm, chúng ta phát hiện một bức tường cong màu đen cách vị trí của chúng ta không xa.\n\nTuy nhiên, các số đo khá khó hiểu, khi chiều cao của bức tường luôn trả về giá trị đúng bằng độ cao tuyệt đối của máy bay không người lái. Quan sát hiện tượng này đã giúp chúng ta hiểu sâu hơn về các chiều không gian phi tiêu chuẩn."
+ astral_rift.710.desc: "Để có được một góc nhìn khác về tình thế hiện tại, chúng ta đã chuẩn bị và phóng một thiết bị tự hành để do thám khu vực xung quanh. Sau khi bay quanh con tàu theo các vòng tròn đồng tâm, chúng ta phát hiện một bức tường cong màu đen cách vị trí của chúng ta không xa.\n\nTuy nhiên, các số đo khá khó hiểu, khi chiều cao của bức tường luôn trả về giá trị đúng bằng độ cao tuyệt đối của thiết bị tự hành. Quan sát hiện tượng này đã giúp chúng ta hiểu sâu hơn về các chiều không gian phi tiêu chuẩn."
 
  astral_rift.715.name: "Một Diễn Biến Mới"
  astral_rift.715.desc: "Có một diễn biến mới.\n\nMột loạt bức tường mới đã xuất hiện ngay trước mắt chúng ta.\n\nChúng ta đang duy trì một khoảng cách an toàn để tránh trường hợp một trong những vật thể này vật chất hóa xuyên thẳng qua §Y$tech_rift_sphere$§! của chúng ta.\n\nCó lẽ bằng cách lấy mẫu vật liệu của chúng, chúng ta có thể hiểu rõ hơn về tình hình hiện tại. Hoặc chúng ta có thể dành chút thời gian để lập bản đồ hình dạng của những bức tường này xem có quy luật nào không."
@@ -552,7 +552,7 @@ astral_rift.140.desc: "[Root.GetLeaderName] đã bất ngờ trở về sau cu�
 
  astral_rift.910.name: "Thử Nghiệm Mẫu Với Ngọn Lửa"
  astral_rift.910.desc.1: "Các nhà khoa học của chúng ta quyết định thử nghiệm phản ứng cháy của mẫu nhiên liệu thu được dưới điều kiện có kiểm soát."
- astral_rift.910.desc.default: "$astral_rift.910.desc.1$\n\n$astral_rift.910.desc.2$"
+ astral_rift.910.desc.default: "Một đề xuất đầy rủi ro, nhưng chúng ta đã tuân thủ mệnh lệnh từng chữ một.\n\nBất chấp sự phản đối của một số thuyền viên, chúng ta đã đưa mẫu vật tiếp xúc trực tiếp với ngọn lửa.\n\n$astral_rift.910.desc.1$"
  astral_rift.910.desc.gestalt: "Chúng ta đã cho mẫu vật tiếp xúc trực tiếp với ngọn lửa.\n\n$astral_rift.910.desc.1$"
 
  astral_rift.915.name: "Thảm Họa"
@@ -561,7 +561,7 @@ astral_rift.140.desc: "[Root.GetLeaderName] đã bất ngờ trở về sau cu�
 
  astral_rift.920.name: "Sâu Hơn Vào Bên Trong"
  astral_rift.920.desc.1: "Chúng ta hiện đang ở trong một khu vực hoàn toàn yên tĩnh.\n\n§Y$tech_rift_sphere$§! của chúng ta hầu như không bị ảnh hưởng bởi trọng lực ở đây, và hoàn toàn không có ma sát. Tương phản hoàn toàn với những gì chúng ta vừa trải qua, chúng ta đang trôi nổi bên trong một khoảng chân không hoàn toàn. Chúng ta đã tận dụng cơ hội này để thực hiện một số sửa chữa cần thiết cho những hư hại phải chịu bên trong cơn bão.\n\nBây giờ chúng ta có thể nhìn lại phía sau và thoải mái quan sát 'bức tường' bão, và đã làm như vậy suốt một ngày qua.\n\nĐó là một khối các hệ sao liên tục va chạm vào nhau... và trong một số trường hợp là toàn bộ các thiên hà. Chúng ta chắc chắn đang chứng kiến sự hủy diệt hàng loạt của các thiên thể trong cả một vũ trụ. Chúng xoay tròn, đâm sầm và phát nổ vào nhau - để lại những đám mây nguyên tố với kích thước khác nhau. Việc chúng ta sống sót qua thảm họa đó ắt hẳn phải nhờ vào một sự may mắn tột bậc.\n\nChúng ta không chắc cơn bão này đã hình thành từ bao lâu. Sự tồn tại của các hành tinh có kích thước đầy đủ chỉ ra rằng đây là một hiện tượng tương đối gần đây, vì nếu hiện tượng này tiếp diễn quá lâu thì sẽ chẳng còn lại gì ngoài cát bụi."
- astral_rift.920.desc.default: "$astral_rift.920.desc.1$\n\n$astral_rift.920.desc.2$"
+ astral_rift.920.desc.default: "Trước sự kinh ngạc tột độ của chúng ta, con tàu đã xuyên thủng được cơn bão.\n\n$astral_rift.920.desc.1$"
  astral_rift.920.desc.gestalt: "Chúng ta đã xuyên qua cơn bão.\n\n$astral_rift.920.desc.1$"
  astral_rift.920.a: "Quan sát trong im lặng."
 

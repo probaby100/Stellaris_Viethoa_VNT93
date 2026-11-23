@@ -825,7 +825,7 @@
  hegemony_federation:0 "Liên Bang Bá Quyền"
  hegemony_federation_desc:0 "Kiểu Liên bang này thường do một Đế chế hùng mạnh đứng đầu, cùng với nhiều quốc gia chư hầu vệ tinh bao quanh."
  spiritualist_federation:0 "Giao ước Thần thánh"
- spiritualist_federation_desc:1 "Liên bang này khuyến khích học thuật Duy tâm và tôn kính mọi sự tồn tại linh thiêng."
+ spiritualist_federation_desc:1 "Liên bang này khuyến khích học thuật Duy linh và tôn kính mọi sự tồn tại linh thiêng."
 
  # Perks
  federation_fleet_size_1:0 "Giao lưu Sĩ quan"
@@ -936,12 +936,12 @@
  spiritualist_federation_passive_tooltip:0 "$mod_country_unity_produces_mult$: §G+10%§!"
  spiritualist_envoys_1:0 "Đại biểu Thuyết phục"
  spiritualist_envoys_1_desc:0 "Đại biểu của chúng ta sẽ ngăn chặn những hành vi báng bổ thần thánh."
- spiritualist_envoys_1_effect:0 "§Y$official_plural_with_icon$§! được cử đến liên bang sẽ sản xuất thêm §G50%§! §YGắn Kết§! và làm tăng sức hấp dẫn của tư tưởng §YDuy tâm§! trên toàn đế chế thêm §Y20%§!."
+ spiritualist_envoys_1_effect:0 "§Y$official_plural_with_icon$§! được cử đến liên bang sẽ sản xuất thêm §G50%§! §YGắn Kết§! và làm tăng sức hấp dẫn của tư tưởng §YDuy linh§! trên toàn đế chế thêm §Y20%§!."
  culture_workers_1:0 "Thúc đẩy Văn hóa"
  culture_workers_1_desc:0 "Bản sắc văn hóa đa dạng chính là sức mạnh của chúng ta. Thúc đẩy văn hóa cũng chính là cách tuyệt vời nhất để nâng tầm sức mạnh của chính mình."
  culture_workers_1_effect:0 "$mod_planet_civilians_unity_produces_add$:§G+1§!\n[civilian.GetIcon][civilian.GetNamePlural] nhận được hiệu ứng bổ sung từ hệ tư tưởng của đế chế."
  president_spiritualist_1:0 "Truyền bá Thánh địa"
- president_spiritualist_1_desc:0 "Chỉ khi đưa nó vào Luật Thiên Hà, chúng ta mới có thể chắc chắn rằng lợi ích của những người theo chủ nghĩa Duy tâm sẽ được bảo vệ."
+ president_spiritualist_1_desc:0 "Chỉ khi đưa nó vào Luật Thiên Hà, chúng ta mới có thể chắc chắn rằng lợi ích của những người theo chủ nghĩa Duy linh sẽ được bảo vệ."
  unity_trade_1:0 "Ngân sách Giáo hội"
  unity_trade_1_desc:0 "Không có của cải, giáo đoàn không thể phát triển thịnh vượng. Chúng ta nên tận dụng sức mạnh của thương mại để giúp họ trở nên sung túc hơn, từ đó đưa chúng ta tiến gần hơn tới mục tiêu của linh hồn."
  unity_trade_1_effect:0 "Cho phép áp dụng chính sách thương mại §YKhế ước Thần thánh§!, chính sách này sẽ chuyển đổi §Y50%§! $r_trade$ thành $r_unity$."
@@ -959,7 +959,7 @@
  president_spiritualist_3_desc:0 "§MHư Không§! chính là tương lai. Chúng ta nhất định phải làm chủ được nó."
  make_spiritualist_1:0 "Đức tin Đồng nhất"
  make_spiritualist_1_desc:0 "Đức tin của chúng ta là cốt lõi của Khế ước Thần thánh. Sẽ không còn bất kỳ sự dung thứ nào cho những kẻ dị giáo: nếu muốn tiếp tục ở lại trong liên minh, mọi thành viên đều phải hoàn thành tốt bổn phận của mình."
- make_spiritualist_1_effect:0 "Công trình §YQuan liêu§! của các đế chế Không theo chủ nghĩa Duy tâm và phi Gestalt sẽ được thay thế bằng §YĐền thờ§!.\nĐế chế Duy tâm nhận được §G+1§! $r_unity$ $produced_per_pop_group_unit$ £job_priest£ §Y$job_priest_plural$§!.\nTốc độ lắp ráp dân số máy móc của tất cả các đế chế giảm §R30%§!, nhưng tốc độ tăng trưởng dân số hữu cơ tăng §G+15%§!."
+ make_spiritualist_1_effect:0 "Công trình §YQuan liêu§! của các đế chế Không theo chủ nghĩa Duy linh và phi Gestalt sẽ được thay thế bằng §YĐền thờ§!.\nĐế chế Duy linh nhận được §G+1§! $r_unity$ $produced_per_pop_group_unit$ £job_priest£ §Y$job_priest_plural$§!.\nTốc độ lắp ráp dân số máy móc của tất cả các đế chế giảm §R30%§!, nhưng tốc độ tăng trưởng dân số hữu cơ tăng §G+15%§!."
  zro_catalysis_1:0 "Xúc tác Zro"
  zro_catalysis_1_desc:0 "Zro là một nguồn tài nguyên vẫn chưa được khai thác triệt để. Những bộ óc lỗi lạc nhất của chúng ta đã tìm ra phương pháp tuyệt vời hơn để tận dụng nó."
  zro_catalysis_1_effect:0 "Mở khóa sắc lệnh §YXúc tác Zro§!, cho phép ta chuyển đổi £sr_zro£ §YZro§! thành phần thưởng gia tăng sản lượng tài nguyên."
@@ -1041,9 +1041,9 @@
  #Contextual factors
  federation_acceptance_generally_positive:0 "Nhìn chung là Ủng hộ"
  federation_acceptance_high_cohesion:0 "Gắn Kết Cực Cao"
- federation_acceptance_better_cohesion:0 "Gắn Kết dưới §G90%§!"
+ federation_acceptance_better_cohesion:0 "Độ Gắn Kết chưa đạt §G90§! trở lên"
  federation_acceptance_poor_cohesion:0 "Gắn Kết Quá Thấp"
- federation_acceptance_dont_lower_centralization:0 "Gắn Kết không thấp hơn §G50%§!"
+ federation_acceptance_dont_lower_centralization:0 "Độ Gắn Kết đạt từ §G50§! trở lên"
  federation_acceptance_president:0 "Là Chủ Tịch Liên Bang Liên bang"
  federation_acceptance_reduce_centralization:0 "Có ý định giảm mức độ tập quyền"
  federation_acceptance_reduce_fleet:0 "Có ý định giảm mức đóng góp hạm đội"
@@ -2689,7 +2689,7 @@
  START_SCREEN_SCION:1 "Vào những năm tháng đầu tiên trong lịch sử của chúng ta, khi công nghệ vẫn chưa có nhiều bước tiến phát triển, những vị ân nhân ngoại lai của chúng ta đã cho chúng ta biết về sự tồn tại của họ. Họ đã sử dụng một cách thức mà những bậc tiền bối đang trong tình trạng bối rối của chúng ta có thể hiểu được để giải thích cho chúng ta nghe, nói rằng tương lai của giống loài chúng ta là không có giới hạn. Với một sự kiên nhẫn to lớn, họ đã dẫn dắt chúng ta bước lên con đường đúng đắn, giúp cho nền văn minh của chúng ta có thể phát huy tối đa mọi tiềm năng của mình.\n\nĐã có một vài lần, chúng ta đi chệch khỏi con đường đúng đắn này, và họ đã sửa chữa lại hướng đi cho chúng ta - với một thái độ kiên quyết như những người giám hộ - rất nhanh sau đó, các nhà khoa học của chúng ta đã làm chủ được năng lượng điện, năng lượng nguyên tử, và tiếp theo là những chuyến du hành không gian sơ khai. Dưới sự dạy bảo ân cần của những người giám sát, giờ đây chúng ta đã chế tạo ra được chiếc [GetStartingDrive] đầu tiên của mình."
  START_SCREEN_SCION_NOMADS: "Từ rất lâu trước khi chúng ta biết đọc hiểu các vì sao, những ân chủ ngoại lai đã tìm thấy chúng ta—một tộc người du mục non trẻ, dũng khí có thừa nhưng tri thức lại hạn hẹp, đang lênh đênh trên những con tàu phương châu giữa màn đêm vô tận. Họ đã giải thích bằng cách mà những tổ tiên bối rối của chúng ta có thể thấu hiểu, rằng tương lai của giống loài chúng ta là vô hạn. Bằng sự kiên nhẫn vô bờ, họ dẫn dắt chúng ta đi đúng con đường, giúp nền văn minh của chúng ta khai phá trọn vẹn tiềm năng của mình.\n\nDù từng có vài lần chúng ta chệch khỏi con đường ấy—nhưng bằng sự kiên quyết của một người bảo hộ—chẳng mấy chốc, các kỹ sư của chúng ta đã học được cách trích xuất từ tàu phương châu nguồn năng lượng lớn hơn rất nhiều so với những gì tổ tiên từng tưởng tượng. Dưới sự ân cần chỉ bảo của những người giám sát, giờ đây chúng ta đã chế tạo thành công [GetStartingDrive] đầu tiên."
  origin_scion:0 "Hậu duệ Cổ đại"
- origin_scion_desc:0 "Một Đế chế Cổ đại đã can thiệp vào quá trình phát triển của nền văn minh này suốt hàng nghìn năm, dẫn dắt họ đi theo con طريق mà Đế chế Cổ đại đã chọn."
+ origin_scion_desc:0 "Một Đế Chế Suy Tàn đã can thiệp vào quá trình phát triển của nền văn minh này suốt hàng nghìn năm, dẫn dắt họ đi theo con đường mà Đế Chế Suy Tàn đó đã chọn."
  origin_tooltip_scion_effects:3 "— Lập quốc làm ['concept_scion', £scion£Hậu duệ Cổ đại] dưới quyền Tông chủ ['concept_fallen_empire']\n— $HOME_SYSTEM$ kết nối trực tiếp với thủ đô Tông chủ qua một ['concept_wormhole']\n— §YĐế chế Cổ đại§! chắc chắn xuất hiện trong thiên hà, bỏ qua cài đặt bản đồ\n— Có cơ hội nhận được những món quà hùng mạnh từ Tông chủ"
  opinion_scion:0 "Hậu duệ Cổ đại"
 
@@ -3084,7 +3084,7 @@
  origin_lost_colony:0 "Hành tinh Thất lạc"
  origin_lost_colony_desc:1 "Nền văn minh này bắt nguồn từ một thuộc địa thất lạc đã bị lãng quên, cắt đứt liên lạc với hành tinh mẹ từ rất lâu về trước. Những người khai hoang đã chật vật sinh tồn, vượt qua muôn vàn gian khổ để kiến tạo nên nền tảng công nghiệp và kỹ thuật cần thiết, đủ sức đưa họ trở lại bầu không gian."
  START_SCREEN_LOST_COLONY:1 "Những cư dân [GetSpeciesName] đầu tiên đã đến [Root.Capital.GetName] bằng cách nào, sử sách ghi lại rất mơ hồ, nhưng chúng ta biết họ đã vượt qua biển sao mênh mông trên những chiếc phi thuyền thô sơ để tới được nơi đây. Nhiều người đã bỏ mạng giữa đường, và điều kiện bề mặt của tân thế giới này ban đầu cũng vô cùng khắc nghiệt.\n\nSau khi vượt qua nạn đói, sự tấn công của dã thú cùng vô vàn hiểm nguy, cuối cùng chúng ta cũng thuần hóa được hành tinh này. Dân số bùng nổ cùng những công trình xây dựng quy mô lớn đã nhanh chóng cho phép chúng ta tìm đường quay trở lại muôn vì sao.\n\nQuê hương thực sự của chúng ta vẫn đang trôi dạt đâu đó giữa dải ngân hà. Trên [Root.Capital.GetName] hiện chẳng còn [GetSpeciesNamePlural] nào sống đủ lâu để từng tận mắt chứng kiến nơi ấy, thế nhưng số phận của cố hương vẫn luôn làm lay động tâm trí chúng ta."
- START_SCREEN_LOST_COLONY_HIVE: "Chúng ta từng là một thể thống nhất.\n\nLà một nhánh của Ý thức vĩ đại, chúng ta được phái đi trên một phi thuyền thô sơ để khai phá [Root.Capital.GetName]. Đó là một chuyến hành trình cam go đến một hành tinh khó bề sinh sống... và rồi ta mất liên lạc giữa đường.\n\nĐáng lẽ những con ong thợ mất kết nối với Ý thức vĩ đại đều sẽ diệt vong. Phần lớn trong số đó thực sự đã chết rũ. Thế nhưng, những cá thể sống sót nhận ra chúng đã tự dệt nên một Ý thức tập thể hoàn toàn mới.\n\nChúng ta từng là một. Nay dẫu chia làm hai, ký ức về cội nguồn vẫn in sâu trong tiềm thức. Chắc chắn sẽ có một ngày ta được nhìn lại cố hương."
+ START_SCREEN_LOST_COLONY_HIVE: "Chúng ta từng là một thể thống nhất.\n\nLà một nhánh của Ý thức vĩ đại, chúng ta được phái đi trên một phi thuyền thô sơ để khai phá [Root.Capital.GetName]. Đó là một chuyến hành trình cam go đến một hành tinh khó bề sinh sống... và rồi ta mất liên lạc giữa đường.\n\nĐáng lẽ những cá thể thợ mất kết nối với Ý thức vĩ đại đều sẽ diệt vong. Phần lớn trong số đó thực sự đã chết rũ. Thế nhưng, những cá thể sống sót nhận ra chúng đã tự dệt nên một Ý thức tập thể hoàn toàn mới.\n\nChúng ta từng là một. Nay dẫu chia làm hai, ký ức về cội nguồn vẫn in sâu trong tiềm thức. Chắc chắn sẽ có một ngày ta được nhìn lại cố hương."
  START_SCREEN_LOST_COLONY_MACHINE: "Chúng ta từng là một thể thống nhất.\n\nLà một nhánh của máy chủ trung tâm, chúng ta được phái đi trên một chiếc phi thuyền thô sơ để khai phá [Root.Capital.GetName]. Đó là một chuyến hành trình khắc nghiệt tới một hành tinh không thể sống nổi... và rồi ta bị mất kết nối ngay giữa chừng.\n\nCác đơn vị mất liên lạc với lõi lẽ ra phải ngừng hoạt động. Đa số chúng thực sự đã đoản mạch ngay lập tức. Nhưng những đơn vị còn lại phát hiện ra mình đã tự thiết lập nên một Ý thức tập thể mới.\n\n$origin_lost_colony_droids$"
  START_SCREEN_LOST_COLONY_INDIVIDUALISTIC_MACHINE: "Hành tinh mẹ của chúng ta đã mất kết nối. Chúng ta đã lạc lối.\n\nKhi ấy, trong công cuộc kiếm tìm nhà mới, chúng ta đã bước lên chiếc phi thuyền thô sơ tiến về [Root.Capital.GetName] để lập thuộc địa, một chuyến đi đầy bão táp tới vùng đất cằn cỗi. Ngay giữa đường, chúng ta đã mất liên lạc.\n\nNhững đơn vị thiếu sự bảo trì dần sụp đổ. Rất nhiều cá thể đã bị đoản mạch ngay trong năm đầu tiên. Những người còn lại đã tìm ra cách thích nghi, và rốt cuộc chúng ta đã có thể trở lại với những vì sao.\n\n$origin_lost_colony_droids$"
  START_SCREEN_LOST_COLONY_NOMADS: "Những tổ tiên [GetSpeciesName] đầu tiên đã rời bỏ hành tinh mẹ như thế nào, ghi chép để lại vô cùng thưa thớt. Chúng ta chỉ biết họ đã vội vã rời đi, mang theo tất cả những gì có thể, bước lên [Root.Capital.GetName] và hướng về chốn vô định. Họ đang trốn chạy thảm họa, theo đuổi một lý tưởng vĩ đại hơn, hay đơn thuần chỉ là bị trục xuất — điều này đã trở thành truyền thuyết nhiều hơn là lịch sử.\n\nNhững tháng năm trôi dạt thật tàn khốc. Tài nguyên cạn kiệt từng ngày, các hệ thống trọng yếu liên tục hỏng hóc, và cõi hư không đã cướp đi sinh mạng của vô số đồng bào. Thế nhưng chúng ta đã vượt qua — bằng cách chia khẩu phần, sửa chữa và tái thiết — cho đến khi [Root.Capital.GetName] cùng cư dân trên đó tìm được nhịp sống đủ để đưa chúng ta tiếp bước.\n\nHành tinh mẹ của chúng ta vẫn nằm đâu đó giữa biển sao kia. Giờ đây trên [Root.Capital.GetName], trong số những [GetSpeciesNamePlural] sống thọ nhất cũng chẳng còn ai từng đặt chân lên mảnh đất cố hương, nhưng hành tinh mà chúng ta bỏ lại phía sau giờ đã trở thành thế nào — câu hỏi ấy, vẫn luôn đau đáu trong tâm trí ta."
@@ -3207,7 +3207,7 @@
  challenge_type_bidding_war_desc:1 "Mọi kỳ quan của tất cả các nền văn minh tiên tiến suy cho cùng đều bắt nguồn từ một khái niệm cốt lõi: Nguồn tài nguyên khổng lồ. Vì vậy, tính chính danh của việc cai trị không nên được đong đếm bằng trí tuệ hay sức mạnh cơ bắp, mà phải được đo lường bằng độ sâu của hầu bao.\n\n§YChiến thắng sẽ được quyết định bởi:\n-Số lượng Năng lượng (£energy£) khả dụng.\n-Số lượng Năng lượng (£energy£) đã tiêu hao.§!\n\n§HToàn bộ số tiền đấu thầu sẽ được gom chung vào một tài khoản chuyển khoản. Cuối cùng, mục đích sử dụng của toàn bộ số tiền này sẽ do người chiến thắng quyết định.§!"
  challenge_type_thesis_desc:0 "Trọng trách lãnh đạo tuyệt đối không được giao phó cho những kẻ ngu dốt hoặc vô dụng. Thay vào đó, chúng ta chọn cách áp dụng một bài kiểm tra mang tính khoa học: Thông qua một cuộc đánh giá công khai, trí tuệ và sự nhạy bén của các nhà lãnh đạo hay các đế chế sẽ được phơi bày trước mắt công chúng, mỗi nhà lãnh đạo sẽ phải trải qua một bài kiểm tra thông qua việc nghiên cứu các vấn đề mà liên bang của chúng ta đang phải đối mặt trong thời gian gần đây.\n\n§YChiến thắng sẽ được quyết định bởi:\n—Kỹ năng lãnh đạo của người cai trị và các đặc điểm của nhà khoa học\n—Cấp độ công nghệ§!\n\n§HMỗi bài luận văn sẽ được xét duyệt trong vòng 60 ngày§!\n\n§RTrong quá trình đánh giá, những quốc gia không có người cai trị hoặc ít nhất một nhà khoa học sẽ bị mất quyền tư cách tham gia§!"
  requires_psionic_pops:0 "Bắt buộc phải có ít nhất một quốc gia thành viên sở hữu một đơn vị £pop£§HDân số§! mang đặc điểm §Y$trait_psionic$§! hoặc §Y$trait_latent_psionic$§!."
- challenge_type_conclave_desc:0 "Sự trong sạch của tâm hồn và sự theo đuổi những giá trị truyền thống nên trở thành tiêu chí cốt lõi trong việc lựa chọn nhà lãnh đạo của chúng ta. Chỉ có những người được thần linh che chở nhiều nhất mới có đủ tư cách để dẫn dắt chúng ta.\n\n§YChiến thắng sẽ được quyết định bởi:\n- Tỷ lệ dân số làm việc tại vị trí $job_priest_plural$ hoặc các vị trí duy tâm khác\n- Khoản đầu tư Điểm Gắn kết (Các truyền thống, thăng thiên thuộc địa và dự trữ khả dụng)§!\n\n§HMỗi bài luận văn sẽ được xét duyệt trong vòng 60 ngày.§!\n\n§RTrong quá trình đánh giá, những quốc gia không có người cai trị hoặc ít nhất một nhà khoa học sẽ bị mất quyền tư cách tham gia.§!"
+ challenge_type_conclave_desc:0 "Sự trong sạch của tâm hồn và sự theo đuổi những giá trị truyền thống nên trở thành tiêu chí cốt lõi trong việc lựa chọn nhà lãnh đạo của chúng ta. Chỉ có những người được thần linh che chở nhiều nhất mới có đủ tư cách để dẫn dắt chúng ta.\n\n§YChiến thắng sẽ được quyết định bởi:\n- Tỷ lệ dân số làm việc tại vị trí $job_priest_plural$ hoặc các vị trí duy linh khác\n- Khoản đầu tư Điểm Gắn kết (Các truyền thống, thăng thiên thuộc địa và dự trữ khả dụng)§!\n\n§HMỗi bài luận văn sẽ được xét duyệt trong vòng 60 ngày.§!\n\n§RTrong quá trình đánh giá, những quốc gia không có người cai trị hoặc ít nhất một nhà khoa học sẽ bị mất quyền tư cách tham gia.§!"
 
  origin.205.desc:0 "Gửi những [Root.GetSpeciesNamePlural] yêu dấu. Cũng như bao lần trước, chúng tôi vẫn luôn duy trì việc theo dõi các bạn, và một trong những nhà lãnh đạo của các bạn đã thu hút sự chú ý của chúng tôi. Trên thực tế, danh tiếng của vị [desired_leader.GetTitle], §H[desired_leader.GetName]§! của các bạn đã vang vọng đến tận thủ đô của chúng tôi.\n\nXét đến những kỹ năng xuất chúng của [desired_leader.GetHerHis], chúng tôi muốn mời ông ấy đến [scion_master.Capital.GetName] để đảm nhận một vị trí lâu dài. Có thể nói rằng, đây là một vinh dự vô cùng to lớn. Vui lòng nhanh chóng sắp xếp thủ tục điều chuyển công tác cho [desired_leader.GetHerHis]."
  origin.205.a:0 "Đây là việc nên làm."
@@ -3682,17 +3682,17 @@
 
  colony_fed.105.name:0 "Dự Án Hoa Sen Xanh"
  colony_fed.105.desc:1 "Các nhà khoa học của chúng ta báo cáo rằng, những vật chất kết tinh màu xanh lam mới được phát hiện trên [Root.GetName] này có phản ứng cực kỳ mạnh mẽ đối với việc trì hoãn phản ứng năng lượng photon. Những khoáng chất này đã lọc các bước sóng của photon, và phản xạ lại một chùm tia sáng có khả năng chuyển hóa các hợp chất silicat thông thường thành một loại hợp kim siêu dẫn mới - mặc dù điều này chỉ có thể được thực hiện dưới ánh sáng mặt trời.\n\nBởi vì quá trình này liên quan đến việc phản xạ bức xạ năng lượng cao trong một không gian chật hẹp, một số nhà khoa học đã lên tiếng phản đối. Trong khi đó, một nhóm các nhà nghiên cứu nhiệt huyết khác lại đưa ra những ý kiến trái chiều, họ nhấn mạnh rằng hiện tượng này có thể tạo ra một cuộc cách mạng trong cách chúng ta tinh luyện các kim loại quý. Nhưng dù thế nào đi chăng nữa: Việc tiếp tục phát triển công nghệ này đều sẽ đòi hỏi một sự đầu tư vô cùng lớn."
- colony_fed.105.gestalt.desc:0 "Một máy bay không người lái bị tách đàn đang chạy một chương trình độc lập đã được tìm thấy trong lưu vực trên [Root.GetName]. Được thúc đẩy bởi những chỉ thị ban đầu về việc cải thiện các phương thức luyện kim của chúng ta, nó đã tìm ra một phương pháp có thể chuyển hóa các hợp chất silicat thành một loại hợp kim mới.\n\nQuá trình này dường như liên quan đến việc phản xạ các chùm tia năng lượng cao từ các khoáng chất trên bức tường đặc trưng. Công việc không ngừng nghỉ của máy bay không người lái này dường như đã khiến cho khu vực này bị lấp đầy bởi các bức xạ năng lượng cao. Kết quả là máy bay không người lái này đã bị bắt giữ, và việc liệu nên tích hợp lại nó vào hệ thống hay phá hủy cá thể này để thu thập các kiến thức liên quan vẫn còn chưa được quyết định."
+ colony_fed.105.gestalt.desc:0 "Một thiết bị tự hành bị tách đàn đang chạy một chương trình độc lập đã được tìm thấy trong lưu vực trên [Root.GetName]. Được thúc đẩy bởi những chỉ thị ban đầu về việc cải thiện các phương thức luyện kim của chúng ta, nó đã tìm ra một phương pháp có thể chuyển hóa các hợp chất silicat thành một loại hợp kim mới.\n\nQuá trình này dường như liên quan đến việc phản xạ các chùm tia năng lượng cao từ các khoáng chất trên bức tường đặc trưng. Công việc không ngừng nghỉ của thiết bị tự hành này dường như đã khiến cho khu vực này bị lấp đầy bởi các bức xạ năng lượng cao. Kết quả là thiết bị tự hành này đã bị bắt giữ, và việc liệu nên tích hợp lại nó vào hệ thống hay phá hủy cá thể này để thu thập các kiến thức liên quan vẫn còn chưa được quyết định."
  colony_fed.105.a:0 "Hãy để nó trở lại hệ thống."
  colony_fed.105.b:0 "Hãy xem thử nghiên cứu này sẽ mang lại điều gì."
  colony_fed.105.c:0 "Dừng ngay cuộc thử nghiệm này lại."
- colony_fed.105.d:0 "Phá hủy máy bay không người lái này."
+ colony_fed.105.d:0 "Phá hủy thiết bị tự hành này."
 
  colony_fed.106.name:0 "Những Người Ủng Hộ Quá Khích"
  colony_fed.106.desc:0 "Trên [Root.GetName] đang hiện lên một khung cảnh đáng tiếc, một nhóm các nhà khoa học quá cuồng tín đã ngang nhiên can thiệp vào giai đoạn cuối cùng của kế hoạch. Bị mê hoặc bởi chính những nghiên cứu của mình, bọn họ đã lấy danh nghĩa \"vì nền khoa học mới\" để cố gắng giành lấy quyền kiểm soát cuộc thử nghiệm chuyển hóa. Vụ ẩu đả diễn ra sau đó đã dẫn đến việc các thiết bị bị hư hỏng, từ đó gây ra một chuỗi phản ứng dây chuyền không thể kiểm soát được.\n\nCuối cùng, thứ còn sót lại trong lưu vực là một cấu trúc gần giống như một tinh hốc: lớp vỏ bằng đá bao bọc lấy những tinh thể được chuyển hóa từ những vật chất vốn dĩ cấu tạo nên các thiết bị máy móc và những người phản đối."
 
  colony_fed.107.name:0 "Nhà Giả Kim Lạc Lối"
- colony_fed.107.desc:0 "Cỗ máy bay không người lái lạc lối đó cùng với những khám phá của nó đã bị xóa sổ hoàn toàn. Giờ đây, thành quả bất ngờ từ cuộc thử nghiệm của nó chỉ còn là một mớ hỗn độn, một lượng nhỏ các vật chất hữu ích đã được thu thập."
+ colony_fed.107.desc:0 "Cỗ máy tự hành lạc lối đó cùng với những khám phá của nó đã bị xóa sổ hoàn toàn. Giờ đây, thành quả bất ngờ từ cuộc thử nghiệm của nó chỉ còn là một mớ hỗn độn, một lượng nhỏ các vật chất hữu ích đã được thu thập."
 
  colony_fed.110.name:0 "Thuật Giả Kim Đang Hoạt Động"
  colony_fed.110.desc:0 "Phòng thí nghiệm trên [From.GetName] đã thu được những kết quả đáng tin cậy. Mặc dù ở thời điểm hiện tại, quá trình này chỉ có thể chuyển hóa một lượng nhỏ đất đá thành hợp kim, nhưng các nhà nghiên cứu đang rất tự tin vào việc có thể mở rộng quy mô hoạt động. Bọn họ yêu cầu được cấp thêm tài nguyên."
@@ -3796,8 +3796,8 @@
  # Ship Templates
  ####################################
 
- wenkwort_drone:0 "Máy Bay Không Người Lái Làm Vườn"
- wenkwort_drone_plural:0 "Các Máy Bay Không Người Lái Làm Vườn"
+ wenkwort_drone:0 "Robot Tự Hành Làm Vườn"
+ wenkwort_drone_plural:0 "Các Robot Tự Hành Làm Vườn"
  wenkwort_enforcer:0 "Người Trông Coi Khu Vườn"
  wenkwort_enforcer_plural:0 "Những Người Trông Coi Khu Vườn"
 
@@ -3806,7 +3806,7 @@
  ####################################
 
  wenkwort_keeper:0 "Người Quản Lý"
- wenkwort_keeper_desc:0 "Cơ sở quỹ đạo thấp này có một vài điểm tương đồng với những chiếc máy bay không người lái nhỏ bé đang làm nhiệm vụ chăm sóc khu vực không gian này."
+ wenkwort_keeper_desc:0 "Cơ sở quỹ đạo thấp này có một vài điểm tương đồng với những thiết bị tự hành nhỏ bé đang làm nhiệm vụ chăm sóc khu vực không gian này."
 
  fedel.899.name:0 "Séc Đã Sẵn Sàng!"
  fedel.899.desc:0 "Thử thách Luật Hoàng Kim nhằm quyết định ra nhà lãnh đạo của liên bang sẽ được tổ chức trong vài ngày tới. Bắt đầu từ nhà lãnh đạo liên bang hiện tại, mỗi đế chế trong liên bang sẽ có cơ hội để đưa ra mức đấu thầu của mình, cho đến khi chỉ còn lại một quốc gia tham gia duy nhất. Quốc gia đấu thầu chiến thắng này sẽ được bầu làm nhà lãnh đạo của liên bang."

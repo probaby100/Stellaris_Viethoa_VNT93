@@ -338,7 +338,7 @@
  first_contact_critters.35.desc.primal_calling: "Những sinh vật này dường như giao tiếp với nhau thông qua sự thay đổi màu sắc của ánh sáng khúc xạ. Mặc dù phương thức này có tiềm năng lớn cho những biểu đạt phức tạp, nó chỉ được các dạng sống bán tri giác này sử dụng một cách cơ bản. Sự thay đổi màu sắc có thể dùng để thể hiện địa vị bầy đàn, sự hung hăng, và thậm chí cả tình trạng sinh sản."
  grand_archive.2005.desc.primal_calling: "Những sinh vật ký sinh này thiếu khả năng sinh sản tự nhiên và phải dựa vào việc chiếm đoạt các vật chủ trên các hành tinh. Phải thu hoạch đủ vật chất hữu cơ từ các hành tinh có cư dân để §H\"Trùng Hư Không\"§! sản sinh ra một loại hormone tối quan trọng trong các bộ ba giao phối của chúng, được gọi là \"troika\". Là loài lưỡng tính, việc lựa chọn bạn tình được quyết định chủ yếu bởi các đặc điểm thể chất bổ trợ lẫn nhau và kích thước tương đương."
  grand_archive.2900.desc.primal_calling: "Chúng ta tin rằng những sinh vật này lựa chọn tiểu hành tinh dựa trên thành phần khoáng chất cũng như kích thước. Trong khi mẫu vật đầu tiên chúng ta chạm trán có sự ưu tiên sinh học đối với [GetCommonMineral], rất có thể mỗi cá thể sẽ phát triển khả năng thích nghi này theo thời gian dựa trên môi trường hiện tại của chúng. Các kết quả quét cho thấy dấu vết của kim loại này hiện diện khắp tiểu hành tinh vật chủ, cũng như bên trong hệ thần kinh và đường tiêu hóa của chính §H\"Cutholoid\"§!."
- COMMON_MINERAL_1: "cobalt"
+ COMMON_MINERAL_1: "coban"
  COMMON_MINERAL_2: "bạch kim"
  COMMON_MINERAL_3: "vàng"
  COMMON_MINERAL_4: "bạc"

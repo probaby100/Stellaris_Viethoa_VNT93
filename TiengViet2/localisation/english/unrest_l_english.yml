@@ -51,8 +51,8 @@
  major_terrorist_action_desc:0 "$minor_terrorist_action_desc$"
  riots_averted:0 "Công dân Quả cảm"
  riots_averted_desc:0 "Dù thuộc địa này có mức độ §HBất mãn§! cực cao, nhưng mọi người vẫn đồng tâm hiệp lực ngăn chặn bạo lực leo thang."
- spiritualist_unrest:0 "Bất mãn (Thiên hướng Duy tâm)"
- spiritualist_unrest_desc:0 "Sự §HBất mãn§! trên thuộc địa đã khiến cư dân địa phương bắt đầu ngả về thế lực §YDuy tâm§!."
+ spiritualist_unrest:0 "Bất mãn (Thiên hướng Duy linh)"
+ spiritualist_unrest_desc:0 "Sự §HBất mãn§! trên thuộc địa đã khiến cư dân địa phương bắt đầu ngả về thế lực §YDuy linh§!."
  materialist_unrest:0 "Bất mãn (Thiên hướng Duy vật)"
  materialist_unrest_desc:0 "Sự §HBất mãn§! trên thuộc địa đã khiến cư dân địa phương bắt đầu ngả về thế lực §YDuy vật§!."
  xenophobe_unrest:0 "Bất mãn (Thiên hướng Bài ngoại)"
@@ -83,7 +83,7 @@
  unrest.110.desc:1 "Báo cáo từ §Y[Root.Target.GetName]§! cho thấy có nguy cơ lớn bùng phát bạo loạn. Tuy nhiên, nhờ quân đội [Root.Owner.GetAdj] hành động chớp nhoáng và quyết đoán, cùng sự hỗ trợ của các công dân trung thành, mối đe dọa này đã được dập tắt."
 
  unrest.115.name:0 "$unrest_title$ Truyền đạo"
- unrest.115.desc:1 "Báo cáo mới nhất từ §Y[Root.GetName]§! cho thấy một số thủ lĩnh phe Duy tâm đang kích động khắp nơi, đứng đầu trong tình hình bạo loạn đang sục sôi tại địa phương. Bọn họ hứa hẹn sẽ cứu rỗi người dân khỏi muôn vàn khốn khổ hiện tại, thu hút được uy danh đáng kể, kết quả là phong trào phản kháng đã mang đậm màu sắc Duy tâm."
+ unrest.115.desc:1 "Báo cáo mới nhất từ §Y[Root.GetName]§! cho thấy một số thủ lĩnh phe Duy linh đang kích động khắp nơi, đứng đầu trong tình hình bạo loạn đang sục sôi tại địa phương. Bọn họ hứa hẹn sẽ cứu rỗi người dân khỏi muôn vàn khốn khổ hiện tại, thu hút được uy danh đáng kể, kết quả là phong trào phản kháng đã mang đậm màu sắc Duy linh."
 
  unrest.120.name:0 "$unrest_title$ Chính quyền Đáng tin"
  unrest.120.desc:1 "Tình trạng bạo loạn trên §Y[Root.GetName]§! đã mang lại diện mạo mới cho nền chính trị thuộc địa; những nhân vật dân túy bàn tay sắt xuất hiện, không ngại đánh đổi tự do lấy trật tự xã hội. Họ đều giữ vị trí nổi bật trong các cuộc bạo loạn leo thang trên hành tinh."
@@ -92,7 +92,7 @@
  unrest.125.desc:1 "Kéo theo sự sụp đổ trật tự xã hội trên §Y[Root.GetName]§!, sự thù địch của phe phản kháng đối với người ngoài ngày một gia tăng, coi những kẻ khác biệt với người bản địa là thứ kinh tởm tột cùng. Một số thủ lĩnh còn dán khẩu hiệu bài ngoại, khiến quan hệ giữa các giống loài thêm phần căng thẳng."
 
  unrest.130.name:0 "$unrest_title$ Bó tay Chịu trói"
- unrest.130.desc:1 "Bởi các thủ lĩnh Duy tâm địa phương trên §Y[Root.GetName]§! bất lực trong việc kìm hãm làn sóng bạo loạn, người dân bắt đầu có cái nhìn lý trí hơn về thế giới vật chất mà họ đang sống. Đáng tiếc, dẫu chú trọng logic, họ lại không đi đến kết luận hiển nhiên —— cuộc sống tốt đẹp của họ là do những người khác trong [Root.Owner.GetName] chu cấp —— ít nhất là trong lúc này."
+ unrest.130.desc:1 "Bởi các thủ lĩnh Duy linh địa phương trên §Y[Root.GetName]§! bất lực trong việc kìm hãm làn sóng bạo loạn, người dân bắt đầu có cái nhìn lý trí hơn về thế giới vật chất mà họ đang sống. Đáng tiếc, dẫu chú trọng logic, họ lại không đi đến kết luận hiển nhiên —— cuộc sống tốt đẹp của họ là do những người khác trong [Root.Owner.GetName] chu cấp —— ít nhất là trong lúc này."
 
  unrest.135.name:0 "$unrest_title$ Đoàn kết Một lòng"
  unrest.135.desc:1 "Theo báo cáo, làn sóng nổi dậy leo thang trên §Y[Root.GetName]§! ít nhất có một phần nguyên nhân là do đối xử bất công với các giống loài ngoại lai. Thủ lĩnh của chúng đã thảo một danh sách liệt kê mọi hành vi bất công và phân biệt đối xử, yêu cầu chấn chỉnh ngay lập tức. Nếu yêu cầu không được đáp ứng, chúng sẽ không ngần ngại lật đổ chính quyền thuộc địa."

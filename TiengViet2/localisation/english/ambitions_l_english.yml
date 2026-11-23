@@ -187,8 +187,8 @@
  resolution_crisis_analysis_voidworms_tt: "§HTrùng Hư Không:§!\n$mod_weapon_type_explosive_weapon_damage_mult$: §R-20%§!\n$MOD_SHIP_SPEED_MULT$: §R-10%§!"
  resolution_crisis_analysis_cetana_tt: "§HCetana:§!\n$MOD_SHIP_WEAPON_RANGE_MULT$: §R-40%§!\n$MOD_SHIP_ACCURACY_MULT$: §R-20%§!"
  resolution_crisis_analysis_prethoryn_tt: "§HBầy Đàn Prethoryn:§!\n$MOD_SHIP_EVASION_MULT$: §R-20%§!\n$MOD_SHIP_ARMOR_MULT$: §R-10%§!"
- resolution_crisis_analysis_contingency_tt: "§HContingency:§!\n$mod_weapon_type_energy_weapon_damage_mult$: §R-20%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$: §R-10%§!"
- resolution_crisis_analysis_unbidden_tt: "§HUnbidden:§!\n$MOD_SHIP_SHIELD_HARDENING_ADD$: §R-20%§!\n$mod_weapon_type_energy_weapon_damage_mult$: §R-20%§!"
+ resolution_crisis_analysis_contingency_tt: "§HGiao Thức Dự Phòng:§!\n$mod_weapon_type_energy_weapon_damage_mult$: §R-20%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$: §R-10%§!"
+ resolution_crisis_analysis_unbidden_tt: "§HKẻ Không Mời:§!\n$MOD_SHIP_SHIELD_HARDENING_ADD$: §R-20%§!\n$mod_weapon_type_energy_weapon_damage_mult$: §R-20%§!"
 
  resolution_category_paladins: "Sáng Kiến Hiệp Sĩ Paladin"
  resolution_paladin_focus_teamwork: "Trọng Tâm Paladin: Hiệp Lực"
@@ -369,7 +369,7 @@
 
 # Paladin Traits
 
- leader_trait_paladin: "Paladin"
+ leader_trait_paladin: "Hiệp Sĩ Thánh Chiến"
  leader_trait_paladin_desc: "Nhà lãnh đạo này gánh vác trọng trách của Paladin. Qua lời nói và hành động, họ hiện thân cho chính lòng can trường, là những dũng sĩ tiên phong của một thiên hà tự do."
  leader_trait_paladin_effect: "Nhà lãnh đạo này không tốn §YPhí Duy Trì§! và không chiếm dụng §YGiới Hạn Lãnh Đạo§!"
 

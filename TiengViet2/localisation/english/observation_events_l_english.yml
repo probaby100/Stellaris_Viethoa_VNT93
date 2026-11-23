@@ -335,7 +335,7 @@
  tech_progress_gain_tt:0 "§Y[pre_ftl_country.GetName]§!: §G+[pre_ftl_country.TechProgressPercentage]%§! tiến bộ công nghệ."
  tech_progress_loss_tt:0 "§Y[pre_ftl_country.GetName]§!: §R-[pre_ftl_country.TechProgressPercentage]%§! tiến bộ công nghệ."
  locked_to_passive_observation:0 "Trạm quan sát bị khóa vào $mission_passive_observation$"
- acquired_tech_tooltip:1 "§Y[pre_ftl_country.GetName]§!: Tỷ lệ tiến bộ công nghệ §G+50§!."
+ acquired_tech_tooltip:1 "§Y[pre_ftl_country.GetName]§!: Tốc độ Tiến bộ Công nghệ §G+50%§!."
  acquired_tech_tooltip_five_years:0 "§Y[pre_ftl_country.GetName]§!: Tiến bộ công nghệ §G+50%§!, kéo dài §Y5 năm§!."
  advance_to_age_tt:0 "§Y[pre_ftl_country.GetName]§!: Tiến bộ tới §Y[pre_ftl_country.GetNewAge]§!."
  regress_to_age_tt:0 "§Y[pre_ftl_country.GetName]§!: Thoái lui về §Y[pre_ftl_country.GetNewAge]§!."

@@ -110,7 +110,7 @@
  SUPREMACIST_NO_OPPRESSIVE_SUBJUGATION_POLICY:0 "$SUPREMACIST_OPPRESSIVE_SUBJUGATION_POLICY$"
  SUPREMACIST_NO_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Các nước chư hầu sinh ra là để hầu hạ chúng ta, bọn chúng phải khắc cốt ghi tâm điều đó. Tỏ ra khoan dung với chúng sẽ chỉ khiến [Root.GetName] thêm chán nản."
  SUPREMACIST_UNPLUGGED_CYBERIZE: "Chấp Nhận Nhân Dạng Cơ Khí Của Ta"
- SUPREMACIST_UNPLUGGED_NOT_CYBERIZE: "$SUPREMACIST_UNPLUGGED_DECYBERIZE$"
+ SUPREMACIST_UNPLUGGED_NOT_CYBERIZE: "Bản Sắc Máy Móc Bị Kìm Nén"
  SUPREMACIST_UNPLUGGED_CYBERIZE_DESC: "Hoàn thiện và nâng cấp các bộ phận cấy ghép cơ khí do trí tuệ máy móc ban tặng sẽ giúp phục hưng di sản đáng gờm của ta, đồng thời cũng làm hài lòng [root.GetName]."
 
  # XENOISTS

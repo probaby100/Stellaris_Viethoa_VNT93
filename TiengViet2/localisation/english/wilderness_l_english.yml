@@ -213,7 +213,7 @@
 
  building_wilderness_storm_relief: "$building_storm_resistant_production$"
  building_wilderness_storm_relief_desc: "Một vòm tán rộng gồm các tán lá cứng cáp có mang điện sinh học, bảo đảm an toàn cho các thể cộng sinh xung quanh trước các cơn bão vũ trụ."
- building_wilderness_storm_relief_tt: "Giảm bớt §G100%§! hiệu ứng tiêu cực từ §Y$default_storm$§! lên sản lượng hành tinh."
+ building_wilderness_storm_relief_tt: "Các hiệu ứng tiêu cực từ §Y$default_storm$§! ảnh hưởng đến sản lượng hành tinh được giảm §G25%§!"
 
  holding_wilderness_glade: "Khu Rừng Hoang Dã"
  holding_wilderness_glade_plural: "Các Khu Rừng Hoang Dã"

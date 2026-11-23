@@ -755,7 +755,7 @@
  paragon_death_virtual_advisors_desc:2 "Một trí tuệ ảnh toàn ký kế thừa toàn bộ kinh nghiệm từ nhà lãnh đạo đã hỏng của chúng ta, nay tiếp tục phục vụ với tư cách là cố vấn tàu cao cấp."
 
  paragon_death_the_hive_endures:0 "Tổ đàn trường tồn"
- paragon_death_the_hive_endures_desc:0 "Bầy đàn đã mất đi một ong thợ quý giá. Nó sẽ được thay thế."
+ paragon_death_the_hive_endures_desc:0 "Bầy đàn đã mất đi một cá thể thợ quý giá. Nó sẽ được thay thế."
  paragon_death_the_wilderness_endures: "Chốn hoang dã trường tồn"
  paragon_death_the_wilderness_endures_desc: "Tập thể đã mất đi một cá thể cộng sinh quý giá. Nó sẽ được thay thế."
 
@@ -1057,7 +1057,7 @@
  councilor_idyllic_bloom_custom_modifier_desc:1 "—Chi phí xây dựng và bảo trì £building£ $building_gaiaseeders$: §G-5%§!"
  councilor_imperial_cult:0 "Quan Chưởng Lễ"
  councilor_imperial_cult_female:0 "$councilor_imperial_cult$"
- councilor_imperial_cult_desc:1 "$TITLE$ toàn quyền chịu trách nhiệm về tư tưởng duy tâm của chúng ta."
+ councilor_imperial_cult_desc:1 "$TITLE$ toàn quyền chịu trách nhiệm về tư tưởng duy linh của chúng ta."
  councilor_indentured_assets:0 "Quản Lý Nhân Lực Khế Ước"
  councilor_indentured_assets_female:0 "$councilor_indentured_assets$"
  councilor_indentured_assets_desc:1 "$TITLE$ đảm bảo hiệu quả trong việc giao dịch các tài sản khế ước."
@@ -1201,7 +1201,7 @@
 
  councilor_psionic_sovereign:0 "Vật Chủ Thần Linh"
  councilor_psionic_sovereign_female:0 "$councilor_psionic_sovereign$"
- councilor_psionic_sovereign_desc:0 "Ban đầu được dẫn dắt bởi quân đoàn linh năng, giờ đây $TITLE$ chịu trách nhiệm làm vật chủ trung gian cho tiềm năng linh năng khổng lồ của Kẻ Được Chọn."
+ councilor_psionic_sovereign_desc:0 "Ban đầu được dẫn dắt bởi Quân đoàn Tâm linh, giờ đây $TITLE$ chịu trách nhiệm làm vật chủ trung gian cho tiềm năng tâm linh khổng lồ của Kẻ Được Chọn."
  councilor_psionic_sovereign_custom_modifier_desc: "—£mod_planet_psionic_jobs_produces_mult£ $mod_psionic_pop_bonus_workforce_mult$ từ £job_telepath£ $job_telepath_plural$: §G+1%§!"
  councilor_psionic_sovereign_conditional_tooltip:0 "Lãnh đạo có đặc điểm §YSiêu năng lực§! hoặc §YKẻ được chọn§!."
 
@@ -1325,7 +1325,7 @@
 
  council_agenda_agenda_superior_colonies_name:0 "Ưu tiên Thuộc địa"
  council_agenda_agenda_superior_colonies_desc:1 "Chúng ta đã nỗ lực hết mình trong khâu hậu cần để dốc sức hỗ trợ cho sự phát triển của các thuộc địa mới."
- council_agenda_agenda_superior_colonies_effect:1 "Thuộc địa mới nhận được §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$:§! §G+50§! trong §Y10§! năm."
+ council_agenda_agenda_superior_colonies_effect:1 "Các thuộc địa non trẻ nhận §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$:§! §G+50%§! trong §Y10§! năm."
  council_agenda_agenda_superior_colonies_nomad_name: "Ưu Tiên Trạm Không Gian"
  council_agenda_agenda_superior_colonies_nomad_desc: "Chúng ta đã dồn nhiều nỗ lực vào mặt hậu cần nhằm hỗ trợ sự phát triển của các trạm tiếp vận."
  agenda_superior_colonies_finish:0 "$council_agenda_agenda_superior_colonies_name$ $agenda_ref$"

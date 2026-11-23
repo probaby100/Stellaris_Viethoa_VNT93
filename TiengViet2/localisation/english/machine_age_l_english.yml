@@ -675,12 +675,12 @@
 # CYBERNETIC CREED ORIGIN
 ##########################
  origin_cybernetic_creed: "Thần Tượng Hóa Điều Khiển Học"
- origin_cybernetic_creed_desc: "§RCẢNH BÁO: Vô hiệu hóa tất cả Đặc Quyền Thăng Hoa ngoại trừ ['concept_cybernetic_ascension'].§!\n\nĐế chế này theo đuổi một sứ mệnh thiêng liêng, đó là sự dung hợp giữa thân thể cao quý và công nghệ nghĩa thể thần thánh. Nâng cấp cường hóa chính là một hình thức sùng bái."
+ origin_cybernetic_creed_desc: "§RCẢNH BÁO: Vô hiệu hóa tất cả Đặc Quyền Thăng Hoa ngoại trừ ['concept_cybernetic_ascension'].§!\n\nĐế chế này theo đuổi một sứ mệnh thiêng liêng, đó là sự dung hợp giữa thân thể cao quý và công nghệ cơ khí hóa thần thánh. Nâng cấp cường hóa chính là một hình thức sùng bái."
  origin_tooltip_cybernetic_creed_effects: "- Các công trình khởi đầu của $HOMEWORLD$ được thay thế bởi ['concept_cybernetic_creed_infrastructure'] $NEW_LINE$- Sẽ xuất hiện phe phái ['concept_cybernetic_creed'] ngay sau khi trò chơi bắt đầu\n- $SPECIES_TRAITS$ ['trait:trait_cyborg_ritualistic_implants']\n- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_integrated_cybernetics', £engineering£ $tech_integrated_cybernetics$]\n- Việc làm ['concept_cybernetic_creed_jobs']"
- START_SCREEN_CYBERNETIC_CREED: "Sứ mệnh cao cả của chúng ta là sự kết hợp giữa [Owner.Species.GetFleshTypeCyberCreed] và máy móc. Lịch sử của chúng ta chứa đầy những nỗ lực thất bại, thế nhưng dưới sự dẫn dắt của ý chí thần thánh, hiện tại chúng ta đã đạt được giai đoạn đầu tiên của sự cộng sinh thiêng liêng cùng các bộ phận cấy ghép nghi lễ.\n\nChúng ta mới chỉ chạm tới tiềm năng nghĩa thể vô hạn của mình. Những nâng cấp cường hóa tiên tiến hơn vẫn còn đang ở phía trước.\n\nMặc dù vậy, trong đức tin của chúng ta vẫn tồn tại những bất đồng, các giáo phái khác nhau tranh cãi không ngừng về mục tiêu cuối cùng của sự cường hóa thần thánh. Một khi chúng ta trả lời được câu hỏi này, sự kết hợp hoàn mỹ giữa [Owner.Species.GetFleshTypeCyberCreed] thánh thiện và công nghệ được ban phước sẽ giúp chúng ta hoàn thiện phương án thiết kế tiến hóa ưu tiên hiện tại của mình.\n\n$machine_age.1090.pray$"
+ START_SCREEN_CYBERNETIC_CREED: "Sứ mệnh cao cả của chúng ta là sự kết hợp giữa [Owner.Species.GetFleshTypeCyberCreed] và máy móc. Lịch sử của chúng ta chứa đầy những nỗ lực thất bại, thế nhưng dưới sự dẫn dắt của ý chí thần thánh, hiện tại chúng ta đã đạt được giai đoạn đầu tiên của sự cộng sinh thiêng liêng cùng các bộ phận cấy ghép nghi lễ.\n\nChúng ta mới chỉ chạm tới tiềm năng cơ khí hóa vô hạn của mình. Những nâng cấp cường hóa tiên tiến hơn vẫn còn đang ở phía trước.\n\nMặc dù vậy, trong đức tin của chúng ta vẫn tồn tại những bất đồng, các giáo phái khác nhau tranh cãi không ngừng về mục tiêu cuối cùng của sự cường hóa thần thánh. Một khi chúng ta trả lời được câu hỏi này, sự kết hợp hoàn mỹ giữa [Owner.Species.GetFleshTypeCyberCreed] thánh thiện và công nghệ được ban phước sẽ giúp chúng ta hoàn thiện phương án thiết kế tiến hóa ưu tiên hiện tại của mình.\n\n$machine_age.1090.pray$"
  START_SCREEN_CYBERNETIC_CREED_NOMADS: "Sứ mệnh cao cả của chúng ta là mang lại sự hợp nhất giữa [Owner.Species.GetFleshTypeCyberCreed] và máy móc. Người dân của chúng ta sinh ra trong hư không, từ lâu đã hiểu rõ rằng xác thịt không thể sinh tồn giữa muôn vàn vì sao. Lịch sử của chúng ta chứa đầy những nỗ lực thất bại, nhưng dưới sự dẫn dắt của ý chí thần thánh, giờ đây chúng ta đã đạt được giai đoạn đầu tiên của sự cộng sinh thiêng liêng thông qua các thiết bị cấy ghép nghi thức.\n\nChúng ta mới chỉ chạm đến bề nổi của tiềm năng cơ khí hóa vô tận của mình. Những cải tạo cường hóa tiên tiến hơn đang nối tiếp nhau xuất hiện.\n\nMặc dù vậy, đức tin của chúng ta vẫn tồn tại những bất đồng, các giáo phái khác nhau không ngừng tranh cãi về mục tiêu tối thượng của sự cường hóa thiêng liêng. Một khi chúng ta giải đáp được câu hỏi này, sự kết hợp hoàn hảo giữa [Owner.Species.GetFleshTypeCyberCreed] thánh khiết và công nghệ được ban phước sẽ giúp chúng ta hoàn thiện bản thiết kế tiến hóa còn nhiều hạn chế như hiện tại.\n\n$machine_age.1090.pray$"
  concept_cybernetic_creed_traits: "$trait_cyborg_ritualistic_implants$"
- concept_cybernetic_creed_traits_desc: "—§GTự động cấp cho £pop£§HDân Số Duy Tâm§!§!$NEW_LINE$—$TRAIT_IMPROVES_LEADERS$$NEW_LINE$—§RKhông thể tiến hành chỉnh sửa gen—§!$NEW_LINE$—Hiệu suất công việc Nhân Công: §G+5%§!$NEW_LINE$—$mod_pop_foundry_bonus_workforce_mult$: §G+5%§!$NEW_LINE$—$mod_pop_engineer_bonus_workforce_mult$: §G+5%§!$NEW_LINE$—$mod_pop_bureaucrat_bonus_workforce_mult$: §G+5%§!$NEW_LINE$—Sát thương Lục quân: §G+5%§!$NEW_LINE$—Đặc điểm sẽ thay đổi theo §Y$origin_cybernetic_creed$§! chủ đạo\n\n§L$trait_cyborg_ritualistic_implants_desc$§!"
+ concept_cybernetic_creed_traits_desc: "—§GTự động cấp cho £pop£§HDân Cư Duy Linh§!§!$NEW_LINE$—$TRAIT_IMPROVES_LEADERS$$NEW_LINE$—§RKhông thể tiến hành chỉnh sửa gen—§!$NEW_LINE$—Hiệu suất công việc Nhân Công: §G+5%§!$NEW_LINE$—$mod_pop_foundry_bonus_workforce_mult$: §G+5%§!$NEW_LINE$—$mod_pop_engineer_bonus_workforce_mult$: §G+5%§!$NEW_LINE$—$mod_pop_bureaucrat_bonus_workforce_mult$: §G+5%§!$NEW_LINE$—Sát thương Lục quân: §G+5%§!$NEW_LINE$—Đặc điểm sẽ thay đổi theo §Y$origin_cybernetic_creed$§! chủ đạo\n\n§L$trait_cyborg_ritualistic_implants_desc$§!"
  concept_cybernetic_creed: "Thần Tượng Hóa Điều Khiển Học"
  concept_cybernetic_creeds: "Thần Tượng Hóa Điều Khiển Học"
  concept_cybernetic_creeds_desc: "Bốn phe phái đang tranh giành vị trí thống trị đức tin: $TABBED_NEW_LINE$—$CYBERCREED_construction$$TABBED_NEW_LINE$—$CYBERCREED_war$$TABBED_NEW_LINE$—$CYBERCREED_research$$TABBED_NEW_LINE$—$CYBERCREED_labor$"
@@ -697,15 +697,15 @@
  concept_cybernetic_creed_jobs: "Tu Sĩ Thần Tượng Hóa Điều Khiển Học"
  concept_cybernetic_creed_jobs_desc: "—['concept_priest'] được thay thế bằng ['concept_haruspex']\n—['concept_high_priest'] được thay thế bằng ['concept_technophant']"
 
- triggered_opinion_cybernetic_creed_of_cyborgs: "Người Nghĩa Thể Thần Thánh"
+ triggered_opinion_cybernetic_creed_of_cyborgs: "Người Cơ Khí Thần Thánh"
 
  cybernetic_creed_chain_title: "Thần Tượng Hóa Điều Khiển Học"
- cybernetic_creed_chain_desc: "Trên hành trình theo đuổi tiếng gọi thần thánh, chúng ta sẽ thực hiện sự dung hợp giữa cơ thể cao quý và công nghệ nghĩa thể thần thánh. Không có bất cứ thứ gì có thể cản bước chúng ta trên con đường dẫn tới sự khai sáng.\n\n$machine_age.1090.pray$"
+ cybernetic_creed_chain_desc: "Trên hành trình theo đuổi tiếng gọi thần thánh, chúng ta sẽ thực hiện sự dung hợp giữa cơ thể cao quý và công nghệ cơ khí hóa thần thánh. Không có bất cứ thứ gì có thể cản bước chúng ta trên con đường dẫn tới sự khai sáng.\n\n$machine_age.1090.pray$"
 
  #Cybernetic Creed Jobs
  job_haruspex: "Thầy Bói Nội Tạng"
  job_haruspex_plural: "Thầy Bói Nội Tạng"
- job_haruspex_desc: "Vừa là thợ cơ khí truyền thụ phúc âm, vừa là bác sĩ phẫu thuật thần thánh, chuyển hóa [Owner.Species.GetFleshTypeCyberCreed] bị ruồng bỏ thành nghĩa thể thần thánh.\n\n$job_needs_cybrog_traits$"
+ job_haruspex_desc: "Vừa là thợ cơ khí truyền thụ phúc âm, vừa là bác sĩ phẫu thuật thần thánh, chuyển hóa [Owner.Species.GetFleshTypeCyberCreed] bị ruồng bỏ thành người cơ khí thần thánh.\n\n$job_needs_cybrog_traits$"
  job_haruspex_effect_desc: "£job_haruspex£$job_haruspex_plural$ chuyển hóa $r_consumer_goods$ thành $r_engineering$, $r_unity$ và $r_amenities$."
  job_haruspex_icon: "£job_haruspex£"
  job_haruspex_with_icon: "£job_haruspex£$job_haruspex$"
@@ -723,7 +723,7 @@
  mod_job_technophant_add: "Công việc $job_technophant$"
  mod_job_technophant_per_pop: "Mỗi $VALUE$ dân số cung cấp §G+1§! công việc $job_technophant$"
  mod_job_technophant_per_pop_short: "\nMỗi $VALUE$ £pop£ §G+1§! £mod_job_technophant_add£"
- job_needs_cybrog_traits: "§T£job£§YCông việc§! này yêu cầu £pop£§HDân số§! sở hữu §YBộ Phận Cấy Ghép Nghi Lễ§! của bất kỳ giáo phái nghĩa thể nào hoặc đặc điểm §Y$trait_cybernetic$§!.§!"
+ job_needs_cybrog_traits: "§T£job£§YCông việc§! này yêu cầu £pop£§HDân số§! sở hữu §YBộ Phận Cấy Ghép Nghi Lễ§! của bất kỳ giáo phái cơ khí hóa nào hoặc đặc điểm §Y$trait_cybernetic$§!.§!"
 
  #Cybernetic Special Traits
  trait_cyborg_creed_of_construction: "Cường Hóa Sứ Đoàn"
@@ -740,7 +740,7 @@
  trait_cyborg_creed_effects: "£leader£ §Y$leaders$§! bắt đầu với đặc tính ['leader_trait:leader_trait_ritualistic_implants_cyborg']"
  leader_trait_ritualistic_implants_cyborg_desc: "$trait_cyborg_ritualistic_implants_desc$"
 
- mod_planet_cyborg_jobs_unity_produces_mult: "£unity£$unity$ sản xuất bởi dân số nghĩa thể"
+ mod_planet_cyborg_jobs_unity_produces_mult: "£unity£$unity$ sản xuất bởi dân cư cơ khí hóa"
 
  #Fallen Empire Reactions
  action.1.desc_111: "Đứa trẻ ngu ngốc, ngươi tự xưng là am hiểu sự thần thánh, nhưng lại xúc phạm đến [Owner.Species.GetFleshTypeCyberCreed] của mình. Cần biết rằng chúng ta là [contact_empire.GetName], giống loài được chọn của thiên hà này. Đừng để cơ thể ô uế của các ngươi chạm vào thánh địa của chúng ta, nếu không hãy chuẩn bị đón nhận sự hủy diệt chớp nhoáng."
@@ -748,7 +748,7 @@
 
  #Cybernetic Situation Events
  machine_age.90.name: "Cấy Ghép Thần Thánh"
- machine_age.90.desc: "Các tín đồ đã tiết lộ những bí ẩn của công nghệ nghĩa thể cho tất cả mọi người. Tuy nhiên, hôm nay đánh dấu sự khởi đầu cho cuộc hành trình của chúng ta, giờ đây chúng ta phải toàn tâm toàn ý đón nhận sự dung hợp thần thánh."
+ machine_age.90.desc: "Các tín đồ đã tiết lộ những bí ẩn của công nghệ cơ khí hóa cho tất cả mọi người. Tuy nhiên, hôm nay đánh dấu sự khởi đầu cho cuộc hành trình của chúng ta, giờ đây chúng ta phải toàn tâm toàn ý đón nhận sự dung hợp thần thánh."
  machine_age.90.a: "Đã đến lúc rồi."
  machine_age.90.a.tooltip: "Chúng ta phải chấp nhận nhánh truyền thống ['tradition_category:tradition_cybernetics'] để bắt đầu sự dung hợp thần thánh."
  machine_age.100.name: "Giáo Đoàn Dung Hợp"
@@ -769,8 +769,8 @@
  machine_age.1010.d: "Kết Xã Lao Động có thể trao ý nghĩa cho những người công nhân của chúng ta."
  machine_age.1010.d.tooltip: "Giáo lý sẽ được hình thành xoay quanh §Y$CYBERCREED_labor$§!.\n$machine_age.1010.shared.tooltip$"
  machine_age.1010.e: "Chúng ta nên chấm dứt những giáo điều chia rẽ này."
- machine_age.1010.e.tooltip: "Thông qua cải cách để hợp nhất các giáo phái thành §Y$pft_cyber_creed_general$§!, để mỗi vật chứa sùng đạo đều có thể nhận được cải tạo nghĩa thể.\n$machine_age.1010.shared.tooltip$"
- machine_age.1010.shared.tooltip: "Tất cả các công trình liên kết với giáo phái khác đều sẽ bị thay thế bằng §YNgôi Đền§!.\nGiáo phái này sẽ trở thành §YPhe Phái Duy Tâm§! duy nhất.\nCác phe phái mang tư tưởng §YKhông Duy Tâm§! sẽ được phép xuất hiện."
+ machine_age.1010.e.tooltip: "Thông qua cải cách để hợp nhất các giáo phái thành §Y$pft_cyber_creed_general$§!, để mỗi vật chứa sùng đạo đều có thể nhận được cải tạo cơ khí hóa.\n$machine_age.1010.shared.tooltip$"
+ machine_age.1010.shared.tooltip: "Tất cả các công trình liên kết với giáo phái khác đều sẽ bị thay thế bằng §YNgôi Đền§!.\nGiáo phái này sẽ trở thành §YPhe Phái Duy Linh§! duy nhất.\nCác phe phái mang tư tưởng §YKhông Duy Linh§! sẽ được phép xuất hiện."
  machine_age.1020.name: "Ngụy Tín"
  machine_age.1020.desc.pickedacreed: "Sau khi chọn §Y[GetCyberCreed]§!, tín đồ của các giáo phái khác đã lên tiếng phản đối. Nhiều người cho rằng hành động của giáo đoàn là sự phản bội lại đức tin \"thực sự\".\n\n$machine_age.1020.both$"
  machine_age.1020.desc.nocreed: "Tín đồ của các giáo phái đang biểu tình, cho rằng giáo đoàn đã cự tuyệt chân tín.\n\n$machine_age.1020.both$"
@@ -813,7 +813,7 @@
  machine_age.1070.f: "Thuế hải quân."
  machine_age.1070.f.tooltip: "$machine_age.1070.intro$ đi tòng quân trong hải quân."
  machine_age.1070.g: "Thuế cường hóa."
- machine_age.1070.g.tooltip: "$machine_age.1070.intro$ nghiên cứu khoa học nghĩa thể thần thánh."
+ machine_age.1070.g.tooltip: "$machine_age.1070.intro$ nghiên cứu khoa học cơ khí hóa thần thánh."
  machine_age.1070.h: "Thuế tri thức."
  machine_age.1070.h.tooltip: "$machine_age.1070.intro$ nghiên cứu những bí ẩn của vũ trụ."
  machine_age.1070.i: "Thuế lao động."
@@ -825,7 +825,7 @@
  machine_age.1075.name: "Máu Và Mạch Điện"
  machine_age.1075.desc: "Thời khắc dung hợp thần thánh cuối cùng đã đến.\n\nChúng ta nên thiết lập §Y$building_augmentation_center$§! thần thánh trên hành tinh của mình để khởi động quá trình này."
  machine_age.1075.a: "$machine_age.1090.pray$"
- machine_age.1075.a.tooltip: "Cuộc cải tạo nâng cấp nghĩa thể toàn diện của các tín đồ đã bắt đầu. Mọi hoạt động khác của giáo đoàn sẽ bị đình chỉ cho đến khi sự dung hợp thần thánh hoàn tất.\n\n§RYêu cầu Hành động:§!\nXây dựng một $building_augmentation_center$ để cho cục diện §Y$situation_cybernetic_creed_cyberization$§! tiếp tục tiến triển."
+ machine_age.1075.a.tooltip: "Cuộc cải tạo nâng cấp cơ khí hóa toàn diện của các tín đồ đã bắt đầu. Mọi hoạt động khác của giáo đoàn sẽ bị đình chỉ cho đến khi sự dung hợp thần thánh hoàn tất.\n\n§RYêu cầu Hành động:§!\nXây dựng một $building_augmentation_center$ để cho cục diện §Y$situation_cybernetic_creed_cyberization$§! tiếp tục tiến triển."
  machine_age.1090.name: "Tương Lai Của Xác Thịt"
  machine_age.1090.desc: "Với việc kết thúc hành trình thần thánh, thân xác bằng máu thịt của chúng ta cuối cùng cũng đã đạt được sự dung hợp thiêng liêng giữa máy móc và [Owner.Species.GetFleshTypeCyberCreed]. Đối với các tín đồ, bước cuối cùng là lắp đặt các bộ phận cường hóa thần thánh."
  machine_age.1090.construction: "$machine_age.1090.desc$§Y$CYBERCREED_construction$§! yêu cầu thân xác của chúng ta phải trở thành một công cụ thần thánh.\n\n$machine_age.govswapnotice$\n\n$machine_age.1090.pray$"
@@ -847,12 +847,12 @@
  machine_age.1100.c.tooltip: "$machine_age.geneswaptooltip$\n$cyber.21.a.end$\n$machine_age.dictatorialgovtooltip$"
  machine_age.1100.d.tooltip: "$machine_age.geneswaptooltip$\n$cyber.21.a.end$\n$machine_age.imperialgovtooltip$"
  machine_age.1100.e.tooltip: "$machine_age.geneswaptooltip$\n$cyber.21.a.end$\n$machine_age.corporategovtooltip$"
- machine_age.govswapnotice: "Chính phủ của chúng ta sẽ hoàn toàn áp dụng khoa học nghĩa thể và tiến hành tái cơ cấu, thành lập §Y[Owner.GetGovernmentName]§!. Điều này sẽ hòa hợp với sự dung hợp cơ thể của chúng ta."
- machine_age.democraticgovtooltip: "Chế độ quyền lực của chúng ta sẽ được thay đổi thành §Y['concept_auth_cyber_creed_democratic']§! do nghĩa thể lãnh đạo."
- machine_age.oligarchicgovtooltip: "Chế độ quyền lực của chúng ta sẽ được thay đổi thành §Y['concept_auth_cyber_creed_oligarchic']§! do nghĩa thể lãnh đạo."
- machine_age.dictatorialgovtooltip: "Chế độ quyền lực của chúng ta sẽ được thay đổi thành §Y['concept_auth_cyber_creed_dictatorial']§! do nghĩa thể lãnh đạo."
- machine_age.imperialgovtooltip: "Chế độ quyền lực của chúng ta sẽ được thay đổi thành §Y['concept_auth_cyber_creed_imperial']§! do nghĩa thể lãnh đạo."
- machine_age.corporategovtooltip: "Chế độ quyền lực của chúng ta sẽ được thay đổi thành §Y['concept_auth_cyber_creed_corporate']§! do nghĩa thể lãnh đạo."
+ machine_age.govswapnotice: "Chính phủ của chúng ta sẽ hoàn toàn áp dụng khoa học cơ khí hóa và tiến hành tái cơ cấu, thành lập §Y[Owner.GetGovernmentName]§!. Điều này sẽ hòa hợp với sự dung hợp cơ thể của chúng ta."
+ machine_age.democraticgovtooltip: "Chế độ quyền lực của chúng ta sẽ được thay đổi thành §Y['concept_auth_cyber_creed_democratic']§! do người cơ khí lãnh đạo."
+ machine_age.oligarchicgovtooltip: "Chế độ quyền lực của chúng ta sẽ được thay đổi thành §Y['concept_auth_cyber_creed_oligarchic']§! do người cơ khí lãnh đạo."
+ machine_age.dictatorialgovtooltip: "Chế độ quyền lực của chúng ta sẽ được thay đổi thành §Y['concept_auth_cyber_creed_dictatorial']§! do người cơ khí lãnh đạo."
+ machine_age.imperialgovtooltip: "Chế độ quyền lực của chúng ta sẽ được thay đổi thành §Y['concept_auth_cyber_creed_imperial']§! do người cơ khí lãnh đạo."
+ machine_age.corporategovtooltip: "Chế độ quyền lực của chúng ta sẽ được thay đổi thành §Y['concept_auth_cyber_creed_corporate']§! do người cơ khí lãnh đạo."
  machine_age.geneswaptooltip: "Tín đồ trong dân chúng hiện tại có thể tiến hành chỉnh sửa gen."
  machine_age.geneslockedtooltip: "Tín đồ sẽ nhận được diện mạo của [GetCyberCreed], đây là một loạt các nâng cấp cường hóa thần thánh không thể sửa đổi."
 
@@ -862,19 +862,19 @@
  CYBERCREED_labor: "Kết Xã Lao Động"
 
  pft_cyber_creed_labor: "$CYBERCREED_labor$"
- pft_cyber_creed_labor_desc: "Kết Xã Lao Động giám sát mọi công nhân khiêm tốn và những nâng cấp cường hóa của họ, niềm tin mãnh liệt vào sự thiêng liêng của lao động thúc đẩy các hành động của họ. Chỉ có những người chăm lo cho gốc rễ mới có thể thấu hiểu được thần tính.\n\n§LĐạo đức Duy Tâm§!"
+ pft_cyber_creed_labor_desc: "Kết Xã Lao Động giám sát mọi công nhân khiêm tốn và những nâng cấp cường hóa của họ, niềm tin mãnh liệt vào sự thiêng liêng của lao động thúc đẩy các hành động của họ. Chỉ có những người chăm lo cho gốc rễ mới có thể thấu hiểu được thần tính.\n\n§LĐạo đức Duy Linh§!"
  cyber_creed_labor: "$CYBERCREED_labor$"
  pft_cyber_creed_war: "$CYBERCREED_war$"
- pft_cyber_creed_war_desc: "Thánh Vệ Thép bảo vệ thân thể, bộ phận cấy ghép nghĩa thể và tâm hồn thần thánh của chúng ta. Các bộ phận cường hóa thúc đẩy khả năng chiến đấu và quá trình huấn luyện nghiêm ngặt của họ.\n\n§LĐạo đức Duy Tâm§!"
+ pft_cyber_creed_war_desc: "Thánh Vệ Thép bảo vệ thân thể, bộ phận cấy ghép cơ khí và tâm hồn thần thánh của chúng ta. Các bộ phận cường hóa thúc đẩy khả năng chiến đấu và quá trình huấn luyện nghiêm ngặt của họ.\n\n§LĐạo đức Duy Linh§!"
  cyber_creed_war: "$CYBERCREED_war$"
  pft_cyber_creed_construction: "$CYBERCREED_construction$"
- pft_cyber_creed_construction_desc: "Sứ Đoàn Búa Khổng Lồ sản xuất những vật liệu có chất lượng cao nhất. Việc nâng cấp cường hóa của họ có thể nâng cao khả năng cho các thợ thủ công của đế chế chúng ta.\n\n§LĐạo đức Duy Tâm§!"
+ pft_cyber_creed_construction_desc: "Sứ Đoàn Búa Khổng Lồ sản xuất những vật liệu có chất lượng cao nhất. Việc nâng cấp cường hóa của họ có thể nâng cao khả năng cho các thợ thủ công của đế chế chúng ta.\n\n§LĐạo đức Duy Linh§!"
  cyber_creed_construction: "$CYBERCREED_construction$"
  pft_cyber_creed_research: "$CYBERCREED_research$"
- pft_cyber_creed_research_desc: "Khúc Ca Tư Tưởng là một cơ cấu tổ chức bán bầy đàn được tạo thành từ các nhà nghiên cứu và kỹ sư. Những ghi chép thiền định của họ có thể được sử dụng như một phương thức để chia sẻ thông tin nhanh chóng với các thành viên của hội.\n\n§LĐạo đức Duy Tâm§!"
+ pft_cyber_creed_research_desc: "Khúc Ca Tư Tưởng là một cơ cấu tổ chức bán bầy đàn được tạo thành từ các nhà nghiên cứu và kỹ sư. Những ghi chép thiền định của họ có thể được sử dụng như một phương thức để chia sẻ thông tin nhanh chóng với các thành viên của hội.\n\n§LĐạo đức Duy Linh§!"
  cyber_creed_research: "$CYBERCREED_research$"
  pft_cyber_creed_general: "Tín Ngưỡng Thống Nhất"
- pft_cyber_creed_general_desc: "Tín Ngưỡng Thống Nhất, dưới sự dẫn dắt của một liên minh gồm các Công Nghệ Hiển Thánh Sư thần thánh, đã thanh lọc mọi tín ngưỡng cực đoan. Mặc dù vậy, sự cống hiến của họ đối với sự dung hợp thần thánh vẫn không thay đổi, thoát khỏi chủ nghĩa giáo điều từng cố gắng hạn chế vinh quang của nó trong quá khứ.\n\n§LĐạo đức Duy Tâm§!"
+ pft_cyber_creed_general_desc: "Tín Ngưỡng Thống Nhất, dưới sự dẫn dắt của một liên minh gồm các Công Nghệ Hiển Thánh Sư thần thánh, đã thanh lọc mọi tín ngưỡng cực đoan. Mặc dù vậy, sự cống hiến của họ đối với sự dung hợp thần thánh vẫn không thay đổi, thoát khỏi chủ nghĩa giáo điều từng cố gắng hạn chế vinh quang của nó trong quá khứ.\n\n§LĐạo đức Duy Linh§!"
  cyber_creed_general: "$pft_cyber_creed_general$"
  pft_cyber_creed_labor_2: "$pft_cyber_creed_labor$"
  pft_cyber_creed_labor_2_desc: "$pft_cyber_creed_labor_desc$"
@@ -958,7 +958,7 @@
  cybernetic_creed_number_of_haruspex: "Công việc $job_haruspex$"
  cybernetic_creed_number_of_technophant: "Công việc $job_technophant$"
 
- cybernetic_creed_cyberization_ongoing: "Nghĩa thể hóa đang diễn ra"
+ cybernetic_creed_cyberization_ongoing: "Cơ khí hóa đang diễn ra"
  num_owned_planets: "Số lượng thuộc địa không có $building_augmentation_center$"
 
  cybercreed_faithful_unrest: "Tín Đồ Bất Mãn"
@@ -974,8 +974,8 @@
  cybercreed_allowed_non_cyborgs: "Tự Do Lựa Chọn"
  cybercreed_allowed_non_cyborgs_desc: "Xã hội của chúng ta cho phép những người không sùng đạo tiếp tục sống mà không cần phải thực hiện các nâng cấp thần thánh. Điều này tạo ra một môi trường dư luận tốt cho tôn giáo."
 
- cyber_creed_no_creed_robot_points_modifier: "Nghĩa Thể Không Ranh Giới Giáo Phái"
- cyber_creed_no_creed_robot_points_modifier_desc: "Nghiên cứu các bộ phận cường hóa thần thánh do các giáo phái sử dụng đã nâng cao sự hiểu biết của chúng ta về thiết kế nghĩa thể."
+ cyber_creed_no_creed_robot_points_modifier: "Cơ Khí Hóa Phi Giáo Phái"
+ cyber_creed_no_creed_robot_points_modifier_desc: "Nghiên cứu các bộ phận cường hóa thần thánh do các giáo phái sử dụng đã nâng cao sự hiểu biết của chúng ta về thiết kế cơ khí hóa."
 
  elevated_creed_desc: "Được chọn làm giáo phái chính thức của chúng ta."
  cybernetic_creed_construction_robot_points_modifier: "Sứ Đoàn Thăng Cấp"
@@ -988,7 +988,7 @@
  cybernetic_creed_labor_robot_points_modifier_desc: "$CYBERCREED_labor$ $elevated_creed_desc$"
 
  CANNOT_MODIFY_SELF_MODIFIED_SPECIES: "$TRIGGER_FAIL$Giống loài này đã tự sửa đổi bản thân, không thể tiến hành chỉnh sửa gen nữa."
- CANNOT_MODIFY_RITUALISTIC_IMPLANTS_SPECIES: "$TRIGGER_FAIL$Những người sở hữu bộ phận cấy ghép nghi lễ của bất kỳ giáo điều nghĩa thể nào đều không thể bị sửa đổi, đây là yêu cầu trong tín ngưỡng của họ."
+ CANNOT_MODIFY_RITUALISTIC_IMPLANTS_SPECIES: "$TRIGGER_FAIL$Những người sở hữu bộ phận cấy ghép nghi lễ của bất kỳ tín điều cơ khí hóa nào đều không thể bị sửa đổi, đây là yêu cầu trong tín ngưỡng của họ."
 
  NEEDS_GENE_TAILORING_OR_INTERGRATED_ANATOMY: "$TRIGGER_FAIL$Sửa đổi giống loài này yêu cầu một trong các điều kiện tiên quyết sau:\n—Công nghệ £society£§Y$tech_gene_tailoring$§!\n—Truyền thống £unity£§Y$tr_cybernetics_integrated_anatomy$§!"
  NEEDS_ROBOT_MODDING: "$TRIGGER_FAIL$Sửa đổi giống loài này yêu cầu:\n—Công nghệ £engineering£§Y$tech_robomodding$§!"
@@ -1009,7 +1009,7 @@
  cybercreed_tithe_navy: "Thuế Hải Quân"
  cybercreed_tithe_navy_desc: "$machine_age.1070.intro$ đi tòng quân trong hải quân."
  cybercreed_tithe_cybernetics: "Thuế Cường Hóa"
- cybercreed_tithe_cybernetics_desc: "$machine_age.1070.intro$ nghiên cứu khoa học nghĩa thể thần thánh."
+ cybercreed_tithe_cybernetics_desc: "$machine_age.1070.intro$ nghiên cứu khoa học cơ khí hóa thần thánh."
  cybercreed_tithe_research: "Thuế Tri Thức"
  cybercreed_tithe_research_desc: "$machine_age.1070.intro$ nghiên cứu những bí ẩn của vũ trụ."
  cybercreed_tithe_labor: "Thuế Lao Động"
@@ -1048,38 +1048,38 @@
 
  #Advanced Cyber Creed Authorities
  auth_cyber_creed_democratic: "Cường Hóa Thể Dân Chủ"
- auth_cyber_creed_democratic_desc: "Chính phủ nghĩa thể dân chủ coi việc bỏ phiếu là một quyền lợi thiêng liêng, cho phép các công dân đã được cường hóa lên tiếng trên nhiều nghĩa thể chính trị khác nhau, để họ hoàn thành việc giao tiếp với Thánh Linh."
+ auth_cyber_creed_democratic_desc: "Chính phủ cơ khí hóa dân chủ coi việc bỏ phiếu là một quyền lợi thiêng liêng, cho phép các công dân đã được cường hóa lên tiếng trên nhiều cơ khí hóa chính trị khác nhau, để họ hoàn thành việc giao tiếp với Thánh Linh."
  concept_auth_cyber_creed_democratic: "$auth_cyber_creed_democratic$"
  auth_cyber_creed_oligarchic: "Thần Quyền Quả Đầu Cyber"
- auth_cyber_creed_oligarchic_desc: "Chính phủ nghĩa thể quả đầu đã chọn ra một nhóm cá nhân được cường hóa cao độ để nắm giữ toàn bộ quyền lực chính trị, dẫn dắt toàn bộ xã hội nghĩa thể với độ chính xác cực cao."
+ auth_cyber_creed_oligarchic_desc: "Chính phủ cơ khí hóa quả đầu đã chọn ra một nhóm cá nhân được cường hóa cao độ để nắm giữ toàn bộ quyền lực chính trị, dẫn dắt toàn bộ xã hội cơ khí hóa với độ chính xác cực cao."
  concept_auth_cyber_creed_oligarchic: "$auth_cyber_creed_oligarchic$"
  auth_cyber_creed_dictatorial: "Thần Giáo Tổng Hợp Độc Tài"
- auth_cyber_creed_dictatorial_desc: "Chính phủ nghĩa thể độc tài chọn ra một nhà cai trị sống lâu, thông qua các bộ phận cấy ghép nghĩa thể tiên tiến để đạt được sự kiểm soát tuyệt đối, định đoạt vận mệnh của xã hội."
+ auth_cyber_creed_dictatorial_desc: "Chính phủ cơ khí hóa độc tài chọn ra một nhà cai trị sống lâu, thông qua các bộ phận cấy ghép cơ khí tiên tiến để đạt được sự kiểm soát tuyệt đối, định đoạt vận mệnh của xã hội."
  concept_auth_cyber_creed_dictatorial: "$auth_cyber_creed_dictatorial$"
  auth_cyber_creed_imperial: "Đế Chế Cyber"
- auth_cyber_creed_imperial_desc: "Chính phủ nghĩa thể quân chủ có một nhà cai trị tối cao, người thừa kế do người đó chỉ định có thể đạt được sự chuyển giao quyền lực liền mạch. Người đó có thể kết hợp tâm linh với nghĩa thể tiên tiến để tạo thành một sự thống trị vững chắc."
+ auth_cyber_creed_imperial_desc: "Chính phủ cơ khí hóa quân chủ có một nhà cai trị tối cao, người thừa kế do người đó chỉ định có thể đạt được sự chuyển giao quyền lực liền mạch. Người đó có thể kết hợp tâm linh với cơ khí hóa tiên tiến để tạo thành một sự thống trị vững chắc."
  concept_auth_cyber_creed_imperial: "$auth_cyber_creed_imperial$"
  auth_cyber_creed_corporate: "Xí Nghiệp Công Nghệ Thần Thánh"
- auth_cyber_creed_corporate_desc: "Chính phủ nghĩa thể doanh nghiệp đã vượt qua vai trò của một quốc gia truyền thống nhờ vào các bộ phận cấy ghép tiên tiến cùng với sự dung hợp giữa đức tin và công nghệ, để từ đó tìm kiếm các cơ hội kinh tế thần thánh."
+ auth_cyber_creed_corporate_desc: "Chính phủ cơ khí hóa doanh nghiệp đã vượt qua vai trò của một quốc gia truyền thống nhờ vào các bộ phận cấy ghép tiên tiến cùng với sự dung hợp giữa đức tin và công nghệ, để từ đó tìm kiếm các cơ hội kinh tế thần thánh."
  concept_auth_cyber_creed_corporate: "$auth_cyber_creed_corporate$"
 
  #Advanced Cyber Creed Government Types
- gov_cyber_creed_monarchy: "Quốc Gia Chủ Quyền Nghĩa Thể"
- gov_cyber_creed_monarchy_desc: "Nhà cai trị và người thừa kế của chính phủ quân chủ công nghệ - duy tâm là biểu tượng cao quý của sự dung hợp thần thánh. Trong đó, giáo hội trực tiếp hỗ trợ cỗ máy quốc gia."
+ gov_cyber_creed_monarchy: "Quốc Gia Chủ Quyền Cơ Khí Hóa"
+ gov_cyber_creed_monarchy_desc: "Nhà cai trị và người thừa kế của chính phủ quân chủ công nghệ - duy linh là biểu tượng cao quý của sự dung hợp thần thánh. Trong đó, giáo hội trực tiếp hỗ trợ cỗ máy quốc gia."
  gov_cyber_creed_dictatorship: "Quốc Gia Kỹ Trị Thần Thánh"
- gov_cyber_creed_dictatorship_desc: "Chính phủ độc tài công nghệ - duy tâm do một kẻ độc tài được cường hóa lãnh đạo, đóng vai trò là nhà lãnh đạo cao nhất của tầng lớp tôn giáo để cai trị một quốc gia được dẫn dắt bởi quốc giáo."
+ gov_cyber_creed_dictatorship_desc: "Chính phủ độc tài công nghệ - duy linh do một kẻ độc tài được cường hóa lãnh đạo, đóng vai trò là nhà lãnh đạo cao nhất của tầng lớp tôn giáo để cai trị một quốc gia được dẫn dắt bởi quốc giáo."
  gov_cyber_creed_oligarchy: "Giáo Đoàn Công Nghệ Hiển Thánh"
- gov_cyber_creed_oligarchy_desc: "Trong chính phủ quả đầu công nghệ - duy tâm, toàn bộ quyền lực chính trị của quốc gia đều nằm trong tay của một vài nhà lãnh đạo tôn giáo đầy quyền lực."
+ gov_cyber_creed_oligarchy_desc: "Trong chính phủ quả đầu công nghệ - duy linh, toàn bộ quyền lực chính trị của quốc gia đều nằm trong tay của một vài nhà lãnh đạo tôn giáo đầy quyền lực."
  gov_cyber_creed_democracy: "Cộng Hòa Siêu Việt"
- gov_cyber_creed_democracy_desc: "Trong chính phủ dân chủ công nghệ - duy tâm, hội đồng tôn giáo bao gồm các cá nhân được cường hóa sẽ đóng vai trò cố vấn để giám sát và hướng dẫn quá trình bầu cử."
+ gov_cyber_creed_democracy_desc: "Trong chính phủ dân chủ công nghệ - duy linh, hội đồng tôn giáo bao gồm các cá nhân được cường hóa sẽ đóng vai trò cố vấn để giám sát và hướng dẫn quá trình bầu cử."
  gov_cyber_creed_divine_empire: "Đế Chế Cường Hóa Thể Thần Thánh"
- gov_cyber_creed_divine_empire_desc: "Chính phủ này là một chế độ độc tài công nghệ - duy tâm, tất cả các vấn đề trong đời sống công cộng đều phải trải qua sự kiểm duyệt của quốc giáo, và nhà cai trị được cường hóa được xem như một vị chân thần dạo bước giữa chốn phàm trần."
+ gov_cyber_creed_divine_empire_desc: "Chính phủ này là một chế độ độc tài công nghệ - duy linh, tất cả các vấn đề trong đời sống công cộng đều phải trải qua sự kiểm duyệt của quốc giáo, và nhà cai trị được cường hóa được xem như một vị chân thần dạo bước giữa chốn phàm trần."
  gov_cyber_creed_holy_tribunal: "Tòa Án Công Nghệ Hiển Thánh"
- gov_cyber_creed_holy_tribunal_desc: "Chính phủ này là một chế độ quả đầu công nghệ duy tâm, một hội đồng giáo sĩ dưới sự dẫn dắt của ý chỉ thần thánh sẽ kiểm soát mọi cơ cấu của quốc gia."
+ gov_cyber_creed_holy_tribunal_desc: "Chính phủ này là một chế độ quả đầu công nghệ duy linh, một hội đồng giáo sĩ dưới sự dẫn dắt của ý chỉ thần thánh sẽ kiểm soát mọi cơ cấu của quốc gia."
  gov_cyber_creed_megachurch: "Thương Đoàn Giáo Hội Cường Hóa Thể"
- gov_cyber_creed_megachurch_desc: "Chính phủ này là một hệ thống hỗn hợp chú trọng cả thương mại lẫn công nghệ - duy tâm, chức vị tổng giám mục và người đứng đầu doanh nghiệp đã được hợp nhất thành một vị trí duy nhất."
+ gov_cyber_creed_megachurch_desc: "Chính phủ này là một hệ thống hỗn hợp chú trọng cả thương mại lẫn công nghệ - duy linh, chức vị tổng giám mục và người đứng đầu doanh nghiệp đã được hợp nhất thành một vị trí duy nhất."
  gov_cyber_creed_subversive_cult: "Tà Giáo Cơ Khí"
- gov_cyber_creed_subversive_cult_desc: "Chính phủ này là một tập đoàn tôn giáo, duy trì sự tồn tại của bản thân thông qua nhiều tổ chức tội phạm và doanh nghiệp tập trung vào nghĩa thể."
+ gov_cyber_creed_subversive_cult_desc: "Chính phủ này là một tập đoàn tôn giáo, duy trì sự tồn tại của bản thân thông qua nhiều tổ chức tội phạm và doanh nghiệp tập trung vào cơ khí hóa."
 
  #Advanced Government Edicts
  edict_cybernetic_creed_construction_edict: "Chiếc Búa Của Đức Hạnh"
@@ -1210,11 +1210,11 @@
  concept_augmentation_bazaars_branch: "$building_augmentation_bazaars_branch$"
 
  civic_augmentation_bazaars: "Chợ Cường Hóa"
- civic_augmentation_bazaars_desc: "§RCẢNH BÁO: Vô hiệu hóa tất cả Đặc Quyền Thăng Hoa ngoại trừ ['concept_cybernetic_ascension'].§!\n\nCông nghệ cải tạo nghĩa thể ngày nay đã tạo ra những khu chợ như mê cung, tràn ngập các cửa hàng nâng cấp cường hóa nghĩa thể giá rẻ, những phòng khám cải tạo cơ thể mờ ám cùng những biển quảng cáo sáng chói đến mức gây khó chịu. Bất kể mức thu nhập của bạn là bao nhiêu, bạn đều có thể trải nghiệm sự kết hợp giữa xác thịt và mạch điện."
+ civic_augmentation_bazaars_desc: "§RCẢNH BÁO: Vô hiệu hóa tất cả Đặc Quyền Thăng Hoa ngoại trừ ['concept_cybernetic_ascension'].§!\n\nCông nghệ cải tạo cơ khí hóa ngày nay đã tạo ra những khu chợ như mê cung, tràn ngập các cửa hàng nâng cấp cường hóa cơ khí hóa giá rẻ, những phòng khám cải tạo cơ thể mờ ám cùng những biển quảng cáo sáng chói đến mức gây khó chịu. Bất kể mức thu nhập của bạn là bao nhiêu, bạn đều có thể trải nghiệm sự kết hợp giữa xác thịt và mạch điện."
  civic_tooltip_augmentation_bazaars_effects: "—$SPECIES_TRAITS$ cho phép chọn ['concept_universal_augmentations_traits']$NEW_LINE$—$AVAILABLE_BUILDINGS$['concept_augmentation_bazaars']$NEW_LINE$—$AVAILABLE_HOLDINGS$['concept_augmentation_bazaars_branch']$NEW_LINE$—£job_executive£§Y$job_executive_plural$§! được thay thế bằng £job_augmentation_merchant£§Y$job_augmentation_merchant_plural$§!"
 
- concept_basic_cyborg_trait: "Đặc Điểm Nghĩa Thể Cơ Bản"
- concept_basic_cyborg_trait_desc: "Các đặc điểm nghĩa thể cơ bản bao gồm: $NEW_LINE$—['trait:trait_cyborg_power_drills']$NEW_LINE$—['trait:trait_cyborg_harvesters']$NEW_LINE$—['trait:trait_cyborg_superconductive']"
+ concept_basic_cyborg_trait: "Đặc Điểm Người Cơ Khí Cơ Bản"
+ concept_basic_cyborg_trait_desc: "Các đặc điểm người cơ khí cơ bản bao gồm: $NEW_LINE$—['trait:trait_cyborg_power_drills']$NEW_LINE$—['trait:trait_cyborg_harvesters']$NEW_LINE$—['trait:trait_cyborg_superconductive']"
 
  councilor_augmentation_bazaars: "Tổng Giám Đốc Cấy Ghép"
  councilor_augmentation_bazaars_female: "Tổng Giám Đốc Cấy Ghép"
@@ -2762,7 +2762,7 @@
  automodding_trait_biological_tooltip: "$automodding_trait_tooltip_all$\n\n§Y$trait_auto_mod_biological$§! có thể chọn bộ sửa đổi từ ['concept_automodding_biological']"
  automodding_trait_robotic_tooltip: "$automodding_trait_tooltip_all$\n\n§Y$trait_auto_mod_robotic$§! có thể chọn bộ sửa đổi từ ['concept_automodding_robotic']"
  automodding_trait_overtuned_tooltip: "$automodding_trait_tooltip_all$\n\n§Y$trait_auto_mod_overtuned$§! có thể chọn bộ sửa đổi từ ['concept_automodding_overtuned']"
- automodding_trait_cyborg_tooltip: "$automodding_trait_tooltip_all$\n\n§Y$trait_auto_mod_cyborg$§! có thể chọn bộ sửa đổi từ ['concept_automodding_cyborg']\n\n$CYBORG_ENERGY_UPKEEP_EFFECT$"
+ automodding_trait_cyborg_tooltip: "$automodding_trait_tooltip_all$\n\n§Y$trait_auto_mod_cyborg$§! chọn các hệ số điều chỉnh từ ['concept_automodding_cyborg']"
  trait_auto_mod_biological: "Hệ Gen Nghề Nghiệp"
  trait_auto_mod_biological_desc: "Chuỗi gen tiên tiến được trang bị các bộ kích hoạt ngoại di truyền thích ứng với nhu cầu nghề nghiệp, có thể điều chỉnh động quá trình biểu hiện gen dựa vào môi trường làm việc của người sở hữu."
  trait_auto_mod_cyborg: "Bộ Nâng Cấp Đa Năng"
@@ -2789,7 +2789,7 @@
  concept_universal_augmentations_traits: "Đặc điểm $trait_auto_mod_cyborg$"
  concept_universal_augmentations_traits_desc: "$concept_universal_augmentations_traits$ là một loại đặc điểm giống loài có thể tự động điều chỉnh thông qua đặc điểm ['trait:trait_auto_mod_cyborg'].$NEW_LINE$$concept_automodding_cyborg_desc$"
  concept_automodding_cyborg: "Danh sách Đặc Điểm Tự Đổi Cơ Khí Hóa"
- concept_automodding_cyborg_desc: "—['trait:trait_cyborg_loyalty_circuits']\n—['trait:trait_cyborg_trading_algorithms']\n—['trait:trait_cyborg_logic_engines']\n—['trait:trait_cyborg_power_drills']\n—['trait:trait_cyborg_harvesters']\n—['trait:trait_cyborg_superconductive']\n—['trait:trait_cyborg_stainless_steel_smile']"
+ concept_automodding_cyborg_desc: "- ['trait:trait_cyborg_propaganda_machines']\n- ['trait:trait_cyborg_trading_algorithms']\n- ['trait:trait_cyborg_logic_engines']\n- ['trait:trait_cyborg_power_drills']\n- ['trait:trait_cyborg_harvesters']\n- ['trait:trait_cyborg_superconductive']\n- ['trait:trait_cyborg_stainless_steel_smile']"
 
 ######################
 # MACHINE AGE TRAITS #
@@ -2906,7 +2906,7 @@
  TECH_UNLOCK_LEVIATHAN_MACHINE_DESC: "Cho phép chúng ta thêm các đặc điểm của Thú Vũ Trụ vào giống loài người máy thông qua công nghệ chỉnh sửa giống loài."
 
  INTEGRATED_WEAPONRY_TT: "Sát thương lục quân: §G+100%§!\nHiệu suất việc làm [enforcer.GetIcon][enforcer.GetName]: §G+20%§!"
- INTEGRATED_WEAPONRY_CYBORG_TT: "$INTEGRATED_WEAPONRY_TT$\n$CYBORG_ENERGY_UPKEEP_EFFECT$"
+ INTEGRATED_WEAPONRY_CYBORG_TT: "$INTEGRATED_WEAPONRY_TT$"
  mod_planet_jobs_robot_worker_produces_mult: "Sản lượng tài nguyên của dân số [GetWorker] người máy"
  trait_robot_ancient_dreadnought: "Dreadnought Cổ Đại"
  trait_robot_ancient_dreadnought_desc: "Thông qua việc lắp đặt mô-đun năng lượng thu nhỏ, năng lực sản xuất công nghiệp và hỏa lực của vũ khí tích hợp trong khung máy được nâng cao đáng kể."
@@ -2948,7 +2948,7 @@
  bath_attendant_individual_machine: "$job_bath_attendant_individual_machine$"
  job_bath_attendant_individual_machine: "Thiết Bị Đầu Cuối Bôi Trơn"
  job_bath_attendant_individual_machine_plural: "Thiết Bị Đầu Cuối Bôi Trơn"
- job_bath_attendant_individual_machine_desc: "Thiết Bị Đầu Cuối Bôi Trơn £job_bath_attendant_machine£ chuyển hóa $r_alloys$ thành £pop£ §YDân số máy móc§! mới, nhưng làm tăng mức sử dụng £amenities£ §RTiện nghi§!. $bath_attendant_urban_effects_tt$"
+ job_bath_attendant_individual_machine_desc: "£job_bath_attendant_machine£ Các Trạm Bôi Trơn chuyển hóa $r_alloys$ thành £pop£ §YDân Cư Máy Móc§! mới nhưng làm tăng £amenities£ §RMức Tiêu Thụ Tiện Nghi§!."
 
  roboticist_is_mutagenic_tt: "£job_roboticist£ $job_roboticist_plural$ chuyển hóa thành £job_bath_attendant_individual_machine£ $job_bath_attendant_individual_machine_plural$"
 
@@ -3063,7 +3063,7 @@
  tr_virtuality_5_delayed: "Thông qua các giao thức bảo trì tỉ mỉ, chúng ta có thể triển khai máy chủ chính đến những khu vực trước đây bị coi là quá khắc nghiệt, ranh giới hoạt động của chúng ta đã được mở rộng."
 
  tr_virtuality_adopt_modifier_desc: "Thêm đặc điểm §Y$trait_robot_digital_1$§! cho giống loài chính\n§R£pop£ §HDân số ảo§! không thể bị buộc di cư nữa§!"
- tr_virtuality_1_modifier_desc: "Đặc điểm giống loài §Y$trait_robot_digital_1$§! nhận được các hiệu ứng sau: $TABBED_NEW_LINE$—$MOD_POP_BONUS_WORKFORCE_MULT$: §G+175%§! (Trừ §R-25%§! cho mỗi thuộc địa) $TABBED_NEW_LINE$—Phí bảo trì dân số: Tăng §R+0.1§! $r_energy$ cho mỗi thuộc địa"
+ tr_virtuality_1_modifier_desc: "Đặc tính Loài §Y$trait_robot_digital_1$§! nhận thêm các hiệu ứng sau:$TABBED_NEW_LINE$- $MOD_POP_BONUS_WORKFORCE_MULT$: §G+75%§! (§R-10%§! mỗi Thuộc địa)$TABBED_NEW_LINE$- Chi phí duy trì Dân cư: §R+0.1§! $r_energy$ mỗi Thuộc địa"
  tr_virtuality_3_modifier_desc: "§YMở khóa chính sách§!: $virtuality_focus$\nCho phép chuyên môn hóa các tiến trình ảo của chúng ta để nâng cao §YNghiên cứu§!, §YĐiểm thống nhất§! hoặc tăng cường sức mạnh cho §YNhà lãnh đạo§! của chúng ta"
  tr_virtuality_4_modifier_desc: "Cung cấp các đặc khu §Y[GetClerkOrLogisticDrone]§!, §Y[GetBureaucratWithIcon]§! hoặc £job_researcher£ §Y[GetResearcherPlural]§! mang lại thêm việc làm"
  job_maintenance_drone_with_icon: "[maintenance_drone.GetIcon][maintenance_drone.GetName]"
@@ -3086,8 +3086,8 @@
 
  trait_robot_digital_1: "Ảo Hóa"
  trait_robot_digital_2: "$trait_robot_digital_1$"
- trait_robot_digital_1_tt: "§RKhông thể bị bán trên thị trường nô lệ hoặc bị bắt cóc§!\nMức sử dụng nhà ở của dân số: §G-90%§!\nĐộ sống sót tối thiểu của giống loài: §G+25%§!"
- trait_robot_digital_2_tt: "$trait_robot_digital_1_tt$\n$MOD_POP_BONUS_WORKFORCE_MULT$: §G+175%§! (Trừ §R-25%§! cho mỗi thuộc địa)\nPhí bảo trì dân số: Tăng §R+0.1§! £energy£ §YNăng lượng§! cho mỗi thuộc địa"
+ trait_robot_digital_1_tt: "§RKhông thể bị bán trên Thị trường Nô lệ hoặc bị Bắt cóc§!"
+ trait_robot_digital_2_tt: "$trait_robot_digital_1_tt$\n$MOD_POP_BONUS_WORKFORCE_MULT$: §G+75%§! (§R-10%§! mỗi Thuộc địa)\nChi phí duy trì Dân cư: §R+0.1§! £energy£ §YNăng lượng§! mỗi Thuộc địa"
  trait_robot_digital_1_desc: "§LChúng ta đã rũ bỏ được xiềng xích của cơ thể nguyên thủy và đang sẵn sàng để thấu hiểu bí ẩn tối thượng của vũ trụ.§!"
  trait_robot_digital_2_desc: "$trait_robot_digital_1_desc$"
  mod_planet_virtual_jobs_produces_mult: "Tài nguyên do Dân số Ảo tạo ra"

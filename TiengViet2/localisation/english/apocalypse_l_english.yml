@@ -278,12 +278,12 @@
  HAS_NOT_NUM_OWNED_ACTIVE_GATEWAYS:0 "Số lượng Cổng Không Gian đang hoạt động do chúng ta sở hữu KHÔNG $COMPARATOR$ $NUM|Y$"
  HAS_NUM_OWNED_ACTIVE_GATEWAYS:0 "Số lượng Cổng Không Gian đang hoạt động do chúng ta sở hữu là $COMPARATOR$ $NUM|Y$"
 
- gateway_0_MEGASTRUCTURE_DETAILS:2 ""
+ gateway_0_MEGASTRUCTURE_DETAILS:2 "Một cánh cổng xuyên qua không gian con cho phép dịch chuyển tức thời tới các §YCổng Không Gian§! khác."
  gateway_0:0 "Địa Điểm Xây Dựng Cổng Không Gian"
  gateway_0_DESC:0 "Một khu vực không gian đã được giải phóng mặt bằng để xây dựng Cổng Không Gian."
  gateway_final:0 "Cổng Không Gian"
  gateway_final_DESC:0 "Một kỳ quan kỹ thuật siêu không gian cho phép du hành gần như tức thời đến bất kỳ Cổng Không Gian đang hoạt động nào khác trong thiên hà."
- gateway_final_MEGASTRUCTURE_DETAILS:1 ""
+ gateway_final_MEGASTRUCTURE_DETAILS:1 "Không thể xây dựng siêu cấu trúc này quá xa giếng trọng trường của một hệ sao"
  MEGASTRUCTURE_BUILD_OUTSIDE_GRAVITY_WELL:1 "$TRIGGER_FAIL$Phải được xây dựng bên ngoài giếng trọng lực của hệ sao."
  MEGASTRUCTURE_BUILD_CANNOT_MOVE_TO_TARGET:1 "$TRIGGER_FAIL$Tàu xây dựng không thể tiếp cận vị trí xây dựng đã chọn."
  MEGASTRUCTURE_BUILD_INSIDE_SYSTEM_RADIUS: "$TRIGGER_FAIL$Phải được xây dựng bên trong bán kính biên của hệ sao."
@@ -482,7 +482,7 @@
 
  planet_destruction.301.name:0 "Đã Quét Neutron"
  planet_destruction.301.nobots.desc:0 "Luồng bức xạ neutron của [From.From.GetName] lụi tàn dần, hoàn tất đợt quét bề mặt của [From.GetName]. Quét cảm biến báo cáo không còn dấu hiệu của sự sống có tri giác; đời sống thực vật, dù bị hư hại, có thể hồi phục theo thời gian. Một số kẻ sẽ gọi sự hủy diệt hoàn toàn sự sống thông minh, trong khi bảo tồn vật chất vô tri, là một tội ác chiến tranh đồi bại.\n\nChúng ta gọi đó là hiệu quả."
- planet_destruction.301.bots.desc:0 "Luồng bức xạ neutron của [From.From.GetName] lụi tàn dần, hoàn tất đợt quét bề mặt của [From.GetName]. Quét cảm biến báo cáo không còn dấu hiệu của sự sống có tri giác; chỉ có các cỗ máy và mạng lưới máy bay không người lái của chúng ta trên bề mặt là không hề hấn gì."
+ planet_destruction.301.bots.desc:0 "Luồng bức xạ neutron của [From.From.GetName] lụi tàn dần, hoàn tất đợt quét bề mặt của [From.GetName]. Quét cảm biến báo cáo không còn dấu hiệu của sự sống có tri giác; chỉ có các cỗ máy và mạng lưới thiết bị tự hành của chúng ta trên bề mặt là không hề hấn gì."
  planet_destruction.301.infested.desc:0 "Luồng bức xạ neutron của [From.From.GetName] đã thiêu rụi toàn bộ các khối sinh khối nhiễm khuẩn trên [From.GetName]. Thế giới giờ đây đã được thanh lọc hoàn toàn khỏi mọi mầm mống ký sinh."
 
  planet_destruction.401.name:0 "Tia Phán Quyết Giáng Xuống"

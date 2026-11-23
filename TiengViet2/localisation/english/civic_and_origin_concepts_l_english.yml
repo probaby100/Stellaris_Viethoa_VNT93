@@ -312,7 +312,7 @@
  concept_orders_demesne_desc: "- Việc làm [knight.GetIcon] ['concept_knight', [knight.GetName]]: §G+50§!\n\n§L$district_orders_demesne_desc$§!"
 
  concept_knight_commandery: "$holding_knight_commandery$"
- concept_knight_commandery_desc: "£mod_country_naval_cap_add£ $MOD_COUNTRY_NAVAL_CAP_ADD$: §G+4§!\n£mod_job_knight_add£ ['concept_overlord_knight', $job_overlord_knight$] Jobs: §G+100§!\n\n§L$holding_knight_commandery_desc$§!"
+ concept_knight_commandery_desc: "£mod_country_naval_cap_add£ $MOD_COUNTRY_NAVAL_CAP_ADD$: §G+4§!\n£mod_job_knight_add£ Việc làm ['concept_overlord_knight', $job_overlord_knight$]: §G+100§!\n\n§L$holding_knight_commandery_desc$§!"
 
  concept_knights_quest: "$situation_toxic_knights$"
  concept_knights_quest_desc: "Mở khóa các hiệu số mạnh mẽ cho việc làm [knight.GetIcon] §I[knight.GetName]§! và §I$concept_toxic_features$§!.\n\n§L$situation_toxic_knights_desc$§!"
@@ -386,7 +386,7 @@
  concept_payback_unified_purpose_desc: "- $MOD_POP_HAPPINESS$: §G+15%§!\n- $MOD_PLANET_AMENITIES_MULT$: §G+25%§!\n- $mod_planet_jobs_produces_mult$: §G+10%§!\n- Việc làm ['concept_unifier', $job_unifier$]: §G+200§!\n- Sẽ hết hạn sau §I20§! Năm\n\n§L$payback_unified_purpose_desc$§!"
 
  concept_advanced_infrastructure: "Cơ Sở Hạ Tầng Tiên Tiến"
- concept_advanced_infrastructure_desc: "$NEW_LINE$- ['concept_bureaucrat_1', £building£ $building_bureaucratic_1$] và ['concept_commercial_zone', £building£ $building_commercial_zone$] được thay thế bởi:$TABBED_NEW_LINE$- ['concept_clinic', £building£ $building_medical_2$]$TABBED_NEW_LINE$- ['concept_mineral_purification_plant', £building£ $building_mineral_purification_plant$]$TABBED_NEW_LINE$- ['concept_energy_grid', £building£ $building_energy_grid$]"
+ concept_advanced_infrastructure_desc: "$NEW_LINE$- ['concept_bureaucratic_1', £building£ $building_bureaucratic_1$] và ['concept_commercial_zone', £building£ $building_commercial_zone$] được thay thế bởi:$TABBED_NEW_LINE$- ['concept_clinic', £building£ $building_medical_2$]$TABBED_NEW_LINE$- ['concept_mineral_purification_plant', £building£ $building_mineral_purification_plant$]$TABBED_NEW_LINE$- ['concept_energy_grid', £building£ $building_energy_grid$]"
 
  concept_payback_debris_field: "$payback_debris_field$"
  concept_payback_debris_field_desc: "- $MOD_POP_ENVIRONMENT_TOLERANCE$: §R-30%§!\n- $mod_planet_structures_cost_mult$: §R+15%§!\n- $mod_planet_structures_upkeep_mult$: §R+50%§!\n- Mức Độ Tàn Phá Ban Đầu: §R33%§!\n\n§L$payback_debris_field_desc$§!"

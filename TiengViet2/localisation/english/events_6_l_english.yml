@@ -815,7 +815,7 @@
  ancrel.15010.desc:0 "Các nhà khoa học của chúng ta phát hiện ra những hoa văn khổng lồ được khắc sâu vào đất đá bên dưới tán rừng của [From.Planet.GetName]. Chúng dường như chỉ dẫn tới một địa điểm cổ xưa bí mật."
 
  ancrel.15000.name:0 "Chào Mừng Đến Với Rừng Rậm"
- ancrel.15000.desc:0 "Trước tán rừng bất khả xâm phạm trên [From.Planet.GetName], các đội khai quật sẽ phải dùng máy cắt laser và máy bay không người lái để dọn đường tiếp cận tọa độ mục tiêu."
+ ancrel.15000.desc:0 "Trước tán rừng bất khả xâm phạm trên [From.Planet.GetName], các đội khai quật sẽ phải dùng máy cắt laser và thiết bị tự hành để dọn đường tiếp cận tọa độ mục tiêu."
  ancrel.15000.a:0 "Đã hiểu."
 
  ancrel.15001.name:0 "Biến Đổi Tâm Linh"
@@ -956,7 +956,7 @@
  anomaly.7010.desc.base:0 "Cỗ máy cựa mình, những cơ cấu cổ xưa lách cách bên trong khối kim loại dày đặc khi một khoang chứa hình trụ trượt ra ngoài. "
  anomaly.7010.a:0 "Đăng ký bản quyền đồ uống. Bán nó cho toàn thiên hà."
  anomaly.7010.desc.full:0 "Khoang chứa này chứa một loại đồ uống cổ đại, vẫn còn sủi bọt một cách thần kỳ sau hàng thiên niên kỷ! Mùi thơm ngào ngạt lan tỏa khắp phòng thí nghiệm."
- anomaly.7010.desc.full.megacorp:0 "$anomaly.7010.desc.base$$anomaly.7010.desc.full$ Các chuyên gia thương mại của chúng ta nhận ra ngay tiềm năng lợi nhuận khổng lồ từ công thức nước giải khát vũ trụ này."
+ anomaly.7010.desc.full.megacorp:0 "$anomaly.7010.desc.base$$anomaly.7010.desc.full$ Theo dữ liệu thị trường của chúng ta, thức uống bị lãng quên từ lâu này thơm ngon hơn 20% so với dòng sản phẩm đồ uống hiện tại dành cho các thực thể sinh học của chúng ta."
  anomaly.7010.desc.full.nonbio:0 "$anomaly.7010.desc.base$$anomaly.7010.desc.full$ Dù chúng ta không tiêu thụ đồ uống hữu cơ, các [Owner.GetScientistPlural] vẫn có thể phân tích thành phần để thu được §YHiểu Biết Xã Hội§! sâu sắc."
  anomaly.7010.desc.full.bio:0 "$anomaly.7010.desc.base$$anomaly.7010.desc.full$ Các [Owner.GetScientistPlural] của chúng ta đã nếm thử và xác nhận đây là loại thức uống ngon nhất từng được tạo ra trong lịch sử thiên hà!"
  anomaly.7010.desc.empty:0 "$anomaly.7010.desc.base$Khoang chứa hoàn toàn trống rỗng, những giọt chất lỏng cuối cùng dường như đã bốc hơi từ hàng ngàn năm trước."

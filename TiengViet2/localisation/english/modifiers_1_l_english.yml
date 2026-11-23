@@ -528,7 +528,7 @@
  mod_planet_building_crystal_plant_build_speed_mult:0 "Tốc độ xây nhà máy tổng hợp pha lê"
  mod_planet_districts_cities_cost_mult:0 "Chi phí xây khu đô thị"
  mod_planet_district_city_build_speed_mult:0 "Tốc độ xây khu đô thị"
- mod_planet_district_hive_build_speed_mult: "Tốc độ xây khu tổ ong"
+ mod_planet_district_hive_build_speed_mult: "Tốc độ xây khu bầy đàn"
  mod_planet_district_nexus_build_speed_mult: "Tốc độ xây khu trung tâm"
  mod_planet_buildings_strongholds_upkeep_mult:0 "Phí duy trì pháo đài"
  mod_planet_district_arcology_industrial_speed_mult:0 "Tốc độ xây thành phố công nghiệp lý tưởng"
@@ -1835,7 +1835,7 @@
  mod_MACHINE_species_trait_points_add:0 "Điểm cải tiến máy móc"
  mod_BIOLOGICAL_species_trait_points_add:0 "$species_trait_points_add$ sinh vật hữu cơ"
  mod_pc_machine_habitability:0 "Độ thích nghi của thế giới máy móc"
- mod_pc_hive_habitability:0 "Độ thích nghi của thế giới tổ ong"
+ mod_pc_hive_habitability:0 "Độ thích nghi của thế giới bầy đàn"
  MOD_POSTFIX_PERCENT:1 "%"
 
  SPECIES_TRAIT_PICKS:0 "Lựa chọn đặc điểm giống loài"

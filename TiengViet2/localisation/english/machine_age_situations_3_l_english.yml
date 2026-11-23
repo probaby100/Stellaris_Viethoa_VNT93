@@ -16,7 +16,7 @@
  transformation_speed: "Tốc độ tình huống §Y$situation_transformation$§!"
  situation_transformation_pause_desc: "$situation_cyberization_pause_desc$"
  REQUIRES_FINISHED_TRANSFORMATION: "$TRIGGER_FAIL$Đã hoàn thành tình huống §Y$situation_transformation$§!"
- machine_drone: "drone"
+ machine_drone: "cá thể máy"
  machine_drone_plural: "các drone"
  machine_person: "cá thể"
  machine_person_plural: "các cá thể"

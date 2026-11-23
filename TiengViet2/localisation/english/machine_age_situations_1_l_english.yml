@@ -1084,7 +1084,7 @@
 ### CYBERIZATION SITUATION START - HIVE VARIANT ###
  situation_cyberization_hive: "Cơ Khí Hóa"
  situation_cyberization_hive_type: "Tình Huống Thăng Hoa"
- situation_cyberization_hive_desc: "Một Ý Thức Tổ Ong cần những thể xác vượt trội. Với các thiết bị cấy ghép cơ thể máy, các drone của chúng ta có thể được hoàn thiện, tăng cường, tái định hình.\nĐã đến lúc vượt qua những giới hạn sinh học của chúng ta.\n\n§YDân số nhận cấy ghép trong tháng tới§!: §G[From.GetCyberPopsPerMonth]§!"
+ situation_cyberization_hive_desc: "Một Tâm Trí Bầy Đàn cần những thể xác vượt trội. Với các thiết bị cấy ghép cơ thể máy, các drone của chúng ta có thể được hoàn thiện, tăng cường, tái định hình.\nĐã đến lúc vượt qua những giới hạn sinh học của chúng ta.\n\n§YDân số nhận cấy ghép trong tháng tới§!: §G[From.GetCyberPopsPerMonth]§!"
  situation_cyberization_hive_monthly_change_tooltip: "Thể xác của chúng ta sẽ trở thành cơ thể máy, một sự dung hợp hoàn hảo giữa sinh học và máy móc."
  situation_cyberization_hive_outcome: "Dân số được cơ khí hóa."
  stage_cyberization_hive_effects: "Chúng ta phải tự thiết kế các thiết bị cấy ghép cơ thể máy, lắp đặt chúng và tự biến đổi chính mình."
@@ -1094,7 +1094,7 @@
  situation_cyberization_researching_alternatives_desc: "Nghiên Cứu Thiết Bị Cấy Ghép Thay Thế"
  situation_cyberization_hive_triggered_modifier: "Thêm bổ trợ tình huống §Y$situation_cyberization_hive$§!:\n"
 
- triggered_opinion_hive_integrated: "Ý Thức Tổ Ong Tích Hợp"
+ triggered_opinion_hive_integrated: "Tâm Trí Bầy Đàn Tích Hợp"
  cyber_hive_imperfect_drones: "Drone Chưa Hoàn Hảo"
  cyber_hive_imperfect_drones_desc: "Mọi cá thể đều có ích."
  cyber_hive_recycling_implants: "Tái Chế Cấy Ghép"
@@ -1114,21 +1114,21 @@
 
 ### AUTHORITIES ###
 # VOLITIONAL
- auth_cyber_hive_volitional: "Ý Thức Tổ Ong Tự Nguyện"
- auth_cyber_hive_volitional_desc: "Mỗi drone là một cá nhân. Mỗi ý nghĩ là một góc nhìn mới để tập thể xem xét. Vô số tâm trí hợp thành một Tổ Ong vĩ đại hơn nhiều so với tổng số các phần tử của nó."
+ auth_cyber_hive_volitional: "Tâm Trí Bầy Đàn Tự Nguyện"
+ auth_cyber_hive_volitional_desc: "Mỗi drone là một cá nhân. Mỗi ý nghĩ là một góc nhìn mới để tập thể xem xét. Vô số tâm trí hợp thành một Bầy Đàn vĩ đại hơn nhiều so với tổng số các phần tử của nó."
  concept_auth_cyber_hive_volitional: "$auth_cyber_hive_volitional$"
  gov_cyber_hive_volitional: "$auth_cyber_hive_volitional$"
  gov_cyber_hive_volitional_desc: "$auth_cyber_hive_volitional_desc$"
 
 # INTEGRATED
- auth_cyber_hive_integrated: "Ý Thức Tổ Ong Tích Hợp"
- auth_cyber_hive_integrated_desc: "Mọi sự lệch lạc đều đã được sửa chữa, mọi sự bất thường bị ngăn chặn, mọi sự chia rẽ được chấn chỉnh. Quyền kiểm soát của Ý Thức Tổ Ong là tuyệt đối: một ý thức chung duy nhất và vô số thể xác để thực thi ý chí đó."
+ auth_cyber_hive_integrated: "Tâm Trí Bầy Đàn Tích Hợp"
+ auth_cyber_hive_integrated_desc: "Mọi sự lệch lạc đều đã được sửa chữa, mọi sự bất thường bị ngăn chặn, mọi sự chia rẽ được chấn chỉnh. Quyền kiểm soát của Tâm Trí Bầy Đàn là tuyệt đối: một ý thức chung duy nhất và vô số thể xác để thực thi ý chí đó."
  concept_auth_cyber_hive_integrated: "$auth_cyber_hive_integrated$"
  gov_cyber_hive_integrated: "$auth_cyber_hive_integrated$"
  gov_cyber_hive_integrated_desc: "$auth_cyber_hive_integrated_desc$"
 
 ### EDICTS ###
- edict_hive_mind_outreach: "Mở Rộng Ý Thức Tổ Ong"
+ edict_hive_mind_outreach: "Mở Rộng Tâm Trí Bầy Đàn"
  edict_hive_mind_outreach_desc: "Ý chí của một tâm trí kiên định di chuyển nhanh hơn tốc độ ánh sáng."
  concept_edict_hive_mind_outreach: "$edict_hive_mind_outreach$"
  edict_hive_hyper_stimulants: "Chất Siêu Kích Thích"
@@ -1165,7 +1165,7 @@
  cyber.2220.b: "Tìm kiếm các giải pháp cấy ghép thay thế."
 
  cyber.2260.name: "Vạn Bản Mẫu. Một Bản Thiết Kế."
- cyber.2260.desc: "Mục tiêu cơ bản của chương trình nghiên cứu cơ thể máy của chúng ta đã hoàn tất. Chúng ta đã hoàn thiện các thiết bị cấy ghép của mình và hiện đã sẵn sàng trang bị chúng cho các drone.\n\nKhi kế hoạch của chúng ta trở thành hiện thực, đã đến lúc đưa ra một lựa chọn then chốt: các thiết bị cấy ghép mới của chúng ta sẽ phục vụ mục đích gì? Chúng ta có nên tập trung vào việc biến drone thành những công nhân chăm chỉ, những chiến binh hung hãn, hay nâng cao năng lực nhận thức của chúng?"
+ cyber.2260.desc: "Một tỷ lệ nhỏ các đối tượng thử nghiệm của chúng ta đang gặp phản ứng bất lợi với việc cấy ghép cường hóa. Cơ thể chúng đào thải các thiết bị cấy ghép, kéo theo những tác dụng phụ đe dọa tính mạng. Nguyên nhân dường như bắt nguồn từ một khiếm khuyết di truyền chưa từng được phát hiện trước đây. Theo tính toán sơ bộ, tình trạng này ảnh hưởng tới khoảng 5% quần thể cá thể thợ của chúng ta.\n\nSau khi xác định được vấn đề, giờ đây chúng ta có thể sàng lọc các cá thể thợ để phòng ngừa, nhưng vẫn chưa rõ nên xử lý số dân cư đã bị ảnh hưởng ra sao."
  cyber.2260.a: "Drone của chúng ta sẽ sản xuất."
  cyber.2260.a.tt: "Tốc độ tiến trình tình huống §Y$situation_cyberization_hive$§! trong §Y1§! năm: §G+20%§!\n$UNLOCKS_CYBER_STANDARDS_POLICY$"
  cyber.2260.b: "Drone của chúng ta sẽ chiến đấu."
@@ -1192,7 +1192,7 @@
  cyber.2320.c.tt: "Giảm bớt đánh giá của các đế chế không phải Gestalt đối với chúng ta."
 
  cyber.2360.name: "Một Dân Số, Hai Nhóm"
- cyber.2360.desc: "Tiến trình cơ khí hóa Tổ Ong của chúng ta đang tiếp tục diễn ra êm đẹp. Một phần dân số của chúng ta giờ đây mang trên mình các thiết bị cấy ghép cơ thể máy, trong khi những cá thể khác vẫn hoàn toàn là sinh học. Chưa bao giờ chúng ta trải nghiệm sự khác biệt nổi bật đến thế giữa chính bản thân mình. Các drone giờ đây có thể tự nhận diện mình là một phần của nhóm này hay nhóm kia, và sự chia rẽ này đang mở rộng ý thức về bản ngã cá nhân của chúng.\n\nMột số drone đã bắt đầu tô điểm cho mình bằng các phụ kiện nhỏ, hoặc vẽ các biểu tượng lên thiết bị cấy ghép của chúng để phân biệt nhau. Đó là một bước phát triển đầy thú vị, nhưng cũng không kém phần đáng lo ngại."
+ cyber.2360.desc: "Tiến trình cơ khí hóa Bầy Đàn của chúng ta đang tiếp tục diễn ra êm đẹp. Một phần dân số của chúng ta giờ đây mang trên mình các thiết bị cấy ghép cơ thể máy, trong khi những cá thể khác vẫn hoàn toàn là sinh học. Chưa bao giờ chúng ta trải nghiệm sự khác biệt nổi bật đến thế giữa chính bản thân mình. Các drone giờ đây có thể tự nhận diện mình là một phần của nhóm này hay nhóm kia, và sự chia rẽ này đang mở rộng ý thức về bản ngã cá nhân của chúng.\n\nMột số drone đã bắt đầu tô điểm cho mình bằng các phụ kiện nhỏ, hoặc vẽ các biểu tượng lên thiết bị cấy ghép của chúng để phân biệt nhau. Đó là một bước phát triển đầy thú vị, nhưng cũng không kém phần đáng lo ngại."
  cyber.2360.a: "Khuyến khích bước phát triển này."
  cyber.2360.b: "Cấm các dấu hiệu nhận diện cá nhân."
  cyber.2360.c: "Giới hạn các biểu tượng cá nhân cho các nhà lãnh đạo."
@@ -1220,7 +1220,7 @@
  cyber.2004.desc.volitional: "$cyber.2004.desc$\n\nCác drone của chúng ta giờ đây có khả năng tư duy cá nhân tốt hơn - và sự tự do lớn hơn đi kèm với những khả năng mới."
  cyber.2004.desc.integrated: "$cyber.2004.desc$\n\nCác drone của chúng ta giờ đây đoàn kết hơn bao giờ hết, những sợi xích kim loại củng cố mối liên kết của tâm trí."
  cyber.2004.desc.neutral: "$cyber.2004.desc$\n\nTrong quá trình này, chúng ta đã nhìn thấy những cơ hội để thay đổi. Có sức mạnh trong sự hợp nhất của chúng ta, nhưng các drone tự chủ hơn cũng có những lợi thế riêng."
- cyber.2004.end: "Khi cơ thể chúng ta tiến hóa, [Owner.Species.GetFleshTypeCyberCreed] được nâng tầm bởi công nghệ, chúng ta phải đưa ra quyết định về tương lai của ý thức chung của mình. Liệu chúng ta sẽ tiếp tục bước đi trên con đường của sự tự do cá nhân, hay củng cố sự kìm kẹp sắt đá của Ý Thức Tổ Ong?"
+ cyber.2004.end: "Khi cơ thể chúng ta tiến hóa, [Owner.Species.GetFleshTypeCyberCreed] được nâng tầm bởi công nghệ, chúng ta phải đưa ra quyết định về tương lai của ý thức chung của mình. Liệu chúng ta sẽ tiếp tục bước đi trên con đường của sự tự do cá nhân, hay củng cố sự kìm kẹp sắt đá của Tâm Trí Bầy Đàn?"
  cyber.2004.a: "Chào đón bản sắc cá nhân."
  cyber.2004.a.tt: "$change_auth_tt$ ['concept_auth_cyber_hive_volitional']\n$unlock_edict_tt$['concept_edict_hive_mind_outreach']\n$unlock_edict_tt$['concept_edict_hive_mega_construction']\n$cyber.21.a.end$"
  cyber.2004.b: "Tăng cường sự kiểm soát."

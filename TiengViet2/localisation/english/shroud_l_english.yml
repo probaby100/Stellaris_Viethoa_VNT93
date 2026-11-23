@@ -119,30 +119,30 @@
 
 # Transcendent
  transcendent_trait_common_tt: "Đặc điểm giống loài §Y$trait_psionic$§! nhận thêm hiệu ứng: $TABBED_NEW_LINE$-Hiệu suất công việc của $pop_cat_ruler_plural$ và [GetSpecialist]: §G+10%§!$TABBED_NEW_LINE$-Hiệu suất công việc của [GetWorker]: §R-10%§!"
- transcendent_trait_tt: "$mod_psionic_aura_hyperlane_range_add$: §G+2§!\n$transcendent_trait_common_tt$\nĐặc điểm lãnh đạo ['concept_leader_trait_psionic'] mang lại thêm hiệu ứng: $TABBED_NEW_LINE$- Tốc độ triển khai nghị trình nội các: §G+$@transcendent_psionic_leader_speed_mult|0%$§!$TABBED_NEW_LINE$- $MOD_LEADER_LIFESPAN_ADD$: §G+60§!$TABBED_NEW_LINE$- Tăng §G+50%§! các hiệu ứng không mang tính Siêu việt"
+ transcendent_trait_tt: "$transcendent_trait_common_tt$\nĐặc tính Lãnh đạo ['concept_leader_trait_psionic'] mang lại hiệu ứng bổ sung: $TABBED_NEW_LINE$- §G+$@transcendent_psionic_leader_speed_mult|0%$§! Tốc độ Nghị trình Hội đồng $TABBED_NEW_LINE$- $MOD_LEADER_LIFESPAN_ADD$: §G+60§! $TABBED_NEW_LINE$- Các hiệu ứng phi Siêu việt tăng thêm §G+50%§!"
 
  auth_shroud_democratic_transcendent: "Chế độ Dân chủ Siêu phàm"
  auth_shroud_democratic_transcendent_desc: "Mọi ý thức siêu việt đều bình đẳng một cách tự nhiên trong Cõi Màn Che, và các cuộc bầu cử sẽ đảm bảo sự bình đẳng đó trong thế giới vật chất. Thông qua bỏ phiếu tâm linh, công dân bầu ra các đại biểu tham gia vào hội đồng cai trị, nơi họ tìm kiếm sự đồng thuận thông qua thiền định và ngoại cảm."
- transcendent_democratic_tt: "$transcendent_trait_tt$\n$mod_pop_factions_produces_mult$: §G+40%§!\n$MOD_LEADER_LIFESPAN_ADD$: §G+20 năm§!\n$mod_negative_traits_leader$: §G-1§!"
+ transcendent_democratic_tt: "$transcendent_trait_tt$"
  gov_shroud_transcendent_democracy: "$auth_shroud_democratic_transcendent$"
  gov_shroud_transcendent_democracy_desc: "$auth_shroud_democratic_transcendent_desc$"
 
  auth_shroud_oligarchic_transcendent: "Chế độ Quý tộc Siêu phàm"
  auth_shroud_oligarchic_transcendent_desc: "Những tầng sâu thẳm nhất của Cõi Màn Che chỉ dành cho những cá nhân kiệt xuất nhất trong chúng ta. Sứ mệnh của họ trong suốt nhiệm kỳ sẽ hòa quyện cùng cõi không gian này."
- transcendent_oligarchic_tt: "$transcendent_trait_tt$\n$MOD_LEADER_SKILL_ADD$: §G+1§!\n$MOD_LEADER_COUNCILOR_EXP_GAIN$: §G+25%§!\n$mod_leaders_upkeep_mult$: §G-25%§!\n$MOD_ELECTION_TERM_YEARS_ADD$: §Y+20§!\n$mod_planet_telepaths_produces_mult$: $@transcendent_oligarchic_telepath|0=+%$ trong vòng §Y5§! năm sau khi tổ chức bầu cử."
+ transcendent_oligarchic_tt: "$transcendent_trait_tt$\n$mod_planet_telepaths_produces_mult$: $@transcendent_oligarchic_telepath|0=+%$ trong §Y5§! năm sau mỗi kỳ bầu cử."
  gov_shroud_transcendent_oligarchy: "$auth_shroud_oligarchic_transcendent$"
  gov_shroud_transcendent_oligarchy_desc: "$auth_shroud_oligarchic_transcendent_desc$"
  transcendent_oligarchic_election_modifier: "$auth_shroud_oligarchic_transcendent$"
 
  auth_shroud_dictatorial_transcendent: "Chế độ Thần quyền Siêu phàm"
  auth_shroud_dictatorial_transcendent_desc: "Đã đến lúc phải đối mặt với sự thật, vị quân vương vĩ đại của chúng ta đã thăng thiên hóa thần. Mượn sức mạnh của Cõi Màn Che, ngài thấu thị mọi thứ, nhìn thấu vạn vật."
- auth_shroud_dictatorial_transcendent_tt: "$transcendent_trait_tt$\nMỗi [telepath.GetName] mang lại +1 §H$EDICT_FUND$§!\n£job_politician£$job_politician_plural$ được thay thế bằng ['concept_high_priest']\n$mod_planet_bureaucrats_produces_mult$: §G+15%§!\n$mod_planet_enforcers_produces_mult$: §G+15§!\n$mod_pop_ethic_spiritualist_attraction_mult$: §G+50%§!"
+ auth_shroud_dictatorial_transcendent_tt: "$transcendent_trait_tt$\n[telepath.GetName] §H$EDICT_FUND$§!: +1\n£job_politician£ $job_politician_plural$ được thay thế bằng ['concept_high_priest']"
  gov_shroud_transcendent_dictatorial: "$auth_shroud_dictatorial_transcendent$"
  gov_shroud_transcendent_dictatorial_desc: "$auth_shroud_dictatorial_transcendent_desc$"
 
  auth_shroud_imperial_transcendent: "Chế độ Đế chế Siêu phàm"
  auth_shroud_imperial_transcendent_desc: "Hoàng đế đã nâng tầm sự tồn tại của thần dân lên một chiều không gian cao hơn. Quyền năng nguyên thủy của Cõi Màn Che tuôn trào từ ý chí của quân vương, rót thẳng vào tâm trí đang khao khát của muôn loài."
- auth_shroud_imperial_transcendent_tt: "$transcendent_trait_tt$\n$imperial_heir$ nhận thêm hiệu ứng: $TABBED_NEW_LINE$$scientist_plural_with_icon$-Kỹ năng §YKhảo cổ học§! và §YKhe nứt Không gian§!: $@transcendent_imperial_heir_skill|0=+$$TABBED_NEW_LINE$$official_plural_with_icon$-$i_stability$: $@transcendent_imperial_heir_stability|0=+$$TABBED_NEW_LINE$$commander_plural_with_icon$-§Y$HITPOINTS$§!, và §Y$MOD_SHIP_SPEED_MULT$§!: $@transcendent_imperial_heir_mult|0=+%$\nKhi £leader£§Y$imperial_ruler$§! hoặc §Yngười kế vị§! nâng cấp, sẽ nhận được $i_unity$\n$MOD_ENVOY_IMPROVE_RELATIONS_MULT$: §G+50%§!\n$MOD_ENVOY_HARM_RELATIONS_MULT$: §G+50%§!\n$MOD_ENVOY_ATTUNEMENT_MULT$: §G+50%§!\n$MOD_PLANET_CRIME_ADD$: §R+20§!"
+ auth_shroud_imperial_transcendent_tt: "$transcendent_trait_tt$\n$imperial_heir$ nhận thêm hiệu ứng:$TABBED_NEW_LINE$$scientist_plural_with_icon$ - Kỹ năng §YKhảo cổ học§! và §YKhe Nứt Tinh Giới§!: $@transcendent_imperial_heir_skill|0=+$$TABBED_NEW_LINE$$official_plural_with_icon$ - $i_stability$: $@transcendent_imperial_heir_stability|0=+$$TABBED_NEW_LINE$$commander_plural_with_icon$ - §Y$HITPOINTS$§! và §Y$MOD_SHIP_SPEED_MULT$§!: $@transcendent_imperial_heir_mult|0=+%$\nMỗi khi £leader£ §Y$imperial_ruler$§! hoặc §YNgười kế vị§! thăng cấp, nhận thêm $i_unity$"
  gov_shroud_transcendent_imperial: "$auth_shroud_imperial_transcendent$"
  gov_shroud_transcendent_imperial_desc: "$auth_shroud_imperial_transcendent_desc$"
 
@@ -151,13 +151,13 @@
 
  auth_shroud_corporate_transcendent: "Tập đoàn Siêu phàm"
  auth_shroud_corporate_transcendent_desc: "Dù đã siêu phàm nhập thánh, ban lãnh đạo tập đoàn vẫn không quên rèn luyện để vươn tới mục tiêu cốt lõi. Mượn bóng tối của Cõi Màn Che, công ty thâm nhập vào tâm trí của các đối tác lẫn đối thủ cạnh tranh, tạo ra những cơ hội chiến lược về quản lý tâm linh."
- auth_shroud_corporate_transcendent_tt: "$transcendent_trait_tt$\n$i_trade_value$ từ [telepath.GetName]: §G+$@corporate_government_telepaths_trade_value_mult|0%$§!\n$MOD_INTEL_DECRYPTION_ADD$: §G+1§!\n$mod_operations_influence_cost_mult$: §G-20%§!\n$MOD_BRANCH_OFFICE_VALUE_MULT$: §G+20%§!\n$MOD_COUNTRY_ENVOYS_ADD$: §G+1§!"
+ auth_shroud_corporate_transcendent_tt: "$transcendent_trait_tt$\n[telepath.GetName] $i_trade_value$: §G+$@corporate_government_telepaths_trade_value_mult|0%$§!"
  gov_shroud_transcendent_corporate: "$auth_shroud_corporate_transcendent$"
  gov_shroud_transcendent_corporate_desc: "$auth_shroud_corporate_transcendent_desc$"
 
  auth_shroud_hive_transcendent: "Tâm trí Siêu phàm"
  auth_shroud_hive_transcendent_desc: "Vượt khỏi bụi trần, hợp nhất làm một, tâm trí tập thể này lại tỏ ra thành thạo với Cõi Màn Che hơn là thế giới vật chất. Mỗi chuyến đi đến phía bên kia bức màn đều làm tăng trưởng trí tuệ tập thể của ý thức siêu việt này."
- transcendent_hive_mind_tt: "$transcendent_trait_tt$\n§YLãnh đạo§! nhận được §Y$@transcendent_hive_mind_leader_exp|0$§! sau mỗi lần $DELVE$.\n$MOD_PLANET_STABILITY_MULT$: §G+10%§!\n$mod_planet_jobs_complex_drone_produces_mult$: §G+10%§!\n$MOD_EMPIRE_SIZE_MULT$: §G-10%§!\n$MOD_POP_ENVIRONMENT_TOLERANCE$: §R-10%§!"
+ transcendent_hive_mind_tt: "$transcendent_trait_tt$\n§YLãnh đạo§! nhận §Y$@transcendent_hive_mind_leader_exp|0$§! kinh nghiệm sau mỗi lần $DELVE$."
  gov_shroud_transcendent_hive: "$auth_shroud_hive_transcendent$"
  gov_shroud_transcendent_hive_desc: "$auth_shroud_hive_transcendent_desc$"
 
@@ -175,23 +175,23 @@
  REMOVE_FROM_EMPIRE_COUNCIL_EFFECT: "Loại khỏi nội các"
 
 # Corporeal
- corporeal_trait_tt: "$MOD_PSIONIC_AURA_EFFECTIVENESS_MULT$: §G+25%§!\n$AVAILABLE_POLICIES$['policy:psionic_choir',$policy_psionic_choir$]"
+ corporeal_trait_tt: "$AVAILABLE_POLICIES$ ['policy:psionic_choir',$policy_psionic_choir$]"
 
- auth_shroud_democratic_corporeal: "Liên hiệp Duy tâm"
+ auth_shroud_democratic_corporeal: "Liên hiệp Duy linh"
  auth_shroud_democratic_corporeal_desc: "Năng lượng Cõi Màn Che lan tỏa bình đẳng khắp đế chế, giảm bớt gánh nặng cho thể xác, gắn kết mọi công dân trong một cảm thức đoàn kết hiện thực lớn lao hơn."
- corporeal_democratic_tt: "$corporeal_trait_tt$\nHạnh phúc của Dân số Tâm linh: $@corporeal_democratic_psionic_happiness|0=+%$\n$mod_pop_factions_produces_mult$: §G+10%§!\n$MOD_EMPIRE_SIZE_PSIONIC_POPS_MULT$: §G-10%§!\n$mod_planet_jobs_unity_produces_mult$: §G+10%§!\n$MOD_POP_POLITICAL_POWER$: §G+50%§!"
+ corporeal_democratic_tt: "$corporeal_trait_tt$\nĐộ Hạnh phúc của Dân cư Tâm linh: $@corporeal_democratic_psionic_happiness|0=+%$"
  gov_shroud_corporeal_democracy: "$auth_shroud_democratic_corporeal$"
  gov_shroud_corporeal_democracy_desc: "$auth_shroud_democratic_corporeal_desc$"
 
  auth_shroud_oligarchic_corporeal: "Chế độ Mật viện Thần tích"
  auth_shroud_oligarchic_corporeal_desc: "Cho các nhà lãnh đạo tương lai rèn luyện tinh thần ngay từ khi còn nhỏ sẽ nhào nặn ra một bộ khung những người sử dụng tâm linh ưu tú nhất, nắm trong tay thứ sức mạnh tâm linh khủng khiếp mà hiện tại ta không dám mơ tới."
- corporeal_oligarchic_tt: "$corporeal_trait_tt$\n$MOD_LEADER_INITIAL_SKILL$: §G+2§!\n$mod_leaders_upkeep_mult$: §G-25%§!\n$mod_leader_recruitment_age$: §G-15§!\n§YLãnh đạo§! khởi đầu có sẵn một §RĐặc điểm Xấu§! bổ sung."
+ corporeal_oligarchic_tt: "$corporeal_trait_tt$"
  gov_shroud_corporeal_oligarchy: "$auth_shroud_oligarchic_corporeal$"
  gov_shroud_corporeal_oligarchy_desc: "$auth_shroud_oligarchic_corporeal_desc$"
 
  auth_shroud_dictatorial_corporeal: "Chế độ Độc tài Định mệnh"
  auth_shroud_dictatorial_corporeal_desc: "Vị quân vương vĩ đại dùng chính thể xác của mình làm đại diện cho sức mạnh Cõi Màn Che, chuyển hóa năng lượng tâm linh thành uy quyền cai trị. Sẽ chẳng có thứ gì có thể cản bước tầm nhìn tối thượng của ngài."
- auth_shroud_dictatorial_corporeal_tt: "$corporeal_trait_tt$\nMỗi người sử dụng Tâm linh mang lại +1 §H$EDICT_FUND$§!\n$MOD_COUNCIL_AGENDA_PROGRESS_SPEED$: §G+25%§!\n$MOD_COUNCIL_AGENDA_COOLDOWN_MULT$: §G-25%§!\n$mod_planet_bureaucrats_upkeep_mult$: §G-25%§!"
+ auth_shroud_dictatorial_corporeal_tt: "$corporeal_trait_tt$\n+1 §H$EDICT_FUND$§! trên mỗi Nhà ngoại cảm"
  gov_shroud_corporeal_dictatorial: "$auth_shroud_dictatorial_corporeal$"
  gov_shroud_corporeal_dictatorial_desc: "$auth_shroud_dictatorial_corporeal_desc$"
 
@@ -209,14 +209,14 @@
 
  auth_shroud_hive_corporeal: "Trung tâm Tâm linh"
  auth_shroud_hive_corporeal_desc: "Khả năng hòa hợp với Cõi Màn Che của họ mạnh mẽ đến mức có thể tạo ra sự cộng hưởng ngay bên trong hình hài vật lý của tập thể này."
- corporeal_hive_mind_tt: "$corporeal_trait_tt$\nMỗi điểm hòa nhịp giúp $@corporeal_hive_mind_job_upkeep_per_attunement|2=-%$ $mod_planet_jobs_upkeep_mult$\n$MOD_PLANET_STABILITY_MULT$: §G+10%§!\n$MOD_COUNCIL_AGENDA_PROGRESS_SPEED$: §G+30%§!\n$MOD_COUNCIL_AGENDA_FINISHING_EFFECT_DURATION_MULT$: §G+30%§!"
+ corporeal_hive_mind_tt: "$corporeal_trait_tt$\n$@corporeal_hive_mind_job_upkeep_per_attunement|2=-%$ $mod_planet_jobs_upkeep_mult$ trên mỗi Điểm Hòa Nhịp"
  gov_shroud_corporeal_hive: "$auth_shroud_hive_corporeal$"
  gov_shroud_corporeal_hive_desc: "$auth_shroud_hive_corporeal_desc$"
  corporeal_hive_mind_upkeep_modifier: "$auth_shroud_hive_corporeal$"
 
  auth_shroud_machine_corporeal: "Mạng lưới Tâm linh"
  auth_shroud_machine_corporeal_desc: "Bằng cách đan xen mạng lưới của mình vào sâu trong những dòng chảy năng lượng mịt mờ của Cõi Màn Che, những cỗ máy này đã đạt được tốc độ truyền dữ liệu gần như tức thời. Mỗi một byte đều chứa đựng ý chí tâm linh mạnh mẽ, sự thiết lập này giúp chúng đủ sức thao túng cả không gian vật lý xung quanh."
- corporeal_machine_tt: "$corporeal_trait_tt$\n$MOD_PSIONIC_AURA_EFFECTIVENESS_MULT$ mang lại từ mỗi $pop_group_unit$ $job_telepath_drone_swap_with_icon$: $@corporeal_machine_aura_effectiveness|0=+%$\n$MOD_COUNCIL_AGENDA_PROGRESS_SPEED$: §G+25%§!\n$mod_pop_cat_complex_drone_bonus_workforce_mult$: §G+10%§!\n$mod_leaders_upkeep_mult$: §G-50%§!\n$mod_planet_bureaucrats_upkeep_mult$: §R+30%§!"
+ corporeal_machine_tt: "$corporeal_trait_tt$\n$MOD_PSIONIC_AURA_EFFECTIVENESS_MULT$ trên mỗi $pop_group_unit$ $job_telepath_drone_swap_with_icon$: $@corporeal_machine_aura_effectiveness|0=+%$"
  gov_shroud_corporeal_machine: "$auth_shroud_machine_corporeal$"
  gov_shroud_corporeal_machine_desc: "$auth_shroud_machine_corporeal_desc$"
 
@@ -505,8 +505,8 @@
 #==========================
 # Starbase Modules
 #==========================
- sm_aura_emitter: "Máy Phát Linh Năng"
- sm_aura_emitter_plural: "Máy Phát Linh Năng"
+ sm_aura_emitter: "Máy Phát Tâm Linh"
+ sm_aura_emitter_plural: "Máy Phát Tâm Linh"
  sm_aura_emitter_desc: "$sm_aura_emitter$ có thể thiết lập các kênh truyền tải năng lượng tâm linh, cho phép Căn cứ sao cũng có thể phát ra $PSIONIC_AURA$.\n"
  sm_ring_aura_emitter: "$sm_aura_emitter$"
  sm_ring_aura_emitter_desc: "$sm_aura_emitter_desc$"
@@ -584,10 +584,10 @@
 
  # Lifecrypt (Machine)
  building_lifecrypt_machine_1: "Pin Hút Năng lượng"
- building_lifecrypt_machine_1_desc: "Những thiết bị khổng lồ này có thể chiết xuất năng lượng tính toán dư thừa từ các máy bay không người lái chuyên dụng ở cự ly gần. Các nhân công được chỉ định sẽ lắp đặt thiết bị đặc biệt để truyền tải năng lượng vào đường ống trung tâm, rồi phân phối đến các bộ phận quan trọng hơn."
+ building_lifecrypt_machine_1_desc: "Những thiết bị khổng lồ này có thể chiết xuất năng lượng tính toán dư thừa từ các thiết bị tự hành chuyên dụng ở cự ly gần. Các nhân công được chỉ định sẽ lắp đặt thiết bị đặc biệt để truyền tải năng lượng vào đường ống trung tâm, rồi phân phối đến các bộ phận quan trọng hơn."
 
  building_lifecrypt_machine_2: "Phức hợp Pin"
- building_lifecrypt_machine_2_desc: "Các thiết bị này được hiệu chuẩn đặc biệt để chiết xuất năng lượng từ máy bay không người lái thông qua dây dẫn vật lý, cho phép rút một lượng lớn sức mạnh tính toán dư thừa mà không gây ra lỗi hệ thống nghiêm trọng."
+ building_lifecrypt_machine_2_desc: "Các thiết bị này được hiệu chuẩn đặc biệt để chiết xuất năng lượng từ thiết bị tự hành thông qua dây dẫn vật lý, cho phép rút một lượng lớn sức mạnh tính toán dư thừa mà không gây ra lỗi hệ thống nghiêm trọng."
 
  building_lifecrypt_machine_3: "Nút Năng lượng"
  building_lifecrypt_machine_3_desc: "Ranh giới của nút năng lượng phải được đánh dấu rõ ràng, vì việc đi vào phạm vi ảnh hưởng của nó mà không có thiết bị cách điện phù hợp sẽ gây hỏng hóc vĩnh viễn cho các đơn vị máy."
@@ -773,7 +773,7 @@
  civic_twisted_experimenters_effects: "Khởi đầu với tình huống ['concept_experimental_testing'], khi hoàn thành sẽ nhận được bước tiến công nghệ.\nKhởi đầu với và có thể xây dựng: £building£['building:building_experimentation_chambers_1']\nTất cả nô lệ không phải máy móc đều có thể đảm nhận công việc nô lệ ['concept_slave_orderly'].\nCó thể chiêu mộ ['concept_slave_army']: §Y$abomination_army$§!"
 
  civic_twisted_experimenters_hive_mind: "Ý Thức Uốn Nắn"
- civic_twisted_experimenters_hive_mind_desc: "Những cá thể bất thường của tập thể này bị biến thành đối tượng cho các thí nghiệm khoa học mang tính đột phá và không bị giới hạn. Điều này giúp tận dụng tối đa những con ong thợ lỗi với vai trò là vật tư tiêu hao."
+ civic_twisted_experimenters_hive_mind_desc: "Những cá thể bất thường của tập thể này bị biến thành đối tượng cho các thí nghiệm khoa học mang tính đột phá và không bị giới hạn. Điều này giúp tận dụng tối đa những cá thể thợ lỗi với vai trò là vật tư tiêu hao."
  civic_twisted_experimenters_hive_mind_effects: "Khởi đầu với tình huống ['concept_experimental_testing_hive_mind'], khi hoàn thành sẽ nhận được bước tiến công nghệ.\nKhởi đầu với và có thể xây dựng: £building£['building:building_experimentation_chambers_1']."
 
  civic_twisted_experimenters_corporate: "Nghiên Cứu Tư Pháp"
@@ -6044,10 +6044,10 @@
  MACHINE_TELEPATH_CAP: "Đơn vị Tâm linh"
  MACHINE_TELEPATH_PLURAL: "Đơn vị Tâm linh"
  MACHINE_TELEPATH_PLURAL_CAP: "Đơn vị Tâm linh"
- HIVE_TELEPATH: "Ong thợ Tâm linh"
- HIVE_TELEPATH_CAP: "Ong thợ Tâm linh"
- HIVE_TELEPATH_PLURAL: "Ong thợ Tâm linh"
- HIVE_TELEPATH_PLURAL_CAP: "Ong thợ Tâm linh"
+ HIVE_TELEPATH: "Cá thể Tâm linh"
+ HIVE_TELEPATH_CAP: "Cá thể Tâm linh"
+ HIVE_TELEPATH_PLURAL: "Cá thể Tâm linh"
+ HIVE_TELEPATH_PLURAL_CAP: "Cá thể Tâm linh"
 
  MACHINE_FEEL: "Dò quét"
  ORGANIC_FEEL: "Cảm nhận"
@@ -6126,11 +6126,11 @@
  GESTALT_PSIONIC_SPECIALISTS: "Cá thể Tâm linh Đặc biệt"
 
  MACHINE_PSYCHIC: "Đơn vị Tâm linh"
- HIVE_PSYCHIC: "Ong thợ Tâm linh"
+ HIVE_PSYCHIC: "Cá thể Tâm linh"
  ORGANIC_PSYCHIC: "$psychic_key$"
 
  MACHINE_PSYCHIC_PLURAL: "Đơn vị Tâm linh"
- HIVE_PSYCHIC_PLURAL: "Ong thợ Tâm linh"
+ HIVE_PSYCHIC_PLURAL: "Cá thể Tâm linh"
  ORGANIC_PSYCHIC_PLURAL: "Các Nhà ngoại cảm"
 
  GOV_BEHAVIOUR_GESTALT: "Hành vi Tập thể"

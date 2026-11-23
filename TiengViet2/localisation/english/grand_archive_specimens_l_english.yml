@@ -259,7 +259,7 @@
 
  cybrex_mining_column: "Trụ Khai Mỏ Cybrex"
  cybrex_mining_column_desc_short: "Một khối trụ khai thác khoáng sản tự hành do đế chế máy móc Cybrex chế tạo"
- cybrex_mining_column_desc_details: "Được trang bị máy cắt plasma nhiệt hạch và máy nén vật chất siêu nhỏ, thiết bị tự động này từng tham gia vào các dự án thu hoạch tài nguyên quy mô khổng lồ của nền văn minh Cybrex."
+ cybrex_mining_column_desc_details: "Là một cột trụ cao gồm các đĩa từ gia trọng và máy nén khí công suất lớn, cỗ máy này giã xuyên qua bề mặt hành tinh mà không cần bất kỳ chuyển động quay nào. Quá trình này cô đặc luồng khí ngay khi thu hoạch, lọc và loại bỏ tạp chất trước khi dẫn khí sang công đoạn tinh luyện tiếp theo."
 
  data_on_infinity: "Dữ Liệu Về Bản Chất Vô Hạn"
  data_on_infinity_desc_short: "Kho dữ liệu toán học mô tả bản chất của sự vô tận thu được từ Cỗ Máy Vô Hạn (Infinity Machine)"
@@ -324,7 +324,7 @@
 
  drone_ship_core: "Lõi Tàu Drone"
  drone_ship_core_desc_short: "Lõi xử lý trung tâm của một tàu chiến không người lái tự hành cổ đại"
- drone_ship_core_desc_details: "Kiến trúc logic bất đối xứng và các thuật toán chiến thuật được khắc trực tiếp vào tinh thể bán dẫn, cho thấy trình độ tự động hóa quân sự đáng kinh ngạc của nền văn minh đã chế tạo ra nó."
+ drone_ship_core_desc_details: "Con tàu này ban đầu được phát hiện đang bị ăn mòn trong bầu khí quyển axit của [event_target:warform_origin_planet.GetName]. AI trên tàu vốn vận hành độc lập nhưng đã bị xóa sạch theo giao thức tự hủy. Các kỹ sư không thể khôi phục bất kỳ dữ liệu nào bị mất, vì vậy sứ mệnh ban đầu của nó vẫn là một bí ẩn."
 
  electric_life: "Dạng Sống Điện Năng"
  electric_life_desc_short: "Một dạng sinh vật hoàn toàn cấu thành từ các xung điện được tìm thấy trên [EVENT_TARGET_0.GetName]"
@@ -517,7 +517,7 @@
 
  irassian_bacterium_javoria: "Vi Khuẩn Javoria Của Người Irassian"
  irassian_bacterium_javoria_desc_short: "Vi khuẩn bản địa trên [EVENT_TARGET_0.GetName] này chính là sinh vật sau này trở thành căn bệnh được gọi là Đậu Javoria (Javorian Pox)"
- irassian_bacterium_javoria_desc_details: "Đại dịch Javorian Pox có tỷ lệ tử vong 100% đối với người Irassian nhưng lại vô hại với các loài khác, dẫn đến sự sụp đổ nhanh chóng của Liên Bang Irassian hùng mạnh trong quá khứ."
+ irassian_bacterium_javoria_desc_details: "Ban đầu nó rò rỉ khỏi khu cách ly do một vòng đệm sai kích cỡ một mét trước khi lây lan sang thuộc địa lân cận. Từ thời điểm đó, vi khuẩn tiến hóa qua quá trình ủ bệnh hữu cơ, cuối cùng đột biến thành đại dịch xóa sổ toàn bộ Liên Hiệp Irassian. Mẫu vật cụ thể này đã được vô hiệu hóa và lưu giữ trong môi trường đông lạnh sâu."
 
  irassian_digital_atlas: "Tập Bản Đồ Trẻ Em Irassian"
  irassian_digital_atlas_desc_short: "Thiết bị học tập điện tử chứa tập bản đồ sao dành cho trẻ em Irassian"
@@ -724,7 +724,7 @@
  path_to_progress_desc_details: "Khao khát tăng trưởng và nâng cao sự hài lòng của khách hàng bằng mọi giá là nguyên lý cốt lõi trong hệ tư tưởng [EVENT_TARGET_0.Owner.GetAdjective]. Biến các hành tinh thành những vùng đất hoang bị nhiễm xạ là một bước đi cần thiết trong cuộc theo đuổi sự tiến bộ không ngừng."
 
  peerless_atomic_clock: "Đồng Hồ Nguyên Tử Vô Song"
- peerless_atomic_clock_desc_short: "Thiết bị đo thời gian siêu chuẩn xác dựa trên tần số chuyển đổi quang học của nguyên tử stronti"
+ peerless_atomic_clock_desc_short: "Một chiếc đồng hồ nguyên tử có độ chính xác cực cao được tìm thấy tại hệ [event_target:atomic_clock_system.GetName], do những người chế tác vô danh tạo ra"
  peerless_atomic_clock_desc_details: "Với độ sai lệch chỉ một giây sau hàng trăm triệu năm hoạt động liên tục, chiếc đồng hồ này là tiêu chuẩn thời gian tuyệt đối của một liên minh thương mại cổ đại."
 
  perception_of_infinity: "Nhận Thức Về Sự Vô Hạn"
@@ -752,7 +752,7 @@
  pilgrimage_last_days_desc_details: "Những trang viết chân thực phản ánh đức tin bất diệt và sự thanh thản kỳ lạ của hàng triệu con người khi thanh thản đối mặt với sự hủy diệt sắp ập đến từ siêu tân tinh."
 
  planet_crystalose: "Đường Tinh Thể [EVENT_TARGET_0.GetName]"
- planet_crystalose_desc_short: "Mẫu khoáng chất kết tinh ngọt tự nhiên thu hoạch trên [EVENT_TARGET_0.GetName]"
+ planet_crystalose_desc_short: "Những tinh thể đường sucrose này có khả năng tự nhân lên bằng cách hấp thụ bức xạ mặt trời và các khoáng chất đặc thù có trong một số tiểu hành tinh"
  planet_crystalose_desc_details: "Có vị ngọt thanh khiết gấp hàng trăm lần đường mía nhưng hoàn toàn không chứa calo tiêu cực, loại đường tinh thể độc đáo này là một mặt hàng xa xỉ phẩm được săn đón khắp các bàn tiệc thiên hà."
 
  planet_pushing_thruster: "Động Cơ Đẩy Hành Tinh"
@@ -846,7 +846,7 @@
 
  shallarian_data_core: "Lõi Dữ Liệu Shallarian"
  shallarian_data_core_desc_short: "Lõi lưu trữ dữ liệu ngoại giao hòa bình của liên minh hiền hòa Shallarian"
- shallarian_data_core_desc_details: "Chứa đựng hàng triệu văn bản hòa ước, các bài thơ ca tụng hòa bình và các hiệp định bất tương xâm, phản ánh lý tưởng cao đẹp về một thiên hà hòa hợp không có chiến tranh."
+ shallarian_data_core_desc_details: "Bị chủng tộc [event_target:fanatic_xenophobe_fe.GetSpeciesName] hủy diệt hoàn toàn, người Shallarian từng tạo ra một hệ thống điều hòa khí hậu sử dụng sáu mặt trăng cách đều nhau. Trước khi diệt vong đột ngột, người Shallarian đã lên kế hoạch cải tạo các hành tinh hoang vu để làm nơi cư trú và cứu trợ cho các quần thể tị nạn."
 
  shipyard_schematics: "Sơ Đồ Xưởng Đóng Tàu [EVENT_TARGET_0.GetName]"
  shipyard_schematics_desc_short: "Bản thiết kế một xưởng đóng tàu tự động do [EVENT_TARGET_0.GetName] trên [EVENT_TARGET_1.GetName] kiểm soát"
@@ -1025,7 +1025,7 @@
  warning_monolith_desc_details: "Được dựng lên trước một khu vực chôn lấp chất thải phóng xạ hoặc mầm bệnh cổ xưa, các biểu tượng đầu lâu và tia chớp cảnh báo hậu thế không bao giờ được đào xới mảnh đất bị nguyền rủa này."
 
  wormhole_anchor: "Mỏ Neo Lỗ Sâu [EVENT_TARGET_0.GetName]"
- wormhole_anchor_desc_short: "Thiết bị ổn định không-thời gian nhân tạo đặt gần cửa ngõ lỗ sâu trên [EVENT_TARGET_0.GetName]"
+ wormhole_anchor_desc_short: "Điểm neo của một thiết bị lỗ sâu một chiều từng được sử dụng để thu hoạch Vật Chất Tối từ một hố đen"
  wormhole_anchor_desc_details: "Bằng cách phát ra các trường trọng lực định hướng, thiết bị này ngăn chặn miệng lỗ sâu bị dao động hoặc sụp đổ bất ngờ, bảo đảm tuyến đường siêu tốc huyết mạch luôn thông suốt an toàn."
 
  wormhole_fur: "Lông Lỗ Sâu"

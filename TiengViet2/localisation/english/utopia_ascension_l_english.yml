@@ -346,7 +346,7 @@
  utopia.3041.tooltip:0 "Tất cả Lãnh đạo nhận được đặc điểm §Y$leader_trait_shroud_age$§!, tăng thêm §G+40§! năm tuổi thọ."
  utopia.3042.desc:0 "$boon.ship.link$\n\nThông qua việc sử dụng năng lượng tâm linh, phi hành đoàn của chúng ta hiện đã có thể cường hóa sức mạnh của động cơ đẩy, giúp cải thiện rõ rệt tốc độ bay ở giới hạn hạ quang tốc của phi thuyền."
  utopia.3043.desc.organic: "$boon.psi.link$\n\nNguồn sức mạnh này đã củng cố tâm trí của các binh sĩ, giờ đây họ sẵn sàng xông pha vào mọi hiểm nguy trên chiến trường. Tinh thần đồng đội của họ là vô song."
- utopia.3043.desc.machine_or_gestalt: "$boon.psi.link$\n\nNguồn sức mạnh này đã củng cố mức độ hoàn thành mục tiêu của các máy bay không người lái chiến đấu, tối ưu hóa hiệu suất trên chiến trường."
+ utopia.3043.desc.machine_or_gestalt: "$boon.psi.link$\n\nNguồn sức mạnh này đã củng cố mức độ hoàn thành mục tiêu của các chiến cơ tự hành, tối ưu hóa hiệu suất trên chiến trường."
  utopia.3044.desc:0 "$boon.psi.link$\n\nGiờ đây chúng ta đã có thể cảm nhận được sự di chuyển của các phi thuyền ở khoảng cách xa hơn nhiều so với khả năng dò tìm của các mảng cảm biến truyền thống."
 
  utopia.3045.name: "Bị trục xuất khỏi Hư cảnh"
@@ -518,7 +518,7 @@
  utopia.3181.desc_organic_non_gestalt: "Chúng ta có thể duy trì một liên kết thấu thị Hư cảnh ở mức độ giới hạn đồng thời tránh rơi vào trạng thái điên loạn, nhưng lưu lượng khổng lồ của dữ liệu xác suất sẽ áp đảo chúng ta, khiến nó trở nên vô dụng trong thực tiễn.\n\nTuy nhiên, nếu chúng ta có thể thiết lập một giao diện kỹ thuật số để phân giải lượng dữ liệu này, thì có khả năng nó sẽ được ứng dụng để nâng cấp hệ thống máy tính chiến đấu của chiến hạm..."
  utopia.3181.name:0 "§GGiao diện Thấu thị§!"
  utopia.3182.name: "§RChứng Điên loạn Hư cảnh§!"
- utopia.3182.desc_gestalt: "Đúng như dự đoán, nỗ lực nhằm thấu hiểu hằng hà sa số những khả năng đa dạng nằm ngoài sức tưởng tượng, cùng lúc tồn tại cả trong quá khứ và tương lai này, đã gây ra triệu chứng căng thẳng thần kinh quy mô lớn cho các ong thợ tâm linh của ta.\n\nĐiều này khiến chúng mất liên kết với chủ não và không còn nhận được mệnh lệnh. Nếu muốn một lần nữa khám phá Hư cảnh, chúng ta phải thu hồi những thể xác khiếm khuyết này và phục hồi lại sức mạnh cho tập thể."
+ utopia.3182.desc_gestalt: "Đúng như dự đoán, nỗ lực nhằm thấu hiểu hằng hà sa số những khả năng đa dạng nằm ngoài sức tưởng tượng, cùng lúc tồn tại cả trong quá khứ và tương lai này, đã gây ra triệu chứng căng thẳng thần kinh quy mô lớn cho các cá thể tâm linh của ta.\n\nĐiều này khiến chúng mất liên kết với chủ não và không còn nhận được mệnh lệnh. Nếu muốn một lần nữa khám phá Hư cảnh, chúng ta phải thu hồi những thể xác khiếm khuyết này và phục hồi lại sức mạnh cho tập thể."
  utopia.3182.desc.non_gestalt.1: "Hằng hà sa số những khả năng đa dạng nằm ngoài sức tưởng tượng này, cùng lúc tồn tại cả trong quá khứ và tương lai.\n\nMọi sự biến đổi và viễn cảnh, bất luận sự khác biệt giữa chúng có lớn lao hay nhỏ nhặt đến đâu, đều liên tục chớp nhoáng lặp đi lặp lại trong [GetSpeciesBrainPlural] của họ. Giờ đây họ đã rơi vào trạng thái căng thẳng tinh thần vĩnh viễn.\n\n"
  utopia.3182.desc.non_gestalt.2: "[GetTelepathPlural] mới, chúng ta vẫn cần một khoảng thời gian nữa để có thể tập hợp đủ sức mạnh tâm linh nhằm tái nhập Hư cảnh."
  utopia.3182.desc_machine_non_gestalt: "Đúng như dự đoán, các bộ vi xử lý tâm linh của chúng ta không thể thấu hiểu được $utopia.3182.desc.non_gestalt.1$ Do cần phải xây dựng $utopia.3182.desc.non_gestalt.2$"

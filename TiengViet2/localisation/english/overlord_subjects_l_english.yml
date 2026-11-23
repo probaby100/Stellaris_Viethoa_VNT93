@@ -553,7 +553,7 @@
  blocker_tied_to_splinter_hive:0 "$TRIGGER_FAIL$§RChừng nào công trình §YNhánh tổ đàn§! còn ở đây, vật cản này sẽ không biến mất.§!"
  no_free_district_for_splinter_hive:0 "$TRIGGER_FAIL$§RHành tinh này không còn khu vực trống để đặt khu phức hợp sinh đẻ đắt đỏ của chúng ta.§!"
  holding_splinter_hive:0 "Nhánh tổ đàn"
- holding_splinter_hive_desc:1 "Một khối sinh khối khổng lồ dùng để tạo ra ong thợ mới cho tổ đàn. Dù tương đối tách biệt khỏi tổ chính, nó vẫn được kết nối thông qua mạng lưới thần kinh."
+ holding_splinter_hive_desc:1 "Một khối sinh khối khổng lồ dùng để tạo ra cá thể thợ mới cho tổ đàn. Dù tương đối tách biệt khỏi tổ chính, nó vẫn được kết nối thông qua mạng lưới thần kinh."
  holding_distributed_processing:0 "Trạm xử lý phân tán"
  holding_distributed_processing_desc:1 "Một cơ sở lạnh lẽo che phủ toàn bộ khu vực. Nhân viên ở đây rất kín tiếng về công việc thực sự của họ, nhưng chưa từng có ai bước vào mà còn quay ra nguyên vẹn."
  holding_offspring_nest:0 "Tổ ấp"
@@ -1108,7 +1108,7 @@
  SensorReadingsSociety4Gestalt:0 "Sau khi lục soát toàn bộ khu vực này, chúng ta đã phát hiện ra một thư viện. Các cuốn sách trong đó mô tả vô cùng chi tiết về đặc điểm sinh học của hàng ngàn loài thực vật ngoại lai, các tiêu bản được thu thập từ mọi hành tinh mà cư dân nguyên thủy từng đặt chân đến. Chúng ta sẽ mang những cuốn sách này về để hoàn thiện cơ sở dữ liệu của mình."
 
  SensorReadingsPhysics1:0 "Dù chẳng còn lại thứ gì hữu ích, đội của chúng ta vẫn tìm được một số bài nghiên cứu ghi chép lại hoạt động địa chất của nhiều hành tinh khác nhau - ít nhất thì dựa vào hình vẽ trên đó, họ tin là như vậy. Họ sẽ mang bất cứ tài liệu nào được cho là còn có thể cứu vãn được về, sau đó giải mã chúng càng sớm càng tốt."
- SensorReadingsPhysics1Gestalt:0 "Dù chẳng còn lại chút tài liệu hữu ích nào, nhưng máy bay không người lái kỹ thuật của chúng ta vẫn định vị được một số bài nghiên cứu ghi chép lại hoạt động địa chất của nhiều hành tinh khác nhau. Mọi tài liệu có thể cứu vãn được sẽ được mang về, sau đó sẽ được giải mã càng sớm càng tốt."
+ SensorReadingsPhysics1Gestalt:0 "Dù chẳng còn lại chút tài liệu hữu ích nào, nhưng thiết bị tự hành kỹ thuật của chúng ta vẫn định vị được một số bài nghiên cứu ghi chép lại hoạt động địa chất của nhiều hành tinh khác nhau. Mọi tài liệu có thể cứu vãn được sẽ được mang về, sau đó sẽ được giải mã càng sớm càng tốt."
  SensorReadingsPhysics2:0 "Đội của chúng ta đã tốn rất nhiều thời gian cố gắng phá vỡ hàng rào phòng thủ của cỗ máy vẫn đang hoạt động kia, kết quả lại phát hiện ra bên trong nó chẳng có thứ gì xài được. Dẫu vậy, bản thân cỗ máy đã gợi lên sự tò mò của họ, họ sẽ mang một vài bộ phận về."
  SensorReadingsPhysics2Gestalt:0 "Chúng ta đã tốn rất nhiều thời gian để phá vỡ cỗ máy phát ra tín hiệu đó, và giờ có thể chắc chắn rằng nó cất giấu một bí mật nào đó chưa từng được hé lộ. Bất luận chúng ta có thể thu hồi được bộ phận nào, chúng cũng sẽ được mang về ngay lập tức."
  SensorReadingsPhysics3:0 "Họ phát hiện ra một cỗ máy có khả năng đã tạo ra lớp màng chắn mỏng yếu bao quanh khu vực này - rất có thể đây là lý do duy nhất khiến ban đầu chúng ta tìm thấy những thứ này. Những thứ khác chẳng có giá trị gì, họ đã tốn chút thời gian tháo dỡ để hi vọng tìm ra điều gì đó."
@@ -1283,7 +1283,7 @@
  prospectorium_technology_engineering_modifier:0 "$prospectorium_technology_physics_modifier$"
 
  # Custom tooltips for traits.
- leader_trait_bulwark_watcher_tooltip:1 "$t$§L$leader_trait_bulwark_watcher$§!\n$tt$$MOD_SHIP_FRIENDLY_TERRITORY_EVASION_MULT$: §G+15%§!\n$tt$$MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_MULT$: §G+25%§!"
+ leader_trait_bulwark_watcher_tooltip:1 "$t$§L$leader_trait_bulwark_watcher$§!\n$tt$$MOD_SHIP_FRIENDLY_TERRITORY_EVASION_MULT$: §G+15%§!\n$tt$$MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_MULT$: §G+15%§!"
  leader_trait_bulwark_retaliator_tooltip:0 "$t$§L$leader_trait_bulwark_retaliator$§!\n$tt$$MOD_SHIP_FRIENDLY_TERRITORY_FIRE_RATE_MULT$: §G+30%§!"
  leader_trait_bulwark_sentinel_tooltip:0 "$t$§L$leader_trait_bulwark_sentinel$§!\n$tt$Chỉ số khiên trong hệ sao đồng minh: §G+30%§!"
  leader_trait_scholarium_investigator_tooltip:0 "$t$§L$leader_trait_scholarium_investigator$§!\n$tt$$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$: §G+10%§!"

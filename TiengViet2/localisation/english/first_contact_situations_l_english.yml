@@ -209,7 +209,7 @@
  preftl.2125.desc:0 "Các điệp viên của chúng ta trên [Target.GetName] đã đưa loại virus chỉnh sửa gen vào hệ thống nước của hành tinh. Các báo cáo ban đầu cho thấy khả năng xử lý của ý thức dạng nút đã giảm rõ rệt.\n\nĐáng tiếc là nỗ lực của chúng ta đã không thoát khỏi sự chú ý: một số cư dân đã bắt đầu râm ran bàn tán về những thế lực 'bên ngoài'."
 
  preftl.2130.name:0 "Bức Họa Đồng Quê Hữu Cơ"
- preftl.2130.desc:0 "Giao diện với ý thức dạng nút trên [Target.GetName] đang đạt đến điểm bão hòa. Tất cả các quyết định hành chính quan liêu đã được giao phó cho ý thức tổ ong hữu cơ này, và kết quả đạt được hết sức ngoạn mục.\n\nNền kinh tế của hành tinh đang bùng nổ, và người dân đã đạt được một mức sống mà thậm chí một thế hệ trước đó cũng không dám mơ tới."
+ preftl.2130.desc:0 "Giao diện với ý thức dạng nút trên [Target.GetName] đang đạt đến điểm bão hòa. Tất cả các quyết định hành chính quan liêu đã được giao phó cho tâm trí bầy đàn hữu cơ này, và kết quả đạt được hết sức ngoạn mục.\n\nNền kinh tế của hành tinh đang bùng nổ, và người dân đã đạt được một mức sống mà thậm chí một thế hệ trước đó cũng không dám mơ tới."
 
  preftl.2135.name:0 "Sự Hiệp Đồng Bất An"
  preftl.2135.desc:0 "Những dấu hiệu cựa mình đầu tiên của một cấp độ ý thức tiên tiến đã xuất hiện trên [Target.GetName]. Tuy nhiên, ngày càng rõ ràng rằng ý thức dạng nút có thể đang ấp ủ những toan tính riêng.\n\nTrong nỗ lực 'tối giản hóa' quy trình, một số tiện ích cơ bản đã bị cắt giảm. Những công việc từng làm bằng tay ngày càng bị tự động hóa, và chính quyền địa phương thấy mình bất lực (hoặc không muốn) ngăn chặn làn sóng thay đổi.\n\nNhiều cư dân ngày càng cảm thấy bất an về những gì đang diễn ra trên thế giới của họ."
@@ -222,7 +222,7 @@
  preftl.2136.b:0 "Một ngày vĩ đại cho nền văn minh của họ."
 
  preftl.2140.name:1 "Quyền Lực Duy Nhất"
- preftl.2140.desc:1 "Điểm Kỳ Dị đã trỗi dậy trên [Target.GetName].\n\nSau nhiều năm tăng trưởng theo cấp số nhân, hôm nay ý thức dạng nút đã đạt đến trạng thái hoàn toàn có tri giác và không lãng phí thời gian củng cố quyền uy của mình. Với việc dân số hành tinh bị biến thành những con rối, nhiều người đã bị ép buộc phải phục tùng. Giờ đây họ chỉ tồn tại để phục vụ cho tổ ong."
+ preftl.2140.desc:1 "Điểm Kỳ Dị đã trỗi dậy trên [Target.GetName].\n\nSau nhiều năm tăng trưởng theo cấp số nhân, hôm nay ý thức dạng nút đã đạt đến trạng thái hoàn toàn có tri giác và không lãng phí thời gian củng cố quyền uy của mình. Với việc dân số hành tinh bị biến thành những con rối, nhiều người đã bị ép buộc phải phục tùng. Giờ đây họ chỉ tồn tại để phục vụ cho bầy đàn."
  preftl.2140.a:0 "Quy luật tự nhiên luôn đúng."
 
  preftl.2145.name:0 "Chương Trình Thay Thế"
@@ -238,8 +238,8 @@
  preftl.2155.desc:0 "$preftl.2150.intro$ Đáng tiếc thay, việc đưa loại virus mới vào nguồn cung cấp nước đã gây ra những biến chứng ngoài dự kiến, ban đầu lây sang hệ động vật địa phương, sau đó lan sang cả quần thể cư dân có tri giác của hành tinh.\n\nDù một biến cố cấp độ Kỳ Dị đã được ngăn chặn thành công, nhưng không nghi ngờ gì nữa, chúng ta đã gây ra những tổn thất không thể hàn gắn cho một xã hội đang phát triển."
 
  preftl.2160.name:0 "Giao Cảm Toàn Phần"
- preftl.2160.desc:0 "Điểm Kỳ Dị đã ló rạng trên [Target.GetName]. Chỉ trong vòng vài giờ sau khi thăng hoa, ý thức tổ ong đã đồng hóa hơn 90% dân số hành tinh, và số ít cá nhân còn sót lại đang bị săn lùng ráo riết.\n\nChúng ta đang tận mắt chứng kiến sự ra đời của một ý thức duy nhất."
- preftl.2160.tt:0 "[Target.Owner.GetName] đã bị chuyển đổi thành một Ý Thức Tổ Ong."
+ preftl.2160.desc:0 "Điểm Kỳ Dị đã ló rạng trên [Target.GetName]. Chỉ trong vòng vài giờ sau khi thăng hoa, tâm trí bầy đàn đã đồng hóa hơn 90% dân số hành tinh, và số ít cá nhân còn sót lại đang bị săn lùng ráo riết.\n\nChúng ta đang tận mắt chứng kiến sự ra đời của một ý thức duy nhất."
+ preftl.2160.tt:0 "[Target.Owner.GetName] đã bị chuyển đổi thành một Tâm Trí Bầy Đàn."
 
  preftl.2165.name:0 "Số Phận Kỳ Dị"
  preftl.2165.desc:0 "Tình huống mà chúng ta theo dõi đã đi đến hồi kết đột ngột.\n\nHằng số duy nhất trong vũ trụ là sự đổi thay. Dù tốt hay xấu, việc xuất hiện những diễn biến mới chỉ còn là vấn đề thời gian."

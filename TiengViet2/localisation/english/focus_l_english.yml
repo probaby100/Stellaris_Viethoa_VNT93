@@ -77,7 +77,7 @@
  core.104_1.success: "$TRIGGER_PASS$$core.104_1.req$"
 
  core.106.name: "Xây Công trình"
- core.106.desc: ""
+ core.106.desc: "(Ngoài Thủ phủ)"
  core.106.hint: "Tại một thuộc địa không phải thủ đô, hãy chuyển đến thẻ $colony_view_tab_planet_summary$ của £interface£ ['concept_colony_view'] và thay đổi ['concept_designation']."
  core.106.lore: "§L“Công trường hôm nay, văn minh ngày mai.”§!"
  core.106.req: "Đã xây một Công trình"
@@ -207,7 +207,7 @@
  core.127.name: "Xây Khu Tổ đàn"
  core.127.desc: ""
  core.127.hint: "Xây một £district£['concept_hive_district'] tại £colony£['concept_colony']."
- core.127.lore: "§L“Thêm chút đường hầm, thêm vài ong thợ, thêm tổ đàn, cứ thế mà đắp thêm.”§!"
+ core.127.lore: "§L“Thêm chút đường hầm, thêm vài cá thể thợ, thêm tổ đàn, cứ thế mà đắp thêm.”§!"
  core.127.req: "Đã xây Khu Tổ đàn"
  core.127.fail: "$TRIGGER_FAIL$$core.127.req$"
  core.127.success: "$TRIGGER_PASS$$core.127.req$"

@@ -502,7 +502,7 @@
  decision_manager_awards:0 "Phát động Cạnh tranh Hiệu suất"
  decision_manager_awards_desc:0 "Các Ủy viên điều hành và Quản lý sẽ cạnh tranh xem ai có thể tạo ra giá trị lớn nhất cho doanh nghiệp. Những người đạt thành tích xuất sắc nhất sẽ có cơ hội mang theo Cổ vật làm phần thưởng và chuyển đến một văn phòng mới rộng rãi hơn."
  planet_manager_awards:0 "Cạnh tranh Hiệu suất"
- planet_manager_awards_desc:0 "Các Ủy viên điều hành và Quản lý trên hành tinh này đang ganh đua quyết liệt nhằm tối đa hóa 시너지 kinh doanh để đạt được các mục tiêu hiệu suất then chốt."
+ planet_manager_awards_desc:0 "Các Ủy viên Điều hành và Quản lý trên hành tinh này đang ganh đua quyết liệt nhằm tối đa hóa sự hiệp lực kinh doanh và vượt qua các chỉ tiêu hiệu suất cốt lõi."
 
  artifact_sanctuary_exhibits:1 "Triển lãm tại Khu bảo tồn §E(Quyết định Hành tinh)§!"
  artifact_sanctuary_exhibits_desc: "Quyết định $decision_sanctuary_exhibits$ có khả năng làm hài lòng các Cư dân Được bảo bọc trên hành tinh của chúng ta."
@@ -618,7 +618,7 @@
  # Decisions
  ##################
  decision_machine_oracle:0 "Kích hoạt Trung tâm Oracle"
- decision_machine_oracle_desc:0 "Kích hoạt phần mềm tuân thủ và mô hình dự đoán của Trung tâm Oracle để loại bỏ các xu hướng dị thường của máy bay không người lái."
+ decision_machine_oracle_desc:0 "Kích hoạt phần mềm tuân thủ và mô hình dự đoán của Trung tâm Oracle để loại bỏ các xu hướng dị thường của thiết bị tự hành."
 
  ##################
  # MODIFIERS
@@ -727,7 +727,7 @@
  district_rw_hive_desc:0 "Những ngọn tháp cao chót vót trải khắp phân khu Thế Giới Vành Đai này, khi không làm việc, các cá thể con sẽ tập trung tại đây để nạp chất dinh dưỡng."
  district_rw_nexus:0 "Phân khu Điểm nối"
  district_rw_nexus_plural:0 "Phân khu Điểm nối"
- district_rw_nexus_desc:0 "Các khu vực có hiệu suất cao lấp đầy phân khu Thế Giới Vành Đai này. Trước khi triển khai công việc, máy bay không người lái sẽ được bảo trì trong các khu vực tập trung này."
+ district_rw_nexus_desc:0 "Các khu vực có hiệu suất cao lấp đầy phân khu Thế Giới Vành Đai này. Trước khi triển khai công việc, thiết bị tự hành sẽ được bảo trì trong các khu vực tập trung này."
 
  district_rw_industrial:0 "Phân khu Công nghiệp"
  district_rw_industrial_plural:0 "Phân khu Công nghiệp"
@@ -997,7 +997,7 @@
  tech_archaeo_mass_accelerator:0 "Pháo phóng Chất bão hòa Cổ đại"
  tech_archaeo_mass_accelerator_desc:0 "Khẩu pháo này khai hỏa một tràng đạn lưới gồm những quả cầu bị ion hóa siêu nhỏ để vô hiệu hóa phần lớn các trường lực, giúp nó có được khả năng xuyên thấu khiên chắn cực mạnh. Mặc dù từng có giả thuyết cho rằng những quả cầu tuyệt đẹp này có thể dùng làm đồ trang sức, nhưng sau một vụ tai nạn nghiêm trọng làm tan chảy cả một phòng thí nghiệm, mọi đề xuất liên quan đã bị bác bỏ hoàn toàn."
  tech_archaeo_strike_crafts:0 "Máy bay Khoan không người lái Cổ đại"
- tech_archaeo_strike_crafts_desc:0 "Những máy bay không người lái tốc độ cao này được trang bị loại laser khai khoáng đặc biệt, chúng gần như có thể phớt lờ mọi lớp giáp bảo vệ của mục tiêu. Quả là phí phạm khi một công nghệ tốt như vậy lại chỉ được dùng để khai thác khoáng sản."
+ tech_archaeo_strike_crafts_desc:0 "Những phi cơ tự hành tốc độ cao này được trang bị loại laser khai khoáng đặc biệt, chúng gần như có thể phớt lờ mọi lớp giáp bảo vệ của mục tiêu. Quả là phí phạm khi một công nghệ tốt như vậy lại chỉ được dùng để khai thác khoáng sản."
 
 
  # Buildings and Modules
@@ -1075,7 +1075,7 @@
  archaeo_unit: "$job_archaeo_unit$"
  job_archaeo_unit:1 "Đơn vị Kỹ sư Khảo cổ"
  job_archaeo_unit_plural:1 "Đơn vị Kỹ sư Khảo cổ"
- job_archaeo_unit_desc:0 "Các máy bay không người lái chuyên dụng có thể thao tác và nghiên cứu các Cổ vật cổ đại một cách cẩn trọng."
+ job_archaeo_unit_desc:0 "Các thiết bị tự hành chuyên dụng có thể thao tác và nghiên cứu các Cổ vật cổ đại một cách cẩn trọng."
  job_archaeo_unit_effect_desc:2 "£job_researcher£ $job_archaeo_unit_plural$ chuyển đổi $r_energy$ thành §YĐiểm Nghiên cứu§! £physics£ £society£ £engineering£"
 
  # Ship Components
